@@ -100,7 +100,12 @@
                android:key="statusbar_icons_style"
                android:title="@string/statusbar_icons_style"
                android:summary="@string/statusbar_icons_style_summary"
-               android:defaultValue="true" />		
+               android:defaultValue="true" />
+
+        <Preference
+            android:key="battery_settings"
+            android:title="@string/battery_style_category_title"
+            android:fragment="com.cherish.settings.fragments.StatusBarBattery" />			   
 
        <Preference
             android:key="systemui_tuner_statusbar"
