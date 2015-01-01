@@ -67,6 +67,10 @@
 
 	<!-- QS settings -->
     <string name="qs_title">Quick settings</string>
+	
+	<!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
 
     <!-- Lockscreen shortcuts -->
     <string name="ls_category">Lockscreen Items</string>
