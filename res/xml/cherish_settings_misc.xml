@@ -32,4 +32,11 @@
             android:entryValues="@array/screenshot_type_values"
             android:title="@string/screenshot_type_title"
             android:defaultValue="0" />
+
+      <Preference
+        android:key="vol_steps"
+        android:title="@string/volume_steps_fragment_title"
+        android:summary="@string/volume_steps_summary"
+        android:icon="@drawable/ic_volume"
+        android:fragment="com.cherish.settings.fragments.VolumeStepsFragment" />
 </PreferenceScreen>
