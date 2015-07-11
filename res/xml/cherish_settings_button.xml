@@ -48,6 +48,12 @@
         android:title="@string/volume_rocker_wake_title"
         android:defaultValue="false"
 	    android:disableDependentsState="true" />
+		
+	<Preference
+            android:key="vol_steps"
+            android:title="@string/volume_steps_fragment_title"
+            android:summary="@string/volume_steps_summary"
+            android:fragment="com.cherish.settings.fragments.VolumeStepsFragment" />
 
         <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="volume_key_cursor_control"
