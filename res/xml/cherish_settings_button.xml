@@ -17,6 +17,17 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+		
+		<PreferenceCategory
+        android:key="volume_category"
+        android:title="@string/volume_category">
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_rocker_wake"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:title="@string/volume_rocker_wake_title"
+        android:defaultValue="false" />
+    </PreferenceCategory>
 
 
 </PreferenceScreen>
