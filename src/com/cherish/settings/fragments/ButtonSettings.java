@@ -156,6 +156,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         return MetricsProto.MetricsEvent.CHERISH_SETTINGS;
     }
 	
+	@Override
+    protected boolean usesExtendedActionsList() {
+        return true;
+    }
+	
 	/**
      * For Search.
      */
