@@ -18,4 +18,11 @@
     android:title="@string/powermenu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+   <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:icon="@drawable/ic_recovery"
+            android:key="advanced_reboot"
+            android:title="@string/advanced_reboot_title"
+            android:summary="@string/advanced_reboot_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
