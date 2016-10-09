@@ -80,6 +80,11 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
+		
+		<Preference
+        android:key="battery_bar_category"
+        android:fragment="com.cherish.settings.fragments.BatteryBar"
+        android:title="@string/battery_bar_title" />
 
     </PreferenceCategory>
 
