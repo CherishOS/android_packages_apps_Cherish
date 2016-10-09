@@ -129,6 +129,13 @@
         android:title="@string/status_bar_battery_text_charging_title"
         android:summary="@string/status_bar_battery_text_charging_summary"
         android:defaultValue="true" />
+
+    <Preference
+            android:key="battery_bar_category"
+            android:title="@string/battery_bar_title"
+            android:icon="@drawable/ic_battery_bar"
+            android:summary="@string/battery_bar_summary"
+            android:fragment="com.cherish.settings.fragments.BatteryBarSettings" />
 	
    </PreferenceCategory>
 </PreferenceScreen>
