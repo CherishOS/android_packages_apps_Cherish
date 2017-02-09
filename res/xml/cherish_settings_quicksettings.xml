@@ -20,6 +20,12 @@
 
   <PreferenceCategory
         android:title="@string/qs_title">
+		
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_running_services_toggle"
+            android:title="@string/qs_running_services_title"
+            android:summary="@string/qs_running_services_summary"
+            android:defaultValue="false" />
 
         <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="quick_settings_vibrate"

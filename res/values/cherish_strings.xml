@@ -261,4 +261,8 @@
     <string name="clock_date_left">Left of time</string>
     <string name="clock_date_position">Date position</string>
 	
+	<!-- Running Services button -->
+    <string name="qs_running_services_title">Running Services Icon</string>
+    <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
+	
 </resources>
