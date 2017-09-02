@@ -125,6 +125,12 @@
         android:title="@string/smart_pixels_title"
         android:summary="@string/smart_pixels_summary" />
 		
+		<Preference
+            android:key="wakelock_blocker"
+            android:title="@string/wakelock_blocker_title"
+            android:summary="@string/wakelock_blocker_summary"
+            android:fragment="com.cherish.settings.fragments.WakeLockBlocker" />
+		
 		<PreferenceCategory    
         android:key="corners_category"
         android:title="@string/corners_category" >
