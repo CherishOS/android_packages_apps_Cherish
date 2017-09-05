@@ -18,4 +18,12 @@
 	android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <!-- In-call feedback -->
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+          android:key="incall_feeedback_vibrate"
+          android:icon="@drawable/ic_vibrate"
+          android:title="@string/incall_feeedback_vibrate_title"
+          android:defaultValue="false"
+          settings:controller="com.cherish.settings.fragments.IncallFeedbackPreferenceController" />
+
 </PreferenceScreen>
