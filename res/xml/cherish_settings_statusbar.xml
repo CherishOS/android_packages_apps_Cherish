@@ -42,9 +42,10 @@
 
     <Preference
             android:title="@string/statusbar_items_title" 
-            android:icon="@drawable/ic_shortcuts"
-            android:summary="@string/status_bar_system_icons_summary">
-            <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
+            android:icon="@drawable/ic_shortcuts">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
 <com.cherish.settings.preferences.SystemSettingSwitchPreference
