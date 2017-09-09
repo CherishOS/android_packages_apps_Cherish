@@ -150,4 +150,9 @@
     <string name="lockscreen_gesture_title">Gestures</string>
     <string name="double_tap_to_sleep_lockscreen_title">Double tap to sleep</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+	
+	<!-- Double Tap Statusbar to Sleep -->
+    <string name="statusbar_gesture_title">Gestures</string>
+    <string name="double_tap_to_sleep_statusbar_title">Double tap to sleep</string>
+    <string name="double_tap_to_sleep_statusbar_summary">Double tap on statusbar to put the device to sleep</string>
 </resources>
