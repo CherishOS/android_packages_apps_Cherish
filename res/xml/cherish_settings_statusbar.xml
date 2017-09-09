@@ -11,8 +11,18 @@
      limitations under the License.
 -->
 <PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/statusbar_title"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:title="@string/statusbar_title"
+     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+     <PreferenceCategory
+          android:key="dtts_category"
+          android:title="@string/dtts_category_header">
+          <com.cherish.settings.preferences.SystemSettingSwitchPreference
+               android:key="double_tap_sleep_gesture"
+               android:title="@string/double_tap_to_sleep_title"
+               android:summary="@string/double_tap_to_sleep_summary"
+               android:defaultValue="true" />
+     </PreferenceCategory>
 
 </PreferenceScreen>
