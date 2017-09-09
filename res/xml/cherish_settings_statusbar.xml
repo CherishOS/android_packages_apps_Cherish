@@ -16,6 +16,17 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 	
 	<PreferenceCategory
+        android:title="@string/statusbar_gesture_title">
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_to_sleep_statusbar_title"
+            android:summary="@string/double_tap_to_sleep_statusbar_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+	
+	<PreferenceCategory
         android:key="statusbar_icons"
         android:title="@string/sb_icons">
 
