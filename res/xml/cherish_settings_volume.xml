@@ -19,7 +19,16 @@
 
      <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
+        android:icon="@drawable/ic_music"
         android:summary="@string/volume_rocker_music_controls_summary"
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="false" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_rocker_wake"
+	android:icon="@drawable/ic_sleep_off"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:title="@string/volume_rocker_wake_title"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
