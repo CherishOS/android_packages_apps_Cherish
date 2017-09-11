@@ -31,9 +31,19 @@
     </Preference>
    </PreferenceCategory>
 
+   <PreferenceCategory
+        android:key="volume_keys"
+        android:title="@string/volume_keys_title">
+
     <PreferenceScreen
         android:key="volume_key"
         android:fragment="com.cherish.settings.fragments.VolumeRockerSettings"
         android:title="@string/volume_title" />
 
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="allow_incall_home"
+        android:title="@string/allow_incall_home_title"
+        android:summary="@string/allow_incall_home_summary"
+        android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>
