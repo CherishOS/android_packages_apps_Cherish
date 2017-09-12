@@ -163,4 +163,9 @@
     <!--Settings homepage widgets-->
     <string name="settings_homepage_widgets_title">Settings homepage widgets</string>
     <string name="settings_homepage_widgets_summary">Enable settings homepage widgets</string>
+
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+
 </resources>
