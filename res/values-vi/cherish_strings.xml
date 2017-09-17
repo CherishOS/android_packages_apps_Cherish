@@ -52,5 +52,4 @@
     <!-- QS category -->
     <string name="enable_clear_all_button">Thay thế xóa tất cả văn bản bằng nút đẹp</string>
     <string name="enable_clear_all_button_summary">Hiển thị xóa tất cả nút thông báo trong cài đặt nhanh thay vì văn bản mặc định</string>
-
 </resources>
