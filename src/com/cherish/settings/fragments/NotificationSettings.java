@@ -38,6 +38,7 @@ import java.util.List;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class NotificationSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener{
 
+	private Preference mChargingLeds;
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -46,6 +47,13 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
+		
+        mChargingLeds = (Preference) findPreference("charging_light");
+        if (mChargingLeds != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            prefScreen.removePreference(mChargingLeds);
+        }
         
     }
 

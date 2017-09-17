@@ -42,5 +42,10 @@
 
     </PreferenceCategory> -->
 	
+	<Preference
+        android:key="charging_light"
+        android:fragment="com.cherish.settings.fragments.BatteryLightSettings"
+        android:title="@string/battery_light_settings" />
+	
     
 </PreferenceScreen>
