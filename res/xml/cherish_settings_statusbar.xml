@@ -20,6 +20,12 @@
             android:title="@string/status_bar_system_icons_title">
 
     <Preference
+            android:key="traffic" 
+	    android:icon="@drawable/ic_network_traffic"
+            android:fragment="com.cherish.settings.fragments.Traffic"
+	    android:title="@string/traffic_title" />
+
+    <Preference
             android:title="@string/statusbar_items_title" 
 	    android:icon="@drawable/ic_shortcuts">
             <intent android:action="android.intent.action.MAIN"
