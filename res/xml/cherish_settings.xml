@@ -42,15 +42,7 @@
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
-            android:fragment="com.cherish.settings.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
-
-        <!-- Gestures -->
-        <Preference
-            android:key="gestures_category"
-            android:title="@string/gestures_title"
-            android:fragment="com.cherish.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
+       
 
         <!-- Lock Screen -->
         <Preference
@@ -78,7 +70,7 @@
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.cherish.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/>
+            android:icon="@drawable/ic_settings_notification"/>
 
         <!-- Misc -->
         <Preference
