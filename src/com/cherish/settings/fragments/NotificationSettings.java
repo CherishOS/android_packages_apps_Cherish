@@ -31,13 +31,13 @@ import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 import com.android.internal.util.cherish.CherishUtils;
-
 import java.util.ArrayList;
 import java.util.List;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class NotificationSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener{
 
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 	private Preference mChargingLeds;
     @Override
     public void onCreate(Bundle icicle) {
@@ -53,6 +53,11 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                 && !getResources().getBoolean(
                         com.android.internal.R.bool.config_intrusiveBatteryLed)) {
             prefScreen.removePreference(mChargingLeds);
+        }
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!CherishUtils.isVoiceCapable(getActivity())) {
+                prefScreen.removePreference(incallVibCategory);
         }
         
     }
