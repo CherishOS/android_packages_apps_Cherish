@@ -874,4 +874,8 @@
    
    <string name="navbar_visibility">Nav Bar</string>
     <string name="navbar_vis_summary">Enable-disable navigation bar</string>
+
+   <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
 </resources>

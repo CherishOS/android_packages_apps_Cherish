@@ -766,4 +766,7 @@
    <string name="unsupported_gestures">Bật điều hướng hai nút hoặc ba nút để sử dụng tính năng này</string>
    <string name="navbar_visibility">Thanh điều hướng</string>
     <string name="navbar_vis_summary">Bật-tắt thanh điều hướng</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Chỉ báo chuyển vùng</string>
+    <string name="roaming_indicator_icon_summary">Hiển thị chỉ báo chuyển vùng trong biểu tượng tín hiệu khi ở chế độ chuyển vùng</string>
 </resources>
