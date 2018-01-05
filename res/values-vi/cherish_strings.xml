@@ -769,4 +769,7 @@
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Chỉ báo chuyển vùng</string>
     <string name="roaming_indicator_icon_summary">Hiển thị chỉ báo chuyển vùng trong biểu tượng tín hiệu khi ở chế độ chuyển vùng</string>
+   <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Điều chỉnh độ sáng</string>
+    <string name="status_bar_toggle_brightness_summary">Điều chỉnh độ sáng bằng cách trượt qua thanh trạng thái</string>
 </resources>
