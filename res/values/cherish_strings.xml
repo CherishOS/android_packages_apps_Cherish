@@ -676,4 +676,8 @@
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
     <string name="volume_steps_reset">Reset</string>
 
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness Control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding finger across the statusbar</string>
+
 </resources>
