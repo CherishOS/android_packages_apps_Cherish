@@ -77,6 +77,12 @@
         android:summary="@string/volume_steps_summary"
         android:icon="@drawable/ic_volume"
         android:fragment="com.cherish.settings.fragments.VolumeStepsFragment" />
+		
+		<Preference
+        android:key="smart_pixels"
+        android:fragment="com.cherish.settings.fragments.SmartPixels"
+        android:title="@string/smart_pixels_title"
+        android:summary="@string/smart_pixels_summary" />
 
      <!-- Rounded Corners -->
     <PreferenceCategory 
