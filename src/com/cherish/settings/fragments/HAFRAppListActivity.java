@@ -80,6 +80,7 @@ public class HAFRAppListActivity extends Activity {
                 addApp(info.packageName);
             }
         };
+        dDialog.setLauncherFilter(true);
     }
 
     private void loadList() {
