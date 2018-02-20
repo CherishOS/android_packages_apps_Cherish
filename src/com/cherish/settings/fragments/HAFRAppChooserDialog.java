@@ -2,15 +2,18 @@ package com.cherish.settings.fragments;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.view.inputmethod.EditorInfo;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.EditText;
 import android.widget.Filter;
 import android.widget.ImageButton;
+import android.view.KeyEvent;
 import android.widget.ListView;
 import android.widget.ProgressBar;
-import android.widget.AdapterView.OnItemClickListener;
+import android.widget.TextView;
 
 import com.android.settings.R;
 
@@ -65,6 +68,21 @@ public abstract class HAFRAppChooserDialog extends Dialog {
                         dAdapter.update();
                     }
                 });
+            }
+        });
+
+        dSearch.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if (actionId == EditorInfo.IME_ACTION_SEARCH) {
+                    dAdapter.getFilter().filter(dSearch.getText().toString(), new Filter.FilterListener() {
+                        public void onFilterComplete(int count) {
+                            dAdapter.update();
+                        }
+                    });
+                    return true;
+                }
+                return false;
             }
         });
 
