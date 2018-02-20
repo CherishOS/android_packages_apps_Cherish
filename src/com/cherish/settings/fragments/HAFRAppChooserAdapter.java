@@ -35,6 +35,7 @@ public abstract class HAFRAppChooserAdapter extends BaseAdapter implements Filte
     protected List<PackageInfo> mTemporarylist;
 
     boolean isUpdating;
+    boolean hasLauncherFilter = false;
 
     public HAFRAppChooserAdapter(Context context) {
         mContext = context;
@@ -60,10 +61,14 @@ public abstract class HAFRAppChooserAdapter extends BaseAdapter implements Filte
                     item.icon = info.applicationInfo.loadIcon(mPackageManager);
                     item.packageName = info.packageName;
                     final int index = Collections.binarySearch(temp, item);
-                    if (index < 0) {
-                        temp.add((-index - 1), item);
-                    } else {
-                        temp.add((index + 1), item);
+                    final boolean isLauncherApp =
+                            mPackageManager.getLaunchIntentForPackage(info.packageName) != null;
+                    if (!hasLauncherFilter || isLauncherApp) {
+                        if (index < 0) {
+                            temp.add((-index - 1), item);
+                        } else {
+                            temp.add((index + 1), item);
+                        }
                     }
                 }
                 mHandler.post(new Runnable() {
@@ -178,5 +183,9 @@ public abstract class HAFRAppChooserAdapter extends BaseAdapter implements Filte
         TextView name;
         ImageView icon;
         TextView pkg;
+    }
+
+    protected void setLauncherFilter(boolean enabled) {
+        hasLauncherFilter = enabled;
     }
 }
