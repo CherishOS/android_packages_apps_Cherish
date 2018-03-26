@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013 The CyanogenMod project
+ * Copyright (C) 2017 AICP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,48 +17,35 @@
 package com.cherish.settings.preferences;
 
 import android.content.Context;
-import android.provider.Settings;
-import androidx.preference.SwitchPreference;
 import android.util.AttributeSet;
 
+import androidx.preference.SwitchPreference;
+
 public class SystemSettingSwitchPreference extends SwitchPreference {
+
     public SystemSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
+        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
     public SystemSettingSwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
     public SystemSettingSwitchPreference(Context context) {
-        super(context, null);
-    }
-
-    @Override
-    protected boolean persistBoolean(boolean value) {
-        if (shouldPersist()) {
-            if (value == getPersistedBoolean(!value)) {
-                // It's already there, so the same as persisting
-                return true;
-            }
-            Settings.System.putInt(getContext().getContentResolver(), getKey(), value ? 1 : 0);
-            return true;
-        }
-        return false;
-    }
-
-    @Override
-    protected boolean getPersistedBoolean(boolean defaultReturnValue) {
-        if (!shouldPersist()) {
-            return defaultReturnValue;
-        }
-        return Settings.System.getInt(getContext().getContentResolver(),
-                getKey(), defaultReturnValue ? 1 : 0) != 0;
+        super(context);
+        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
     @Override
     protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
-        setChecked(Settings.System.getString(getContext().getContentResolver(), getKey()) != null ? getPersistedBoolean(isChecked())
+        // This is what default TwoStatePreference implementation is doing without respecting
+        // real default value:
+        //setChecked(restoreValue ? getPersistedBoolean(mChecked)
+        //        : (Boolean) defaultValue);
+        // Instead, we better do
+        setChecked(restoreValue ? getPersistedBoolean((Boolean) defaultValue)
                 : (Boolean) defaultValue);
     }
 }
