@@ -130,6 +130,14 @@
             android:title="@string/notification_sound_vib_screen_on_title"
             android:summary="@string/notification_sound_vib_screen_on_summary"
             android:defaultValue="true" />
+			
+	<com.cherish.settings.preferences.SystemSettingListPreference
+        android:key="flashlight_on_call"
+		 android:icon="@drawable/ic_flashlight"
+        android:title="@string/flashlight_on_call_title"
+        android:entries="@array/flashlight_on_call_entries"
+        android:entryValues="@array/flashlight_on_call_values"
+        android:defaultValue="0" />
 
 <PreferenceCategory
         android:key="pulse_ambient_light_category"
