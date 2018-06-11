@@ -30,4 +30,10 @@
         android:icon="@drawable/ic_battery_almostfull"
         android:fragment="com.cherish.settings.fragments.BatteryLightSettings"
         android:title="@string/battery_light_settings" />
+
+ <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="force_expanded_notifications"
+            android:title="@string/force_expanded_notifications_title"
+            android:summary="@string/force_expanded_notifications_summary"
+            android:defaultValue="false" />
 </PreferenceScreen>
