@@ -369,4 +369,11 @@
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
+	
+	<!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Blink Flashlight for call</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
+    <string name="flashlight_on_call_ringer">Only in ringer mode</string>
+    <string name="flashlight_on_call_silent">Only when ringer is silent</string>
+    <string name="flashlight_on_call_always">Always</string>
 </resources>
