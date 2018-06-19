@@ -32,6 +32,13 @@
         android:dependency="notification_headers"
         android:defaultValue="true" />
 
+ <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="force_expanded_notifications"
+	    android:icon="@drawable/ic_notification"
+            android:title="@string/force_expanded_notifications_title"
+            android:summary="@string/force_expanded_notifications_summary"
+            android:defaultValue="false" />
+
  <Preference
         android:key="charging_light"
         android:icon="@drawable/ic_battery_almostfull"
@@ -58,11 +65,12 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
+  <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="flashlight_on_call"
+            android:icon="@drawable/ic_flashlight"
+            android:title="@string/flashlight_on_call_title"
+            android:entries="@array/flashlight_on_call_entries"
+            android:entryValues="@array/flashlight_on_call_values"
+            android:defaultValue="0" />
 
- <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="force_expanded_notifications"
-			android:icon="@drawable/ic_notification"
-            android:title="@string/force_expanded_notifications_title"
-            android:summary="@string/force_expanded_notifications_summary"
-            android:defaultValue="false" />
 </PreferenceScreen>
