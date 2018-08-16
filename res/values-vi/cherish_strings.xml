@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The CherishOS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="cherish_settings_title">Yêu Thương</string>
+
+    <!-- Categories -->
+    <string name="button_title">Nút</string>
+    <string name="gestures_title">Cử chỉ</string>
+    <string name="lockscreen_title">Màn hình khóa</string>
+    <string name="misc_title">Khác</string>
+    <string name="navbar_title">Thanh điều hướng</string>
+    <string name="powermenu_title">Menu nguồn</string>
+    <string name="quicksettings_title">Cài đặt nhanh</string>
+    <string name="recents_title">Ứng dụng gần đây</string>
+    <string name="statusbar_title">Thanh trạng thái</string>
+    <string name="volume_title">Phím rockers</string>
+    <string name="notifications_title">Thông báo</string>
+    <string name="device_part_title">Chứ năng thiết bị</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Thiết lập lại</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="save">Lưu lại</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Chọn màu</string>
+    <string name="press_color_to_apply">Nhấn vào màu bên dưới để áp dụng</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Đặt</string>
+    <string name="color_default">Mặc định</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Thông tin sạc màn hình khóa</string>
+    <string name="lockscreen_battery_info_summary">Hiển thị dòng sạc tối đa của bộ sạc và điện áp và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
+</resources>
