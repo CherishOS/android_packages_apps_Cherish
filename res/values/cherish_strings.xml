@@ -68,6 +68,19 @@
 	<!-- QS settings -->
     <string name="qs_title">Quick settings</string>
 
+    <!-- Lockscreen shortcuts -->
+    <string name="ls_category">Lockscreen Items</string>
+    <string name="ls_tuner">Enable Lockscreen tuner</string>
+    <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
+    <string name="ls_shortcut_summary">Customize Lockscreen shortcuts</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lockscreen tuner</string>
+
+    <!-- Statusbar Items -->
+    <string name="sb_icons">Statusbar Icons</string>
+    <string name="statusbar_items_category">Statusbar items</string>
+
 	<!-- Status bar - icons -->
     <string name="status_bar_icons_title">Status bar icons</string>
 
