@@ -17,5 +17,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+	
+	<PreferenceCategory
+        android:key="lockscreen_category"
+        android:title="@string/ls_category">
+
+         <Preference
+            android:key="lockscreen_shortcuts"
+            android:fragment="com.cherish.settings.fragments.LockscreenShortcuts"
+            android:title="@string/lockscreen_shortcuts"
+            android:summary="@string/ls_shortcut_summary" />
+
+    </PreferenceCategory>
+
 
 </PreferenceScreen>
