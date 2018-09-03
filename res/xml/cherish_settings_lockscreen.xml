@@ -195,6 +195,24 @@
         android:title="@string/lockscreen_hide_shortcuts_title"
         android:summary="@string/lockscreen_hide_shortcuts_summary"
         android:defaultValue="false" />
+
+   <PreferenceCategory
+        android:key="lockscreen_weather"
+        android:title="@string/lockscreen_weather_category" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_enabled"
+   	    android:icon="@drawable/ic_cloud"
+            android:title="@string/lockscreen_weather_enabled_title"
+            android:summary="@string/lockscreen_weather_enabled_summary"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="omnijaws_settings"
+            android:icon="@drawable/ic_weather"
+            android:title="@string/lockscreen_weather_settings_title"
+            android:summary="@string/lockscreen_weather_settings_summary"
+            android:fragment="com.cherish.settings.fragments.OmniJawsSettings" />
 		
   <!-- Lockscreen Visualizer-->
     <PreferenceCategory
