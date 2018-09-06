@@ -20,6 +20,7 @@ import com.cherish.settings.preferences.CustomSeekBarPreference;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
+import com.android.internal.util.cherish.CherishUtils;
 
 public class NotificationSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener{
 
@@ -27,6 +28,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
     private static final String AMBIENT_LIGHT_DURATION = "ambient_light_duration";
     private static final String AMBIENT_LIGHT_REPEAT_COUNT = "ambient_light_repeat_count";
     private static final String PULSE_COLOR_MODE_PREF = "ambient_notification_light_color_mode";
+	private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
     private Preference mChargingLeds;
     private ColorPickerPreference mEdgeLightColorPreference;
@@ -47,6 +49,11 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                 && !getResources().getBoolean(
                         com.android.internal.R.bool.config_intrusiveBatteryLed)) {
             prefScreen.removePreference(mChargingLeds);
+        }
+		
+		PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!CherishUtils.isVoiceCapable(getActivity())) {
+            prefScreen.removePreference(incallVibCategory);
         }
 
         mEdgeLightRepeatCountPreference = (SystemSettingSeekBarPreference) findPreference(AMBIENT_LIGHT_REPEAT_COUNT);
