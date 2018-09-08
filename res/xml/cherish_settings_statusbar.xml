@@ -26,6 +26,13 @@
 	    android:title="@string/traffic_title" />
 
     <Preference
+         android:key="clock_settings"
+         android:icon="@drawable/ic_clock"
+         android:title="@string/clock_style_category_title"
+         android:summary="@string/clock_style_category_summary"
+         android:fragment="com.cherish.settings.fragments.ClockSettings" />
+
+    <Preference
             android:title="@string/statusbar_items_title" 
 	    android:icon="@drawable/ic_shortcuts">
             <intent android:action="android.intent.action.MAIN"
