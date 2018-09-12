@@ -281,4 +281,7 @@
     <string name="show_carrier_keyguard">Màn hình khóa</string>
     <string name="show_carrier_statusbar">Thanh trạng thái</string>
     <string name="show_carrier_enabled">Cả hai</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Menu nguồn</string>
+    <string name="lockscreen_enable_power_menu_summary">Cho phép truy cập menu nguồn trên màn hình khóa an toàn</string>
 </resources>
