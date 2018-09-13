@@ -226,4 +226,7 @@
     <string name="battery_light_medium_color">Pin trung bình</string>
     <string name="battery_light_full_color">Gần đầy pin</string>
     <string name="battery_light_reallyfull_color">Pin đầy (100%)</string>
+	<!-- Old MobileType Toggle -->
+    <string name="use_old_mobiletype_title">Sử dụng kiểu di động cũ</string>
+    <string name="use_old_mobiletype_summary">Hợp nhất các tín hiệu và loại biểu tượng</string>
 </resources>
