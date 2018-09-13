@@ -30,7 +30,7 @@ import java.util.HashSet;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.cherish.settings.preferences.SystemSettingMasterSwitchPreference;
-
+import com.cherish.settings.preferences.SystemSettingListPreference
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
