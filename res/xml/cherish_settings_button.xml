@@ -28,6 +28,12 @@
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="false"
         android:dependency="volume_rocker_wake" />
+		
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons_title"
+        android:summary="@string/swap_volume_buttons_summary"
+        android:defaultValue="false" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"
