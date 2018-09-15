@@ -137,5 +137,11 @@
             android:summary="@string/battery_bar_summary"
             android:fragment="com.cherish.settings.fragments.BatteryBarSettings" />
 	
+    <Preference
+            android:key="carrier_label"
+            android:icon="@drawable/ic_carrierlabel"
+            android:title="@string/carrier_label_settings_title"
+            android:summary="@string/carrier_label_settings_summary"
+            android:fragment="com.cherish.settings.fragments.CustomCarrierLabel" />
    </PreferenceCategory>
 </PreferenceScreen>
