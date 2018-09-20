@@ -779,4 +779,9 @@
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
 
+    <!-- Statusbar Clock Font Style, Size & Color -->
+    <string name="status_bar_clock_font_style_title">Clock font style</string>
+    <string name="status_bar_clock_font_size_title">Clock font size</string>
+    <string name="status_bar_clock_color_title">Clock font color</string>
+       
 </resources>
