@@ -194,6 +194,13 @@
         android:summary="@string/quick_settings_quick_pull_down_summary"
         android:defaultValue="true" />
 
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="status_bar_locked_on_secure_keyguard"
+            android:icon="@drawable/ic_lock_outline"
+            android:title="@string/lockscreen_qs_disabled_title"
+            android:summary="@string/lockscreen_qs_disabled_summary"
+            android:defaultValue="false" />
+
         <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="quick_settings_vibrate"
 		    android:icon="@drawable/ic_vibrate"

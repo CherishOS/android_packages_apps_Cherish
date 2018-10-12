@@ -1163,4 +1163,8 @@
     <!-- OOS clear all button -->
     <string name="enable_clear_all_button">Clear-All button</string>
     <string name="enable_clear_all_button_summary">Enable to use a bottom-centered button instead of stock Clear All text</string>
+
+    <!-- Quick Settings -->
+    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
+    <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
 </resources>
