@@ -417,5 +417,9 @@
 	<!-- Wake on charge -->
     <string name="wake_when_plugged_or_unplugged_title">Wake up on charge</string>
     <string name="wake_when_plugged_or_unplugged_summary">Wake up the device if charger is plugged/unplugged</string>
+	
+	<!-- Quick Settings -->
+    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
+    <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
 
 </resources>
