@@ -157,5 +157,11 @@
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
+	
+	<string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
+    <string name="quick_pulldown_none">Disabled</string>
+    <string name="quick_pulldown_right">Pulldown status bar from right side</string>
+    <string name="quick_pulldown_left">Pulldown status bar from left side</string>
+    <string name="quick_pulldown_always">Always show quick settings on status bar pull down</string>
 
 </resources>
