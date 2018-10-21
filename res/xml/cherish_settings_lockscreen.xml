@@ -62,6 +62,24 @@
         android:summary="@string/lock_date_font_summary"
         android:persistent="false" />
 
+   <com.cherish.settings.preferences.CustomSeekBarPreference
+        android:key="lockclock_font_size"
+        android:title="@string/lockclock_font_size_title"
+        android:max="101"
+        settings:min="65"
+        settings:units="dp"
+        android:persistent="false"
+        android:defaultValue="78" />
+
+    <com.cherish.settings.preferences.CustomSeekBarPreference
+        android:key="lockdate_font_size"
+        android:title="@string/lockdate_font_size_title"
+        android:max="25"
+        settings:min="10"
+        settings:units="dp"
+        android:defaultValue="18"
+        android:persistent="false" />
+
     </PreferenceCategory>
 
   <!-- Lockscreen Visualizer-->
