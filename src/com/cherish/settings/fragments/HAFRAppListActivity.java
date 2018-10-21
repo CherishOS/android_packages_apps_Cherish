@@ -41,6 +41,8 @@ public class HAFRAppListActivity extends Activity {
     @SuppressLint("WorldReadableFiles")
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle(getResources().getText(R.string.hide_apps_from_recents_title));
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         mPref = getSharedPreferences(KEY_PREFERENCE_APPS, MODE_PRIVATE);
         loadList();
         initAppList();
@@ -69,6 +71,9 @@ public class HAFRAppListActivity extends Activity {
             case ID_ADD_APP:
                 dDialog.show(ID_ADD_APP);
                 break;
+            case android.R.id.home:
+                finish();
+                return true;
         }
         return false;
     }
