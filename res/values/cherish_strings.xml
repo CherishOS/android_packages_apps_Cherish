@@ -843,5 +843,7 @@
     <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
     <string name="lockscreen_weather_show_temp_title">Show temperature</string>
     <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
-       
+    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
+    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
+
 </resources>

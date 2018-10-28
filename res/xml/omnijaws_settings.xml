@@ -36,12 +36,18 @@
             android:icon="@drawable/ic_info_outline_24dp"
             android:persistent="false"
             android:summary="@string/weather_icon_pack_info_title" />
+			
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_show_image"
+            android:title="@string/lockscreen_weather_show_image_title"
+            android:summary="@string/lockscreen_weather_show_image_summary"
+            android:defaultValue="true" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_weather_show_city"
             android:title="@string/lockscreen_weather_show_city_title"
             android:summary="@string/lockscreen_weather_show_city_summary"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 		
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_weather_show_temp"
