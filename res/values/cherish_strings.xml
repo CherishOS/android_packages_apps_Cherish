@@ -834,4 +834,8 @@
    <string name="navbar_gestures_title">Navigation gesture options</string>
    <string name="navbar_gestures_summary">Choose buttons or gestures to navigate your device</string>
 
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel animation</string>
+    <string name="pixel_navbar_anim_summary">Toggle home button animation</string>
+
 </resources>

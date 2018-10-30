@@ -28,7 +28,12 @@
         android:summary="@string/navbar_gestures_summary"
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController" />
-    </Preference>
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="pixel_nav_animation"
+        android:title="@string/pixel_navbar_anim_title"
+        android:summary="@string/pixel_navbar_anim_summary"
+        android:defaultValue="true" />
    </PreferenceCategory> 
 
     <Preference
