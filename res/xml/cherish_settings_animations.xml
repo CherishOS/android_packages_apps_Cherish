@@ -32,6 +32,12 @@
              settings:units="ms"
              settings:interval="50"/>
 
+        <com.cherish.settings.preferences.GlobalSettingSwitchPreference
+            android:key="disable_transition_animations"
+            android:title="@string/disable_transition_animations_title"
+            android:summary="@string/disable_transition_animations_summary"
+            android:defaultValue="false" />
+
         <ListPreference
             android:key="activity_open"
             android:title="@string/activity_open_title" />
