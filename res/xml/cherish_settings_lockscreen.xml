@@ -55,6 +55,16 @@
         android:persistent="false" />
 
    <ListPreference
+        android:key="custom_text_clock_fonts"
+        android:title="@string/custom_text_clock_font_title"
+        android:dialogTitle="@string/lock_clock_font_dialog_title"
+        android:entries="@array/lock_clock_fonts_entries"
+        android:entryValues="@array/lock_clock_fonts_values"
+        android:summary="%s"
+        android:defaultValue="32"
+        android:persistent="false" />
+
+   <ListPreference
         android:key="lock_date_fonts"
         android:title="@string/lock_date_font_title"
         android:dialogTitle="@string/lock_date_font_dialog_title"
@@ -89,6 +99,15 @@
         settings:units="dp"
         android:persistent="false"
         android:defaultValue="78" />
+
+   <com.cherish.settings.preferences.CustomSeekBarPreference
+        android:key="custom_text_clock_font_size"
+        android:title="@string/custom_text_clock_font_size_title"
+        android:max="55"
+        settings:min="35"
+        settings:units="dp"
+        android:persistent="false"
+        android:defaultValue="40" />
 
     <com.cherish.settings.preferences.CustomSeekBarPreference
         android:key="lockdate_font_size"

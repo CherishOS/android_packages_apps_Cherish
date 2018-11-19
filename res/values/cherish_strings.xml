@@ -378,6 +378,7 @@
 
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Clock font options</string>
+    <string name="custom_text_clock_font_title">Typo Clock font options</string>
     <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
     <string name="lock_clock_font_dialog_title">Select lock clock font</string>
     <string name="lock_clock_font_stock">Normal (default)</string>
@@ -425,6 +426,7 @@
     <!-- Lock Clock & Date Size -->
     <string name="lockdate_font_size_title">Date font size</string>
     <string name="lockclock_font_size_title">Clock font size</string>
+    <string name="custom_text_clock_font_size_title">Typography Clock size</string>
 
     <!-- Lockscreen Colors -->
     <string name="lockscreen_colors">Lockscreen Colors</string>
