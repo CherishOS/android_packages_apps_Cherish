@@ -34,6 +34,12 @@
             android:key="status_bar_clock"
             android:fragment="com.cherish.settings.fragments.ClockDateSettings"
             android:title="@string/status_bar_clock_title" />
+			
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="data_disabled_icon"
+            android:title="@string/data_disabled_icon_title"
+            android:summary="@string/data_disabled_icon_summary"
+            android:defaultValue="true"/>
 		
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
              android:key="show_fourg_icon"
