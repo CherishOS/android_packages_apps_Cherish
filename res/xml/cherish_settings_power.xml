@@ -18,6 +18,20 @@
     android:title="@string/powermenu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 	
+	<com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="transparent_power_menu"
+            android:title="@string/power_menu_transparency"
+            android:max="100"
+            android:min="0"
+            android:defaultValue="100" />
+
+        <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="transparent_power_dialog_dim"
+            android:title="@string/power_menu_dialog_dim"
+            android:max="100"
+            android:min="0"
+            android:defaultValue="50" />
+	
 	<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="powermenu_power"
             android:title="@string/powermenu_power"
