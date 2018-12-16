@@ -248,4 +248,13 @@
     <string name="panel_porn_title">Menu nguồn trong suốt</string>
     <string name="power_menu_transparency">Độ mờ của menu nguồn / khởi động lại</string>
     <string name="power_menu_dialog_dim"> Nguồn/ khởi động lại hộp thoại mờ nền</string>
+	<!-- Rounded corners -->
+    <string name="corners_category_title">Góc tròn</string>
+    <string name="corners_category_summary">Điều chỉnh các góc tròn và phần đệm</string>
+    <string name="corners_title">Tùy chỉnh các góc tròn</string>
+    <string name="corner_radius">Bán kính góc tròn</string>
+    <string name="content_padding">Góc đệm nội dung</string>
+    <string name="status_bar_padding">Thanh đệm thêm thanh trạng thái</string>
+    <string name="corner_fwvals">Sử dụng các giá trị khung</string>
+    <string name="corner_fwvals_summary">Hữu ích nếu thiết bị thực sự có các góc tròn</string>
 </resources>
