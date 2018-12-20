@@ -88,7 +88,7 @@
     <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
     <string name="enable_oneui">OneUI</string>
     <string name="enable_oneui_summary">Show spacer above settings actionbar for easier use with one hand\nNOTE: restart settings app to see effect</string>
-	
+
      <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Clock style</string>
     <string name="lockscreen_clock_dialog_title">Select clock style</string>
@@ -102,7 +102,7 @@
     <string name="lockscreen_clock_sammy_bold">Sammy (bold)</string>
     <string name="lockscreen_clock_sammy_accent_hour">Sammy (accent hour)</string>
     <string name="lockscreen_clock_sammy_accent_min">Sammy (accent minute)</string>
-	
+
 	<!-- Lockscreen Date styles -->
 	<string name="lockscreen_date_title">Date style</string>
     <string name="lockscreen_date_selection_title">Date style</string>
@@ -116,12 +116,12 @@
     <string name="lockscreen_date_selection_str_gradient">Gradient</string>
     <string name="lockscreen_date_selection_str_border_accent">Dark with accented borders</string>
     <string name="lockscreen_date_selection_str_border_gradient">Dark with gradient borders</string>
-	
+
 	<!-- Status bar - icons -->
     <string name="status_bar_icons_title">Status bar icons</string>
     <string name="status_bar_system_icons_title">System icons</string>
     <string name="status_bar_system_icons_summary">Control which status bar icons are shown</string>
-	
+
 	<!-- Statusbar Clock -->
 	<string name="statusbar_items_title">Statusbar items</string>
     <string name="clock_category_title">Clock</string>
@@ -180,7 +180,7 @@
     <string name="status_bar_battery_style_q">Icon portrait (default)</string>
     <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
     <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_text">Text</string> 
+    <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Hidden</string>
     <string name="status_bar_battery_style_big_circle">Big circle</string>
     <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
@@ -199,7 +199,7 @@
     <string name="battery_percentage_next">Enabled</string>
     <string name="battery_percentage_inside">Enabled (inside icon)</string>
     <string name="battery_percentage_estimate">Enabled (estimate)</string>
-	
+
 	<!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
     <string name="traffic_title_summary">Customize network traffic indicators</string>
@@ -212,16 +212,16 @@
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
-	
+
 	<!-- 4G icon -->
     <string name="statusbar_items_category">Icons</string>
     <string name="show_fourg_icon_title">4G icon</string>
     <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
-	
+
 	<!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE icon</string>
     <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
-	
+
 	<!-- VoLTE icon styles -->
     <string name="volte_icon_style_title">Select VoLTE Icon</string>
     <string name="volte_icon_vo">Default Icon</string>
@@ -230,7 +230,7 @@
     <string name="volte_icon_hd">HD Icon</string>
     <string name="volte_icon_miui">VoLTE Miui Icon</string>
     <string name="volte_icon_asus">VoLTE Asus Icon</string>
-	
+
 	<!-- Lock screen visualizer -->
 	<string name="visualizer_title">Display music visualizer</string>
     <string name="lockscreen_visualizer_title">Music visualizer</string>
@@ -253,11 +253,11 @@
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
-	
+
 	<!-- Old MobileType Toggle -->
     <string name="use_old_mobiletype_title">Use old mobile type style</string>
     <string name="use_old_mobiletype_summary">Merge signal and type icons</string>
-	
+
 	<!-- Themes -->
     <string name="theme_type_title">System theme</string>
     <string name="theme_type_summary">Select theme</string>
@@ -269,7 +269,7 @@
     <string name="theme_type_du_pitchblack">Pitch black</string>
     <string name="theme_type_dark_grey">Dark Grey</string>
     <string name="theme_type_material_ocean">Material Ocean</string>
-	
+
 	<!-- RGB Accenter -->
     <string name="theme_rgb_title">RGB Accent | Gradient Theming</string>
     <string name="themes_hub_title">Themes</string>
@@ -278,7 +278,7 @@
     <string name="accent_summary">Gradient Maker</string>
     <string name="gradient_color">Gradient picker</string>
     <string name="gradient_summary">Gradient effect maker</string>
-	
+
 	<!-- Power menu and dialogs opacity -->
     <string name="lockscreen_secure_power_title">Secure power menu</string>
     <string name="lockscreen_secure_power_menu_title">Secure power menu</string>
@@ -287,7 +287,7 @@
     <string name="panel_porn_title">Power Menu Transparency</string>
     <string name="power_menu_transparency">Power/reboot menu opacity</string>
     <string name="power_menu_dialog_dim">Power/reboot dialog dim background amount</string>
-	
+
 	<!-- Rounded corners -->
     <string name="corners_category_title">Rounded corners</string>
     <string name="corners_category_summary">Adjust rounded corners and padding</string>
@@ -309,7 +309,7 @@
     <string name="adaptive_playback_timeout_2_min">2 minutes</string>
     <string name="adaptive_playback_timeout_5_min">5 minutes</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-	
+
 	<!-- Custom carrier label and position -->
     <string name="label_title">Label</string>
     <string name="carrier_label_settings_title">Carrier label</string>
@@ -331,5 +331,70 @@
     <string name="fod_icon_picker_category_title">FOD customization options</string>
     <string name="fod_recognizing_animation_title">Recognizing animation</string>
     <string name="fod_recognizing_animation_summary">Show an animation while reading your fingerprint</string>
+
+    <!-- Slim recents -->
+    <string name="ok">OK</string>
+    <string name="alternative_recents_category">Alternative recents</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">When using swipe up home navigation to open recents, only stock recents are supported</string>
+    <string name="slim_recents_title">Slim Recents</string>
+    <string name="slim_recents_summary">Enable to use an alternative recents screen</string>
+    <string name="slim_recents_fragment_title">Slim recents settings</string>
+    <string name="slim_recents_fragment_summary">Customize the additional settings for slim recents</string>
+    <string name="recents_max_apps_title">Max allowed apps</string>
+    <string name="recent_panel_scale_title">Size</string>
+    <string name="recent_panel_expanded_mode_title">Expanded mode</string>
+    <string name="recent_panel_expanded_mode_summary">Recent tasks expanded preview mode</string>
+    <string name="recent_panel_expanded_mode_auto">Auto (Default)</string>
+    <string name="recent_panel_expanded_mode_always">Always</string>
+    <string name="recent_panel_expanded_mode_never">Never</string>
+    <string name="recent_panel_expanded_mode_disabled">Disabled</string>
+    <string name="recent_panel_bg_color_title">Panel background color</string>
+    <string name="recent_card_bg_color_title">Card background color</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Memory bar longpress gesture</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Clear recents by long-pressing the memory bar</string>
+    <string name="slim_icon_pack_title">Icon Pack</string>
+    <string name="slim_icon_pack_summary">Apply a custom icon pack for apps in the panel</string>
+    <string name="no_iconpacks_summary">No icon packs installed</string>
+    <string name="dialog_pick_iconpack_title">Pick icon pack</string>
+    <string name="default_iconpack_title">Default icons</string>
+    <string name="slim_recents_corner_radius_title">Card corner radius</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
+    <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge of the screen</string>
+    <string name="slim_blacklist_apps_cat_title">Blacklist</string>
+    <string name="slim_blacklist_apps_title">Apps blacklist</string>
+    <string name="slim_blacklist_apps_summary">Apps to not show in the panel</string>
+    <string name="slim_blacklist_add_apps_title">Add app</string>
+    <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
+
+    <!-- Slim Recent App Sidebar  -->
+    <string name="recent_app_sidebar_cat_title">App Sidebar</string>
+    <string name="recent_app_sidebar_title">Recents app sidebar</string>
+    <string name="recent_app_sidebar_summary">Show app shortcuts on the other edge</string>
+    <string name="recent_app_sidebar_picker_title">Sidebar shortcuts</string>
+    <string name="recent_app_sidebar_picker_summary">Choose apps to show in the sidebar</string>
+    <string name="recent_app_sidebar_style_title">Sidebar style</string>
+    <string name="recent_app_sidebar_style_summary">Change the look of the sidebar</string>
+    <string name="recent_app_sidebar_hide_labels_title">Hide icon labels</string>
+    <string name="recent_app_sidebar_label_color_title">Label color</string>
+    <string name="recent_app_sidebar_bg_color_title">Background color</string>
+    <string name="recent_app_sidebar_scale_title">Size</string>
+    <string name="recent_app_sidebar_open_simultaneously_title">Open simultaneously with recents</string>
+    <string name="recent_app_sidebar_open_simultaneously_summary">Reduce recents opening lag by disabling this</string>
+    <string name="default_auto_string">Default (App based)</string>
+
+    <!-- Slim recents membar -->
+    <string name="default_string">Default</string>
+    <string name="profile_choose_app">Choose app</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="slim_recents_mem_display_category_title">Memory Bar</string>
+    <string name="slim_recents_mem_display_title">Memory bar</string>
+    <string name="slim_recents_mem_display_summary">Show a progress bar displaying RAM</string>
+    <string name="slim_recents_mem_display_color">Memory bar color</string>
+    <string name="slim_recents_mem_display_text_color">Memory bar text color</string>
+    <string name="slim_recents_enter_exit_animation_title">Animation</string>
+    <string name="slim_recents_enter_exit_animation_translate">Translate</string>
+    <string name="slim_recents_enter_exit_animation_fade">Fade</string>
 
 </resources>
