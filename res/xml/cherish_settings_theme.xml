@@ -32,6 +32,14 @@
           android:entries="@array/theme_type_titles"
           android:entryValues="@array/theme_type_values"
           android:defaultValue="1"/>
+		  
+      <ListPreference
+        android:key="switch_style"
+        android:icon="@drawable/ic_switch_theme"
+        android:title="@string/switch_style_title"
+        android:persistent="false"
+        android:entries="@array/switch_style_entries"
+        android:entryValues="@array/switch_style_values" />
 
   </PreferenceCategory>
   

@@ -440,5 +440,11 @@
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Force expanded notifications</string>
     <string name="force_expanded_notifications_summary">Force apps that support expanded notifications</string>
+	
+	<!-- Switch styles -->
+    <string name="switch_style_title">Switch appearance</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_oneplus">OnePlus</string>
 
 </resources>

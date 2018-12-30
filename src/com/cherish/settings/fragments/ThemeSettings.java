@@ -52,6 +52,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_STATUS_BAR_PADDING = "sysui_status_bar_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
+    private static final String SWITCH_STYLE = "switch_style";
 
     private ColorPickerPreference mThemeColor;
     private ColorPickerPreference mGradientColor;
@@ -62,6 +63,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mContentPadding;
     private CustomSeekBarPreference mSBPadding;
     private SwitchPreference mRoundedFwvals;
+    private ListPreference mSwitchStyle;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -113,6 +115,14 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         // Rounded use Framework Values
         mRoundedFwvals = (SwitchPreference) findPreference(SYSUI_ROUNDED_FWVALS);
         mRoundedFwvals.setOnPreferenceChangeListener(this);
+
+        mSwitchStyle = (ListPreference) findPreference(SWITCH_STYLE);
+        int switchStyle = Settings.System.getInt(resolver,
+                Settings.System.SWITCH_STYLE, 1);
+        int switchValueIndex = mSwitchStyle.findIndexOfValue(String.valueOf(switchStyle));
+        mSwitchStyle.setValueIndex(switchValueIndex >= 0 ? switchValueIndex : 0);
+        mSwitchStyle.setSummary(mSwitchStyle.getEntry());
+        mSwitchStyle.setOnPreferenceChangeListener(this);
 
 		mOverlayService = IOverlayManager.Stub
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
@@ -230,6 +240,11 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                     (int) objValue, UserHandle.USER_CURRENT);
         } else if (preference == mRoundedFwvals) {
             restoreCorners();
+        } else if (preference == mSwitchStyle) {
+            String value = (String) objValue;
+            Settings.System.putInt(resolver, Settings.System.SWITCH_STYLE, Integer.valueOf(value));
+            int valueIndex = mSwitchStyle.findIndexOfValue(value);
+            mSwitchStyle.setSummary(mSwitchStyle.getEntries()[valueIndex]);
         }
         return true;
     }
