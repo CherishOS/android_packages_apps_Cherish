@@ -83,6 +83,12 @@
             android:summary="@string/carrier_label_settings_summary"
             android:fragment="com.cherish.settings.fragments.CustomCarrierLabel" />
 			
+	<Preference
+            android:key="cutout_settings"
+			android:icon="@drawable/ic_cutout"
+            android:fragment="com.cherish.settings.fragments.CutoutFragment"
+            android:title="@string/cutout_main" />
+			
 	<com.cherish.settings.preferences.SystemSettingListPreference
         android:key="status_bar_show_ticker"
         android:title="@string/ticker_screen_title"

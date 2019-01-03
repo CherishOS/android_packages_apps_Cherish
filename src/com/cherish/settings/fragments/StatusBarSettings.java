@@ -46,6 +46,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 	
 	private SystemSettingMasterSwitchPreference mStatusBarLogo;
 
+    private static final String PREF_KEY_CUTOUT = "cutout_settings";
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -61,6 +63,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_LOGO, 0) == 1));
         mStatusBarLogo.setOnPreferenceChangeListener(this);
 		
+		Preference mCutoutPref = (Preference) findPreference(PREF_KEY_CUTOUT);
     }
 
     @Override
