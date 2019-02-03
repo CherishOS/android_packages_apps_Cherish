@@ -23,7 +23,7 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.cherish.settings.preferences.SystemSettingEditTextPreference;
-
+import com.cherish.settings.preferences.SystemSettingMasterSwitchPreference;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -33,11 +33,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements
    private static final String QS_BLUR_INTENSITY = "qs_blur_intensity";
    private static final String QUICK_PULLDOWN = "quick_pulldown";
    private static final String FOOTER_TEXT_STRING = "footer_text_string";
+   private static final String STATUS_BAR_CUSTOM_HEADER = "status_bar_custom_header";
 
    private ListPreference mQuickPulldown;
    private CustomSeekBarPreference mQSBlurAlpha;
    private CustomSeekBarPreference mQSBlurIntensity;
    private SystemSettingEditTextPreference mFooterString;
+   private SystemSettingMasterSwitchPreference mCustomHeader;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -65,6 +67,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0, UserHandle.USER_CURRENT);
         mQuickPulldown.setValue(String.valueOf(quickPulldownValue));
         updatePulldownSummary(quickPulldownValue);
+
+        mCustomHeader = (SystemSettingMasterSwitchPreference) findPreference(STATUS_BAR_CUSTOM_HEADER);
+        int qsHeader = Settings.System.getInt(resolver,
+                Settings.System.STATUS_BAR_CUSTOM_HEADER, 0);
+        mCustomHeader.setChecked(qsHeader != 0);
+        mCustomHeader.setOnPreferenceChangeListener(this);
 
         mFooterString = (SystemSettingEditTextPreference) findPreference(FOOTER_TEXT_STRING);
         mFooterString.setOnPreferenceChangeListener(this);
@@ -109,6 +117,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.putString(getActivity().getContentResolver(),
                         Settings.System.FOOTER_TEXT_STRING, "#KeepTheLove");
             }
+            return true;
+            } else if (preference == mCustomHeader) {
+            boolean header = (Boolean) newValue;
+            Settings.System.putInt(resolver,
+                    Settings.System.STATUS_BAR_CUSTOM_HEADER, header ? 1 : 0);
             return true;
         }
         return false;
