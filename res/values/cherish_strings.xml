@@ -892,4 +892,20 @@
     <string name="fod_icon_picker_title">Fingerprint icon</string>
     <string name="fod_icon_picker_summary">Choose your favorite fingerprint icon</string>
     <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
+	
+	<!-- QS header image -->
+    <string name="status_bar_custom_header_title">Header image</string>
+    <string name="status_bar_custom_header_summary">Use a custom image for QS header</string>
+    <string name="daylight_header_provider" translatable="false">daylight</string>
+    <string name="file_header_provider" translatable="false">file</string>
+    <string name="custom_header_provider_title">Image type</string>
+    <string name="daylight_header_provider_title">Automatic (Time based)</string>
+    <string name="file_header_provider_title">Static</string>
+    <string name="daylight_header_pack_title">Image collection</string>
+    <string name="header_provider_disabled">Disabled</string>
+    <string name="custom_header_pick_title">Pick image from collection</string>
+    <string name="custom_header_pick_summary">Select an image from pre-installed image collections</string>
+    <string name="file_header_select_title">Pick image from storage</string>
+    <string name="file_header_select_summary">Select an image from internal storage</string>
+    <string name="status_bar_custom_header_shadow_title">Darken image</string>
 </resources>
