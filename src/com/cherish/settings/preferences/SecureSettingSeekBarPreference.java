@@ -14,23 +14,24 @@
  * limitations under the License.
  */
 package com.cherish.settings.preferences;
+
 import android.content.Context;
 import android.util.AttributeSet;
 
-public class SystemSettingSeekBarPreference extends CustomSeekBarPreference {
+public class SecureSettingSeekBarPreference extends CustomSeekBarPreference {
 
-    public SystemSettingSeekBarPreference(Context context, AttributeSet attrs, int defStyle) {
+    public SecureSettingSeekBarPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingSeekBarPreference(Context context, AttributeSet attrs) {
+    public SecureSettingSeekBarPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingSeekBarPreference(Context context) {
+    public SecureSettingSeekBarPreference(Context context) {
         super(context, null);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 }
