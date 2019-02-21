@@ -265,4 +265,16 @@
     <string name="adaptive_playback_timeout_2_min">2 phút</string>
     <string name="adaptive_playback_timeout_5_min">5 phút</string>
     <string name="adaptive_playback_timeout_10_min">10 phút</string>
+	<!-- Custom carrier label and position -->
+    <string name="label_title">Nhãn hiệu</string>
+    <string name="carrier_label_settings_title">Tên nhà mạng</string>
+    <string name="carrier_label_settings_summary">Tùy chỉnh tên của nhà mạng</string>
+    <string name="custom_carrier_label_title">Tùy chỉnh tên nhà mạng</string>
+    <string name="custom_carrier_label_explain">Nhập nhãn tùy chỉnh. Để trống để sử dụng tên mạng của bạn</string>
+    <string name="custom_carrier_label_notset">Nhãn tùy chỉnh hiện không được đặt</string>
+    <string name="show_carrier_title">Địa chỉ tên nhà mạng</string>
+    <string name="show_carrier_disabled">Đã tắt</string>
+    <string name="show_carrier_keyguard">Màn hình khóa</string>
+    <string name="show_carrier_statusbar">Thanh trạng thái</string>
+    <string name="show_carrier_enabled">Cả hai</string>
 </resources>

@@ -307,6 +307,7 @@
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
 	
 	<!-- Custom carrier label and position -->
+    <string name="label_title">Label</string>
     <string name="carrier_label_settings_title">Carrier label</string>
     <string name="carrier_label_settings_summary">Customize the carrier label</string>
     <string name="custom_carrier_label_title">Custom carrier label</string>
