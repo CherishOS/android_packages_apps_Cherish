@@ -126,6 +126,12 @@
         android:key="battery_style_category"
         android:title="@string/battery_style_category_title" >
 
+        <com.cherish.settings.preferences.SystemSettingMasterSwitchPreference
+            android:key="battery_bar_settings"
+            android:icon="@drawable/ic_battery_bar"
+            android:title="@string/sb_battery_bar_title"
+            android:fragment="com.cherish.settings.fragments.BatteryBar" />
+
        <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="status_bar_battery_style"
             android:icon="@drawable/ic_battery_styles"

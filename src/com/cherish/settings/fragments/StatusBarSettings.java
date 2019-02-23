@@ -45,6 +45,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_BATTERY_CHARGING_BOLT = "status_bar_battery_charging_bolt";
     private static final String BATTERY_PERCENTAGE_HIDDEN = "0";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
+    private static final String BATTERY_BAR = "battery_bar_settings";
 
     private static final int BATTERY_STYLE_Q = 0;
     private static final int BATTERY_STYLE_DOTTED_CIRCLE = 1;
@@ -59,6 +60,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 	private CustomSeekBarPreference mThreshold;
     private SystemSettingSwitchPreference mNetMonitor;
     private SwitchPreference mBatteryBolt;
+    private SystemSettingMasterSwitchPreference mBatteryBar;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -101,6 +103,13 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mThreshold.setValue(value);
         mThreshold.setOnPreferenceChangeListener(this);
         mThreshold.setEnabled(isNetMonitorEnabled);
+
+        mBatteryBar = (SystemSettingMasterSwitchPreference)
+                findPreference(BATTERY_BAR);
+        mBatteryBar.setOnPreferenceChangeListener(this);
+        boolean enabled = Settings.System.getInt(resolver,
+                Settings.System.BATTERY_BAR_LOCATION, 0) != 0;
+        mBatteryBar.setChecked(enabled);
     }
 
     @Override
@@ -140,6 +149,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUS_BAR_BATTERY_CHARGING_BOLT,
                     enabled ? 1 : 0);
+            return true;
+        } else if (preference == mBatteryBar) {
+            boolean enabled = (boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.BATTERY_BAR_LOCATION, enabled ? 1 : 0);
             return true;
         }
 		
