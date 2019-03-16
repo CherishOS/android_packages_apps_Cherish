@@ -783,5 +783,8 @@
     <string name="status_bar_clock_font_style_title">Clock font style</string>
     <string name="status_bar_clock_font_size_title">Clock font size</string>
     <string name="status_bar_clock_color_title">Clock font color</string>
-       
+    <string name="clock_date_right">Right of time</string>
+    <string name="clock_date_left">Left of time</string>
+    <string name="clock_date_position">Date position</string>
+
 </resources>
