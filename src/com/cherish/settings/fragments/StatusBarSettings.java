@@ -39,6 +39,10 @@ import java.util.Collections;
 
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
+			
+	private static final String STATUS_BAR_LOGO = "status_bar_logo";
+	
+	private SystemSettingMasterSwitchPreference mStatusBarLogo;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -49,11 +53,22 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 		ContentResolver resolver = getActivity().getContentResolver();
 
         PreferenceScreen prefSet = getPreferenceScreen();
+		
+		mStatusBarLogo = (SystemSettingMasterSwitchPreference) findPreference(STATUS_BAR_LOGO);
+        mStatusBarLogo.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_LOGO, 0) == 1));
+        mStatusBarLogo.setOnPreferenceChangeListener(this);
+		
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-		
+		if (preference == mStatusBarLogo) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_LOGO, value ? 1 : 0);
+            return true;
+		}
         return false;
     }
 	
@@ -63,4 +78,3 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     }
 
 }
-
