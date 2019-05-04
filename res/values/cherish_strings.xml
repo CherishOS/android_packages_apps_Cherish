@@ -481,4 +481,8 @@
     <string name="lockscreen_date_selection_str_gradient">Gradient</string>
     <string name="lockscreen_date_selection_str_border_accent">Dark with accented borders</string>
     <string name="lockscreen_date_selection_str_border_gradient">Dark with gradient borders</string>
+
+    <!-- Q To X Clock -->
+    <string name="center_text_clock_title">Center Text Clock</string>
+    <string name="center_text_clock_summary">Tranform Q-Clock to X-Clock</string>
 </resources>

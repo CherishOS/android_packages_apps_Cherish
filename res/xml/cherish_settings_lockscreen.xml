@@ -60,6 +60,12 @@
         android:entryValues="@array/lockscreen_date_selection_values"
         android:defaultValue="0" />
 
+    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="center_text_clock"
+        android:title="@string/center_text_clock_title"
+        android:summary="@string/center_text_clock_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="lock_clock_fonts"
         android:title="@string/lock_clock_font_title"
