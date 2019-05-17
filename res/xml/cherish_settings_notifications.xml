@@ -59,6 +59,12 @@
 
     </PreferenceCategory>
 	
+	<con.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="less_boring_heads_up"
+        android:title="@string/less_boring_heads_up_title"
+        android:summary="@string/less_boring_heads_up_summary"
+        android:defaultValue="false" />
+	
 	<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="toast_icon"
             android:title="@string/toast_icon_title"
