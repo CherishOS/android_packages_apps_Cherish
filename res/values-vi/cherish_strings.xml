@@ -772,4 +772,8 @@
    <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Điều chỉnh độ sáng</string>
     <string name="status_bar_toggle_brightness_summary">Điều chỉnh độ sáng bằng cách trượt qua thanh trạng thái</string>
+
+   <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Làm cho đầu bớt khó chịu</string>
+    <string name="less_boring_heads_up_summary">Chỉ hiển thị thông báo cho trình quay số hoặc ứng dụng nhắn tin nếu chúng không ở phía trước</string>
 </resources>
