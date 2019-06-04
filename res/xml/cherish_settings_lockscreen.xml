@@ -207,6 +207,16 @@
             android:summary="@string/lockscreen_weather_enabled_summary"
             android:defaultValue="false" />
 
+            <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="lockscreen_weather_style"
+            android:title="@string/lockscreen_weather_style_title"
+            android:dialogTitle="@string/lockscreen_weather_style_title"
+            android:entries="@array/lockscreen_weather_style_entries"
+            android:entryValues="@array/lockscreen_weather_style_values"
+            android:defaultValue="0"
+            android:dependency="lockscreen_weather_enabled"
+            android:summary="%s" />
+
         <Preference
             android:key="omnijaws_settings"
             android:icon="@drawable/ic_weather"
