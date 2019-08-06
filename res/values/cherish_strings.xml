@@ -466,4 +466,11 @@
     <string name="lockscreen_clock_text_style">Text clock</string>
     <string name="lockscreen_clock_analog_style">Analog Q Style</string>
     <string name="lockscreen_clock_analog_num_style">Analog clock(number)</string>
+
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Date style</string>
+    <string name="lockscreen_date_dialog_title">Select date style</string>
+    <string name="lockscreen_date_selection_default">Default</string>
+    <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
+    <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
 </resources>
