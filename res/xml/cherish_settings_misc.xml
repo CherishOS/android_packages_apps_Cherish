@@ -68,5 +68,11 @@
           android:title="@string/incall_feeedback_vibrate_title"
           android:defaultValue="false"
           settings:controller="com.cherish.settings.fragments.IncallFeedbackPreferenceController" />
+  
+        <Preference
+        android:key="audio_panel" 
+	android:icon="@drawable/ic_music"
+        android:fragment="com.cherish.settings.fragments.AudioPanelSettings"
+        android:title="@string/audio_panel_view" />
 
 </PreferenceScreen>
