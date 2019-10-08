@@ -35,6 +35,13 @@
             android:title="@string/qs_date_title"
             android:summary="@string/qs_date_summary"
             android:defaultValue="true" />
+
+        <!-- QS Header -->
+        <Preference
+            android:key="qs_header_image"
+            android:title="@string/qs_header_image_title"
+            android:summary="@string/qs_header_image_summary"
+            android:fragment="com.cherish.settings.fragments.quicksettings.QsHeaderImageSettings" />
 	
 		<com.cherish.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_transparency"
