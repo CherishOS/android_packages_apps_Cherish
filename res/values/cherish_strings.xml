@@ -53,6 +53,7 @@
     <!-- QS category -->
     <string name="enable_clear_all_button">Replace clear all text with nice button</string>
     <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+
     <string name="qs_bg_use_new_tint">QS tile colors</string>
     <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
     <string name="qs_blur_alpha_title">Blur alpha</string>
@@ -412,4 +413,9 @@
     <string name="title_animation_no_override">Prevent app overrides</string>
     <string name="summary_animation_no_override">Prevent apps from overriding transitions</string>
     <string name="animation_duration_default">Default</string>
+	
+	<!-- Wake on charge -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake up on charge</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Wake up the device if charger is plugged/unplugged</string>
+
 </resources>

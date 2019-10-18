@@ -18,6 +18,13 @@
 	android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="wake_when_plugged_or_unplugged"
+        android:icon="@drawable/ic_plug"
+        android:title="@string/wake_when_plugged_or_unplugged_title"
+        android:summary="@string/wake_when_plugged_or_unplugged_summary"
+        android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
+
         <PreferenceCategory
         android:key="media"
         android:title="@string/media_title">

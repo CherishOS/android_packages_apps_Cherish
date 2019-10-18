@@ -287,4 +287,7 @@
     <!-- R Notification headers -->
     <string name="notification_headers_title">Hiển thị tiêu đề thông báo</string>
     <string name="notification_headers_summary">Có hiển thị tiêu đề thông báo kiểu R hay không (Yêu cầu khởi động lại giao diện người dùng hệ thống)</string>
+	<!-- Wake on charge -->
+    <string name="wake_when_plugged_or_unplugged_title">Bật màn hình khi sạc</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Đánh thức thiết bị nếu đã cắm/đã rút sạc</string>
 </resources>
