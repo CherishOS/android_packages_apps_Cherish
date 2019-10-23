@@ -55,8 +55,9 @@
             android:dialogTitle="@string/lock_weather_city_dialog_title"
             android:entries="@array/sb_clock_fonts_entries"
             android:entryValues="@array/sb_clock_fonts_values"
-            android:summary="@string/lock_weather_city_font_summary"
+            android:summary="%s"
             android:dependency="lockscreen_weather_show_city"
+            android:defaultValue="27"
             android:persistent="false" />
 		
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
@@ -71,7 +72,8 @@
             android:dialogTitle="@string/lock_weather_temp_font_dialog_title"
             android:entries="@array/sb_clock_fonts_entries"
             android:entryValues="@array/sb_clock_fonts_values"
-            android:summary="@string/lock_weather_temp_font_summary"
+            android:summary="%s"
             android:dependency="lockscreen_weather_show_temp"
+            android:defaultValue="27"
             android:persistent="false" />
 </PreferenceScreen>
