@@ -229,6 +229,13 @@
         android:key="visualizer"
         android:title="@string/visualizer_title">
 
+    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="lockscreen_visualizer_enabled"
+        android:icon="@drawable/ic_visualizer"
+        android:title="@string/lockscreen_visualizer_enable"
+        android:summary="@string/lockscreen_visualizer_enable_summary"
+        android:defaultValue="false" />
+
   </PreferenceCategory>
 
 </PreferenceScreen>
