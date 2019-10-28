@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2019 crDroid Android Project
+ * Copyright (C) 2017 AOSPEXTENDED PROJECT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,9 +16,15 @@
 package com.cherish.settings.preferences;
 
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.util.AttributeSet;
 
 public class SecureSettingSeekBarPreference extends CustomSeekBarPreference {
+
+    public SecureSettingSeekBarPreference(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+        super(context, attrs, defStyleAttr, defStyleRes);
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
+    }
 
     public SecureSettingSeekBarPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
@@ -34,4 +40,11 @@ public class SecureSettingSeekBarPreference extends CustomSeekBarPreference {
         super(context, null);
         setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
+
+    @Override
+    protected Object onGetDefaultValue(TypedArray ta, int index) {
+        return super.onGetDefaultValue(ta, index);
+    }
 }
+
+
