@@ -333,7 +333,6 @@
     <string name="fod_recognizing_animation_summary">Show an animation while reading your fingerprint</string>
 
     <!-- Slim recents -->
-    <string name="ok">OK</string>
     <string name="alternative_recents_category">Alternative recents</string>
     <string name="alternative_recents_swipe_up_enabled_warning_summary">When using swipe up home navigation to open recents, only stock recents are supported</string>
     <string name="slim_recents_title">Slim Recents</string>

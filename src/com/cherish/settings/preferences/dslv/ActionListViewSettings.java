@@ -19,11 +19,7 @@ package com.cherish.settings.preferences.dslv;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.DialogFragment;
 import android.content.DialogInterface;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.ListFragment;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -51,6 +47,7 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -60,6 +57,14 @@ import com.android.internal.util.slim.ActionHelper;
 import com.android.internal.util.slim.ImageHelper;
 import com.android.internal.util.slim.DeviceUtils;
 import com.android.internal.util.slim.DeviceUtils.FilteredDeviceFeaturesArray;
+
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.ListFragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.preference.PreferenceFragmentCompat;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.cherish.settings.preferences.SlimShortcutPickerHelper;
@@ -194,6 +199,7 @@ public class ActionListViewSettings extends ListFragment implements
         mUseAppPickerOnly = getArguments().getBoolean("useAppPickerOnly", false);
         mUseFullAppsOnly = getArguments().getBoolean("useOnlyFullAppPicker", false);
         mDisableIconPicker = getArguments().getBoolean("disableIconPicker", false);
+        mDisableIconPicker = true;
         mDisableDeleteLastEntry = getArguments().getBoolean("disableDeleteLastEntry", false);
 
         mDisableMessage = (TextView) view.findViewById(R.id.disable_message);

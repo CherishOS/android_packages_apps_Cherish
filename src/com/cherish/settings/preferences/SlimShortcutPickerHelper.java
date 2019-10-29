@@ -17,7 +17,6 @@
 package com.cherish.settings.preferences;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.content.Intent;
 import android.content.Intent.ShortcutIconResource;
 import android.content.pm.PackageManager;
@@ -31,6 +30,9 @@ import android.util.Log;
 import com.android.settings.R;
 
 import com.android.internal.util.slim.AppHelper;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 
 import java.util.ArrayList;
 
@@ -107,13 +109,15 @@ public class SlimShortcutPickerHelper {
     }
 
     private void startFragmentOrActivity(Intent pickIntent, int requestCode) {
-        if (lastFragmentId == 0) {
+        if (lastFragmentId == 0 || !(mParent instanceof FragmentActivity)) {
             mParent.startActivityForResult(pickIntent, requestCode);
         } else {
-            Fragment cFrag = mParent.getFragmentManager().findFragmentById(lastFragmentId);
+            final FragmentActivity fa = (FragmentActivity) mParent;
+            Fragment cFrag = fa.getSupportFragmentManager().findFragmentById(lastFragmentId);
             if (cFrag != null) {
-                mParent.startActivityFromFragment(cFrag, pickIntent, requestCode);
-            }
+                fa.startActivityFromFragment(cFrag, pickIntent, requestCode);
+            } else {
+                mParent.startActivityForResult(pickIntent, requestCode);            }
         }
     }
 
