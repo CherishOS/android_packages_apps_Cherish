@@ -598,4 +598,7 @@
     <string name="qs_header_lightgrey">Xám nhạt</string>
     <string name="qs_header_accent">Dựa vào màu hệ thống</string>
     <string name="qs_header_transparent">Trong suốt</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Điều chỉnh độ sáng</string> 
+    <string name="status_bar_toggle_brightness_summary">Điều chỉnh độ sáng bằng cách trượt qua thanh trạng thái</string>
 </resources>
