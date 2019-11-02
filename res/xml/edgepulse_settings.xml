@@ -18,6 +18,12 @@
     android:title="@string/pulse_ambient_light_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="ambient_notification_light_enabled"
+        android:title="@string/ambient_notification_light_enabled_title"
+        android:summary="@string/ambient_notification_light_enabled_sumary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:title="@string/edgelight_left" >
 

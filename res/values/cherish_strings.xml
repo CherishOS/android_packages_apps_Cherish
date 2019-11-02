@@ -634,4 +634,6 @@
     <string name="pulse_ambient_light_duration">Edge light pulse duration</string>
     <string name="edgelight_left">Left Edge</string>
     <string name="edgelight_right">Right Edge</string>
+    <string name="ambient_notification_light_enabled_title">Always on ambient lights on notification</string>
+    <string name="ambient_notification_light_enabled_sumary">Show Always On light bars when receiving a notification</string>
 </resources>
