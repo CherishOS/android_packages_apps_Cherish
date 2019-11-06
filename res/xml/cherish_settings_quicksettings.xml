@@ -33,5 +33,14 @@
             android:title="@string/quick_settings_vibrate_title"
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
+			
+    <!-- Battery mode -->
+    <com.cherish.settings.preferences.SystemSettingListPreference
+        android:key="qs_battery_mode"
+        android:icon="@drawable/ic_battery_percent"
+        android:title="@string/battery_percentage_title"
+        android:entries="@array/qs_battery_mode_entries"
+        android:entryValues="@array/qs_battery_mode_values"
+        android:defaultValue="1" />
 
 </PreferenceScreen>
