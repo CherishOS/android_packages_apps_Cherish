@@ -99,6 +99,19 @@
             android:summary="@string/allow_signature_fake_summary"
             android:defaultValue="false" />
 
+      <PreferenceCategory
+
+        android:title="@string/battery_saving">
+
+        <Preference
+            android:key="suspend_actions"
+            android:icon="@drawable/ic_battery_full"
+            android:fragment="com.cherish.settings.fragments.ScreenStateToggles"
+            android:title="@string/screen_state_toggles_title"
+            android:summary="@string/screen_state_toggles_summary" />
+
+    </PreferenceCategory>
+
       <Preference
         android:key="vol_steps"
         android:title="@string/volume_steps_fragment_title"

@@ -1213,4 +1213,23 @@
 	<!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Alert slider notifications</string>
     <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
+	
+	<!-- Screen state service -->
+    <string name="battery_saving">Battery saving</string>
+    <string name="screen_state_toggles_title">Suspend actions</string>
+    <string name="screen_state_toggles_summary">Control how the device network and gps should behave when the screen is on/off</string>
+    <string name="screen_state_toggles_enable_title">Enable</string>
+    <string name="screen_state_toggles_enable_summary">Actions executed when the screen is turned off</string>
+    <string name="screen_state_toggles_mobile_title">Mobile network</string>
+    <string name="screen_state_toggles_location_title">Location</string>
+    <string name="screen_state_toggles_twog">Switch to 2G</string>
+    <string name="screen_state_toggles_twog_summary">Network mode will be switched to 2G on screen off</string>
+    <string name="screen_state_toggles_threeg">Switch to 3G</string>
+    <string name="screen_state_toggles_threeg_summary">Network mode will be switched to 3G on screen off</string>
+    <string name="screen_state_toggles_gps">Disable GPS</string>
+    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
+    <string name="screen_state_toggles_mobile_data">Disable mobile data</string> 
+    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
+    <string name="screen_state_off_delay_title">Screen-off actions delay</string>
+    <string name="screen_state_on_delay_title">Screen-on actions delay</string>
 </resources>
