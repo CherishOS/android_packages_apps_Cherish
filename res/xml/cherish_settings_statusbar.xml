@@ -94,8 +94,8 @@
 		
 		<Preference
         android:key="battery_bar_category"
-        android:fragment="com.cherish.settings.fragments.BatteryBar"
-        android:title="@string/battery_bar_title" />
+        android:fragment="com.cherish.settings.fragments.BatterySettings"
+        android:title="@string/battery_settings_title" />
 
     </PreferenceCategory>
 
