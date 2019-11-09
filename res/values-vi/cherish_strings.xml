@@ -255,4 +255,14 @@
     <string name="status_bar_padding">Thanh đệm thêm thanh trạng thái</string>
     <string name="corner_fwvals">Sử dụng các giá trị khung</string>
     <string name="corner_fwvals_summary">Hữu ích nếu thiết bị thực sự có các góc tròn</string>
+    <!-- Adaptive Playback -->
+    <string name="media_title">Âm nhạc/phương tiện</string>
+    <string name="adaptive_playback_title">Phát lại thích ứng</string>
+    <string name="adaptive_playback_summary">Tạm dừng phương tiện khi âm lượng bị tắt và tiếp tục lại bằng cách tăng âm lượng trong thời gian chờ</string>
+    <string name="adaptive_playback_timeout_title">Thời hạn phát lại</string>
+    <string name="adaptive_playback_timeout_30_secs">30 giây</string>
+    <string name="adaptive_playback_timeout_1_min">1 phút</string>
+    <string name="adaptive_playback_timeout_2_min">2 phút</string>
+    <string name="adaptive_playback_timeout_5_min">5 phút</string>
+    <string name="adaptive_playback_timeout_10_min">10 phút</string>
 </resources>
