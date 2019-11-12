@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2021 The CherishOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/sb_weather_title">
+
+    <com.cherish.settings.preferences.SystemSettingListPreference
+        android:key="status_bar_show_weather_temp"
+        android:title="@string/statusbar_weather_title"
+        android:dialogTitle="@string/statusbar_weather_dialog_title"
+        android:entries="@array/status_bar_weather_entries"
+        android:entryValues="@array/status_bar_weather_values"
+        android:summary="%s"
+        android:defaultValue="0" />
+
+    <com.cherish.settings.preferences.SystemSettingListPreference
+        android:key="status_bar_show_weather_location"
+        android:title="@string/status_bar_weather_location_title"
+        android:entries="@array/sb_weather_location_entries"
+        android:entryValues="@array/sb_weather_location_values"
+        android:summary="%s"
+        android:defaultValue="0" />
+
+</PreferenceScreen>
+

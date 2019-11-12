@@ -1339,4 +1339,33 @@
        <item>@string/monet_5</item>
        <item>@string/monet_6</item>
     </string-array>
+
+    <!-- StatusBar weather settings -->
+    <string-array name="status_bar_weather_entries" translatable="false">
+        <item>@string/status_bar_weather_hidden</item>
+        <item>@string/status_bar_temperature_image_show_scale</item>
+        <item>@string/status_bar_temperature_image_hide_scale</item>
+        <item>@string/status_bar_temperature_show_scale_hide_image</item>
+        <item>@string/status_bar_temperature_hide_scale_hide_image</item>
+        <item>@string/status_bar_show_image</item>
+    </string-array>
+
+    <string-array name="status_bar_weather_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- StatusBar Weather location -->
+    <string-array name="sb_weather_location_entries">
+        <item>@string/traffic_statusbar</item>
+        <item>@string/traffic_expanded_statusbar</item>
+    </string-array>
+    <string-array name="sb_weather_location_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
 </resources>
