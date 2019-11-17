@@ -45,14 +45,24 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.cherish_settings_misc);
 
+        mGamingMode = (SystemSettingMasterSwitchPreference) findPreference(GAMING_MODE_ENABLED);
+        mGamingMode.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.GAMING_MODE_ENABLED, 0) == 1));
+        mGamingMode.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-        ContentResolver resolver = getActivity().getContentResolver();
-
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mGamingMode) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.GAMING_MODE_ENABLED, value ? 1 : 0);
+            return true;
+        }
         return false;
     }
+
 
     @Override
     public int getMetricsCategory() {
