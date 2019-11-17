@@ -18,6 +18,14 @@
 	android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <com.cherish.settings.preferences.SystemSettingMasterSwitchPreference
+        android:key="gaming_mode_enabled"
+        android:icon="@drawable/ic_gaming_mode"
+        android:fragment="com.cherish.settings.fragments.GamingMode"
+        android:title="@string/gaming_mode_title"
+        android:summary="@string/gaming_mode_summary"
+        android:defaultValue="false" />
+
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
         android:icon="@drawable/ic_plug"

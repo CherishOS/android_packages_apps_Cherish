@@ -179,8 +179,6 @@
     <string name="battery_percentage_off">Tắt</string>
     <string name="battery_percentage_next">Bật</string>
     <string name="battery_percentage_inside">Đã bật (biểu tượng bên trong)</string>
-    <string name="battery_percentage_estimate">Đã bật (ước tính)</string>
-    <string name="battery_percentage_percentage_estimate">Đã bật (phần trăm | ước tính)</string>
     <!-- Network traffic -->
     <string name="traffic_title">Hiển thị tốc độ mạng</string>
     <string name="traffic_title_summary">Tùy chỉnh chỉ số lưu lượng mạng</string>
@@ -393,4 +391,37 @@
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Buộc mở rộng thông báo</string>
     <string name="force_expanded_notifications_summary">Chỉ có sẵn cho các ứng dụng hỗ trợ thông báo mở rộng</string>
+    <!-- Switch styles -->
+    <string name="switch_style_title">Chuyển đổi ngoại hình</string>
+    <string name="switch_default">Mặc định</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">Hẹp</string>
+    <string name="switch_contained">Bộ chứa</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_stockish">Stockish</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Chế độ chơi game</string>
+    <string name="gaming_mode_summary">Tùy chỉnh tùy chọn chế độ trò chơi</string>
+    <string name="gaming_mode_app_picker_title">Tự động bật cho các ứng dụng này</string>
+    <string name="add_gaming_mode_package_title">Thêm ứng dụng cho chế độ chơi game</string>
+    <string name="add_gaming_mode_package_summary">Chế độ chơi game sẽ tự động bật tắt đối với các ứng dụng này</string>
+    <string name="gaming_mode_headsup_title">Chặn thông báo</string>
+    <string name="gaming_mode_headsup_summary">Chặn tất cả các thông báo nổi ngoại trừ cuộc gọi</string>
+    <string name="gaming_mode_hardware_keys_title">Khóa phím</string>
+    <string name="gaming_mode_hardware_keys_summary">Vô hiệu hóa phím cứng khi chế độ trò chơi được bật</string>
+    <string name="gaming_mode_brightness_title">Vô hiệu hóa độ sáng tự động</string>
+    <string name="gaming_mode_brightness_summary">Khóa độ sáng màn hình khi chế độ trò chơi được bật</string>
+    <string name="gaming_mode_ringer_title">Chuông trong chế độ trò chơi</string>
+    <string name="gaming_mode_ringer_off_title">Không thay đổi</string>
+    <string name="gaming_mode_ringer_vibrate_title">Rung</string>
+    <string name="gaming_mode_ringer_dnd_title">Không làm phiền</string>
+    <string name="gaming_mode_ringer_silent_title">Im lặng</string>
+    <string name="gaming_mode_notifications_title">Thông báo chế độ chơi game</string>
+    <string name="gaming_mode_notifications_off_title">Đã tắt</string>
+    <string name="gaming_mode_notifications_notif_title">Hiển thị thông báo</string>
+    <string name="gaming_mode_notifications_toast_title">Hiện thông báo nhanh</string>
+    <string name="gaming_mode_notifications_all_title">Hiện thông báo nhanh và thông báo</string>
+    <string name="gaming_mode_dynamic_title">Chế độ động</string>
+    <string name="gaming_mode_dynamic_summary">Tự động phát hiện và thêm trò chơi</string>
 </resources>
