@@ -25,6 +25,9 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
+import com.cherish.settings.preferences.CustomSeekBarPreference;
+import com.cherish.settings.preferences.SystemSettingSwitchPreference;
+import com.cherish.settings.preferences.SystemSettingMasterSwitchPreference;
 import com.android.settings.Utils;
 import android.util.Log;
 
@@ -37,19 +40,34 @@ import java.util.Collections;
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+     private static final String STATUS_BAR_CLOCK = "status_bar_clock";
+
+    private SystemSettingMasterSwitchPreference mStatusBarClockShow;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.cherish_settings_statusbar);
+		
+		ContentResolver resolver = getActivity().getContentResolver();
 
         PreferenceScreen prefSet = getPreferenceScreen();
 
+        mStatusBarClockShow = (SystemSettingMasterSwitchPreference) findPreference(STATUS_BAR_CLOCK);
+        mStatusBarClockShow.setChecked((Settings.System.getInt(resolver,
+                Settings.System.STATUS_BAR_CLOCK, 1) == 1));
+        mStatusBarClockShow.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-
+         if (preference == mStatusBarClockShow) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_CLOCK, value ? 1 : 0);
+            return true;
+		}
         return false;
     }
 

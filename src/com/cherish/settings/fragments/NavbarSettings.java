@@ -43,12 +43,10 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.cherish_settings_navigation);
-
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-
         return false;
     }
 
