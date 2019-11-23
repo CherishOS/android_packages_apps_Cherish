@@ -75,9 +75,6 @@
 
 	<!-- Power menu and dialogs opacity -->
 
-	<!-- Rounded corners -->
-    <string name="corners_category_title">Rounded corners</string>
-
 	<!-- AOKP custom system animations -->
 	
     <!-- Power menu Animations  -->
@@ -1041,4 +1038,14 @@
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">Allow signature spoofing</string>
     <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app.</string>
+
+    <!-- Rounded corners -->
+    <string name="corners_category_title">Rounded corners (beta)</string>
+    <string name="corners_category_summary">Adjust rounded corners and padding</string>
+    <string name="corners_title">Customize rounded corners</string>
+    <string name="corner_radius">Rounded corner radius</string>
+    <string name="content_padding">Corner content padding</string>
+    <string name="corner_fwvals">Use framework values</string>
+    <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
+    <string name="unit_pixels">dp</string>
 </resources>
