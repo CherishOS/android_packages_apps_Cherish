@@ -152,4 +152,8 @@
     <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
     <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
 
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Charging animation</string>
+    <string name="lockscreen_charging_animation_summary">Display an animation when the device is plugged in</string>
+
 </resources>

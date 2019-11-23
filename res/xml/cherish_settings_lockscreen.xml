@@ -31,6 +31,13 @@
             android:icon="@drawable/ic_media"
             android:defaultValue="true" />
 
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_charging_animation"
+            android:icon="@drawable/ic_charging"
+            android:title="@string/lockscreen_charging_animation_title"
+            android:summary="@string/lockscreen_charging_animation_summary"
+            android:defaultValue="false" />
+
    <!-- Lockscreen Clock -->
     <PreferenceCategory
         android:key="lockscreen_clock"
