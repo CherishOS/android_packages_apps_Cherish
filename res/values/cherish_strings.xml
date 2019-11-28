@@ -856,4 +856,8 @@
     <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
     <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
 
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">QS footer text</string>
+    <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
+
 </resources>
