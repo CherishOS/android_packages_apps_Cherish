@@ -37,6 +37,10 @@ import java.util.ArrayList;
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 			
+	private static final String QS_FOOTER_TEXT_STRING = "qs_footer_text_string";
+
+    private SystemSettingEditTextPreference mFooterString;
+			
 	private ListPreference mQuickPulldown;
     @Override
     public void onCreate(Bundle icicle) {
@@ -53,6 +57,18 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mQuickPulldown.setValue(String.valueOf(qpmode));
         mQuickPulldown.setSummary(mQuickPulldown.getEntry());
         mQuickPulldown.setOnPreferenceChangeListener(this);
+		
+		mFooterString = (SystemSettingEditTextPreference) findPreference(QS_FOOTER_TEXT_STRING);
+        mFooterString.setOnPreferenceChangeListener(this);
+        String footerString = Settings.System.getString(getContentResolver(),
+                QS_FOOTER_TEXT_STRING);
+        if (footerString != null && !footerString.isEmpty())
+            mFooterString.setText(footerString);
+        else {
+            mFooterString.setText("TheKeepLove");
+            Settings.System.putString(getActivity().getContentResolver(),
+                    Settings.System.QS_FOOTER_TEXT_STRING, "TheKeepLove");
+        }
 	}
 
     @Override
@@ -66,6 +82,17 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             int index = mQuickPulldown.findIndexOfValue((String) newValue);
             mQuickPulldown.setSummary(
                     mQuickPulldown.getEntries()[index]);
+            return true;
+		} else if (preference == mFooterString) {
+            String value = (String) newValue;
+            if (value != "" && !value.isEmpty())
+                Settings.System.putString(getActivity().getContentResolver(),
+                        Settings.System.QS_FOOTER_TEXT_STRING, value);
+            else {
+                mFooterString.setText("TheKeepLove");
+                Settings.System.putString(getActivity().getContentResolver(),
+                        Settings.System.QS_FOOTER_TEXT_STRING, "TheKeepLove");
+            }
             return true;
 		}
         return false;
