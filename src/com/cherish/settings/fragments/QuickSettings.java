@@ -33,8 +33,10 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 			
 	private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
+        private static final String FOOTER_TEXT_STRING = "footer_text_string";
 
     private SystemSettingMasterSwitchPreference mBrightnessSlider;
+    private SystemSettingEditTextPreference mFooterString;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -51,6 +53,18 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         boolean enabled = Settings.System.getInt(resolver,
                 BRIGHTNESS_SLIDER, 1) == 1;
         mBrightnessSlider.setChecked(enabled);
+
+        mFooterString = (SystemSettingEditTextPreference) findPreference(FOOTER_TEXT_STRING);
+        mFooterString.setOnPreferenceChangeListener(this);
+        String footerString = Settings.System.getString(getContentResolver(),
+                FOOTER_TEXT_STRING);
+        if (footerString != null && footerString != "")
+            mFooterString.setText(footerString);
+        else {
+            mFooterString.setText("#KeepTheLove");
+            Settings.System.putString(getActivity().getContentResolver(),
+                    Settings.System.FOOTER_TEXT_STRING, "#KeepTheLove");
+        }
 	}
 
     @Override
@@ -60,6 +74,17 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             Boolean value = (Boolean) newValue;
             Settings.System.putInt(resolver,
                     BRIGHTNESS_SLIDER, value ? 1 : 0);
+            return true;
+        } else if (preference == mFooterString) {
+            String value = (String) newValue;
+            if (value != "" && value != null)
+                Settings.System.putString(getActivity().getContentResolver(),
+                        Settings.System.FOOTER_TEXT_STRING, value);
+            else {
+                mFooterString.setText("#KeepTheLove");
+                Settings.System.putString(getActivity().getContentResolver(),
+                        Settings.System.FOOTER_TEXT_STRING, "#KeepTheLove");
+            }
             return true;
         }
         return false;
