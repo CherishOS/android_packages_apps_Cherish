@@ -243,6 +243,7 @@
     <string name="gradient_color">Chọn Gradient</string>
     <string name="gradient_summary">Làm hiệu ứng Gradient</string>
 	<!-- Power menu and dialogs opacity -->
+    <string name="power_menu_emergency_title">Khẩn cấp</string>
     <string name="panel_porn_title">Menu nguồn trong suốt</string>
     <string name="power_menu_transparency">Độ mờ của menu nguồn / khởi động lại</string>
     <string name="power_menu_dialog_dim"> Nguồn/ khởi động lại hộp thoại mờ nền</string>

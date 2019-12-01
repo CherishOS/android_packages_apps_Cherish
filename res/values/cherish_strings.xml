@@ -280,6 +280,7 @@
     <string name="gradient_summary">Gradient effect maker</string>
 	
 	<!-- Power menu and dialogs opacity -->
+    <string name="power_menu_emergency_title">Emergency</string>
     <string name="panel_porn_title">Power Menu Transparency</string>
     <string name="power_menu_transparency">Power/reboot menu opacity</string>
     <string name="power_menu_dialog_dim">Power/reboot dialog dim background amount</string>

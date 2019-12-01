@@ -53,4 +53,10 @@
             android:summary="@string/lockscreen_power_menu_disabled_summary"
             android:defaultValue="false" />
 
+   <com.cherish.settings.preferences.GlobalSettingSwitchPreference
+        android:key="power_menu_emergency_affordance"
+        android:icon="@drawable/ic_emergency"
+        android:title="@string/power_menu_emergency_title"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
