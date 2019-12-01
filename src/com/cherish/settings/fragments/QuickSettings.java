@@ -22,6 +22,8 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.cherish.settings.preferences.SystemSettingEditTextPreference;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -30,10 +32,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
    private static final String QS_BLUR_ALPHA = "qs_blur_alpha";
    private static final String QS_BLUR_INTENSITY = "qs_blur_intensity";
    private static final String QUICK_PULLDOWN = "quick_pulldown";
+   private static final String FOOTER_TEXT_STRING = "footer_text_string";
 
    private ListPreference mQuickPulldown;
    private CustomSeekBarPreference mQSBlurAlpha;
    private CustomSeekBarPreference mQSBlurIntensity;
+   private SystemSettingEditTextPreference mFooterString;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -62,7 +66,19 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mQuickPulldown.setValue(String.valueOf(quickPulldownValue));
         updatePulldownSummary(quickPulldownValue);
 
+        mFooterString = (SystemSettingEditTextPreference) findPreference(FOOTER_TEXT_STRING);
+        mFooterString.setOnPreferenceChangeListener(this);
+        String footerString = Settings.System.getString(getContentResolver(),
+                FOOTER_TEXT_STRING);
+        if (footerString != null && footerString != "")
+            mFooterString.setText(footerString);
+        else {
+            mFooterString.setText("#KeepTheLove");
+            Settings.System.putString(getActivity().getContentResolver(),
+                    Settings.System.FOOTER_TEXT_STRING, "#KeepTheLove");
+
         }
+	}
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -82,6 +98,17 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             Settings.System.putIntForUser(resolver, Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN,
                     quickPulldownValue, UserHandle.USER_CURRENT);
             updatePulldownSummary(quickPulldownValue);
+            return true;
+        } else if (preference == mFooterString) {
+            String value = (String) newValue;
+            if (value != "" && value != null)
+                Settings.System.putString(getActivity().getContentResolver(),
+                        Settings.System.FOOTER_TEXT_STRING, value);
+            else {
+                mFooterString.setText("#KeepTheLove");
+                Settings.System.putString(getActivity().getContentResolver(),
+                        Settings.System.FOOTER_TEXT_STRING, "#KeepTheLove");
+            }
             return true;
         }
         return false;

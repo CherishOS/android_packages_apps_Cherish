@@ -68,6 +68,21 @@
             android:summary="@string/enable_oneui_summary"
             android:defaultValue="true" />
 			
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="footer_text_show"
+	android:icon="@drawable/ic_edit_show"
+        android:title="@string/qs_footer_text_title"
+        android:summary="@string/qs_footer_text_summary"
+        android:defaultValue="false"/>
+
+    <com.cherish.settings.preferences.SystemSettingEditTextPreference
+        android:key="footer_text_string"
+	android:icon="@drawable/ic_edit"
+        android:title="@string/qs_footer_text_string_title"
+        android:summary="@string/qs_footer_text_string_summary"
+        android:dependency="footer_text_show"
+        android:defaultValue="#KeeptheLove" />
+			
 	</PreferenceCategory>
 
         <PreferenceCategory
