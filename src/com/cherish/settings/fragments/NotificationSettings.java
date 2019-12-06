@@ -3,6 +3,7 @@ package com.cherish.settings.fragments;
 import com.android.internal.logging.nano.MetricsProto;
 
 import android.os.Bundle;
+import android.content.ContentResolver;
 import com.android.settings.R;
 import android.content.res.Resources;
 import androidx.preference.Preference;
@@ -16,9 +17,10 @@ import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 public class NotificationSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener{
 
-    private ColorPickerPreference mEdgeLightColorPreference;
+    private static final String PULSE_AMBIENT_LIGHT_COLOR = "pulse_ambient_light_color";
 
     private Preference mChargingLeds;
+    private ColorPickerPreference mEdgeLightColorPreference;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -33,11 +35,38 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                         com.android.internal.R.bool.config_intrusiveBatteryLed)) {
             prefScreen.removePreference(mChargingLeds);
         }
+
+        mEdgeLightColorPreference = (ColorPickerPreference) findPreference(PULSE_AMBIENT_LIGHT_COLOR);
+        int edgeLightColor = Settings.System.getInt(getContentResolver(),
+                Settings.System.PULSE_AMBIENT_LIGHT_COLOR, 0xFF3980FF);
+        mEdgeLightColorPreference.setNewPreviewColor(edgeLightColor);
+        mEdgeLightColorPreference.setAlphaSliderEnabled(false);
+        String edgeLightColorHex = String.format("#%08x", (0xFF3980FF & edgeLightColor));
+        if (edgeLightColorHex.equals("#ff3980ff")) {
+            mEdgeLightColorPreference.setSummary(R.string.default_string);
+        } else {
+            mEdgeLightColorPreference.setSummary(edgeLightColorHex);
+        }
+        mEdgeLightColorPreference.setOnPreferenceChangeListener(this);
         
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+           ContentResolver resolver = getActivity().getContentResolver();
+           if (preference == mEdgeLightColorPreference) {
+            String hex = ColorPickerPreference.convertToARGB(
+                    Integer.valueOf(String.valueOf(newValue)));
+            if (hex.equals("#ff3980ff")) {
+                preference.setSummary(R.string.default_string);
+            } else {
+                preference.setSummary(hex);
+            }
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.PULSE_AMBIENT_LIGHT_COLOR, intHex);
+            return true;
+		   }
         return false;
     }
 
