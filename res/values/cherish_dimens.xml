@@ -18,4 +18,8 @@
 <resources>
     <dimen name="picker_circle_preview_size">26dp</dimen>
     <dimen name="alert_dialog_padding_material">20dp</dimen>
+
+    <dimen name="fod_picker_item_margin">20dp</dimen>
+    <dimen name="fod_picker_item_size">100dp</dimen>
+    <dimen name="fod_picker_item_padding">20dp</dimen>
 </resources>

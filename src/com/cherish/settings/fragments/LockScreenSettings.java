@@ -44,9 +44,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 			
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker_category";
 
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintVib;
+    private Preference mFODIconPicker;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -56,6 +58,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
+
+        mFODIconPicker = (Preference) findPreference(FOD_ICON_PICKER_CATEGORY);
+        if (mFODIconPicker != null
+                && !getResources().getBoolean(com.android.internal.R.bool.config_supportsInDisplayFingerprint)) {
+            prefScreen.removePreference(mFODIconPicker);
+        }
         
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SwitchPreference) findPreference(FINGERPRINT_VIB);

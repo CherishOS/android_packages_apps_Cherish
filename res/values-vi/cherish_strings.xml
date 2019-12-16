@@ -454,4 +454,8 @@
 	<!-- Heads up options -->
     <string name="less_boring_heads_up_title">Ít nhàm chán heads up</string>
     <string name="less_boring_heads_up_summary">Chỉ hiển thị các ứng dụng quay số, ứng dụng nhắn tin và báo thức</string>
+	<!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">Chọn biểu tượng FOD</string>
+    <string name="fod_icon_picker_summary">Chọn biểu thượng yêu thích vân tay của bạn</string>
+    <string name="fod_icon_picker_footer">Để thêm biểu tượng của riêng bạn, hãy chọn biểu tượng trên cùng bên trái và sử dụng ứng dụng Tùy chỉnh OnePlus 6T FP để chọn biểu tượng bạn muốn.</string>
 </resources>
