@@ -30,5 +30,58 @@
       android:title="@string/enable_clear_all_button"
       android:summary="@string/enable_clear_all_button_summary"
       android:defaultValue="false" />
+	  
+	<PreferenceCategory
+        android:title="@string/qs_title">
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_title_visibility"
+            android:title="@string/qs_tile_title_visibility_title"
+            android:summary="@string/qs_tile_title_visibility_summary"
+            android:defaultValue="true" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/qs_vibrate_title"
+            android:summary="@string/qs_vibrate_summary"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="qs_rows_portrait"
+            android:dialogTitle="@string/qs_rows_portrait_title"
+            android:title="@string/qs_rows_portrait_title"
+            android:summary="%s"
+            android:entries="@array/qs_rows_portrait_values"
+            android:entryValues="@array/qs_rows_portrait_values"
+            android:defaultValue="3" />
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="qs_rows_landscape"
+            android:dialogTitle="@string/qs_rows_landscape_title"
+            android:title="@string/qs_rows_landscape_title"
+            android:summary="%s"
+            android:entries="@array/qs_rows_landscape_values"
+            android:entryValues="@array/qs_rows_landscape_values"
+            android:defaultValue="1" />
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="qs_columns_portrait"
+            android:dialogTitle="@string/qs_columns_portrait_title"
+            android:title="@string/qs_columns_portrait_title"
+            android:summary="%s"
+            android:entries="@array/qs_columns_portrait_values"
+            android:entryValues="@array/qs_columns_portrait_values"
+            android:defaultValue="3" />
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="qs_columns_landscape"
+            android:dialogTitle="@string/qs_columns_landscape_title"
+            android:title="@string/qs_columns_landscape_title"
+            android:summary="%s"
+            android:entries="@array/qs_columns_landscape_values"
+            android:entryValues="@array/qs_columns_landscape_values"
+            android:defaultValue="4" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

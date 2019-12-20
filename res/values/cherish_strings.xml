@@ -60,4 +60,19 @@
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Display media cover art</string>
 
+	<!-- QS settings -->
+    <string name="qs_title">Quick settings</string>
+    <string name="qs_rows_portrait_title">Rows (portrait)</string>
+    <string name="qs_rows_landscape_title">Rows (landscape)</string>
+    <string name="qs_columns_portrait_title">Columns (portrait)</string>
+    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+
+    <!-- QS title visibility -->
+    <string name="qs_tile_title_visibility_title">Title visibility</string>
+    <string name="qs_tile_title_visibility_summary">Show the titles underneath QS tiles</string>
+
+    <!-- QS tiles haptic feedback -->
+    <string name="qs_vibrate_title">Vibrate on touch</string>
+    <string name="qs_vibrate_summary">Vibrate when touching QS tiles</string>
+
 </resources>
