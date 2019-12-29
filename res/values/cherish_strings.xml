@@ -615,4 +615,8 @@
     <string name="settings_dashboard_style_aosp">Aosp</string>
     <string name="settings_layout_category_title">Settings UI interface</string>
 
+    <!-- Lockscreen media artwork -->
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
+    <string name="show_lockscreen_media_art_title">Show media art</string>
+    <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
 </resources>

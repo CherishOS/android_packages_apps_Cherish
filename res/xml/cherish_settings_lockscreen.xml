@@ -58,6 +58,26 @@
 
     </PreferenceCategory> -->
 	
+	<PreferenceCategory
+        android:key="lockscreen_media_art_options"
+        android:title="@string/lockscreen_media_art_options_title" >
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/show_lockscreen_media_art_title"
+            android:defaultValue="true" />
+
+        <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="lockscreen_media_blur"
+            android:title="@string/lockscreen_media_blur_title"
+            android:dependency="lockscreen_media_metadata"
+            android:max="25"
+            android:min="0"
+            android:defaultValue="25"
+            settings:units="dp"/>
+
+    </PreferenceCategory>
+	
 	<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="screen_off_fod"
             android:title="@string/screen_off_fod_title"
