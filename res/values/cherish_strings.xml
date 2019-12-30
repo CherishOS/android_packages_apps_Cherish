@@ -67,6 +67,7 @@
 
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
 
 	<!-- QS settings -->
     <string name="qs_title">Quick settings</string>

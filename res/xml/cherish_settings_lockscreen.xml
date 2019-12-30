@@ -82,6 +82,16 @@
             android:title="@string/lockscreen_media_art_title"
             android:icon="@drawable/ic_media"
             android:defaultValue="true" />
+
+   <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="lockscreen_media_blur"
+            android:title="@string/lockscreen_media_blur_title"
+            android:dependency="lockscreen_media_metadata"
+            android:max="100"
+            settings:min="5"
+            settings:units="%"
+            settings:interval="5"
+            android:defaultValue="100"/>
   </PreferenceCategory>
     <SwitchPreference
         android:key="fingerprint_success_vib"
