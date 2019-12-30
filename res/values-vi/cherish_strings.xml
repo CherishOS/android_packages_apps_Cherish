@@ -47,4 +47,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Thông tin sạc màn hình khóa</string>
     <string name="lockscreen_battery_info_summary">Hiển thị dòng sạc tối đa của bộ sạc và điện áp và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
+
+    <!-- QS category -->
+    <string name="enable_clear_all_button">Thay thế xóa tất cả văn bản bằng nút đẹp</string>
+    <string name="enable_clear_all_button_summary">Hiển thị xóa tất cả nút thông báo trong cài đặt nhanh thay vì văn bản mặc định</string>
 </resources>
