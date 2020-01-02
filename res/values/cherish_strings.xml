@@ -79,6 +79,8 @@
     <string name="brightness_slider_qs_unexpanded_summary">Shows brightness slider below qs panel</string>
     <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
     <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+    <string name="enable_oneui">OneUI</string>
+    <string name="enable_oneui_summary">Show spacer above settings actionbar for easier use with one hand\nNOTE: restart settings app to see effect</string>
 	
      <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Clock style</string>
