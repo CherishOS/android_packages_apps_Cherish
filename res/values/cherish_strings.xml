@@ -79,5 +79,14 @@
     <string name="brightness_slider_qs_unexpanded_summary">Shows brightness slider below qs panel</string>
     <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
     <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+	
+     <!-- Lockscreen clock style -->
+    <string name="lockscreen_clock_title">Clock style</string>
+    <string name="lockscreen_clock_dialog_title">Select clock style</string>
+    <string name="lockscreen_clock_hide">Hide</string>
+    <string name="lockscreen_clock_default">Default</string>
+    <string name="lockscreen_clock_default_bold">Default (bold)</string>
+    <string name="lockscreen_clock_sammy">Sammy</string>
+    <string name="lockscreen_clock_sammy_bold">Sammy (bold)</string>
 
 </resources>

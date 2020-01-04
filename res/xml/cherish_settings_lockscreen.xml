@@ -30,4 +30,20 @@
             android:title="@string/lockscreen_media_art_title"
             android:icon="@drawable/ic_media"
             android:defaultValue="true" />
+
+   <!-- Lockscreen Clock -->
+    <PreferenceCategory
+        android:key="lockscreen_clock"
+        android:title="@string/lockscreen_clock_title">
+   
+   <com.cherish.settings.preferences.SecureSettingListPreference
+        android:key="lockscreen_clock_selection"
+        android:icon="@drawable/ic_lockscreen_clock_selection"
+        android:title="@string/lockscreen_clock_title"
+        android:dialogTitle="@string/lockscreen_clock_dialog_title"
+        android:entries="@array/lockscreen_clock_titles"
+        android:entryValues="@array/lockscreen_clock_values"
+        android:defaultValue="2" />
+
+   </PreferenceCategory>
 </PreferenceScreen>
