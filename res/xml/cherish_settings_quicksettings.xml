@@ -17,11 +17,21 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+	
+	<PreferenceCategory
+        android:title="@string/qs_category">
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_panel_bg_use_new_tint"
             android:title="@string/qs_bg_use_new_tint"
             android:summary="@string/qs_bg_use_new_tint_summary"
+            android:defaultValue="true" />
+			
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_blur"
+            android:icon="@drawable/ic_blur"
+            android:title="@string/blur_quicksettings"
+            android:summary="@string/blur_quicksettings_subtitle"
             android:defaultValue="true" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
@@ -36,6 +46,8 @@
             android:title="@string/enable_oneui"
             android:summary="@string/enable_oneui_summary"
             android:defaultValue="true" />
+			
+	</PreferenceCategory>
 	  
 	<PreferenceCategory
         android:title="@string/qs_title">

@@ -53,6 +53,8 @@
     <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
     <string name="qs_bg_use_new_tint">QS tile colors</string>
     <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
+    <string name="blur_quicksettings">Blur behind quick settings (beta)</string>
+    <string name="blur_quicksettings_subtitle">blurs darkened background behind quick settings</string>
 
     <!-- In-call feedback -->
     <string name="incall_feeedback_vibrate_title">Vibrate to indicate call status</string>
