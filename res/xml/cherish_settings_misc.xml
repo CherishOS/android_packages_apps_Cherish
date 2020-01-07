@@ -64,6 +64,13 @@
         android:summary="@string/click_partial_screenshot_summary"
         android:defaultValue="false" />
 
+       <com.cherish.settings.preferences.GlobalSettingSwitchPreference
+            android:key="allow_signature_fake"
+            android:icon="@drawable/ic_signature"
+            android:title="@string/allow_signature_fake"
+            android:summary="@string/allow_signature_fake_summary"
+            android:defaultValue="false" />
+
       <Preference
         android:key="vol_steps"
         android:title="@string/volume_steps_fragment_title"
