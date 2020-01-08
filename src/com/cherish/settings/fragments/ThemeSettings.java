@@ -4,12 +4,15 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import static android.os.UserHandle.USER_SYSTEM;
 import android.app.UiModeManager;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.UserHandle;
+import android.os.SystemProperties;
+import android.os.ServiceManager;
 import android.content.om.IOverlayManager;
 import android.os.RemoteException;
 import android.content.ContentResolver;
@@ -42,9 +45,11 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 			private static final String PREF_THEME_SWITCH = "theme_switch";
 			 private static final String ACCENT_COLOR = "accent_color";
     private static final String ACCENT_COLOR_PROP = "persist.sys.theme.accentcolor";
+    private static final String GRADIENT_COLOR = "gradient_color";
+    private static final String GRADIENT_COLOR_PROP = "persist.sys.theme.gradientcolor";
 
     private ColorPickerPreference mThemeColor;
-
+    private ColorPickerPreference mGradientColor;
     private UiModeManager mUiModeManager;
 	private IOverlayManager mOverlayService;
     private ListPreference mThemeSwitch;
@@ -62,6 +67,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 		mUiModeManager = getContext().getSystemService(UiModeManager.class);
 		setupThemeSwitchPref();
 		setupAccentPref();
+                 setupGradientPref();
         }
 
     @Override
@@ -123,6 +129,16 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                  mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
              } catch (RemoteException ignored) {
              }
+             } else if (preference == mGradientColor) {
+            int color = (Integer) objValue;
+            String hexColor = String.format("%08X", (0xFFFFFFFF & color));
+            SystemProperties.set(GRADIENT_COLOR_PROP, hexColor);
+            try {
+                 mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.settings", UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
+             } catch (RemoteException ignored) {
+             }
         }
         return true;
     }
@@ -168,6 +184,16 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                 : Color.parseColor("#" + colorVal);
         mThemeColor.setNewPreviewColor(color);
         mThemeColor.setOnPreferenceChangeListener(this);
+    }
+
+    private void setupGradientPref() {
+        mGradientColor = (ColorPickerPreference) findPreference(GRADIENT_COLOR);
+        String colorVal = SystemProperties.get(GRADIENT_COLOR_PROP, "-1");
+        int color = "-1".equals(colorVal)
+                ? Color.WHITE
+                : Color.parseColor("#" + colorVal);
+        mGradientColor.setNewPreviewColor(color);
+        mGradientColor.setOnPreferenceChangeListener(this);
     }
 
     @Override

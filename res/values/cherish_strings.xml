@@ -277,5 +277,7 @@
     <string name="themes_hub_summary">Accents-Gradients-Themes</string>
     <string name="accent_color">Accent picker</string>
     <string name="accent_summary">Gradient Maker</string>
+    <string name="gradient_color">Gradient picker</string>
+    <string name="gradient_summary">Gradient effect maker</string>
 
 </resources>
