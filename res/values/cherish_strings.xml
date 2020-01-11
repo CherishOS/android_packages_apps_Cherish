@@ -622,4 +622,5 @@
     <string name="file_header_select_title">Pick image from storage</string>
     <string name="file_header_select_summary">Select an image from internal storage</string>
     <string name="status_bar_custom_header_shadow_title">Darken image</string>
+    <string name="status_bar_custom_header_height_title">Image height offset</string>
 </resources>
