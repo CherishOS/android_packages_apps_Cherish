@@ -51,7 +51,8 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     <string name="default_string">Default</string>
-	<string name="disabled">Disabled</string>
+    <string name="enable">Enable</string>
+    <string name="disabled">Disabled</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -770,4 +771,6 @@
     <string name="qs_header_file_select_title">Select image</string>
     <string name="qs_header_file_select_summary">Select custom image</string>
     <string name="qs_header_needs_gallery">You must install a gallery app!</string>
+    <string name="qs_header_offset_title">Header image offset</string>
+    <string name="qs_header_offset_summary">Adjust the image header size</string>
 </resources>
