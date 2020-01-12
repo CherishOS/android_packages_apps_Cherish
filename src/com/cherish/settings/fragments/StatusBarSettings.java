@@ -1,4 +1,4 @@
-package com.nitrogen.settings.fragments;
+package com.cherish.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -41,7 +41,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.nitrogen_settings_statusbar);
+        addPreferencesFromResource(R.xml.cherish_settings_statusbar);
 
         PreferenceScreen prefSet = getPreferenceScreen();
 
