@@ -169,8 +169,8 @@
     <!-- Battery percent -->
     <string-array name="battery_percent_entries">
         <item>@string/status_bar_battery_percentage_default</item>
-        <item>@string/status_bar_battery_percentage_text_next</item>
         <item>@string/status_bar_battery_percentage_text_inside</item>
+        <item>@string/status_bar_battery_percentage_text_next</item>
     </string-array>
 
     <string-array name="battery_percent_values" translatable="false">
@@ -193,6 +193,21 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+    </string-array>
+
+    <!-- Battery mode -->
+    <string-array name="qs_battery_mode_entries">
+        <item>@string/battery_percentage_off</item>
+        <item>@string/battery_percentage_next</item>
+        <item>@string/battery_percentage_inside</item>
+        <item>@string/battery_percentage_estimate</item>
+    </string-array>
+
+    <string-array name="qs_battery_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 
 </resources>

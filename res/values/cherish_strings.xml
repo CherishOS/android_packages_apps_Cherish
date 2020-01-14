@@ -173,5 +173,14 @@
     <string name="status_bar_battery_percentage_default">Hidden (default)</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
+    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+
+    <!-- Battery mode -->
+    <string name="battery_percentage_title">Battery percentage</string>
+    <string name="battery_percentage_off">Disabled</string>
+    <string name="battery_percentage_next">Enabled</string>
+    <string name="battery_percentage_inside">Enabled (inside icon)</string>
+    <string name="battery_percentage_estimate">Enabled (estimate)</string>
 
 </resources>
