@@ -452,4 +452,13 @@
     <string name="lock_ownerinfo_font_summary">Change the default font of the lockscreen owner info</string>
     <string name="lock_ownerinfo_font_dialog_title">Select lock ownerinfo font</string>
     <string name="lockowner_font_size_title">Owner info font size</string>
+
+    <!-- Lockscreen clock style -->
+    <string name="lockscreen_clock_title">Clock style</string>
+    <string name="lockscreen_clock_dialog_title">Select clock style</string>
+    <string name="lockscreen_clock_hide">Hide</string>
+    <string name="lockscreen_clock_default">Default</string>
+    <string name="lockscreen_clock_default_bold">Default (bold)</string>
+    <string name="lockscreen_clock_sammy">Sammy</string>
+    <string name="lockscreen_clock_sammy_bold">Sammy (bold)</string>
 </resources>
