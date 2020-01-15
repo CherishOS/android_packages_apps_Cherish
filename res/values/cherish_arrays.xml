@@ -377,6 +377,10 @@
         <item>@string/lockscreen_clock_sammy</item>
         <item>@string/lockscreen_clock_sammy_bold</item>
         <item>@string/lockscreen_clock_text_style</item>
+        <item>@string/lockscreen_clock_sammy_accent_hour</item>
+        <item>@string/lockscreen_clock_sammy_accent_mins</item>
+        <item>@string/lockscreen_clock_analog_style</item>
+        <item>@string/lockscreen_clock_analog_num_style</item>
     </string-array>
 
     <string-array name="lockscreen_clock_values">
@@ -386,5 +390,9 @@
         <item>4</item>
         <item>5</item>
 	<item>6</item>
+        <item>7</item>
+        <item>8</item>
+	<item>9</item>
+	<item>10</item>
     </string-array>
 </resources>
