@@ -1201,4 +1201,8 @@
 	<!-- Notification Vibration -->
     <string name="vibrate_on_notifications_title">Vibrate for notifications</string>
     <string name="vibrate_on_notifications_summary">Toogle for disable vibrate notification</string>
+	
+	<!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 </resources>
