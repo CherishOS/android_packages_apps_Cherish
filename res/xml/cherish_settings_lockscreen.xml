@@ -65,6 +65,13 @@
         android:summary="@string/fprint_error_vib_summary"
         android:defaultValue="true" />
 		
+	<com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="hide_lockicon"
+			 android:icon="@drawable/ic_lock_outline"
+            android:title="@string/hide_lockicon_title"
+            android:summary="@string/hide_lockicon_summary"
+            android:defaultValue="true" />
+		
 	<Preference
         android:key="always_on_display_schedule"
 		android:icon="@drawable/ic_upset"
