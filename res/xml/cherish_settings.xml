@@ -30,6 +30,13 @@
             android:title="@string/quicksettings_title"
             android:fragment="com.cherish.settings.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/>
+			
+		<!-- Themes -->
+        <Preference
+            android:key="theme_category"
+            android:title="@string/theme_title"
+            android:fragment="com.cherish.settings.fragments.ThemeSettings"
+            android:icon="@drawable/ic_settings_themes"/>
 
         <!-- Buttons -->
 		<Preference

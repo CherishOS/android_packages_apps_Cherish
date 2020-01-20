@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Nitrogen OS
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,6 +24,7 @@
     <string name="recents_title">Ứng dụng gần đây</string>
     <string name="statusbar_title">Thanh trạng thái</string>
     <string name="volume_title">Phím Âm lượng</string>
+    <string name="theme_title">Chủ đề</string>
     <string name="notifications_title">Thông báo</string>
     <string name="device_part_title">Tính năng thiết bị</string>
     <string name="qs_category">Kiểu Qs</string>
@@ -229,4 +230,10 @@
 	<!-- Old MobileType Toggle -->
     <string name="use_old_mobiletype_title">Sử dụng kiểu di động cũ</string>
     <string name="use_old_mobiletype_summary">Hợp nhất các tín hiệu và loại biểu tượng</string>
+	<!-- Themes -->
+    <string name="theme_type_title">Chủ đề hệ thống</string>
+    <string name="theme_type_summary">Lựa chọn chủ đê</string>
+    <string name="theme_type_light">Sáng</string>
+    <string name="theme_type_pitch_black">Google dark</string>
+    <string name="theme_type_solarized_dark">Solarized dark</string>
 </resources>

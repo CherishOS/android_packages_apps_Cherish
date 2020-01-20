@@ -21,6 +21,7 @@
     <string name="misc_title">Miscellaneous</string>
     <string name="navbar_title">Navigation bar</string>
     <string name="powermenu_title">Power menu</string>
+    <string name="theme_title">Themes</string>
     <string name="quicksettings_title">Quick Settings</string>
     <string name="recents_title">Recents apps</string>
     <string name="statusbar_title">Status bar</string>
@@ -259,5 +260,12 @@
 	<!-- Old MobileType Toggle -->
     <string name="use_old_mobiletype_title">Use old mobile type style</string>
     <string name="use_old_mobiletype_summary">Merge signal and type icons</string>
+	
+	<!-- Themes -->
+    <string name="theme_type_title">System theme</string>
+    <string name="theme_type_summary">Select theme</string>
+    <string name="theme_type_light">Light</string>
+    <string name="theme_type_pitch_black">Google dark</string>
+    <string name="theme_type_solarized_dark">Solarized dark</string>
 
 </resources>
