@@ -14,7 +14,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-	
+
 	<PreferenceCategory
             android:key="status_bar_icons"
             android:title="@string/status_bar_system_icons_title">
@@ -39,7 +39,15 @@
         android:max="10"
         settings:min="0"
         settings:units="" />
-			
+
+   <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="network_traffic_hidearrow"
+        android:title="@string/network_traffic_hidearrow"
+	android:icon="@drawable/ic_arrow"
+        android:summary="@string/network_traffic_hidearrow_summary"
+        android:dependency="network_traffic_state"
+        android:defaultValue="false" />
+
 <com.cherish.settings.preferences.SystemSettingMasterSwitchPreference
         android:key="status_bar_clock"
         android:icon="@drawable/ic_clock"
@@ -47,7 +55,7 @@
         android:title="@string/status_bar_clock_title"
         android:summary="@string/status_bar_clock_summary"
         android:defaultValue="true" />
-		
+
 		</PreferenceCategory>
 
      <PreferenceCategory
@@ -79,4 +87,4 @@
             android:defaultValue="true" />
 
     </PreferenceCategory>
-</PreferenceScreen>
+</PreferenceScreen> 
