@@ -25,8 +25,21 @@
             android:summary="@string/status_bar_system_icons_summary">
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
     </Preference>
-</PreferenceCategory>
 
+<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="network_traffic_state"
+		android:icon="@drawable/ic_network_traffic"
+        android:title="@string/network_traffic_state_title"
+        android:defaultValue="false" />
+
+    <com.cherish.settings.preferences.CustomSeekBarPreference
+        android:key="network_traffic_autohide_threshold"
+		android:icon="@drawable/ic_network_traffic"
+        android:title="@string/network_traffic_autohide_threshold_title"
+        android:max="10"
+        settings:min="0"
+        settings:units="" />
+			
 <com.cherish.settings.preferences.SystemSettingMasterSwitchPreference
         android:key="status_bar_clock"
         android:icon="@drawable/ic_clock"
@@ -34,6 +47,8 @@
         android:title="@string/status_bar_clock_title"
         android:summary="@string/status_bar_clock_summary"
         android:defaultValue="true" />
+		
+		</PreferenceCategory>
 
      <PreferenceCategory
 
