@@ -27,6 +27,7 @@
     <string name="volume_title">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
     <string name="device_part_title">Device features</string>
+    <string name="qs_category">QS category</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -53,6 +54,8 @@
     <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
     <string name="qs_bg_use_new_tint">QS tile colors</string>
     <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
+    <string name="qs_blur_alpha_title">Blur alpha</string>
+    <string name="qs_blur_alpha_summary">Sets the blur transparency</string>
     <string name="blur_quicksettings">Blur behind quick settings (beta)</string>
     <string name="blur_quicksettings_subtitle">blurs darkened background behind quick settings</string>
 

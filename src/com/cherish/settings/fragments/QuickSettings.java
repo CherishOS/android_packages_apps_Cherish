@@ -14,6 +14,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
+import com.cherish.settings.preferences.CustomSeekBarPreference;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -26,7 +27,9 @@ import java.util.ArrayList;
 
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
-
+   private static final String QS_BLUR_ALPHA = "qs_blur_alpha";
+  
+   private CustomSeekBarPreference mQSBlurAlpha;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -36,12 +39,22 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+        mQSBlurAlpha = (CustomSeekBarPreference) findPreference(QS_BLUR_ALPHA);
+        int qsBlurAlpha = Settings.System.getInt(getContentResolver(),
+                Settings.System.QS_BLUR_ALPHA, 100);
+        mQSBlurAlpha.setValue(qsBlurAlpha);
+        mQSBlurAlpha.setOnPreferenceChangeListener(this);
 
         }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-
+         if (preference == mQSBlurAlpha) {
+            int value = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_BLUR_ALPHA, value);
+            return true;
+        }
         return false;
     }
 

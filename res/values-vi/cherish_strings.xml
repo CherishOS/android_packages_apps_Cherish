@@ -27,6 +27,7 @@
     <string name="volume_title">Phím rockers</string>
     <string name="notifications_title">Thông báo</string>
     <string name="device_part_title">Chứ năng thiết bị</string>
+    <string name="blur_tiles_title">Làm mờ</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -51,4 +52,5 @@
     <!-- QS category -->
     <string name="enable_clear_all_button">Thay thế xóa tất cả văn bản bằng nút đẹp</string>
     <string name="enable_clear_all_button_summary">Hiển thị xóa tất cả nút thông báo trong cài đặt nhanh thay vì văn bản mặc định</string>
+
 </resources>
