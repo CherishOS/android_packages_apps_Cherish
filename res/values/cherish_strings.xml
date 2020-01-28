@@ -634,6 +634,8 @@
     <string name="pulse_ambient_light_duration">Edge light pulse duration</string>
     <string name="edgelight_left">Left Edge</string>
     <string name="edgelight_right">Right Edge</string>
-    <string name="ambient_notification_light_enabled_title">Always on ambient lights on notification</string>
-    <string name="ambient_notification_light_enabled_sumary">Show Always On light bars when receiving a notification</string>
+    <string name="ambient_notification_light_enabled_title">Show on AoD</string>
+    <string name="ambient_notification_light_enabled_sumary">Keep showing on always on display. Until the screen is turned on</string>
+    <string name="ambient_notification_light_hide_aod_title">Hide AoD content</string>
+    <string name="ambient_notification_light_hide_aod_sumary">Hide other AoD content when bars are showing</string>
 </resources>
