@@ -638,4 +638,7 @@
     <string name="ambient_notification_light_enabled_sumary">Keep showing on always on display. Until the screen is turned on</string>
     <string name="ambient_notification_light_hide_aod_title">Hide AoD content</string>
     <string name="ambient_notification_light_hide_aod_sumary">Hide other AoD content when bars are showing</string>
+    <string name="pulse_ambient_light_pulse_for_all_title">Pulse for all doze events</string>
+    <string name="pulse_ambient_light_pulse_for_all_summary">Pulses for any doze wake and not just notifications when enabled</string>
+
 </resources>

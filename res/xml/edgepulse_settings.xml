@@ -17,6 +17,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/pulse_ambient_light_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+	
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="pulse_ambient_light_pulse_for_all"
+        android:title="@string/pulse_ambient_light_pulse_for_all_title"
+        android:summary="@string/pulse_ambient_light_pulse_for_all_summary"
+        android:defaultValue="false" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="ambient_notification_light_enabled"
