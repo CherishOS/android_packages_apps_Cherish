@@ -59,6 +59,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String KEY_FOD_RECOGNIZING_ANIMATION = "fod_recognizing_animation";
     private static final String KEY_FOD_RECOGNIZING_ANIMATION_LIST = "fod_recognizing_animation_list";
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
+	private static final String KEY_CHARGE_INFO_FONT = "lockscreen_battery_info_font";
 	
 	static final int MODE_DISABLED = 0;
     static final int MODE_NIGHT = 1;
@@ -70,6 +71,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private ListPreference mLockDateFonts;
 	private ListPreference mTextClockFonts;
     private ListPreference mLockOwnerInfoFonts;
+	private ListPreference mChargingInfoFont;
     private CustomSeekBarPreference mClockFontSize;
     private CustomSeekBarPreference mDateFontSize;
     private CustomSeekBarPreference mOwnerInfoFontSize;
@@ -130,6 +132,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
                 getContentResolver(), Settings.System.CUSTOM_TEXT_CLOCK_FONTS, 32)));
         mTextClockFonts.setSummary(mTextClockFonts.getEntry());
         mTextClockFonts.setOnPreferenceChangeListener(this);
+		
+		mChargingInfoFont = (ListPreference) findPreference(KEY_CHARGE_INFO_FONT);
+        mChargingInfoFont.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCKSCREEN_BATTERY_INFO_FONT, 28)));
+        mChargingInfoFont.setSummary(mChargingInfoFont.getEntry());
+        mChargingInfoFont.setOnPreferenceChangeListener(this);
 		
 		// Custom Text Clock Size
         mCustomTextClockFontSize = (CustomSeekBarPreference) findPreference(CUSTOM_TEXT_CLOCK_FONT_SIZE);
@@ -225,6 +233,13 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             int top = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKOWNER_FONT_SIZE, top*1);
+            return true;
+		} else if (preference == mChargingInfoFont) {
+            int value = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_BATTERY_INFO_FONT, value);
+            mChargingInfoFont.setValue(String.valueOf(value));
+            mChargingInfoFont.setSummary(mChargingInfoFont.getEntry());
             return true;
         }
         return false;
