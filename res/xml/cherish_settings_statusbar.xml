@@ -26,6 +26,7 @@
 		
      <com.cherish.settings.preferences.SystemSettingMasterSwitchPreference
         android:key="status_bar_clock"
+        android:icon="@drawable/ic_clock"
         android:fragment="com.cherish.settings.fragments.ClockSettings" 
         android:title="@string/status_bar_clock_title"
         android:summary="@string/status_bar_clock_summary"
