@@ -644,5 +644,8 @@
     <string name="ambient_notification_light_accent_summary">Sync color with accent color</string>
     <string name="pulse_ambient_light_pulse_for_all_repeat_title">Repeat edge lighting</string>
     <string name="pulse_ambient_light_pulse_for_all_repeat_summary">Repeat edge lighting animation on doze wake</string>
+    <string name="pulse_ambient_light_repeat_mode_title">Edge Light Animation</string>
+    <string name="pulse_ambient_light_anim_restart">Restart</string>
+    <string name="pulse_ambient_light_anim_reverse">Reverse</string>
 
 </resources>

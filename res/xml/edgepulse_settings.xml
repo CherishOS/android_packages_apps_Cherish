@@ -68,6 +68,13 @@
             android:persistent="false"
             android:dependency="pulse_ambient_light_auto_color_left"
             settings:defaultColorValue="0xFF3980FF" />
+			
+		<com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="pulse_ambient_light_repeat_mode_left"
+            android:title="@string/pulse_ambient_light_repeat_mode_title"
+            android:entries="@array/pulse_ambient_light_anim_entries"
+            android:entryValues="@array/pulse_ambient_light_anim_values"
+            android:defaultValue="0" />
 
         <com.cherish.settings.preferences.SystemSettingSeekBarPreference
             android:key="pulse_ambient_light_left_duration"
@@ -103,6 +110,13 @@
             android:persistent="false"
             android:dependency="pulse_ambient_light_auto_color_right"
             settings:defaultColorValue="0xFF3980FF" />
+			
+		<com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="pulse_ambient_light_repeat_mode_right"
+            android:title="@string/pulse_ambient_light_repeat_mode_title"
+            android:entries="@array/pulse_ambient_light_anim_entries"
+            android:entryValues="@array/pulse_ambient_light_anim_values"
+            android:defaultValue="0" />
 
         <com.cherish.settings.preferences.SystemSettingSeekBarPreference
             android:key="pulse_ambient_light_right_duration"

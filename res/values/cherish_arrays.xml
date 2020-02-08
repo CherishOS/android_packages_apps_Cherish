@@ -563,4 +563,15 @@
         <item>@string/daylight_header_provider</item>
         <item>@string/file_header_provider</item>
     </string-array>
+	
+	<!-- Edge light Animation -->
+    <string-array name="pulse_ambient_light_anim_entries">
+        <item>@string/pulse_ambient_light_anim_restart</item>
+        <item>@string/pulse_ambient_light_anim_reverse</item>
+    </string-array>
+
+    <string-array name="pulse_ambient_light_anim_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
 </resources>
