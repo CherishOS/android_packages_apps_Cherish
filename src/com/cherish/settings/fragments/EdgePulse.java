@@ -24,6 +24,7 @@ import android.provider.Settings;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
@@ -38,9 +39,13 @@ public class EdgePulse extends SettingsPreferenceFragment implements
 
     private static final String PULSE_AMBIENT_LIGHT_COLOR_LEFT = "pulse_ambient_light_color_left";
     private static final String PULSE_AMBIENT_LIGHT_COLOR_RIGHT = "pulse_ambient_light_color_right";
+    private static final String AMBIENT_NOTIFICATION_LIGHT_ENABLED = "ambient_notification_light_enabled";
+    private static final String AMBIENT_NOTIFICATION_LIGHT_HIDE_AOD = "ambient_notification_light_hide_aod";
 
     private ColorPickerPreference mLeftEdgeLightColorPreference;
     private ColorPickerPreference mRightEdgeLightColorPreference;
+    private SwitchPreference mAmbientNotifLight;
+    private SwitchPreference mAmbientContentHide;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -49,6 +54,7 @@ public class EdgePulse extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.edgepulse_settings);
 
         ContentResolver resolver = getActivity().getContentResolver();
+        PreferenceScreen prefScreen = getPreferenceScreen();
 
         mLeftEdgeLightColorPreference = (ColorPickerPreference) findPreference(PULSE_AMBIENT_LIGHT_COLOR_LEFT);
         mLeftEdgeLightColorPreference.setOnPreferenceChangeListener(this);
@@ -73,6 +79,19 @@ public class EdgePulse extends SettingsPreferenceFragment implements
             mRightEdgeLightColorPreference.setSummary(rightEdgeLightColorHex);
         }
         mRightEdgeLightColorPreference.setNewPreviewColor(rightEdgeLightColor);
+
+        mAmbientNotifLight = (SwitchPreference) findPreference(AMBIENT_NOTIFICATION_LIGHT_ENABLED);
+        mAmbientContentHide = (SwitchPreference) findPreference(AMBIENT_NOTIFICATION_LIGHT_HIDE_AOD);
+        boolean mAlwaysOnByDefault = getResources().getBoolean(com.android.internal.R.bool.config_dozeAlwaysOnEnabled);
+        boolean mAODDisabled = Settings.Secure.getIntForUser(resolver,
+                Settings.Secure.DOZE_ALWAYS_ON, mAlwaysOnByDefault ? 1 : 0,
+                UserHandle.USER_CURRENT) == 0;
+        if (!getResources().getBoolean(com.android.internal.R.bool.config_dozeAlwaysOnDisplayAvailable)) {
+            prefScreen.removePreference(mAmbientNotifLight);
+            prefScreen.removePreference(mAmbientContentHide);
+        } else if (!mAODDisabled) {
+            prefScreen.removePreference(mAmbientContentHide);
+        }
     }
 
     @Override
