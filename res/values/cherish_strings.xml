@@ -647,5 +647,8 @@
     <string name="pulse_ambient_light_repeat_mode_title">Edge Light Animation</string>
     <string name="pulse_ambient_light_anim_restart">Restart</string>
     <string name="pulse_ambient_light_anim_reverse">Reverse</string>
+    <string name="pulse_ambient_light_layout_title">Edge Light View</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
 
 </resources>
