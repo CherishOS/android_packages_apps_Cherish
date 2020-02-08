@@ -642,5 +642,7 @@
     <string name="pulse_ambient_light_pulse_for_all_summary">Pulses for any doze wake and not just notifications when enabled</string>
     <string name="ambient_notification_light_accent_title">Accent color</string>
     <string name="ambient_notification_light_accent_summary">Sync color with accent color</string>
+    <string name="pulse_ambient_light_pulse_for_all_repeat_title">Repeat edge lighting</string>
+    <string name="pulse_ambient_light_pulse_for_all_repeat_summary">Repeat edge lighting animation on doze wake</string>
 
 </resources>
