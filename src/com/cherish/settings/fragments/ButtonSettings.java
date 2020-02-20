@@ -56,12 +56,18 @@ import android.provider.SearchIndexableResource;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import java.util.Locale;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class ButtonSettings extends ActionFragment implements OnPreferenceChangeListener {
 
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
     private static final String KEY_NAVIGATION_BAR_ENABLED = "force_show_navbar";
     private static final String KEY_LAYOUT_SETTINGS = "layout_settings";
+    private static final String KEY_NAVIGATION_BAR_ARROWS = "navigation_bar_menu_arrow_keys";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -92,7 +98,9 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private CustomSeekBarPreference mManualButtonBrightness;
     private PreferenceCategory mButtonBackLightCategory;
 
+    private Preference mLayoutSettings;
     private SwitchPreference mNavigationBar;
+    private SystemSettingSwitchPreference mNavigationArrows;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -203,7 +211,9 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
                 defaultToNavigationBar ? 1 : 0) == 1));
         mNavigationBar.setOnPreferenceChangeListener(this);
 
-        Preference mLayoutSettings = (Preference) findPreference(KEY_LAYOUT_SETTINGS);
+        mLayoutSettings = (Preference) findPreference(KEY_LAYOUT_SETTINGS);
+
+        mNavigationArrows = (SystemSettingSwitchPreference) findPreference(KEY_NAVIGATION_BAR_ARROWS);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
