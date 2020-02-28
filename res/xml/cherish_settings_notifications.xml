@@ -178,6 +178,12 @@
             android:entries="@array/pulse_ambient_light_layout_entries"
             android:entryValues="@array/pulse_ambient_light_layout_values"
             android:defaultValue="0" />
+			
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="ambient_light_pulse_for_all"
+            android:title="@string/pulse_ambient_light_show_always_title"
+            android:summary="@string/pulse_ambient_light_show_always_summary"
+            android:defaultValue="false" />
 
         <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="ambient_notification_light_timeout"
