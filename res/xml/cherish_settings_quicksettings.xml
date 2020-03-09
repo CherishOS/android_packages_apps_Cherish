@@ -19,6 +19,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_panel_bg_use_new_tint"
+            android:title="@string/qs_bg_use_new_tint"
+            android:summary="@string/qs_bg_use_new_tint_summary"
+            android:defaultValue="true" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
       android:key="dismiss_all_button"
 	  android:icon="@drawable/ic_x"
       android:title="@string/enable_clear_all_button"
