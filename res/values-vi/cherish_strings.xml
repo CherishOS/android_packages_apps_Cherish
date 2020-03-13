@@ -202,6 +202,8 @@
 	<!-- Battery estimate -->
     <string name="battery_estimate_title">Ước tính pin</string>
     <string name="battery_estimate_summary">Hiển thị thời lượng pin còn lại ước tính khi có sẵn</string>
+    <string name="status_bar_battery_bolt_charging_title">Biểu tượng bolt khi sạc</string>
+    <string name="status_bar_battery_bolt_charging_summary">Luôn hiển thị biểu tượng bolt bên cạnh phần trăm pin khi sạc</string>
     <!-- Network traffic -->
     <string name="traffic_title">Hiển thị tốc độ mạng</string>
     <string name="traffic_title_summary">Tùy chỉnh chỉ số lưu lượng mạng</string>

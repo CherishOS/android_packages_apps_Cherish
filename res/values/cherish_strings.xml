@@ -212,6 +212,8 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
     <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="status_bar_battery_bolt_charging_title">Bolt icon when charging</string>
+    <string name="status_bar_battery_bolt_charging_summary">Always display a bolt icon next to the battery percentage when charging</string>
 
     <!-- Battery percent  -->
     <string name="battery_percentage_title">Battery percentage</string>

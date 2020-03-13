@@ -152,5 +152,12 @@
             android:summary="@string/status_bar_battery_text_charging_summary"
             android:defaultValue="true" />
 
+      <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="status_bar_battery_bolt_charging"
+	    android:icon="@drawable/ic_lighting_bolt"
+            android:title="@string/status_bar_battery_bolt_charging_title"
+            android:summary="@string/status_bar_battery_bolt_charging_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 </PreferenceScreen> 

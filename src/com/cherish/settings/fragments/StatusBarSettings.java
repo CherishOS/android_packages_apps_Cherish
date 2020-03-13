@@ -42,6 +42,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_CLOCK = "status_bar_clock";
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_BATTERY_TEXT_CHARGING = "status_bar_battery_text_charging";
+	private static final String STATUS_BAR_BATTERY_BOLT_CHARGING = "status_bar_battery_bolt_charging";
     private static final String BATTERY_PERCENTAGE_HIDDEN = "0";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
 
@@ -55,6 +56,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
     private SwitchPreference mBatteryCharging;
+	 private SwitchPreference mBatteryBolt;
 	private CustomSeekBarPreference mThreshold;
     private SystemSettingSwitchPreference mNetMonitor;
 
@@ -75,7 +77,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         mBatteryPercent = (ListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
         mBatteryCharging = (SwitchPreference) findPreference(STATUS_BAR_BATTERY_TEXT_CHARGING);
-
+		 mBatteryBolt  = (SwitchPreference) findPreference(STATUS_BAR_BATTERY_BOLT_CHARGING);
         mBatteryStyle = (ListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         int batterystyle = Settings.System.getInt(resolver,
                 Settings.System.STATUS_BAR_BATTERY_STYLE, BATTERY_STYLE_Q);
@@ -129,6 +131,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 	
 	private void updateBatteryOptions(int batterystyle) {
 		boolean enabled = batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN;
+			 mBatteryBolt.setEnabled(batterystyle == BATTERY_STYLE_TEXT);
             mBatteryCharging.setEnabled(enabled);
             mBatteryPercent.setEnabled(enabled);
     }
