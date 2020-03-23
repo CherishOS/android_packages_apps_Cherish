@@ -488,4 +488,6 @@
     <string name="qs_footer_text_summary">Hiển thị văn bản ở dưới cùng của bảng cài đặt nhanh</string>
     <string name="qs_footer_text_string_title">Tùy chỉnh văn bản cuối trang</string>
     <string name="qs_footer_text_string_summary">Đặt mặc định là #KeeptheLove</string>
+	<string name="brightness_slider_qs_unexpanded">Thanh trượt độ sáng kiểu MIUI (beta)</string>
+    <string name="brightness_slider_qs_unexpanded_summary">Hiển thị thanh trượt độ sáng trong bảng điều khiển nhanh</string>
 </resources>

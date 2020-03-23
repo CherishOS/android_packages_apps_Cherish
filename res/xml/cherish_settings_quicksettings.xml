@@ -124,6 +124,13 @@
         android:title="@string/lockscreen_qs_disabled_title"
         android:summary="@string/lockscreen_qs_disabled_summary"
         android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="brightness_slider_qs_unexpanded"
+            android:icon="@drawable/ic_brightness_qs"
+            android:title="@string/brightness_slider_qs_unexpanded"
+            android:summary="@string/brightness_slider_qs_unexpanded_summary"
+            android:defaultValue="false" />
         
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_bottom_brightness" 
