@@ -32,18 +32,11 @@
             android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Buttons -->
-        <Preference
-            android:key="buttonsettings_category"
-            android:title="@string/button_title"
-            android:fragment="com.cherish.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
-
-        <!-- Navigation Bar -->
-        <Preference
-            android:key="navigationbar_category"
+		<Preference
+            android:key="button_settings"
             android:title="@string/navbar_title"
-            android:fragment="com.cherish.settings.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
+            android:icon="@drawable/ic_settings_buttons"
+            android:fragment="com.android.settings.custom.buttons.ButtonSettings"/>
 
         <!-- Lock Screen -->
         <Preference
