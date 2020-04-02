@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019 The CherishOS
+<!-- Copyright (C) 2016 The Nitrogen OS
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -12,44 +12,218 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="cherish_settings_title">Yêu Thương</string>
-
+    <string name="cherish_settings_title">Thông Điệp Yêu Thương</string>
     <!-- Categories -->
-    <string name="button_title">Nút</string>
+    <string name="button_title">Phím</string>
     <string name="gestures_title">Cử chỉ</string>
-    <string name="lockscreen_title">Màn hình khóa</string>
+    <string name="lockscreen_title">Màn hình khoá</string>
     <string name="misc_title">Khác</string>
     <string name="navbar_title">Thanh điều hướng</string>
-    <string name="powermenu_title">Menu nguồn</string>
+    <string name="powermenu_title">Trình đơn nguồn</string>
     <string name="quicksettings_title">Cài đặt nhanh</string>
     <string name="recents_title">Ứng dụng gần đây</string>
     <string name="statusbar_title">Thanh trạng thái</string>
-    <string name="volume_title">Phím rockers</string>
+    <string name="volume_title">Phím Âm lượng</string>
     <string name="notifications_title">Thông báo</string>
-    <string name="device_part_title">Chứ năng thiết bị</string>
-    <string name="blur_tiles_title">Làm mờ</string>
-
+    <string name="device_part_title">Tính năng thiết bị</string>
+    <string name="qs_category">Kiểu Qs</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Thiết lập lại</string>
-    <string name="cancel">Hủy bỏ</string>
-    <string name="save">Lưu lại</string>
-
+    <string name="cancel">Huỷ</string>
+    <string name="save">Lưu</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Chọn màu</string>
-    <string name="press_color_to_apply">Nhấn vào màu bên dưới để áp dụng</string>
+    <string name="dialog_color_picker">Bảng màu</string>
+    <string name="press_color_to_apply">Chạm vào màu sắc bên dưới để áp dụng</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Đặt</string>
+    <string name="set">Thiết lập</string>
     <string name="color_default">Mặc định</string>
-
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Thông tin sạc màn hình khóa</string>
-    <string name="lockscreen_battery_info_summary">Hiển thị dòng sạc tối đa của bộ sạc và điện áp và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
-
+    <string name="lockscreen_battery_info_title">Thông tin sạc màn hình khoá</string>
+    <string name="lockscreen_battery_info_summary">Hiển thị điện áp bộ sạc tối đa hiện tại đã ước tính và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
     <!-- QS category -->
     <string name="enable_clear_all_button">Thay thế xóa tất cả văn bản bằng nút đẹp</string>
     <string name="enable_clear_all_button_summary">Hiển thị xóa tất cả nút thông báo trong cài đặt nhanh thay vì văn bản mặc định</string>
+    <string name="qs_bg_use_new_tint">Màu tiles QS</string>
+    <string name="qs_bg_use_new_tint_summary">Sử dụng màu nhấn cho biểu tượng và hình nền của qs</string>
+    <string name="qs_blur_alpha_title">Làm mờ alpha</string>
+    <string name="qs_blur_alpha_summary">Đặt độ trong suốt mờ</string>
+    <string name="blur_quicksettings">Làm mờ phía sau cài đặt nhanh (beta)</string>
+    <string name="blur_quicksettings_subtitle">làm mờ nền tối phía sau cài đặt nhanh</string>
+    <string name="qs_blur_intensity_title">Mức độ làm mờ</string>
+    <string name="qs_blur_intensity_summary">Đặt cường độ / bán kính mờ</string>
+    <string name="unit_percent">\u0025</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Rung để chỉ trạng thái cuộc gọi</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Hiển thị ảnh bìa đa phương tiện</string>
+    <!-- QS settings -->
+    <string name="qs_title">Cài đặt nhanh</string>
+    <string name="qs_rows_portrait_title">Cột (màn hình dọc)</string>
+    <string name="qs_rows_landscape_title">Hàng (ngang)</string>
+    <string name="qs_columns_portrait_title">Cột (màn hình dọc)</string>
+    <string name="qs_columns_landscape_title">Cột (màn hình ngang)</string>
+    <!-- QS title visibility -->
+    <string name="qs_tile_title_visibility_title">Hiển thị tiêu đề</string>
+    <string name="qs_tile_title_visibility_summary">Hiển thị các tiêu đề bên dưới ô cài đặt nhanh</string>
+    <!-- QS tiles haptic feedback -->
+    <string name="qs_vibrate_title">Rung khi chạm</string>
+    <string name="qs_vibrate_summary">Rung khi chạm các ô cài đặt nhanh</string>
+    <string name="brightness_slider_qs_unexpanded">Thanh trượt độ sáng kiểu MIUI (beta)</string>
+    <string name="brightness_slider_qs_unexpanded_summary">Hiển thị thanh trượt độ sáng trong bảng điều khiển nhanh</string>
+    <string name="qs_brightness_position_bottom_title">Thanh trượt chỉnh độ sáng ở dưới</string>
+    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
+    <string name="enable_oneui">OneUI</string>
+    <string name="enable_oneui_summary">Hiển thị thanh hành động cài đặt trên miếng đệm để sử dụng dễ dàng hơn bằng một tay \ nNote: khởi động lại ứng dụng cài đặt để thấy hiệu quả</string>
+    <!-- Lockscreen clock style -->
+    <string name="lockscreen_clock_title">Kiểu đồng hồ</string>
+    <string name="lockscreen_clock_dialog_title">Chọn kiểu đồng hồ</string>
+    <string name="lockscreen_clock_hide">Ẩn</string>
+    <string name="lockscreen_clock_default">Mặc định</string>
+    <string name="lockscreen_clock_default_bold">Mặc định (đậm)</string>
+    <string name="lockscreen_clock_default_accent">Mặc định (màu ấn)</string>
+    <string name="lockscreen_clock_default_accent_min">Đồng hồ dọc (Màu nhấn theo phút)</string>
+    <string name="lockscreen_clock_default_accent_hour">Mặc định (giờ nhấn)</string>
+    <string name="lockscreen_clock_sammy">Đồng hồ dọc</string>
+    <string name="lockscreen_clock_sammy_bold">Xếp dọc (đậm)</string>
+    <string name="lockscreen_clock_sammy_accent_hour">Đồng hồ dọc (Màu nhấn theo giờ)</string>
+    <string name="lockscreen_clock_sammy_accent_min">Đồng hồ dọc (Màu nhấn theo phút)</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_title">Kiểu ngày</string>
+    <string name="lockscreen_date_selection_title">Kiểu ngày</string>
+    <string name="lockscreen_date_dialog_title">Chọn kiểu đồng hồ</string>
+    <string name="lockscreen_date_selection_default">Mặc định</string>
+    <string name="lockscreen_date_selection_str_box">Hộp bán trong suốt</string>
+    <string name="lockscreen_date_selection_str_round">Hộp bán trong suốt (bo tròn)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Q Beta pill</string>
+    <string name="lockscreen_date_selection_str_accent">Bo tròn, đơn giản và với màu nhấn</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Bo tròn, trong suốt và với màu nhấn</string>
+    <string name="lockscreen_date_selection_str_gradient">Gradient</string>
+    <string name="lockscreen_date_selection_str_border_accent">Tối với viền có dấu</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Tối với viền chuyển màu</string>
+    <!-- Status bar - icons -->
+    <string name="status_bar_icons_title">Biểu tượng thanh trạng thái</string>
+    <string name="status_bar_system_icons_title">Biểu tượng hệ thống</string>
+    <string name="status_bar_system_icons_summary">Kiểm soát những biểu tượng thanh trang thái được hiển thị</string>
+    <!-- Statusbar Clock -->
+    <string name="statusbar_items_title">Biểu tượng thanh trạng thái</string>
+    <string name="clock_category_title">Đồng hồ</string>
+    <string name="date_category_title">Ngày</string>
+    <string name="status_bar_clock_title">Đồng hồ &amp; ngày</string>
+    <string name="status_bar_clock_summary">Tuỳ chỉnh đồng hồ và ngày trong thanh trạng thái</string>
+    <string name="status_bar_clock_style_title">Vị trí đồng hồ</string>
+    <string name="status_bar_clock_style_right">Phải</string>
+    <string name="status_bar_clock_style_center">Giữa</string>
+    <string name="status_bar_clock_style_left">Trái</string>
+    <string name="status_bar_am_pm_title">Kiểu SA/CH</string>
+    <string name="status_bar_am_pm_info">đồng hồ dạng 24-giờ được kích hoạt</string>
+    <string name="status_bar_am_pm_normal">Bình thường</string>
+    <string name="status_bar_am_pm_small">Nhỏ</string>
+    <string name="status_bar_am_pm_hidden">Ẩn</string>
+    <string name="clock_seconds_display">Hiển thị giây</string>
+    <string name="clock_seconds_display_summary">Hiển thị giây trong đồng hồ trên thanh trạng thái</string>
+    <string name="clock_date_display">Ngày</string>
+    <string name="clock_date_display_summary">Hiển thị ngày tùy chỉnh trước đồng hồ</string>
+    <string name="clock_date_display_none">Ẩn</string>
+    <string name="clock_date_display_small">Nhỏ</string>
+    <string name="clock_date_display_normal">Bình thường</string>
+    <string name="clock_date_style">Kiểu ngày</string>
+    <string name="clock_date_style_normal">Bình thường</string>
+    <string name="clock_date_style_lowercase">Chữ thường</string>
+    <string name="clock_date_style_uppercase">Chữ thường</string>
+    <string name="clock_date_format_custom">Định dạng java tùy chỉnh</string>
+    <string name="clock_date_format">Định dạng ngày tháng</string>
+    <string name="clock_date_format_summary">%1$s</string>
+    <string name="clock_date_string_edittext_title">Phải thuộc định dạng ngày, ví dụ MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Nhập Chuỗi</string>
+    <string name="clock_date_right">Bên phải thời gian</string>
+    <string name="clock_date_left">Bên trái thời gian</string>
+    <string name="clock_date_position">Vị trí ngày</string>
+    <string name="status_bar_clock_auto_hide_title">Tự ẩn đồng hồ</string>
+    <string name="status_bar_clock_auto_hide_summary">Ẩn và hiển thị đồng hồ trong khoảng thời gian đều đặn</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Thời gian ẩn</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Hiển thị thời gian</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Hiệu ứng sạc</string>
+    <string name="lockscreen_charging_animation_summary">Hiển thị hiệu ứng chớp khi thiết bị được cắm sạc</string>
+    <string name="lockscreen_charging_animation_off">Tắt</string>
+    <string name="lockscreen_charging_animation_flash">Đèn flash</string>
+    <string name="lockscreen_charging_animation_battery">Pin</string>
+    <string name="lockscreen_charging_animation_drop">Bỏ</string>
+    <string name="lockscreen_charging_animation_explosion">Nổ</string>
+    <string name="lockscreen_charging_animation_water">Nước</string>
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Mức pin</string>
+    <string name="battery_percent_title">Phần trăm pin</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Kiểu pin</string>
+    <string name="status_bar_battery_style_q">Biểu tượng chân dung (mặc định)</string>
+    <string name="status_bar_battery_style_dotted_circle">Vòng tròn (Chấm)</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_text">Văn bản</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
+    <string name="status_bar_battery_style_big_circle">Vòng tròn lớn</string>
+    <string name="status_bar_battery_style_filled_circle">Vòng tròn (Đầy)</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
+    <string name="status_bar_battery_percentage_default">Ẩn (mặc định)</string>
+    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng pin</string>
+    <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
+    <string name="status_bar_battery_text_charging_title">Hiển thị phần trăm pin lúc sạc</string>
+    <string name="status_bar_battery_text_charging_summary">Luôn hiển thị dung lượng pin lúc sạc</string>
+    <!-- Battery mode -->
+    <string name="battery_percentage_title">Phần trăm pin</string>
+    <string name="battery_percentage_off">Tắt</string>
+    <string name="battery_percentage_next">Bật</string>
+    <string name="battery_percentage_inside">Đã bật (biểu tượng bên trong)</string>
+    <string name="battery_percentage_estimate">Đã bật (ước tính)</string>
+    <!-- Network traffic -->
+    <string name="traffic_title">Hiển thị tốc độ mạng</string>
+    <string name="traffic_title_summary">Tùy chỉnh chỉ số lưu lượng mạng</string>
+    <string name="network_traffic_title">Lưu thông mạng</string>
+    <string name="network_traffic_type">Chọn kiểu hoạt động mạng</string>
+    <string name="show_network_traffic_up">Tải lên</string>
+    <string name="show_network_traffic_down">Tải xuống</string>
+    <string name="show_network_traffic_all">Tải lên và Tải xuống</string>
+    <string name="network_traffic_state_title">Hiện biểu tượng lưu lượng mạng trên thanh trạng thái</string>
+    <string name="network_traffic_autohide_threshold_title">Tự động ẩn mạng (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ẩn mũi tên</string>
+    <string name="network_traffic_hidearrow_summary">Ẩn biểu tượng mũi tên chỉ lưu lượng mạng</string>
+    <!-- 4G icon -->
+    <string name="statusbar_items_category">Biểu tượng</string>
+    <string name="show_fourg_icon_title">Biểu tượng 4G</string>
+    <string name="show_fourg_icon_summary">Hiển thị biểu tượng 4G thay vì LTE</string>
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">Biểu tượng VoLTE</string>
+    <string name="volte_icon_summary">Hiển thị biểu tượng VoLTE (Cần khởi động lại SystemUI để có hiệu lực)</string>
+    <!-- VoLTE icon styles -->
+    <string name="volte_icon_style_title">Chọn biểu tượng VoLTE</string>
+    <string name="volte_icon_vo">Biểu tượng Mặc định</string>
+    <string name="volte_icon_volte">Biểu tượng VoLTE</string>
+    <string name="volte_icon_oos">Biểu tượng VoLTE OOS</string>
+    <string name="volte_icon_hd">Biểu tượng HD</string>
+    <string name="volte_icon_miui">Biểu tượng VoLTE Miui</string>
+    <string name="volte_icon_asus">Biểu tượng VoLTE Asus</string>
+    <!-- Lock screen visualizer -->
+    <string name="visualizer_title">Hiển thị trình trực quan âm nhạc</string>
+    <string name="lockscreen_visualizer_title">Trình hiển thị nhạc</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Rung khi xác thực dấu vân tay</string>
+    <string name="fprint_sucess_vib_summary">Rung khi xác thực dấu vân tay thành công</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Khởi động lại nâng cao</string>
+    <string name="advanced_reboot_summary">Khi mở khóa, bao gồm các tùy chọn trong trình đơn nguồn để khởi động lại vào phục hồi hoặc trình nạp khởi động</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Đèn báo sạc pin</string>
+    <string name="battery_light_enable">Bật</string>
+    <string name="battery_light_allow_on_dnd_title">Đèn báo pin trong chế độ không làm phiền</string>
+    <string name="battery_light_low_blinking_title">Đèn nhấp nháy trên pin yếu</string>
+    <string name="battery_light_cat">Màu đèn báo pin khi sạc</string>
+    <string name="battery_light_low_color">Pin yếu</string>
+    <string name="battery_light_medium_color">Pin trung bình</string>
+    <string name="battery_light_full_color">Gần đầy pin</string>
+    <string name="battery_light_reallyfull_color">Pin đầy (100%)</string>
 </resources>
