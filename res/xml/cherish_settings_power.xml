@@ -24,5 +24,11 @@
             android:title="@string/advanced_reboot_title"
             android:summary="@string/advanced_reboot_summary"
             android:defaultValue="false" />
+			
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_disable_power_menu"
+            android:title="@string/lockscreen_power_menu_disabled_title"
+            android:summary="@string/lockscreen_power_menu_disabled_summary"
+            android:defaultValue="false" />
 
 </PreferenceScreen>
