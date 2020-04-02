@@ -34,7 +34,7 @@
         <!-- Buttons -->
 		<Preference
             android:key="button_settings"
-            android:title="@string/navbar_title"
+            android:title="@string/button_title"
             android:icon="@drawable/ic_settings_buttons"
             android:fragment="com.android.settings.custom.buttons.ButtonSettings"/>
 
