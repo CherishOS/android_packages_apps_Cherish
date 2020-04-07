@@ -327,4 +327,9 @@
     <string name="lockscreen_enable_power_menu_title">Power menu</string>
     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lock screen</string>
 
+    <!-- FOD animation -->
+    <string name="fod_icon_picker_category_title">FOD customization options</string>
+    <string name="fod_recognizing_animation_title">Recognizing animation</string>
+    <string name="fod_recognizing_animation_summary">Show an animation while reading your fingerprint</string>
+
 </resources>
