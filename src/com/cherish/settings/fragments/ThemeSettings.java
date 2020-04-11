@@ -34,11 +34,16 @@ import java.util.Objects;
 
 import com.android.internal.util.cherish.ThemesUtils;
 import com.android.internal.util.cherish.CherishUtils;
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 public class ThemeSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 			
 			private static final String PREF_THEME_SWITCH = "theme_switch";
+			 private static final String ACCENT_COLOR = "accent_color";
+    private static final String ACCENT_COLOR_PROP = "persist.sys.theme.accentcolor";
+
+    private ColorPickerPreference mThemeColor;
 
     private UiModeManager mUiModeManager;
 	private IOverlayManager mOverlayService;
@@ -52,8 +57,11 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+		mOverlayService = IOverlayManager.Stub
+                .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
 		mUiModeManager = getContext().getSystemService(UiModeManager.class);
 		setupThemeSwitchPref();
+		setupAccentPref();
         }
 
     @Override
@@ -105,6 +113,16 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                  mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
              } catch (RemoteException ignored) {
              }
+		   }else if (preference == mThemeColor) {
+            int color = (Integer) objValue;
+            String hexColor = String.format("%08X", (0xFFFFFFFF & color));
+            SystemProperties.set(ACCENT_COLOR_PROP, hexColor);
+            try {
+                 mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.settings", UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
+             } catch (RemoteException ignored) {
+             }
         }
         return true;
     }
@@ -140,6 +158,16 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                 e.printStackTrace();
             }
         }
+    }
+	
+	private void setupAccentPref() {
+        mThemeColor = (ColorPickerPreference) findPreference(ACCENT_COLOR);
+        String colorVal = SystemProperties.get(ACCENT_COLOR_PROP, "-1");
+        int color = "-1".equals(colorVal)
+                ? Color.WHITE
+                : Color.parseColor("#" + colorVal);
+        mThemeColor.setNewPreviewColor(color);
+        mThemeColor.setOnPreferenceChangeListener(this);
     }
 
     @Override

@@ -236,4 +236,10 @@
     <string name="theme_type_light">Sáng</string>
     <string name="theme_type_pitch_black">Google dark</string>
     <string name="theme_type_solarized_dark">Solarized dark</string>
+	<!-- RGB Accenter -->
+    <string name="theme_rgb_title">Màu nhấn RGB| Chủ đề Gradient</string>
+    <string name="themes_hub_title">Chủ đề</string>
+    <string name="themes_hub_summary">Chủ đề màu nhấn Gradients</string>
+    <string name="accent_color">Chọn màu nhấn</string>
+    <string name="accent_summary">Tự làm Gradient</string>
 </resources>

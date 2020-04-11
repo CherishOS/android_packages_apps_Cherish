@@ -34,4 +34,18 @@
           android:defaultValue="1"/>
 
   </PreferenceCategory>
+  
+  <PreferenceCategory
+     android:key="system_rgb_category"
+     android:title="@string/theme_rgb_title">
+
+      <net.margaritov.preference.colorpicker.ColorPickerPreference
+           android:key="accent_color"
+		   android:icon="@drawable/ic_accent_picker"
+           android:title="@string/accent_color"
+           android:summary="@string/accent_summary"
+           android:defaultValue="0xffffff"
+           android:persistent="false" />
+
+   </PreferenceCategory>
 </PreferenceScreen>
