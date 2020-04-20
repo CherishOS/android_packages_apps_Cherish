@@ -65,12 +65,6 @@
 	  
 	<PreferenceCategory
         android:title="@string/qs_title">
-		
-		<com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="brightness_slider_qs_unexpanded"
-            android:title="@string/brightness_slider_qs_unexpanded"
-            android:summary="@string/brightness_slider_qs_unexpanded_summary"
-            android:defaultValue="false" />
         
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_bottom_brightness"            

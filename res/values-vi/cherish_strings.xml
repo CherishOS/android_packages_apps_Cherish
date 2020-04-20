@@ -73,8 +73,6 @@
     <!-- QS tiles haptic feedback -->
     <string name="qs_vibrate_title">Rung khi chạm</string>
     <string name="qs_vibrate_summary">Rung khi chạm các ô cài đặt nhanh</string>
-    <string name="brightness_slider_qs_unexpanded">Thanh trượt độ sáng kiểu MIUI (beta)</string>
-    <string name="brightness_slider_qs_unexpanded_summary">Hiển thị thanh trượt độ sáng trong bảng điều khiển nhanh</string>
     <string name="qs_brightness_position_bottom_title">Thanh trượt chỉnh độ sáng ở dưới</string>
     <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
     <string name="enable_oneui">OneUI</string>

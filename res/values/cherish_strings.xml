@@ -84,9 +84,6 @@
     <!-- QS tiles haptic feedback -->
     <string name="qs_vibrate_title">Vibrate on touch</string>
     <string name="qs_vibrate_summary">Vibrate when touching QS tiles</string>
-	
-	<string name="brightness_slider_qs_unexpanded">MIUI style brightness slider (beta)</string>
-    <string name="brightness_slider_qs_unexpanded_summary">Shows brightness slider below qs panel</string>
     <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
     <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
     <string name="enable_oneui">OneUI</string>
