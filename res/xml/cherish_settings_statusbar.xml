@@ -24,6 +24,13 @@
 	    android:icon="@drawable/ic_network_traffic"
             android:fragment="com.cherish.settings.fragments.Traffic"
 	    android:title="@string/traffic_title" />
+		
+	<Preference
+            android:key="statusbar_battery"
+            android:title="@string/battery_percent_title"
+			android:icon="@drawable/ic_battery_styles"
+            android:summary="@string/battery_percent_summary"
+            android:fragment="com.cherish.settings.fragments.StatusbarBatterySettings"/>
 
     <Preference
          android:key="clock_settings"
