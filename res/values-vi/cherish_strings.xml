@@ -284,10 +284,6 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu nguồn</string>
     <string name="lockscreen_enable_power_menu_summary">Cho phép truy cập menu nguồn trên màn hình khóa an toàn</string>
-    <!-- FOD animation -->
-    <string name="fod_icon_picker_category_title">Tùy chọn FOD tùy chỉnh</string>
-    <string name="fod_recognizing_animation_title">Nhận dạng hình ảnh động</string>
-    <string name="fod_recognizing_animation_summary">Hiển thị hình ảnh động trong khi đọc dấu vân tay của bạn</string>
     <!-- R Notification headers -->
     <string name="notification_headers_title">Hiển thị tiêu đề thông báo</string>
     <string name="notification_headers_summary">Có hiển thị tiêu đề thông báo kiểu R hay không (Yêu cầu khởi động lại giao diện người dùng hệ thống)</string>

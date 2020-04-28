@@ -100,16 +100,4 @@
         android:summary="@string/fprint_sucess_vib_summary"
         android:persistent="false" />
 
-  <!-- FOD customization options -->
-    <PreferenceCategory
-            android:key="fod_icon_picker"
-            android:title="@string/fod_icon_picker_category_title" >
-
-  <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:icon="@drawable/ic_fp"
-            android:key="fod_recognizing_animation"
-            android:title="@string/fod_recognizing_animation_title"
-            android:summary="@string/fod_recognizing_animation_summary"
-            android:defaultValue="true" />
-  </PreferenceCategory>
 </PreferenceScreen>
