@@ -87,6 +87,14 @@
             android:fragment="com.cherish.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_miscs"/>
 
+       <!-- About Team -->
+       <Preference
+        android:key="about_category"
+        android:title="@string/about_cherish"
+        android:fragment="com.cherish.settings.fragments.About"
+        android:icon="@drawable/ic_about" />
+
+
         <!-- Device Part -->
         <Preference
             android:key="device_part"
