@@ -349,7 +349,8 @@
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Traffic indicators</string>
     <string name="network_traffic_state_title">Network traffic</string>
-    <string name="network_traffic_location">Show net activity</string>
+    <string name="network_traffic">Network traffic</string>
+    <string name="network_traffic_location">Traffic indicator placement</string>
     <string name="traffic_disabled">Disabled</string>
     <string name="traffic_statusbar">Statusbar</string>
     <string name="traffic_expanded_statusbar">Expanded header</string>
