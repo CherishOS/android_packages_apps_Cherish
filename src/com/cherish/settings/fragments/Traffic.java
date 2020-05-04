@@ -55,6 +55,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
 
     private ListPreference mNetTrafficLocation;
     private ListPreference mNetTrafficType;
+    private ListPreference mNetTrafficLayout;
     private CustomSeekBarPreference mNetTrafficSize;
     private CustomSeekBarPreference mThreshold;
     private SystemSettingSwitchPreference mShowArrows;
@@ -80,6 +81,13 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
         mNetTrafficType.setValue(String.valueOf(type));
         mNetTrafficType.setSummary(mNetTrafficType.getEntry());
         mNetTrafficType.setOnPreferenceChangeListener(this);
+
+        int netlayout = Settings.System.getIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_LAYOUT, 0, UserHandle.USER_CURRENT);
+        mNetTrafficLayout = (ListPreference) findPreference("network_traffic_layout");
+        mNetTrafficLayout.setValue(String.valueOf(netlayout));
+        mNetTrafficLayout.setSummary(mNetTrafficLayout.getEntry());
+        mNetTrafficLayout.setOnPreferenceChangeListener(this);
 
         mNetTrafficLocation = (ListPreference) findPreference("network_traffic_location");
         int location = Settings.System.getIntForUser(resolver,
@@ -135,6 +143,14 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
                 updateTrafficLocation(location);
             }
             return true;
+        } else if (preference == mNetTrafficLayout) {
+            int val = Integer.valueOf((String) objValue);
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_LAYOUT, val,
+                    UserHandle.USER_CURRENT);
+            int index = mNetTrafficLayout.findIndexOfValue((String) objValue);
+            mNetTrafficLayout.setSummary(mNetTrafficLayout.getEntries()[index]);
+            return true;
         } else if (preference == mThreshold) {
             int val = (Integer) objValue;
             Settings.System.putIntForUser(getContentResolver(),
@@ -165,6 +181,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
                 mShowArrows.setEnabled(false);
                 mNetTrafficType.setEnabled(false);
                 mNetTrafficSize.setEnabled(false);
+                mNetTrafficLayout.setEnabled(false);
                 break;
             case 1:
             case 2:
@@ -172,6 +189,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
                 mShowArrows.setEnabled(true);
                 mNetTrafficType.setEnabled(true);
                 mNetTrafficSize.setEnabled(true);
+                mNetTrafficLayout.setEnabled(true);
                 break;
             default:
                 break;
