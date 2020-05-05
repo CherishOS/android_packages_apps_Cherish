@@ -28,6 +28,14 @@
         <PreferenceCategory
         android:key="media"
         android:title="@string/media_title">
+		
+	<com.cherish.settings.preferences.GlobalSettingListPreference
+        android:icon="@drawable/ic_ring"
+        android:key="ringtone_focus_mode"
+        android:title="@string/ringtone_focus_mode_title"
+        android:entries="@array/ringtone_focus_mode_entries"
+        android:entryValues="@array/ringtone_focus_mode_values"
+        android:defaultValue="1" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="adaptive_playback_enabled"
