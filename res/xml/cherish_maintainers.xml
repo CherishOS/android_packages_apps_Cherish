@@ -16,5 +16,28 @@
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/maintainers_header">
+		
+  <PreferenceCategory
+              android:key="xiaomi_devices"
+              android:title="@string/xiaomi_devices" >
+
+  <Preference
+            android:title="@string/ginkgo_maintainer"
+            android:summary="@string/device_ginkgo"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/hung2408" />
+        </Preference>
+
+  <Preference
+            android:title="@string/lavender_maintainer"
+            android:summary="@string/device_lavender"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/hungphan2001" />
+        </Preference>
+	</PreferenceCategory>
 
 </PreferenceScreen>
