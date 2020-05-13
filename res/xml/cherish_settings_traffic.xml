@@ -23,6 +23,14 @@
         android:key="network_traffic_state"
         android:title="@string/network_traffic_state_title"
         android:defaultValue="false" />
+		
+	<com.cherish.settings.preferences.SystemSettingListPreference
+        android:key="network_traffic_location"
+        android:title="@string/network_traffic_location_title"
+        android:entries="@array/network_traffic_location_entries"
+        android:entryValues="@array/network_traffic_location_values"
+        android:defaultValue="0"
+        android:dependency="network_traffic_state" />
 
     <com.cherish.settings.preferences.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"
