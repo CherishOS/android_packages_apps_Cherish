@@ -686,5 +686,6 @@
     <string name="network_traffic_location_title">Location</string>
     <string name="network_traffic_statusbar">Status bar</string>
     <string name="network_traffic_qs_header">QS header</string>
+    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
 
 </resources>
