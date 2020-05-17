@@ -726,4 +726,7 @@
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
 
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+
 </resources>
