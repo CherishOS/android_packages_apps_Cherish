@@ -39,6 +39,23 @@
          android:summary="@string/clock_style_category_summary"
          android:fragment="com.cherish.settings.fragments.ClockSettings" />
 
+    <ListPreference
+            android:key="status_bar_weather"
+            android:title="@string/statusbar_weather_title"
+            android:dialogTitle="@string/statusbar_weather_dialog_title"
+            android:entries="@array/status_bar_weather_entries"
+            android:icon="@drawable/ic_sb_weather_icon"
+            android:entryValues="@array/status_bar_weather_values" />
+
+   <com.cherish.settings.preferences.SystemSettingListPreference
+        android:key="status_bar_show_weather_location"
+        android:icon="@drawable/ic_sb_weather_icon_nav"
+        android:title="@string/status_bar_weather_location_title"
+        android:entries="@array/weather_entries"
+        android:entryValues="@array/weather_values"
+        android:summary="%s"
+        android:defaultValue="0" />
+
     <Preference
             android:title="@string/statusbar_items_title" 
 	    android:icon="@drawable/ic_shortcuts">
