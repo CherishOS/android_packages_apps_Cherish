@@ -123,8 +123,8 @@
     <string name="status_bar_am_pm_normal">Bình thường</string>
     <string name="status_bar_am_pm_small">Nhỏ</string>
     <string name="status_bar_am_pm_hidden">Ẩn</string>
-    <string name="clock_seconds_display">Hiển thị giây</string>
-    <string name="clock_seconds_display_summary">Hiển thị giây trong đồng hồ trên thanh trạng thái</string>
+    <string name="clock_giây_display">Hiển thị giây</string>
+    <string name="clock_giây_display_summary">Hiển thị giây trong đồng hồ trên thanh trạng thái</string>
     <string name="clock_date_display">Ngày</string>
     <string name="clock_date_display_summary">Hiển thị ngày tùy chỉnh trước đồng hồ</string>
     <string name="clock_date_display_none">Ẩn</string>
@@ -435,4 +435,13 @@
     <string name="profile_choose_app">Chọn ứng dụng</string>
     <string name="dialog_delete_title">Xóa</string>
     <string name="dialog_delete_message">Xóa mục đã chọn?</string>
+	<!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Hết giờ</string>
+    <string name="heads_up_time_out_summary">Thông báo nhìn nhanh sẽ hiển thị cho <xliff:g id="number">%d</xliff:g> giây</string>
+    <string name="heads_up_time_out_2sec">2 giây</string>
+    <string name="heads_up_time_out_4sec">4 giây</string>
+    <string name="heads_up_time_out_5sec">5 giây</string>
+    <string name="heads_up_time_out_6sec">6 giây</string>
+    <string name="heads_up_time_out_8sec">8 giây</string>
+    <string name="heads_up_time_out_10sec">10 giây</string>
 </resources>
