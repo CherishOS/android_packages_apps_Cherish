@@ -118,15 +118,6 @@ public class HeadsUp extends SettingsPreferenceFragment
                 Settings.System.HEADS_UP_NOTIFICATION_SNOOZE, defaultSnooze);
         mHeadsUpSnoozeTime.setValue(String.valueOf(headsUpSnooze));
         updateHeadsUpSnoozeTimeSummary(headsUpSnooze);
-
-        int defaultSnooze = systemUiResources.getInteger(systemUiResources.getIdentifier(
-                    "com.android.systemui:integer/heads_up_default_snooze_length_ms", null, null));
-        mHeadsUpSnoozeTime = (ListPreference) findPreference(PREF_HEADS_UP_SNOOZE_TIME);
-        mHeadsUpSnoozeTime.setOnPreferenceChangeListener(this);
-        int headsUpSnooze = Settings.System.getInt(getContentResolver(),
-                Settings.System.HEADS_UP_NOTIFICATION_SNOOZE, defaultSnooze);
-        mHeadsUpSnoozeTime.setValue(String.valueOf(headsUpSnooze));
-        updateHeadsUpSnoozeTimeSummary(headsUpSnooze);
     }
 
     @Override

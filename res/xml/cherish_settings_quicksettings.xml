@@ -75,6 +75,13 @@
             android:summary="@string/heads_up_notifications_summary"
             android:defaultValue="true" />
 
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="less_boring_heads_up"
+        android:icon="@drawable/ic_less_notification"
+        android:title="@string/less_boring_heads_up_title"
+        android:summary="@string/less_boring_heads_up_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 	  
 	<PreferenceCategory

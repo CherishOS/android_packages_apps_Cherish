@@ -425,16 +425,13 @@
     <string name="gaming_mode_dynamic_title">Chế độ động</string>
     <string name="gaming_mode_dynamic_summary">Tự động phát hiện và thêm trò chơi</string>
 	<!-- Heads up -->
-    <string name="heads_up_notifications">Đứng đầu</string>
+    <string name="heads_up_notifications">Heads up</string>
     <string name="heads_up_notifications_summary">Bật lên thông báo trên thanh trạng thái</string>
     <string name="add_heads_up_package">Thêm ứng dụng</string>
     <string name="heads_up_stoplist_title">Danh sách dừng</string>
     <string name="add_heads_up_stoplist_summary">Vô hiệu hóa heads up trong các ứng dụng này</string>
     <string name="heads_up_blacklist_title">Danh sách đen</string>
     <string name="add_heads_up_blacklist_summary">Vô hiệu hóa các ứng dụng này</string>
-    <string name="profile_choose_app">Chọn ứng dụng</string>
-    <string name="dialog_delete_title">Xóa</string>
-    <string name="dialog_delete_message">Xóa mục đã chọn?</string>
 	<!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Hết giờ</string>
     <string name="heads_up_time_out_summary">Thông báo nhìn nhanh sẽ hiển thị cho <xliff:g id="number">%d</xliff:g> giây</string>
@@ -454,4 +451,7 @@
     <string name="heads_up_snooze_10min">10 phút</string>
     <string name="heads_up_snooze_15min">15 phút</string>
     <string name="heads_up_snooze_20min">20 phút</string>
+	<!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Ít nhàm chán heads up</string>
+    <string name="less_boring_heads_up_summary">Chỉ hiển thị các ứng dụng quay số, ứng dụng nhắn tin và báo thức</string>
 </resources>
