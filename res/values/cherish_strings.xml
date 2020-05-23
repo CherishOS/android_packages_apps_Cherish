@@ -488,6 +488,7 @@
 
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads Up</string>
+	<string name="notification_stat">Headsup</string>
     <string name="heads_up_notifications_summary">Pop up statusbar notifications</string>
     <string name="add_heads_up_package">Add app</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
@@ -497,5 +498,16 @@
     <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
+	
+	<!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Snooze timer</string>
+    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
+    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_1min">1 minute</string>
+    <string name="heads_up_snooze_5min">5 minutes</string>
+    <string name="heads_up_snooze_10min">10 minutes</string>
+    <string name="heads_up_snooze_15min">15 minutes</string>
+    <string name="heads_up_snooze_20min">20 minutes</string>
 
 </resources>
