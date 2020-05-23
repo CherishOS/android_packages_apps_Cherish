@@ -134,6 +134,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+           ContentResolver resolver = getActivity().getContentResolver();
            if (preference == mThemeSwitch) {
             String theme_switch = (String) objValue;
             final Context context = getContext();
