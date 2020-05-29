@@ -272,15 +272,6 @@
     <string name="theme_type_dark_grey">Dark Grey</string>
     <string name="theme_type_material_ocean">Material Ocean</string>
 
-	<!-- RGB Accenter -->
-    <string name="theme_rgb_title">RGB Accent | Gradient Theming</string>
-    <string name="themes_hub_title">Themes</string>
-    <string name="themes_hub_summary">Accents-Gradients-Themes</string>
-    <string name="accent_color">Accent picker</string>
-    <string name="accent_summary">Gradient Maker</string>
-    <string name="gradient_color">Gradient picker</string>
-    <string name="gradient_summary">Gradient effect maker</string>
-
 	<!-- Power menu and dialogs opacity -->
     <string name="lockscreen_secure_power_title">Secure power menu</string>
     <string name="lockscreen_secure_power_menu_title">Secure power menu</string>

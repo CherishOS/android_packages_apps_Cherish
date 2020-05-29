@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<preferencesScreen
+<PreferencesScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/gaming_mode_title">
@@ -59,15 +59,15 @@
         android:summary="@string/gaming_mode_dynamic_summary"
         android:defaultValue="false" />
 
-    <preferencesCategory
+    <PreferenceCategory
         android:title="@string/gaming_mode_app_picker_title"
         android:key="gamingmode_applications">
 
-        <preferences
+        <Preference
             android:key="add_gamingmode_packages"
             android:icon="@drawable/ic_menu_add_white"
             android:title="@string/add_gaming_mode_package_title" />
 
-    </preferencesCategory>
+    </PreferenceCategory>
 
-</preferencesScreen>
+</PreferencesScreen>

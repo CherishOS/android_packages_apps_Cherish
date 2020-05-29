@@ -239,14 +239,6 @@
     <string name="theme_type_du_pitchblack">Đen tuyền</string>
     <string name="theme_type_dark_grey">Màu xám đen</string>
     <string name="theme_type_material_ocean">Material Ocean</string>
-    <!-- RGB Accenter -->
-    <string name="theme_rgb_title">Màu nhấn RGB| Chủ đề Gradient</string>
-    <string name="themes_hub_title">Chủ đề</string>
-    <string name="themes_hub_summary">Chủ đề màu nhấn Gradients</string>
-    <string name="accent_color">Chọn màu nhấn</string>
-    <string name="accent_summary">Tự làm Gradient</string>
-    <string name="gradient_color">Chọn Gradient</string>
-    <string name="gradient_summary">Làm hiệu ứng Gradient</string>
     <!-- Power menu and dialogs opacity -->
     <string name="lockscreen_secure_power_title">Menu nguồn an toàn</string>
     <string name="lockscreen_secure_power_menu_title">Khóa menu nguồn</string>
