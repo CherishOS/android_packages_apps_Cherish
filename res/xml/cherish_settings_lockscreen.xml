@@ -245,6 +245,13 @@
     <PreferenceCategory
         android:key="visualizer"
         android:title="@string/visualizer_title">
+		
+	<Preference
+        android:key="pulse_category"
+		 android:icon="@drawable/ic_visualizer"
+        android:fragment="com.cherish.settings.fragments.PulseSettings"
+        android:title="@string/pulse_settings"
+        android:summary="@string/pulse_settings_summary" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_media_art"
