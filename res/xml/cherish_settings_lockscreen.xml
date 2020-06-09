@@ -95,6 +95,13 @@
             android:icon="@drawable/ic_media"
             android:defaultValue="true" />
 
+   <Preference
+            android:key="pulse"
+            android:title="@string/pulse_settings"
+            android:icon="@drawable/ic_visualizer"
+            android:summary="@string/pulse_settings_summary"
+            android:fragment="com.cherish.settings.fragments.PulseSettings" />
+
    <com.cherish.settings.preferences.SystemSettingSeekBarPreference
             android:key="lockscreen_media_blur"
             android:title="@string/lockscreen_media_blur_title"
