@@ -65,6 +65,9 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
+  <PreferenceCategory
+        android:title="@string/flashlight_category">
+
   <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="flashlight_on_call"
             android:icon="@drawable/ic_flashlight"
@@ -72,5 +75,23 @@
             android:entries="@array/flashlight_on_call_entries"
             android:entryValues="@array/flashlight_on_call_values"
             android:defaultValue="0" />
+
+  <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="flashlight_on_call_ignore_dnd"
+            android:icon="@drawable/ic_call_dnd"
+            android:title="@string/flashlight_on_call_ignore_dnd_title"
+            android:summary="@string/flashlight_on_call_ignore_dnd_summary"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.CustomSeekBarPreference
+            android:key="flashlight_on_call_rate"
+            android:icon="@drawable/ic_call"
+            android:title="@string/flashlight_on_call_rate_title"
+            android:summary="@string/flashlight_on_call_rate_summary"
+            android:max="5"
+            settings:min="1"
+            settings:defaultValue="1"
+            settings:units="Hz" />
+      </PreferenceCategory>
 
 </PreferenceScreen>
