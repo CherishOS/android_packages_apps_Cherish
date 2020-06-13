@@ -450,4 +450,11 @@
     <string name="fod_icon_picker_title">Chọn biểu tượng FOD</string>
     <string name="fod_icon_picker_summary">Chọn biểu thượng yêu thích vân tay của bạn</string>
     <string name="fod_icon_picker_footer">Để thêm biểu tượng của riêng bạn, hãy chọn biểu tượng trên cùng bên trái và sử dụng ứng dụng Tùy chỉnh OnePlus 6T FP để chọn biểu tượng bạn muốn.</string>
+
+	<!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Cài đặt biểu tượng bảng điều khiển</string>
+    <string name="theming_settings_dashboard_icons_default2">Nền mặc định</string>
+    <string name="theming_settings_dashboard_icons_default_accent2">Nền nhấn</string>
+    <string name="theming_settings_dashboard_icons_plain">Trơn</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Nền nhấn trơn</string>
 </resources>
