@@ -184,6 +184,11 @@
     <string name="lockscreen_charging_animation_drop">Drop</string>
     <string name="lockscreen_charging_animation_explosion">Explosion</string>
     <string name="lockscreen_charging_animation_water">Water</string>
+    <string name="lockscreen_charging_animation_split">Split Loading</string>
+    <string name="lockscreen_charging_animation_yellow">Yellow Animation</string>
+    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_wash">Wash Your Hand</string>
+    <string name="lockscreen_charging_animation_wear">Wear Your Mask</string>
 
     <!-- Battery Styles -->
     <string name="battery_style_category_title">Battery level</string>

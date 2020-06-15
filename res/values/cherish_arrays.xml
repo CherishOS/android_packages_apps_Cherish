@@ -256,6 +256,11 @@
         <item>@string/lockscreen_charging_animation_drop</item>
         <item>@string/lockscreen_charging_animation_explosion</item>
         <item>@string/lockscreen_charging_animation_water</item>
+        <item>@string/lockscreen_charging_animation_split</item>
+        <item>@string/lockscreen_charging_animation_yellow</item>
+        <item>@string/lockscreen_charging_animation_covid</item>
+        <item>@string/lockscreen_charging_animation_wash</item>
+        <item>@string/lockscreen_charging_animation_wear</item>
     </string-array>
 
     <string-array name="lockscreen_charging_animation_values" translatable="false">
@@ -265,6 +270,11 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
     </string-array>
 
 	<!-- Themes -->
