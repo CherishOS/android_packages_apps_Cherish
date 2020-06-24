@@ -22,6 +22,9 @@
         android:key="theme_customization_category"
         android:title="@string/theme_customization_category">
 		
+		<ListPreference
+	    android:layout="@layout/base_preview" />
+		
 		<Preference
             android:key="dark_ui_mode"
             android:title="@string/dark_ui_mode"
@@ -55,6 +58,9 @@
                 android:targetPackage="com.android.wallpaper"
                 android:targetClass="com.android.customization.picker.LockClockPickerActivity" />
         </Preference>
+		
+		<ListPreference
+            android:layout="@layout/font_preview" />
 		
 		<com.android.settings.display.FontDialogPreference
         android:key="custom_font"

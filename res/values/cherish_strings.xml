@@ -1265,4 +1265,7 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">Wi-Fi</string>
 	<string name="theme_customization_statusbar_height_title">Statusbar height</string>
+	
+	<!-- Customization titles -->
+    <string name="themes_ui">Themes UI</string>
 </resources>
