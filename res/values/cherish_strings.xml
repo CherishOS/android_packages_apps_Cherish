@@ -572,4 +572,17 @@
     <string name="settings_show_conditions_summary">Display condition cards in Settings screen</string>
     <string name="settings_show_suggestions_title">Dashboard suggestions</string>
     <string name="settings_show_suggestions_summary">Display suggestion cards in Settings screen</string>
+	
+	<!-- Volume Panel Plugin -->
+    <string name="volume_panel">Volume Panel Style</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compat">Compat</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Tiled</string>
+
+    <!-- Volume Panel Plugin Values -->
+    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compat_val">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
 </resources>

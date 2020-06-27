@@ -52,6 +52,20 @@
   </PreferenceCategory>
 
   <PreferenceCategory
+        android:key="volume_panel_stuff"
+        android:title="@string/volume_panel">
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="systemui_plugin_volume"
+            android:title="@string/volume_panel"
+            android:icon="@drawable/ic_volume"
+            android:entries="@array/volume_panel_entries"
+            android:entryValues="@array/volume_panel_values"
+            android:defaultValue="@string/volume_panel_aosp_val" />
+
+    </PreferenceCategory>
+
+  <PreferenceCategory
         android:key="rounded_corners_category"
         android:title="@string/corners_category_title" >
 
