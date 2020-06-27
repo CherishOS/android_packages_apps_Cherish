@@ -68,11 +68,23 @@
           android:title="@string/incall_feeedback_vibrate_title"
           android:defaultValue="false"
           settings:controller="com.cherish.settings.fragments.IncallFeedbackPreferenceController" />
+		  
+	<PreferenceCategory
+        android:key="volume"
+        android:title="@string/volume_title">
   
         <Preference
         android:key="audio_panel" 
 	android:icon="@drawable/ic_music"
         android:fragment="com.cherish.settings.fragments.AudioPanelSettings"
         android:title="@string/audio_panel_view" />
+		
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="hide_things_volumepanel"
+        android:icon="@drawable/ic_arrow1"
+        android:summary="@string/hide_things_volumepanel_summary"
+        android:title="@string/hide_things_volumepanel_title"
+        android:defaultValue="true" />
+	</PreferenceCategory>
 
 </PreferenceScreen>

@@ -522,4 +522,8 @@
     <string name="audio_panel_view_alarm_title">Alarm</string> 
     <string name="audio_panel_view_voice_title">Voice</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
+	
+	<!-- Volume panel Hide Things-->
+    <string name="hide_things_volumepanel_title">Hide Things below volume panel</string>
+    <string name="hide_things_volumepanel_summary">Hide Settings and Ringer Container below volume panel</string>
 </resources>
