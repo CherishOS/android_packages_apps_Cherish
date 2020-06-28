@@ -231,6 +231,7 @@
     <string name="volte_icon_hd">HD Icon</string>
     <string name="volte_icon_miui">VoLTE Miui Icon</string>
     <string name="volte_icon_asus">VoLTE Asus Icon</string>
+    <string name="volte_icon_emui">EMUI</string>
 
 	<!-- Lock screen visualizer -->
 	<string name="visualizer_title">Display music visualizer</string>
