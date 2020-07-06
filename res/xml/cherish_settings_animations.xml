@@ -34,46 +34,57 @@
 
         <ListPreference
             android:key="activity_open"
+            android:icon="@drawable/ic_qs_animation"
             android:title="@string/activity_open_title" />
 
         <ListPreference
             android:key="activity_close"
+	    android:icon="@drawable/ic_qs_animation"
             android:title="@string/activity_close_title" />
 
         <ListPreference
             android:key="task_open"
+	    android:icon="@drawable/ic_qs_animation"
             android:title="@string/task_open_title" />
 
         <ListPreference
             android:key="task_open_behind"
+            android:icon="@drawable/ic_qs_animation"
             android:title="@string/task_open_behind_title" />
 
         <ListPreference
             android:key="task_close"
+            android:icon="@drawable/ic_qs_animation"
             android:title="@string/task_close_title" />
 
         <ListPreference
             android:key="task_move_to_front"
+            android:icon="@drawable/ic_qs_animation"
             android:title="@string/task_move_to_front_title" />
 
         <ListPreference
             android:key="task_move_to_back"
+            android:icon="@drawable/ic_qs_animation"
             android:title="@string/task_move_to_back_title" />
 
         <ListPreference
             android:key="wallpaper_open"
+            android:icon="@drawable/ic_qs_animation"
             android:title="@string/wallpaper_open_title" />
 
         <ListPreference
             android:key="wallpaper_close"
+            android:icon="@drawable/ic_qs_animation"
             android:title="@string/wallpaper_close_title" />
 
         <ListPreference
             android:key="wallpaper_intra_open"
+            android:icon="@drawable/ic_qs_animation"
             android:title="@string/wallpaper_intra_open_title" />
 
         <ListPreference
             android:key="wallpaper_intra_close"
+            android:icon="@drawable/ic_qs_animation"
             android:title="@string/wallpaper_intra_close_title" />
 
     </PreferenceCategory>

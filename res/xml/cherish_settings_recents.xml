@@ -29,6 +29,7 @@
 
     <com.cherish.settings.preferences.SystemSettingMasterSwitchPreference
         android:key="use_slim_recents"
+        android:icon="@drawable/ic_baseline_recent"
         android:fragment="com.cherish.settings.fragments.SlimRecents"
         android:title="@string/slim_recents_fragment_title"
         android:summary="@string/slim_recents_fragment_summary"/>

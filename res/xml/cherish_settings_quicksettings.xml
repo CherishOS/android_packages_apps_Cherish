@@ -57,13 +57,14 @@
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
       android:key="dismiss_all_button"
-	  android:icon="@drawable/ic_x"
+      android:icon="@drawable/ic_notification_clear_all"
       android:title="@string/enable_clear_all_button"
       android:summary="@string/enable_clear_all_button_summary"
       android:defaultValue="false" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="settings_spacer"
+            android:icon="@drawable/ic_settings"
             android:title="@string/enable_oneui"
             android:summary="@string/enable_oneui_summary"
             android:defaultValue="true" />
@@ -117,32 +118,37 @@
         android:entryValues="@array/quick_pulldown_values"
         android:persistent="false" />
 		
-		<com.cherish.settings.preferences.SecureSettingSwitchPreference
+	<com.cherish.settings.preferences.SecureSettingSwitchPreference
         android:key="status_bar_locked_on_secure_keyguard"
+        android:icon="@drawable/ic_lock_qs"
         android:title="@string/lockscreen_qs_disabled_title"
         android:summary="@string/lockscreen_qs_disabled_summary"
         android:defaultValue="false" />
         
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_bottom_brightness"            
+            android:key="qs_bottom_brightness" 
+            android:icon="@drawable/ic_brightness"           
             android:title="@string/qs_brightness_position_bottom_title"
             android:summary="@string/qs_brightness_position_bottom_summary"
             android:defaultValue="false" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_title_visibility"
+            android:icon="@drawable/ic_qs_tile"
             android:title="@string/qs_tile_title_visibility_title"
             android:summary="@string/qs_tile_title_visibility_summary"
             android:defaultValue="true" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="quick_settings_vibrate"
+            android:icon="@drawable/ic_vibrate"
             android:title="@string/qs_vibrate_title"
             android:summary="@string/qs_vibrate_summary"
             android:defaultValue="false" />
 
         <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="qs_rows_portrait"
+            android:icon="@drawable/ic_qs_tile"
             android:dialogTitle="@string/qs_rows_portrait_title"
             android:title="@string/qs_rows_portrait_title"
             android:summary="%s"
@@ -152,6 +158,7 @@
 
         <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="qs_rows_landscape"
+            android:icon="@drawable/ic_qs_tile"
             android:dialogTitle="@string/qs_rows_landscape_title"
             android:title="@string/qs_rows_landscape_title"
             android:summary="%s"
@@ -161,6 +168,7 @@
 
         <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="qs_columns_portrait"
+            android:icon="@drawable/ic_qs_tile"
             android:dialogTitle="@string/qs_columns_portrait_title"
             android:title="@string/qs_columns_portrait_title"
             android:summary="%s"
@@ -170,6 +178,7 @@
 
         <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="qs_columns_landscape"
+            android:icon="@drawable/ic_qs_tile"
             android:dialogTitle="@string/qs_columns_landscape_title"
             android:title="@string/qs_columns_landscape_title"
             android:summary="%s"
@@ -181,6 +190,7 @@
 
     <com.cherish.settings.preferences.SystemSettingListPreference
         android:key="qs_battery_mode"
+        android:icon="@drawable/ic_battery_percent"
         android:title="@string/battery_percentage_title"
         android:entries="@array/qs_battery_mode_entries"
         android:entryValues="@array/qs_battery_mode_values"
