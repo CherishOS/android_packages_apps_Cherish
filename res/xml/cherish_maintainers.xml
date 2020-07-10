@@ -38,6 +38,34 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://github.com/hungphan2001" />
         </Preference>
+  
+   <Preference
+            android:title="@string/mido_maintainer"
+            android:summary="@string/device_mido"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/hungphan2001" />
+        </Preference>
+
+  <Preference
+            android:title="@string/whyred_maintainer"
+            android:summary="@string/device_whyred"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/san2k" />
+        </Preference>
+
+<Preference
+            android:title="@string/kenzo_maintainer"
+            android:summary="@string/device_kenzo"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/MrJarvis698" />
+        </Preference>
+
 	</PreferenceCategory>
 
 </PreferenceScreen>
