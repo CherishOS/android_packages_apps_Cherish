@@ -271,6 +271,7 @@
     <string name="theme_type_du_pitchblack">Pitch black</string>
     <string name="theme_type_dark_grey">Dark Grey</string>
     <string name="theme_type_material_ocean">Material Ocean</string>
+    <string name="theme_type_clear_spring">Clear Spring</string>
 
 	<!-- Power menu and dialogs opacity -->
     <string name="lockscreen_secure_power_title">Secure power menu</string>
