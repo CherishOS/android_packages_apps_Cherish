@@ -179,6 +179,7 @@
     <string name="battery_percentage_off">Tắt</string>
     <string name="battery_percentage_next">Bật</string>
     <string name="battery_percentage_inside">Đã bật (biểu tượng bên trong)</string>
+    <string name="battery_percentage_estimate">Đã bật (ước tính)</string>
     <!-- Network traffic -->
     <string name="traffic_title">Hiển thị tốc độ mạng</string>
     <string name="traffic_title_summary">Tùy chỉnh chỉ số lưu lượng mạng</string>
@@ -206,6 +207,7 @@
     <string name="volte_icon_hd">Biểu tượng HD</string>
     <string name="volte_icon_miui">Biểu tượng VoLTE Miui</string>
     <string name="volte_icon_asus">Biểu tượng VoLTE Asus</string>
+    <string name="volte_icon_emui">EMUI</string>
     <!-- Lock screen visualizer -->
     <string name="visualizer_title">Hiển thị trình trực quan âm nhạc</string>
     <string name="lockscreen_visualizer_title">Trình hiển thị nhạc</string>
@@ -239,6 +241,7 @@
     <string name="theme_type_du_pitchblack">Đen tuyền</string>
     <string name="theme_type_dark_grey">Màu xám đen</string>
     <string name="theme_type_material_ocean">Material Ocean</string>
+    <string name="theme_type_clear_spring">Clear Spring</string>
     <!-- Power menu and dialogs opacity -->
     <string name="lockscreen_secure_power_title">Menu nguồn an toàn</string>
     <string name="lockscreen_secure_power_menu_title">Khóa menu nguồn</string>
@@ -416,45 +419,73 @@
     <string name="gaming_mode_notifications_all_title">Hiện thông báo nhanh và thông báo</string>
     <string name="gaming_mode_dynamic_title">Chế độ động</string>
     <string name="gaming_mode_dynamic_summary">Tự động phát hiện và thêm trò chơi</string>
-	<!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Bật lên thông báo trên thanh trạng thái</string>
-    <string name="add_heads_up_package">Thêm ứng dụng</string>
-    <string name="heads_up_stoplist_title">Danh sách dừng</string>
-    <string name="add_heads_up_stoplist_summary">Vô hiệu hóa heads up trong các ứng dụng này</string>
-    <string name="heads_up_blacklist_title">Danh sách đen</string>
-    <string name="add_heads_up_blacklist_summary">Vô hiệu hóa các ứng dụng này</string>
-	<!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Hết giờ</string>
-    <string name="heads_up_time_out_summary">Thông báo nhìn nhanh sẽ hiển thị cho <xliff:g id="number">%d</xliff:g> giây</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Thời gian chờ</string>
+    <string name="heads_up_time_out_summary">Thông báo nổi sẽ hiển thị trong <xliff:g id="number">%d</xliff:g> giây</string>
     <string name="heads_up_time_out_2sec">2 giây</string>
     <string name="heads_up_time_out_4sec">4 giây</string>
     <string name="heads_up_time_out_5sec">5 giây</string>
     <string name="heads_up_time_out_6sec">6 giây</string>
     <string name="heads_up_time_out_8sec">8 giây</string>
     <string name="heads_up_time_out_10sec">10 giây</string>
-	 <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Hẹn giờ báo lại</string>
-    <string name="heads_up_snooze_summary_one_phút">Vuốt lên trên các thông báo nhìn nhanh sẽ báo lại từ ứng dụng đó cho 1 phút</string>
-    <string name="heads_up_snooze_summary">Vuốt lên trên các thông báo nhìn nhanh sẽ báo lại từ ứng dụng đó cho <xliff:g id="number">%d</xliff:g> phút</string>
-    <string name="heads_up_snooze_disabled_summary">Hẹn giờ báo lại bị vô hiệu hóa</string>
+    <!-- Heads up -->
+    <string name="heads_up_notifications">Thông báo nổi</string>
+    <string name="notification_stat">Thông báo nổi</string>
+    <string name="heads_up_notifications_summary">Thông báo trên thanh trạng thái</string>
+    <string name="add_heads_up_package">Thêm ứng dụng</string>
+    <string name="heads_up_stoplist_title">Danh sách dừng</string>
+    <string name="add_heads_up_stoplist_summary">Tắt thông báo nổi từ các ứng dụng này</string>
+    <string name="heads_up_blacklist_title">Danh sách đen</string>
+    <string name="add_heads_up_blacklist_summary">Vô hiệu hóa thông báo nổi từ các ứng dụng này</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Thời gian tạm ngưng</string>
+    <string name="heads_up_snooze_summary_one_minute">Vuốt lên trên thông báo nổi sẽ báo lại thông báo đó trong 1 phút</string>
+    <string name="heads_up_snooze_summary">Vuốt thông báo nổi lên trên sẽ báo lại thông báo đó trong vòng <xliff:g id="number">%d</xliff:g> phút</string>
+    <string name="heads_up_snooze_disabled_summary">Bộ đếm tạm ngưng bị vô hiệu</string>
     <string name="heads_up_snooze_1min">1 phút</string>
     <string name="heads_up_snooze_5min">5 phút</string>
     <string name="heads_up_snooze_10min">10 phút</string>
     <string name="heads_up_snooze_15min">15 phút</string>
     <string name="heads_up_snooze_20min">20 phút</string>
-	<!-- Heads up options -->
-    <string name="less_boring_heads_up_title">Ít nhàm chán heads up</string>
-    <string name="less_boring_heads_up_summary">Chỉ hiển thị các ứng dụng quay số, ứng dụng nhắn tin và báo thức</string>
-	<!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">Chọn biểu tượng FOD</string>
-    <string name="fod_icon_picker_summary">Chọn biểu thượng yêu thích vân tay của bạn</string>
-    <string name="fod_icon_picker_footer">Để thêm biểu tượng của riêng bạn, hãy chọn biểu tượng trên cùng bên trái và sử dụng ứng dụng Tùy chỉnh OnePlus 6T FP để chọn biểu tượng bạn muốn.</string>
-
-	<!-- Settings dashboard icon style -->
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Ít thông báo nổi hơn</string>
+    <string name="less_boring_heads_up_summary">Chỉ hiển thị thông báo cho ứng dụng quay số, ứng dụng nhắn tin và báo thức</string>
+    <!-- FOD icon picker -->
+    <string name="fod_title">FOD</string>
+    <string name="fod_icon_picker_title">Công cụ chọn biểu tượng FOD</string>
+    <string name="fod_icon_picker_summary">Chọn biểu tượng vân tay ưa thích</string>
+    <string name="fod_icon_picker_footer">Để thêm biểu tượng của riêng bạn, hãy chọn biểu tượng trên cùng bên trái và sử dụng ứng dụng OnePlus 6T tuỳ biến FP để chọn biểu tượng bạn mong muốn.</string>
+    <!-- Settings dashboard icon style -->
     <string name="theming_settings_dashboard_icons_title">Cài đặt biểu tượng bảng điều khiển</string>
-    <string name="theming_settings_dashboard_icons_default2">Nền mặc định</string>
+    <string name="theming_settings_dashboard_icons_default2">Hình nền mặc định</string>
     <string name="theming_settings_dashboard_icons_default_accent2">Nền nhấn</string>
-    <string name="theming_settings_dashboard_icons_plain">Trơn</string>
-    <string name="theming_settings_dashboard_icons_plain_accent">Nền nhấn trơn</string>
+    <string name="theming_settings_dashboard_icons_plain">Đơn giản</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Giọng đồng bằng</string>
+    <!-- Audio Panel view -->
+    <string name="audio_panel_view">Bảng điều chỉnh âm lượng</string>
+    <string name="audio_panel_view_media_title">Âm nhạc/phương tiện</string>
+    <string name="audio_panel_view_ringer_title">Chuông báo</string>
+    <string name="audio_panel_view_notification_title">Thông báo</string>
+    <string name="audio_panel_view_alarm_title">Báo thức</string>
+    <string name="audio_panel_view_voice_title">Giọng nói</string>
+    <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
+    <!-- Volume panel Hide Things-->
+    <string name="hide_things_volumepanel_title">Ẩn những thứ bên dưới bảng điều khiển âm lượng</string>
+    <string name="hide_things_volumepanel_summary">Ẩn cài đặt và chuông báo bên dưới bảng điều khiển âm lượng</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Biểu tượng VoWifi</string>
+    <string name="vowifi_icon_enabled">Kiểu biểu tượng VoWiFi</string>
+    <string name="vowifi_icon_disabled">Biểu tượng VoWiFi đã tắt</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi thay vì icon VoLTE</string>
+    <string name="vowifi_icon_style_title">Kiểu biểu tượng VoWiFi</string>
+    <string name="vowifi_icon_default">Biểu tượng Mặc định</string>
+    <string name="vowifi_icon_emui">Biểu tượng EMUI</string>
+    <string name="vowifi_icon_asus">Biểu tượng Asus</string>
+    <string name="vowifi_icon_oneplus">Biểu tượng OOS</string>
+    <string name="vowifi_icon_moto">Biểu tượng Motorola</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">QS văn bản cuối trang</string>
+    <string name="qs_footer_text_summary">Hiển thị văn bản ở dưới cùng của bảng cài đặt nhanh</string>
+    <string name="qs_footer_text_string_title">Tùy chỉnh văn bản cuối trang</string>
+    <string name="qs_footer_text_string_summary">Đặt mặc định là #KeeptheLove</string>
 </resources>
