@@ -85,7 +85,7 @@
         android:icon="@drawable/ic_arrow1"
         android:summary="@string/hide_things_volumepanel_summary"
         android:title="@string/hide_things_volumepanel_title"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 	</PreferenceCategory>
 
 </PreferenceScreen>
