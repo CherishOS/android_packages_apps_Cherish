@@ -21,6 +21,7 @@
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
+	    android:summary="@string/statusbar_summary"
             android:fragment="com.cherish.settings.fragments.StatusBarSettings"
             android:icon="@drawable/ic_cherish_status_settings_background"/>
 
@@ -28,6 +29,7 @@
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
+	    android:summary="@string/quicksettings_summary"
             android:fragment="com.cherish.settings.fragments.QuickSettings"
             android:icon="@drawable/ic_cherish_quick_settings_background"/>
 			
@@ -35,6 +37,7 @@
         <Preference
             android:key="theme_category"
             android:title="@string/theme_title"
+	    android:summary="@string/theme_summary"
             android:fragment="com.cherish.settings.fragments.ThemeSettings"
             android:icon="@drawable/ic_cherish_theme_settings_background"/>
 
@@ -42,6 +45,7 @@
 		<Preference
             android:key="button_settings"
             android:title="@string/button_title"
+	    android:summary="@string/button_summary"
             android:icon="@drawable/ic_cherish_button_settings_background"
             android:fragment="com.android.settings.custom.buttons.ButtonSettings"/>
 			
@@ -49,6 +53,7 @@
 		<Preference
             android:key="animations_category"
             android:title="@string/animations_title"
+	    android:summary="@string/animations_summary"
             android:icon="@drawable/ic_cherish_animation_settings_background"
             android:fragment="com.cherish.settings.fragments.AnimationsSettings"/>
 
@@ -56,6 +61,7 @@
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
+	    android:summary="@string/lockscreen_summary"
             android:fragment="com.cherish.settings.fragments.LockScreenSettings"
             android:icon="@drawable/ic_cherish_lockscreen_settings_background"/>
 
@@ -63,6 +69,7 @@
         <Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title"
+	    android:summary="@string/powermenu_summary"
             android:fragment="com.cherish.settings.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_cherish_power_settings_background"/>
 
@@ -70,6 +77,7 @@
         <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
+	    android:summary="@string/recents_summary"
             android:fragment="com.cherish.settings.fragments.RecentsSettings"
             android:icon="@drawable/ic_cherish_recent_settings_background"/>
 
@@ -77,6 +85,7 @@
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
+	    android:summary="@string/notifications_summary"
             android:fragment="com.cherish.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_cherish_notification_settings_background"/>
 
@@ -84,6 +93,7 @@
         <Preference
             android:key="misc_category"
             android:title="@string/misc_title"
+	    android:summary="@string/misc_summary"
             android:fragment="com.cherish.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_cherish_misc_settings_background"/>
 
@@ -91,6 +101,7 @@
        <Preference
         android:key="about_category"
         android:title="@string/about_cherish"
+	android:summary="@string/about_summary"
         android:fragment="com.cherish.settings.fragments.About"
         android:icon="@drawable/ic_cherish_about_settings_background" />
 

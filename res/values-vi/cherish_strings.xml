@@ -15,17 +15,28 @@
     <string name="cherish_settings_title">Thông Điệp Yêu Thương</string>
     <!-- Categories -->
     <string name="button_title">Phím</string>
+    <string name="button_summary">Phím cứng, Thanh điều hướng</string>
     <string name="gestures_title">Cử chỉ</string>
     <string name="lockscreen_title">Màn hình khoá</string>
+    <string name="lockscreen_summary">Sóng nhạc, hiệu ứng sạc, kiểu đồng hồ</string>
     <string name="misc_title">Khác</string>
+    <string name="misc_summary">Chế độ chơi game, bảng điều khiển âm lượng</string>
     <string name="animations_title">Hiệu ứng</string>
+    <string name="animations_summary">Hoạt ảnh hệ thống</string>
     <string name="powermenu_title">Trình đơn nguồn</string>
+    <string name="powermenu_summary">Khởi động nâng cao, menu nguồn độ mờ</string>
     <string name="theme_title">Chủ đề</string>
+    <string name="theme_summary">Chủ đề hệ thống, tròn, chủ đề công tắc</string>
     <string name="quicksettings_title">Cài đặt nhanh</string>
+    <string name="quicksettings_summary">Bố cục gạch, độ sáng Miui, mờ</string>
     <string name="recents_title">Ứng dụng gần đây</string>
+    <string name="recents_summary">Kiểu Slim recents</string>
     <string name="statusbar_title">Thanh trạng thái</string>
     <string name="volume_title">Phím Âm lượng</string>
     <string name="notifications_title">Thông báo</string>
+    <string name="statusbar_summary">Đồng hồ, nhà mạng, biểu tượng trạng thái</string>
+    <string name="notifications_summary">Đèn sạc, tiêu đề thông báo</string>
+    <string name="about_summary">Tìm hiểu thêm về CherishOS</string>
     <string name="device_part_title">Tính năng thiết bị</string>
     <string name="qs_category">Kiểu Qs</string>
     <!-- General strings -->

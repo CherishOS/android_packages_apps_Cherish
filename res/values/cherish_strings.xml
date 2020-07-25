@@ -16,17 +16,30 @@
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
+    <string name="button_summary">Hardware keys, Navigation bar</string>
     <string name="gestures_title">Gestures</string>
+    <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
     <string name="lockscreen_title">Lock screen</string>
+    <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
     <string name="misc_title">Miscellaneous</string>
+    <string name="misc_summary">Gaming mode, volume controls</string>
     <string name="animations_title">Animations</string>
+    <string name="animations_summary">System animations</string>
     <string name="powermenu_title">Power menu</string>
+    <string name="powermenu_summary">Advanced restart, power menu opacity</string>
     <string name="theme_title">Themes</string>
+    <string name="theme_summary">System theme, rounded, switch theme</string>
     <string name="quicksettings_title">Quick Settings</string>
+    <string name="quicksettings_summary">Tile layout,miui Brightness, blur</string>
     <string name="recents_title">Recents apps</string>
+    <string name="recents_summary">Slim recents</string>
     <string name="statusbar_title">Status bar</string>
+    <string name="statusbar_summary">Clock, carrier, status icons</string>
     <string name="volume_title">Volume rockers</string>
+    <string name="volume_summary">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
+    <string name="notifications_summary">Battery light, notifications header</string>
+    <string name="about_summary">Learn more about CherishOS</string>
     <string name="device_part_title">Device features</string>
     <string name="qs_category">QS category</string>
 
