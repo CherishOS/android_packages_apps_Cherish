@@ -16,4 +16,17 @@
 
 <resources>
     <color name="fod_item_background_stroke_color">#d6d6d6</color>
+	
+	<!--Cherish Settings-->
+	<color name="cherish_status_settings_background">#c8b6ff</color>
+	<color name="cherish_quick_settings_background">#d1ead4</color>
+	<color name="cherish_theme_settings_background">#f9cfc6</color>
+	<color name="cherish_button_settings_background">#c9dbff</color>
+	<color name="cherish_animation_settings_background">#ffe2c9</color>
+	<color name="cherish_lockscreen_settings_background">#c6eded</color>
+	<color name="cherish_power_settings_background">#fde7c6</color>
+	<color name="cherish_recent_settings_background">#ccf7e0</color>
+	<color name="cherish_notification_settings_background">#ffc9e6</color>
+	<color name="cherish_misc_settings_background">#dfedc6</color>
+	<color name="cherish_about_settings_background">#edc6d1</color>
 </resources>

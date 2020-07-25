@@ -22,34 +22,34 @@
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="com.cherish.settings.fragments.StatusBarSettings"
-            android:icon="@drawable/ic_settings_statusbar"/>
+            android:icon="@drawable/ic_cherish_status_settings_background"/>
 
         <!-- Quick Settings panel -->
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
             android:fragment="com.cherish.settings.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/>
+            android:icon="@drawable/ic_cherish_quick_settings_background"/>
 			
 		<!-- Themes -->
         <Preference
             android:key="theme_category"
             android:title="@string/theme_title"
             android:fragment="com.cherish.settings.fragments.ThemeSettings"
-            android:icon="@drawable/ic_settings_themes"/>
+            android:icon="@drawable/ic_cherish_theme_settings_background"/>
 
         <!-- Buttons -->
 		<Preference
             android:key="button_settings"
             android:title="@string/button_title"
-            android:icon="@drawable/ic_settings_buttons"
+            android:icon="@drawable/ic_cherish_button_settings_background"
             android:fragment="com.android.settings.custom.buttons.ButtonSettings"/>
 			
 		<!-- Animations -->
 		<Preference
             android:key="animations_category"
             android:title="@string/animations_title"
-            android:icon="@drawable/ic_settings_animations"
+            android:icon="@drawable/ic_cherish_animation_settings_background"
             android:fragment="com.cherish.settings.fragments.AnimationsSettings"/>
 
         <!-- Lock Screen -->
@@ -57,42 +57,42 @@
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
             android:fragment="com.cherish.settings.fragments.LockScreenSettings"
-            android:icon="@drawable/ic_settings_lockscreens"/>
+            android:icon="@drawable/ic_cherish_lockscreen_settings_background"/>
 
         <!-- Power Menu -->
         <Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title"
             android:fragment="com.cherish.settings.fragments.PowerMenuSettings"
-            android:icon="@drawable/ic_settings_powermenu"/>
+            android:icon="@drawable/ic_cherish_power_settings_background"/>
 
         <!-- Recents -->
         <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
             android:fragment="com.cherish.settings.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
+            android:icon="@drawable/ic_cherish_recent_settings_background"/>
 
         <!-- Notifications -->
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.cherish.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notification"/>
+            android:icon="@drawable/ic_cherish_notification_settings_background"/>
 
         <!-- Misc -->
         <Preference
             android:key="misc_category"
             android:title="@string/misc_title"
             android:fragment="com.cherish.settings.fragments.MiscSettings"
-            android:icon="@drawable/ic_settings_miscs"/>
+            android:icon="@drawable/ic_cherish_misc_settings_background"/>
 
        <!-- About Team -->
        <Preference
         android:key="about_category"
         android:title="@string/about_cherish"
         android:fragment="com.cherish.settings.fragments.About"
-        android:icon="@drawable/ic_about" />
+        android:icon="@drawable/ic_cherish_about_settings_background" />
 
 
         <!-- Device Part -->
