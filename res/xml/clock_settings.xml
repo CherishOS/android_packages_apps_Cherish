@@ -121,6 +121,27 @@
             android:icon="@drawable/ic_color"
             android:title="@string/status_bar_clock_color_title"
             android:defaultValue="0xffffffff" />
+			
+			
+		<PreferenceCategory
+        android:title="@string/qs_clock_styling">
+
+        <com.cherish.settings.preferences.CustomSeekBarPreference
+            android:key="qs_header_clock_size"
+            android:dependency="status_bar_clock"
+            android:title="@string/qs_clock_font_size_title"
+            android:max="30"
+            settings:min="10"
+            android:defaultValue="14"
+            settings:units="dp"/>
+			
+		<net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="qs_header_clock_color"
+            android:dependency="status_bar_clock"
+            android:title="@string/qs_clock_color_title"
+            android:defaultValue="0xffffffff" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
 

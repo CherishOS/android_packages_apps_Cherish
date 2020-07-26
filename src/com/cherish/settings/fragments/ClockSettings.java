@@ -71,6 +71,7 @@ public class ClockSettings extends SettingsPreferenceFragment implements
     public static final int CLOCK_DATE_STYLE_UPPERCASE = 2;
     private static final int CUSTOM_CLOCK_DATE_FORMAT_INDEX = 18;
     private static final String STATUS_BAR_CLOCK_DATE_POSITION = "statusbar_clock_date_position";
+	private static final String QS_HEADER_CLOCK_SIZE = "qs_header_clock_size";
 
     static final int DEFAULT_STATUS_CLOCK_COLOR = 0xffffffff;
 
@@ -84,6 +85,7 @@ public class ClockSettings extends SettingsPreferenceFragment implements
     private ColorPickerPreference mClockColor;
     private CustomSeekBarPreference mClockSize;
     private ListPreference mClockDatePosition;
+	private CustomSeekBarPreference mQsClockSize;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -103,6 +105,12 @@ public class ClockSettings extends SettingsPreferenceFragment implements
         mClockDateDisplay = (ListPreference) findPreference(STATUS_BAR_CLOCK_DATE_DISPLAY);
         mClockDateStyle = (ListPreference) findPreference(STATUS_BAR_CLOCK_DATE_STYLE);
         mClockDatePosition = (ListPreference) findPreference(STATUS_BAR_CLOCK_DATE_POSITION);
+		
+		mQsClockSize = (CustomSeekBarPreference) findPreference(QS_HEADER_CLOCK_SIZE);
+        int qsClockSize = Settings.System.getInt(resolver,
+                Settings.System.QS_HEADER_CLOCK_SIZE, 14);
+        mQsClockSize.setValue(qsClockSize / 1);
+        mQsClockSize.setOnPreferenceChangeListener(this);
 
         mStatusBarClockShow.setChecked((Settings.System.getInt(resolver,
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
@@ -311,6 +319,11 @@ public class ClockSettings extends SettingsPreferenceFragment implements
                     Settings.System.STATUSBAR_CLOCK_DATE_POSITION, val);
             mClockDatePosition.setSummary(mClockDatePosition.getEntries()[index]);
             parseClockDateFormats();
+            return true;
+		}  else if (preference == mQsClockSize) {
+            int width = ((Integer)newValue).intValue();
+            Settings.System.putInt(resolver,
+                    Settings.System.QS_HEADER_CLOCK_SIZE, width);
             return true;
       }
       return false;

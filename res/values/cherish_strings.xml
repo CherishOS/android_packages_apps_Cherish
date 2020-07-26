@@ -1232,4 +1232,10 @@
     <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
     <string name="screen_state_off_delay_title">Screen-off actions delay</string>
     <string name="screen_state_on_delay_title">Screen-on actions delay</string>
+	
+	<!-- Qs Header Clock Font Style, Size & Color -->
+    <string name="sb_clock_styling">SB Clock Styling</string>
+    <string name="qs_clock_styling">Qs Clock Styling</string>
+	 <string name="qs_clock_font_size_title">Qs Clock Font size</string>
+	 <string name="qs_clock_color_title">Qs Clock Color</string>
 </resources>
