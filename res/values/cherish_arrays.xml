@@ -261,6 +261,7 @@
         <item>@string/lockscreen_charging_animation_covid</item>
         <item>@string/lockscreen_charging_animation_wash</item>
         <item>@string/lockscreen_charging_animation_wear</item>
+        <item>@string/lockscreen_charging_animation_loading</item>
     </string-array>
 
     <string-array name="lockscreen_charging_animation_values" translatable="false">
@@ -275,6 +276,7 @@
         <item>8</item>
         <item>9</item>
         <item>10</item>
+        <item>11</item>
     </string-array>
 
 	<!-- Themes -->

@@ -189,6 +189,7 @@
     <string name="lockscreen_charging_animation_covid">Covid19</string>
     <string name="lockscreen_charging_animation_wash">Wash Your Hand</string>
     <string name="lockscreen_charging_animation_wear">Wear Your Mask</string>
+    <string name="lockscreen_charging_animation_loading">Loading</string>
 
     <!-- Battery Styles -->
     <string name="battery_style_category_title">Battery level</string>
