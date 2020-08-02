@@ -31,6 +31,15 @@
         </Preference>
 
   <Preference
+            android:title="@string/santoni_maintainer"
+            android:summary="@string/device_santoni"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/hung2408" />
+        </Preference>
+
+  <Preference
             android:title="@string/lavender_maintainer"
             android:summary="@string/device_lavender"
             android:icon="@drawable/ic_devs_phone" >
@@ -64,6 +73,24 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/MrJarvis698" />
+        </Preference>
+
+<Preference
+            android:title="@string/platina_maintainer"
+            android:summary="@string/device_platina"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/iicecreamm" />
+        </Preference>
+
+<Preference
+            android:title="@string/ysl_maintainer"
+            android:summary="@string/device_ysl"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Shivamsingh74" />
         </Preference>
 
 	</PreferenceCategory>
