@@ -59,4 +59,13 @@
         settings:min="21"
         settings:defaultValue="42"
         settings:units="dp" />
+
+    <com.cherish.settings.preferences.SystemSettingListPreference 
+        android:key="network_traffic_font_style" 
+        android:title="@string/net_traffic_font" 
+        android:entries="@array/lock_clock_fonts_entries" 
+        android:entryValues="@array/lock_clock_fonts_values" 
+        android:summary="%s"
+        android:defaultValue="0" />
+
 </PreferenceScreen>
