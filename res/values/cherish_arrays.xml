@@ -424,4 +424,17 @@
         <item>9</item>
         <item>10</item>
     </string-array>
+
+    <!-- Lockscreen Item Alignments -->
+    <string-array name="lockscreen_item_alignment_entries" translatable="false">
+        <item>@string/lock_item_left</item>
+        <item>@string/lock_item_center</item>
+        <item>@string/lock_item_right</item>
+    </string-array>
+
+    <string-array name="lockscreen_item_alignment_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

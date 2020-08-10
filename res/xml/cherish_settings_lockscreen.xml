@@ -50,6 +50,7 @@
         android:dialogTitle="@string/lockscreen_clock_dialog_title"
         android:entries="@array/lockscreen_clock_titles"
         android:entryValues="@array/lockscreen_clock_values"
+		 android:summary="%s"
         android:defaultValue="2" />
 
     <com.cherish.settings.preferences.SecureSettingListPreference
@@ -58,13 +59,8 @@
         android:dialogTitle="@string/lockscreen_date_dialog_title"
         android:entries="@array/lockscreen_date_selection_entries"
         android:entryValues="@array/lockscreen_date_selection_values"
+		 android:summary="%s"
         android:defaultValue="0" />
-
-    <com.cherish.settings.preferences.SecureSettingSwitchPreference
-        android:key="center_text_clock"
-        android:title="@string/center_text_clock_title"
-        android:summary="@string/center_text_clock_summary"
-        android:defaultValue="false" />
 
     <ListPreference
         android:key="lock_clock_fonts"
@@ -95,6 +91,24 @@
         android:summary="%s"
         android:defaultValue="32"
         android:persistent="false" />
+		
+	<com.cherish.settings.preferences.SecureSettingListPreference
+        android:key="lock_ownerinfo_alignment"
+        android:title="@string/lockscreen_ownerinfo_alignment_title"
+        android:dialogTitle="@string/lockscreen_ownerinfo_alignment_title"
+        android:entries="@array/lockscreen_item_alignment_entries"
+        android:entryValues="@array/lockscreen_item_alignment_values"
+        android:summary="%s"
+        android:defaultValue="1" />
+
+    <com.cherish.settings.preferences.SecureSettingSeekBarPreference
+        android:key="lockscreen_item_padding"
+        android:title="@string/lockscreen_item_padding_title"
+        android:max="65"
+        settings:min="0"
+        settings:units="dp"
+        android:defaultValue="35" 
+		settings:interval="1"/>
 
    <PreferenceScreen
         android:key="lockscreen_colors"
@@ -139,7 +153,7 @@
         settings:units="dp"
         android:defaultValue="18"
         android:persistent="false" />
-
+		
     <com.cherish.settings.preferences.CustomSeekBarPreference
         android:key="lockowner_font_size"
         android:title="@string/lockowner_font_size_title"
@@ -149,7 +163,29 @@
         android:defaultValue="21"
         android:persistent="false" />
     </PreferenceCategory>
+	
+	<PreferenceCategory
+        android:title="Lockscreen Item Alignment Options"/>
 
+    <com.cherish.settings.preferences.SecureSettingListPreference
+        android:key="center_text_clock"
+        android:title="@string/center_text_clock_title"
+        android:dialogTitle="@string/center_text_clock_title"
+        android:entries="@array/lockscreen_item_alignment_entries"
+        android:entryValues="@array/lockscreen_item_alignment_values"
+        android:summary="%s"
+        android:defaultValue="1" />
+
+    <com.cherish.settings.preferences.SecureSettingListPreference
+        android:key="lock_date_alignment"
+        android:title="@string/lockscreen_date_alignment_title"
+        android:dialogTitle="@string/lockscreen_date_alignment_title"
+        android:entries="@array/lockscreen_item_alignment_entries"
+        android:entryValues="@array/lockscreen_item_alignment_values"
+        android:summary="%s"
+        android:defaultValue="1" />
+
+	</PreferenceCategory>
   <!-- Lockscreen Visualizer-->
     <PreferenceCategory
         android:key="visualizer"

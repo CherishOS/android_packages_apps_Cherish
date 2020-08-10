@@ -40,6 +40,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
+import com.cherish.settings.preferences.SecureSettingListPreference;
 
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
