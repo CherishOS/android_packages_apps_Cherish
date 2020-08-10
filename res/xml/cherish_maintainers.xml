@@ -40,6 +40,15 @@
         </Preference>
 
   <Preference
+            android:title="@string/violet_maintainer"
+            android:summary="@string/device_violet"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Iambusynow" />
+        </Preference>
+
+  <Preference
             android:title="@string/lavender_maintainer"
             android:summary="@string/device_lavender"
             android:icon="@drawable/ic_devs_phone" >

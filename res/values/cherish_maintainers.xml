@@ -33,4 +33,6 @@
    <string name="platina_maintainer">iicecreamm</string>
    <string name="device_ysl">Xiaomi Redmi Y2</string>
    <string name="ysl_maintainer">Shivamsingh74</string>
+   <string name="device_violet">Xiaomi Redmi Note 7 Pro</string>
+   <string name="violet_maintainer">K A R T H I K </string>
 </resources>
