@@ -187,6 +187,15 @@
         android:defaultValue="1" />
 
     <com.cherish.settings.preferences.SecureSettingListPreference
+        android:key="lockscreen_weather_alignment"
+        android:title="@string/lockscreen_weather_alignment_title"
+        android:dialogTitle="@string/lockscreen_weather_alignment_title"
+        android:entries="@array/lockscreen_item_alignment_entries"
+        android:entryValues="@array/lockscreen_item_alignment_values"
+        android:summary="%s"
+        android:defaultValue="1" />
+
+    <com.cherish.settings.preferences.SecureSettingListPreference
         android:key="lock_ownerinfo_alignment"
         android:title="@string/lockscreen_ownerinfo_alignment_title"
         android:dialogTitle="@string/lockscreen_ownerinfo_alignment_title"
