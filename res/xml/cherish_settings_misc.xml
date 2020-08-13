@@ -26,6 +26,20 @@
         android:summary="@string/gaming_mode_summary"
         android:defaultValue="false" />
 
+     <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="settings_show_conditions"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/settings_show_conditions_title"
+        android:summary="@string/settings_show_conditions_summary"
+        android:defaultValue="true" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="settings_show_suggestions"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/settings_show_suggestions_title"
+        android:summary="@string/settings_show_suggestions_summary"
+        android:defaultValue="true" />
+
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
         android:icon="@drawable/ic_plug"

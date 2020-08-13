@@ -17,6 +17,7 @@
     <string name="button_title">Phím</string>
     <string name="button_summary">Phím cứng, Thanh điều hướng</string>
     <string name="gestures_title">Cử chỉ</string>
+    <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
     <string name="lockscreen_title">Màn hình khoá</string>
     <string name="lockscreen_summary">Sóng nhạc, hiệu ứng sạc, kiểu đồng hồ</string>
     <string name="misc_title">Khác</string>
@@ -32,9 +33,10 @@
     <string name="recents_title">Ứng dụng gần đây</string>
     <string name="recents_summary">Kiểu Slim recents</string>
     <string name="statusbar_title">Thanh trạng thái</string>
-    <string name="volume_title">Phím Âm lượng</string>
-    <string name="notifications_title">Thông báo</string>
     <string name="statusbar_summary">Đồng hồ, nhà mạng, biểu tượng trạng thái</string>
+    <string name="volume_title">Phím Âm lượng</string>
+    <string name="volume_summary">Volume rockers</string>
+    <string name="notifications_title">Thông báo</string>
     <string name="notifications_summary">Đèn sạc, tiêu đề thông báo</string>
     <string name="about_summary">Tìm hiểu thêm về CherishOS</string>
     <string name="device_part_title">Tính năng thiết bị</string>
@@ -166,6 +168,12 @@
     <string name="lockscreen_charging_animation_drop">Bỏ</string>
     <string name="lockscreen_charging_animation_explosion">Nổ</string>
     <string name="lockscreen_charging_animation_water">Nước</string>
+    <string name="lockscreen_charging_animation_split">Split Loading</string>
+    <string name="lockscreen_charging_animation_yellow">Yellow Animation</string>
+    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_wash">Wash Your Hand</string>
+    <string name="lockscreen_charging_animation_wear">Wear Your Mask</string>
+    <string name="lockscreen_charging_animation_loading">Loading</string>
     <!-- Battery Styles -->
     <string name="battery_style_category_title">Mức pin</string>
     <string name="battery_percent_title">Phần trăm pin</string>
@@ -406,6 +414,7 @@
     <string name="switch_contained">Bộ chứa</string>
     <string name="switch_retro">Retro</string>
     <string name="switch_stockish">Stockish</string>
+    <string name="switch_telegram">Telegram</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Chế độ chơi game</string>
     <string name="gaming_mode_summary">Tùy chỉnh tùy chọn chế độ trò chơi</string>
@@ -472,6 +481,7 @@
     <string name="theming_settings_dashboard_icons_default_accent2">Nền nhấn</string>
     <string name="theming_settings_dashboard_icons_plain">Đơn giản</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Giọng đồng bằng</string>
+    <string name="theming_settings_dashboard_icons_default_oneplus">OnePlus</string>
     <!-- Audio Panel view -->
     <string name="audio_panel_view">Bảng điều chỉnh âm lượng</string>
     <string name="audio_panel_view_media_title">Âm nhạc/phương tiện</string>
@@ -480,9 +490,6 @@
     <string name="audio_panel_view_alarm_title">Báo thức</string>
     <string name="audio_panel_view_voice_title">Giọng nói</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
-    <!-- Volume panel Hide Things-->
-    <string name="hide_things_volumepanel_title">Ẩn những thứ bên dưới bảng điều khiển âm lượng</string>
-    <string name="hide_things_volumepanel_summary">Ẩn cài đặt và chuông báo bên dưới bảng điều khiển âm lượng</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Biểu tượng VoWifi</string>
     <string name="vowifi_icon_enabled">Kiểu biểu tượng VoWiFi</string>
@@ -499,6 +506,11 @@
     <string name="qs_footer_text_summary">Hiển thị văn bản ở dưới cùng của bảng cài đặt nhanh</string>
     <string name="qs_footer_text_string_title">Tùy chỉnh văn bản cuối trang</string>
     <string name="qs_footer_text_string_summary">Đặt mặc định là #KeeptheLove</string>
-	<string name="brightness_slider_qs_unexpanded">Thanh trượt độ sáng kiểu MIUI (beta)</string>
+    <string name="brightness_slider_qs_unexpanded">Thanh trượt độ sáng kiểu MIUI (beta)</string>
     <string name="brightness_slider_qs_unexpanded_summary">Hiển thị thanh trượt độ sáng trong bảng điều khiển nhanh</string>
+    <!-- Settings Dashboard conditions and suggestions -->
+    <string name="settings_show_conditions_title">Bảng điều khiển đề xuất</string>
+    <string name="settings_show_conditions_summary">Hiển thị thẻ gợi ý trong màn hình Cài đặt</string>
+    <string name="settings_show_suggestions_title">Bảng điều khiển đề xuất</string>
+    <string name="settings_show_suggestions_summary">Hiển thị thẻ gợi ý trong màn hình Cài đặt</string>
 </resources>
