@@ -25,7 +25,7 @@
 
       <ListPreference
           android:key="theme_switch"
-		  android:icon="@drawable/ic_system_theme"
+	  android:icon="@drawable/ic_system_theme"
           android:title="@string/theme_type_title"
           android:summary="%s"
           android:dialogTitle="@string/theme_type_summary"
@@ -40,6 +40,14 @@
         android:persistent="false"
         android:entries="@array/switch_style_entries"
         android:entryValues="@array/switch_style_values" />
+
+      <ListPreference
+            android:key="qs_tile_style"
+	    android:icon="@drawable/ic_shape2_icon"
+            android:title="@string/qs_tile_style_title"
+            android:persistent="false"
+            android:entries="@array/qs_selector_entries"
+            android:entryValues="@array/qs_selector_values" />
 		
 	<com.cherish.settings.preferences.SystemSettingIntListPreference
         android:key="theming_settings_dashboard_icons"

@@ -49,6 +49,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String SYSUI_STATUS_BAR_PADDING = "sysui_status_bar_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
     private static final String SWITCH_STYLE = "switch_style";
+    private static final String QS_TILE_STYLE = "qs_tile_style";
 
     private UiModeManager mUiModeManager;
 	private IOverlayManager mOverlayService;
@@ -58,6 +59,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mSBPadding;
     private SwitchPreference mRoundedFwvals;
     private ListPreference mSwitchStyle;
+    private ListPreference mQsTileStyle;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -117,6 +119,15 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         mSwitchStyle.setValueIndex(switchValueIndex >= 0 ? switchValueIndex : 0);
         mSwitchStyle.setSummary(mSwitchStyle.getEntry());
         mSwitchStyle.setOnPreferenceChangeListener(this);
+
+        mQsTileStyle = (ListPreference) findPreference(QS_TILE_STYLE);
+        int qsTileStyle = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_TILE_STYLE, 0, UserHandle.USER_CURRENT);
+        int valueIndex = mQsTileStyle.findIndexOfValue(String.valueOf(qsTileStyle));
+        mQsTileStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
+        mQsTileStyle.setSummary(mQsTileStyle.getEntry());
+        mQsTileStyle.setOnPreferenceChangeListener(this);
+
 
 		mOverlayService = IOverlayManager.Stub
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
@@ -235,6 +246,11 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(resolver, Settings.System.SWITCH_STYLE, Integer.valueOf(value));
             int valueIndex = mSwitchStyle.findIndexOfValue(value);
             mSwitchStyle.setSummary(mSwitchStyle.getEntries()[valueIndex]);
+         } else if (preference == mQsTileStyle) {
+            int qsTileStyleValue = Integer.valueOf((String) objValue);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.QS_TILE_STYLE, qsTileStyleValue, UserHandle.USER_CURRENT);
+            mQsTileStyle.setSummary(mQsTileStyle.getEntries()[qsTileStyleValue]);
         }
         return true;
     }
