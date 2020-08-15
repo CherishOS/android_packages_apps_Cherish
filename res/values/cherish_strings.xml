@@ -536,6 +536,10 @@
     <string name="theming_settings_dashboard_icons_plain">Plain</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Plain accent</string>
     <string name="theming_settings_dashboard_icons_default_oneplus">OnePlus</string>
+    <string name="theming_settings_dashboard_icons_bg_random">Random Background</string>
+    <string name="theming_settings_dashboard_icons_random">Random Icon</string>
+    <string name="theming_settings_dashboard_icons_random_bg_accent">Icon Random Bg Accent</string>
+    <string name="theming_settings_dashboard_icons_accent_bg_random">Icon Accent Bg Random</string>
 	
 	<!-- Audio Panel view -->
     <string name="audio_panel_view">Volume panel</string>

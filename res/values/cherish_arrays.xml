@@ -462,6 +462,10 @@
         <item>@string/theming_settings_dashboard_icons_plain</item>
         <item>@string/theming_settings_dashboard_icons_plain_accent</item>
         <item>@string/theming_settings_dashboard_icons_default_oneplus</item>
+        <item>@string/theming_settings_dashboard_icons_bg_random</item>
+        <item>@string/theming_settings_dashboard_icons_random</item>
+        <item>@string/theming_settings_dashboard_icons_random_bg_accent</item>
+        <item>@string/theming_settings_dashboard_icons_accent_bg_random</item>
     </string-array>
 
     <string-array name="theming_settings_dashboard_icons_values" translatable="false">
@@ -470,6 +474,10 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
     </string-array>
 	
 	<!-- VoWiFi Icon -->
