@@ -55,9 +55,8 @@
             android:dialogTitle="@string/lock_weather_city_dialog_title"
             android:entries="@array/sb_clock_fonts_entries"
             android:entryValues="@array/sb_clock_fonts_values"
-            android:summary="%s"
+            android:summary="@string/lock_weather_city_font_summary"
             android:dependency="lockscreen_weather_show_city"
-            android:defaultValue="27"
             android:persistent="false" />
 		
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
@@ -66,14 +65,22 @@
             android:summary="@string/lockscreen_weather_show_temp_summary"
             android:defaultValue="true" />
 			
+		<com.cherish.settings.preferences.SecureSettingListPreference
+            android:key="lockscreen_weather_selection"
+            android:title="@string/lockscreen_weather_selection_title"
+            android:dialogTitle="@string/lockscreen_weather_selection_title"
+            android:entries="@array/lockscreen_weather_bg_entries"
+            android:entryValues="@array/lockscreen_weather_bg_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+			
 		<ListPreference
             android:key="lock_weather_temp_fonts"
             android:title="@string/lock_weather_temp_font_title"
             android:dialogTitle="@string/lock_weather_temp_font_dialog_title"
             android:entries="@array/sb_clock_fonts_entries"
             android:entryValues="@array/sb_clock_fonts_values"
-            android:summary="%s"
+            android:summary="@string/lock_weather_temp_font_summary"
             android:dependency="lockscreen_weather_show_temp"
-            android:defaultValue="27"
             android:persistent="false" />
 </PreferenceScreen>
