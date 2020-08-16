@@ -50,6 +50,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
     private static final String SWITCH_STYLE = "switch_style";
     private static final String QS_TILE_STYLE = "qs_tile_style";
+    private static final String QS_HEADER_STYLE = "qs_header_style";
 
     private UiModeManager mUiModeManager;
 	private IOverlayManager mOverlayService;
@@ -60,6 +61,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mRoundedFwvals;
     private ListPreference mSwitchStyle;
     private ListPreference mQsTileStyle;
+    private ListPreference mQsHeaderStyle;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -127,6 +129,14 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         mQsTileStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
         mQsTileStyle.setSummary(mQsTileStyle.getEntry());
         mQsTileStyle.setOnPreferenceChangeListener(this);
+
+        mQsHeaderStyle = (ListPreference)findPreference(QS_HEADER_STYLE);
+        int qsHeaderStyle = Settings.System.getInt(resolver,
+                Settings.System.QS_HEADER_STYLE, 0);
+        int qsvalueIndex = mQsHeaderStyle.findIndexOfValue(String.valueOf(qsHeaderStyle));
+        mQsHeaderStyle.setValueIndex(qsvalueIndex >= 0 ? qsvalueIndex : 0);
+        mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntry());
+        mQsHeaderStyle.setOnPreferenceChangeListener(this);
 
 
 		mOverlayService = IOverlayManager.Stub
@@ -251,6 +261,12 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
             Settings.System.putIntForUser(resolver,
                     Settings.System.QS_TILE_STYLE, qsTileStyleValue, UserHandle.USER_CURRENT);
             mQsTileStyle.setSummary(mQsTileStyle.getEntries()[qsTileStyleValue]);
+        } else if (preference == mQsHeaderStyle) {
+            String value = (String) objValue;
+            Settings.System.putInt(resolver,
+			    Settings.System.QS_HEADER_STYLE, Integer.valueOf(value));
+            int newIndex = mQsHeaderStyle.findIndexOfValue(value);
+            mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntries()[newIndex]);
         }
         return true;
     }

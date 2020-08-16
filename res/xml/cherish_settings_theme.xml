@@ -48,6 +48,14 @@
             android:persistent="false"
             android:entries="@array/qs_selector_entries"
             android:entryValues="@array/qs_selector_values" />
+			
+	<ListPreference
+        android:key="qs_header_style"
+		 android:icon="@drawable/ic_header"
+        android:title="@string/qs_header_style_title"
+        android:persistent="false"
+        android:entries="@array/qs_header_style_entries"
+        android:entryValues="@array/qs_header_style_values" />
 		
 	<com.cherish.settings.preferences.SystemSettingIntListPreference
         android:key="theming_settings_dashboard_icons"
