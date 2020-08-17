@@ -17,7 +17,7 @@
     <string name="button_title">Phím</string>
     <string name="button_summary">Phím cứng, Thanh điều hướng</string>
     <string name="gestures_title">Cử chỉ</string>
-    <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
+    <string name="gestures_summary">Mở nhanh máy ảnh, vuốt để chụp màn hình</string>
     <string name="lockscreen_title">Màn hình khoá</string>
     <string name="lockscreen_summary">Sóng nhạc, hiệu ứng sạc, kiểu đồng hồ</string>
     <string name="misc_title">Khác</string>
@@ -35,7 +35,7 @@
     <string name="statusbar_title">Thanh trạng thái</string>
     <string name="statusbar_summary">Đồng hồ, nhà mạng, biểu tượng trạng thái</string>
     <string name="volume_title">Phím Âm lượng</string>
-    <string name="volume_summary">Volume rockers</string>
+    <string name="volume_summary">Phím Âm lượng</string>
     <string name="notifications_title">Thông báo</string>
     <string name="notifications_summary">Đèn sạc, tiêu đề thông báo</string>
     <string name="about_summary">Tìm hiểu thêm về CherishOS</string>
@@ -169,11 +169,11 @@
     <string name="lockscreen_charging_animation_explosion">Nổ</string>
     <string name="lockscreen_charging_animation_water">Nước</string>
     <string name="lockscreen_charging_animation_split">Split Loading</string>
-    <string name="lockscreen_charging_animation_yellow">Yellow Animation</string>
+    <string name="lockscreen_charging_animation_yellow">Hoạt ảnh màu vàng</string>
     <string name="lockscreen_charging_animation_covid">Covid19</string>
-    <string name="lockscreen_charging_animation_wash">Wash Your Hand</string>
-    <string name="lockscreen_charging_animation_wear">Wear Your Mask</string>
-    <string name="lockscreen_charging_animation_loading">Loading</string>
+    <string name="lockscreen_charging_animation_wash">Rửa tay của bạn</string>
+    <string name="lockscreen_charging_animation_wear">Đeo khẩu trang</string>
+    <string name="lockscreen_charging_animation_loading">Đang tải</string>
     <!-- Battery Styles -->
     <string name="battery_style_category_title">Mức pin</string>
     <string name="battery_percent_title">Phần trăm pin</string>
@@ -482,6 +482,10 @@
     <string name="theming_settings_dashboard_icons_plain">Đơn giản</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Giọng đồng bằng</string>
     <string name="theming_settings_dashboard_icons_default_oneplus">OnePlus</string>
+    <string name="theming_settings_dashboard_icons_bg_random">Nền ngẫu nhiên</string>
+    <string name="theming_settings_dashboard_icons_random">Biểu tượng ngẫu nhiên</string>
+    <string name="theming_settings_dashboard_icons_random_bg_accent">Biểu tượng Dấu Bg Ngẫu nhiên</string>
+    <string name="theming_settings_dashboard_icons_accent_bg_random">Biểu tượng Trọng âm Bg Ngẫu nhiên</string>
     <!-- Audio Panel view -->
     <string name="audio_panel_view">Bảng điều chỉnh âm lượng</string>
     <string name="audio_panel_view_media_title">Âm nhạc/phương tiện</string>
@@ -509,8 +513,84 @@
     <string name="brightness_slider_qs_unexpanded">Thanh trượt độ sáng kiểu MIUI (beta)</string>
     <string name="brightness_slider_qs_unexpanded_summary">Hiển thị thanh trượt độ sáng trong bảng điều khiển nhanh</string>
     <!-- Settings Dashboard conditions and suggestions -->
-    <string name="settings_show_conditions_title">Bảng điều khiển đề xuất</string>
+    <string name="settings_show_conditions_title">Bảng điều khiển điều kiện</string>
     <string name="settings_show_conditions_summary">Hiển thị thẻ gợi ý trong màn hình Cài đặt</string>
     <string name="settings_show_suggestions_title">Bảng điều khiển đề xuất</string>
     <string name="settings_show_suggestions_summary">Hiển thị thẻ gợi ý trong màn hình Cài đặt</string>
+    <!-- Volume Panel Plugin -->
+    <string name="volume_panel">Kiểu âm lượng</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compat">Compat</string>
+    <string name="volume_panel_oreo">Android 8</string>
+    <string name="volume_panel_tiled">Ô xếp</string>
+    <!-- Volume Panel Plugin Values -->
+    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compat_val">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation">Trình đơn nguồn</string>
+    <string name="power_menu_animation_title">Hoạt ảnh menu nguồn</string>
+    <string name="power_menu_animation_summary">Thay đổi hoạt ảnh Mở/Tắt trình đơn nguồn</string>
+    <string name="power_menu_animation_dialog_title">Chọn hoạt ảnh menu nguồn</string>
+    <string name="power_menu_animation_aosp">AOSP (mặc định)</string>
+    <string name="power_menu_animation_bottom">Dưới cùng</string>
+    <string name="power_menu_animation_top">Trên cùng</string>
+    <string name="power_menu_animation_xylon">Bay</string>
+    <string name="power_menu_animation_slide">Trượt</string>
+    <string name="power_menu_animation_turn">Xoay</string>
+    <string name="power_menu_animation_fly">Phát sáng</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Mờ (phía trên)</string>
+    <string name="power_menu_animation_translucent_bottom">Mờ (dưới cùng)</string>
+    <string name="power_menu_animation_rotate">Xoay</string>
+    <!-- QS header image -->
+    <string name="status_bar_custom_header_title">Hình ảnh header</string>
+    <string name="status_bar_custom_header_summary">Sử dụng hình ảnh tùy chỉnh cho tiêu đề cài đặt nhanh</string>
+    <string name="custom_header_provider_title">Kiểu ảnh</string>
+    <string name="daylight_header_provider_title">Tự động (Dựa trên thời gian)</string>
+    <string name="file_header_provider_title">Tĩnh</string>
+    <string name="daylight_header_pack_title">Bộ sưu tập ảnh</string>
+    <string name="header_provider_disabled">Tắt</string>
+    <string name="custom_header_pick_title">Chọn hình ảnh từ bộ sưu tập</string>
+    <string name="custom_header_pick_summary">Chọn một hình ảnh từ bộ sưu tập hình ảnh được cài đặt sẵn</string>
+    <string name="file_header_select_title">Chọn hình ảnh từ bộ nhớ</string>
+    <string name="file_header_select_summary">Chọn một hình ảnh từ bộ nhớ trong</string>
+    <string name="status_bar_custom_header_shadow_title">Hình ảnh tối</string>
+    <string name="status_bar_custom_header_height_title">Thu phóng kích thước hình ảnh</string>
+    <!-- Ambient edge lighting -->
+    <string name="notification_screen_title">Màn hình</string>
+    <string name="pulse_ambient_light_title">Ánh sáng cạnh</string>
+    <string name="pulse_ambient_light_summary">Làm sáng các cạnh bên của màn hình trên thông báo đẩy</string>
+    <string name="pulse_ambient_light_color_title">Đặt màu đèn</string>
+    <string name="pulse_ambient_light_auto_color_title">Màu sắc tự động</string>
+    <string name="pulse_ambient_light_auto_color_summary">Đồng bộ màu với ảnh album</string>
+    <string name="pulse_ambient_light_duration">Thời gian sáng</string>
+    <string name="edgelight_left">Cạnh trái</string>
+    <string name="edgelight_right">Cạnh phải</string>
+    <string name="ambient_notification_light_enabled_title">Hiển thị trên màn hình AOD</string>
+    <string name="ambient_notification_light_enabled_sumary">Tiếp tục hiển thị. Cho đến khi màn hình được bật</string>
+    <string name="ambient_notification_light_hide_aod_title">Ẩn AOD</string>
+    <string name="ambient_notification_light_hide_aod_sumary">Ẩn nội dung AOD khi các thanh đang hiển thị</string>
+    <string name="pulse_ambient_light_pulse_for_all_title">Pulse cho tất cả các sự kiện doze</string>
+    <string name="pulse_ambient_light_pulse_for_all_summary">Hiển thị xung cho chế độ thức và thông báo khi được bật</string>
+    <string name="ambient_notification_light_accent_title">Màu nhấn</string>
+    <string name="ambient_notification_light_accent_summary">Đồng bộ màu sắc với màu accent</string>
+    <string name="pulse_ambient_light_pulse_for_all_repeat_title">Lặp lại ánh sáng cạnh</string>
+    <string name="pulse_ambient_light_pulse_for_all_repeat_summary">Lặp lại hoạt ảnh ánh sáng cạnh doze wake</string>
+    <string name="pulse_ambient_light_repeat_mode_title">Hoạt ảnh Edge Light</string>
+    <string name="pulse_ambient_light_anim_restart">Khởi động lại</string>
+    <string name="pulse_ambient_light_anim_reverse">Đảo vị trí</string>
+    <string name="pulse_ambient_light_layout_title">Bật sáng màn hình cạnh</string>
+    <string name="pulse_ambient_light_layout_solid">Khối</string>
+    <string name="pulse_ambient_light_layout_faded">Mờ dần</string>
+    <string name="qs_datausage_title">Hiện thị mức sử dụng dữ liệu ở cài đặt nhanh</string>
+    <string name="qs_datausage_subtitle">Hiện mức dữ liệu của Sim đã sử dụng ở  cài đặt nhanh</string>
+    <!-- QS header styles -->
+    <string name="qs_header_style_title">Kiểu tiêu đề cài đặt nhanh</string>
+    <string name="qs_header_black">Màu đen</string>
+    <string name="qs_header_grey">Xám</string>
+    <string name="qs_header_lightgrey">Xám nhạt</string>
+    <string name="qs_header_accent">Dựa vào màu hệ thống</string>
+    <string name="qs_header_transparent">Trong suốt</string>
 </resources>
