@@ -141,8 +141,8 @@
             android:icon="@drawable/ic_battery_percent"
             android:title="@string/battery_percent_title"
             android:dialogTitle="@string/battery_percent_title"
-            android:entries="@array/battery_percent_entries"
-            android:entryValues="@array/battery_percent_values"
+            android:entries="@array/battery_percentage_entries"
+            android:entryValues="@array/battery_percentage_values"
             android:defaultValue="0" />
 
        <com.cherish.settings.preferences.SystemSettingSwitchPreference
