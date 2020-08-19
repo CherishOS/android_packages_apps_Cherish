@@ -50,6 +50,7 @@
         <ListPreference
             android:key="theme_navbar_style"
             android:title="@string/theme_navbar_picker_title"
+            android:icon="@drawable/ic_arrow"
             android:dialogTitle="@string/theme_navbar_picker_summary"
             android:summary="%s"
             android:entries="@array/navbar_name_entries"
