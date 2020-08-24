@@ -77,7 +77,7 @@
             android:icon="@drawable/ic_volume"
             android:entries="@array/volume_panel_entries"
             android:entryValues="@array/volume_panel_values"
-            android:defaultValue="@string/volume_panel_aosp_val" />
+            android:defaultValue="@string/volume_panel_default_val" />
 
     </PreferenceCategory>
 
