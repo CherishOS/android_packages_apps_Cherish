@@ -497,6 +497,7 @@
 	
 	<!--  Volume Panel  -->
     <string-array name="volume_panel_entries">
+        <item>@string/volume_panel_default</item>
         <item>@string/volume_panel_aosp</item>
         <item>@string/volume_panel_compat</item>
         <item>@string/volume_panel_oreo</item>
@@ -504,6 +505,7 @@
     </string-array>
 
     <string-array name="volume_panel_values" translatable="false">
+        <item>@string/volume_panel_default_val</item>
         <item>@string/volume_panel_aosp_val</item>
         <item>@string/volume_panel_compat_val</item>
         <item>@string/volume_panel_oreo_val</item>
