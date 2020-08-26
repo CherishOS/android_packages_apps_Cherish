@@ -63,7 +63,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/hungphan2001" />
+                android:data="https://t.me/NBD_ERICK" />
         </Preference>
 
   <Preference
