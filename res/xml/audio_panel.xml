@@ -19,9 +19,28 @@
     android:title="@string/audio_panel_view">
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="audio_panel_view_media"
+        android:icon="@drawable/ic_music"
+        android:title="@string/audio_panel_view_media_title"
+        android:defaultValue="true"
+        android:enabled="false"/>
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="audio_panel_view_ringer"
+        android:icon="@drawable/ic_ring"
+        android:title="@string/audio_panel_view_ringer_title"
+        android:defaultValue="false"/>
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="audio_panel_view_notification"
         android:icon="@drawable/ic_notification"
         android:title="@string/audio_panel_view_notification_title"
+        android:defaultValue="false"/>
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="audio_panel_view_alarm"
+        android:icon="@drawable/ic_alarm"
+        android:title="@string/audio_panel_view_alarm_title"
         android:defaultValue="false"/>
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
