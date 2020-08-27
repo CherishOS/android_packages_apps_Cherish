@@ -57,6 +57,14 @@
         android:entries="@array/qs_header_style_entries"
         android:entryValues="@array/qs_header_style_values" />
 		
+	<ListPreference
+        android:key="brightness_slider_style"
+		android:icon="@drawable/ic_brightness"
+        android:title="@string/brightness_slider_style_title"
+        android:entries="@array/brightness_slider_style_selector_entries"
+        android:entryValues="@array/brightness_slider_style_selector_values"
+        android:persistent="false" />
+		
 	<com.cherish.settings.preferences.SystemSettingIntListPreference
         android:key="theming_settings_dashboard_icons"
         android:icon="@drawable/ic_dashboard"

@@ -51,6 +51,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String SWITCH_STYLE = "switch_style";
     private static final String QS_TILE_STYLE = "qs_tile_style";
     private static final String QS_HEADER_STYLE = "qs_header_style";
+    private static final String BRIGHTNESS_SLIDER_STYLE = "brightness_slider_style";
 
     private UiModeManager mUiModeManager;
 	private IOverlayManager mOverlayService;
@@ -62,6 +63,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private ListPreference mSwitchStyle;
     private ListPreference mQsTileStyle;
     private ListPreference mQsHeaderStyle;
+    private ListPreference mBrightnessSliderStyle;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -81,6 +83,16 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         } catch (NameNotFoundException e) {
             e.printStackTrace();
         }
+
+        mBrightnessSliderStyle = (ListPreference) findPreference(BRIGHTNESS_SLIDER_STYLE);
+        int BrightnessSliderStyle = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.BRIGHTNESS_SLIDER_STYLE, 0);
+        int BrightnessSliderStyleValue = getOverlayPosition(ThemesUtils.BRIGHTNESS_SLIDER_THEMES);
+        if (BrightnessSliderStyleValue != 0) {
+            mBrightnessSliderStyle.setValue(String.valueOf(BrightnessSliderStyle));
+        }
+        mBrightnessSliderStyle.setSummary(mBrightnessSliderStyle.getEntry());
+        mBrightnessSliderStyle.setOnPreferenceChangeListener(this);
 
         // Rounded Corner Radius
         mCornerRadius = (CustomSeekBarPreference) findPreference(SYSUI_ROUNDED_SIZE);
@@ -267,6 +279,19 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 			    Settings.System.QS_HEADER_STYLE, Integer.valueOf(value));
             int newIndex = mQsHeaderStyle.findIndexOfValue(value);
             mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntries()[newIndex]);
+        } else if (preference == mBrightnessSliderStyle) {
+                    String value = (String) objValue;
+                    Settings.System.putInt(resolver, Settings.System.BRIGHTNESS_SLIDER_STYLE, Integer.valueOf(value));
+                    int valueIndex = mBrightnessSliderStyle.findIndexOfValue(value);
+                    mBrightnessSliderStyle.setSummary(mBrightnessSliderStyle.getEntries()[valueIndex]);
+                    String overlayName = getOverlayName(ThemesUtils.BRIGHTNESS_SLIDER_THEMES);
+                    if (overlayName != null) {
+                    handleOverlays(overlayName, false, mOverlayManager);
+                    }
+                    if (valueIndex > 0) {
+                        handleOverlays(ThemesUtils.BRIGHTNESS_SLIDER_THEMES[valueIndex],
+                                true, mOverlayManager);
+                    }
         }
         return true;
     }
