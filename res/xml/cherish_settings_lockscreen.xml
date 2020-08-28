@@ -18,7 +18,12 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+    <!-- Lock screen -->
+    <PreferenceCategory
+        android:key="lockscreen_category"
+        android:title="@string/lockscreen_category">
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
         android:icon="@drawable/ic_batteryenergy"
         android:title="@string/lockscreen_battery_info_title"
@@ -27,13 +32,26 @@
 		
 	<com.cherish.settings.preferences.SystemSettingListPreference
         android:key="lockscreen_charging_animation_style"
-		android:icon="@drawable/ic_charging"
+	android:icon="@drawable/ic_charging"
         android:dialogTitle="@string/lockscreen_charging_animation_title"
         android:title="@string/lockscreen_charging_animation_title"
         android:entries="@array/lockscreen_charging_animation_entries"
         android:entryValues="@array/lockscreen_charging_animation_values"
         android:summary="%s"
         android:defaultValue="1" />
+
+        <Preference
+            android:title="@string/lockscreen_tuner_title"
+            android:icon="@drawable/ic_shortcut"
+            android:summary="@string/lockscreen_tuner_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
+        </Preference>
+
+
+    </PreferenceCategory>
+
 
    <!-- Lockscreen Clock -->
     <PreferenceCategory
@@ -107,6 +125,7 @@
         android:summary="@string/fod_icon_picker_summary"
         android:fragment="com.cherish.settings.fragments.FODIconPickerFragment" />
    </PreferenceCategory>
+
 
     <SwitchPreference
         android:key="fingerprint_success_vib"
