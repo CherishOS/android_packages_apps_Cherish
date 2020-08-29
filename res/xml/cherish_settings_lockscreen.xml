@@ -89,12 +89,6 @@
         android:key="visualizer"
         android:title="@string/visualizer_title">
 
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_visualizer"
-            android:icon="@drawable/ic_visualizer"
-            android:title="@string/lockscreen_visualizer_title"
-            android:defaultValue="false" />
-
    <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:title="@string/lockscreen_media_art_title"
