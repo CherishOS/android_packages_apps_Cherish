@@ -28,5 +28,10 @@
         <item name="android:paddingVertical">15dp</item>
         <item name="android:fitsSystemWindows">false</item>
     </style>
+	
+	<style name="preference_icon_frame">
+        <item name="android:layout_marginStart">-4dp</item>
+        <item name="android:minWidth">60dp</item>
+    </style>
 
 </resources>
