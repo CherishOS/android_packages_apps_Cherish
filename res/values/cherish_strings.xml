@@ -708,6 +708,8 @@
     <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar area, also if bar is hidden</string>
     <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
     <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
     <string name="pulse_advanced_category">Advanced</string>
     <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
     <string name="pulse_custom_fudge_factor">Sanity level</string>
