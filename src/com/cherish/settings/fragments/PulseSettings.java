@@ -26,6 +26,8 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
+import com.cherish.settings.preferences.SecureSettingListPreference;
+import com.cherish.settings.preferences.SecureSettingSeekBarPreference;
 import com.android.internal.util.cherish.CherishUtils;
 
 import android.content.Context;
