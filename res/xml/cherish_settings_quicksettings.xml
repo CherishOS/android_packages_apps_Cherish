@@ -219,19 +219,11 @@
     </PreferenceCategory>
 
     <com.cherish.settings.preferences.SystemSettingListPreference
-        android:key="qs_show_battery_percent"
+        android:key="qs_battery_mode"
         android:icon="@drawable/ic_battery_percent"
         android:title="@string/battery_percentage_title"
-        android:entries="@array/battery_percentage_entries"
-        android:entryValues="@array/battery_percentage_values"
-        android:defaultValue="2" />
-
-    <!-- Battery estimate -->
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
-        android:key="qs_show_battery_estimate"
-		 android:icon="@drawable/ic_battery_full"
-        android:title="@string/battery_estimate_title"
-        android:summary="@string/battery_estimate_summary"
-        android:defaultValue="true" />
+        android:entries="@array/qs_battery_mode_entries"
+        android:entryValues="@array/qs_battery_mode_values"
+        android:defaultValue="1" />
 		
 </PreferenceScreen>

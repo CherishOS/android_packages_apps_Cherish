@@ -193,17 +193,12 @@
     <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
     <string name="status_bar_battery_text_charging_title">Hiển thị phần trăm pin lúc sạc</string>
     <string name="status_bar_battery_text_charging_summary">Luôn hiển thị dung lượng pin lúc sạc</string>
-    <!-- Battery percent -->
+    <!-- Battery mode -->
     <string name="battery_percentage_title">Phần trăm pin</string>
     <string name="battery_percentage_off">Tắt</string>
     <string name="battery_percentage_next">Bật</string>
     <string name="battery_percentage_inside">Đã bật (biểu tượng bên trong)</string>
-	
-	<!-- Battery estimate -->
-    <string name="battery_estimate_title">Ước tính pin</string>
-    <string name="battery_estimate_summary">Hiển thị thời lượng pin còn lại ước tính khi có sẵn</string>
-    <string name="status_bar_battery_bolt_charging_title">Biểu tượng bolt khi sạc</string>
-    <string name="status_bar_battery_bolt_charging_summary">Luôn hiển thị biểu tượng bolt bên cạnh phần trăm pin khi sạc</string>
+    <string name="battery_percentage_estimate">Đã bật (ước tính)</string>
     <!-- Network traffic -->
     <string name="traffic_title">Hiển thị tốc độ mạng</string>
     <string name="traffic_title_summary">Tùy chỉnh chỉ số lưu lượng mạng</string>

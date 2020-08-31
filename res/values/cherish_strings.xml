@@ -214,18 +214,13 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
     <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
-    <string name="status_bar_battery_bolt_charging_title">Bolt icon when charging</string>
-    <string name="status_bar_battery_bolt_charging_summary">Always display a bolt icon next to the battery percentage when charging</string>
 
-    <!-- Battery percent  -->
+    <!-- Battery mode -->
     <string name="battery_percentage_title">Battery percentage</string>
     <string name="battery_percentage_off">Disabled</string>
     <string name="battery_percentage_next">Enabled</string>
     <string name="battery_percentage_inside">Enabled (inside icon)</string>
-	
-    <!-- Battery estimate -->
-    <string name="battery_estimate_title">Battery estimate</string>
-    <string name="battery_estimate_summary">Display estimated remaining battery life when available</string>
+    <string name="battery_percentage_estimate">Enabled (estimate)</string>
 
 	<!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
