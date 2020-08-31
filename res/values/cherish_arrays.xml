@@ -606,6 +606,18 @@
         <item>4</item>
     </string-array>
 
+     <!-- QS Header Data Usage -->
+    <string-array name="qs_datausage_entries" translatable="false">
+        <item>@string/qs_datausage_disabled</item>
+        <item>@string/qs_datausage_daily</item> 
+        <item>@string/qs_datausage_monthly</item>
+    </string-array>
+    <string-array name="qs_datausage_values" translatable="false"> 
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <!-- Pulse -->
     <string-array name="pulse_render_mode_entries">
        <item>@string/pulse_render_mode_fading_bars</item>
