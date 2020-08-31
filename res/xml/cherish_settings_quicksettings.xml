@@ -219,6 +219,17 @@
 
     </PreferenceCategory>
 
+     <PreferenceCategory
+        android:title="@string/battery_title">
+	
+	<!-- Battery hide -->
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+             android:key="qs_hide_battery"
+             android:icon="@drawable/ic_battery_outline"
+             android:title="@string/qs_hide_battery_title"
+             android:summary="@string/qs_hide_battery_summary"
+             android:defaultValue="false" />
+
     <com.cherish.settings.preferences.SystemSettingListPreference
         android:key="qs_battery_mode"
         android:icon="@drawable/ic_battery_percent"
@@ -226,5 +237,7 @@
         android:entries="@array/qs_battery_mode_entries"
         android:entryValues="@array/qs_battery_mode_values"
         android:defaultValue="1" />
+
+   </PreferenceCategory>
 		
 </PreferenceScreen>

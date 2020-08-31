@@ -22,6 +22,8 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.cherish.settings.preferences.SystemSettingSwitchPreference;
+import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.SystemSettingEditTextPreference;
 import com.cherish.settings.preferences.SystemSettingMasterSwitchPreference;
 import java.util.List;
@@ -34,12 +36,16 @@ public class QuickSettings extends SettingsPreferenceFragment implements
    private static final String QUICK_PULLDOWN = "quick_pulldown";
    private static final String FOOTER_TEXT_STRING = "footer_text_string";
    private static final String STATUS_BAR_CUSTOM_HEADER = "status_bar_custom_header";
+   private static final String QS_HIDE_BATTERY = "qs_hide_battery";
+   private static final String QS_BATTERY_MODE = "qs_battery_mode";
 
    private ListPreference mQuickPulldown;
    private CustomSeekBarPreference mQSBlurAlpha;
    private CustomSeekBarPreference mQSBlurIntensity;
    private SystemSettingEditTextPreference mFooterString;
    private SystemSettingMasterSwitchPreference mCustomHeader;
+   private SystemSettingSwitchPreference mHideBattery;
+   private SystemSettingListPreference mQsBatteryMode;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -73,6 +79,10 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_CUSTOM_HEADER, 0);
         mCustomHeader.setChecked(qsHeader != 0);
         mCustomHeader.setOnPreferenceChangeListener(this);
+      
+        mQsBatteryMode = (SystemSettingListPreference) findPreference(QS_BATTERY_MODE);
+        mHideBattery = (SystemSettingSwitchPreference) findPreference(QS_HIDE_BATTERY);
+        mHideBattery.setOnPreferenceChangeListener(this);
 
         mFooterString = (SystemSettingEditTextPreference) findPreference(FOOTER_TEXT_STRING);
         mFooterString.setOnPreferenceChangeListener(this);
@@ -122,6 +132,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             boolean header = (Boolean) newValue;
             Settings.System.putInt(resolver,
                     Settings.System.STATUS_BAR_CUSTOM_HEADER, header ? 1 : 0);
+            return true;
+            } else if (preference == mHideBattery) {
+            Boolean value = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_HIDE_BATTERY, value ? 1 : 0);
+            mQsBatteryMode.setEnabled(!value);
             return true;
         }
         return false;
