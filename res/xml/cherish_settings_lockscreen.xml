@@ -113,21 +113,6 @@
             android:defaultValue="100"/>
   </PreferenceCategory>
 
-  <!-- FOD -->
-    <PreferenceCategory
-        android:key="fod"
-        android:title="@string/fod_title">
-
-   <!-- FOD icon picker -->
-    <Preference
-        android:key="fod_icon_picker_category"
-        android:icon="@drawable/ic_fingerprint"
-        android:title="@string/fod_icon_picker_title"
-        android:summary="@string/fod_icon_picker_summary"
-        android:fragment="com.cherish.settings.fragments.FODIconPickerFragment" />
-   </PreferenceCategory>
-
-
     <SwitchPreference
         android:key="fingerprint_success_vib"
         android:icon="@drawable/ic_fingerprint"
