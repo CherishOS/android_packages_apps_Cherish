@@ -42,6 +42,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_CLOCK = "status_bar_clock";
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_BATTERY_TEXT_CHARGING = "status_bar_battery_text_charging";
+    private static final String STATUS_BAR_BATTERY_CHARGING_BOLT = "status_bar_battery_charging_bolt";
     private static final String BATTERY_PERCENTAGE_HIDDEN = "0";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
 
@@ -57,6 +58,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mBatteryCharging;
 	private CustomSeekBarPreference mThreshold;
     private SystemSettingSwitchPreference mNetMonitor;
+    private SwitchPreference mBatteryBolt;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -75,6 +77,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         mBatteryPercent = (ListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
         mBatteryCharging = (SwitchPreference) findPreference(STATUS_BAR_BATTERY_TEXT_CHARGING);
+        mBatteryCharging.setOnPreferenceChangeListener(this);
+
+        mBatteryBolt = (SwitchPreference) findPreference(STATUS_BAR_BATTERY_CHARGING_BOLT);
+        mBatteryBolt.setOnPreferenceChangeListener(this);
 
         mBatteryStyle = (ListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         int batterystyle = Settings.System.getInt(resolver,
@@ -122,22 +128,47 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                     Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, val,
                     UserHandle.USER_CURRENT);
             return true;
+        } else if (preference == mBatteryCharging) {
+            boolean enabled = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_BATTERY_TEXT_CHARGING,
+                    enabled ? 1 : 0);
+            updateBoltEnablement();
+            return true;
+        } else if (preference == mBatteryBolt) {
+            boolean enabled = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_BATTERY_CHARGING_BOLT,
+                    enabled ? 1 : 0);
+            return true;
         }
 		
         return false;
     }
 	
 	private void updateBatteryOptions(int batterystyle) {
-		boolean enabled = batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN;
+        boolean enabled = batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN;
         if (batterystyle == BATTERY_STYLE_HIDDEN) {
             mBatteryPercent.setValue(BATTERY_PERCENTAGE_HIDDEN);
             mBatteryPercent.setSummary(mBatteryPercent.getEntry());
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, 0);
         }
-            mBatteryCharging.setEnabled(enabled);
-            mBatteryPercent.setEnabled(enabled);
+        mBatteryCharging.setEnabled(enabled);
+        mBatteryPercent.setEnabled(enabled);
+        updateBoltEnablement();
     }
+
+    private void updateBoltEnablement() {
+        int batteryStyle = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_BATTERY_STYLE, BATTERY_STYLE_Q);
+        boolean precentOnCharging = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_BATTERY_TEXT_CHARGING, 1) == 1;
+        boolean textEnabled = batteryStyle == BATTERY_STYLE_TEXT ||
+                (batteryStyle == BATTERY_STYLE_HIDDEN && precentOnCharging);
+        mBatteryBolt.setEnabled(textEnabled);
+		
+	}
 
     @Override
     public int getMetricsCategory() {

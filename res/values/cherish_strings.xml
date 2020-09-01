@@ -214,6 +214,8 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
     <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="status_bar_battery_charging_bolt_title">Show charging bolt</string>
+    <string name="status_bar_battery_charging_bolt_summary">Show a \u26A1\uFE0E symbol near battery text when charging</string>
 
     <!-- Battery mode -->
     <string name="battery_title">Battery icon</string>
