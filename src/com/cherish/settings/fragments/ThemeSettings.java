@@ -1,7 +1,8 @@
 package com.cherish.settings.fragments;
 
-import com.android.internal.logging.nano.MetricsProto;
+import static com.cherish.settings.utils.Utils.handleOverlays;
 
+import com.android.internal.logging.nano.MetricsProto;
 import static android.os.UserHandle.USER_SYSTEM;
 import android.app.UiModeManager;
 import android.graphics.Color;
@@ -95,7 +96,27 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
             mUIStyle.setValue(String.valueOf(UIStyle));
         }
         mUIStyle.setSummary(mUIStyle.getEntry());
-        mUIStyle.setOnPreferenceChangeListener(this);
+        mUIStyle.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
+            @Override
+            public boolean onPreferenceChange(Preference preference, Object newValue) {
+                if (preference == mUIStyle) {
+                    String value = (String) newValue;
+                    Settings.System.putInt(getActivity().getContentResolver(), Settings.System.UI_STYLE, Integer.valueOf(value));
+                    int valueIndex = mUIStyle.findIndexOfValue(value);
+                    mUIStyle.setSummary(mUIStyle.getEntries()[valueIndex]);
+                    String overlayName = getOverlayName(ThemesUtils.UI_THEMES);
+                    if (overlayName != null) {
+                    handleOverlays(overlayName, false, mOverlayService);
+                    }
+                    if (valueIndex > 0) {
+                        handleOverlays(ThemesUtils.UI_THEMES[valueIndex],
+                                true, mOverlayService);
+                    }
+                    return true;
+                }
+                return false;
+            }
+       });
 
         mBrightnessSliderStyle = (ListPreference) findPreference(BRIGHTNESS_SLIDER_STYLE);
         int BrightnessSliderStyle = Settings.System.getInt(getActivity().getContentResolver(),
@@ -105,7 +126,27 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
             mBrightnessSliderStyle.setValue(String.valueOf(BrightnessSliderStyle));
         }
         mBrightnessSliderStyle.setSummary(mBrightnessSliderStyle.getEntry());
-        mBrightnessSliderStyle.setOnPreferenceChangeListener(this);
+        mBrightnessSliderStyle.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
+            @Override
+            public boolean onPreferenceChange(Preference preference, Object newValue) {
+                if (preference == mBrightnessSliderStyle) {
+                    String value = (String) newValue;
+                    Settings.System.putInt(getActivity().getContentResolver(), Settings.System.BRIGHTNESS_SLIDER_STYLE, Integer.valueOf(value));
+                    int valueIndex = mBrightnessSliderStyle.findIndexOfValue(value);
+                    mBrightnessSliderStyle.setSummary(mBrightnessSliderStyle.getEntries()[valueIndex]);
+                    String overlayName = getOverlayName(ThemesUtils.BRIGHTNESS_SLIDER_THEMES);
+                    if (overlayName != null) {
+                    handleOverlays(overlayName, false, mOverlayService);
+                    }
+                    if (valueIndex > 0) {
+                        handleOverlays(ThemesUtils.BRIGHTNESS_SLIDER_THEMES[valueIndex],
+                                true, mOverlayService);
+                    }
+                    return true;
+                }
+                return false;
+            }
+       });
 
         // Rounded Corner Radius
         mCornerRadius = (CustomSeekBarPreference) findPreference(SYSUI_ROUNDED_SIZE);
@@ -292,34 +333,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 			    Settings.System.QS_HEADER_STYLE, Integer.valueOf(value));
             int newIndex = mQsHeaderStyle.findIndexOfValue(value);
             mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntries()[newIndex]);
-        } else if (preference == mBrightnessSliderStyle) {
-                    String value = (String) objValue;
-                    Settings.System.putInt(resolver, Settings.System.BRIGHTNESS_SLIDER_STYLE, Integer.valueOf(value));
-                    int valueIndex = mBrightnessSliderStyle.findIndexOfValue(value);
-                    mBrightnessSliderStyle.setSummary(mBrightnessSliderStyle.getEntries()[valueIndex]);
-                    String overlayName = getOverlayName(ThemesUtils.BRIGHTNESS_SLIDER_THEMES);
-                    if (overlayName != null) {
-                    handleOverlays(overlayName, false, mOverlayService);
-                    }
-                    if (valueIndex > 0) {
-                        handleOverlays(ThemesUtils.BRIGHTNESS_SLIDER_THEMES[valueIndex],
-                                true, mOverlayService);
-                    }
-        }
-        } else if (preference == mUIStyle) {
-                    String value = (String) newValue;
-                    Settings.System.putInt(getActivity().getContentResolver(), Settings.System.UI_STYLE, Integer.valueOf(value));
-                    int valueIndex = mUIStyle.findIndexOfValue(value);
-                    mUIStyle.setSummary(mUIStyle.getEntries()[valueIndex]);
-                    String overlayName = getOverlayName(ThemesUtils.UI_THEMES);
-                    if (overlayName != null) {
-                    handleOverlays(overlayName, false, mOverlayService);
-                    }
-                    if (valueIndex > 0) {
-                        handleOverlays(ThemesUtils.UI_THEMES[valueIndex],
-                                true, mOverlayService);
-                    }
-                }				
+		}
         return true;
     }
 	
