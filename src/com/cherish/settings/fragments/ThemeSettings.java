@@ -53,8 +53,10 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String QS_HEADER_STYLE = "qs_header_style";
     private static final String BRIGHTNESS_SLIDER_STYLE = "brightness_slider_style";
 
+    private static final String UI_STYLE = "ui_style";
+
     private UiModeManager mUiModeManager;
-	private IOverlayManager mOverlayService;
+    private IOverlayManager mOverlayService;
     private ListPreference mThemeSwitch;
     private CustomSeekBarPreference mCornerRadius;
     private CustomSeekBarPreference mContentPadding;
@@ -64,6 +66,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private ListPreference mQsTileStyle;
     private ListPreference mQsHeaderStyle;
     private ListPreference mBrightnessSliderStyle;
+    private ListPreference mUIStyle;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -83,6 +86,16 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         } catch (NameNotFoundException e) {
             e.printStackTrace();
         }
+
+        mUIStyle = (ListPreference) findPreference(UI_STYLE);
+        int UIStyle = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.UI_STYLE, 0);
+        int UIStyleValue = getOverlayPosition(ThemesUtils.UI_THEMES);
+        if (UIStyleValue != 0) {
+            mUIStyle.setValue(String.valueOf(UIStyle));
+        }
+        mUIStyle.setSummary(mUIStyle.getEntry());
+        mUIStyle.setOnPreferenceChangeListener(this);
 
         mBrightnessSliderStyle = (ListPreference) findPreference(BRIGHTNESS_SLIDER_STYLE);
         int BrightnessSliderStyle = Settings.System.getInt(getActivity().getContentResolver(),
@@ -286,13 +299,27 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                     mBrightnessSliderStyle.setSummary(mBrightnessSliderStyle.getEntries()[valueIndex]);
                     String overlayName = getOverlayName(ThemesUtils.BRIGHTNESS_SLIDER_THEMES);
                     if (overlayName != null) {
-                    handleOverlays(overlayName, false, mOverlayManager);
+                    handleOverlays(overlayName, false, mOverlayService);
                     }
                     if (valueIndex > 0) {
                         handleOverlays(ThemesUtils.BRIGHTNESS_SLIDER_THEMES[valueIndex],
-                                true, mOverlayManager);
+                                true, mOverlayService);
                     }
         }
+        } else if (preference == mUIStyle) {
+                    String value = (String) newValue;
+                    Settings.System.putInt(getActivity().getContentResolver(), Settings.System.UI_STYLE, Integer.valueOf(value));
+                    int valueIndex = mUIStyle.findIndexOfValue(value);
+                    mUIStyle.setSummary(mUIStyle.getEntries()[valueIndex]);
+                    String overlayName = getOverlayName(ThemesUtils.UI_THEMES);
+                    if (overlayName != null) {
+                    handleOverlays(overlayName, false, mOverlayService);
+                    }
+                    if (valueIndex > 0) {
+                        handleOverlays(ThemesUtils.UI_THEMES[valueIndex],
+                                true, mOverlayService);
+                    }
+                }				
         return true;
     }
 	
@@ -355,6 +382,28 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         mContentPadding.setValue((int) (res.getDimension(resourceIdPadding) / density));
         mSBPadding.setValue((int) (res.getDimension(resourceIdSBPadding) / density));
     }
+	
+	private String getOverlayName(String[] overlays) {
+            String overlayName = null;
+            for (int i = 0; i < overlays.length; i++) {
+                String overlay = overlays[i];
+                if (CherishUtils.isThemeEnabled(overlay)) {
+                    overlayName = overlay;
+                }
+            }
+            return overlayName;
+        }
+
+    private int getOverlayPosition(String[] overlays) {
+            int position = -1;
+            for (int i = 0; i < overlays.length; i++) {
+                String overlay = overlays[i];
+                if (CherishUtils.isThemeEnabled(overlay)) {
+                    position = i;
+                }
+            }
+            return position;
+        }
 
     @Override
     public int getMetricsCategory() {

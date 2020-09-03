@@ -783,4 +783,12 @@
     <string name="brightness_slider_style_memeround">Meme round</string>
     <string name="brightness_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="brightness_slider_style_memestroke">Meme stroke</string>
+
+	<!-- GUI styles -->
+    <string name="ui_style_title">UI Style</string>
+    <string name="ui_style_default">Default</string>
+    <string name="ui_style_no_corner_radius">No Corner Radius</string>
+    <string name="ui_style_rectangle">Rectangle</string>
+    <string name="ui_style_round_large">Round Large</string>
+    <string name="ui_style_round_medium">Round Medium</string>
 </resources>

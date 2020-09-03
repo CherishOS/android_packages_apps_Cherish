@@ -40,6 +40,14 @@
         android:persistent="false"
         android:entries="@array/switch_style_entries"
         android:entryValues="@array/switch_style_values" />
+		
+		<ListPreference
+        android:key="ui_style"
+		 android:icon="@drawable/ic_ui"
+        android:title="@string/ui_style_title"
+        android:entries="@array/ui_style_selector_entries"
+        android:entryValues="@array/ui_style_selector_values"
+        android:persistent="false" />
 
       <ListPreference
             android:key="qs_tile_style"
