@@ -72,6 +72,16 @@
         android:entries="@array/brightness_slider_style_selector_entries"
         android:entryValues="@array/brightness_slider_style_selector_values"
         android:persistent="false" />
+
+        <!-- Navbar Style -->
+        <ListPreference
+        android:key="navbar_style"
+        android:title="@string/navbar_style_title"
+        android:icon="@drawable/ic_nav"
+        android:dialogTitle="@string/navbar_style_title"
+        android:entries="@array/navbar_style_entries"
+        android:entryValues="@array/navbar_style_values"
+        android:defaultValue="0" />
 		
 	<com.cherish.settings.preferences.SystemSettingIntListPreference
         android:key="theming_settings_dashboard_icons"

@@ -53,6 +53,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String QS_TILE_STYLE = "qs_tile_style";
     private static final String QS_HEADER_STYLE = "qs_header_style";
     private static final String BRIGHTNESS_SLIDER_STYLE = "brightness_slider_style";
+    private static final String NAVBAR_STYLE = "navbar_style";
 
     private static final String UI_STYLE = "ui_style";
 
@@ -68,6 +69,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private ListPreference mQsHeaderStyle;
     private ListPreference mBrightnessSliderStyle;
     private ListPreference mUIStyle;
+    private ListPreference mNavbarStyle;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -140,6 +142,36 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                     }
                     if (valueIndex > 0) {
                         handleOverlays(ThemesUtils.BRIGHTNESS_SLIDER_THEMES[valueIndex],
+                                true, mOverlayService);
+                    }
+                    return true;
+                }
+                return false;
+            }
+       });
+
+        mNavbarStyle = (ListPreference) findPreference(NAVBAR_STYLE);
+        int navbarStyle = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.NAVBAR_STYLE, 0);
+        int navbarStyleValue = getOverlayPosition(ThemesUtils.NAVBAR_STYLES);
+        if (navbarStyleValue != 0) {
+            mNavbarStyle.setValue(String.valueOf(navbarStyle));
+        }
+        mNavbarStyle.setSummary(mNavbarStyle.getEntry());
+        mNavbarStyle.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
+            @Override
+            public boolean onPreferenceChange(Preference preference, Object newValue) {
+                if (preference == mNavbarStyle) {
+                    String value = (String) newValue;
+                    Settings.System.putInt(getActivity().getContentResolver(), Settings.System.NAVBAR_STYLE, Integer.valueOf(value));
+                    int valueIndex = mNavbarStyle.findIndexOfValue(value);
+                    mNavbarStyle.setSummary(mNavbarStyle.getEntries()[valueIndex]);
+                    String overlayName = getOverlayName(ThemesUtils.NAVBAR_STYLES);
+                    if (overlayName != null) {
+                    handleOverlays(overlayName, false, mOverlayService);
+                    }
+                    if (valueIndex > 0) {
+                        handleOverlays(ThemesUtils.NAVBAR_STYLES[valueIndex],
                                 true, mOverlayService);
                     }
                     return true;

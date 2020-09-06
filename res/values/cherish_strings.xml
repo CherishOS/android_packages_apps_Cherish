@@ -791,4 +791,12 @@
     <string name="ui_style_rectangle">Rectangle</string>
     <string name="ui_style_round_large">Round Large</string>
     <string name="ui_style_round_medium">Round Medium</string>
+
+    <!-- Navbar styles -->
+    <string name="navbar_style_title">Navbar style</string>
+    <string name="navbar_default">Default</string>
+    <string name="navbar_asus">ASUS</string>
+    <string name="navbar_oneplus">OnePlus</string>
+    <string name="navbar_oneui">One UI</string>
+    <string name="navbar_tecno">Tecno Camon</string>
 </resources>
