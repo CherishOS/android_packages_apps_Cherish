@@ -224,7 +224,7 @@
         android:title="@string/battery_percentage_title"
         android:entries="@array/battery_percentage_entries"
         android:entryValues="@array/battery_percentage_values"
-        android:defaultValue="0" />
+        android:defaultValue="2" />
 
     <!-- Battery estimate -->
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
