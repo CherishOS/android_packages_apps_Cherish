@@ -55,6 +55,8 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Thiết lập</string>
     <string name="color_default">Mặc định</string>
+    <string name="led_color_green">Xanh</string>
+    <string name="led_color_red">Đỏ</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Thông tin sạc màn hình khoá</string>
     <string name="lockscreen_battery_info_summary">Hiển thị điện áp bộ sạc tối đa hiện tại đã ước tính và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
@@ -193,12 +195,18 @@
     <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
     <string name="status_bar_battery_text_charging_title">Hiển thị phần trăm pin lúc sạc</string>
     <string name="status_bar_battery_text_charging_summary">Luôn hiển thị dung lượng pin lúc sạc</string>
+    <string name="status_bar_battery_charging_bolt_title">Hiển thị tình trạng sạc pin</string>
+    <string name="status_bar_battery_charging_bolt_summary">Hiển thị biểu tượng \u26A1\uFE0E gần văn bản pin khi sạc</string>
     <!-- Battery mode -->
+    <string name="battery_title">Biểu tượng pin</string>
+    <string name="qs_hide_battery_title">Ẩn biểu tượng pin</string>
+    <string name="qs_hide_battery_summary">Ẩn biểu tượng pin khỏi tiêu đề cài đặt nhanh</string>
     <string name="battery_percentage_title">Phần trăm pin</string>
     <string name="battery_percentage_off">Tắt</string>
     <string name="battery_percentage_next">Bật</string>
     <string name="battery_percentage_inside">Đã bật (biểu tượng bên trong)</string>
     <string name="battery_percentage_estimate">Đã bật (ước tính)</string>
+    <string name="battery_percentage_percentage_estimate">Đã bật (phần trăm | ước tính)</string>
     <!-- Network traffic -->
     <string name="traffic_title">Hiển thị tốc độ mạng</string>
     <string name="traffic_title_summary">Tùy chỉnh chỉ số lưu lượng mạng</string>
@@ -523,11 +531,13 @@
     <string name="volume_panel_compat">Compat</string>
     <string name="volume_panel_oreo">Android 8</string>
     <string name="volume_panel_tiled">Ô xếp</string>
+    <string name="volume_panel_default">Mặc định</string>
     <!-- Volume Panel Plugin Values -->
     <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
     <string name="volume_panel_compat_val">co.potatoproject.plugin.volume.compact</string>
     <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+    <string name="volume_panel_default_val">com.android.systemui.volume</string>
     <!-- Power menu Animations  -->
     <string name="power_menu_animation">Trình đơn nguồn</string>
     <string name="power_menu_animation_title">Hoạt ảnh menu nguồn</string>
@@ -584,8 +594,11 @@
     <string name="pulse_ambient_light_layout_title">Bật sáng màn hình cạnh</string>
     <string name="pulse_ambient_light_layout_solid">Khối</string>
     <string name="pulse_ambient_light_layout_faded">Mờ dần</string>
+    <!-- QS Header Data Usage -->
     <string name="qs_datausage_title">Hiện thị mức sử dụng dữ liệu ở cài đặt nhanh</string>
-    <string name="qs_datausage_subtitle">Hiện mức dữ liệu của Sim đã sử dụng ở  cài đặt nhanh</string>
+    <string name="qs_datausage_disabled">Đã tắt</string>
+    <string name="qs_datausage_daily">Sử dụng hàng ngày</string>
+    <string name="qs_datausage_monthly">Sử dụng hàng tháng</string>
     <!-- QS header styles -->
     <string name="qs_header_style_title">Kiểu tiêu đề cài đặt nhanh</string>
     <string name="qs_header_black">Màu đen</string>
@@ -594,6 +607,115 @@
     <string name="qs_header_accent">Dựa vào màu hệ thống</string>
     <string name="qs_header_transparent">Trong suốt</string>
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Điều chỉnh độ sáng</string> 
+    <string name="status_bar_toggle_brightness">Điều chỉnh độ sáng</string>
     <string name="status_bar_toggle_brightness_summary">Điều chỉnh độ sáng bằng cách trượt qua thanh trạng thái</string>
+    <!-- Charger Connected Animation -->
+    <string name="charging_animation_title">Hiệu ứng sạc</string>
+    <string name="charging_animation_summary">Hiển thị một hiệu ứng khi thiết bị được cắm sạc</string>
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Mở khóa bằng vân tay</string>
+    <string name="fp_unlock_keystore_summary">Mở khóa điện thoại bằng vân tay sau khi khởi động lại mà không cần PIN/Mật khẩu/Mẫu hình\nChú ý: nguy cơ của riêng bạn!</string>
+    <!-- Lockscreen -->
+    <string name="lockscreen_category">Màn hình khóa</string>
+    <string name="lockscreen_tuner_title">Lối tắt phía dưới</string>
+    <string name="lockscreen_tuner_summary">Tùy chỉnh các phím tắt dưới cùng bên trái và bên phải</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Sóng nhạc không hoạt động với một số nguồn âm thanh khi nghe trên loa thiết bị</string>
+    <string name="pulse_settings">Sóng nhạc</string>
+    <string name="pulse_settings_summary">Sóng nhạc trên thanh điều hướng</string>
+    <string name="show_pulse_title">Hiện thị sóng nhạc</string>
+    <string name="show_pulse_summary">Trình trực quan đồ họa âm thanh trên thanh điều hướng</string>
+    <string name="pulse_render_mode_title">Chế độ hiển thị</string>
+    <string name="pulse_render_mode_fading_bars">Khối mờ dần</string>
+    <string name="pulse_render_mode_solid_lines">Đường liền nét</string>
+    <string name="pulse_color">Màu sắc</string>
+    <string name="pulse_color_mode">Chế độ màu</string>
+    <string name="pulse_color_accent">Màu nhấn</string>
+    <string name="pulse_color_custom">Tuỳ chỉnh</string>
+    <string name="pulse_color_lava_lamp">Đèn dung nham</string>
+    <string name="pulse_color_auto">Ảnh album</string>
+    <string name="pulse_color_chooser">Chọn màu sắc</string>
+    <string name="smoothing_enabled_title">Bật làm mượt</string>
+    <string name="smoothing_enabled_summary">Thanh hoạt cảnh mượt hơn</string>
+    <string name="show_navbar_pulse_title">Thanh điều hướng sóng nhạc</string>
+    <string name="show_navbar_pulse_summary">Bộ cân bằng đồ họa âm thanh trên khu vực thanh điều hướng, cũng như nếu thanh bị ẩn</string>
+    <string name="show_lockscreen_pulse_title">Sóng nhạc trên màn hình khoá</string>
+    <string name="show_lockscreen_pulse_summary">Trình trực quan đồ họa âm thanh trên thanh điều hướng</string>
+    <string name="show_ambient_pulse_title">Hiển thị tương tác sóng nhạc</string>
+    <string name="show_ambient_pulse_summary">Trình trực quan đồ họa âm thanh trên thanh điều hướng</string>
+    <string name="pulse_advanced_category">Nâng cao</string>
+    <string name="pulse_legacy_mode_advanced_category">Cài đặt chế độ khối mờ dần</string>
+    <string name="pulse_custom_fudge_factor">Mức độ mạnh</string>
+    <string name="lavamp_speed_title">Tốc độ đèn dung nham</string>
+    <string name="pulse_solid_units_count">Số đường liền nét</string>
+    <string name="pulse_solid_lines_count">Số đường liền nét</string>
+    <string name="pulse_solid_units_opacity">Độ đậm đường liền nét</string>
+    <string name="pulse_solid_dimen_category">Cài đặt chế độ đường thẳng liền nét</string>
+    <string name="pulse_custom_dimen">Độ rộng thanh</string>
+    <string name="pulse_custom_div">Khoảng cách thanh</string>
+    <string name="pulse_filled_block_size">Kích thước khối</string>
+    <string name="pulse_empty_block_size">Khoảng cách khối</string>
+    <!-- does the device have multi color led support or only
+         a fixed set of led colors -->
+    <!-- Center R Notification headers -->
+    <string name="center_notification_headers_title">Hiển thị tiêu đề thông báo trung tâm</string>
+    <string name="center_notification_headers_summary">Có hiển thị tiêu đề thông báo kiểu R hay không (Yêu cầu khởi động lại giao diện người dùng hệ thống)</string>
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_category">Đèn pin</string>
+    <string name="flashlight_on_call_title">Nháy đèn pin khi có cuộc gọi</string>
+    <string name="flashlight_on_call_disabled">Tắt</string>
+    <string name="flashlight_on_call_ringer">Khi đổ chuông</string>
+    <string name="flashlight_on_call_no_ringer">Khi chuông đã im lặng</string>
+    <string name="flashlight_on_call_silent">Khi hoàn toàn im lặng (không có chuông hoặc bộ rung)</string>
+    <string name="flashlight_on_call_always">Luôn luôn</string>
+    <string name="flashlight_on_call_ignore_dnd_title">Loại bỏ không làm phiền</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Có nhấp nháy khi ở chế độ Không làm phiền không</string>
+    <string name="flashlight_on_call_rate_title">Đánh giá</string>
+    <string name="flashlight_on_call_rate_summary">Đèn pin trên tỷ lệ nhấp nháy cuộc gọi</string>
+    <!-- Battery bar -->
+    <string name="enable_first">Hãy ghép nối trước</string>
+    <string name="battery_bar_title">Thanh hiển thị pin</string>
+    <string name="sb_battery_bar_title">Thanh pin</string>
+    <string name="sb_battery_bar_summary">Hiển thị và tuỳ chỉnh thanh pin gần thanh trạng thái hoặc thanh điều hướng</string>
+    <string name="sb_battery_bar_location">Vị trí hiển thị thanh pin</string>
+    <string name="sb_battery_bar_color">Màu thanh pin</string>
+    <string name="sb_battery_bar_style_title">Kiểu thanh hiển thị pin</string>
+    <string name="sb_battery_bar_thickness_title">Độ dày thanh pin</string>
+    <string name="sb_battery_bar_animate_title">Hiệu ứng sạc</string>
+    <string name="sb_battery_bar_animate_summary">Các hoạt ảnh khi sạc có thể dẫn đến một trải nghiệm không tốt cho người dùng. Bật tính năng theo ý riêng của bạn.</string>
+    <string name="sb_battery_bar_hide">Ẩn</string>
+    <string name="sb_battery_bar_statusbar">Thanh trạng thái</string>
+    <string name="sb_battery_bar_topnav">Phía trên thanh điều hướng</string>
+    <string name="sb_battery_bar_bottomnav">Phía dưới thanh điều hướng</string>
+    <string name="sb_battery_bar_reg">Binh thường</string>
+    <string name="sb_battery_bar_center">Đối xứng giữa</string>
+    <string name="sb_battery_bar_charging_color">Màu thanh pin khi sạc</string>
+    <string name="sb_battery_bar_battery_low_color">Màu thanh pin khi pin yếu</string>
+    <string name="sb_battery_bar_reversed">Đảo ngược</string>
+    <string name="sb_battery_bar_use_gradient_color">Sử dụng màu chuyển sắc</string>
+    <string name="sb_battery_bar_gradient_color_summary">Sử dụng màu chuyển sắc làm thang đo cho mức pin</string>
+    <string name="sb_battery_bar_high_color">Màu mức cao\"</string>
+    <string name="sb_battery_bar_low_color">Màu mức thấp\"</string>
+    <!-- Brightness Slider style -->
+    <string name="brightness_slider_style_title">Vị trí thanh trượt độ sáng</string>
+    <string name="brightness_slider_style_default">Mặc định</string>
+    <string name="brightness_slider_style_daniel">Đa-ni-ên</string>
+    <string name="brightness_slider_style_mememini">Meme mini</string>
+    <string name="brightness_slider_style_memeround">Tròn Meme</string>
+    <string name="brightness_slider_style_memeroundstroke">Meme tròn nét</string>
+    <string name="brightness_slider_style_memestroke">Meme nét</string>
+    <!-- GUI styles -->
+    <string name="ui_style_title">Kiểu giao diện</string>
+    <string name="ui_style_default">Mặc định</string>
+    <string name="ui_style_no_corner_radius">Không có bán kính bo góc</string>
+    <string name="ui_style_rectangle">Chữ Nhật</string>
+    <string name="ui_style_round_large">Tròn rộng</string>
+    <string name="ui_style_round_medium">Tròn vừa</string>
+    <!-- Navbar styles -->
+    <string name="navbar_style_title">Kiểu thanh điều hướng</string>
+    <string name="navbar_default">Mặc định</string>
+    <string name="navbar_asus">ASUS</string>
+    <string name="navbar_oneplus">OnePlus</string>
+    <string name="navbar_oneui">One UI</string>
+    <string name="navbar_tecno">Tecno Camon</string>
 </resources>
