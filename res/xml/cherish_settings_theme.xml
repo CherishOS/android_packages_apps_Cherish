@@ -46,6 +46,15 @@
         android:entryValues="@array/ui_style_selector_values"
         android:persistent="false" />
 
+        <!-- Navbar styles -->
+        <ListPreference
+            android:key="theme_navbar_style"
+            android:title="@string/theme_navbar_picker_title"
+            android:dialogTitle="@string/theme_navbar_picker_summary"
+            android:summary="%s"
+            android:entries="@array/navbar_name_entries"
+            android:entryValues="@array/navbar_picker_values"/>
+
         <com.cherish.settings.preferences.SystemSettingListPreference
         android:key="switch_style"
         android:icon="@drawable/ic_switch_theme"
