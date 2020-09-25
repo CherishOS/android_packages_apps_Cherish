@@ -234,6 +234,12 @@
             android:defaultValue="0" />
 
     </PreferenceCategory>
+	
+	<com.cherish.settings.preference.SystemSettingSwitchPreference
+            android:key="vibrate_on_notifications"
+			android:icon="@drawable/ic_vibrate"
+            android:title="@string/vibrate_on_notifications_title"
+            android:summary="@string/vibrate_on_notifications_summary"
+            android:defaultValue="true"/>
     
-
 </PreferenceScreen>
