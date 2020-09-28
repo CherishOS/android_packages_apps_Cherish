@@ -17,5 +17,65 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/powermenu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-	
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="global_actions_screenshot"
+		android:icon="@drawable/ic_screenshot"
+        android:title="@string/global_actions_screenshot"
+        android:defaultValue="false" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="global_actions_screenrecord"
+		android:icon="@drawable/ic_screenshot"
+        android:title="@string/global_actions_screenrecord"
+        android:defaultValue="false" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="global_actions_airplane"
+		android:icon="@drawable/ic_plane"
+        android:title="@string/global_actions_airplane"
+        android:defaultValue="false" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="global_actions_settings"
+		android:icon="@drawable/ic_settings"
+        android:title="@string/global_actions_settings"
+        android:defaultValue="false" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="global_actions_lockdown"
+		android:icon="@drawable/ic_lockdown"
+        android:title="@string/global_actions_lockdown"
+        android:defaultValue="false" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="global_actions_flashlight"
+		android:icon="@drawable/ic_flashlight"
+        android:title="@string/global_actions_flashlight"
+        android:defaultValue="false" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="global_actions_users"
+		android:icon="@drawable/ic_users"
+        android:title="@string/global_actions_users"
+        android:defaultValue="false" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="global_actions_emergency"
+		android:icon="@drawable/ic_emergency"
+        android:title="@string/global_actions_emergency"
+        android:defaultValue="false" />
+
+    <!--com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="global_actions_soundpanel"
+        android:title="@string/global_actions_soundpanel"
+        android:defaultValue="false" /-->
+
+    <com.cherish.settings.preferences.CustomSeekBarPreference
+        android:key="global_actions_max_columns"
+        android:title="@string/global_actions_max_columns_title"
+        android:summary="@string/global_actions_max_columns_summary"
+        android:max="8"
+        android:min="3"
+        android:defaultValue="3"/>
 </PreferenceScreen>
