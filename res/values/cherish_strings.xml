@@ -225,4 +225,9 @@
     <string name="fprint_error_vib_title">Fingerprint error vibration</string>
     <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
 
+    <!--Double Tap to Sleep -->
+    <string name="double_tap_gestures_category_title">Double tap gestures</string>
+    <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+
 </resources>

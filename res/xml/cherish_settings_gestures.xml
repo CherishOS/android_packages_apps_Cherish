@@ -18,8 +18,25 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="double_tap_gestures_category"
+        android:title="@string/double_tap_gestures_category_title">
+
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+	    android:key="double_tap_sleep_gesture"
+            android:icon="@drawable/ic_tap"
+            android:title="@string/double_tap_sleep_gesture_title"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_lockscreen"
+            android:icon="@drawable/ic_tap"
+            android:title="@string/double_tap_sleep_lockscreen_title"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
-		android:icon="@drawable/ic_torch"
+	android:icon="@drawable/ic_torch"
         android:key="torch_long_press_power_gesture"
         android:title="@string/torch_long_press_power_gesture_title"
         android:summary="@string/torch_long_press_power_gesture_desc"
