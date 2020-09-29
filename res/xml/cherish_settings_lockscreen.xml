@@ -20,8 +20,23 @@
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
+        android:icon="@drawable/ic_battery_info"
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="fingerprint_success_vib"
+        android:icon="@drawable/ic_fingerprint"
+        android:title="@string/fprint_sucess_vib_title"
+        android:summary="@string/fprint_sucess_vib_summary"
+        android:defaultValue="true" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="fingerprint_error_vib"
+        android:icon="@drawable/ic_fingerprint"
+        android:title="@string/fprint_error_vib_title"
+        android:summary="@string/fprint_error_vib_summary"
         android:defaultValue="true" />
 
     <!-- Lock screen -->
@@ -37,4 +52,5 @@
         android:title="@string/visualizer_title">
 
   </PreferenceCategory>
+
 </PreferenceScreen>
