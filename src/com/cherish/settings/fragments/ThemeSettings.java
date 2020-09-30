@@ -60,6 +60,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String GRADIENT_COLOR_PROP = "persist.sys.theme.gradientcolor";
     private static final String CUSTOM_THEME_BROWSE = "theme_select_activity";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
+	static final int DEFAULT = 0xff1a73e8;
 
     private IOverlayManager mOverlayService;
     private UiModeManager mUiModeManager;
