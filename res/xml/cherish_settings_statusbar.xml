@@ -34,5 +34,13 @@
         android:title="@string/show_fourg_title"
         android:summary="@string/show_fourg_summary"
         android:defaultValue="false" />
+		
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="show_volte"
+		android:icon="@drawable/ic_volte"
+        android:title="@string/volte_switch_title"
+        android:summary="@string/volte_switch_summary"
+        android:defaultValue="true" />
+
 </PreferenceCategory>
-</PreferenceScreen> 
+</PreferenceScreen>
