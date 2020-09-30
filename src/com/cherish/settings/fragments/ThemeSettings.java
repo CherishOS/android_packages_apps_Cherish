@@ -13,10 +13,14 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.UserHandle;
+import android.os.Bundle;
 import android.os.SystemProperties;
 import android.os.ServiceManager;
 import android.content.om.IOverlayManager;
+import android.content.om.OverlayInfo;
 import android.os.RemoteException;
+import android.provider.SearchIndexableResource;
+import android.provider.Settings;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import androidx.preference.ListPreference;
@@ -26,8 +30,14 @@ import androidx.preference.PreferenceManager;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
+import com.android.settings.display.OverlayCategoryPreferenceController;
+import com.android.settingslib.core.lifecycle.Lifecycle;
 import android.provider.Settings;
 import com.android.settings.R;
+import androidx.fragment.app.Fragment;
+import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.SettingsPreferenceFragment;
 import java.util.Locale;
 import android.text.TextUtils;
@@ -48,6 +58,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String ACCENT_COLOR_PROP = "persist.sys.theme.accentcolor";
     private static final String GRADIENT_COLOR = "gradient_color";
     private static final String GRADIENT_COLOR_PROP = "persist.sys.theme.gradientcolor";
+    private static final String CUSTOM_THEME_BROWSE = "theme_select_activity";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 
     private IOverlayManager mOverlayService;
@@ -55,6 +66,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private ColorPickerPreference mThemeColor;
     private ColorPickerPreference mGradientColor;
     private ListPreference mThemeSwitch;
+    private Preference mThemeBrowse;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -227,6 +239,13 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         mGradientColor.setOnPreferenceChangeListener(this);
     }
 
+    private boolean isBrowseThemesAvailable() {
+        PackageManager pm = getPackageManager();
+        Intent browse = new Intent();
+        browse.setClassName("com.android.customization", "com.android.customization.picker.CustomizationPickerActivity");
+        return pm.resolveActivity(browse, 0) != null;
+    }
+
     private void handleBackgrounds(Boolean state, Context context, int mode, String[] overlays) {
         if (context != null) {
             Objects.requireNonNull(context.getSystemService(UiModeManager.class))
@@ -246,5 +265,4 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CHERISH_SETTINGS;
     }
-
 }

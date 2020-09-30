@@ -105,4 +105,8 @@
     <string name="accent_summary">Gradient Maker</string>
     <string name="gradient_color">Gradient picker</string>
     <string name="gradient_summary">Gradient effect maker</string>
+
+    <!--ThemePicker-->
+    <string name="theme_select_title">Styles and Wallpapers</string>
+    <string name="theme_select_summary">Browse and select installed themes</string>
 </resources>
