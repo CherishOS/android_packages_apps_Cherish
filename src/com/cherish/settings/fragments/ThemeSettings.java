@@ -44,9 +44,16 @@ import net.margaritov.preference.colorpicker.ColorPickerPreference;
 public class ThemeSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
     private static final String PREF_THEME_SWITCH = "theme_switch";
+    private static final String ACCENT_COLOR = "accent_color";
+    private static final String ACCENT_COLOR_PROP = "persist.sys.theme.accentcolor";
+    private static final String GRADIENT_COLOR = "gradient_color";
+    private static final String GRADIENT_COLOR_PROP = "persist.sys.theme.gradientcolor";
+    static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 
     private IOverlayManager mOverlayService;
     private UiModeManager mUiModeManager;
+    private ColorPickerPreference mThemeColor;
+    private ColorPickerPreference mGradientColor;
     private ListPreference mThemeSwitch;
 
     @Override
@@ -64,12 +71,34 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
 
         setupThemeSwitchPref();
+        setupAccentPref();
+        setupGradientPref();
         }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-         if (preference == mThemeSwitch) {
+         if (preference == mThemeColor) {
+            int color = (Integer) objValue;
+            String hexColor = String.format("%08X", (0xFFFFFFFF & color));
+            SystemProperties.set(ACCENT_COLOR_PROP, hexColor);
+            try {
+                 mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.settings", UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
+             } catch (RemoteException ignored) {
+             }
+        } else if (preference == mGradientColor) {
+            int color = (Integer) objValue;
+            String hexColor = String.format("%08X", (0xFFFFFFFF & color));
+            SystemProperties.set(GRADIENT_COLOR_PROP, hexColor);
+            try {
+                 mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.settings", UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
+             } catch (RemoteException ignored) {
+             }
+         } else if (preference == mThemeSwitch) {
             String theme_switch = (String) objValue;
             final Context context = getContext();
             switch (theme_switch) {
@@ -176,6 +205,26 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         } else {
             mThemeSwitch.setValue("1");
         }
+    }
+
+    private void setupAccentPref() {
+        mThemeColor = (ColorPickerPreference) findPreference(ACCENT_COLOR);
+        String colorVal = SystemProperties.get(ACCENT_COLOR_PROP, "-1");
+        int color = "-1".equals(colorVal)
+                ? DEFAULT
+                : Color.parseColor("#" + colorVal);
+        mThemeColor.setNewPreviewColor(color);
+        mThemeColor.setOnPreferenceChangeListener(this);
+    }
+
+    private void setupGradientPref() {
+        mGradientColor = (ColorPickerPreference) findPreference(GRADIENT_COLOR);
+        String colorVal = SystemProperties.get(GRADIENT_COLOR_PROP, "-1");
+        int color = "-1".equals(colorVal)
+                ? DEFAULT
+                : Color.parseColor("#" + colorVal);
+        mGradientColor.setNewPreviewColor(color);
+        mGradientColor.setOnPreferenceChangeListener(this);
     }
 
     private void handleBackgrounds(Boolean state, Context context, int mode, String[] overlays) {
