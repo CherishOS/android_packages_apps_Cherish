@@ -17,4 +17,14 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/theme_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+        <ListPreference
+        android:key="theme_switch"
+        android:icon="@drawable/ic_system_theme"
+        android:title="@string/theme_type_title"
+	     android:summary="%s"
+        android:dialogTitle="@string/theme_type_summary"
+        android:entries="@array/theme_type_titles"
+        android:entryValues="@array/theme_type_values"
+        android:defaultValue="1"/>
 </PreferenceScreen>
