@@ -264,5 +264,8 @@
     <string name="vowifi_icon_asus">Asus Icon</string>
     <string name="vowifi_icon_oneplus">OOS Icon</string>
     <string name="vowifi_icon_moto">Motorola Icon</string>
+    <string name="vowifi_icon_simple1">Simple1 Icon</string>
+    <string name="vowifi_icon_simple2">Simple2 Icon</string>
+    <string name="vowifi_icon_simple3">Simple3 Icon</string>
 
 </resources>
