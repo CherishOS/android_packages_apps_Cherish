@@ -42,6 +42,7 @@
     <string name="about_summary">Learn more about CherishOS</string>
     <string name="device_part_title">Device features</string>
     <string name="qs_category">QS category</string>
+    <string name="navbar_title">Navigation bar</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -66,9 +67,6 @@
 
 	<!-- Status bar - icons -->
     <string name="status_bar_icons_title">Status bar icons</string>
-
-	<!-- Statusbar Clock -->
-	<string name="statusbar_items_title">Statusbar items</string>
 
 	<!-- Lock screen visualizer -->
 	<string name="visualizer_title">Display music visualizer</string>
@@ -150,4 +148,12 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="status_bar_system_icons_title">System icons</string>
+    <string name="status_bar_system_icons_summary">Control which status bar icons are shown</string>
+    <string name="statusbar_items_title">Statusbar items</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar buttons</string>
 </resources>
