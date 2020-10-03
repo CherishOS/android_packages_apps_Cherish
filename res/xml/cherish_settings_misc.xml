@@ -30,6 +30,16 @@
             android:summary="@string/charging_animation_summary"
             android:defaultValue="false" />
 			
+		<!-- Display Cutout -->
+    <Preference
+        android:key="display_cutout_force_fullscreen_settings"
+        android:title="@string/display_cutout_force_fullscreen_title"
+        android:summary="@string/display_cutout_force_fullscreen_summary"
+        android:fragment="com.cherish.settings.fragments.DisplayCutoutForceFullscreenSettings"
+        settings:controller="com.cherish.settings.fragments.DisplayCutoutForceFullscreenPreferenceController"
+        app:allowDividerAbove="true" />
+
+			
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="use_photos_spoof"
         android:title="@string/use_photos_spoof_title"
