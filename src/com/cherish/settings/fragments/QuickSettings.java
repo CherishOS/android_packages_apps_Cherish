@@ -31,6 +31,10 @@ import java.util.ArrayList;
 
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
+			
+	private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
+
+    private SystemSettingMasterSwitchPreference mBrightnessSlider;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -40,12 +44,24 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+		
+		mBrightnessSlider = (SystemSettingMasterSwitchPreference)
+                findPreference(BRIGHTNESS_SLIDER);
+        mBrightnessSlider.setOnPreferenceChangeListener(this);
+        boolean enabled = Settings.System.getInt(resolver,
+                BRIGHTNESS_SLIDER, 1) == 1;
+        mBrightnessSlider.setChecked(enabled);
 	}
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-
+		if (preference == mBrightnessSlider) {
+            Boolean value = (Boolean) newValue;
+            Settings.System.putInt(resolver,
+                    BRIGHTNESS_SLIDER, value ? 1 : 0);
+            return true;
+        }
         return false;
     }
 

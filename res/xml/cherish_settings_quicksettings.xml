@@ -17,6 +17,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+	
+		<!-- QS brightness slider -->
+    <com.cherish.settings.preferences.SystemSettingMasterSwitchPreference
+            android:key="qs_show_brightness"
+			android:icon="@drawable/ic_brightness"
+            android:title="@string/qs_show_brightness_title"
+            android:summary="@string/qs_show_brightness_summary"
+            android:fragment="com.cherish.settings.fragments.BrightnessSliderSettings"
+            android:defaultValue="true" />
 
         <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="quick_settings_vibrate"
