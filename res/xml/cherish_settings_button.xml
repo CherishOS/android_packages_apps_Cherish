@@ -32,6 +32,12 @@
    </PreferenceCategory>
 
     <Preference
+        android:key="gesture_key"
+        android:fragment="com.cherish.settings.fragments.GestureSettings"
+        android:icon="@drawable/ic_tap"
+        android:title="@string/gestures_title" />
+
+    <Preference
         android:key="volume_key"
         android:fragment="com.cherish.settings.fragments.VolumeRockerSettings"
         android:title="@string/volume_title" />
