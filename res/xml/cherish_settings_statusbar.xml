@@ -27,6 +27,12 @@
                  android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
 
+        <Preference
+        android:key="network_traffic_settings"
+        android:title="@string/network_traffic_settings_title"
+        android:summary="@string/network_traffic_settings_summary"
+        android:fragment="com.cherish.settings.fragments.NetworkTrafficSettings" />
+
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
             android:title="@string/data_disabled_icon_title"
