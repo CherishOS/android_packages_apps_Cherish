@@ -18,7 +18,7 @@
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory
+    <!--<PreferenceCategory
             android:key="navbar"
             android:title="@string/navbar_title">
 
@@ -29,7 +29,7 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.NavBarActivity" />
     </Preference>
-   </PreferenceCategory>
+   </PreferenceCategory> -->
 
     <Preference
         android:key="gesture_key"
