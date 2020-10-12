@@ -21,6 +21,14 @@
         android:title="@string/qs_brightness_position_bottom_title"
         android:summary="@string/qs_brightness_position_bottom_summary"
         android:defaultValue="false" />
+		
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_show_brightness_above_footer"
+		android:icon="@drawable/ic_brightness_control"
+        android:title="@string/qs_show_brightness_above_footer_title"
+        android:summary="@string/qs_show_brightness_above_footer_summary"
+        android:dependency="qs_brightness_position_bottom"
+        android:defaultValue="false" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="qs_show_auto_brightness"
