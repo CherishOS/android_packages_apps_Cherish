@@ -747,5 +747,8 @@
 	<!-- Gaming mode -->
     <string name="gaming_mode_title">Game space</string>
     <string name="gaming_mode_summary">Extra features for immersive gaming experience</string>
+	
+	<!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
 
 </resources>

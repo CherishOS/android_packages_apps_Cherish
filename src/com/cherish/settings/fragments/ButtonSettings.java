@@ -17,20 +17,28 @@
  */
 package com.cherish.settings.fragments;
 
+import android.app.ActivityManagerNative;
 import android.content.ContentResolver;
-import android.content.res.Resources;
 import android.content.Context;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.res.Resources;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.UserHandle;
-import android.os.Vibrator;
-import android.os.RemoteException;
 import android.os.PowerManager;
+import android.os.RemoteException;
 import android.os.ServiceManager;
+import android.os.UserHandle;
+import android.provider.SearchIndexableResource;
+import android.provider.Settings;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.IWindowManager;
+import android.view.View;
+import android.view.WindowManagerGlobal;
 import androidx.preference.PreferenceCategory;
 import android.os.SystemProperties;
-import android.util.Log;
 import android.widget.Toast;
+import android.os.Handler;
+import android.os.Vibrator;
 
 import androidx.fragment.app.DialogFragment;
 import androidx.preference.ListPreference;
@@ -48,7 +56,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
-
+import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 
@@ -98,10 +106,13 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
 
+    private static final String KEY_VOL_PANEL_ON_LEFT = "volume_panel_on_left";
+
     private SwitchPreference mHwKeyDisable;
     private CustomSeekBarPreference mButtonTimoutBar;
     private CustomSeekBarPreference mManualButtonBrightness;
     private PreferenceCategory mButtonBackLightCategory;
+    private SystemSettingSwitchPreference mVolPanelOnLeft;
 
     private Preference mLayoutSettings;
     private SwitchPreference mNavigationBar;
@@ -138,6 +149,18 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
          // bits for hardware keys present on device
         final int deviceKeys = getResources().getInteger(
                 com.android.internal.R.integer.config_deviceHardwareKeys);
+
+        Resources systemUiResources;
+        try {
+            systemUiResources = getPackageManager().getResourcesForApplication("com.android.systemui");
+        } catch (Exception e) {
+            return;
+        }
+
+        // default vol panel on left value
+        final boolean defaultPanelOnLeft = systemUiResources.getBoolean(systemUiResources.getIdentifier(
+                    "com.android.systemui:bool/config_audioPanelOnLeftSide", null, null));
+
          // read bits for present hardware keys
         final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
         final boolean hasBackKey = (deviceKeys & KEY_MASK_BACK) != 0;
@@ -208,6 +231,13 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
             prefScreen.removePreference(mButtonBackLightCategory);
         }
 
+        // Vol panel on left
+        mVolPanelOnLeft = (SystemSettingSwitchPreference) findPreference(KEY_VOL_PANEL_ON_LEFT);
+        boolean mVolPanelOnLeftValue = Settings.System.getInt(resolver,
+                Settings.System.VOLUME_PANEL_ON_LEFT, defaultPanelOnLeft ? 1 : 0) == 1;
+        mVolPanelOnLeft.setOnPreferenceChangeListener(this);
+        mVolPanelOnLeft.setChecked(mVolPanelOnLeftValue);
+
         final boolean defaultToNavigationBar = getResources().getBoolean(
                 com.android.internal.R.bool.config_showNavigationBar);
         final boolean navigationBarEnabled = Settings.System.getIntForUser(
@@ -258,6 +288,11 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
                 }
             }, 1500);
             return true;
+		} else if (preference == mVolPanelOnLeft) {
+            boolean volPanelOnLeftValue = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.VOLUME_PANEL_ON_LEFT, volPanelOnLeftValue ? 1 : 0);
+                return true;
         }
         return false;
     }

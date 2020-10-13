@@ -42,6 +42,11 @@
         android:defaultValue="false"
 	    android:disableDependentsState="true" />
 		
+	<!-- Volume panel to left -->
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_panel_on_left"
+        android:title="@string/volume_panel_on_left_title" />
+		
 	<Preference
             android:key="vol_steps"
             android:title="@string/volume_steps_fragment_title"
