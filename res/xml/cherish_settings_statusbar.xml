@@ -40,6 +40,13 @@
         android:title="@string/show_fourg_title"
         android:summary="@string/show_fourg_summary"
         android:defaultValue="false" />
+ 
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference 
+         android:key="data_disabled_icon" 
+	 android:icon="@drawable/ic_4g_old"
+         android:title="@string/data_disabled_icon_title" 
+         android:summary="@string/data_disabled_icon_summary"
+         android:defaultValue="true"/>
 		
 	<com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="show_volte_icon"
