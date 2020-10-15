@@ -22,17 +22,6 @@
      android:key="system_theme_category"
      android:title="@string/theme_type_title">
 		
-	<Preference
-	    android:key="theme_select_activity" 
-            android:title="@string/theme_select_title"
-            android:icon="@drawable/ic_system_theme" 
-            android:summary="@string/theme_select_summary" 
-            android:persistent="false" > 
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.android.customization" 
-                    android:targetClass="com.android.customization.picker.CustomizationPickerActivity" />
-        </Preference>
-		
 	<net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="accent_color"
         android:icon="@drawable/ic_accent_picker"

@@ -58,7 +58,6 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String ACCENT_COLOR_PROP = "persist.sys.theme.accentcolor";
     private static final String GRADIENT_COLOR = "gradient_color";
     private static final String GRADIENT_COLOR_PROP = "persist.sys.theme.gradientcolor";
-    private static final String CUSTOM_THEME_BROWSE = "theme_select_activity";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 	static final int DEFAULT = 0xff1a73e8;
 
@@ -67,7 +66,6 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private ColorPickerPreference mThemeColor;
     private ColorPickerPreference mGradientColor;
     private ListPreference mThemeSwitch;
-    private Preference mThemeBrowse;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -238,13 +236,6 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                 : Color.parseColor("#" + colorVal);
         mGradientColor.setNewPreviewColor(color);
         mGradientColor.setOnPreferenceChangeListener(this);
-    }
-
-    private boolean isBrowseThemesAvailable() {
-        PackageManager pm = getPackageManager();
-        Intent browse = new Intent();
-        browse.setClassName("com.android.customization", "com.android.customization.picker.CustomizationPickerActivity");
-        return pm.resolveActivity(browse, 0) != null;
     }
 
     private void handleBackgrounds(Boolean state, Context context, int mode, String[] overlays) {
