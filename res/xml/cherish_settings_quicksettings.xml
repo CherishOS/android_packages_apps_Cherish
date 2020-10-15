@@ -17,6 +17,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_panel_bg_use_new_tint"
+	android:icon="@drawable/ic_color"
+        android:title="@string/qs_bg_use_new_tint"
+        android:summary="@string/qs_bg_use_new_tint_summary"
+        android:defaultValue="true" />
 	
 		<!-- QS brightness slider -->
     <com.cherish.settings.preferences.SystemSettingMasterSwitchPreference

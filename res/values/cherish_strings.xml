@@ -497,4 +497,7 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
     <string name="data_disabled_icon_summary">Display a cross sign next to signal bar when data is disabled</string>
+
+    <string name="qs_bg_use_new_tint">QS tile colors</string>
+    <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
 </resources>
