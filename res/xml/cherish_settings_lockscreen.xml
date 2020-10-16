@@ -189,6 +189,13 @@
        	android:fragment="com.cherish.settings.fragments.LockColors" />
 		
 		
+	<com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="hide_lock_shortcuts"
+		android:icon="@drawable/ic_lock_outline"
+        android:title="@string/lockscreen_hide_shortcuts_title"
+        android:summary="@string/lockscreen_hide_shortcuts_summary"
+        android:defaultValue="false" />
+		
   <!-- Lockscreen Visualizer-->
     <PreferenceCategory
         android:key="visualizer"
