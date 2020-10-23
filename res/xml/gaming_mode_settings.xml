@@ -18,23 +18,32 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/gaming_mode_title">
-
+	
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="gaming_mode_enabled"
+        android:title="@string/gaming_mode_enable_title"
+        android:summary="@string/gaming_mode_enable_summary"
+        android:defaultValue="false" />
+		
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="gaming_mode_headsup_toggle"
         android:title="@string/gaming_mode_headsup_title"
         android:summary="@string/gaming_mode_headsup_summary"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="true" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="gaming_mode_hw_keys_toggle"
         android:title="@string/gaming_mode_hardware_keys_title"
         android:summary="@string/gaming_mode_hardware_keys_summary"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="false" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="gaming_mode_manual_brightness_toggle"
         android:title="@string/gaming_mode_brightness_title"
         android:summary="@string/gaming_mode_brightness_summary"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="true" />
 
     <com.cherish.settings.preferences.SystemSettingListPreference
@@ -43,6 +52,7 @@
         android:entries="@array/gaming_mode_ringer_entries"
         android:entryValues="@array/gaming_mode_ringer_values"
         android:defaultValue="0"
+        android:dependency="gaming_mode_enabled"
         android:summary="%s" />
 
     <com.cherish.settings.preferences.SystemSettingListPreference
@@ -51,15 +61,18 @@
         android:entries="@array/gaming_mode_notifications_entries"
         android:entryValues="@array/gaming_mode_notifications_values"
         android:defaultValue="3"
+        android:dependency="gaming_mode_enabled"
         android:summary="%s" />
 
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+<!--    <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="gaming_mode_dynamic_state"
         android:title="@string/gaming_mode_dynamic_title"
         android:summary="@string/gaming_mode_dynamic_summary"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="false" />
-
+-->
     <PreferenceCategory
+        android:dependency="gaming_mode_enabled"
         android:title="@string/gaming_mode_app_picker_title"
         android:key="gamingmode_applications">
         <Preference

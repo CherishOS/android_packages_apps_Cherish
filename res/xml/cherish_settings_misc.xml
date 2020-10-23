@@ -34,8 +34,8 @@
         android:summaryOff="@string/summary_dashboard_suggestions_disabled"
         android:defaultValue="true"/>
 
-    <com.cherish.settings.preferences.SystemSettingMasterSwitchPreference
-        android:key="gaming_mode_enabled"
+    <Preference
+        android:key="gaming_mode"
         android:icon="@drawable/ic_gaming_mode"
         android:fragment="com.cherish.settings.fragments.GamingMode"
         android:title="@string/gaming_mode_title"

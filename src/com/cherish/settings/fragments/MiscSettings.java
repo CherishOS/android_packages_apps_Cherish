@@ -34,10 +34,6 @@ import com.cherish.settings.preferences.SystemSettingListPreference;
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private static final String GAMING_MODE_ENABLED = "gaming_mode_enabled";
-
-    private SystemSettingMasterSwitchPreference mGamingMode;
-
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -45,21 +41,10 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.cherish_settings_misc);
 
-        mGamingMode = (SystemSettingMasterSwitchPreference) findPreference(GAMING_MODE_ENABLED);
-        mGamingMode.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.GAMING_MODE_ENABLED, 0) == 1));
-        mGamingMode.setOnPreferenceChangeListener(this);
-
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mGamingMode) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.GAMING_MODE_ENABLED, value ? 1 : 0);
-            return true;
-        }
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
         return false;
     }
 
