@@ -1099,4 +1099,8 @@
     <!-- Qs Tile Icon Bright-Dark -->
     <string name="qs_icon_primary_title">Qs Tile Icon Bright|Dark</string>
     <string name="qs_icon_primary_summary">Make Qs Icon Bright-Dark if gradient tint enabled</string>
+
+    <!-- SmartSpace -->
+    <string name="smart_space_title">Google Smart space</string>
+    <string name="smart_space_summary">Display conditional info such as weather and events on lockscreen\nRequires a SystemUI restart</string>
 </resources>
