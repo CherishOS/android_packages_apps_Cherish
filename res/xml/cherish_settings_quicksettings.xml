@@ -50,6 +50,13 @@
             android:fragment="com.cherish.settings.fragments.BrightnessSliderSettings"
             android:defaultValue="true" />
 
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference 
+        android:key="qs_datausage" 
+        android:icon="@drawable/ic_data"
+        android:title="@string/qs_datausage_title" 
+        android:summary="@string/qs_datausage_subtitle"
+        android:defaultValue="false" />
+
         <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="quick_settings_vibrate"
 		    android:icon="@drawable/ic_vibrate"

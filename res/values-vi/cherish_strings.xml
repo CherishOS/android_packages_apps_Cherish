@@ -758,7 +758,7 @@
     <string name="qs_footer_text_summary">Hiển thị văn bản ở dưới cùng của bảng cài đặt nhanh</string>
     <string name="qs_footer_text_string_title">Tùy chỉnh văn bản cuối trang</string>
     <string name="qs_footer_text_string_summary">Đặt mặc định là #KeeptheLove</string>
-    <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Cảnh báo cuối trang Cài Đặt Nhanh</string>
-    <string name="qs_footer_warnings_summary">Hiển thị cảnh báo ở cuối bảng điều khiển cài đặt nhanh khi mạng được theo dõi bởi các ứng dụng ngoài hoặc VPN</string>
+    <!-- QS DataUsage Toggle -->
+    <string name="qs_datausage_title">Hiển thị mức sử dụng dữ liệu trong tiêu đề qs</string>
+    <string name="qs_datausage_subtitle">Hiển thị mức sử dụng dữ liệu trong tiêu đề cài đặt nhanh của sim được sử dụng cho dữ liệu</string>
 </resources>
