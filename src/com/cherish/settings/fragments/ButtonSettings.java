@@ -33,6 +33,8 @@ import android.provider.Settings;
 
 import com.android.settings.R;
 
+import com.cherish.settings.preferences.SystemSettingSwitchPreference;
+import com.cherish.settings.preferences.SecureSettingSwitchPreference;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
@@ -46,6 +48,8 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private static final String KEY_BUTTON_BRIGHTNESS_SW = "button_brightness_sw";
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
+	private static final String PIXEL_ANIMATION_NAVIGATION = "pixel_nav_animation";
+    private static final String INVERT_NAVIGATION = "sysui_nav_bar_inverse";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -71,6 +75,8 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private CustomSeekBarPreference mButtonBrightness;
     private SwitchPreference mButtonBrightness_sw;
     private SwitchPreference mHwKeyDisable;
+	private SystemSettingSwitchPreference mPixelAnimationNavigation;
+    private SecureSettingSwitchPreference mInvertNavigation;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -80,6 +86,24 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+		
+		mPixelAnimationNavigation = findPreference(PIXEL_ANIMATION_NAVIGATION);
+        mInvertNavigation = findPreference(INVERT_NAVIGATION);
+        // On three button nav
+        if (com.android.internal.util.cherish.CherishUtils.isThemeEnabled("com.android.internal.systemui.navbar.threebutton")) {
+            mPixelAnimationNavigation.setSummary(getString(R.string.pixel_navbar_anim_summary));
+            mInvertNavigation.setSummary(getString(R.string.navigation_bar_invert_layout_summary));
+        // On two button nav
+        } else if (com.android.internal.util.cherish.CherishUtils.isThemeEnabled("com.android.internal.systemui.navbar.twobutton")) {
+            mPixelAnimationNavigation.setSummary(getString(R.string.pixel_navbar_anim_summary));
+            mInvertNavigation.setSummary(getString(R.string.navigation_bar_invert_layout_summary));
+		// On gesture nav
+        } else {
+            mPixelAnimationNavigation.setSummary(getString(R.string.unsupported_gestures));
+            mInvertNavigation.setSummary(getString(R.string.unsupported_gestures));
+            mPixelAnimationNavigation.setEnabled(false);
+            mInvertNavigation.setEnabled(false);
+        }
 
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen

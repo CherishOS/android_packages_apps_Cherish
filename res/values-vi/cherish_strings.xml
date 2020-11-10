@@ -766,4 +766,5 @@
     <!-- Navbar options -->
    <string name="navigation_bar_invert_layout_title">Đảo ngược bố cục</string>
    <string name="navigation_bar_invert_layout_summary">Đảo ngược bố cục của thanh điều hướng và các mục khác, chẳng hạn như trình chuyển đổi IME</string>
+   <string name="unsupported_gestures">Bật điều hướng hai nút hoặc ba nút để sử dụng tính năng này</string>
 </resources>
