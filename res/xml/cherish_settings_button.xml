@@ -29,6 +29,12 @@
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController" />
 
+   <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="sysui_nav_bar_inverse"
+        android:title="@string/navigation_bar_invert_layout_title"
+        android:summary="@string/navigation_bar_invert_layout_summary"
+        android:defaultValue="false" />
+
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="pixel_nav_animation"
         android:title="@string/pixel_navbar_anim_title"
