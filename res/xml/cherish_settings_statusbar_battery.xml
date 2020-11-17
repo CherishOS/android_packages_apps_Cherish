@@ -47,4 +47,9 @@
 			android:summary="%s"
 			android:defaultValue="1" />
 
+    <SwitchPreference
+        android:key="qs_battery_percentage"
+        android:title="@string/qs_battery_percentage_title"
+        android:summary="@string/qs_battery_percentage_summary" />
+
 </PreferenceScreen>
