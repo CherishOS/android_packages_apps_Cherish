@@ -680,4 +680,8 @@
     <string name="status_bar_toggle_brightness">Brightness Control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding finger across the statusbar</string>
 
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Notification Headers</string>
+    <string name="notification_headers_summary">Show headers in the notification shade\nRequires a SystemUI restart</string>
+
 </resources>

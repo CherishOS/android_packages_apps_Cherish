@@ -26,6 +26,13 @@
         android:icon="@drawable/ic_plus"
         android:fragment="com.cherish.settings.fragments.HeadsUpSettings" />
 
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="notification_headers"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/notification_headers_title"
+        android:summary="@string/notification_headers_summary"
+        android:defaultValue="true" />
+
     <Preference
         android:key="notification_light"
         android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
