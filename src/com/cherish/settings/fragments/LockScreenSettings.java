@@ -127,6 +127,14 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         mCustomTextClockFontSize.setValue(Settings.System.getInt(getContentResolver(),
                 Settings.System.CUSTOM_TEXT_CLOCK_FONT_SIZE, 40));
         mCustomTextClockFontSize.setOnPreferenceChangeListener(this);
+
+        SystemSettingSwitchPreference mFODSwitchPref = (SystemSettingSwitchPreference) findPreference(KEY_FOD_RECOGNIZING_ANIMATION);
+	SystemSettingListPreference mFODListViewPref = (SystemSettingListPreference) findPreference(KEY_FOD_RECOGNIZING_ANIMATION_LIST);
+
+	if (!resources.getBoolean(R.bool.config_showFODAnimationSettings)){
+	    prefScreen.removePreference(mFODSwitchPref);
+            prefScreen.removePreference(mFODListViewPref);
+	}
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
