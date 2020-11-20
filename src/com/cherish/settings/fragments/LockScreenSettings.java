@@ -41,6 +41,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
 import com.cherish.settings.preferences.SecureSettingListPreference;
+import com.cherish.settings.preferences.SystemSettingSwitchPreference;
+import com.cherish.settings.preferences.SystemSettingListPreference;
 
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -53,6 +55,8 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String DATE_FONT_SIZE  = "lockdate_font_size";
     private static final String LOCK_OWNERINFO_FONTS = "lock_ownerinfo_fonts";
     private static final String LOCKOWNER_FONT_SIZE = "lockowner_font_size";
+    private static final String KEY_FOD_RECOGNIZING_ANIMATION = "fod_recognizing_animation";
+    private static final String KEY_FOD_RECOGNIZING_ANIMATION_LIST = "fod_recognizing_animation_list";
 
     private ListPreference mLockClockFonts;
     private ListPreference mLockDateFonts;
