@@ -18,18 +18,18 @@
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
             android:key="navbar"
             android:title="@string/navbar_title">
 
    <Preference
-            android:title="@string/navbar_tuner_title" 
-            android:icon="@drawable/ic_shortcuts">
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.NavBarActivity" />
+        android:key="system_navigation_settings_preferences"
+        android:title="@string/navbar_gestures_title"
+        android:summary="@string/navbar_gestures_summary"
+        android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
+        settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController" />
     </Preference>
-   </PreferenceCategory> -->
+   </PreferenceCategory> 
 
     <Preference
         android:key="gesture_key"

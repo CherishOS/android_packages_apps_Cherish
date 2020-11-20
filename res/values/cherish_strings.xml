@@ -830,4 +830,8 @@
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string> 
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
 
+    <!-- Navbar Entries -->
+   <string name="navbar_gestures_title">Navigation gesture options</string>
+   <string name="navbar_gestures_summary">Choose buttons or gestures to navigate your device</string>
+
 </resources>
