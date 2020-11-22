@@ -15,6 +15,8 @@
 
    <!-- Device Categories -->
    <string name="xiaomi_devices">Xiaomi</string>
+   <string name="realme_devices">Realme</string>
+   <string name="asus_devices">Asus</string>
 
    <!-- Xiaomi Device maintainers -->
    <string name="device_lavender">Xiaomi Redmi Note 7</string>
@@ -24,7 +26,7 @@
    <string name="device_santoni">Xiaomi Redmi 4X</string>
    <string name="santoni_maintainer">Khuong Hung</string>
    <string name="device_mido">Xiaomi Redmi Note 4</string>
-   <string name="mido_maintainer">Erick Eagle</string>
+   <string name="mido_maintainer">Hung Phan</string>
    <string name="device_whyred">Xiaomi Redmi Note 5 Pro</string>
    <string name="whyred_maintainer">Dinh San</string>
    <string name="device_kenzo">Xiaomi Redmi Note 3 Pro</string>
@@ -35,4 +37,14 @@
    <string name="ysl_maintainer">Shivamsingh74</string>
    <string name="device_violet">Xiaomi Redmi Note 7 Pro</string>
    <string name="violet_maintainer">K A R T H I K </string>
+   <string name="device_raphael">Xiaomi Redmi K20 Pro</string>
+   <string name="raphael_maintainer">Dr Dishant</string>
+
+    <!-- Realme Device maintainers -->
+   <string name="device_RMX1901">Realme RMX1901</string>
+   <string name="RMX1901_maintainer">ᴠɪʀᴀʟʙᴀɴᴅᴀ</string>
+
+   <!-- Asus Device maintainers -->
+   <string name="device_X00T">Asus ZenFone Max Pro M1</string>
+   <string name="X00T_maintainer">kaneki Ken</string>
 </resources>

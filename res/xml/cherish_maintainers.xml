@@ -63,7 +63,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/NBD_ERICK" />
+                android:data="https://t.me/hungphan2001" />
         </Preference>
 
   <Preference
@@ -94,6 +94,15 @@
         </Preference>
 
 <Preference
+            android:title="@string/raphael_maintainer"
+            android:summary="@string/device_raphael"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/DrDishant" />
+        </Preference>
+
+<Preference
             android:title="@string/ysl_maintainer"
             android:summary="@string/device_ysl"
             android:icon="@drawable/ic_devs_phone" >
@@ -104,4 +113,31 @@
 
 	</PreferenceCategory>
 
+<PreferenceCategory
+              android:key="asus_devices"
+              android:title="@string/asus_devices" >
+<Preference
+            android:title="@string/X00T_maintainer"
+            android:summary="@string/device_X00T"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/ken_kaneki_69" />
+        </Preference>
+
+</PreferenceCategory>
+
+<PreferenceCategory
+              android:key="realme_devices"
+              android:title="@string/realme_devices" >
+
+<Preference
+            android:title="@string/RMX1901_maintainer"
+            android:summary="@string/device_RMX1901"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/viralbanda" />
+        </Preference>
+</PreferenceCategory>
 </PreferenceScreen>
