@@ -21,6 +21,7 @@ import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.content.Context;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.UserHandle;
 import android.os.Vibrator;
 import androidx.preference.PreferenceCategory;
@@ -50,6 +51,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
 	private static final String PIXEL_ANIMATION_NAVIGATION = "pixel_nav_animation";
     private static final String INVERT_NAVIGATION = "sysui_nav_bar_inverse";
+	private static final String NAVBAR_VISIBILITY = "navigation_bar_show_new";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -77,6 +79,9 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private SwitchPreference mHwKeyDisable;
 	private SystemSettingSwitchPreference mPixelAnimationNavigation;
     private SecureSettingSwitchPreference mInvertNavigation;
+	private SwitchPreference mNavbarVisibility;
+        private boolean mIsNavSwitchingMode = false;
+	private Handler mHandler;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -86,6 +91,16 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+		
+		mNavbarVisibility = (SwitchPreference) findPreference(NAVBAR_VISIBILITY);
+
+        boolean showing = Settings.System.getInt(getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR,
+                ActionUtils.hasNavbarByDefault(getActivity()) ? 1 : 0) != 0;
+        updateBarVisibleAndUpdatePrefs(showing);
+        mNavbarVisibility.setOnPreferenceChangeListener(this);
+
+        mHandler = new Handler();
 		
 		mPixelAnimationNavigation = findPreference(PIXEL_ANIMATION_NAVIGATION);
         mInvertNavigation = findPreference(INVERT_NAVIGATION);
@@ -241,8 +256,28 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
                     value ? 1 : 0);
             setActionPreferencesEnabled(!value);
             return true;
+        } else if (preference.equals(mNavbarVisibility)) {
+            if (mIsNavSwitchingMode) {
+                return false;
+            }
+            mIsNavSwitchingMode = true;
+            boolean showing = ((Boolean)newValue);
+            Settings.System.putInt(getContentResolver(), Settings.System.FORCE_SHOW_NAVBAR,
+                    showing ? 1 : 0);
+            updateBarVisibleAndUpdatePrefs(showing);
+            mHandler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    mIsNavSwitchingMode = false;
+                }
+            }, 1500);
+            return true;
         }
         return false;
+    }
+	
+	 private void updateBarVisibleAndUpdatePrefs(boolean showing) {
+        mNavbarVisibility.setChecked(showing);
     }
 
     @Override
