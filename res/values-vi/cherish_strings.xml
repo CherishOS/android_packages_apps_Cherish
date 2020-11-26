@@ -595,9 +595,6 @@
     <string name="volume_steps_system_title">Mức âm lượng: Hệ thống</string>
     <string name="volume_steps_voice_call_title">Mức âm lượng: Gọi thoại</string>
     <string name="volume_steps_reset">Thiết lập lại</string>
-    <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Điều chỉnh độ sáng</string>
-    <string name="status_bar_toggle_brightness_summary">Điều chỉnh độ sáng bằng cách trượt trên thanh trạng thái</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Tiêu đề thông báo</string>
     <string name="notification_headers_summary">Hiển thị tiêu đề trong ngăn thông báo \nYêu cầu khởi động lại SystemUI</string>
