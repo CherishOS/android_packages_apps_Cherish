@@ -874,6 +874,7 @@
     <string name="pulse_ambient_light_repeat_direction_restart">Restart</string>
     <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
     <string name="ambient_notification_light_enabled_title">Show on always on</string>
+    <string name="aod_disabled">AOD is disabled</string>
     <string name="ambient_notification_light_enabled_summary">Show light pulse on new notification using always on</string>
     <string name="ambient_notification_light_color_title">Custom color</string>
     <string name="ambient_notification_light_color_summary">Default color for light pulse</string>
