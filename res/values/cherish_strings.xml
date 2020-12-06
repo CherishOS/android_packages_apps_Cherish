@@ -305,8 +305,6 @@
     <string name="qs_show_brightness_summary">Brightness slider visability and settings</string>
     <string name="qs_brightness_position_bottom_title">Bottom brightness slider</string>
     <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
-    <string name="qs_show_brightness_above_footer_title">Above footer</string>
-    <string name="qs_show_brightness_above_footer_summary">Show bottom brightness slider above QS footer</string>
     <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
     <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
 
