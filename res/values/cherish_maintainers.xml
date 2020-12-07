@@ -28,7 +28,7 @@
    <string name="device_mido">Xiaomi Redmi Note 4</string>
    <string name="mido_maintainer">Hung Phan</string>
    <string name="device_whyred">Xiaomi Redmi Note 5 Pro</string>
-   <string name="whyred_maintainer">Dinh San</string>
+   <string name="whyred_maintainer">Dinh San-SALMANKHANPM/</string>
    <string name="device_kenzo">Xiaomi Redmi Note 3 Pro</string>
    <string name="kenzo_maintainer">MrJarvis698</string>
    <string name="device_platina">Xiaomi Mi8 Lite</string>
@@ -37,8 +37,8 @@
    <string name="ysl_maintainer">Shivamsingh74</string>
    <string name="device_violet">Xiaomi Redmi Note 7 Pro</string>
    <string name="violet_maintainer">K A R T H I K </string>
-   <string name="device_raphael">Xiaomi Redmi K20 Pro</string>
-   <string name="raphael_maintainer">Dr Dishant</string>
+   <string name="device_tulip">Xiaomi Redmi Note 6 Pro</string>
+   <string name="tulip_maintainer">Jeferson Luiz</string>
 
     <!-- Realme Device maintainers -->
    <string name="device_RMX1901">Realme RMX1901</string>

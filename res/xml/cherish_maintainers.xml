@@ -73,6 +73,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/san2k" />
+             <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/SALMAN_IS_HERE" />
         </Preference>
 
 <Preference
@@ -94,12 +97,12 @@
         </Preference>
 
 <Preference
-            android:title="@string/raphael_maintainer"
-            android:summary="@string/device_raphael"
+            android:title="@string/tulip_maintainer"
+            android:summary="@string/device_tulip"
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/DrDishant" />
+                android:data="https://t.me/jefinhodatnt" />
         </Preference>
 
 <Preference
