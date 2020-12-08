@@ -74,12 +74,12 @@
             android:icon="@drawable/ic_cherish_power_settings_background"/>
 
         <!-- Recents -->
-        <Preference
+       <!-- <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
 	    android:summary="@string/recents_summary"
             android:fragment="com.cherish.settings.fragments.RecentsSettings"
-            android:icon="@drawable/ic_cherish_recent_settings_background"/>
+            android:icon="@drawable/ic_cherish_recent_settings_background"/> -->
 
         <!-- Notifications -->
         <Preference
