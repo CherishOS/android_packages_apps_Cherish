@@ -965,4 +965,7 @@
     <string name="pulse_ambient_light_duration_summary">Sets the ambient light animation duration</string>
     <string name="pulse_ambient_light_repeat_count_title">Edge Light Repeat count</string>
     <string name="pulse_ambient_light_repeat_count_summary">Set max repeat count. 0 for infinite</string>
+	
+	<string name="enable_oneui">OneUI</string>
+    <string name="enable_oneui_summary">Show spacer above settings actionbar for easier use with one hand\nNOTE: restart settings app to see effect</string>
 </resources>
