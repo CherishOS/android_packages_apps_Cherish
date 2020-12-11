@@ -26,6 +26,13 @@
         android:entryValues="@array/power_menu_animations_values"
         android:summary="@string/power_menu_animation_summary"
         android:persistent="false" />
+		
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="advanced_reboot"
+		android:icon="@drawable/ic_recovery"
+        android:title="@string/powermenu_advanced_reboot_title"
+        android:summary="@string/powermenu_advanced_reboot_summary"
+        android:defaultValue="true" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_power_menu_disabled"

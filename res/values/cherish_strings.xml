@@ -1197,4 +1197,8 @@
 	
 	<!-- Notification background opacity -->
     <string name="notification_alpha_title">Notification background opacity</string>
+	
+	<!-- Global Actions -->
+    <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
+    <string name="powermenu_advanced_reboot_summary">Enables access to recovery and bootloader</string>
 </resources>
