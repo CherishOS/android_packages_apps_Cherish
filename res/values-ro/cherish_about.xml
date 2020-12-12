@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 CherishOS
+
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about_cherish">Despre</string>
+  <string name="about_info">Despre noi</string>
+  <string name="about_info_summary">CherisOS este bazat pe Pixel Experience, cu unele adăugări extra. Am creat un ROM cu o performanță excepțională, un balans de caracteristici impresionante și baterie îmbunătățită.</string>
+  <string name="dev_info">Despre CherishOS</string>
+  <string name="devs_header">Cunoașteți echipa</string>
+  <string name="founder">Hung Phan</string>
+  <string name="founder_description">Fondator</string>
+  <string name="lead">Hung Phan</string>
+  <string name="lead_description">Dezvoltator principal</string>
+  <string name="social_header">#Să începem!</string>
+  <string name="cherish_web">Site web</string>
+  <string name="cherish_web_description">Site CherishOS pentru mai multe informații.</string>
+  <string name="cherish_web_link">http://cherish.github.io</string>
+  <string name="cherish_telegram">Telegram</string>
+  <string name="cherish_telegram_description">Canalul CherishOS.</string>
+  <string name="cherish_telegram_link">https://t.me/CherishOS</string>
+  <string name="cherish_github">GitHub</string>
+  <string name="cherish_github_description">Suntem open source!</string>
+  <string name="cherish_github_link">https://github.com/CherishOS/</string>
+  <string name="donate">Sprijină-ne</string>
+  <string name="donate_description">Donația nu este necesară, dar fiecare bănuț din partea ta ne va ajuta să plătim facturile serverului.</string>
+  <string name="donation_link">https://paypal.me</string>
+  <!--Device maintainers -->
+  <string name="official_devices">Dispozitive oficiale</string>
+  <string name="maintainers_header">Responsabili</string>
+  <string name="maintainers_summary">dispozitive oficiale și responsabili</string>
+</resources>

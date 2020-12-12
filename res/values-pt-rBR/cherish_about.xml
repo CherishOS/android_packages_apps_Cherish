@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 CherishOS
+
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about_cherish">Sobre</string>
+  <string name="about_info">Quem Somos</string>
+  <string name="about_info_summary">CherishOS é baseada na Pixel Experiência, com alguns extras. Oferecemos uma ROM que apresenta um desempenho excepcional, recursos balanceados e melhoria a vida da bateria.</string>
+  <string name="dev_info">Sobre o CherishOS</string>
+  <string name="devs_header">Conheça Nossa Equipe</string>
+  <string name="founder">Hung Phan</string>
+  <string name="founder_description">Fundador</string>
+  <string name="lead">Hung Phan</string>
+  <string name="lead_description">Desenvolvedor líder</string>
+  <string name="social_header">#Vamos lá!</string>
+  <string name="cherish_web">Website</string>
+  <string name="cherish_web_description">Site do CherishOS para informações e muito mais.</string>
+  <string name="cherish_web_link">http://cherish.github.io</string>
+  <string name="cherish_telegram">Telegram</string>
+  <string name="cherish_telegram_description">Canal do CherishOS.</string>
+  <string name="cherish_telegram_link">https://t.me/CherishOS</string>
+  <string name="cherish_github">GitHub</string>
+  <string name="cherish_github_description">Nós somos de código aberto!</string>
+  <string name="cherish_github_link">https://github.com/CherishOS/</string>
+  <string name="donate">Compartilhe seu apoio</string>
+  <string name="donate_description">Doação não é necessária, mas cada centavo de você nos ajudará a pagar contas do servidor.</string>
+  <string name="donation_link">https://paypal.me</string>
+  <!--Device maintainers -->
+  <string name="official_devices">Dispositivos oficiais</string>
+  <string name="maintainers_header">Nossos Mantenedores</string>
+  <string name="maintainers_summary">dispositivos e mantenedores oficiais</string>
+</resources>

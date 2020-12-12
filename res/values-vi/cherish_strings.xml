@@ -83,7 +83,10 @@
     <string name="theme_type_solarized_dark">Solarized dark</string>
     <string name="theme_type_baked_green">Baked Green</string>
     <string name="theme_type_choco_x">Choco X</string>
+    <string name="theme_type_dark_grey">Màu xám đen</string>
     <string name="theme_type_du_pitchblack">Đen tuyền</string>
+    <string name="theme_type_material_ocean">Tối đại dương</string>
+    <string name="theme_type_clear_spring">Clear Spring</string>
     <!--Accenter -->
     <string name="themes_hub_title">Chủ đề</string>
     <string name="themes_hub_summary">Chủ đề màu nhấn Gradients</string>
@@ -639,8 +642,6 @@
     <string name="lockscreen_charging_animation_drop">Bỏ</string>
     <string name="lockscreen_charging_animation_explosion">Nổ</string>
     <string name="lockscreen_charging_animation_water">Nước</string>
-    <string name="click_partial_screenshot_title">Nhấn chụp một phần ảnh chụp màn hình</string>
-    <string name="click_partial_screenshot_summary">Nhấp nhanh vào Giảm âm lượng và Nguồn để chụp một phần ảnh chụp màn hình</string>
     <!--  Volume Panel Plugin   -->
     <string name="volume_panel">Kiểu âm lượng</string>
     <string name="volume_panel_stock">Gốc</string>
@@ -724,6 +725,7 @@
     <string name="fod_recog_animation_miui_rhythm">Nhịp</string>
     <string name="fod_recog_animation_op_cosmos">Vũ trụ</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_scanning">Quét (Cyberpunk 2077)</string>
     <string name="fod_recog_animation_op_stripe">Sọc</string>
     <string name="fod_recog_animation_op_wave">Sóng</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
@@ -761,19 +763,94 @@
     <string name="qs_datausage_daily">Sử dụng hàng ngày</string>
     <string name="qs_datausage_monthly">Sử dụng hàng tháng</string>
     <!-- Navbar options -->
-   <string name="navigation_bar_invert_layout_title">Đảo ngược bố cục</string>
-   <string name="navigation_bar_invert_layout_summary">Đảo ngược bố cục của thanh điều hướng và các mục khác, chẳng hạn như trình chuyển đổi IME</string>
-   <string name="unsupported_gestures">Bật điều hướng hai nút hoặc ba nút để sử dụng tính năng này</string>
-   <string name="navbar_visibility">Thanh điều hướng</string>
+    <string name="navigation_bar_invert_layout_title">Đảo ngược bố cục</string>
+    <string name="navigation_bar_invert_layout_summary">Đảo ngược bố cục của thanh điều hướng và các mục khác, chẳng hạn như trình chuyển đổi IME</string>
+    <string name="unsupported_gestures">Bật điều hướng hai nút hoặc ba nút để sử dụng tính năng này</string>
+    <string name="navbar_visibility">Thanh điều hướng</string>
     <string name="navbar_vis_summary">Bật-tắt thanh điều hướng</string>
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Chỉ báo chuyển vùng</string>
     <string name="roaming_indicator_icon_summary">Hiển thị chỉ báo chuyển vùng trong biểu tượng tín hiệu khi ở chế độ chuyển vùng</string>
-   <!-- Brightness control -->
+    <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Điều chỉnh độ sáng</string>
     <string name="status_bar_toggle_brightness_summary">Điều chỉnh độ sáng bằng cách trượt qua thanh trạng thái</string>
-
-   <!-- Heads up options -->
+    <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Làm cho đầu bớt khó chịu</string>
     <string name="less_boring_heads_up_summary">Chỉ hiển thị thông báo cho trình quay số hoặc ứng dụng nhắn tin nếu chúng không ở phía trước</string>
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">Biểu tượng vân tay</string>
+    <string name="fod_icon_picker_summary">Chọn biểu tượng vân tay ưa thích</string>
+    <string name="fod_icon_picker_footer">Để thêm biểu tượng của riêng bạn, hãy chọn biểu tượng trên cùng bên trái và sử dụng ứng dụng OnePlus 6T tuỳ biến FP để chọn biểu tượng bạn mong muốn.</string>
+    <!-- QS header image -->
+    <string name="status_bar_custom_header_title">Hình ảnh tiêu đề</string>
+    <string name="status_bar_custom_header_summary">Sử dụng hình ảnh tùy chỉnh cho tiêu đề QS</string>
+    <string name="custom_header_provider_title">Kiểu ảnh</string>
+    <string name="daylight_header_provider_title">Tự động (Dựa trên thời gian)</string>
+    <string name="file_header_provider_title">Tĩnh</string>
+    <string name="daylight_header_pack_title">Bộ sưu tập ảnh</string>
+    <string name="header_provider_disabled">Đã tắt</string>
+    <string name="custom_header_pick_title">Chọn hình ảnh từ bộ sưu tập</string>
+    <string name="custom_header_pick_summary">Chọn một hình ảnh từ bộ sưu tập hình ảnh được cài đặt sẵn</string>
+    <string name="file_header_select_title">Chọn hình ảnh từ bộ nhớ</string>
+    <string name="file_header_select_summary">Chọn một hình ảnh từ bộ nhớ trong</string>
+    <string name="status_bar_custom_header_shadow_title">Hình ảnh tối</string>
+    <!-- FOD pressed color -->
+    <string name="fod_pressed_color_title">Màu biểu tượng khi nhấn</string>
+    <string name="fod_pressed_color_white">Trắng</string>
+    <string name="fod_pressed_color_cyan">Lục lam</string>
+    <string name="fod_pressed_color_green">Xanh lá</string>
+    <string name="fod_pressed_color_yellow">Màu vàng</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Chế độ chơi game</string>
+    <string name="gaming_mode_summary">Tùy chỉnh tùy chọn chế độ trò chơi</string>
+    <string name="gaming_mode_enable_title">Bật chế độ chơi game</string>
+    <string name="gaming_mode_enable_summary">Chế độ chơi game siêu đẳng</string>
+    <string name="gaming_mode_app_picker_title">Tự động bật cho các ứng dụng này</string>
+    <string name="add_gaming_mode_package_title">Thêm ứng dụng cho chế độ chơi game</string>
+    <string name="add_gaming_mode_package_summary">Chế độ chơi game sẽ tự động bật tắt đối với các ứng dụng này</string>
+    <string name="gaming_mode_headsup_title">Chặn thông báo</string>
+    <string name="gaming_mode_headsup_summary">Chặn tất cả các thông báo nổi ngoại trừ cuộc gọi</string>
+    <string name="gaming_mode_hardware_keys_title">Khóa phím</string>
+    <string name="gaming_mode_hardware_keys_summary">Vô hiệu hóa phím cứng khi chế độ trò chơi được bật</string>
+    <string name="gaming_mode_brightness_title">Vô hiệu hóa độ sáng tự động</string>
+    <string name="gaming_mode_brightness_summary">Khóa độ sáng màn hình khi chế độ trò chơi được bật</string>
+    <string name="gaming_mode_ringer_title">Chuông trong chế độ trò chơi</string>
+    <string name="gaming_mode_ringer_off_title">Không thay đổi</string>
+    <string name="gaming_mode_ringer_vibrate_title">Rung</string>
+    <string name="gaming_mode_ringer_dnd_title">Không làm phiền</string>
+    <string name="gaming_mode_ringer_silent_title">Im lặng</string>
+    <string name="gaming_mode_notifications_title">Thông báo chế độ chơi game</string>
+    <string name="gaming_mode_notifications_off_title">Đã tắt</string>
+    <string name="gaming_mode_notifications_notif_title">Hiển thị thông báo</string>
+    <string name="gaming_mode_notifications_toast_title">Hiện thông báo nhanh</string>
+    <string name="gaming_mode_notifications_all_title">Hiện thông báo nhanh và thông báo</string>
+    <string name="gaming_mode_dynamic_title">Chế độ động</string>
+    <string name="gaming_mode_dynamic_summary">Thử xoá và thêm ứng dụng chơi game tự động</string>
+    <!-- Ambient edge lighting -->
+    <string name="pulse_ambient_light_category">Lặp lại ánh sáng cạnh</string>
+    <string name="pulse_ambient_light_title">Hiển thị thông báo mới</string>
+    <string name="pulse_ambient_light_summary">Hiển thị xung ánh sáng trên thông báo mới</string>
+    <string name="ambient_notification_light_enabled_title">Luôn luôn bật</string>
+    <string name="ambient_notification_light_enabled_summary">Hiển thị xung ánh sáng trên thông báo mới bằng cách luôn bật</string>
+    <string name="ambient_notification_light_color_title">Tùy chỉnh màu sắc</string>
+    <string name="ambient_notification_light_color_summary">Màu mặc định cho xung ánh sáng</string>
+    <string name="ambient_notification_light_hide_aod_title">Chỉ hiển thị xung ánh sáng</string>
+    <string name="ambient_notification_light_hide_aod_summary">Ẩn tất cả các thành phần hiển thị khác luôn luôn bật</string>
+    <string name="ambient_notification_light_timeout_title">Thời gian chờ cho xung ánh sáng</string>
+    <string name="entry_infinite">Vô hạn</string>
+    <string name="entry_five_minute">5 phút</string>
+    <string name="entry_ten_minute">10 phút</string>
+    <string name="entry_thirty_minute">30 phút</string>
+    <string name="entry_sixty_minute">60 phút</string>
+    <string name="entry_fifteen_minute">15 phút</string>
+    <string name="ambient_notification_light_color_mode_title">Màu xung nhẹ</string>
+    <string name="ambient_notification_light_color_mode_automatic">Thông báo màu</string>
+    <string name="ambient_notification_light_color_mode_accent">Dùng màu hệ thống</string>
+    <string name="ambient_notification_light_color_mode_custom">Tùy chỉnh màu sắc</string>
+    <string name="pulse_ambient_light_duration_title">Thời lượng</string>
+    <string name="pulse_ambient_light_duration_summary">Đặt thời lượng cho hiệu ứng màn hình cạnh</string>
+    <string name="pulse_ambient_light_repeat_count_title">Thông báo cạnh lặp lại</string>
+    <string name="pulse_ambient_light_repeat_count_summary">Đặt số lần lặp lại tối đa. 0 cho vô hạn</string>
+    <string name="enable_oneui">OneUI</string>
+    <string name="enable_oneui_summary">Hiển thị thanh hành động cài đặt trên miếng đệm để sử dụng dễ dàng hơn bằng một tay \ nNote: khởi động lại ứng dụng cài đặt để thấy hiệu quả</string>
 </resources>
