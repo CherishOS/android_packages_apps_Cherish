@@ -17,6 +17,7 @@
    <string name="xiaomi_devices">Xiaomi</string>
    <string name="realme_devices">Realme</string>
    <string name="asus_devices">Asus</string>
+   <string name="oneplus_devices">Oneplus</string>
 
    <!-- Xiaomi Device maintainers -->
    <string name="device_lavender">Xiaomi Redmi Note 7</string>
@@ -39,6 +40,8 @@
    <string name="violet_maintainer">K A R T H I K </string>
    <string name="device_tulip">Xiaomi Redmi Note 6 Pro</string>
    <string name="tulip_maintainer">Jeferson Luiz</string>
+   <string name="device_vince">Xiaomi Redmi Note 5/5 Plus</string>
+   <string name="vince_maintainer">Alan Mathew</string>
 
     <!-- Realme Device maintainers -->
    <string name="device_RMX1901">Realme RMX1901</string>
@@ -47,4 +50,8 @@
    <!-- Asus Device maintainers -->
    <string name="device_X00T">Asus ZenFone Max Pro M1</string>
    <string name="X00T_maintainer">kaneki Ken</string>
+
+   <!-- Oneplus Device maintainers -->
+   <string name="device_enchilada">Oneplus 6</string>
+   <string name="enchilada_maintainer">Zahid M</string>
 </resources>

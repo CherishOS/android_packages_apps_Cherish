@@ -97,6 +97,15 @@
         </Preference>
 
 <Preference
+            android:title="@string/vince_maintainer"
+            android:summary="@string/device_vince"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/alanm07" />
+        </Preference>
+
+<Preference
             android:title="@string/tulip_maintainer"
             android:summary="@string/device_tulip"
             android:icon="@drawable/ic_devs_phone" >
@@ -126,6 +135,20 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/ken_kaneki_69" />
+        </Preference>
+
+</PreferenceCategory>
+
+<PreferenceCategory
+              android:key="oneplus_devices"
+              android:title="@string/oneplus_devices" >
+<Preference
+            android:title="@string/enchilada_maintainer"
+            android:summary="@string/device_enchilada"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/zahidmgsk" />
         </Preference>
 
 </PreferenceCategory>
