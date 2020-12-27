@@ -46,8 +46,7 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 		
-    <PreferenceCategory
-
+	<PreferenceCategory
         android:key="lockscreen_media_category"
         android:title="@string/lockscreen_media_category">
 
@@ -64,6 +63,13 @@
             android:entryValues="@array/lockscreen_albumart_filter_values"
             android:dependency="lockscreen_media_metadata"
             android:defaultValue="0" />
+		
+		<!-- Pulse music visualizer -->
+    <Preference
+        android:key="pulse_settings"
+        android:title="@string/pulse_settings"
+        android:summary="@string/pulse_settings_summary"
+        android:fragment="com.cherish.settings.fragments.sound.PulseSettings" />
 
     </PreferenceCategory>
 
