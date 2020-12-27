@@ -29,4 +29,9 @@
             android:title="@string/enable_fingerprint_ripple_effect_title"
             android:summary="@string/enable_fingerprint_ripple_effect_summary"
             android:defaultValue="true" />
+
+     <Preference
+        android:key="pulse_settings"
+        android:title="@string/pulse_settings"
+        android:fragment="com.cherish.settings.fragments.PulseSettings" />
 </PreferenceScreen>
