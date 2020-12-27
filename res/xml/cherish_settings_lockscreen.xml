@@ -58,6 +58,13 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 		
+	<!-- Pulse music visualizer -->
+    <Preference
+        android:key="pulse_settings"
+        android:title="@string/pulse_settings"
+        android:summary="@string/pulse_settings_summary"
+        android:fragment="com.cherish.settings.fragments.sound.PulseSettings" />
+		
 	<PreferenceCategory
 
         android:key="lockscreen_media_category"
