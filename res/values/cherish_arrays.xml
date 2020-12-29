@@ -1049,4 +1049,40 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+
+    <!-- Brightness sliders styles -->
+    <string-array name="brightness_slider_style_selector_entries" translatable="false">
+        <item>@string/brightness_slider_style_default</item>
+        <item>@string/brightness_slider_style_daniel</item>
+        <item>@string/brightness_slider_style_mememini</item>
+        <item>@string/brightness_slider_style_memeround</item>
+        <item>@string/brightness_slider_style_memeroundstroke</item>
+        <item>@string/brightness_slider_style_memestroke</item>
+    </string-array>
+
+    <string-array name="brightness_slider_style_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- Notification Background styles -->
+    <string-array name="ui_style_selector_entries" translatable="false">
+        <item>@string/ui_style_default</item>
+        <item>@string/ui_style_no_corner_radius</item>
+        <item>@string/ui_style_rectangle</item>
+        <item>@string/ui_style_round_large</item>
+        <item>@string/ui_style_round_medium</item>
+    </string-array>
+
+    <string-array name="ui_style_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
 </resources>
