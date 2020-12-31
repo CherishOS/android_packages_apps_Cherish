@@ -57,6 +57,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String UI_STYLE = "ui_style";
     private static final String PREF_PANEL_BG = "panel_bg";
     private static final String PREF_THEME_SWITCH = "theme_switch";
+    private static final String QS_HEADER_STYLE = "qs_header_style";
     private static final String ACCENT_COLOR = "accent_color";
     private static final String ACCENT_COLOR_PROP = "persist.sys.theme.accentcolor";
     private static final String GRADIENT_COLOR = "gradient_color";
@@ -72,6 +73,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private ListPreference mBrightnessSliderStyle;
     private ListPreference mUIStyle;
     private ListPreference mPanelBg;
+    private ListPreference mQsHeaderStyle;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -151,6 +153,14 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
               }
         mPanelBg.setSummary(mPanelBg.getEntry());
         mPanelBg.setOnPreferenceChangeListener(this);
+
+        mQsHeaderStyle = (ListPreference)findPreference(QS_HEADER_STYLE);
+        int qsHeaderStyle = Settings.System.getInt(resolver,
+                Settings.System.QS_HEADER_STYLE, 0);
+        int qsvalueIndex = mQsHeaderStyle.findIndexOfValue(String.valueOf(qsHeaderStyle));
+        mQsHeaderStyle.setValueIndex(qsvalueIndex >= 0 ? qsvalueIndex : 0);
+        mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntry());
+        mQsHeaderStyle.setOnPreferenceChangeListener(this);
 
         mUiModeManager = getContext().getSystemService(UiModeManager.class);
 
@@ -292,6 +302,12 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     
                 }
                 mPanelBg.setSummary(mPanelBg.getEntry());
+            } else if (preference == mQsHeaderStyle) {
+                String value = (String) objValue;
+                Settings.System.putInt(resolver,
+                    Settings.System.QS_HEADER_STYLE, Integer.valueOf(value));
+                int newIndex = mQsHeaderStyle.findIndexOfValue(value);
+                mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntries()[newIndex]);
         }
         return true;
     }
