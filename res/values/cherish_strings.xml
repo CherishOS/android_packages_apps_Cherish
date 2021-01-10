@@ -1044,4 +1044,8 @@
     <string name="corner_fwvals">Use framework values</string>
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
     <string name="unit_pixels">dp</string>
+	
+	<!-- Show Statusbar on Lockscreen -->
+    <string name="lockscreen_status_bar_title">Status bar</string>
+    <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
 </resources>
