@@ -47,10 +47,17 @@
         android:title="@string/show_fourg_title"
         android:summary="@string/show_fourg_summary"
         android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="use_old_mobiletype"
+            android:icon="@drawable/ic_4g_old"
+            android:title="@string/use_old_mobiletype_title"
+            android:summary="@string/use_old_mobiletype_summary"
+            android:defaultValue="false" />
  
         <com.cherish.settings.preferences.SystemSettingSwitchPreference 
          android:key="data_disabled_icon" 
-	 android:icon="@drawable/ic_4g_old"
+	 android:icon="@drawable/ic_4g_x"
          android:title="@string/data_disabled_icon_title" 
          android:summary="@string/data_disabled_icon_summary"
          android:defaultValue="true"/>
