@@ -18,6 +18,7 @@
    <string name="realme_devices">Realme</string>
    <string name="asus_devices">Asus</string>
    <string name="oneplus_devices">Oneplus</string>
+   <string name="lenovo_devices">Lenovo</string>
 
    <!-- Xiaomi Device maintainers -->
    <string name="device_lavender">Xiaomi Redmi Note 7</string>
@@ -29,23 +30,33 @@
    <string name="device_mido">Xiaomi Redmi Note 4</string>
    <string name="mido_maintainer">Hung Phan</string>
    <string name="device_whyred">Xiaomi Redmi Note 5 Pro</string>
-   <string name="whyred_maintainer">Dinh San-SALMANKHANPM/</string>
+   <string name="whyred_maintainer">SALMANKHANPM</string>
    <string name="device_kenzo">Xiaomi Redmi Note 3 Pro</string>
    <string name="kenzo_maintainer">MrJarvis698</string>
    <string name="device_platina">Xiaomi Mi8 Lite</string>
    <string name="platina_maintainer">iicecreamm</string>
    <string name="device_ysl">Xiaomi Redmi Y2</string>
-   <string name="ysl_maintainer">Shivamsingh74</string>
+   <string name="ysl_maintainer">Dinesh Kumar</string>
+   <string name="device_miatoll">Redmi Note 9S/9 Pro/Pro Max</string>
+   <string name="miatoll_maintainer">MrJarvis698</string>
+   <string name="device_begonia">Xiaomi Redmi Note 8 Pro</string>
+   <string name="begonia_maintainer">Himanshu</string>
    <string name="device_violet">Xiaomi Redmi Note 7 Pro</string>
    <string name="violet_maintainer">K A R T H I K </string>
    <string name="device_tulip">Xiaomi Redmi Note 6 Pro</string>
    <string name="tulip_maintainer">Jeferson Luiz</string>
    <string name="device_vince">Xiaomi Redmi Note 5/5 Plus</string>
    <string name="vince_maintainer">Alan Mathew</string>
+   <string name="device_tissot">Xiaomi Mi A1</string>
+   <string name="tissot_maintainer">KABIR SINGH</string>
+   <string name="device_wayne">Xiaomi Mi 6X</string>
+   <string name="wayne_maintainer">Hemein Selen</string>
+   <string name="device_davinci">Xiaomi Mi 9T/K20</string>
+   <string name="davinci_maintainer">Luis Gonzales</string>
 
     <!-- Realme Device maintainers -->
    <string name="device_RMX1901">Realme RMX1901</string>
-   <string name="RMX1901_maintainer">ᴠɪʀᴀʟʙᴀɴᴅᴀ</string>
+   <string name="RMX1901_maintainer">Icecrac34R</string>
 
    <!-- Asus Device maintainers -->
    <string name="device_X00T">Asus ZenFone Max Pro M1</string>
@@ -54,4 +65,8 @@
    <!-- Oneplus Device maintainers -->
    <string name="device_enchilada">Oneplus 6</string>
    <string name="enchilada_maintainer">Zahid M</string>
+
+   <!-- Lenovo Device maintainers -->
+   <string name="device_jd2019">Lenovo Z5s</string>
+   <string name="jd2019_maintainer">Husker</string>
 </resources>
