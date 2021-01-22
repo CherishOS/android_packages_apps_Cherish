@@ -178,6 +178,14 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/ken_kaneki_69" />
         </Preference>
+<Preference
+            android:title="@string/X01BD_maintainer"
+            android:summary="@string/device_X01BD"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/rams_ek" />
+        </Preference>
 
 </PreferenceCategory>
 
@@ -192,7 +200,14 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/zahidmgsk" />
         </Preference>
-
+<Preference
+            android:title="@string/fajita_maintainer"
+            android:summary="@string/device_fajita"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Chandu078" />
+        </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
@@ -211,7 +226,7 @@
 
 <PreferenceCategory
               android:key="lenovo_devices"
-              android:title="@string/xiaomi_lenovo" >
+              android:title="@string/lenovo_devices" >
 
   <Preference
             android:title="@string/jd2019_maintainer"
@@ -221,4 +236,5 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/Husker19" />
         </Preference>
+</PreferenceCategory>
 </PreferenceScreen>
