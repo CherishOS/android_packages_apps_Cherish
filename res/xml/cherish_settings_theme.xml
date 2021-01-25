@@ -55,6 +55,16 @@
         android:entries="@array/ui_style_selector_entries"
         android:entryValues="@array/ui_style_selector_values"
         android:persistent="false" />
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+        android:key="switch_style"
+        android:icon="@drawable/ic_switch_theme"
+        android:title="@string/switch_style_title"
+        android:dialogTitle="@string/switch_style_title"
+        android:entries="@array/switch_style_entries"
+        android:entryValues="@array/switch_style_values"
+        android:summary="%s"
+        android:defaultValue="0" />
 			
 	<ListPreference
         android:key="qs_header_style"
