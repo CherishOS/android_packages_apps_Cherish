@@ -87,6 +87,21 @@
             android:entryValues="@array/qs_tint_values"
             android:summary="%s"
             android:defaultValue="1" />
+
+       <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="qs_label_use_new_tint"
+            android:title="@string/qs_label_use_new_tint"
+            android:dialogTitle="@string/qs_label_use_new_tint"
+            android:entries="@array/qs__label_tint_entries"
+            android:entryValues="@array/qs_label_tint_values"
+            android:summary="%s"
+            android:defaultValue="1" />
+			
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_icon_primary"
+            android:title="@string/qs_icon_primary_title"
+            android:summary="@string/qs_icon_primary_summary"
+            android:defaultValue="false" />
 			
 	<ListPreference
             android:key="qs_tile_style"
