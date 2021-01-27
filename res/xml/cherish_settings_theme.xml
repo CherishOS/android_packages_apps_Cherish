@@ -66,22 +66,6 @@
         android:summary="%s"
         android:defaultValue="0" />
 
-        <ListPreference
-            android:key="qs_tile_style"
-            android:icon="@drawable/ic_shape2_icon"
-            android:title="@string/qs_tile_style_title"
-            android:persistent="false"
-            android:entries="@array/qs_selector_entries"
-            android:entryValues="@array/qs_selector_values" />
-	
-	<ListPreference
-        android:key="qs_header_style"
-		 android:icon="@drawable/ic_header"
-        android:title="@string/qs_header_style_title"
-        android:persistent="false"
-        android:entries="@array/qs_header_style_entries"
-        android:entryValues="@array/qs_header_style_values" />
-
          <ListPreference
         android:key="brightness_slider_style"
         android:icon="@drawable/ic_brightness"
@@ -89,23 +73,7 @@
         android:entries="@array/brightness_slider_style_selector_entries"
         android:entryValues="@array/brightness_slider_style_selector_values"
         android:persistent="false" />
-
-    <ListPreference
-        android:key="panel_bg"
-        android:icon="@drawable/ic_header"
-        android:title="@string/panel_bg_title"
-        android:dialogTitle="@string/panel_bg_dialog_title"
-        android:entries="@array/panel_bg_titles"
-        android:entryValues="@array/panel_bg_values" />
 	</PreferenceCategory>
-
-     <com.cherish.settings.preferences.SystemSettingSeekBarPreference
-            android:key="qs_panel_bg_alpha"
-            android:title="@string/qs_panel_alpha_title"
-            android:max="255"
-            android:min="100"
-            settings:interval="5"
-            android:defaultValue="255" />
 			
 	<PreferenceCategory
         android:key="qs_category"
@@ -119,6 +87,38 @@
             android:entryValues="@array/qs_tint_values"
             android:summary="%s"
             android:defaultValue="1" />
+			
+	<ListPreference
+            android:key="qs_tile_style"
+            android:icon="@drawable/ic_shape2_icon"
+            android:title="@string/qs_tile_style_title"
+            android:persistent="false"
+            android:entries="@array/qs_selector_entries"
+            android:entryValues="@array/qs_selector_values" />
+	
+	<ListPreference
+        android:key="qs_header_style"
+        android:icon="@drawable/ic_header"
+        android:title="@string/qs_header_style_title"
+        android:persistent="false"
+        android:entries="@array/qs_header_style_entries"
+        android:entryValues="@array/qs_header_style_values" />
+			
+	<ListPreference
+        android:key="panel_bg"
+        android:icon="@drawable/ic_header"
+        android:title="@string/panel_bg_title"
+        android:dialogTitle="@string/panel_bg_dialog_title"
+        android:entries="@array/panel_bg_titles"
+        android:entryValues="@array/panel_bg_values" />
+			
+	<com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_panel_bg_alpha"
+            android:title="@string/qs_panel_alpha_title"
+            android:max="255"
+            android:min="100"
+            settings:interval="5"
+            android:defaultValue="255" />
 
     </PreferenceCategory>
 
