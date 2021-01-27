@@ -58,6 +58,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String PREF_PANEL_BG = "panel_bg";
     private static final String PREF_THEME_SWITCH = "theme_switch";
     private static final String QS_HEADER_STYLE = "qs_header_style";
+    private static final String QS_TILE_STYLE = "qs_tile_style";
     private static final String ACCENT_COLOR = "accent_color";
     private static final String ACCENT_COLOR_PROP = "persist.sys.theme.accentcolor";
     private static final String GRADIENT_COLOR = "gradient_color";
@@ -74,6 +75,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private ListPreference mUIStyle;
     private ListPreference mPanelBg;
     private ListPreference mQsHeaderStyle;
+    private ListPreference mQsTileStyle;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -161,6 +163,14 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         mQsHeaderStyle.setValueIndex(qsvalueIndex >= 0 ? qsvalueIndex : 0);
         mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntry());
         mQsHeaderStyle.setOnPreferenceChangeListener(this);
+
+        mQsTileStyle = (ListPreference)findPreference(QS_TILE_STYLE);
+        int qsTileStyle = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_TILE_STYLE, 0, UserHandle.USER_CURRENT);
+        int valueIndex = mQsTileStyle.findIndexOfValue(String.valueOf(qsTileStyle));
+        mQsTileStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
+        mQsTileStyle.setSummary(mQsTileStyle.getEntry());
+        mQsTileStyle.setOnPreferenceChangeListener(this);
 
         mUiModeManager = getContext().getSystemService(UiModeManager.class);
 
@@ -308,6 +318,11 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                     Settings.System.QS_HEADER_STYLE, Integer.valueOf(value));
                 int newIndex = mQsHeaderStyle.findIndexOfValue(value);
                 mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntries()[newIndex]);
+        } else if (preference == mQsTileStyle) {
+            int qsTileStyleValue = Integer.valueOf((String) objValue);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.QS_TILE_STYLE, qsTileStyleValue, UserHandle.USER_CURRENT);
+            mQsTileStyle.setSummary(mQsTileStyle.getEntries()[qsTileStyleValue]);
         }
         return true;
     }
