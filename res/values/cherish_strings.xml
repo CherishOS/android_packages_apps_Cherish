@@ -1082,4 +1082,10 @@
     <string name="qstile_neonlike">Neon Light</string>
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Triangle</string>
+	
+	<!-- QS BG Tint -->
+    <string name="qs_themes_category_title">QS Themes</string>
+    <string name="qs_tint_off">Gradient Effect</string>
+    <string name="qs_tint_random">Random Color</string>
+    <string name="qs_tint_accent">Accent Color</string>
 </resources>

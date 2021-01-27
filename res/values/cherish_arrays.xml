@@ -1199,4 +1199,17 @@
         <item>16</item>
         <item>17</item>
     </string-array>
+	
+	<!-- QS Tile Tint -->
+    <string-array name="qs_tint_entries" translatable="false">
+        <item>@string/qs_tint_off</item>
+        <item>@string/qs_tint_random</item>
+        <item>@string/qs_tint_accent</item>
+    </string-array>
+
+    <string-array name="qs_tint_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>
