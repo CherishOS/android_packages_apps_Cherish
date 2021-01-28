@@ -1066,4 +1066,8 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Battery estimate</string>
     <string name="battery_estimate_summary">Display estimated remaining battery life when available</string>
+	
+	<string name="qs_media_player_title">QS Media player</string>
+    <string name="qs_media_player_summary_on">Show media player in QS.\nRequires a SystemUI restart</string>
+    <string name="qs_media_player_summary_off">Show media player as a notification.\nRequires a SystemUI restart</string>
 </resources>
