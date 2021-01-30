@@ -880,10 +880,10 @@
     <string name="allow_signature_fake_summary">Memungkinkan aplikasi untuk melewati sistem keamanan dengan berpura-pura menjadi sebuah aplikasi yang berbeda.</string>
     <!-- Rounded corners -->
     <string name="corners_category_title">Sudut lengkung</string>
-    <string name="corners_category_summary">Sesuaikan lapisan dan sudut membulat</string>
-    <string name="corners_title">Sesuaikan sudut membulat</string>
-    <string name="corner_radius">Rounded corner radius</string>
-    <string name="content_padding">Corner content padding</string>
+    <string name="corners_category_summary">Sesuaikan lapisan dan sudut lengkungan</string>
+    <string name="corners_title">Sesuaikan sudut lengkungan</string>
+    <string name="corner_radius">Radius sudut lengkungan</string>
+    <string name="content_padding">Batas konten pada sudut</string>
     <string name="corner_fwvals">Use framework values</string>
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
     <string name="unit_pixels">dp</string>
