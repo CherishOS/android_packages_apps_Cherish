@@ -904,8 +904,8 @@
     <string name="qs_tile_style_title">Gaya ubin QS</string>
     <string name="qstile_default">Bawaan</string>
     <string name="qstile_circle_trim">Lingkaran dengan trim</string>
-    <string name="qstile_dual_tone_circle">Dual-toned circle</string>
-    <string name="qstile_squircle_trim">Squircle with trim</string>
+    <string name="qstile_dual_tone_circle">Lingkaran dua warna</string>
+    <string name="qstile_squircle_trim">Lingkaran dengan trim</string>
     <string name="qstile_wavey">Bergelombang</string>
     <string name="qstile_pokesign">Bola pokemon</string>
     <string name="qstile_ninja">Ninja</string>
