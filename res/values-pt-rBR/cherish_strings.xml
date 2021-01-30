@@ -67,8 +67,6 @@
     <!-- Lock screen visualizer -->
     <string name="visualizer_title">Visualização de música</string>
     <!-- Power menu and dialogs opacity -->
-    <!-- Rounded corners -->
-    <string name="corners_category_title">Cantos arredondados</string>
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
     <string name="power_menu_animation">Menu de energia </string>
@@ -108,9 +106,6 @@
     <string name="battery_light_full_color">Bateria quase carregada</string>
     <string name="battery_light_reallyfull_color">Bateria totalmente carregada</string>
     <string name="notification_light_settings">Notifications light</string>
-    <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
@@ -209,6 +204,7 @@
     <string name="volte_icon_hd2">HD CAF Icon</string>
     <string name="volte_icon_miui">MIUI 11 Icon</string>
     <string name="volte_icon_emui">EMUI Icon</string>
+    <string name="volte_icon_oos10">OOS 10 Icon</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
@@ -250,15 +246,6 @@
     <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
     <string name="global_actions_max_columns_title">Max actions to show</string>
     <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
-    <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Brightness slider visability and settings</string>
-    <string name="qs_brightness_position_bottom_title">Bottom brightness slider</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
-    <string name="qs_show_brightness_above_footer_title">Above footer</string>
-    <string name="qs_show_brightness_above_footer_summary">Show bottom brightness slider above QS footer</string>
-    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
     <!-- Battery Styles -->
     <string name="battery_style_category_title">Nível da bateria</string>
     <!-- Battery mode -->
@@ -435,8 +422,6 @@
     <string name="lock_item_center">Center Aligned</string>
     <string name="lock_item_right">Right Aligned</string>
     <string name="lockscreen_item_padding_title">Lockscreen Items Padding</string>
-    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
-    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
     <string name="data_disabled_icon_summary">Display a cross sign next to signal bar when data is disabled</string>
@@ -458,23 +443,6 @@
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Hide Bottom Shortcuts</string>
     <string name="lockscreen_hide_shortcuts_summary">Hide Left-Right Shortcuts on secure lock screens</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
     <!-- AOKP custom system animations -->
     <string name="animation_settings_title">Animations</string>
     <string name="animation_settings_summary">System Wide Animation Options</string>
@@ -642,6 +610,11 @@
     <string name="lockscreen_charging_animation_drop">Drop</string>
     <string name="lockscreen_charging_animation_explosion">Explosão</string>
     <string name="lockscreen_charging_animation_water">Água</string>
+    <string name="lockscreen_charging_animation_phone">Phone</string>
+    <string name="lockscreen_charging_animation_stack">Stack</string>
+    <string name="lockscreen_charging_animation_wavy">Wavy</string>
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
     <!--  Volume Panel Plugin   -->
     <string name="volume_panel">Estilo do painel de volume</string>
     <string name="volume_panel_stock">Stock</string>
@@ -738,20 +711,6 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animation</string>
     <string name="pixel_navbar_anim_summary">Toggle home button animation</string>
-    <!-- LockWeather Switches -->
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
-    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
-    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
-    <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
-    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
-    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
-    <string name="lock_weather_city_font_title">LS Weather City font</string>
-    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
-    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">QS footer text</string>
     <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
@@ -853,4 +812,129 @@
     <string name="pulse_ambient_light_repeat_count_summary">Set max repeat count. 0 for infinite</string>
     <string name="enable_oneui">OneUI</string>
     <string name="enable_oneui_summary">Show spacer above settings actionbar for easier use with one hand\nNOTE: restart settings app to see effect</string>
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
+    <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_category_title">CarrierLabel Settings</string>
+    <string name="carrier_label_category_summary">Customize statusbar carrierlabel</string>
+    <string name="carrier_label_settings_title">Carrier Label</string>
+    <string name="carrier_label_settings_summary">Customize the carrier label</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="show_carrier_title">Carrier label</string>
+    <string name="show_carrier_disabled">Disabled</string>
+    <string name="show_carrier_keyguard">Lockscreen only</string>
+    <string name="show_carrier_statusbar">Statusbar only</string>
+    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
+    <string name="status_bar_carrier_color">Carrier label color</string>
+    <string name="status_bar_carrier_size">Carrier label size</string>
+    <string name="status_bar_carrier_font_style_title">Carrier Label Font</string>
+    <!-- Brightness Slider style -->
+    <string name="brightness_slider_style_title">Brightness slider style</string>
+    <string name="brightness_slider_style_default">Default</string>
+    <string name="brightness_slider_style_daniel">Daniel</string>
+    <string name="brightness_slider_style_mememini">Meme mini</string>
+    <string name="brightness_slider_style_memeround">Meme round</string>
+    <string name="brightness_slider_style_memeroundstroke">Meme round stroke</string>
+    <string name="brightness_slider_style_memestroke">Meme stroke</string>
+    <!-- GUI styles -->
+    <string name="ui_style_title">UI Style</string>
+    <string name="ui_style_default">Default</string>
+    <string name="ui_style_no_corner_radius">No Corner Radius</string>
+    <string name="ui_style_rectangle">Rectangle</string>
+    <string name="ui_style_round_large">Round Large</string>
+    <string name="ui_style_round_medium">Round Medium</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
+    <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
+    <string name="qs_show_brightness_slider_show_never">Never show</string>
+    <string name="qs_show_brightness_slider_show_expanded">Show when expanded</string>
+    <string name="qs_show_brightness_slider_show_always">Show always</string>
+    <string name="qs_brightness_position_bottom_title">Bottom brightness slider</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
+    <!-- Panel Background style -->
+    <string name="panel_bg_title">Panel background style</string>
+    <string name="panel_bg_dialog_title">Select panel background model</string>
+    <string name="panel_default">Default</string>
+    <string name="panel_batik">Batik</string>
+    <string name="panel_kece">Kece</string>
+    <string name="panel_outline">Outline</string>
+    <!-- QS header styles -->
+    <string name="qs_header_style_title">QS Header style</string>
+    <string name="qs_header_black">Black</string>
+    <string name="qs_header_grey">Grey</string>
+    <string name="qs_header_lightgrey">Light Grey</string>
+    <string name="qs_header_accent">Accent Based</string>
+    <string name="qs_header_transparent">Transparent</string>
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Quick Settings quick pull-down</string>
+    <string name="quick_settings_quick_pull_down_summary">Automatically expand Quick Settings when pulling from the right side of the status bar</string>
+    <string name="qs_edit_title">Edit Icon</string>
+    <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
+    <!-- Allow fake signature -->
+    <string name="allow_signature_fake">Allow signature spoofing</string>
+    <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app.</string>
+    <!-- Rounded corners -->
+    <string name="corners_category_title">Cantos arredondados</string>
+    <string name="corners_category_summary">Adjust rounded corners and padding</string>
+    <string name="corners_title">Customize rounded corners</string>
+    <string name="corner_radius">Rounded corner radius</string>
+    <string name="content_padding">Corner content padding</string>
+    <string name="corner_fwvals">Use framework values</string>
+    <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
+    <string name="unit_pixels">dp</string>
+    <!-- Show Statusbar on Lockscreen -->
+    <string name="lockscreen_status_bar_title">Status bar</string>
+    <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch appearance</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">Narrow</string>
+    <string name="switch_contained">Contained</string>
+    <string name="switch_md2">MD2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_stockish">Stockish</string>
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS tile style</string>
+    <string name="qstile_default">Default</string>
+    <string name="qstile_circle_trim">Circle with trim</string>
+    <string name="qstile_dual_tone_circle">Dual-toned circle</string>
+    <string name="qstile_squircle_trim">Squircle with trim</string>
+    <string name="qstile_wavey">Wavey</string>
+    <string name="qstile_pokesign">Pokesign</string>
+    <string name="qstile_ninja">Ninja</string>
+    <string name="qstile_dottedcircle">Dotted Circle</string>
+    <string name="qstile_attemptmountain">An attempt of a mountain</string>
+    <string name="qstile_squaremedo">The Squaremedo</string>
+    <string name="qstile_inkdrop">Ink</string>
+    <string name="qstile_cookie">Cookie</string>
+    <string name="qstile_circleoutline">Circle Outline</string>
+    <string name="qstile_cosmos">Shishu Cosmos</string>
+    <string name="qstile_divided">Divided Circle</string>
+    <string name="qstile_neonlike">Neon Light</string>
+    <string name="qstile_oos">Oxygen</string>
+    <string name="qstile_triangles">Triangle</string>
+    <!-- QS BG Tint -->
+    <string name="qs_themes_category_title">QS Themes</string>
+    <string name="qs_tint_off">Gradient Effect</string>
+    <string name="qs_tint_random">Random Color</string>
+    <string name="qs_tint_accent">Accent Color</string>
+    <!-- QS Label Tint -->
+    <string name="qs_label_use_new_tint">QS Label Tint</string>
+    <string name="qs_label_tint_off">Default</string>
+    <string name="qs_label_tint_random">Random Color Tint</string>
+    <string name="qs_label_tint_accent">Accent Color Tint</string>
+    <string name="qs_label_tint_gradient">Gradient Color Tint</string>
+    <!-- Qs Tile Icon Bright-Dark -->
+    <string name="qs_icon_primary_title">Qs Tile Icon Bright|Dark</string>
+    <string name="qs_icon_primary_summary">Make Qs Icon Bright-Dark if gradient tint enabled</string>
+    <!-- SmartSpace -->
+    <string name="smart_space_title">Google Smart space</string>
+    <string name="smart_space_summary">Display conditional info such as weather and events on lockscreen\nRequires a SystemUI restart</string>
 </resources>
