@@ -1310,4 +1310,6 @@
     <string name="pulse_custom_div">Bar spacing</string>
     <string name="pulse_filled_block_size">Block size</string>
     <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_solid_units_rounded_title">Solid lines rounded</string>
+    <string name="pulse_solid_units_rounded_summary">Round the solid lines</string>
 </resources>
