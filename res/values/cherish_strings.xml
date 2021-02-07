@@ -1049,8 +1049,4 @@
     <string name="qstile_neonlike">Neon Light</string>
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Triangle</string>
-
-    <!-- SmartSpace -->
-    <string name="smart_space_title">Google Smart space</string>
-    <string name="smart_space_summary">Display conditional info such as weather and events on lockscreen\nRequires a SystemUI restart</string>
 </resources>

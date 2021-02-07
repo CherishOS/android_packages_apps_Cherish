@@ -26,12 +26,6 @@
         android:defaultValue="true" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="smart_space"
-            android:title="@string/smart_space_title"
-            android:summary="@string/smart_space_summary"
-            android:defaultValue="true" />
-
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="charging_animation"
         android:icon="@drawable/ic_charging"
         android:title="@string/charging_animation_title"
