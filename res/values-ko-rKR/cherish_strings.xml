@@ -839,6 +839,12 @@
     <string name="brightness_slider_style_memeround">Meme round</string>
     <string name="brightness_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="brightness_slider_style_memestroke">Meme stroke</string>
+    <string name="brightness_slider_style_default_2">Default (plain accent)</string>
+    <string name="brightness_slider_style_danielgradient">Daniel (Gradient)</string>
+    <string name="brightness_slider_style_mememinigradient">Meme mini (Gradient)</string>
+    <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
+    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
+    <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
     <!-- GUI styles -->
     <string name="ui_style_title">UI Style</string>
     <string name="ui_style_default">Default</string>
@@ -847,15 +853,14 @@
     <string name="ui_style_round_large">Round Large</string>
     <string name="ui_style_round_medium">Round Medium</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Brightness slider</string>
-    <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_show_brightness_slider_title">Quick QS brightness slider</string>
+    <string name="qs_show_brightness_slider_summary">Show brightness slider in quickbar</string>
+    <string name="qs_show_brightness_slider_expanded_title">Expanded QS brightness slider</string>
+    <string name="qs_show_brightness_slider_expanded_summary">Show brightness slider when expanded</string>
     <string name="qs_show_auto_brightness_title">Autobrightness icon</string>
     <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
-    <string name="qs_show_brightness_slider_show_never">Never show</string>
-    <string name="qs_show_brightness_slider_show_expanded">Show when expanded</string>
-    <string name="qs_show_brightness_slider_show_always">Show always</string>
-    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom (only works for Expanded QS)</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom of expanded quick settings</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Panel background style</string>
     <string name="panel_bg_dialog_title">Select panel background model</string>
@@ -917,24 +922,4 @@
     <string name="qstile_circleoutline">Circle Outline</string>
     <string name="qstile_cosmos">Shishu Cosmos</string>
     <string name="qstile_divided">Divided Circle</string>
-    <string name="qstile_neonlike">Neon Light</string>
-    <string name="qstile_oos">Oxygen</string>
-    <string name="qstile_triangles">Triangle</string>
-    <!-- QS BG Tint -->
-    <string name="qs_themes_category_title">QS Themes</string>
-    <string name="qs_tint_off">Gradient Effect</string>
-    <string name="qs_tint_random">Random Color</string>
-    <string name="qs_tint_accent">Accent Color</string>
-    <!-- QS Label Tint -->
-    <string name="qs_label_use_new_tint">QS Label Tint</string>
-    <string name="qs_label_tint_off">Default</string>
-    <string name="qs_label_tint_random">Random Color Tint</string>
-    <string name="qs_label_tint_accent">Accent Color Tint</string>
-    <string name="qs_label_tint_gradient">Gradient Color Tint</string>
-    <!-- Qs Tile Icon Bright-Dark -->
-    <string name="qs_icon_primary_title">Qs Tile Icon Bright|Dark</string>
-    <string name="qs_icon_primary_summary">Make Qs Icon Bright-Dark if gradient tint enabled</string>
-    <!-- SmartSpace -->
-    <string name="smart_space_title">Google Smart space</string>
-    <string name="smart_space_summary">Display conditional info such as weather and events on lockscreen\nRequires a SystemUI restart</string>
 </resources>
