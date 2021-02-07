@@ -839,6 +839,12 @@
     <string name="brightness_slider_style_memeround">Tròn Meme</string>
     <string name="brightness_slider_style_memeroundstroke">Meme tròn nét</string>
     <string name="brightness_slider_style_memestroke">Meme nét</string>
+    <string name="brightness_slider_style_default_2">Mặc định (màu ấn)</string>
+    <string name="brightness_slider_style_danielgradient">Daniel (Gradient)</string>
+    <string name="brightness_slider_style_mememinigradient">Meme mini (Gradient)</string>
+    <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
+    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
+    <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
     <!-- GUI styles -->
     <string name="ui_style_title">Kiểu giao diện</string>
     <string name="ui_style_default">Mặc định</string>
@@ -849,11 +855,10 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Thanh điều chỉnh độ sáng</string>
     <string name="qs_show_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
+    <string name="qs_show_brightness_slider_expanded_title">Thanh trượt độ sáng QS mở rộng</string>
+    <string name="qs_show_brightness_slider_expanded_summary">Hiển thị thanh trượt độ sáng khi được mở rộng</string>
     <string name="qs_show_auto_brightness_title">Biểu tượng độ sáng tự động</string>
     <string name="qs_show_auto_brightness_summary">Hiển thị chuyển đổi độ sáng tự động gần thanh trượt độ sáng</string>
-    <string name="qs_show_brightness_slider_show_never">Không hiển thị</string>
-    <string name="qs_show_brightness_slider_show_expanded">Hiển thị khi mở rộng</string>
-    <string name="qs_show_brightness_slider_show_always">Luôn hiển thị</string>
     <string name="qs_brightness_position_bottom_title">Thanh trượt độ sáng phía dưới</string>
     <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt chỉnh độ sáng phía dưới bảng cài đặt nhanh</string>
     <!-- Panel Background style -->
@@ -917,24 +922,4 @@
     <string name="qstile_circleoutline">Circle Outline</string>
     <string name="qstile_cosmos">Shishu Cosmos</string>
     <string name="qstile_divided">Vòng tròn chấm</string>
-    <string name="qstile_neonlike">Đường Nét Neon</string>
-    <string name="qstile_oos">Oxygen</string>
-    <string name="qstile_triangles">Tam giác</string>
-    <!-- QS BG Tint -->
-    <string name="qs_themes_category_title">Chủ đề QS</string>
-    <string name="qs_tint_off">Hiệu ứng Gradient</string>
-    <string name="qs_tint_random">Màu sắc ngẫu nhiên</string>
-    <string name="qs_tint_accent">Màu nhấn</string>
-    <!-- QS Label Tint -->
-    <string name="qs_label_use_new_tint">Nhãn hiệu màu QS</string>
-    <string name="qs_label_tint_off">Mặc định</string>
-    <string name="qs_label_tint_random">Màu sắc ngẫu nhiên</string>
-    <string name="qs_label_tint_accent">Màu sắc nhấn</string>
-    <string name="qs_label_tint_gradient">Đa màu</string>
-    <!-- Qs Tile Icon Bright-Dark -->
-    <string name="qs_icon_primary_title">Biểu tượng ô Qs Sáng | Tối</string>
-    <string name="qs_icon_primary_summary">Làm cho Biểu tượng Qs Sáng-Tối nếu bật màu gradient</string>
-    <!-- SmartSpace -->
-    <string name="smart_space_title">Không gian thông minh của Google</string>
-    <string name="smart_space_summary">Hiển thị thông tin có điều kiện như thời tiết và sự kiện trên màn hình khóa\nYêu cầu khởi động lại SystemUI</string>
 </resources>
