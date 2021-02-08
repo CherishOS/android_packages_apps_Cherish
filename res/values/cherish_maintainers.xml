@@ -49,6 +49,8 @@
    <string name="vince_maintainer">Alan Mathew</string>
    <string name="device_tissot">Xiaomi Mi A1</string>
    <string name="tissot_maintainer">KABIR SINGH</string>
+   <string name="device_jasmine_sprout">Xiaomi Mi A2</string>
+   <string name="jasmine_sprout_maintainer">YOUSSEF</string>
    <string name="device_wayne">Xiaomi Mi 6X</string>
    <string name="wayne_maintainer">Hemein Selen</string>
    <string name="device_davinci">Xiaomi Mi 9T/K20</string>
