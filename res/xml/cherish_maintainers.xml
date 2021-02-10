@@ -119,6 +119,15 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/dont_belive_me_02" />
         </Preference>
+		
+<Preference
+            android:title="@string/jasmine_sprout_maintainer"
+            android:summary="@string/device_jasmine_sprout"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/HemeinSelen" />
+        </Preference>
 
 <Preference
             android:title="@string/wayne_maintainer"
