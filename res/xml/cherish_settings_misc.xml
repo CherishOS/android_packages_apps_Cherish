@@ -59,12 +59,11 @@
           android:defaultValue="true" />
 
     <!-- Sensor block per package -->
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
-        android:key="sensor_block"
-        android:icon="@drawable/ic_remote"
+    <Preference
+        android:key="sensor_block_settings"
         android:title="@string/sensor_block_title"
         android:summary="@string/sensor_block_summary"
-        android:defaultValue="false" />
+        android:fragment="com.cherish.settings.fragments.SensorBlock"/>
 
 	<com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="click_partial_screenshot"
