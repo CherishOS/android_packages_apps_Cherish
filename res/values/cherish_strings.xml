@@ -959,6 +959,7 @@
     <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
     <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
     <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
+    <string name="brightness_slider_style_oos">OOS style</string>
 
     <!-- GUI styles -->
     <string name="ui_style_title">UI Style</string>
