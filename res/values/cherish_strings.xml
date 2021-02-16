@@ -485,6 +485,8 @@
     <string name="lock_item_center">Center Aligned</string>
     <string name="lock_item_right">Right Aligned</string>
     <string name="lockscreen_item_padding_title">Lockscreen Items Padding</string>
+    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
+    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
 
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
@@ -510,6 +512,25 @@
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Hide Bottom Shortcuts</string>
     <string name="lockscreen_hide_shortcuts_summary">Hide Left-Right Shortcuts on secure lock screens</string>
+
+    <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">Weather</string>
+    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
+    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
+    <string name="lockscreen_weather_settings_title">Setup weather options</string>
+    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+
+    <!-- Lockscreen weather style -->
+    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_omni_style_title">Omni style</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
 
     <!-- AOKP custom system animations -->
     <string name="animation_settings_title">Animations</string>
@@ -807,6 +828,22 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animation</string>
     <string name="pixel_navbar_anim_summary">Toggle home button animation</string>
+
+    <!-- LockWeather Switches -->
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
+    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
+
+    <!-- LS Weather Temp & City Fonts -->
+    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
+    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
+    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
+    <string name="lock_weather_city_font_title">LS Weather City font</string>
+    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
+    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
 
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">QS footer text</string>
