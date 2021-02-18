@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_title">Cherish 设置</string>
     <!-- Categories -->
     <string name="button_title">Buttons</string>
     <string name="button_summary">Hardware keys, Navigation bar</string>
@@ -24,7 +24,7 @@
     <string name="misc_summary">Gaming mode, volume controls</string>
     <string name="animations_title">Animations</string>
     <string name="animations_summary">System animations</string>
-    <string name="powermenu_title">Power menu</string>
+    <string name="powermenu_title">电源菜单</string>
     <string name="powermenu_summary">Advanced restart, power menu opacity</string>
     <string name="theme_title">Themes</string>
     <string name="theme_summary">System theme, rounded, switch theme</string>
@@ -36,7 +36,7 @@
     <string name="statusbar_summary">Clock, carrier, status icons</string>
     <string name="volume_title">Volume rockers</string>
     <string name="volume_summary">Volume rockers</string>
-    <string name="notifications_title">Notifications</string>
+    <string name="notifications_title">通知</string>
     <string name="notifications_summary">Battery light, notifications header</string>
     <string name="about_summary">Learn more about CherishOS</string>
     <string name="device_part_title">Device features</string>
@@ -45,10 +45,10 @@
     <string name="volume_keys_title">Volume keys</string>
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="cancel">Cancel</string>
+    <string name="reset">重置</string>
+    <string name="cancel">取消</string>
     <string name="save">Save</string>
-    <string name="default_string">Default</string>
+    <string name="default_string">默认</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -57,9 +57,9 @@
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
-    <string name="color_default">Default</string>
-    <string name="led_color_green">Green</string>
-    <string name="led_color_red">Red</string>
+    <string name="color_default">默认</string>
+    <string name="led_color_green">绿</string>
+    <string name="led_color_red">红</string>
     <!-- QS settings -->
     <string name="qs_title">Quick settings</string>
     <!-- Status bar - icons -->
@@ -69,7 +69,7 @@
     <!-- Power menu and dialogs opacity -->
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
-    <string name="power_menu_animation">Power menu</string>
+    <string name="power_menu_animation">电源菜单</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">Lockscreen</string>
@@ -101,7 +101,7 @@
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
     <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
+    <string name="battery_light_low_color">电池电量低</string>
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
@@ -112,13 +112,13 @@
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
     <string name="volume_key_cursor_control_title">Volume key cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_off">已禁用</string>
     <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
     <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
     <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
     <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="torch_long_press_power_timeout_never">从不</string>
     <string name="torch_long_press_power_timeout_1min">1 minute</string>
     <string name="torch_long_press_power_timeout_2min">2 minutes</string>
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
@@ -154,7 +154,7 @@
     <string name="picker_activities">Activities</string>
     <string name="select_custom_app_title">Select custom app</string>
     <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="profile_applist_title">Applications</string>
+    <string name="profile_applist_title">应用</string>
     <string name="choose_action_title">Choose action</string>
     <string name="action_entry_default_action">Default settings</string>
     <string name="action_entry_select_app">Select application</string>
@@ -229,7 +229,7 @@
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
     <!-- Global Actions -->
-    <string name="global_actions_title">Power menu</string>
+    <string name="global_actions_title">电源菜单</string>
     <string name="global_actions_summary">Select what to show when you press the power button</string>
     <string name="global_actions_power">Power</string>
     <string name="global_actions_restart">Restart</string>
@@ -250,7 +250,7 @@
     <string name="battery_style_category_title">Battery level</string>
     <!-- Battery mode -->
     <string name="battery_percentage_title">Battery percentage</string>
-    <string name="battery_percentage_off">Disabled</string>
+    <string name="battery_percentage_off">已禁用</string>
     <string name="battery_percentage_next">Enabled</string>
     <string name="battery_percentage_inside">Enabled (inside icon)</string>
     <string name="battery_percentage_estimate">Enabled (estimate)</string>
@@ -266,19 +266,19 @@
     <string name="status_bar_battery_style_square">Square</string>
     <string name="status_bar_battery_style_solid">Solid</string>
     <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
     <string name="status_bar_battery_style_q">Q style</string>
     <string name="status_bar_battery_style_tile_title">Override battery tile</string>
     <string name="status_bar_battery_style_tile_summary">Use same icon style as above in QS battery tile</string>
     <!-- Status bar - Battery custom charging symbol -->
     <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
     <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
-    <string name="text_charging_symbol_default">Disabled</string>
+    <string name="text_charging_symbol_default">已禁用</string>
     <string name="text_charging_symbol_flash">Flash</string>
     <string name="text_charging_symbol_tilde">Tilde</string>
     <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_default">隐藏</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="status_bar_battery_text_position_title">Battery percent position</string>
@@ -291,7 +291,7 @@
     <string name="network_traffic_state_title">Network traffic</string>
     <string name="network_traffic">Network traffic</string>
     <string name="network_traffic_location">Traffic indicator placement</string>
-    <string name="traffic_disabled">Disabled</string>
+    <string name="traffic_disabled">已禁用</string>
     <string name="traffic_statusbar">Statusbar</string>
     <string name="traffic_expanded_statusbar">Expanded header</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
@@ -299,9 +299,9 @@
     <string name="network_traffic_arrow_summary">Show the network traffic indicator arrows</string>
     <string name="network_traffic_type">Select net activity type</string>
     <string name="show_network_traffic_combined">Combined (Upload + Download)</string>
-    <string name="show_network_traffic_dynamic">Dynamic</string>
+    <string name="show_network_traffic_dynamic">动态</string>
     <string name="show_network_traffic_up">Upload</string>
-    <string name="show_network_traffic_down">Download</string>
+    <string name="show_network_traffic_down">下载</string>
     <string name="show_network_traffic_all">Both</string>
     <string name="nettraf_font_size">Single net font size</string>
     <string name="network_traffic_layout">Activity layout</string>
@@ -390,7 +390,7 @@
     <string name="lockscreen_clock_title">Clock style</string>
     <string name="lockscreen_clock_dialog_title">Select clock style</string>
     <string name="lockscreen_clock_hide">Hide</string>
-    <string name="lockscreen_clock_default">Default</string>
+    <string name="lockscreen_clock_default">默认</string>
     <string name="lockscreen_clock_default_bold">Default (bold)</string>
     <string name="lockscreen_clock_sammy">Sammy</string>
     <string name="lockscreen_clock_sammy_bold">Sammy (bold)</string>
@@ -402,7 +402,7 @@
     <!-- Lockscreen Date styles -->
     <string name="lockscreen_date_selection_title">Date style</string>
     <string name="lockscreen_date_dialog_title">Select date style</string>
-    <string name="lockscreen_date_selection_default">Default</string>
+    <string name="lockscreen_date_selection_default">默认</string>
     <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
     <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
     <string name="lockscreen_date_selection_qbeta_style">Q Beta pill</string>
@@ -422,6 +422,8 @@
     <string name="lock_item_center">Center Aligned</string>
     <string name="lock_item_right">Right Aligned</string>
     <string name="lockscreen_item_padding_title">Lockscreen Items Padding</string>
+    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
+    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
     <string name="data_disabled_icon_summary">Display a cross sign next to signal bar when data is disabled</string>
@@ -438,33 +440,32 @@
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
     <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_title">删除</string>
     <string name="dialog_delete_message">Remove selected item?</string>
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Hide Bottom Shortcuts</string>
     <string name="lockscreen_hide_shortcuts_summary">Hide Left-Right Shortcuts on secure lock screens</string>
-    <!-- AOKP custom system animations -->
-    <string name="animation_settings_title">Animations</string>
-    <string name="animation_settings_summary">System Wide Animation Options</string>
-    <string name="animation_title">Animations</string>
-    <string name="system_animation_title">System Animations</string>
-    <string name="activity_open_title">Activity open animation</string>
-    <string name="activity_close_title">Activity close animation</string>
-    <string name="task_open_title">Task open animation</string>
-    <string name="task_open_behind_title">Task open behind animation</string>
-    <string name="task_close_title">Task close animation</string>
-    <string name="task_move_to_front_title">Move to front animation</string>
-    <string name="task_move_to_back_title">Move to back animation</string>
-    <string name="wallpaper_open_title">Wallpaper open animation</string>
-    <string name="wallpaper_close_title">Wallpaper close animation</string>
-    <string name="wallpaper_intra_open_title">Wallpaper intra open animation</string>
-    <string name="wallpaper_intra_close_title">Wallpaper intra close animation</string>
-    <string name="animation_duration_title">Animation duration</string>
-    <string name="animation_duration_default">Default</string>
+    <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">Weather</string>
+    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
+    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
+    <string name="lockscreen_weather_settings_title">Setup weather options</string>
+    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <!-- Lockscreen weather style -->
+    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_omni_style_title">Omni style</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Toast animation</string>
-    <string name="toast_none_animation">None</string>
-    <string name="toast_default_animation">Default</string>
+    <string name="toast_none_animation">无</string>
+    <string name="toast_default_animation">默认</string>
     <string name="toast_fade_animation">Fade</string>
     <string name="toast_SlideRight_animation">Slide right</string>
     <string name="toast_SlideLeft_animation">Slide left</string>
@@ -481,7 +482,7 @@
     <string name="toast_SlideRightLeft_animation">Slide right to left</string>
     <!-- ListView animation -->
     <string name="listview_animation_title">ListView animation</string>
-    <string name="listview_off">Default</string>
+    <string name="listview_off">默认</string>
     <string name="listview_wave_left">Wave (left)</string>
     <string name="listview_wave_right">Wave (right)</string>
     <string name="listview_alpha">Alpha</string>
@@ -526,7 +527,7 @@
     <string name="qs_tile_animation_style_flip">Flip</string>
     <string name="qs_tile_animation_style_rotate">Rotate</string>
     <string name="qs_tile_animation_duration_low">Low</string>
-    <string name="qs_tile_animation_duration_default">Default</string>
+    <string name="qs_tile_animation_duration_default">默认</string>
     <string name="qs_tile_animation_duration_fast">Fast</string>
     <string name="qs_tile_animation_duration_quite_fast">Quite fast</string>
     <string name="qs_tile_animation_duration_super_fast">Super fast</string>
@@ -565,7 +566,7 @@
     <string name="volume_steps_ring_title">Volume steps: Ringer</string>
     <string name="volume_steps_system_title">Volume steps: System</string>
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-    <string name="volume_steps_reset">Reset</string>
+    <string name="volume_steps_reset">重置</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Notification Headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade\nRequires a SystemUI restart</string>
@@ -622,9 +623,11 @@
     <string name="volume_panel_compact">Compact</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Tiled</string>
+    <string name="volume_panel_miui">MIUI</string>
     <!--  Volume Panel Plugin Values   -->
     <string name="volume_panel_stock_val">com.android.systemui.volume</string>
     <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_miui_val">com.cherish.plugin.volume.miui</string>
     <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
     <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
@@ -711,6 +714,20 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animation</string>
     <string name="pixel_navbar_anim_summary">Toggle home button animation</string>
+    <!-- LockWeather Switches -->
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
+    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
+    <!-- LS Weather Temp & City Fonts -->
+    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
+    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
+    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
+    <string name="lock_weather_city_font_title">LS Weather City font</string>
+    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
+    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">QS footer text</string>
     <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
@@ -718,7 +735,7 @@
     <string name="qs_footer_text_string_summary">Set to empty for default #KeepTheLove</string>
     <!-- QS Header data uasge -->
     <string name="qs_datausage_title">Data usage in QS Header</string>
-    <string name="qs_datausage_disabled">Disabled</string>
+    <string name="qs_datausage_disabled">已禁用</string>
     <string name="qs_datausage_daily">Daily usage</string>
     <string name="qs_datausage_monthly">Monthly usage</string>
     <!-- Navbar options -->
@@ -747,7 +764,7 @@
     <string name="daylight_header_provider_title">Automatic (Time based)</string>
     <string name="file_header_provider_title">Static</string>
     <string name="daylight_header_pack_title">Image collection</string>
-    <string name="header_provider_disabled">Disabled</string>
+    <string name="header_provider_disabled">已禁用</string>
     <string name="custom_header_pick_title">Pick image from collection</string>
     <string name="custom_header_pick_summary">Select an image from pre-installed image collections</string>
     <string name="file_header_select_title">Pick image from storage</string>
@@ -757,7 +774,7 @@
     <string name="fod_pressed_color_title">Fingerprint pressed color</string>
     <string name="fod_pressed_color_white">White</string>
     <string name="fod_pressed_color_cyan">Cyan</string>
-    <string name="fod_pressed_color_green">Green</string>
+    <string name="fod_pressed_color_green">绿</string>
     <string name="fod_pressed_color_yellow">Yellow</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Gaming Mode</string>
@@ -779,7 +796,7 @@
     <string name="gaming_mode_ringer_dnd_title">Do Not Disturb</string>
     <string name="gaming_mode_ringer_silent_title">Silent</string>
     <string name="gaming_mode_notifications_title">Gaming mode indication</string>
-    <string name="gaming_mode_notifications_off_title">Disabled</string>
+    <string name="gaming_mode_notifications_off_title">已禁用</string>
     <string name="gaming_mode_notifications_notif_title">Show notification</string>
     <string name="gaming_mode_notifications_toast_title">Show toasts</string>
     <string name="gaming_mode_notifications_all_title">Show toasts and notification</string>
@@ -824,7 +841,7 @@
     <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
     <string name="show_carrier_title">Carrier label</string>
-    <string name="show_carrier_disabled">Disabled</string>
+    <string name="show_carrier_disabled">已禁用</string>
     <string name="show_carrier_keyguard">Lockscreen only</string>
     <string name="show_carrier_statusbar">Statusbar only</string>
     <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
@@ -833,33 +850,39 @@
     <string name="status_bar_carrier_font_style_title">Carrier Label Font</string>
     <!-- Brightness Slider style -->
     <string name="brightness_slider_style_title">Brightness slider style</string>
-    <string name="brightness_slider_style_default">Default</string>
+    <string name="brightness_slider_style_default">默认</string>
     <string name="brightness_slider_style_daniel">Daniel</string>
     <string name="brightness_slider_style_mememini">Meme mini</string>
     <string name="brightness_slider_style_memeround">Meme round</string>
     <string name="brightness_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="brightness_slider_style_memestroke">Meme stroke</string>
+    <string name="brightness_slider_style_default_2">Default (plain accent)</string>
+    <string name="brightness_slider_style_danielgradient">Daniel (Gradient)</string>
+    <string name="brightness_slider_style_mememinigradient">Meme mini (Gradient)</string>
+    <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
+    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
+    <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
+    <string name="brightness_slider_style_oos">OOS style</string>
     <!-- GUI styles -->
     <string name="ui_style_title">UI Style</string>
-    <string name="ui_style_default">Default</string>
+    <string name="ui_style_default">默认</string>
     <string name="ui_style_no_corner_radius">No Corner Radius</string>
     <string name="ui_style_rectangle">Rectangle</string>
     <string name="ui_style_round_large">Round Large</string>
     <string name="ui_style_round_medium">Round Medium</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Brightness slider</string>
-    <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_show_brightness_slider_title">Quick QS brightness slider</string>
+    <string name="qs_show_brightness_slider_summary">Show brightness slider in quickbar</string>
+    <string name="qs_show_brightness_slider_expanded_title">Expanded QS brightness slider</string>
+    <string name="qs_show_brightness_slider_expanded_summary">Show brightness slider when expanded</string>
     <string name="qs_show_auto_brightness_title">Autobrightness icon</string>
     <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
-    <string name="qs_show_brightness_slider_show_never">Never show</string>
-    <string name="qs_show_brightness_slider_show_expanded">Show when expanded</string>
-    <string name="qs_show_brightness_slider_show_always">Show always</string>
-    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom (only works for Expanded QS)</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom of expanded quick settings</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Panel background style</string>
     <string name="panel_bg_dialog_title">Select panel background model</string>
-    <string name="panel_default">Default</string>
+    <string name="panel_default">默认</string>
     <string name="panel_batik">Batik</string>
     <string name="panel_kece">Kece</string>
     <string name="panel_outline">Outline</string>
@@ -892,7 +915,7 @@
     <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
     <!-- Switch styles -->
     <string name="switch_style_title">Switch appearance</string>
-    <string name="switch_default">Default</string>
+    <string name="switch_default">默认</string>
     <string name="switch_oneplus">OnePlus</string>
     <string name="switch_narrow">Narrow</string>
     <string name="switch_contained">Contained</string>
@@ -902,7 +925,7 @@
     <string name="switch_stockish">Stockish</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">QS tile style</string>
-    <string name="qstile_default">Default</string>
+    <string name="qstile_default">默认</string>
     <string name="qstile_circle_trim">Circle with trim</string>
     <string name="qstile_dual_tone_circle">Dual-toned circle</string>
     <string name="qstile_squircle_trim">Squircle with trim</string>
@@ -920,21 +943,12 @@
     <string name="qstile_neonlike">Neon Light</string>
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Triangle</string>
-    <!-- QS BG Tint -->
-    <string name="qs_themes_category_title">QS Themes</string>
-    <string name="qs_tint_off">Gradient Effect</string>
-    <string name="qs_tint_random">Random Color</string>
-    <string name="qs_tint_accent">Accent Color</string>
-    <!-- QS Label Tint -->
-    <string name="qs_label_use_new_tint">QS Label Tint</string>
-    <string name="qs_label_tint_off">Default</string>
-    <string name="qs_label_tint_random">Random Color Tint</string>
-    <string name="qs_label_tint_accent">Accent Color Tint</string>
-    <string name="qs_label_tint_gradient">Gradient Color Tint</string>
-    <!-- Qs Tile Icon Bright-Dark -->
-    <string name="qs_icon_primary_title">Qs Tile Icon Bright|Dark</string>
-    <string name="qs_icon_primary_summary">Make Qs Icon Bright-Dark if gradient tint enabled</string>
-    <!-- SmartSpace -->
-    <string name="smart_space_title">Google Smart space</string>
-    <string name="smart_space_summary">Display conditional info such as weather and events on lockscreen\nRequires a SystemUI restart</string>
+    <!-- Show old style mobile data icon -->
+    <string name="use_old_mobiletype_title">Use old style mobile data icons</string>
+    <string name="use_old_mobiletype_summary">Use pre-p mobiletype icons for signal</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 </resources>
