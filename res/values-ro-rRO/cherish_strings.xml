@@ -14,58 +14,58 @@
     <!-- App Title -->
     <string name="cherish_settings_title">Setări Cherish</string>
     <!-- Categories -->
-    <string name="button_title">Butoane</string>
+    <string name="button_title">Buttons</string>
     <string name="button_summary">Hardware keys, Navigation bar</string>
-    <string name="gestures_title">Gesturi</string>
+    <string name="gestures_title">Gestures</string>
     <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
-    <string name="lockscreen_title">Ecran de blocare</string>
+    <string name="lockscreen_title">Lock screen</string>
     <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
-    <string name="misc_title">Diverse</string>
+    <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">Gaming mode, volume controls</string>
-    <string name="animations_title">Animații</string>
+    <string name="animations_title">Animations</string>
     <string name="animations_summary">System animations</string>
     <string name="powermenu_title">Meniu de pornire</string>
     <string name="powermenu_summary">Advanced restart, power menu opacity</string>
-    <string name="theme_title">Teme</string>
+    <string name="theme_title">Themes</string>
     <string name="theme_summary">System theme, rounded, switch theme</string>
-    <string name="quicksettings_title">Setări rapide</string>
+    <string name="quicksettings_title">Quick Settings</string>
     <string name="quicksettings_summary">Tile layout, blur</string>
-    <string name="recents_title">Aplicații recente</string>
+    <string name="recents_title">Recents apps</string>
     <string name="recents_summary">Slim recents</string>
-    <string name="statusbar_title">Bară de stare</string>
+    <string name="statusbar_title">Status bar</string>
     <string name="statusbar_summary">Clock, carrier, status icons</string>
-    <string name="volume_title">Taste de volum</string>
-    <string name="volume_summary">Taste de volum</string>
+    <string name="volume_title">Volume rockers</string>
+    <string name="volume_summary">Volume rockers</string>
     <string name="notifications_title">Notificări</string>
     <string name="notifications_summary">Battery light, notifications header</string>
     <string name="about_summary">Learn more about CherishOS</string>
-    <string name="device_part_title">Caracteristici dispozitiv</string>
-    <string name="qs_category">Categorie QS</string>
+    <string name="device_part_title">Device features</string>
+    <string name="qs_category">QS category</string>
     <string name="navbar_title">Navigation bar</string>
     <string name="volume_keys_title">Volume keys</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Resetare</string>
     <string name="cancel">Anulare</string>
-    <string name="save">Salvare</string>
+    <string name="save">Save</string>
     <string name="default_string">Implicit</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Selectorul de culoare</string>
-    <string name="press_color_to_apply">Apăsați pe o culoare pentru a o aplica</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Setează</string>
+    <string name="set">Set</string>
     <string name="color_default">Implicit</string>
     <string name="led_color_green">Green</string>
     <string name="led_color_red">Red</string>
     <!-- QS settings -->
-    <string name="qs_title">Setări rapide</string>
+    <string name="qs_title">Quick settings</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Bara de stare - iconițe</string>
+    <string name="status_bar_icons_title">Status bar icons</string>
     <!-- Lock screen visualizer -->
-    <string name="visualizer_title">Afișează vizualizatorul muzical</string>
+    <string name="visualizer_title">Display music visualizer</string>
     <!-- Power menu and dialogs opacity -->
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
@@ -74,19 +74,19 @@
     <!-- Lockscreen -->
     <string name="lockscreen_category">Lockscreen</string>
     <!-- Themes -->
-    <string name="theme_type_title">Temă de sistem</string>
-    <string name="theme_type_summary">Selectaţi tema</string>
-    <string name="theme_type_light">Luminos</string>
-    <string name="theme_type_pitch_black">Google Dark</string>
+    <string name="theme_type_title">System theme</string>
+    <string name="theme_type_summary">Select theme</string>
+    <string name="theme_type_light">Light</string>
+    <string name="theme_type_pitch_black">Google dark</string>
     <string name="theme_type_solarized_dark">Solarized Dark</string>
-    <string name="theme_type_baked_green">Baked green</string>
+    <string name="theme_type_baked_green">Baked Green</string>
     <string name="theme_type_choco_x">Choco X</string>
     <string name="theme_type_dark_grey">Dark Grey</string>
     <string name="theme_type_du_pitchblack">Pitch black</string>
     <string name="theme_type_material_ocean">Material Ocean</string>
     <string name="theme_type_clear_spring">Clear Spring</string>
     <!--Accenter -->
-    <string name="themes_hub_title">Teme</string>
+    <string name="themes_hub_title">Themes</string>
     <string name="themes_hub_summary">Accents-Gradients-Themes</string>
     <string name="accent_color">Accent picker</string>
     <string name="accent_summary">Gradient Maker</string>
@@ -96,15 +96,15 @@
     <string name="theme_select_title">Styles and Wallpapers</string>
     <string name="theme_select_summary">Browse and select installed themes</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Lumină de încărcare a bateriei</string>
-    <string name="battery_light_enable">Activează</string>
-    <string name="battery_light_allow_on_dnd_title">Lumina bateriei în modul Nu Deranjați</string>
-    <string name="battery_light_low_blinking_title">Lumină intermitentă la baterie slabă</string>
-    <string name="battery_light_cat">Culoarea LED la încărcarea bateriei</string>
+    <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_enable">Enable</string>
+    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
+    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <string name="battery_light_cat">Battery light color when charging</string>
     <string name="battery_light_low_color">Baterie descărcată</string>
-    <string name="battery_light_medium_color">Nivel mediu al bateriei</string>
-    <string name="battery_light_full_color">Baterie aproape încărcată complet</string>
-    <string name="battery_light_reallyfull_color">Baterie încărcată complet (100)</string>
+    <string name="battery_light_medium_color">Medium battery</string>
+    <string name="battery_light_full_color">Almost full battery</string>
+    <string name="battery_light_reallyfull_color">Full (100) battery</string>
     <string name="notification_light_settings">Notifications light</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
@@ -127,9 +127,9 @@
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
     <!-- Statusbar Tuner -->
-    <string name="status_bar_system_icons_title">Iconițe de sistem</string>
-    <string name="status_bar_system_icons_summary">Alegeţi ce pictograme să fie afișate în bara de stare</string>
-    <string name="statusbar_items_title">Elemente bară de stare</string>
+    <string name="status_bar_system_icons_title">System icons</string>
+    <string name="status_bar_system_icons_summary">Control which status bar icons are shown</string>
+    <string name="statusbar_items_title">Statusbar items</string>
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
     <!-- Incall Home button behavior-->
@@ -176,11 +176,11 @@
     <string name="anbi_title">Accidental touch</string>
     <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Informații despre încărcare pe ecranul de blocare</string>
-    <string name="lockscreen_battery_info_summary">Afișare curent, tensiune și temperatura bateriei în timpul încărcării pe ecranul de blocare</string>
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Vibrează la autentificarea cu amprentă</string>
-    <string name="fprint_sucess_vib_summary">Vibrează la autentificarea cu succes prin amprentă</string>
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <string name="fprint_error_vib_title">Fingerprint error vibration</string>
     <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
     <!--Double Tap to Sleep -->
@@ -191,16 +191,16 @@
     <string name="show_fourg_title">Show 4G instead of LTE</string>
     <string name="show_fourg_summary">Replaces LTE statusbar indicators with 4G</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">Pictograma VoLTE</string>
+    <string name="volte_switch_title">VoLTE icon</string>
     <string name="volte_switch_summary">Display VoLTE icon</string>
-    <string name="volte_icon_title">Pictograma VoLTE</string>
+    <string name="volte_icon_title">VoLTE icon</string>
     <string name="volte_icon_summary">Display VoLTE icon</string>
-    <string name="volte_icon_style_title">Selectaţi pictograma VoLTE</string>
-    <string name="volte_icon_asus">Pictogramă VoLTE Asus</string>
+    <string name="volte_icon_style_title">Select VoLTE Icon</string>
+    <string name="volte_icon_asus">VoLTE Asus Icon</string>
     <string name="volte_icon_vo">Vo Only Icon</string>
-    <string name="volte_icon_volte">Pictograma VoLTE</string>
-    <string name="volte_icon_oos">Pictograma VoLTE OOS</string>
-    <string name="volte_icon_hd">Pictogramă HD</string>
+    <string name="volte_icon_volte">VoLTE Icon</string>
+    <string name="volte_icon_oos">VoLTE OOS Icon</string>
+    <string name="volte_icon_hd">HD Icon</string>
     <string name="volte_icon_hd2">HD CAF Icon</string>
     <string name="volte_icon_miui">MIUI 11 Icon</string>
     <string name="volte_icon_emui">EMUI Icon</string>
@@ -247,21 +247,21 @@
     <string name="global_actions_max_columns_title">Max actions to show</string>
     <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
     <!-- Battery Styles -->
-    <string name="battery_style_category_title">Nivelul bateriei</string>
+    <string name="battery_style_category_title">Battery level</string>
     <!-- Battery mode -->
-    <string name="battery_percentage_title">Procentaj baterie</string>
+    <string name="battery_percentage_title">Battery percentage</string>
     <string name="battery_percentage_off">Dezactivat</string>
-    <string name="battery_percentage_next">Activat</string>
-    <string name="battery_percentage_inside">Activat (înăuntrul pictogramei)</string>
+    <string name="battery_percentage_next">Enabled</string>
+    <string name="battery_percentage_inside">Enabled (inside icon)</string>
     <string name="battery_percentage_estimate">Enabled (estimate)</string>
     <string name="battery_percentage_percentage_estimate">Enabled (percent |estimate)</string>
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Stilul baterie</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
     <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-    <string name="status_bar_battery_style_circle">Cerc</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
     <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
-    <string name="status_bar_battery_style_big_circle">Cerc mare</string>
+    <string name="status_bar_battery_style_big_circle">Big circle</string>
     <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
     <string name="status_bar_battery_style_square">Square</string>
     <string name="status_bar_battery_style_solid">Solid</string>
@@ -274,30 +274,30 @@
     <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
     <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
     <string name="text_charging_symbol_default">Dezactivat</string>
-    <string name="text_charging_symbol_flash">Bliţ</string>
+    <string name="text_charging_symbol_flash">Flash</string>
     <string name="text_charging_symbol_tilde">Tilde</string>
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Procentaj baterie</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
     <string name="status_bar_battery_percentage_default">Ascuns</string>
-    <string name="status_bar_battery_percentage_text_inside">În interiorul pictogramei</string>
-    <string name="status_bar_battery_percentage_text_next">Lângă pictogramă</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="status_bar_battery_text_position_title">Battery percent position</string>
     <string name="status_bar_battery_text_position_left">Left of the icon</string>
     <string name="status_bar_battery_text_position_right">Right of the icon</string>
-    <string name="status_bar_battery_text_charging_title">Procentul bateriei la încărcare</string>
-    <string name="status_bar_battery_text_charging_summary">Afișați întotdeauna procentul bateriei la încărcare</string>
+    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
+    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
     <!-- Statusbar net monitor -->
-    <string name="traffic_title">Indicatori de trafic</string>
+    <string name="traffic_title">Traffic indicators</string>
     <string name="network_traffic_state_title">Network traffic</string>
     <string name="network_traffic">Network traffic</string>
     <string name="network_traffic_location">Traffic indicator placement</string>
     <string name="traffic_disabled">Dezactivat</string>
     <string name="traffic_statusbar">Statusbar</string>
     <string name="traffic_expanded_statusbar">Expanded header</string>
-    <string name="network_traffic_autohide_threshold_title">Pragul de ascundere automată a activității de rețea (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <string name="network_traffic_arrow">Show arrows</string>
     <string name="network_traffic_arrow_summary">Show the network traffic indicator arrows</string>
-    <string name="network_traffic_type">Selectaţi tipul de activitate rețea</string>
+    <string name="network_traffic_type">Select net activity type</string>
     <string name="show_network_traffic_combined">Combined (Upload + Download)</string>
     <string name="show_network_traffic_dynamic">Dynamic</string>
     <string name="show_network_traffic_up">Upload</string>
@@ -325,7 +325,7 @@
     <string name="lock_clock_font_bold_italic">Bold Italic</string>
     <string name="lock_clock_font_light_italic">Light Italic</string>
     <string name="lock_clock_font_thin_italic">Thin Italic</string>
-    <string name="lock_clock_font_light">Luminos</string>
+    <string name="lock_clock_font_light">Light</string>
     <string name="lock_clock_font_thin">Thin</string>
     <string name="lock_clock_font_condensed_normal">Condensed</string>
     <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
@@ -387,32 +387,32 @@
     <string name="lock_ownerinfo_font_dialog_title">Select lock ownerinfo font</string>
     <string name="lockowner_font_size_title">Owner info font size</string>
     <!-- Lockscreen clock style -->
-    <string name="lockscreen_clock_title">Stil ceas</string>
-    <string name="lockscreen_clock_dialog_title">Selectaţi stilul ceasului</string>
-    <string name="lockscreen_clock_hide">Ascunde</string>
+    <string name="lockscreen_clock_title">Clock style</string>
+    <string name="lockscreen_clock_dialog_title">Select clock style</string>
+    <string name="lockscreen_clock_hide">Hide</string>
     <string name="lockscreen_clock_default">Implicit</string>
-    <string name="lockscreen_clock_default_bold">Implicit (aldin)</string>
+    <string name="lockscreen_clock_default_bold">Default (bold)</string>
     <string name="lockscreen_clock_sammy">Sammy</string>
-    <string name="lockscreen_clock_sammy_bold">Sammy (aldin)</string>
+    <string name="lockscreen_clock_sammy_bold">Sammy (bold)</string>
     <string name="lockscreen_clock_sammy_accent_hour">Sammy Accent(hours)</string>
     <string name="lockscreen_clock_sammy_accent_mins">Sammy Accent(minutes)</string>
     <string name="lockscreen_clock_text_style">Text clock</string>
     <string name="lockscreen_clock_analog_style">Analog Q Style</string>
     <string name="lockscreen_clock_analog_num_style">Analog clock(number)</string>
     <!-- Lockscreen Date styles -->
-    <string name="lockscreen_date_selection_title">Stil dată</string>
-    <string name="lockscreen_date_dialog_title">Selectează stilul datei</string>
+    <string name="lockscreen_date_selection_title">Date style</string>
+    <string name="lockscreen_date_dialog_title">Select date style</string>
     <string name="lockscreen_date_selection_default">Implicit</string>
-    <string name="lockscreen_date_selection_str_box">Casetă semi-transparentă</string>
-    <string name="lockscreen_date_selection_str_round">Casetă semi-transparentă (rotundă)</string>
-    <string name="lockscreen_date_selection_qbeta_style">Pilulă Q beta</string>
-    <string name="lockscreen_date_selection_str_accent">Rotunjită, simplă și cu accent</string>
+    <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
+    <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Q Beta pill</string>
+    <string name="lockscreen_date_selection_str_accent">Rounded, simple and with accent</string>
     <string name="lockscreen_date_selection_str_accent_day">Rounded, simple and with accent (alt)</string>
-    <string name="lockscreen_date_selection_str_accent_transparent">Rotunjită, transparentă și cu accent</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Rounded, transparent and with accent</string>
     <string name="lockscreen_date_selection_str_accent_transparent_day">Rounded, transparent and with accent (alt)</string>
     <string name="lockscreen_date_selection_str_gradient">Gradient</string>
-    <string name="lockscreen_date_selection_str_border_accent">Întunecat cu margini accentuate</string>
-    <string name="lockscreen_date_selection_str_border_gradient">Întunecat cu margini gradient</string>
+    <string name="lockscreen_date_selection_str_border_accent">Dark with accented borders</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Dark with gradient borders</string>
     <!-- Q To X Clock -->
     <string name="center_text_clock_title">Lock Clock Alignment</string>
     <!-- Lockscreen Item Alignments -->
@@ -422,11 +422,13 @@
     <string name="lock_item_center">Center Aligned</string>
     <string name="lock_item_right">Right Aligned</string>
     <string name="lockscreen_item_padding_title">Lockscreen Items Padding</string>
+    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
+    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
     <string name="data_disabled_icon_summary">Display a cross sign next to signal bar when data is disabled</string>
-    <string name="qs_bg_use_new_tint">Iconițe de culoare QS</string>
-    <string name="qs_bg_use_new_tint_summary">Utilizați culoarea de accent pentru iconițele de culoare QS și pentru fundal</string>
+    <string name="qs_bg_use_new_tint">QS tile colors</string>
+    <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads Up</string>
     <string name="heads_up_summary">Customize Heads Up Behavior</string>
@@ -437,30 +439,29 @@
     <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Alegeți aplicația</string>
+    <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">Ştergere</string>
-    <string name="dialog_delete_message">Ștergeți elementul selectat?</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Hide Bottom Shortcuts</string>
     <string name="lockscreen_hide_shortcuts_summary">Hide Left-Right Shortcuts on secure lock screens</string>
-    <!-- AOKP custom system animations -->
-    <string name="animation_settings_title">Animații</string>
-    <string name="animation_settings_summary">System Wide Animation Options</string>
-    <string name="animation_title">Animații</string>
-    <string name="system_animation_title">System Animations</string>
-    <string name="activity_open_title">Animație la deschiderea unei activități</string>
-    <string name="activity_close_title">Animație la închiderea unei activități</string>
-    <string name="task_open_title">Animație deschidere sarcină</string>
-    <string name="task_open_behind_title">Animația de fundal a deschiderii sarcinii</string>
-    <string name="task_close_title">Animația de închidere a sarcinii</string>
-    <string name="task_move_to_front_title">Mutați la animația frontală</string>
-    <string name="task_move_to_back_title">Mutați la animația de fundal</string>
-    <string name="wallpaper_open_title">Animaţie deschidere imagine de fundal</string>
-    <string name="wallpaper_close_title">Animaţie închidere imagine de fundal</string>
-    <string name="wallpaper_intra_open_title">Animaţie între-deschidere imagine de fundal</string>
-    <string name="wallpaper_intra_close_title">Animaţie între-închidere imagine de fundal</string>
-    <string name="animation_duration_title">Durata animaţiei</string>
-    <string name="animation_duration_default">Implicit</string>
+    <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">Weather</string>
+    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
+    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
+    <string name="lockscreen_weather_settings_title">Setup weather options</string>
+    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <!-- Lockscreen weather style -->
+    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_omni_style_title">Omni style</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Toast animation</string>
     <string name="toast_none_animation">Nimic</string>
@@ -520,7 +521,7 @@
     <!-- Tiles animation style -->
     <string name="qs_tiles">QS Tiles</string>
     <string name="qs_tile_animation_style_title">Animation style</string>
-    <string name="qs_tile_animation_duration_title">Durata animaţiei</string>
+    <string name="qs_tile_animation_duration_title">Animation duration</string>
     <string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string>
     <string name="qs_tile_animation_style_off">No animation</string>
     <string name="qs_tile_animation_style_flip">Flip</string>
@@ -580,7 +581,7 @@
     <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
     <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_title">Afișează vizualizatorul muzical</string>
+    <string name="lockscreen_visualizer_title">Display music visualizer</string>
     <string name="lockscreen_visualizer_summary">Toggle lockscreen visualizer</string>
     <string name="lockscreen_visualizer_enable">Music Visualizer</string>
     <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
@@ -598,18 +599,18 @@
     <string name="lockscreen_media_art_title">Media art</string>
     <string name="lockscreen_media_art_summary">Toggle visibility of media art</string>
     <!-- Lockscreen media artwork -->
-    <string name="lockscreen_media_blur_title">Nivelul de estompare a coperților media</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
     <string name="lockscreen_lock_icon_title">Lock icon</string>
     <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
     <!-- Charging animation -->
-    <string name="charging_animation_title">Animaţie la încărcare</string>
+    <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
-    <string name="lockscreen_charging_animation_title">Animaţie la încărcare</string>
-    <string name="lockscreen_charging_animation_flash">Bliţ</string>
-    <string name="lockscreen_charging_animation_battery">Baterie</string>
-    <string name="lockscreen_charging_animation_drop">Picătură</string>
-    <string name="lockscreen_charging_animation_explosion">Explozie</string>
-    <string name="lockscreen_charging_animation_water">Apă</string>
+    <string name="lockscreen_charging_animation_title">Charging animation</string>
+    <string name="lockscreen_charging_animation_flash">Flash</string>
+    <string name="lockscreen_charging_animation_battery">Battery</string>
+    <string name="lockscreen_charging_animation_drop">Drop</string>
+    <string name="lockscreen_charging_animation_explosion">Explosion</string>
+    <string name="lockscreen_charging_animation_water">Water</string>
     <string name="lockscreen_charging_animation_phone">Phone</string>
     <string name="lockscreen_charging_animation_stack">Stack</string>
     <string name="lockscreen_charging_animation_wavy">Wavy</string>
@@ -622,9 +623,11 @@
     <string name="volume_panel_compact">Compact</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Tiled</string>
+    <string name="volume_panel_miui">MIUI</string>
     <!--  Volume Panel Plugin Values   -->
     <string name="volume_panel_stock_val">com.android.systemui.volume</string>
     <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_miui_val">com.cherish.plugin.volume.miui</string>
     <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
     <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
@@ -633,41 +636,41 @@
     <string name="clock_style_category_summary">Statusbar Clock Tuner</string>
     <string name="status_bar_clock_title">Clock settings</string>
     <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Stil ceas</string>
-    <string name="status_bar_clock_style_right">Dreapta</string>
-    <string name="status_bar_clock_style_center">Centru</string>
-    <string name="status_bar_clock_style_left">Stânga</string>
-    <string name="status_bar_am_pm_title">Stil AM/PM</string>
-    <string name="status_bar_am_pm_info">Formatul ceasului cu 24h este activ</string>
+    <string name="status_bar_clock_style_title">Clock style</string>
+    <string name="status_bar_clock_style_right">Right</string>
+    <string name="status_bar_clock_style_center">Center</string>
+    <string name="status_bar_clock_style_left">Left</string>
+    <string name="status_bar_am_pm_title">AM/PM style</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
     <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Mic</string>
+    <string name="status_bar_am_pm_small">Small</string>
     <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Afișare secunde</string>
-    <string name="clock_date_display">Dată</string>
-    <string name="clock_date_display_summary">Afişare dată particularizată înainte de ceas</string>
+    <string name="clock_seconds_display">Show seconds</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">Display custom date before the clock</string>
     <string name="clock_date_display_none">Don\'t show</string>
     <string name="clock_date_display_small">Small font size</string>
     <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Stil dată</string>
+    <string name="clock_date_style">Date style</string>
     <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Minuscule</string>
-    <string name="clock_date_style_uppercase">Majuscule</string>
-    <string name="clock_date_format_custom">Format java particularizat</string>
-    <string name="clock_date_format">Formatul datei</string>
-    <string name="clock_date_string_edittext_title">Trebuie să fie în formatul datei. Ex. LL/ZZ/AA</string>
-    <string name="clock_date_string_edittext_summary">Introduceți text</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
     <!-- Statusbar Clock Font Style, Size & Color -->
     <string name="status_bar_clock_font_style_title">Clock font style</string>
     <string name="status_bar_clock_font_size_title">Clock font size</string>
     <string name="status_bar_clock_color_title">Clock font color</string>
-    <string name="clock_date_right">În dreptul timpului</string>
-    <string name="clock_date_left">În stânga ceasului</string>
-    <string name="clock_date_position">Poziția datei</string>
+    <string name="clock_date_right">Right of time</string>
+    <string name="clock_date_left">Left of time</string>
+    <string name="clock_date_position">Date position</string>
     <!-- Battery Bar -->
     <string name="battery_bar_title">Battery bar</string>
     <string name="battery_bar_summary">Display and customize battery bar near status bar or navigation bar</string>
     <string name="battery_bar_no_navbar">Battery bar location</string>
-    <string name="battery_bar_location_hide">Ascunde</string>
+    <string name="battery_bar_location_hide">Hide</string>
     <string name="battery_bar_location_statusbar">Statusbar</string>
     <string name="battery_bar_color">Battery bar color</string>
     <string name="battery_bar_charging_color">Battery bar charging color</string>
@@ -675,7 +678,7 @@
     <string name="battery_bar_cat">Battery bar style</string>
     <string name="battery_bar_style_title">Battery bar alignment</string>
     <string name="battery_bar_thickness_title">Battery bar thickness</string>
-    <string name="battery_bar_animate_title">Animaţie la încărcare</string>
+    <string name="battery_bar_animate_title">Charging animation</string>
     <string name="battery_bar_style_regular">Regular</string>
     <string name="battery_bar_style_center_mirrored">Center-mirrored</string>
     <string name="battery_bar_style_reversed">Reversed</string>
@@ -691,7 +694,7 @@
     <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
     <string name="fod_recog_animation_miui_normal">MIUI default</string>
     <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Luminos</string>
+    <string name="fod_recog_animation_miui_light">Light</string>
     <string name="fod_recog_animation_miui_pop">Pop</string>
     <string name="fod_recog_animation_miui_pulse">Pulse</string>
     <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
@@ -711,6 +714,20 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animation</string>
     <string name="pixel_navbar_anim_summary">Toggle home button animation</string>
+    <!-- LockWeather Switches -->
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
+    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
+    <!-- LS Weather Temp & City Fonts -->
+    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
+    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
+    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
+    <string name="lock_weather_city_font_title">LS Weather City font</string>
+    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
+    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">QS footer text</string>
     <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
@@ -839,6 +856,13 @@
     <string name="brightness_slider_style_memeround">Meme round</string>
     <string name="brightness_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="brightness_slider_style_memestroke">Meme stroke</string>
+    <string name="brightness_slider_style_default_2">Default (plain accent)</string>
+    <string name="brightness_slider_style_danielgradient">Daniel (Gradient)</string>
+    <string name="brightness_slider_style_mememinigradient">Meme mini (Gradient)</string>
+    <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
+    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
+    <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
+    <string name="brightness_slider_style_oos">OOS style</string>
     <!-- GUI styles -->
     <string name="ui_style_title">UI Style</string>
     <string name="ui_style_default">Implicit</string>
@@ -847,15 +871,14 @@
     <string name="ui_style_round_large">Round Large</string>
     <string name="ui_style_round_medium">Round Medium</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Brightness slider</string>
-    <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_show_brightness_slider_title">Quick QS brightness slider</string>
+    <string name="qs_show_brightness_slider_summary">Show brightness slider in quickbar</string>
+    <string name="qs_show_brightness_slider_expanded_title">Expanded QS brightness slider</string>
+    <string name="qs_show_brightness_slider_expanded_summary">Show brightness slider when expanded</string>
     <string name="qs_show_auto_brightness_title">Autobrightness icon</string>
     <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
-    <string name="qs_show_brightness_slider_show_never">Never show</string>
-    <string name="qs_show_brightness_slider_show_expanded">Show when expanded</string>
-    <string name="qs_show_brightness_slider_show_always">Show always</string>
-    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom (only works for Expanded QS)</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom of expanded quick settings</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Panel background style</string>
     <string name="panel_bg_dialog_title">Select panel background model</string>
@@ -879,7 +902,7 @@
     <string name="allow_signature_fake">Allow signature spoofing</string>
     <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app.</string>
     <!-- Rounded corners -->
-    <string name="corners_category_title">Colțuri rotunjite</string>
+    <string name="corners_category_title">Rounded corners (beta)</string>
     <string name="corners_category_summary">Adjust rounded corners and padding</string>
     <string name="corners_title">Customize rounded corners</string>
     <string name="corner_radius">Rounded corner radius</string>
@@ -888,7 +911,7 @@
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
     <string name="unit_pixels">dp</string>
     <!-- Show Statusbar on Lockscreen -->
-    <string name="lockscreen_status_bar_title">Bară de stare</string>
+    <string name="lockscreen_status_bar_title">Status bar</string>
     <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
     <!-- Switch styles -->
     <string name="switch_style_title">Switch appearance</string>
@@ -920,21 +943,12 @@
     <string name="qstile_neonlike">Neon Light</string>
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Triangle</string>
-    <!-- QS BG Tint -->
-    <string name="qs_themes_category_title">QS Themes</string>
-    <string name="qs_tint_off">Gradient Effect</string>
-    <string name="qs_tint_random">Random Color</string>
-    <string name="qs_tint_accent">Accent Color</string>
-    <!-- QS Label Tint -->
-    <string name="qs_label_use_new_tint">QS Label Tint</string>
-    <string name="qs_label_tint_off">Implicit</string>
-    <string name="qs_label_tint_random">Random Color Tint</string>
-    <string name="qs_label_tint_accent">Accent Color Tint</string>
-    <string name="qs_label_tint_gradient">Gradient Color Tint</string>
-    <!-- Qs Tile Icon Bright-Dark -->
-    <string name="qs_icon_primary_title">Qs Tile Icon Bright|Dark</string>
-    <string name="qs_icon_primary_summary">Make Qs Icon Bright-Dark if gradient tint enabled</string>
-    <!-- SmartSpace -->
-    <string name="smart_space_title">Google Smart space</string>
-    <string name="smart_space_summary">Display conditional info such as weather and events on lockscreen\nRequires a SystemUI restart</string>
+    <!-- Show old style mobile data icon -->
+    <string name="use_old_mobiletype_title">Use old style mobile data icons</string>
+    <string name="use_old_mobiletype_summary">Use pre-p mobiletype icons for signal</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 </resources>

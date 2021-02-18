@@ -101,7 +101,7 @@
     <string name="battery_light_allow_on_dnd_title">Индикация батареи в режиме \"Не беспокоить\"</string>
     <string name="battery_light_low_blinking_title">Индикация при низком заряде батареи</string>
     <string name="battery_light_cat">Цвет индикации при зарядке</string>
-    <string name="battery_light_low_color">Низкий уровень заряда батареи</string>
+    <string name="battery_light_low_color">Низкий заряд батареи</string>
     <string name="battery_light_medium_color">Средний уровень заряда батареи</string>
     <string name="battery_light_full_color">Почти полный заряд батареи</string>
     <string name="battery_light_reallyfull_color">Полностью заряженная батарея</string>
@@ -112,7 +112,7 @@
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Курсор</string>
     <string name="volume_key_cursor_control_title">Управление курсором кнопками громкости</string>
-    <string name="volume_key_cursor_control_off">Выключено</string>
+    <string name="volume_key_cursor_control_off">Выключен</string>
     <string name="volume_key_cursor_control_on">Громкость вверх/вниз перемещает курсор влево/вправо</string>
     <string name="volume_key_cursor_control_on_reverse">Громкость вверх/вниз перемещает курсор вправо/влево</string>
     <string name="torch_long_press_power_gesture_title">Включение фонарика долгим нажатием кнопки питания</string>
@@ -250,7 +250,7 @@
     <string name="battery_style_category_title">Уровень заряда батареи</string>
     <!-- Battery mode -->
     <string name="battery_percentage_title">Процент заряда батареи</string>
-    <string name="battery_percentage_off">Выключено</string>
+    <string name="battery_percentage_off">Выключен</string>
     <string name="battery_percentage_next">Включено</string>
     <string name="battery_percentage_inside">Включено (внутри значка)</string>
     <string name="battery_percentage_estimate">Включено (оценка уровня заряда)</string>
@@ -273,7 +273,7 @@
     <!-- Status bar - Battery custom charging symbol -->
     <string name="text_charging_symbol_title">Пользовательский символ зарядки для текстового стиля</string>
     <string name="text_charging_symbol_dialog">Символ зарядки рядом с процентом заряда</string>
-    <string name="text_charging_symbol_default">Выключено</string>
+    <string name="text_charging_symbol_default">Выключен</string>
     <string name="text_charging_symbol_flash">Вспышка</string>
     <string name="text_charging_symbol_tilde">Тильда</string>
     <!-- Status bar - Battery percentage -->
@@ -291,7 +291,7 @@
     <string name="network_traffic_state_title">Трафик сети</string>
     <string name="network_traffic">Трафик сети</string>
     <string name="network_traffic_location">Расположение индикатора трафика</string>
-    <string name="traffic_disabled">Выключено</string>
+    <string name="traffic_disabled">Выключен</string>
     <string name="traffic_statusbar">Строка состояния</string>
     <string name="traffic_expanded_statusbar">Панель быстрых настроек</string>
     <string name="network_traffic_autohide_threshold_title">Порог автоскрытия индикатора сетевого трафика (КБ/с)</string>
@@ -422,6 +422,8 @@
     <string name="lock_item_center">Выравнивание по центру</string>
     <string name="lock_item_right">Выравнивание по правому краю</string>
     <string name="lockscreen_item_padding_title">Заполнение элементов экрана блокировки</string>
+    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
+    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Показывать значок отключенной передачи данных</string>
     <string name="data_disabled_icon_summary">Показывать индикатор в виде крестика над значком сети, когда передача данных отключена</string>
@@ -443,24 +445,23 @@
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Скрыть нижние ярлыки</string>
     <string name="lockscreen_hide_shortcuts_summary">Скрыть левый и правый ярлыки на экране блокировки</string>
-    <!-- AOKP custom system animations -->
-    <string name="animation_settings_title">Анимации</string>
-    <string name="animation_settings_summary">Параметры анимации погоды в системе</string>
-    <string name="animation_title">Анимации</string>
-    <string name="system_animation_title">Системные анимации</string>
-    <string name="activity_open_title">Анимация открытия окна</string>
-    <string name="activity_close_title">Анимация закрытия окна</string>
-    <string name="task_open_title">Анимация открытия задач</string>
-    <string name="task_open_behind_title">Анимация открытия фоновой задачи</string>
-    <string name="task_close_title">Анимация закрытия задачи</string>
-    <string name="task_move_to_front_title">Анимация перемещения вперед</string>
-    <string name="task_move_to_back_title">Анимация перемещения назад</string>
-    <string name="wallpaper_open_title">Анимация открытия обоев</string>
-    <string name="wallpaper_close_title">Анимация закрытия обоев</string>
-    <string name="wallpaper_intra_open_title">Внутренняя анимация открытия обоев</string>
-    <string name="wallpaper_intra_close_title">Внутренняя анимация закрытия обоев</string>
-    <string name="animation_duration_title">Длительность анимации</string>
-    <string name="animation_duration_default">По умолчанию</string>
+    <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">Weather</string>
+    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
+    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
+    <string name="lockscreen_weather_settings_title">Setup weather options</string>
+    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <!-- Lockscreen weather style -->
+    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_omni_style_title">Omni style</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Анимация всплывающих уведомлений</string>
     <string name="toast_none_animation">Действие не выбрано</string>
@@ -622,9 +623,11 @@
     <string name="volume_panel_compact">Компактная</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Плиточная</string>
+    <string name="volume_panel_miui">MIUI</string>
     <!--  Volume Panel Plugin Values   -->
     <string name="volume_panel_stock_val">com.android.systemui.volume</string>
     <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_miui_val">com.cherish.plugin.volume.miui</string>
     <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
     <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
@@ -711,6 +714,20 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Анимация Pixel</string>
     <string name="pixel_navbar_anim_summary">Включает анимацию кнопки домой, как на устройствах Pixel</string>
+    <!-- LockWeather Switches -->
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
+    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
+    <!-- LS Weather Temp & City Fonts -->
+    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
+    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
+    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
+    <string name="lock_weather_city_font_title">LS Weather City font</string>
+    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
+    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">Текст нижнего колонтитула быстрых настроек</string>
     <string name="qs_footer_text_summary">Отображать текст внизу панели быстрых настроек</string>
@@ -718,7 +735,7 @@
     <string name="qs_footer_text_string_summary">Оставить пустым для строки по умолчанию #KeepEvolving</string>
     <!-- QS Header data uasge -->
     <string name="qs_datausage_title">Отображение использованного трафика в заголовке быстрых настроек</string>
-    <string name="qs_datausage_disabled">Выключено</string>
+    <string name="qs_datausage_disabled">Выключен</string>
     <string name="qs_datausage_daily">Ежедневное использование</string>
     <string name="qs_datausage_monthly">Ежемесячное использование</string>
     <!-- Navbar options -->
@@ -747,7 +764,7 @@
     <string name="daylight_header_provider_title">Автоматически (зависит от времени)</string>
     <string name="file_header_provider_title">Статичный</string>
     <string name="daylight_header_pack_title">Коллекция изображений</string>
-    <string name="header_provider_disabled">Выключено</string>
+    <string name="header_provider_disabled">Выключен</string>
     <string name="custom_header_pick_title">Выбрать изображение из коллекции</string>
     <string name="custom_header_pick_summary">Выбрать изображение из предустановленных наборов</string>
     <string name="file_header_select_title">Выберите изображение с телефона</string>
@@ -779,7 +796,7 @@
     <string name="gaming_mode_ringer_dnd_title">Не беспокоить</string>
     <string name="gaming_mode_ringer_silent_title">Без звука</string>
     <string name="gaming_mode_notifications_title">Индикация в игровом режиме</string>
-    <string name="gaming_mode_notifications_off_title">Выключено</string>
+    <string name="gaming_mode_notifications_off_title">Выключен</string>
     <string name="gaming_mode_notifications_notif_title">Показывать уведомления</string>
     <string name="gaming_mode_notifications_toast_title">Показывать всплывающие сообщения</string>
     <string name="gaming_mode_notifications_all_title">Показывать всплывающие сообщения и уведомления</string>
@@ -824,7 +841,7 @@
     <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
     <string name="show_carrier_title">Carrier label</string>
-    <string name="show_carrier_disabled">Выключено</string>
+    <string name="show_carrier_disabled">Выключен</string>
     <string name="show_carrier_keyguard">Lockscreen only</string>
     <string name="show_carrier_statusbar">Statusbar only</string>
     <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
@@ -839,6 +856,13 @@
     <string name="brightness_slider_style_memeround">Meme round</string>
     <string name="brightness_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="brightness_slider_style_memestroke">Meme stroke</string>
+    <string name="brightness_slider_style_default_2">Default (plain accent)</string>
+    <string name="brightness_slider_style_danielgradient">Daniel (Gradient)</string>
+    <string name="brightness_slider_style_mememinigradient">Meme mini (Gradient)</string>
+    <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
+    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
+    <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
+    <string name="brightness_slider_style_oos">OOS style</string>
     <!-- GUI styles -->
     <string name="ui_style_title">UI Style</string>
     <string name="ui_style_default">По умолчанию</string>
@@ -849,11 +873,10 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Brightness slider</string>
     <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_show_brightness_slider_expanded_title">Expanded QS brightness slider</string>
+    <string name="qs_show_brightness_slider_expanded_summary">Show brightness slider when expanded</string>
     <string name="qs_show_auto_brightness_title">Значок автояркости</string>
     <string name="qs_show_auto_brightness_summary">Показать переключатель автояркости рядом с ползунком яркости</string>
-    <string name="qs_show_brightness_slider_show_never">Never show</string>
-    <string name="qs_show_brightness_slider_show_expanded">Show when expanded</string>
-    <string name="qs_show_brightness_slider_show_always">Show always</string>
     <string name="qs_brightness_position_bottom_title">Ползунок яркости снизу</string>
     <string name="qs_brightness_position_bottom_summary">Отображать ползунок яркости в нижней части панели быстрых настроек</string>
     <!-- Panel Background style -->
@@ -920,21 +943,12 @@
     <string name="qstile_neonlike">Neon Light</string>
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Triangle</string>
-    <!-- QS BG Tint -->
-    <string name="qs_themes_category_title">QS Themes</string>
-    <string name="qs_tint_off">Gradient Effect</string>
-    <string name="qs_tint_random">Random Color</string>
-    <string name="qs_tint_accent">Accent Color</string>
-    <!-- QS Label Tint -->
-    <string name="qs_label_use_new_tint">QS Label Tint</string>
-    <string name="qs_label_tint_off">По умолчанию</string>
-    <string name="qs_label_tint_random">Random Color Tint</string>
-    <string name="qs_label_tint_accent">Accent Color Tint</string>
-    <string name="qs_label_tint_gradient">Gradient Color Tint</string>
-    <!-- Qs Tile Icon Bright-Dark -->
-    <string name="qs_icon_primary_title">Qs Tile Icon Bright|Dark</string>
-    <string name="qs_icon_primary_summary">Make Qs Icon Bright-Dark if gradient tint enabled</string>
-    <!-- SmartSpace -->
-    <string name="smart_space_title">Google Smart space</string>
-    <string name="smart_space_summary">Display conditional info such as weather and events on lockscreen\nRequires a SystemUI restart</string>
+    <!-- Show old style mobile data icon -->
+    <string name="use_old_mobiletype_title">Use old style mobile data icons</string>
+    <string name="use_old_mobiletype_summary">Use pre-p mobiletype icons for signal</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 </resources>
