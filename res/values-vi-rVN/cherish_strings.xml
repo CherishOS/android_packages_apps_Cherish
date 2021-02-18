@@ -422,6 +422,8 @@
     <string name="lock_item_center">Giữa đã căng chỉnh</string>
     <string name="lock_item_right">Bên Phải đã căn chỉnh</string>
     <string name="lockscreen_item_padding_title">Lớp đệm các mục trên màn hình khóa</string>
+    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
+    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Hiển thị biểu tượng vô hiệu hóa dữ liệu</string>
     <string name="data_disabled_icon_summary">Hiển thị các dấu hiệu chéo bên cạnh thanh tín hiệu khi dữ liệu bị vô hiệu hóa</string>
@@ -443,24 +445,23 @@
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Ẩn phím tắt bên dưới</string>
     <string name="lockscreen_hide_shortcuts_summary">Ẩn các phím tắt trái phải trên màn hình khóa</string>
-    <!-- AOKP custom system animations -->
-    <string name="animation_settings_title">Hiệu ứng</string>
-    <string name="animation_settings_summary">Tùy chọn hoạt ảnh trên toàn hệ thống</string>
-    <string name="animation_title">Hiệu ứng</string>
-    <string name="system_animation_title">Hoạt ảnh hiệu thống</string>
-    <string name="activity_open_title">Hoạt ảnh hành động mở</string>
-    <string name="activity_close_title">Hoạt ảnh hành động đóng</string>
-    <string name="task_open_title">Hoạt ảnh mở tác vụ</string>
-    <string name="task_open_behind_title">Hoạt ảnh mở tác vụ phía sau</string>
-    <string name="task_close_title">Hoạt ảnh đóng tác vụ</string>
-    <string name="task_move_to_front_title">Hoạt ảnh di chuyển tới trước</string>
-    <string name="task_move_to_back_title">Hoạt ảnh di chuyển ra sau</string>
-    <string name="wallpaper_open_title">Hoạt ảnh mở hình nền</string>
-    <string name="wallpaper_close_title">Hoạt ảnh đóng hình nền</string>
-    <string name="wallpaper_intra_open_title">Hoạt ảnh mở giữa hình nền</string>
-    <string name="wallpaper_intra_close_title">Hiệu ứng đóng bên trong ảnh nền</string>
-    <string name="animation_duration_title">Thời lượng hoạt ảnh</string>
-    <string name="animation_duration_default">Mặc định</string>
+    <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">Thời tiết</string>
+    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
+    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
+    <string name="lockscreen_weather_settings_title">Setup weather options</string>
+    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <!-- Lockscreen weather style -->
+    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_omni_style_title">Omni style</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Hoạt ảnh thông báo nhanh</string>
     <string name="toast_none_animation">Không</string>
@@ -622,9 +623,11 @@
     <string name="volume_panel_compact">Thu nhỏ</string>
     <string name="volume_panel_oreo">Android 8</string>
     <string name="volume_panel_tiled">Ô xếp</string>
+    <string name="volume_panel_miui">MIUI</string>
     <!--  Volume Panel Plugin Values   -->
     <string name="volume_panel_stock_val">com.android.systemui.volume</string>
     <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_miui_val">com.cherish.plugin.volume.miui</string>
     <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
     <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
@@ -711,6 +714,20 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Hoạt ảnh Pixel</string>
     <string name="pixel_navbar_anim_summary">Chuyển đổi hoạt hình phím home</string>
+    <!-- LockWeather Switches -->
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
+    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
+    <!-- LS Weather Temp & City Fonts -->
+    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
+    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
+    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
+    <string name="lock_weather_city_font_title">LS Weather City font</string>
+    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
+    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">QS văn bản cuối trang</string>
     <string name="qs_footer_text_summary">Hiển thị văn bản ở dưới cùng của bảng cài đặt nhanh</string>
@@ -839,6 +856,13 @@
     <string name="brightness_slider_style_memeround">Tròn Meme</string>
     <string name="brightness_slider_style_memeroundstroke">Meme tròn nét</string>
     <string name="brightness_slider_style_memestroke">Meme nét</string>
+    <string name="brightness_slider_style_default_2">Default (plain accent)</string>
+    <string name="brightness_slider_style_danielgradient">Daniel (Gradient)</string>
+    <string name="brightness_slider_style_mememinigradient">Meme mini (Gradient)</string>
+    <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
+    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
+    <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
+    <string name="brightness_slider_style_oos">OOS style</string>
     <!-- GUI styles -->
     <string name="ui_style_title">Kiểu giao diện</string>
     <string name="ui_style_default">Mặc định</string>
@@ -849,11 +873,10 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Thanh điều chỉnh độ sáng</string>
     <string name="qs_show_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
+    <string name="qs_show_brightness_slider_expanded_title">Expanded QS brightness slider</string>
+    <string name="qs_show_brightness_slider_expanded_summary">Show brightness slider when expanded</string>
     <string name="qs_show_auto_brightness_title">Biểu tượng độ sáng tự động</string>
     <string name="qs_show_auto_brightness_summary">Hiển thị chuyển đổi độ sáng tự động gần thanh trượt độ sáng</string>
-    <string name="qs_show_brightness_slider_show_never">Không hiển thị</string>
-    <string name="qs_show_brightness_slider_show_expanded">Hiển thị khi mở rộng</string>
-    <string name="qs_show_brightness_slider_show_always">Luôn hiển thị</string>
     <string name="qs_brightness_position_bottom_title">Thanh trượt độ sáng phía dưới</string>
     <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt chỉnh độ sáng phía dưới bảng cài đặt nhanh</string>
     <!-- Panel Background style -->
@@ -920,21 +943,12 @@
     <string name="qstile_neonlike">Đường Nét Neon</string>
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Tam giác</string>
-    <!-- QS BG Tint -->
-    <string name="qs_themes_category_title">Chủ đề QS</string>
-    <string name="qs_tint_off">Hiệu ứng Gradient</string>
-    <string name="qs_tint_random">Màu sắc ngẫu nhiên</string>
-    <string name="qs_tint_accent">Màu nhấn</string>
-    <!-- QS Label Tint -->
-    <string name="qs_label_use_new_tint">Nhãn hiệu màu QS</string>
-    <string name="qs_label_tint_off">Mặc định</string>
-    <string name="qs_label_tint_random">Màu sắc ngẫu nhiên</string>
-    <string name="qs_label_tint_accent">Màu sắc nhấn</string>
-    <string name="qs_label_tint_gradient">Đa màu</string>
-    <!-- Qs Tile Icon Bright-Dark -->
-    <string name="qs_icon_primary_title">Biểu tượng ô Qs Sáng | Tối</string>
-    <string name="qs_icon_primary_summary">Làm cho Biểu tượng Qs Sáng-Tối nếu bật màu gradient</string>
-    <!-- SmartSpace -->
-    <string name="smart_space_title">Không gian thông minh của Google</string>
-    <string name="smart_space_summary">Hiển thị thông tin có điều kiện như thời tiết và sự kiện trên màn hình khóa\nYêu cầu khởi động lại SystemUI</string>
+    <!-- Show old style mobile data icon -->
+    <string name="use_old_mobiletype_title">Use old style mobile data icons</string>
+    <string name="use_old_mobiletype_summary">Use pre-p mobiletype icons for signal</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 </resources>
