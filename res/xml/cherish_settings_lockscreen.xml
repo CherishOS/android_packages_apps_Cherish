@@ -95,10 +95,10 @@
         android:key="lockclock_font_size"
         android:title="@string/lockclock_font_size_title"
         android:max="101"
-        settings:min="65"
+        settings:min="50"
         settings:units="dp"
         android:persistent="false"
-        android:defaultValue="78" />
+        android:defaultValue="65" />
 
     <ListPreference
         android:key="custom_text_clock_fonts"
