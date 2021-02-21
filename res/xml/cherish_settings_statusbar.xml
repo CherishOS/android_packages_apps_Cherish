@@ -48,7 +48,7 @@
         android:summary="@string/show_fourg_summary"
         android:defaultValue="false" />
 
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="use_old_mobiletype"
             android:icon="@drawable/ic_4g_old"
             android:title="@string/use_old_mobiletype_title"
