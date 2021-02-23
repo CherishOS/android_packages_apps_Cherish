@@ -18,13 +18,15 @@
 
      <string name="about_cherish">About</string>
      <string name="about_info">About Us</string>
-     <string name="about_info_summary">CherishOS based on Pixel Experience, with some added extras. We bring a ROM that exceptional performance, a balance of features, and improve battery life.</string>
+     <string name="about_info_summary">CherishOS based on Pixel goodies, with some added extras. We bring a ROM that exceptional performance, a balance of features, and improve battery life.</string>
      <string name="dev_info">About CherishOS</string>
      <string name="devs_header">Meet Our Team</string>
      <string name="founder">Hung Phan</string>
      <string name="founder_description">Founder</string>
      <string name="lead">Hung Phan</string>
      <string name="lead_description">Lead Developer</string>
+     <string name="core">Khuong Hung</string>
+     <string name="core_description">Core Developer</string>
      <string name="social_header">#Lets Go!</string>
      <string name="cherish_web">Website</string>
      <string name="cherish_web_description">CherishOS website for Infos and more.</string>
