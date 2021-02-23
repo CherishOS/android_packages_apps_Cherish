@@ -1166,6 +1166,10 @@
     <string name="fod_recog_animation_rog_fusion">Asus Fusion</string>
     <string name="fod_recog_animation_rog_pulsar">Asus Pulsar</string>
     <string name="fod_recog_animation_rog_supernova">Asus Supernova</string>
+    <string name="fod_recog_animation_shine">Oppo Shine</string>
+    <string name="fod_recog_animation_smoke">Realme Smoke</string>
+    <string name="fod_recog_animation_strings">Realme Strings</string>
+    <string name="fod_recog_animation_quantum">Realme Quantum</string>
 	
 	<!-- FOD pressed color -->
     <string name="fod_pressed_color_title">Fingerprint pressed color</string>
