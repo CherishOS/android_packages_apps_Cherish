@@ -94,6 +94,15 @@
                    android:data="https://github.com/hungphan2001" />
 	</Preference>
 
+       <Preference
+             android:title="@string/core"
+             android:summary="@string/core_description"
+             android:icon="@drawable/ic_devs" >
+               <intent
+                   android:action="android.intent.action.VIEW"
+                   android:data="https://github.com/hung2408" />
+	</Preference>
+
      </PreferenceCategory>
  
      <PreferenceCategory
