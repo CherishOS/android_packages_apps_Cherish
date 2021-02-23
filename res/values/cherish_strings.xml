@@ -1166,4 +1166,12 @@
     <string name="fod_recog_animation_rog_fusion">Asus Fusion</string>
     <string name="fod_recog_animation_rog_pulsar">Asus Pulsar</string>
     <string name="fod_recog_animation_rog_supernova">Asus Supernova</string>
+	
+	<!-- FOD pressed color -->
+    <string name="fod_pressed_color_title">Fingerprint pressed color</string>
+    <string name="fod_pressed_color_white">White / overlayed</string>
+    <string name="fod_pressed_color_cyan">Cyan</string>
+    <string name="fod_pressed_color_green">Green</string>
+    <string name="fod_pressed_color_yellow">Yellow</string>
+    <string name="fod_pressed_color_light_yellow">Light Yellow</string>
 </resources>

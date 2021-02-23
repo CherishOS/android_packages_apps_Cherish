@@ -288,6 +288,14 @@
             android:entryValues="@array/fod_recog_animation_values"
             android:defaultValue="0"
             android:dependency="fod_recognizing_animation" />
+			
+		<com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="fod_color"
+            android:title="@string/fod_pressed_color_title"
+            android:summary="%s"
+            android:entries="@array/fod_pressed_color_entries"
+            android:entryValues="@array/fod_pressed_color_values"
+            android:defaultValue="0" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="fod_gesture"
