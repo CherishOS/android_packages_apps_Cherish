@@ -54,7 +54,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String DATE_FONT_SIZE  = "lockdate_font_size";
     private static final String LOCKOWNER_FONT_SIZE = "lockowner_font_size";
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
-    private static final String LOCKSCREEN_CATEGORY = "lockscreen_category";
     private ContentResolver mResolver;
 	
 	static final int MODE_DISABLED = 0;
@@ -82,7 +81,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         mResolver = getActivity().getContentResolver();
 
        boolean enableScreenOffFOD = getContext().getResources().
-                getBoolean(com.android.internal.R.bool.config_supportScreenOffFod);
+                getBoolean(com.android.internal.R.bool.config_supportsInDisplayFingerprint);
         Preference ScreenOffFODPref = (Preference) findPreference("fod_gesture");
 
         if (!enableScreenOffFOD){
