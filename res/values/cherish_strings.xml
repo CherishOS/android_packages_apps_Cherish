@@ -1132,4 +1132,9 @@
 	<!-- Qs Clock -->
     <string name="oos_qsclock">Qs clock</string>
     <string name="oos_qsclock_summary">Display an oos like clock on qs</string>
+	
+	<!-- Screen off fod -->
+    <string name="lockscreen_fod_category">Fingerprint On Display</string>
+    <string name="fod_gesture_title">Screen off FOD</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 </resources>

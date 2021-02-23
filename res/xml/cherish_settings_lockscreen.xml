@@ -269,6 +269,18 @@
         android:title="@string/keyguard_show_battery_title"
         android:summary="@string/keyguard_show_battery_summary"
         android:fragment="com.cherish.settings.fragments.KeygaurdBatteryBar" />
+		
+	<PreferenceCategory
+        android:key="fod_category"
+        android:title="@string/lockscreen_fod_category">
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="fod_gesture"
+            android:title="@string/fod_gesture_title"
+            android:summary="@string/fod_gesture_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 
   </PreferenceCategory>
 </PreferenceScreen>
