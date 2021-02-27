@@ -53,6 +53,12 @@
         android:title="@string/fprint_error_vib_title"
         android:summary="@string/fprint_error_vib_summary"
         android:defaultValue="true" />
+		
+	<Preference
+        android:key="always_on_display_schedule"
+		android:icon="@drawable/ic_upset"
+        android:title="@string/always_on_display_schedule_title"
+        android:fragment="com.cherish.settings.fragments.AODSchedule" />
 
     <!-- Lock screen -->
     <PreferenceCategory
