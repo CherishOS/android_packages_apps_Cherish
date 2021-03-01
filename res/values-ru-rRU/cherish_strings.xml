@@ -422,8 +422,6 @@
     <string name="lock_item_center">Выравнивание по центру</string>
     <string name="lock_item_right">Выравнивание по правому краю</string>
     <string name="lockscreen_item_padding_title">Заполнение элементов экрана блокировки</string>
-    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
-    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Показывать значок отключенной передачи данных</string>
     <string name="data_disabled_icon_summary">Показывать индикатор в виде крестика над значком сети, когда передача данных отключена</string>
@@ -445,23 +443,6 @@
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Скрыть нижние ярлыки</string>
     <string name="lockscreen_hide_shortcuts_summary">Скрыть левый и правый ярлыки на экране блокировки</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Анимация всплывающих уведомлений</string>
     <string name="toast_none_animation">Действие не выбрано</string>
@@ -714,20 +695,6 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Анимация Pixel</string>
     <string name="pixel_navbar_anim_summary">Включает анимацию кнопки домой, как на устройствах Pixel</string>
-    <!-- LockWeather Switches -->
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
-    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
-    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
-    <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
-    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
-    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
-    <string name="lock_weather_city_font_title">LS Weather City font</string>
-    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
-    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">Текст нижнего колонтитула быстрых настроек</string>
     <string name="qs_footer_text_summary">Отображать текст внизу панели быстрых настроек</string>
@@ -856,13 +823,13 @@
     <string name="brightness_slider_style_memeround">Meme round</string>
     <string name="brightness_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="brightness_slider_style_memestroke">Meme stroke</string>
-    <string name="brightness_slider_style_default_2">Default (plain accent)</string>
-    <string name="brightness_slider_style_danielgradient">Daniel (Gradient)</string>
-    <string name="brightness_slider_style_mememinigradient">Meme mini (Gradient)</string>
-    <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
-    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
-    <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
-    <string name="brightness_slider_style_oos">OOS style</string>
+    <string name="brightness_slider_style_default_2">По умолчанию(простой акцент)</string>
+    <string name="brightness_slider_style_danielgradient">Даниэль (градиент)</string>
+    <string name="brightness_slider_style_mememinigradient">Мем мини (Градиент)</string>
+    <string name="brightness_slider_style_memeroundgradient">Мем круглый (Градиент)</string>
+    <string name="brightness_slider_style_memeroundstrokegradient">Мем круглый сглаженный (Градиент)</string>
+    <string name="brightness_slider_style_memestrokegradient">Мем сглаженный (Градиент)</string>
+    <string name="brightness_slider_style_oos">Стиль OOS</string>
     <!-- GUI styles -->
     <string name="ui_style_title">UI Style</string>
     <string name="ui_style_default">По умолчанию</string>
@@ -873,8 +840,8 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Brightness slider</string>
     <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
-    <string name="qs_show_brightness_slider_expanded_title">Expanded QS brightness slider</string>
-    <string name="qs_show_brightness_slider_expanded_summary">Show brightness slider when expanded</string>
+    <string name="qs_show_brightness_slider_expanded_title">Ползунок яркости в развернутых быстрых настройках</string>
+    <string name="qs_show_brightness_slider_expanded_summary">Показывать ползунок яркости при раскрытии</string>
     <string name="qs_show_auto_brightness_title">Значок автояркости</string>
     <string name="qs_show_auto_brightness_summary">Показать переключатель автояркости рядом с ползунком яркости</string>
     <string name="qs_brightness_position_bottom_title">Ползунок яркости снизу</string>
@@ -944,11 +911,27 @@
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Triangle</string>
     <!-- Show old style mobile data icon -->
-    <string name="use_old_mobiletype_title">Use old style mobile data icons</string>
-    <string name="use_old_mobiletype_summary">Use pre-p mobiletype icons for signal</string>
+    <string name="use_old_mobiletype_title">Использовать старый стиль значков сети</string>
+    <string name="use_old_mobiletype_summary">Старый стиль значка сети</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Параметры вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
+    <string name="incall_vibrate_call_wait_title">Вибрировать при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Умные пиксели</string>
+    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Enable with battery saver to increase power savings</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift">Burn-in protection interval</string>
+    <string name="smart_pixels_warning_text">Smart Pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend setting the amount of disabled pixels to 75 percent while shifting every 10 minutes.</string>
+    <!-- QS rows and columns -->
+    <string name="qs_columns_rows_category_title">QS columns and rows</string>
+    <string name="qs_rows_columns_title">QS rows and columns</string>
+    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
+    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+    <string name="qs_tile_title_visibility_title">Show tiles title</string>
 </resources>
