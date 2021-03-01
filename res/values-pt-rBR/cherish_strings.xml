@@ -422,8 +422,6 @@
     <string name="lock_item_center">Centralizar</string>
     <string name="lock_item_right">Alinhado à direita</string>
     <string name="lockscreen_item_padding_title">Preenchimento da tela de bloqueio</string>
-    <string name="lockscreen_weather_alignment_title">Alinhamento do Tempo LS</string>
-    <string name="lockscreen_weather_selection_title">Estilo de fundo WeatherView</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Exibir ícone de dados desativados</string>
     <string name="data_disabled_icon_summary">Mostrar um X no ícone do sinal de rede quando os dados móveis estiverem desligados</string>
@@ -445,23 +443,6 @@
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Esconder os atalhos inferiores</string>
     <string name="lockscreen_hide_shortcuts_summary">Esconder os atalhos da esquerda-direita nas telas de bloqueio seguras</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Clima</string>
-    <string name="lockscreen_weather_enabled_title">Mostrar na tela de bloqueio</string>
-    <string name="lockscreen_weather_enabled_summary">Mostrar informações sobre o tempo na tela de bloqueio e durante o modo doze</string>
-    <string name="lockscreen_weather_settings_title">Mostrar opções de tempo</string>
-    <string name="lockscreen_weather_settings_summary">Selecionar Ícones de clima e configurações de clima</string>
-    <string name="weather_config_title">Serviço meteorológico</string>
-    <string name="weather_config_summary">Configurações de serviço do sistema</string>
-    <string name="header_weather_title">Mostrar clima no cabeçalho</string>
-    <string name="header_weather_summary">Ativar notificação de clima no cabeçalho do painel de notificações</string>
-    <string name="weather_icon_pack_title">Pacote de ícones climáticos</string>
-    <string name="weather_icon_pack_note">Nota\u003a Você pode instalar novos pacotes de ícones da play store procurando por \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">O pacote de ícones de condições é usado em configurações rápidas e na tela de bloqueio</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Estilo do Clima</string>
-    <string name="lockscreen_weather_omni_style_title">Estilo Omni</string>
-    <string name="lockscreen_weather_pixel_style_title">Estilo Pixel</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Animação do Toast</string>
     <string name="toast_none_animation">Nenhum</string>
@@ -714,20 +695,6 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Animação do Pixel</string>
     <string name="pixel_navbar_anim_summary">Alternar animação do botão inicio</string>
-    <!-- LockWeather Switches -->
-    <string name="lockscreen_weather_show_city_title">Mostrar nome da cidade</string>
-    <string name="lockscreen_weather_show_city_summary">Mostrar o nome da cidade atual à esquerda da imagem</string>
-    <string name="lockscreen_weather_show_temp_title">Mostrar temperatura</string>
-    <string name="lockscreen_weather_show_temp_summary">Mostrar a temperatura atual da cidade à direita da imagem</string>
-    <string name="lockscreen_weather_show_image_title">Mostrar condição da imagem</string>
-    <string name="lockscreen_weather_show_image_summary">Mostrar imagem das condições do clima</string>
-    <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">Fonte do clima da tela de bloqueio</string>
-    <string name="lock_weather_temp_font_summary">Alterar a fonte padrão da data na tela de bloqueio</string>
-    <string name="lock_weather_temp_font_dialog_title">Selecionar a fonte do tempo na tela de bloqueio</string>
-    <string name="lock_weather_city_font_title">Fonte do clima da tela de bloqueio</string>
-    <string name="lock_weather_city_font_summary">Alterar a fonte padrão da cidade do tempo da tela de bloqueio</string>
-    <string name="lock_weather_city_dialog_title">Selecionar fonte da cidade na tela de bloqueio</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">Texto do rodapé</string>
     <string name="qs_footer_text_summary">Exibir texto na parte inferior do painel de configurações rápidas</string>
@@ -951,4 +918,20 @@
     <string name="incall_vibrate_connect_title">Vibrar ao atender</string>
     <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Pixels Inteligentes</string>
+    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Enable with battery saver to increase power savings</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift">Burn-in protection interval</string>
+    <string name="smart_pixels_warning_text">Smart Pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend setting the amount of disabled pixels to 75 percent while shifting every 10 minutes.</string>
+    <!-- QS rows and columns -->
+    <string name="qs_columns_rows_category_title">QS columns and rows</string>
+    <string name="qs_rows_columns_title">QS rows and columns</string>
+    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
+    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+    <string name="qs_tile_title_visibility_title">Show tiles title</string>
 </resources>

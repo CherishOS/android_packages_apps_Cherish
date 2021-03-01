@@ -422,8 +422,6 @@
     <string name="lock_item_center">Giữa đã căng chỉnh</string>
     <string name="lock_item_right">Bên Phải đã căn chỉnh</string>
     <string name="lockscreen_item_padding_title">Lớp đệm các mục trên màn hình khóa</string>
-    <string name="lockscreen_weather_alignment_title">Căn chỉnh thời tiết trên màn hình khóa</string>
-    <string name="lockscreen_weather_selection_title">Kiểu nền Chế độ xem thời tiết</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Hiển thị biểu tượng vô hiệu hóa dữ liệu</string>
     <string name="data_disabled_icon_summary">Hiển thị các dấu hiệu chéo bên cạnh thanh tín hiệu khi dữ liệu bị vô hiệu hóa</string>
@@ -445,23 +443,6 @@
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Ẩn phím tắt bên dưới</string>
     <string name="lockscreen_hide_shortcuts_summary">Ẩn các phím tắt trái phải trên màn hình khóa</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Thời tiết</string>
-    <string name="lockscreen_weather_enabled_title">Hiển thị trên màn hình khóa</string>
-    <string name="lockscreen_weather_enabled_summary">Hiển thị thông tin thời tiết trên màn hình khóa và trong khi ngủ gật</string>
-    <string name="lockscreen_weather_settings_title">Cài đặt tùy chọn thời tiết</string>
-    <string name="lockscreen_weather_settings_summary">Cài đặt gói biểu tượng và dịch vụ thời tiết</string>
-    <string name="weather_config_title">Dịch vụ thời tiết</string>
-    <string name="weather_config_summary">Cài đặt dịch vụ hệ thống</string>
-    <string name="header_weather_title">Thời tiết ở thanh trạng thái</string>
-    <string name="header_weather_summary">Bật hiển thị thời tiết của tiêu đề bảng điều khiển thông báo</string>
-    <string name="weather_icon_pack_title">Gói biểu tượng thời tiết</string>
-    <string name="weather_icon_pack_note">Chú ý\u003a bạn có thể tải gói biểu tượng mới từ play store bởi tìm kiếm \"biểu tượng Chronus\"</string>
-    <string name="weather_icon_pack_info_title">Gói biểu tượng tình trạng được sử dụng trong cài đặt nhanh và màn hình khóa</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Kiểu thời tiết</string>
-    <string name="lockscreen_weather_omni_style_title">Kiểu Omni</string>
-    <string name="lockscreen_weather_pixel_style_title">Kiểu Pixel</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Hoạt ảnh thông báo nhanh</string>
     <string name="toast_none_animation">Không</string>
@@ -714,20 +695,6 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Hoạt ảnh Pixel</string>
     <string name="pixel_navbar_anim_summary">Chuyển đổi hoạt hình phím home</string>
-    <!-- LockWeather Switches -->
-    <string name="lockscreen_weather_show_city_title">Hiển thị tên thành phố</string>
-    <string name="lockscreen_weather_show_city_summary">Hiển thị tên của thành phố hiện tại bên trái hình ảnh</string>
-    <string name="lockscreen_weather_show_temp_title">Hiển thị nhiệt độ</string>
-    <string name="lockscreen_weather_show_temp_summary">Hiển thị nhiệt độ hiện tại của thành phố bên phải hình ảnh</string>
-    <string name="lockscreen_weather_show_image_title">Tình trạng màu sắc hình ảnh</string>
-    <string name="lockscreen_weather_show_image_summary">Hiển thị hình ảnh điều kiện thời tiết</string>
-    <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">Phông chữ Nhiệt độ Thời tiết trên màn hình khóa</string>
-    <string name="lock_weather_temp_font_summary">Thay đổi phông chữ mặc định của nhiệt độ thời tiết màn hình khóa</string>
-    <string name="lock_weather_temp_font_dialog_title">Lựa chọn phông chữ thời tiết màn hình khóa</string>
-    <string name="lock_weather_city_font_title">Phông chữ Thời tiết Thành Phố trên màn hình khóa</string>
-    <string name="lock_weather_city_font_summary">Thay đổi phông chữ mặc định của thời tiết thành phố màn hình khóa</string>
-    <string name="lock_weather_city_dialog_title">Lựa chọn phông chữ thời tiết thành phố màn hình khóa</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">QS văn bản cuối trang</string>
     <string name="qs_footer_text_summary">Hiển thị văn bản ở dưới cùng của bảng cài đặt nhanh</string>
@@ -951,4 +918,20 @@
     <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
     <string name="incall_vibrate_call_wait_title">Rung khi chờ cuộc gọi</string>
     <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Điểm ảnh thông minh</string>
+    <string name="smart_pixels_summary">Tiết kiệm pin bằng cách tắt các điểm ảnh phụ</string>
+    <string name="smart_pixels_on_power_save_title">Tự động bật tiết kiệm pin</string>
+    <string name="smart_pixels_on_power_save_summary">Bật với trình tiết kiệm pin để tăng tiết kiệm năng lượng</string>
+    <string name="smart_pixels_percent">Phần trăm điểm ảnh bị tắt</string>
+    <string name="smart_pixels_shift">Thời gian bảo vệ</string>
+    <string name="smart_pixels_warning_text">Điểm ảnh thông minh là một tính năng giúp tiết kiệm năng lượng. Tùy thuộc vào số điểm ảnh bạn quyết định tắt, bạn có thể sẽ cải thiện được đáng kể tuổi thọ pin. Để có trải nghiệm người dùng tốt, chúng tôi khuyên bạn thiết lập số điểm ảnh bị vô hiệu hóa là 75%.</string>
+    <!-- QS rows and columns -->
+    <string name="qs_columns_rows_category_title">Cột và hàng cài đặt nhanh</string>
+    <string name="qs_rows_columns_title">Hàng và cột cài đặt nhanh</string>
+    <string name="qs_rows_portrait_title">Số hàng theo chiều dọc</string>
+    <string name="qs_rows_landscape_title">Số hàng theo chiều ngang</string>
+    <string name="qs_columns_portrait_title">Số cột theo chiều dọc</string>
+    <string name="qs_columns_landscape_title">Số cột theo chiều ngang</string>
+    <string name="qs_tile_title_visibility_title">Hiển thị ô tiêu đề</string>
 </resources>
