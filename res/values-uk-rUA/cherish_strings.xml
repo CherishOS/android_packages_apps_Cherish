@@ -422,8 +422,6 @@
     <string name="lock_item_center">Center Aligned</string>
     <string name="lock_item_right">Right Aligned</string>
     <string name="lockscreen_item_padding_title">Lockscreen Items Padding</string>
-    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
-    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
     <string name="data_disabled_icon_summary">Display a cross sign next to signal bar when data is disabled</string>
@@ -445,23 +443,6 @@
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Hide Bottom Shortcuts</string>
     <string name="lockscreen_hide_shortcuts_summary">Hide Left-Right Shortcuts on secure lock screens</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Toast animation</string>
     <string name="toast_none_animation">Жоден</string>
@@ -714,20 +695,6 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animation</string>
     <string name="pixel_navbar_anim_summary">Toggle home button animation</string>
-    <!-- LockWeather Switches -->
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
-    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
-    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
-    <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
-    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
-    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
-    <string name="lock_weather_city_font_title">LS Weather City font</string>
-    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
-    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">QS footer text</string>
     <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
@@ -951,4 +918,20 @@
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Enable with battery saver to increase power savings</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift">Burn-in protection interval</string>
+    <string name="smart_pixels_warning_text">Smart Pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend setting the amount of disabled pixels to 75 percent while shifting every 10 minutes.</string>
+    <!-- QS rows and columns -->
+    <string name="qs_columns_rows_category_title">QS columns and rows</string>
+    <string name="qs_rows_columns_title">QS rows and columns</string>
+    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
+    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+    <string name="qs_tile_title_visibility_title">Show tiles title</string>
 </resources>
