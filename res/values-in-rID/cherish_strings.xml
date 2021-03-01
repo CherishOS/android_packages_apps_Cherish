@@ -920,18 +920,18 @@
     <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Piksel Cerdas</string>
-    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
-    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
-    <string name="smart_pixels_on_power_save_summary">Enable with battery saver to increase power savings</string>
-    <string name="smart_pixels_percent">Percent of pixels to disable</string>
-    <string name="smart_pixels_shift">Burn-in protection interval</string>
-    <string name="smart_pixels_warning_text">Smart Pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend setting the amount of disabled pixels to 75 percent while shifting every 10 minutes.</string>
+    <string name="smart_pixels_summary">Menghemat baterai dengan mematikan beberapa piksel</string>
+    <string name="smart_pixels_on_power_save_title">Aktifkan otomatis pada penghemat baterai</string>
+    <string name="smart_pixels_on_power_save_summary">Aktifkan dengan penghemat baterai untuk meningkatkan penghematan daya</string>
+    <string name="smart_pixels_percent">Persentase piksel untuk dimatikan</string>
+    <string name="smart_pixels_shift">Interval proteksi burn-in</string>
+    <string name="smart_pixels_warning_text">Piksel Cerdas adalah fitur penghemat daya. Tergantung pada berapa banyak piksel yang Anda putuskan untuk dimatikan, Anda dapat melihat peningkatan yang signifikan dalam masa pakai baterai. Untuk pengalaman pengguna yang baik, sebaiknya setel jumlah piksel yang dinonaktifkan menjadi 75 persen sambil menggeser setiap 10 menit.</string>
     <!-- QS rows and columns -->
-    <string name="qs_columns_rows_category_title">QS columns and rows</string>
-    <string name="qs_rows_columns_title">QS rows and columns</string>
-    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
-    <string name="qs_tile_title_visibility_title">Show tiles title</string>
+    <string name="qs_columns_rows_category_title">Kolom dan baris QS</string>
+    <string name="qs_rows_columns_title">Baris dan kolom QS</string>
+    <string name="qs_rows_portrait_title">Baris ubin pada tampilan potret</string>
+    <string name="qs_rows_landscape_title">Baris ubin pada tampilan mendatar</string>
+    <string name="qs_columns_portrait_title">Kolom ubin pada tampilan potret</string>
+    <string name="qs_columns_landscape_title">Kolom ubin pada tampian mendatar</string>
+    <string name="qs_tile_title_visibility_title">Tampilkan judul ikon</string>
 </resources>
