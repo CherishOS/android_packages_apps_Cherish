@@ -422,8 +422,6 @@
     <string name="lock_item_center">Rata tengah</string>
     <string name="lock_item_right">Rata kanan</string>
     <string name="lockscreen_item_padding_title">Padding Item Layar Kunci</string>
-    <string name="lockscreen_weather_alignment_title">Penjajaran Cuaca Layar Kunci</string>
-    <string name="lockscreen_weather_selection_title">Gaya Latar Belakang WeatherView</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
     <string name="data_disabled_icon_summary">Menampilkan tanda silang di ikon sinyal saat data dinonaktifkan</string>
@@ -445,23 +443,6 @@
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Sembunyikan Pintasan Bawah</string>
     <string name="lockscreen_hide_shortcuts_summary">Sembunyikan pintasan Kiri-Kanan pada layar kunci aman</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Cuaca</string>
-    <string name="lockscreen_weather_enabled_title">Tampilkan di Layar Kunci</string>
-    <string name="lockscreen_weather_enabled_summary">Tampilkan informasi cuaca di Layar Kunci dan saat tidur</string>
-    <string name="lockscreen_weather_settings_title">Atur pilihan cuaca</string>
-    <string name="lockscreen_weather_settings_summary">Atur paket icon dan servis cuaca</string>
-    <string name="weather_config_title">Layanan cuaca</string>
-    <string name="weather_config_summary">Pengaturan layanan sistem</string>
-    <string name="header_weather_title">Tampilkan cuaca di panel atas</string>
-    <string name="header_weather_summary">Hidupkan notifikasi cuaca di atas panel pemberitahuan</string>
-    <string name="weather_icon_pack_title">Keadaan paket ikon</string>
-    <string name="weather_icon_pack_note">Catatan\u003a Anda dapat menginstal paket ikon baru dari Play Store dengan mencari \"Chronus ikon\"</string>
-    <string name="weather_icon_pack_info_title">Paket ikon kondisi digunakan dalam pengaturan cepat dan layar kunci</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Gaya Cuaca</string>
-    <string name="lockscreen_weather_omni_style_title">Gaya omni</string>
-    <string name="lockscreen_weather_pixel_style_title">Gaya Pixel</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Animasi Toast</string>
     <string name="toast_none_animation">Tidak ada</string>
@@ -714,20 +695,6 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Animasi Piksel</string>
     <string name="pixel_navbar_anim_summary">Alihkan animasi tombol beranda</string>
-    <!-- LockWeather Switches -->
-    <string name="lockscreen_weather_show_city_title">Tampilkan nama kota</string>
-    <string name="lockscreen_weather_show_city_summary">Tampilkan nama kota saat ini di sebelah kiri gambar</string>
-    <string name="lockscreen_weather_show_temp_title">Tampilkan suhu</string>
-    <string name="lockscreen_weather_show_temp_summary">Tampilkan suhu kota saat ini di sebelah kanan gambar</string>
-    <string name="lockscreen_weather_show_image_title">Tampilkan Gambar Kondisi</string>
-    <string name="lockscreen_weather_show_image_summary">Tampilkan gambar kondisi cuaca</string>
-    <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">Font Suhu Cuaca Layar Kunci</string>
-    <string name="lock_weather_temp_font_summary">Ubah font default suhu cuaca layar kunci</string>
-    <string name="lock_weather_temp_font_dialog_title">Pilih kunci font suhu cuaca</string>
-    <string name="lock_weather_city_font_title">Font Kota Cuaca Layar Kunci</string>
-    <string name="lock_weather_city_font_summary">Ubah font default kota cuaca layar kunci</string>
-    <string name="lock_weather_city_dialog_title">Pilih kunci font kota cuaca</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">Teks pada footer QS</string>
     <string name="qs_footer_text_summary">Tampilkan teks di bagian bawah panel QS</string>
@@ -951,4 +918,20 @@
     <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>
     <string name="incall_vibrate_call_wait_title">Bergetar saat panggilan tunggu</string>
     <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Piksel Cerdas</string>
+    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Enable with battery saver to increase power savings</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift">Burn-in protection interval</string>
+    <string name="smart_pixels_warning_text">Smart Pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend setting the amount of disabled pixels to 75 percent while shifting every 10 minutes.</string>
+    <!-- QS rows and columns -->
+    <string name="qs_columns_rows_category_title">QS columns and rows</string>
+    <string name="qs_rows_columns_title">QS rows and columns</string>
+    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
+    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+    <string name="qs_tile_title_visibility_title">Show tiles title</string>
 </resources>
