@@ -239,7 +239,7 @@
     <string name="global_actions_soundpanel">Panel de sonido</string>
     <string name="global_actions_users">Usuarios</string>
     <string name="global_actions_screenshot">Captura de pantalla</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">Grabación de pantalla</string>
     <string name="global_actions_flashlight">Linterna</string>
     <string name="global_actions_emergency">Emergencia</string>
     <string name="global_actions_advanced_reboot_title">Habilitar reinicio avanzado</string>
@@ -759,7 +759,7 @@
     <string name="gaming_mode_brightness_summary">Bloquear el brillo de la pantalla cuando el modo de juego está activado</string>
     <string name="gaming_mode_ringer_title">Timbre en modo de juego</string>
     <string name="gaming_mode_ringer_off_title">No cambies</string>
-    <string name="gaming_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="gaming_mode_ringer_vibrate_title">Vibrar</string>
     <string name="gaming_mode_ringer_dnd_title">No molestar</string>
     <string name="gaming_mode_ringer_silent_title">Silencio</string>
     <string name="gaming_mode_notifications_title">Indicación del modo de juego</string>

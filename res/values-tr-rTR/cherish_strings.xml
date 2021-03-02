@@ -920,18 +920,18 @@
     <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Akıllı Pikseller</string>
-    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
-    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
-    <string name="smart_pixels_on_power_save_summary">Enable with battery saver to increase power savings</string>
-    <string name="smart_pixels_percent">Percent of pixels to disable</string>
-    <string name="smart_pixels_shift">Burn-in protection interval</string>
-    <string name="smart_pixels_warning_text">Smart Pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend setting the amount of disabled pixels to 75 percent while shifting every 10 minutes.</string>
+    <string name="smart_pixels_summary">Fazladan pikselleri kapatarak pil tasarrufu sağlayın</string>
+    <string name="smart_pixels_on_power_save_title">Pil tasarrufunda otomatik etkinleştir</string>
+    <string name="smart_pixels_on_power_save_summary">Güç tasarrufunu artırmak için pil tasarrufu ile etkinleştirin</string>
+    <string name="smart_pixels_percent">Devre dışı bırakılacak piksel yüzdesi</string>
+    <string name="smart_pixels_shift">Yanma koruma aralığı</string>
+    <string name="smart_pixels_warning_text">Akıllı Pikseller bir güç tasarrufu özelliğidir. Kaç piksel kapatmaya karar verdiğinize bağlı olarak, pil ömründe önemli bir iyileşme görebilirsiniz. İyi bir kullanıcı deneyimi için, her 10 dakikada bir geçiş yaparken devre dışı bırakılan piksel miktarını yüzde 75\'e ayarlamanızı öneririz.</string>
     <!-- QS rows and columns -->
-    <string name="qs_columns_rows_category_title">QS columns and rows</string>
-    <string name="qs_rows_columns_title">QS rows and columns</string>
-    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
-    <string name="qs_tile_title_visibility_title">Show tiles title</string>
+    <string name="qs_columns_rows_category_title">Hızlı Ayarlar sütunları ve satırları</string>
+    <string name="qs_rows_columns_title">Hızlı Ayarlar satırları ve sütunları</string>
+    <string name="qs_rows_portrait_title">Dikey modda kare satırları</string>
+    <string name="qs_rows_landscape_title">Yatay modda kare satırları</string>
+    <string name="qs_columns_portrait_title">Dikey modda kare sütunları</string>
+    <string name="qs_columns_landscape_title">Yatay modda kare sütunları</string>
+    <string name="qs_tile_title_visibility_title">Kare başlıklarını göster</string>
 </resources>
