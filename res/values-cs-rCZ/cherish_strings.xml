@@ -422,8 +422,8 @@
     <string name="lock_item_center">Center Aligned</string>
     <string name="lock_item_right">Right Aligned</string>
     <string name="lockscreen_item_padding_title">Lockscreen Items Padding</string>
-    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
-    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
+    <string name="lockscreen_weather_alignment_title">LS zarovnání počasí</string>
+    <string name="lockscreen_weather_selection_title">Styl pozadí WeatherView</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
     <string name="data_disabled_icon_summary">Display a cross sign next to signal bar when data is disabled</string>
@@ -447,8 +447,8 @@
     <string name="lockscreen_hide_shortcuts_summary">Hide Left-Right Shortcuts on secure lock screens</string>
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">Počasí</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
+    <string name="lockscreen_weather_enabled_title">Zobrazovat na zamčené obrazovce</string>
+    <string name="lockscreen_weather_enabled_summary">Zobrazit informace o počasí na zamykací obrazovce a během režimu Doze</string>
     <string name="lockscreen_weather_settings_title">Setup weather options</string>
     <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
     <string name="weather_config_title">Weather service</string>
@@ -947,7 +947,7 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Smart Pixels -->
-    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_title">Chytré pixely</string>
     <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
     <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
     <string name="smart_pixels_on_power_save_summary">Enable with battery saver to increase power savings</string>
