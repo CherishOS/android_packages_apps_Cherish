@@ -422,8 +422,8 @@
     <string name="lock_item_center">Ortaya hizalı</string>
     <string name="lock_item_right">Sağa hizalı</string>
     <string name="lockscreen_item_padding_title">Kilit Ekranı Öğeleri Dolgu</string>
-    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
-    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
+    <string name="lockscreen_weather_alignment_title">Kilit Ekranı Hava durumu Hizalaması</string>
+    <string name="lockscreen_weather_selection_title">Hava Durumu Görünümü Arka Plan Stili</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Mobil Veri devre dışı simgesi</string>
     <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal çubuğunun yanında çarpı işareti gösterir</string>
@@ -447,14 +447,14 @@
     <string name="lockscreen_hide_shortcuts_summary">Güvenli kilit ekranında sağ ve sol alt kısayolları gizle</string>
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">Hava Durumu</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="lockscreen_weather_enabled_title">Kilit ekranında göster</string>
+    <string name="lockscreen_weather_enabled_summary">Kilit ekranı ve doze sırasında hava durumu bilgilerini göster</string>
+    <string name="lockscreen_weather_settings_title">Hava durumu seçeneklerini ayarla</string>
+    <string name="lockscreen_weather_settings_summary">Simge paketi ve hava durumu servisini ayarla</string>
+    <string name="weather_config_title">Hava durumu kaynağı</string>
+    <string name="weather_config_summary">Sistem servisi ayarları</string>
+    <string name="header_weather_title">Başlık görünümünde hava durumu</string>
+    <string name="header_weather_summary">Bildirim paneli başlığında hava durumu görüntüsünü etkinleştir</string>
     <string name="weather_icon_pack_title">Condition icon pack</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
