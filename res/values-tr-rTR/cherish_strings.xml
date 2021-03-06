@@ -422,8 +422,8 @@
     <string name="lock_item_center">Ortaya hizalı</string>
     <string name="lock_item_right">Sağa hizalı</string>
     <string name="lockscreen_item_padding_title">Kilit Ekranı Öğeleri Dolgu</string>
-    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
-    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
+    <string name="lockscreen_weather_alignment_title">Kilit Ekranı Hava durumu Hizalaması</string>
+    <string name="lockscreen_weather_selection_title">Hava Durumu Görünümü Arka Plan Stili</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Mobil Veri devre dışı simgesi</string>
     <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal çubuğunun yanında çarpı işareti gösterir</string>
@@ -447,21 +447,21 @@
     <string name="lockscreen_hide_shortcuts_summary">Güvenli kilit ekranında sağ ve sol alt kısayolları gizle</string>
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">Hava Durumu</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="lockscreen_weather_enabled_title">Kilit ekranında göster</string>
+    <string name="lockscreen_weather_enabled_summary">Kilit ekranı ve doze sırasında hava durumu bilgilerini göster</string>
+    <string name="lockscreen_weather_settings_title">Hava durumu seçeneklerini ayarla</string>
+    <string name="lockscreen_weather_settings_summary">Simge paketi ve hava durumu servisini ayarla</string>
+    <string name="weather_config_title">Hava durumu kaynağı</string>
+    <string name="weather_config_summary">Sistem servisi ayarları</string>
+    <string name="header_weather_title">Başlık görünümünde hava durumu</string>
+    <string name="header_weather_summary">Bildirim paneli başlığında hava durumu görüntüsünü etkinleştir</string>
+    <string name="weather_icon_pack_title">Hava durumu simge paketi</string>
+    <string name="weather_icon_pack_note">Not\u003a Play Store\'den \"Chronus icons\" araması yaparak yeni simge paketleri yükleyebilirsiniz</string>
+    <string name="weather_icon_pack_info_title">Hava Durumu simge paketi hızlı ayarlarda ve kilit ekranında kullanılır</string>
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_title">Hava durumu stili</string>
+    <string name="lockscreen_weather_omni_style_title">Omni stili</string>
+    <string name="lockscreen_weather_pixel_style_title">Piksel stili</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Toast Animasyonu</string>
     <string name="toast_none_animation">Hiçbiri</string>
@@ -713,19 +713,19 @@
     <string name="pixel_navbar_anim_title">Piksel animasyonu</string>
     <string name="pixel_navbar_anim_summary">Ana ekran tuşu animasyonunu değiştir</string>
     <!-- LockWeather Switches -->
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
-    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
-    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
+    <string name="lockscreen_weather_show_city_title">Şehir adını göster</string>
+    <string name="lockscreen_weather_show_city_summary">Görüntünün solunda mevcut şehrin adını göster</string>
+    <string name="lockscreen_weather_show_temp_title">Sıcaklığı göster</string>
+    <string name="lockscreen_weather_show_temp_summary">Görüntünün sağında mevcut şehir sıcaklığını göster</string>
+    <string name="lockscreen_weather_show_image_title">Durum görüntüsünü göster</string>
+    <string name="lockscreen_weather_show_image_summary">Hava Durumu Simgesini Göster</string>
     <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
-    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
-    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
-    <string name="lock_weather_city_font_title">LS Weather City font</string>
-    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
-    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
+    <string name="lock_weather_temp_font_title">Kilit ekranı hava durumu yazı tipi</string>
+    <string name="lock_weather_temp_font_summary">Kilit ekranı hava sıcaklığının varsayılan yazı tipini değiştirin</string>
+    <string name="lock_weather_temp_font_dialog_title">Kilit ekranı hava sıcaklığı yazı tipini seçin</string>
+    <string name="lock_weather_city_font_title">Kilit ekranı hava durumu Şehir yazı tipi</string>
+    <string name="lock_weather_city_font_summary">Kilit ekranı hava durumunun varsayılan şehir yazı tipini değiştir</string>
+    <string name="lock_weather_city_dialog_title">Kilit ekranı hava durumu şehir yazı tipini seçin</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">Hızlı ayarlar altbilgi metni</string>
     <string name="qs_footer_text_summary">Hızlı ayarlar panelinin en altında metni görüntüle</string>
