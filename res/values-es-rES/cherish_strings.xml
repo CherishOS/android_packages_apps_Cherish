@@ -422,6 +422,8 @@
     <string name="lock_item_center">Centro alineado</string>
     <string name="lock_item_right">Alineado a la derecha</string>
     <string name="lockscreen_item_padding_title">Relleno de elementos de pantalla de bloqueo</string>
+    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
+    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Icono de datos deshabilitados</string>
     <string name="data_disabled_icon_summary">Mostrar un signo de cruz junto a la barra de señales cuando los datos están deshabilitados</string>
@@ -443,6 +445,23 @@
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Ocultar atajos inferiores</string>
     <string name="lockscreen_hide_shortcuts_summary">Ocultar accesos directos de izquierda a derecha en pantallas de bloqueo seguras</string>
+    <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">Clima</string>
+    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
+    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
+    <string name="lockscreen_weather_settings_title">Setup weather options</string>
+    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <!-- Lockscreen weather style -->
+    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_omni_style_title">Omni style</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Animación de brindis</string>
     <string name="toast_none_animation">Ninguna</string>
@@ -581,8 +600,6 @@
     <string name="lockscreen_media_art_summary">Alternar la visibilidad del arte multimedia</string>
     <!-- Lockscreen media artwork -->
     <string name="lockscreen_media_blur_title">Nivel de desenfoque de arte multimedia</string>
-    <string name="lockscreen_lock_icon_title">Icono de candado</string>
-    <string name="lockscreen_lock_icon_summary">Mostrar icono de bloqueo en la pantalla de bloqueo</string>
     <!-- Charging animation -->
     <string name="charging_animation_title">Animación de carga</string>
     <string name="charging_animation_summary">Muestra una animación cuando el dispositivo está conectado</string>
@@ -695,6 +712,20 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Animación de píxeles</string>
     <string name="pixel_navbar_anim_summary">Alternar la animación del botón de inicio</string>
+    <!-- LockWeather Switches -->
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
+    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
+    <!-- LS Weather Temp & City Fonts -->
+    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
+    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
+    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
+    <string name="lock_weather_city_font_title">LS Weather City font</string>
+    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
+    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">Texto de pie de página de QS</string>
     <string name="qs_footer_text_summary">Mostrar texto en la parte inferior del panel QS</string>
@@ -877,9 +908,6 @@
     <string name="corner_fwvals">Use framework values</string>
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
     <string name="unit_pixels">dp</string>
-    <!-- Show Statusbar on Lockscreen -->
-    <string name="lockscreen_status_bar_title">Barra de estado</string>
-    <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
     <!-- Switch styles -->
     <string name="switch_style_title">Switch appearance</string>
     <string name="switch_default">Defecto</string>

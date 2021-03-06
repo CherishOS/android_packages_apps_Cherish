@@ -232,15 +232,15 @@
     <string name="global_actions_title">Power menu</string>
     <string name="global_actions_summary">Select what to show when you press the power button</string>
     <string name="global_actions_power">Power</string>
-    <string name="global_actions_restart">Restart</string>
+    <string name="global_actions_restart">راه اندازی مجدد</string>
     <string name="global_actions_airplane">Airplane</string>
-    <string name="global_actions_settings">Settings</string>
+    <string name="global_actions_settings">تنظیمات</string>
     <string name="global_actions_lockdown">Lock Down</string>
     <string name="global_actions_soundpanel">Sound Panel</string>
     <string name="global_actions_users">Users</string>
-    <string name="global_actions_screenshot">Screenshot</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
-    <string name="global_actions_flashlight">Flashlight</string>
+    <string name="global_actions_screenshot">عکس گرفتن از صفحه</string>
+    <string name="global_actions_screenrecord">ضبط از صفحه نمایش</string>
+    <string name="global_actions_flashlight">چراغ‌قوه</string>
     <string name="global_actions_emergency">Emergency</string>
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
@@ -422,6 +422,8 @@
     <string name="lock_item_center">Center Aligned</string>
     <string name="lock_item_right">Right Aligned</string>
     <string name="lockscreen_item_padding_title">Lockscreen Items Padding</string>
+    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
+    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
     <string name="data_disabled_icon_summary">Display a cross sign next to signal bar when data is disabled</string>
@@ -443,6 +445,23 @@
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Hide Bottom Shortcuts</string>
     <string name="lockscreen_hide_shortcuts_summary">Hide Left-Right Shortcuts on secure lock screens</string>
+    <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">آب و هوا</string>
+    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
+    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
+    <string name="lockscreen_weather_settings_title">Setup weather options</string>
+    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <!-- Lockscreen weather style -->
+    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_omni_style_title">Omni style</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Toast animation</string>
     <string name="toast_none_animation">None</string>
@@ -581,8 +600,6 @@
     <string name="lockscreen_media_art_summary">Toggle visibility of media art</string>
     <!-- Lockscreen media artwork -->
     <string name="lockscreen_media_blur_title">Media art blur level</string>
-    <string name="lockscreen_lock_icon_title">Lock icon</string>
-    <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
     <!-- Charging animation -->
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
@@ -695,6 +712,20 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animation</string>
     <string name="pixel_navbar_anim_summary">Toggle home button animation</string>
+    <!-- LockWeather Switches -->
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
+    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
+    <!-- LS Weather Temp & City Fonts -->
+    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
+    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
+    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
+    <string name="lock_weather_city_font_title">LS Weather City font</string>
+    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
+    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">QS footer text</string>
     <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
@@ -759,7 +790,7 @@
     <string name="gaming_mode_brightness_summary">Lock screen brightness when Gaming mode is turned on</string>
     <string name="gaming_mode_ringer_title">Ringer in gaming mode</string>
     <string name="gaming_mode_ringer_off_title">Do not change</string>
-    <string name="gaming_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="gaming_mode_ringer_vibrate_title">لرزش</string>
     <string name="gaming_mode_ringer_dnd_title">Do Not Disturb</string>
     <string name="gaming_mode_ringer_silent_title">Silent</string>
     <string name="gaming_mode_notifications_title">Gaming mode indication</string>
@@ -877,9 +908,6 @@
     <string name="corner_fwvals">Use framework values</string>
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
     <string name="unit_pixels">dp</string>
-    <!-- Show Statusbar on Lockscreen -->
-    <string name="lockscreen_status_bar_title">Status bar</string>
-    <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
     <!-- Switch styles -->
     <string name="switch_style_title">Switch appearance</string>
     <string name="switch_default">Default</string>
