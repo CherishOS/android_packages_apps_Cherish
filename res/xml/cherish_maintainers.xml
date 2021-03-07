@@ -121,8 +121,8 @@
         </Preference>
 		
 <Preference
-            android:title="@string/jasmine_sprout_maintainer"
-            android:summary="@string/device_jasmine_sprout"
+            android:title="@string/laurel_sprout_maintainer"
+            android:summary="@string/device_laurel_sprout"
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
