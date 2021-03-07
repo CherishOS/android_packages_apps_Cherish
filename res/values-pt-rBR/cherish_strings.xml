@@ -422,8 +422,8 @@
     <string name="lock_item_center">Centralizar</string>
     <string name="lock_item_right">Alinhado à direita</string>
     <string name="lockscreen_item_padding_title">Preenchimento da tela de bloqueio</string>
-    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
-    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
+    <string name="lockscreen_weather_alignment_title">Alinhamento do Tempo LS</string>
+    <string name="lockscreen_weather_selection_title">Estilo de fundo WeatherView</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Exibir ícone de dados desativados</string>
     <string name="data_disabled_icon_summary">Mostrar um X no ícone do sinal de rede quando os dados móveis estiverem desligados</string>
@@ -447,21 +447,21 @@
     <string name="lockscreen_hide_shortcuts_summary">Esconder os atalhos da esquerda-direita nas telas de bloqueio seguras</string>
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">Clima</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="lockscreen_weather_enabled_title">Mostrar na tela de bloqueio</string>
+    <string name="lockscreen_weather_enabled_summary">Mostrar informações sobre o tempo na tela de bloqueio e durante o modo doze</string>
+    <string name="lockscreen_weather_settings_title">Mostrar opções de tempo</string>
+    <string name="lockscreen_weather_settings_summary">Selecionar Ícones de clima e configurações de clima</string>
+    <string name="weather_config_title">Serviço meteorológico</string>
+    <string name="weather_config_summary">Configurações de serviço do sistema</string>
+    <string name="header_weather_title">Mostrar clima no cabeçalho</string>
+    <string name="header_weather_summary">Ativar notificação de clima no cabeçalho do painel de notificações</string>
+    <string name="weather_icon_pack_title">Pacote de ícones climáticos</string>
+    <string name="weather_icon_pack_note">Nota\u003a Você pode instalar novos pacotes de ícones da play store procurando por \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">O pacote de ícones de condições é usado em configurações rápidas e na tela de bloqueio</string>
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_title">Estilo do Clima</string>
+    <string name="lockscreen_weather_omni_style_title">Estilo Omni</string>
+    <string name="lockscreen_weather_pixel_style_title">Estilo Pixel</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Animação do Toast</string>
     <string name="toast_none_animation">Nenhum</string>
@@ -713,19 +713,19 @@
     <string name="pixel_navbar_anim_title">Animação do Pixel</string>
     <string name="pixel_navbar_anim_summary">Alternar animação do botão inicio</string>
     <!-- LockWeather Switches -->
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
-    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
-    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
+    <string name="lockscreen_weather_show_city_title">Mostrar nome da cidade</string>
+    <string name="lockscreen_weather_show_city_summary">Mostrar o nome da cidade atual à esquerda da imagem</string>
+    <string name="lockscreen_weather_show_temp_title">Mostrar temperatura</string>
+    <string name="lockscreen_weather_show_temp_summary">Mostrar a temperatura atual da cidade à direita da imagem</string>
+    <string name="lockscreen_weather_show_image_title">Mostrar condição da imagem</string>
+    <string name="lockscreen_weather_show_image_summary">Mostrar imagem das condições do clima</string>
     <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
-    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
-    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
-    <string name="lock_weather_city_font_title">LS Weather City font</string>
-    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
-    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
+    <string name="lock_weather_temp_font_title">Fonte do clima da tela de bloqueio</string>
+    <string name="lock_weather_temp_font_summary">Alterar a fonte padrão da data na tela de bloqueio</string>
+    <string name="lock_weather_temp_font_dialog_title">Selecionar a fonte do tempo na tela de bloqueio</string>
+    <string name="lock_weather_city_font_title">Fonte do clima da tela de bloqueio</string>
+    <string name="lock_weather_city_font_summary">Alterar a fonte padrão da cidade do tempo da tela de bloqueio</string>
+    <string name="lock_weather_city_dialog_title">Selecionar fonte da cidade na tela de bloqueio</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">Texto do rodapé</string>
     <string name="qs_footer_text_summary">Exibir texto na parte inferior do painel de configurações rápidas</string>
