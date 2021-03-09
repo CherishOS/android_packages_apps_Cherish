@@ -246,46 +246,6 @@
     <string name="global_actions_advanced_reboot_summary">Khi khởi động lại hiển thị tùy chọn vào chế độ phục hồi và bộ nạp khởi động</string>
     <string name="global_actions_max_columns_title">Hiện thị hành động tối đa</string>
     <string name="global_actions_max_columns_summary">Đặt số lượng hành động sẽ hiển thị trước khi các nút chuyển sang menu mục bổ sung</string>
-    <!-- Battery Styles -->
-    <string name="battery_style_category_title">Mức pin</string>
-    <!-- Battery mode -->
-    <string name="battery_percentage_title">Phần trăm pin</string>
-    <string name="battery_percentage_off">Tắt</string>
-    <string name="battery_percentage_next">Bật</string>
-    <string name="battery_percentage_inside">Đã bật (biểu tượng bên trong)</string>
-    <string name="battery_percentage_estimate">Đã bật (ước tính)</string>
-    <string name="battery_percentage_percentage_estimate">Đã bật (phần trăm | ước tính)</string>
-    <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Kiểu pin</string>
-    <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc</string>
-    <string name="status_bar_battery_style_icon_landscape">Biểu tượng ngang</string>
-    <string name="status_bar_battery_style_circle">Vòng tròn</string>
-    <string name="status_bar_battery_style_dotted_circle">Vòng tròn chấm</string>
-    <string name="status_bar_battery_style_big_circle">Vòng tròn lớn</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Vòng tròn lớn chấm</string>
-    <string name="status_bar_battery_style_square">Vuông</string>
-    <string name="status_bar_battery_style_solid">Khối</string>
-    <string name="status_bar_battery_style_text">Văn bản</string>
-    <string name="status_bar_battery_style_hidden">Ẩn</string>
-    <string name="status_bar_battery_style_q">Android Q</string>
-    <string name="status_bar_battery_style_tile_title">Ghi đè lên biểu tượng pin</string>
-    <string name="status_bar_battery_style_tile_summary">Sử dụng phong cách biểu tượng tương tự trên QS</string>
-    <!-- Status bar - Battery custom charging symbol -->
-    <string name="text_charging_symbol_title">Ký hiệu sạc tùy chỉnh cho kiểu chữ</string>
-    <string name="text_charging_symbol_dialog">Ký tự sạc tùy chỉnh gần số phần trăm pin</string>
-    <string name="text_charging_symbol_default">Tắt</string>
-    <string name="text_charging_symbol_flash">Đèn flash</string>
-    <string name="text_charging_symbol_tilde">Dấu ngã</string>
-    <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
-    <string name="status_bar_battery_percentage_default">Ẩn</string>
-    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng pin</string>
-    <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
-    <string name="status_bar_battery_text_position_title">Ví trí hiển thị dung lượng pin</string>
-    <string name="status_bar_battery_text_position_left">Bên trái biểu tượng pin</string>
-    <string name="status_bar_battery_text_position_right">Bên phải biểu tượng pin</string>
-    <string name="status_bar_battery_text_charging_title">Hiển thị phần trăm pin lúc sạc</string>
-    <string name="status_bar_battery_text_charging_summary">Luôn hiển thị dung lượng pin lúc sạc</string>
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Hiển thị tốc độ mạng</string>
     <string name="network_traffic_state_title">Tốc độ mạng</string>
@@ -448,7 +408,7 @@
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">Thời tiết</string>
     <string name="lockscreen_weather_enabled_title">Hiển thị trên màn hình khóa</string>
-    <string name="lockscreen_weather_enabled_summary">Hiển thị thông tin thời tiết trên màn hình khóa và trong khi ngủ gật</string>
+    <string name="lockscreen_weather_enabled_summary">Hiển thị thông tin thời tiết trên màn hình khóa và trong khi ngủ</string>
     <string name="lockscreen_weather_settings_title">Cài đặt tùy chọn thời tiết</string>
     <string name="lockscreen_weather_settings_summary">Cài đặt gói biểu tượng và dịch vụ thời tiết</string>
     <string name="weather_config_title">Dịch vụ thời tiết</string>
@@ -962,4 +922,24 @@
     <string name="qs_columns_portrait_title">Số cột theo chiều dọc</string>
     <string name="qs_columns_landscape_title">Số cột theo chiều ngang</string>
     <string name="qs_tile_title_visibility_title">Hiển thị ô tiêu đề</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Dung lượng pin trên thanh trạng thái</string>
+    <string name="battery_percent_summary">Thiết lập biểu tượng và phần trăm pin trên thanh trạng thái</string>
+    <string name="status_bar_battery_style_title">Kiểu pin</string>
+    <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_dotted_circle">Vòng tròn chấm</string>
+    <string name="status_bar_battery_style_filled_circle">Vòng tròn kín</string>
+    <string name="status_bar_battery_style_text">Văn bản</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
+    <!-- Battery percentage -->
+    <string name="battery_percentage_title">Phần trăm pin</string>
+    <string name="battery_percentage_default">Ẩn (mặc định)</string>
+    <string name="battery_percentage_text_inside">Bên trong biểu tượng pin</string>
+    <string name="battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
+    <string name="battery_text_charging_title">Hiển thị phần trăm pin lúc sạc</string>
+    <string name="battery_text_charging_summary">Luôn hiển thị dung lượng pin lúc sạc</string>
+    <!-- Battery estimate -->
+    <string name="battery_estimate_title">Ước tính pin</string>
+    <string name="battery_estimate_summary">Hiển thị thời lượng pin còn lại ước tính khi khả dụng</string>
 </resources>

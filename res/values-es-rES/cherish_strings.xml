@@ -112,7 +112,7 @@
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
     <string name="volume_key_cursor_control_title">Control de cursor de tecla de volumen</string>
-    <string name="volume_key_cursor_control_off">Desabilitado</string>
+    <string name="volume_key_cursor_control_off">Deshabilitado</string>
     <string name="volume_key_cursor_control_on">Subir /bajar volumen mueve el cursor hacia la izquierda /derecha</string>
     <string name="volume_key_cursor_control_on_reverse">Subir /bajar volumen mueve el cursor hacia la derecha /izquierda</string>
     <string name="torch_long_press_power_gesture_title">Antorcha del botón de encendido de la pantalla apagada</string>
@@ -246,52 +246,12 @@
     <string name="global_actions_advanced_reboot_summary">Al reiniciar también se muestran opciones de recuperación y cargador de arranque</string>
     <string name="global_actions_max_columns_title">Acciones máximas para mostrar</string>
     <string name="global_actions_max_columns_summary">Establecer cuántas acciones mostrar antes de que los botones se muevan al menú de desbordamiento</string>
-    <!-- Battery Styles -->
-    <string name="battery_style_category_title">Nivel de bateria</string>
-    <!-- Battery mode -->
-    <string name="battery_percentage_title">Porcentaje de batería</string>
-    <string name="battery_percentage_off">Desabilitado</string>
-    <string name="battery_percentage_next">Habilitado</string>
-    <string name="battery_percentage_inside">Habilitado (icono interior)</string>
-    <string name="battery_percentage_estimate">Habilitado (estimación)</string>
-    <string name="battery_percentage_percentage_estimate">Habilitado (porcentaje | estimación)</string>
-    <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Estilo de batería</string>
-    <string name="status_bar_battery_style_icon_portrait">Retrato de icono</string>
-    <string name="status_bar_battery_style_icon_landscape">Paisaje de icono</string>
-    <string name="status_bar_battery_style_circle">Circulo</string>
-    <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
-    <string name="status_bar_battery_style_big_circle">Círculo grande</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Gran círculo de puntos</string>
-    <string name="status_bar_battery_style_square">Cuadrado</string>
-    <string name="status_bar_battery_style_solid">Sólido</string>
-    <string name="status_bar_battery_style_text">Texto</string>
-    <string name="status_bar_battery_style_hidden">Oculto</string>
-    <string name="status_bar_battery_style_q">Estilo Q</string>
-    <string name="status_bar_battery_style_tile_title">Anular mosaico de batería</string>
-    <string name="status_bar_battery_style_tile_summary">Use el mismo estilo de icono que el anterior en el mosaico de batería QS</string>
-    <!-- Status bar - Battery custom charging symbol -->
-    <string name="text_charging_symbol_title">Símbolo de carga personalizado para estilo de texto</string>
-    <string name="text_charging_symbol_dialog">Símbolo de carga personalizado junto al texto de porcentaje de batería</string>
-    <string name="text_charging_symbol_default">Desabilitado</string>
-    <string name="text_charging_symbol_flash">Destello</string>
-    <string name="text_charging_symbol_tilde">Tilde</string>
-    <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
-    <string name="status_bar_battery_percentage_default">Oculto</string>
-    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
-    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
-    <string name="status_bar_battery_text_position_title">Posición porcentual de la batería</string>
-    <string name="status_bar_battery_text_position_left">Izquierda del icono</string>
-    <string name="status_bar_battery_text_position_right">Derecha del icono</string>
-    <string name="status_bar_battery_text_charging_title">Porcentaje de batería al cargar</string>
-    <string name="status_bar_battery_text_charging_summary">Mostrar siempre el porcentaje de batería al cargar</string>
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Indicadores de tráfico</string>
     <string name="network_traffic_state_title">Tráfico de red</string>
     <string name="network_traffic">Tráfico de red</string>
     <string name="network_traffic_location">Colocación del indicador de tráfico</string>
-    <string name="traffic_disabled">Desabilitado</string>
+    <string name="traffic_disabled">Deshabilitado</string>
     <string name="traffic_statusbar">Barra de estado</string>
     <string name="traffic_expanded_statusbar">Encabezado expandido</string>
     <string name="network_traffic_autohide_threshold_title">Umbral de ocultación automática de actividad neta (KB /s)</string>
@@ -733,7 +693,7 @@
     <string name="qs_footer_text_string_summary">Establecer como vacío por defecto</string>
     <!-- QS Header data uasge -->
     <string name="qs_datausage_title">Uso de datos en el encabezado QS</string>
-    <string name="qs_datausage_disabled">Desabilitado</string>
+    <string name="qs_datausage_disabled">Deshabilitado</string>
     <string name="qs_datausage_daily">Uso diario</string>
     <string name="qs_datausage_monthly">Uso mensual</string>
     <!-- Navbar options -->
@@ -762,7 +722,7 @@
     <string name="daylight_header_provider_title">Automático (basado en el tiempo)</string>
     <string name="file_header_provider_title">Estático</string>
     <string name="daylight_header_pack_title">Colección de imágenes</string>
-    <string name="header_provider_disabled">Desabilitado</string>
+    <string name="header_provider_disabled">Deshabilitado</string>
     <string name="custom_header_pick_title">Elija una imagen de la colección</string>
     <string name="custom_header_pick_summary">Seleccione una imagen de las colecciones de imágenes preinstaladas</string>
     <string name="file_header_select_title">Elija la imagen del almacenamiento</string>
@@ -794,7 +754,7 @@
     <string name="gaming_mode_ringer_dnd_title">No molestar</string>
     <string name="gaming_mode_ringer_silent_title">Silencio</string>
     <string name="gaming_mode_notifications_title">Indicación del modo de juego</string>
-    <string name="gaming_mode_notifications_off_title">Desabilitado</string>
+    <string name="gaming_mode_notifications_off_title">Deshabilitado</string>
     <string name="gaming_mode_notifications_notif_title">Muestra la notificación</string>
     <string name="gaming_mode_notifications_toast_title">Mostrar brindis</string>
     <string name="gaming_mode_notifications_all_title">Mostrar brindis y notificación</string>
@@ -839,7 +799,7 @@
     <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
     <string name="show_carrier_title">Carrier label</string>
-    <string name="show_carrier_disabled">Desabilitado</string>
+    <string name="show_carrier_disabled">Deshabilitado</string>
     <string name="show_carrier_keyguard">Lockscreen only</string>
     <string name="show_carrier_statusbar">Statusbar only</string>
     <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
@@ -962,4 +922,24 @@
     <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
     <string name="qs_tile_title_visibility_title">Show tiles title</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Statusbar battery indicator</string>
+    <string name="battery_percent_summary">Configure icon and text styles for the statusbar battery indicator</string>
+    <string name="status_bar_battery_style_title">Estilo de batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Retrato de icono</string>
+    <string name="status_bar_battery_style_circle">Circulo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
+    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <!-- Battery percentage -->
+    <string name="battery_percentage_title">Porcentaje de batería</string>
+    <string name="battery_percentage_default">Oculto (predeterminado)</string>
+    <string name="battery_percentage_text_inside">Inside the icon</string>
+    <string name="battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_text_charging_title">Battery percentage when charging</string>
+    <string name="battery_text_charging_summary">Always display battery percentage when charging</string>
+    <!-- Battery estimate -->
+    <string name="battery_estimate_title">Battery estimate</string>
+    <string name="battery_estimate_summary">Display estimated remaining battery life when available</string>
 </resources>
