@@ -246,46 +246,6 @@
     <string name="global_actions_advanced_reboot_summary">При перезагрузке показывать вариант перезагрузки в Recovery и Bootloader</string>
     <string name="global_actions_max_columns_title">Максимальное количество действий для отображения</string>
     <string name="global_actions_max_columns_summary">Установить количество действий для отображения перед перемещением кнопок в переполненном меню</string>
-    <!-- Battery Styles -->
-    <string name="battery_style_category_title">Уровень заряда батареи</string>
-    <!-- Battery mode -->
-    <string name="battery_percentage_title">Процент заряда батареи</string>
-    <string name="battery_percentage_off">Выключен</string>
-    <string name="battery_percentage_next">Включено</string>
-    <string name="battery_percentage_inside">Включено (внутри значка)</string>
-    <string name="battery_percentage_estimate">Включено (оценка уровня заряда)</string>
-    <string name="battery_percentage_percentage_estimate">Включено (процент | оценка уровня заряда)</string>
-    <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Стиль значка батареи</string>
-    <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
-    <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок</string>
-    <string name="status_bar_battery_style_circle">Круг</string>
-    <string name="status_bar_battery_style_dotted_circle">Точечный круг</string>
-    <string name="status_bar_battery_style_big_circle">Большой круг</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Большой точечный круг</string>
-    <string name="status_bar_battery_style_square">Квадрат</string>
-    <string name="status_bar_battery_style_solid">Сплошная</string>
-    <string name="status_bar_battery_style_text">Текст</string>
-    <string name="status_bar_battery_style_hidden">Скрывать</string>
-    <string name="status_bar_battery_style_q">Стиль Android Q</string>
-    <string name="status_bar_battery_style_tile_title">Пользовательский стиль плитки батареи</string>
-    <string name="status_bar_battery_style_tile_summary">Разрешить устанавливать тот же стиль значка батареи, что и в строке состояния</string>
-    <!-- Status bar - Battery custom charging symbol -->
-    <string name="text_charging_symbol_title">Пользовательский символ зарядки для текстового стиля</string>
-    <string name="text_charging_symbol_dialog">Символ зарядки рядом с процентом заряда</string>
-    <string name="text_charging_symbol_default">Выключен</string>
-    <string name="text_charging_symbol_flash">Вспышка</string>
-    <string name="text_charging_symbol_tilde">Тильда</string>
-    <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
-    <string name="status_bar_battery_percentage_default">Скрывать</string>
-    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
-    <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
-    <string name="status_bar_battery_text_position_title">Положение процента заряда батареи</string>
-    <string name="status_bar_battery_text_position_left">Слева от значка</string>
-    <string name="status_bar_battery_text_position_right">Справа от значка</string>
-    <string name="status_bar_battery_text_charging_title">Процент использования батареи при зарядке</string>
-    <string name="status_bar_battery_text_charging_summary">Всегда отображать процент использования батареи при зарядке</string>
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Индикатор скорости сети</string>
     <string name="network_traffic_state_title">Трафик сети</string>
@@ -962,4 +922,24 @@
     <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
     <string name="qs_tile_title_visibility_title">Show tiles title</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Statusbar battery indicator</string>
+    <string name="battery_percent_summary">Configure icon and text styles for the statusbar battery indicator</string>
+    <string name="status_bar_battery_style_title">Стиль значка батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Точечный круг</string>
+    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрывать</string>
+    <!-- Battery percentage -->
+    <string name="battery_percentage_title">Процент заряда батареи</string>
+    <string name="battery_percentage_default">Скрывать (по умолчанию)</string>
+    <string name="battery_percentage_text_inside">Inside the icon</string>
+    <string name="battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_text_charging_title">Battery percentage when charging</string>
+    <string name="battery_text_charging_summary">Always display battery percentage when charging</string>
+    <!-- Battery estimate -->
+    <string name="battery_estimate_title">Battery estimate</string>
+    <string name="battery_estimate_summary">Display estimated remaining battery life when available</string>
 </resources>
