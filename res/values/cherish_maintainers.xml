@@ -55,6 +55,8 @@
    <string name="laurel_sprout_maintainer">AbStRaCt_IrIs</string>
    <string name="device_davinci">Xiaomi Mi 9T/K20</string>
    <string name="davinci_maintainer">Luis Gonzales</string>
+   <string name="device_sakura">Xiaomi Redmi 6 Pro</string>
+   <string name="sakura_maintainer">Mohit Yadav</string>
 
     <!-- Realme Device maintainers -->
    <string name="device_RMX1901">Realme RMX1901</string>
