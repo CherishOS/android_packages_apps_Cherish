@@ -157,12 +157,12 @@
         </Preference>
 
 <Preference
-            android:title="@string/ysl_maintainer"
-            android:summary="@string/device_ysl"
+            android:title="@string/sakura_maintainer"
+            android:summary="@string/device_sakura"
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/eldinesh" />
+                android:data="https://t.me/YadavMohit19" />
         </Preference>
 
 <Preference

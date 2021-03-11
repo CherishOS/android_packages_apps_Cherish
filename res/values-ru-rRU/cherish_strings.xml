@@ -925,21 +925,4 @@
     <!-- Battery Styles -->
     <string name="battery_percent_title">Изменить цвет панели уведомлений при энергосбережении</string>
     <string name="battery_percent_summary">Настройте стиль значка и текста для индикатора батареи в строке состояния</string>
-    <string name="status_bar_battery_style_title">Стиль значка батареи</string>
-    <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
-    <string name="status_bar_battery_style_circle">Круг</string>
-    <string name="status_bar_battery_style_dotted_circle">Точечный круг</string>
-    <string name="status_bar_battery_style_filled_circle">Заполненный круг</string>
-    <string name="status_bar_battery_style_text">Текст</string>
-    <string name="status_bar_battery_style_hidden">Скрывать</string>
-    <!-- Battery percentage -->
-    <string name="battery_percentage_title">Процент заряда батареи</string>
-    <string name="battery_percentage_default">Скрывать (по умолчанию)</string>
-    <string name="battery_percentage_text_inside">Внутри значка</string>
-    <string name="battery_percentage_text_next">Рядом со значком</string>
-    <string name="battery_text_charging_title">Процент использования батареи при зарядке</string>
-    <string name="battery_text_charging_summary">Всегда отображать процент использования батареи при зарядке</string>
-    <!-- Battery estimate -->
-    <string name="battery_estimate_title">Остаток заряда</string>
-    <string name="battery_estimate_summary">Показывать ожидаемое время работы от аккумулятора, если доступно</string>
 </resources>

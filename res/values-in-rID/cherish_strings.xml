@@ -382,8 +382,8 @@
     <string name="lock_item_center">Rata tengah</string>
     <string name="lock_item_right">Rata kanan</string>
     <string name="lockscreen_item_padding_title">Padding Item Layar Kunci</string>
-    <string name="lockscreen_weather_alignment_title">Penjajaran Cuaca Layar Kunci</string>
-    <string name="lockscreen_weather_selection_title">Gaya Latar Belakang WeatherView</string>
+    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
+    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
     <string name="data_disabled_icon_summary">Menampilkan tanda silang di ikon sinyal saat data dinonaktifkan</string>
@@ -407,21 +407,21 @@
     <string name="lockscreen_hide_shortcuts_summary">Sembunyikan pintasan Kiri-Kanan pada layar kunci aman</string>
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">Cuaca</string>
-    <string name="lockscreen_weather_enabled_title">Tampilkan di Layar Kunci</string>
-    <string name="lockscreen_weather_enabled_summary">Tampilkan informasi cuaca di Layar Kunci dan saat tidur</string>
-    <string name="lockscreen_weather_settings_title">Atur pilihan cuaca</string>
-    <string name="lockscreen_weather_settings_summary">Atur paket ikon dan servis cuaca</string>
-    <string name="weather_config_title">Layanan cuaca</string>
-    <string name="weather_config_summary">Pengaturan layanan sistem</string>
-    <string name="header_weather_title">Tampilkan cuaca di panel atas</string>
-    <string name="header_weather_summary">Hidupkan notifikasi cuaca di atas panel pemberitahuan</string>
-    <string name="weather_icon_pack_title">Keadaan paket ikon</string>
-    <string name="weather_icon_pack_note">Catatan\u003a Anda dapat menginstal paket ikon baru dari Play Store dengan mencari \"Chronus ikon\"</string>
-    <string name="weather_icon_pack_info_title">Paket ikon kondisi digunakan dalam pengaturan cepat dan layar kunci</string>
+    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
+    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
+    <string name="lockscreen_weather_settings_title">Setup weather options</string>
+    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Gaya Cuaca</string>
-    <string name="lockscreen_weather_omni_style_title">Gaya omni</string>
-    <string name="lockscreen_weather_pixel_style_title">Gaya Pixel</string>
+    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_omni_style_title">Omni style</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Animasi Toast</string>
     <string name="toast_none_animation">Tidak ada</string>
@@ -673,19 +673,19 @@
     <string name="pixel_navbar_anim_title">Animasi Piksel</string>
     <string name="pixel_navbar_anim_summary">Alihkan animasi tombol beranda</string>
     <!-- LockWeather Switches -->
-    <string name="lockscreen_weather_show_city_title">Tampilkan nama kota</string>
-    <string name="lockscreen_weather_show_city_summary">Tampilkan nama kota saat ini di sebelah kiri gambar</string>
-    <string name="lockscreen_weather_show_temp_title">Tampilkan suhu</string>
-    <string name="lockscreen_weather_show_temp_summary">Tampilkan suhu kota saat ini di sebelah kanan gambar</string>
-    <string name="lockscreen_weather_show_image_title">Tampilkan Gambar Kondisi</string>
-    <string name="lockscreen_weather_show_image_summary">Tampilkan gambar kondisi cuaca</string>
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
+    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
     <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">Font Suhu Cuaca Layar Kunci</string>
-    <string name="lock_weather_temp_font_summary">Ubah font default suhu cuaca layar kunci</string>
-    <string name="lock_weather_temp_font_dialog_title">Pilih kunci font suhu cuaca</string>
-    <string name="lock_weather_city_font_title">Font Kota Cuaca Layar Kunci</string>
-    <string name="lock_weather_city_font_summary">Ubah font default kota cuaca layar kunci</string>
-    <string name="lock_weather_city_dialog_title">Pilih kunci font kota cuaca</string>
+    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
+    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
+    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
+    <string name="lock_weather_city_font_title">LS Weather City font</string>
+    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
+    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">Teks pada footer QS</string>
     <string name="qs_footer_text_summary">Tampilkan teks di bagian bawah panel QS</string>
@@ -935,11 +935,11 @@
     <!-- Battery percentage -->
     <string name="battery_percentage_title">Persentase Baterai</string>
     <string name="battery_percentage_default">Tersembunyi (bawaan)</string>
-    <string name="battery_percentage_text_inside">Di dalam ikon</string>
-    <string name="battery_percentage_text_next">Di samping ikon</string>
-    <string name="battery_text_charging_title">Persentase baterai saat pengisian</string>
-    <string name="battery_text_charging_summary">Selalu tampilkan persentase baterai saat mengisi daya</string>
+    <string name="battery_percentage_text_inside">Inside the icon</string>
+    <string name="battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_text_charging_title">Battery percentage when charging</string>
+    <string name="battery_text_charging_summary">Always display battery percentage when charging</string>
     <!-- Battery estimate -->
-    <string name="battery_estimate_title">Perkiraan Baterai</string>
-    <string name="battery_estimate_summary">Tampilkan estimasi daya baterai apabila tersedia</string>
+    <string name="battery_estimate_title">Battery estimate</string>
+    <string name="battery_estimate_summary">Display estimated remaining battery life when available</string>
 </resources>
