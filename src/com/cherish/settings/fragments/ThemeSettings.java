@@ -63,6 +63,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private static final String ACCENT_COLOR_PROP = "persist.sys.theme.accentcolor";
     private static final String GRADIENT_COLOR = "gradient_color";
     private static final String GRADIENT_COLOR_PROP = "persist.sys.theme.gradientcolor";
+	private static final String PREF_NB_COLOR = "navbar_color";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 	static final int DEFAULT = 0xff1a73e8;
 
@@ -76,6 +77,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private ListPreference mPanelBg;
     private ListPreference mQsHeaderStyle;
     private ListPreference mQsTileStyle;
+	private ListPreference mGesbar;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -180,6 +182,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         setupThemeSwitchPref();
         setupAccentPref();
         setupGradientPref();
+		setupNavbarSwitchPref();
         }
 
     @Override
@@ -323,6 +326,37 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
             Settings.System.putIntForUser(resolver,
                     Settings.System.QS_TILE_STYLE, qsTileStyleValue, UserHandle.USER_CURRENT);
             mQsTileStyle.setSummary(mQsTileStyle.getEntries()[qsTileStyleValue]);
+		} else if (preference == mGesbar){
+            String nbSwitch = (String) objValue;
+            final Context context = getContext();
+            switch (nbSwitch) {
+                case "1":
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, false, mOverlayService);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, false, mOverlayService);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, false, mOverlayService);
+                break;
+                case "2":
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, true, mOverlayService);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, false, mOverlayService);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, false, mOverlayService);
+                break;
+                case "3":
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, false, mOverlayService);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, true, mOverlayService);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, false, mOverlayService);
+                break;
+                case "4":
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, false, mOverlayService);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, false, mOverlayService);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, true, mOverlayService);
+                break;
+            }
+            try {
+                 mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.settings", UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
+             } catch (RemoteException ignored) {
+             }
         }
         return true;
     }
@@ -369,6 +403,21 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                 : Color.parseColor("#" + colorVal);
         mGradientColor.setNewPreviewColor(color);
         mGradientColor.setOnPreferenceChangeListener(this);
+    }
+	
+	private void setupNavbarSwitchPref() {
+        mGesbar = (ListPreference) findPreference(PREF_NB_COLOR);
+        mGesbar.setOnPreferenceChangeListener(this);
+        if (CherishUtils.isNavbarColor("com.gnonymous.gvisualmod.pgm_purp")){
+            mGesbar.setValue("4");
+        } else if (CherishUtils.isNavbarColor("com.gnonymous.gvisualmod.pgm_oprd")){
+            mGesbar.setValue("3");
+        } else if (CherishUtils.isNavbarColor("com.gnonymous.gvisualmod.pgm_orcd")){
+            mGesbar.setValue("2");
+        }
+        else{
+            mGesbar.setValue("1");
+        }
     }
 
     private void handleBackgrounds(Boolean state, Context context, int mode, String[] overlays) {

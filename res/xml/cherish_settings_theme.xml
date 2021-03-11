@@ -99,6 +99,16 @@
         android:entryValues="@array/panel_bg_values" />
 	</PreferenceCategory>
 
+    <ListPreference
+            android:key="navbar_color"
+            android:title="@string/navbar_color_title"
+            android:summary="%s"
+            android:icon="@drawable/ic_bar"
+            android:dialogTitle="@string/navbar_color_dialog_title"
+            android:entries="@array/navbar_color_titles"
+            android:entryValues="@array/navbar_color_values"
+            android:defaultValue="1" />
+
    <PreferenceCategory
         android:key="volume_panel_stuff"
         android:title="@string/volume_panel">
