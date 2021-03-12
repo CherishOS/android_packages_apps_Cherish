@@ -1002,4 +1002,11 @@
     <string name="status_bar_logo_style_xbox">XBOX</string>
     <string name="status_bar_logo_style_xbox_controller">XBOX Controller</string>
     <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>
+    <!--Nav colors-->
+    <string name="navbar_default">默认</string>
+    <string name="navbar_orchid">Orchid</string>
+    <string name="navbar_red">红</string>
+    <string name="navbar_purp">Purple</string>
+    <string name="navbar_color_title">Navbar Colors</string>
+    <string name="navbar_color_dialog_title">Select color</string>
 </resources>
