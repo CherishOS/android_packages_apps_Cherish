@@ -21,6 +21,8 @@
    <string name="lenovo_devices">Lenovo</string>
 
    <!-- Xiaomi Device maintainers -->
+   <string name="device_lmi">Xiaomi Redmi K30 Pro</string>
+   <string name="lmi_maintainer">Dinh San</string>
    <string name="device_lavender">Xiaomi Redmi Note 7</string>
    <string name="lavender_maintainer">Hung Phan</string>
    <string name="device_ginkgo">Xiaomi Redmi Note 8</string>

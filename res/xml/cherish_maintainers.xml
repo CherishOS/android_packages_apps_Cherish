@@ -36,7 +36,16 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/himanshu1802" />
+                android:data="https://t.me/UNKNOWN_MEMBER_69" />
+        </Preference>
+
+<Preference
+            android:title="@string/lmi_maintainer"
+            android:summary="@string/device_lmi"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/san2k" />
         </Preference>
 
   <Preference
