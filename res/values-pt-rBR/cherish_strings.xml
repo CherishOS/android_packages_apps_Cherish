@@ -49,6 +49,7 @@
     <string name="cancel">Cancelar</string>
     <string name="save">Salvar</string>
     <string name="default_string">Padrão</string>
+    <string name="disabled">Desabilitado</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Selecionar cores</string>
     <string name="press_color_to_apply">Toque na cor abaixo para aplicar</string>
@@ -387,8 +388,12 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Exibir ícone de dados desativados</string>
     <string name="data_disabled_icon_summary">Mostrar um X no ícone do sinal de rede quando os dados móveis estiverem desligados</string>
+    <!-- Accent QS tint -->
     <string name="qs_bg_use_new_tint">Cores das configurações rápidas</string>
     <string name="qs_bg_use_new_tint_summary">Usar cor de destaque para os ícones e plano de fundo</string>
+    <string name="qs_tint_off">Padrão</string>
+    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Notificações flutuantes</string>
     <string name="heads_up_summary">Personalizar o comportamento gráfico</string>
@@ -1002,4 +1007,17 @@
     <string name="status_bar_logo_style_xbox">XBOX</string>
     <string name="status_bar_logo_style_xbox_controller">XBOX Controller</string>
     <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>
+    <!--Nav colors-->
+    <string name="navbar_default">Padrão</string>
+    <string name="navbar_orchid">Orchid</string>
+    <string name="navbar_red">Vermelho</string>
+    <string name="navbar_purp">Purple</string>
+    <string name="navbar_color_title">Navbar Colors</string>
+    <string name="navbar_color_dialog_title">Select color</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
 </resources>
