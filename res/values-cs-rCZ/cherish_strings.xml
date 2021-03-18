@@ -49,6 +49,7 @@
     <string name="cancel">Zrušit</string>
     <string name="save">Uložit</string>
     <string name="default_string">Výchozí</string>
+    <string name="disabled">Vypnuto</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Výběr barvy</string>
     <string name="press_color_to_apply">Pro použití klepněte na barvu umístěnou níže</string>
@@ -361,34 +362,38 @@
     <string name="lockscreen_clock_analog_num_style">Analogové hodiny (číselné)</string>
     <!-- Lockscreen Date styles -->
     <string name="lockscreen_date_selection_title">Styl data</string>
-    <string name="lockscreen_date_dialog_title">Select date style</string>
+    <string name="lockscreen_date_dialog_title">Vyberte styl data</string>
     <string name="lockscreen_date_selection_default">Výchozí</string>
-    <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
-    <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
-    <string name="lockscreen_date_selection_qbeta_style">Q Beta pill</string>
-    <string name="lockscreen_date_selection_str_accent">Rounded, simple and with accent</string>
-    <string name="lockscreen_date_selection_str_accent_day">Rounded, simple and with accent (alt)</string>
-    <string name="lockscreen_date_selection_str_accent_transparent">Rounded, transparent and with accent</string>
-    <string name="lockscreen_date_selection_str_accent_transparent_day">Rounded, transparent and with accent (alt)</string>
-    <string name="lockscreen_date_selection_str_gradient">Gradient</string>
-    <string name="lockscreen_date_selection_str_border_accent">Dark with accented borders</string>
-    <string name="lockscreen_date_selection_str_border_gradient">Dark with gradient borders</string>
+    <string name="lockscreen_date_selection_str_box">Poloprůhledný box</string>
+    <string name="lockscreen_date_selection_str_round">Poloprůhledný box (kulatý)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Pilulka Beta Q</string>
+    <string name="lockscreen_date_selection_str_accent">Zakulacené, jednoduché a se zvýrazněním</string>
+    <string name="lockscreen_date_selection_str_accent_day">Zakulacené, jednoduché a se zvýrazněním (alt)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Zakulacené, průhledné a se zvýrazněním</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Zakulacené, průhledné a se zvýrazněním (alt)</string>
+    <string name="lockscreen_date_selection_str_gradient">Barevný Přechod</string>
+    <string name="lockscreen_date_selection_str_border_accent">Tmavé s okraji odstínu</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Tmavé s okraji s barevným přechodem</string>
     <!-- Q To X Clock -->
-    <string name="center_text_clock_title">Lock Clock Alignment</string>
+    <string name="center_text_clock_title">Zarovnání zamykacích hodin</string>
     <!-- Lockscreen Item Alignments -->
-    <string name="lockscreen_date_alignment_title">LS Date Alignment</string>
-    <string name="lockscreen_ownerinfo_alignment_title">LS OwnerInfo Alignment</string>
-    <string name="lock_item_left">Left Aligned</string>
-    <string name="lock_item_center">Center Aligned</string>
-    <string name="lock_item_right">Right Aligned</string>
-    <string name="lockscreen_item_padding_title">Lockscreen Items Padding</string>
-    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
-    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
+    <string name="lockscreen_date_alignment_title">Zarovnání počasí na zamykací obrazovce</string>
+    <string name="lockscreen_ownerinfo_alignment_title">Zarovnání vlastníka na zamykací obrazovce</string>
+    <string name="lock_item_left">Zarovnání doleva</string>
+    <string name="lock_item_center">Zarovnání na střed</string>
+    <string name="lock_item_right">Zarovnání doprava</string>
+    <string name="lockscreen_item_padding_title">Odsazení položek na zamykací obrazovce</string>
+    <string name="lockscreen_weather_alignment_title">Zarovnání počasí na zamykací obrazovce</string>
+    <string name="lockscreen_weather_selection_title">Styl pozadí WeatherView</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Data disabled icon</string>
+    <string name="data_disabled_icon_title">Ikona při vypnutí dat</string>
     <string name="data_disabled_icon_summary">Display a cross sign next to signal bar when data is disabled</string>
+    <!-- Accent QS tint -->
     <string name="qs_bg_use_new_tint">QS tile colors</string>
     <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
+    <string name="qs_tint_off">Výchozí</string>
+    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads Up</string>
     <string name="heads_up_summary">Customize Heads Up Behavior</string>
@@ -1002,4 +1007,17 @@
     <string name="status_bar_logo_style_xbox">XBOX</string>
     <string name="status_bar_logo_style_xbox_controller">XBOX Controller</string>
     <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>
+    <!--Nav colors-->
+    <string name="navbar_default">Výchozí</string>
+    <string name="navbar_orchid">Orchid</string>
+    <string name="navbar_red">Červená</string>
+    <string name="navbar_purp">Purple</string>
+    <string name="navbar_color_title">Navbar Colors</string>
+    <string name="navbar_color_dialog_title">Select color</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
 </resources>
