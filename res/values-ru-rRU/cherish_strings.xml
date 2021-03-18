@@ -49,6 +49,7 @@
     <string name="cancel">Отменить</string>
     <string name="save">Сохранить</string>
     <string name="default_string">По умолчанию</string>
+    <string name="disabled">Выключен</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
     <string name="press_color_to_apply">Нажмите на выбранный цвет для применения</string>
@@ -387,8 +388,12 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Показывать значок отключенной передачи данных</string>
     <string name="data_disabled_icon_summary">Показывать индикатор в виде крестика над значком сети, когда передача данных отключена</string>
+    <!-- Accent QS tint -->
     <string name="qs_bg_use_new_tint">Цвета плиток быстрых настроек</string>
     <string name="qs_bg_use_new_tint_summary">Использовать цвет акцента для плиток быстрых настроек и фона</string>
+    <string name="qs_tint_off">По умолчанию</string>
+    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Всплывающие уведомления</string>
     <string name="heads_up_summary">Настройки всплывающих уведомлений</string>
@@ -1002,4 +1007,17 @@
     <string name="status_bar_logo_style_xbox">XBOX</string>
     <string name="status_bar_logo_style_xbox_controller">XBOX Controller</string>
     <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>
+    <!--Nav colors-->
+    <string name="navbar_default">По умолчанию</string>
+    <string name="navbar_orchid">Orchid</string>
+    <string name="navbar_red">Красный</string>
+    <string name="navbar_purp">Purple</string>
+    <string name="navbar_color_title">Navbar Colors</string>
+    <string name="navbar_color_dialog_title">Select color</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
 </resources>
