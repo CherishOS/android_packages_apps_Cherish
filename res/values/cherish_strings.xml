@@ -910,6 +910,9 @@
     <string name="pulse_ambient_light_duration_summary">Sets the ambient light animation duration</string>
     <string name="pulse_ambient_light_repeat_count_title">Edge Light Repeat count</string>
     <string name="pulse_ambient_light_repeat_count_summary">Set max repeat count. 0 for infinite</string>
+    <string name="pulse_ambient_light_layout_title">Edge Light View</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
 
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>

@@ -18,6 +18,7 @@ import com.cherish.settings.preferences.SystemSettingMasterSwitchPreference;
 import com.cherish.settings.preferences.SystemSettingSeekBarPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
 import com.cherish.settings.preferences.SystemSettingListPreference;
+import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 import com.android.internal.util.cherish.CherishUtils;
@@ -35,6 +36,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
     private SystemSettingSeekBarPreference mEdgeLightDurationPreference;
     private SystemSettingSeekBarPreference mEdgeLightRepeatCountPreference;
     private ListPreference mColorMode;
+    private SystemSettingListPreference mAmbientLightLayout;
 	
     @Override
     public void onCreate(Bundle icicle) {
@@ -69,6 +71,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         mEdgeLightDurationPreference.setValue(duration);
 
         mColorMode = (ListPreference) findPreference(PULSE_COLOR_MODE_PREF);
+        mAmbientLightLayout = (SystemSettingListPreference) findPreference("pulse_ambient_light_layout");
         int value;
         boolean colorModeAutomatic = Settings.System.getInt(getContentResolver(),
                 Settings.System.NOTIFICATION_PULSE_COLOR_AUTOMATIC, 0) != 0;
@@ -91,6 +94,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                 Settings.System.NOTIFICATION_PULSE_COLOR, 0xFF3980FF);
         mEdgeLightColorPreference.setNewPreviewColor(edgeLightColor);
         mEdgeLightColorPreference.setAlphaSliderEnabled(false);
+        mAmbientLightLayout.setEnabled(true);
         String edgeLightColorHex = String.format("#%08x", (0xFF3980FF & edgeLightColor));
         if (edgeLightColorHex.equals("#ff3980ff")) {
             mEdgeLightColorPreference.setSummary(R.string.color_default);
