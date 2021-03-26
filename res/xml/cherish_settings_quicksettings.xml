@@ -79,6 +79,13 @@
         android:defaultValue="0" />
 	</PreferenceCategory>
 
+   <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="notification_material_dismiss"
+        android:icon="@drawable/ic_notification_clear_all"
+        android:title="@string/enable_clear_all_button"
+        android:summary="@string/enable_clear_all_button_summary"
+        android:defaultValue="false" />
+
    <PreferenceCategory
         android:title="@string/qs_show_brightness_slider_title">
 	
