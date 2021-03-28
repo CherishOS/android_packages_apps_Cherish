@@ -217,6 +217,13 @@
             settings:interval="1"
             android:dependency="pulse_ambient_light" />
 
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="ambient_light_repeat_direction"
+            android:title="@string/pulse_ambient_light_repeat_direction_title"
+            android:entries="@array/pulse_ambient_light_repeat_direction_entries"
+            android:entryValues="@array/pulse_ambient_light_repeat_direction_values"
+            android:defaultValue="0" />
+
     </PreferenceCategory>
     
 
