@@ -383,8 +383,8 @@
     <string name="lock_item_center">Centralizar</string>
     <string name="lock_item_right">Alinhado à direita</string>
     <string name="lockscreen_item_padding_title">Preenchimento da tela de bloqueio</string>
-    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
-    <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
+    <string name="lockscreen_weather_alignment_title">Alinhamento do Tempo LS</string>
+    <string name="lockscreen_weather_selection_title">Estilo de fundo WeatherView</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Exibir ícone de dados desativados</string>
     <string name="data_disabled_icon_summary">Mostrar um X no ícone do sinal de rede quando os dados móveis estiverem desligados</string>
@@ -412,21 +412,21 @@
     <string name="lockscreen_hide_shortcuts_summary">Esconder os atalhos da esquerda-direita nas telas de bloqueio seguras</string>
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">Clima</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="lockscreen_weather_enabled_title">Mostrar na tela de bloqueio</string>
+    <string name="lockscreen_weather_enabled_summary">Mostrar informações sobre o tempo na tela de bloqueio e durante o modo doze</string>
+    <string name="lockscreen_weather_settings_title">Mostrar opções de tempo</string>
+    <string name="lockscreen_weather_settings_summary">Selecionar Ícones de clima e configurações de clima</string>
+    <string name="weather_config_title">Serviço meteorológico</string>
+    <string name="weather_config_summary">Configurações de serviço do sistema</string>
+    <string name="header_weather_title">Mostrar clima no cabeçalho</string>
+    <string name="header_weather_summary">Ativar notificação de clima no cabeçalho do painel de notificações</string>
+    <string name="weather_icon_pack_title">Pacote de ícones climáticos</string>
+    <string name="weather_icon_pack_note">Nota\u003a Você pode instalar novos pacotes de ícones da play store procurando por \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">O pacote de ícones de condições é usado em configurações rápidas e na tela de bloqueio</string>
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_title">Estilo do Clima</string>
+    <string name="lockscreen_weather_omni_style_title">Estilo Omni</string>
+    <string name="lockscreen_weather_pixel_style_title">Estilo Pixel</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Animação do Toast</string>
     <string name="toast_none_animation">Nenhum</string>
@@ -671,6 +671,18 @@
     <string name="fod_recog_animation_pureview_future">Futuro</string>
     <string name="fod_recog_animation_pureview_halo_ring">Anel de Halo</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
+    <string name="fod_recog_animation_op_energy">Energy</string>
+    <string name="fod_recog_animation_op_ripple">Ripple</string>
+    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
+    <string name="fod_recog_animation_shine">Oppo Shine</string>
+    <string name="fod_recog_animation_smoke">Realme Smoke</string>
+    <string name="fod_recog_animation_strings">Realme Strings</string>
+    <string name="fod_recog_animation_quantum">Realme Quantum</string>
     <!-- Navbar Entries -->
     <string name="navbar_gestures_title">Opções da barra de navegação</string>
     <string name="navbar_gestures_summary">Escolher botões ou gestos para navegar no seu dispositivo</string>
@@ -678,19 +690,19 @@
     <string name="pixel_navbar_anim_title">Animação do Pixel</string>
     <string name="pixel_navbar_anim_summary">Alternar animação do botão inicio</string>
     <!-- LockWeather Switches -->
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
-    <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
-    <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
+    <string name="lockscreen_weather_show_city_title">Mostrar nome da cidade</string>
+    <string name="lockscreen_weather_show_city_summary">Mostrar o nome da cidade atual à esquerda da imagem</string>
+    <string name="lockscreen_weather_show_temp_title">Mostrar temperatura</string>
+    <string name="lockscreen_weather_show_temp_summary">Mostrar a temperatura atual da cidade à direita da imagem</string>
+    <string name="lockscreen_weather_show_image_title">Mostrar condição da imagem</string>
+    <string name="lockscreen_weather_show_image_summary">Mostrar imagem das condições do clima</string>
     <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">LS Weather Temp font</string>
-    <string name="lock_weather_temp_font_summary">Change the default font of the lockscreen weather temp</string>
-    <string name="lock_weather_temp_font_dialog_title">Select lock weather temp font</string>
-    <string name="lock_weather_city_font_title">LS Weather City font</string>
-    <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
-    <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
+    <string name="lock_weather_temp_font_title">Fonte do clima da tela de bloqueio</string>
+    <string name="lock_weather_temp_font_summary">Alterar a fonte padrão da data na tela de bloqueio</string>
+    <string name="lock_weather_temp_font_dialog_title">Selecionar a fonte do tempo na tela de bloqueio</string>
+    <string name="lock_weather_city_font_title">Fonte do clima da tela de bloqueio</string>
+    <string name="lock_weather_city_font_summary">Alterar a fonte padrão da cidade do tempo da tela de bloqueio</string>
+    <string name="lock_weather_city_dialog_title">Selecionar fonte da cidade na tela de bloqueio</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">Texto do rodapé</string>
     <string name="qs_footer_text_summary">Exibir texto na parte inferior do painel de configurações rápidas</string>
@@ -926,25 +938,25 @@
     <string name="qs_columns_landscape_title">Número de colunas em paisagem</string>
     <string name="qs_tile_title_visibility_title">Exibir o título dos ícones</string>
     <!-- Battery Styles -->
-    <string name="battery_percent_title">Statusbar battery indicator</string>
-    <string name="battery_percent_summary">Configure icon and text styles for the statusbar battery indicator</string>
+    <string name="battery_percent_title">Indicador de bateria</string>
+    <string name="battery_percent_summary">Configure os estilos do ícone e texto para o indicador de bateria na barra de status</string>
     <string name="status_bar_battery_style_title">Estilo de bateria</string>
     <string name="status_bar_battery_style_icon_portrait">Ícone em modo retrato</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
     <string name="status_bar_battery_style_dotted_circle">Círculo pontilhado</string>
-    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo preenchido</string>
     <string name="status_bar_battery_style_text">Texto</string>
     <string name="status_bar_battery_style_hidden">Oculto</string>
     <!-- Battery percentage -->
     <string name="battery_percentage_title">Porcentagem da bateria</string>
     <string name="battery_percentage_default">Oculto (padrão)</string>
-    <string name="battery_percentage_text_inside">Inside the icon</string>
-    <string name="battery_percentage_text_next">Next to the icon</string>
-    <string name="battery_text_charging_title">Battery percentage when charging</string>
-    <string name="battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="battery_percentage_text_next">Ao lado do ícone</string>
+    <string name="battery_text_charging_title">Porcentagem da bateria ao carregar</string>
+    <string name="battery_text_charging_summary">Sempre exibir a porcentagem da bateria ao carregar</string>
     <!-- Battery estimate -->
-    <string name="battery_estimate_title">Battery estimate</string>
-    <string name="battery_estimate_summary">Display estimated remaining battery life when available</string>
+    <string name="battery_estimate_title">Estimativa de bateria</string>
+    <string name="battery_estimate_summary">Mostrar a duração estimada restante da bateria quando disponível</string>
     <string name="qs_media_player_title">QS Media player</string>
     <string name="qs_media_player_summary_on">Show media player in QS.\nRequires a SystemUI restart</string>
     <string name="qs_media_player_summary_off">Show media player as a notification.\nRequires a SystemUI restart</string>
@@ -1020,4 +1032,14 @@
     <string name="always_on_display_schedule_sunrise">Sunrise</string>
     <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
     <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <!-- OOS clear all button -->
+    <string name="enable_clear_all_button">Clear-All button</string>
+    <string name="enable_clear_all_button_summary">Enable to use a bottom-centered button instead of stock Clear All text</string>
+    <!-- Quick Settings -->
+    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
+    <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
+    <!-- Notification Media Options -->
+    <string name="media_category">Media Notification options</string>
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
 </resources>
