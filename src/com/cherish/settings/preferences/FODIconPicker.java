@@ -196,9 +196,9 @@ public class FODIconPicker extends LayoutPreference {
         } else if (defaultfodicon == 25) {
             updateHighlightedItem(Button25, context);
         } else if (defaultfodicon == 26) {
-            updateHighlightedItem(Button25, context);
+            updateHighlightedItem(Button26, context);
         } else if (defaultfodicon == 27) {
-            updateHighlightedItem(Button25, context);
+            updateHighlightedItem(Button27, context);
         }
 
         Button0.setOnClickListener(new View.OnClickListener() {

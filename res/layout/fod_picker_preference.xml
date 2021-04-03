@@ -161,7 +161,7 @@
             android:id="@+id/fodicon11_button"
             android:layout_width="@dimen/fod_picker_item_size"
             android:layout_height="@dimen/fod_picker_item_size"
-            android:src="@drawable/fod_icon_evo1"
+            android:src="@drawable/fod_icon_cherish"
             android:scaleType="centerInside"
             android:padding="@dimen/fod_picker_item_padding"
             android:layout_margin="@dimen/fod_picker_item_margin"
