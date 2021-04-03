@@ -671,6 +671,18 @@
     <string name="fod_recog_animation_pureview_future">Tương lai</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo Ring</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_star_cas">Ánh sao</string>
+    <string name="fod_recog_animation_op_energy">Năng lượng</string>
+    <string name="fod_recog_animation_op_ripple">Gợn sóng</string>
+    <string name="fod_recog_animation_rog_fusion">Hợp nhất</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
+    <string name="fod_recog_animation_shine">Oppo Shine</string>
+    <string name="fod_recog_animation_smoke">Realme Smoke</string>
+    <string name="fod_recog_animation_strings">Realme Strings</string>
+    <string name="fod_recog_animation_quantum">Realme Quantum</string>
     <!-- Navbar Entries -->
     <string name="navbar_gestures_title">Tùy chọn thanh điều hướng</string>
     <string name="navbar_gestures_summary">Chọn các nút hoặc cử chỉ để điều hướng thiết bị của bạn</string>
@@ -998,26 +1010,36 @@
     <string name="status_bar_logo_style_music_note">Nốt nhạc</string>
     <string name="status_bar_logo_style_ninja">Ninja</string>
     <string name="status_bar_logo_style_pac_man">Pac-Man</string>
-    <string name="status_bar_logo_style_peace">Peace</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_skull">Skull</string>
-    <string name="status_bar_logo_style_smoking">Smoking</string>
-    <string name="status_bar_logo_style_wallet">Wallet</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_peace">Hòa bình</string>
+    <string name="status_bar_logo_style_robot">Người máy</string>
+    <string name="status_bar_logo_style_skull">Đầu Lâu</string>
+    <string name="status_bar_logo_style_smoking">Hút thuốc</string>
+    <string name="status_bar_logo_style_wallet">Ví tiền</string>
+    <string name="status_bar_logo_style_windows">Cửa sổ</string>
     <string name="status_bar_logo_style_xbox">XBOX</string>
-    <string name="status_bar_logo_style_xbox_controller">XBOX Controller</string>
-    <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>
+    <string name="status_bar_logo_style_xbox_controller">Bộ điều khiển XBOX</string>
+    <string name="status_bar_logo_style_yin_yang">Âm-Dương</string>
     <!--Nav colors-->
     <string name="navbar_default">Mặc định</string>
-    <string name="navbar_orchid">Orchid</string>
+    <string name="navbar_orchid">Tím phong lan</string>
     <string name="navbar_red">Đỏ</string>
-    <string name="navbar_purp">Purple</string>
-    <string name="navbar_color_title">Navbar Colors</string>
-    <string name="navbar_color_dialog_title">Select color</string>
+    <string name="navbar_purp">Đỏ tía</string>
+    <string name="navbar_color_title">Màu của thanh điều hướng</string>
+    <string name="navbar_color_dialog_title">Chọn Màu</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">Luôn hiển thị theo lịch biểu</string>
+    <string name="always_on_display_schedule_sunset">Hoàng hôn</string>
+    <string name="always_on_display_schedule_sunrise">Bình minh</string>
+    <string name="always_on_display_schedule_mixed_sunset">Bật từ hoàng hôn đến bình minh</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Bật cho đến lúc bình minh</string>
+    <!-- OOS clear all button -->
+    <string name="enable_clear_all_button">Xóa tất cả các nút</string>
+    <string name="enable_clear_all_button_summary">Cho phép sử dụng nút căn giữa dưới cùng thay vì xóa tất cả văn bản gốc</string>
+    <!-- Quick Settings -->
+    <string name="lockscreen_qs_disabled_title">Vô hiệu hoá bảng cài đặt nhanh khi bị khoá</string>
+    <string name="lockscreen_qs_disabled_summary">Vô hiệu hóa mở rộng cài đặt nhanh trên màn hình khóa an toàn</string>
+    <!-- Notification Media Options -->
+    <string name="media_category">Tùy chọn phương tiện thông báo</string>
+    <string name="artwork_media_background_title">Tác phẩm nghệ thuật nền phương tiện truyền thông</string>
+    <string name="artwork_media_background_summary">Đặt tác phẩm nghệ thuật phương tiện làm nền phương tiện thông báo</string>
 </resources>

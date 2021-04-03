@@ -671,6 +671,18 @@
     <string name="fod_recog_animation_pureview_future">Future</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
+    <string name="fod_recog_animation_op_energy">Energy</string>
+    <string name="fod_recog_animation_op_ripple">Ripple</string>
+    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
+    <string name="fod_recog_animation_shine">Oppo Shine</string>
+    <string name="fod_recog_animation_smoke">Realme Smoke</string>
+    <string name="fod_recog_animation_strings">Realme Strings</string>
+    <string name="fod_recog_animation_quantum">Realme Quantum</string>
     <!-- Navbar Entries -->
     <string name="navbar_gestures_title">Navigation gesture options</string>
     <string name="navbar_gestures_summary">Choose buttons or gestures to navigate your device</string>
@@ -1020,4 +1032,14 @@
     <string name="always_on_display_schedule_sunrise">Sunrise</string>
     <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
     <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <!-- OOS clear all button -->
+    <string name="enable_clear_all_button">Clear-All button</string>
+    <string name="enable_clear_all_button_summary">Enable to use a bottom-centered button instead of stock Clear All text</string>
+    <!-- Quick Settings -->
+    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
+    <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
+    <!-- Notification Media Options -->
+    <string name="media_category">Media Notification options</string>
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
 </resources>
