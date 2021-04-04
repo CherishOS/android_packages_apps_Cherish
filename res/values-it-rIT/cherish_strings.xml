@@ -392,7 +392,7 @@
     <string name="qs_bg_use_new_tint">QS tile colors</string>
     <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
     <string name="qs_tint_off">Default</string>
-    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_accent">Colore Primario</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads Up</string>
@@ -674,9 +674,9 @@
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
     <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
     <string name="fod_recog_animation_miui_star_cas">Starlight</string>
-    <string name="fod_recog_animation_op_energy">Energy</string>
-    <string name="fod_recog_animation_op_ripple">Ripple</string>
-    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_op_energy">Energia</string>
+    <string name="fod_recog_animation_op_ripple">Ondulazione</string>
+    <string name="fod_recog_animation_rog_fusion">Fusione</string>
     <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
     <string name="fod_recog_animation_rog_supernova">Supernova</string>
     <string name="fod_recog_animation_shine">Oppo Shine</string>
