@@ -183,6 +183,15 @@
                 android:data="https://t.me/Louis1977" />
         </Preference>
 
+<Preference
+            android:title="@string/raphael_maintainer"
+            android:summary="@string/device_raphael"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/DanipunK1" />
+        </Preference>
+
 	</PreferenceCategory>
 
 <PreferenceCategory
