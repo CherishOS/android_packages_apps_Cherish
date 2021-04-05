@@ -392,7 +392,7 @@
     <string name="qs_bg_use_new_tint">Цвета плиток быстрых настроек</string>
     <string name="qs_bg_use_new_tint_summary">Использовать цвет акцента для плиток быстрых настроек и фона</string>
     <string name="qs_tint_off">По умолчанию</string>
-    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_accent">Цветовой акцент</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Всплывающие уведомления</string>
@@ -671,17 +671,17 @@
     <string name="fod_recog_animation_pureview_future">Будущее</string>
     <string name="fod_recog_animation_pureview_halo_ring">Кольцо Halo</string>
     <string name="fod_recog_animation_pureview_molecular">Молекулы</string>
-    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
-    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
-    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
-    <string name="fod_recog_animation_op_energy">Energy</string>
-    <string name="fod_recog_animation_op_ripple">Ripple</string>
-    <string name="fod_recog_animation_rog_fusion">Fusion</string>
-    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
-    <string name="fod_recog_animation_rog_supernova">Supernova</string>
-    <string name="fod_recog_animation_shine">Oppo Shine</string>
-    <string name="fod_recog_animation_smoke">Realme Smoke</string>
-    <string name="fod_recog_animation_strings">Realme Strings</string>
+    <string name="fod_recog_animation_miui_aurora">Аврора(K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Аврора (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_star_cas">Звёздный свет</string>
+    <string name="fod_recog_animation_op_energy">Энергия</string>
+    <string name="fod_recog_animation_op_ripple">Рябь</string>
+    <string name="fod_recog_animation_rog_fusion">Слияние</string>
+    <string name="fod_recog_animation_rog_pulsar">Пульсирующий</string>
+    <string name="fod_recog_animation_rog_supernova">Сверхновая</string>
+    <string name="fod_recog_animation_shine">Oppo Сияние</string>
+    <string name="fod_recog_animation_smoke">Realme Дым</string>
+    <string name="fod_recog_animation_strings">Строки Realme</string>
     <string name="fod_recog_animation_quantum">Realme Quantum</string>
     <!-- Navbar Entries -->
     <string name="navbar_gestures_title">Параметры жестов навигации</string>
@@ -957,18 +957,20 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Остаток заряда</string>
     <string name="battery_estimate_summary">Показывать ожидаемое время работы от аккумулятора, если доступно</string>
-    <string name="qs_media_player_title">QS Media player</string>
-    <string name="qs_media_player_summary_on">Show media player in QS.\nRequires a SystemUI restart</string>
-    <string name="qs_media_player_summary_off">Show media player as a notification.\nRequires a SystemUI restart</string>
+    <string name="qs_media_player_title">Медиапроигрыватель</string>
+    <string name="qs_media_player_summary_on">Показать медиаплеер в быстрых настройках.
+Требует перезапуска интерфейса</string>
+    <string name="qs_media_player_summary_off">Показать медиаплеер как уведомление.
+Требует перезапуска интерфейса</string>
     <!-- Statusbar logo -->
-    <string name="status_bar_logo_title">Logo</string>
-    <string name="status_bar_logo_summary">Show a custom logo in the status bar</string>
-    <string name="status_bar_logo_color">Logo color</string>
-    <string name="status_bar_logo_position">Logo position</string>
+    <string name="status_bar_logo_title">Логотип</string>
+    <string name="status_bar_logo_summary">Отображать пользовательский логотип в строке состояния</string>
+    <string name="status_bar_logo_color">Цвет логотипа</string>
+    <string name="status_bar_logo_position">Положение логотипа</string>
     <string name="status_bar_logo_position_summary">%1$s</string>
     <string name="status_bar_logo_position_right">Справа</string>
     <string name="status_bar_logo_position_left">Слева</string>
-    <string name="status_bar_logo_style">Logo style</string>
+    <string name="status_bar_logo_style">Стиль логотипа</string>
     <string name="status_bar_logo_style_cherish">Cherish</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_apple">Apple</string>
