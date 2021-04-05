@@ -44,6 +44,13 @@
             android:persistent="false" />
 
     </PreferenceCategory>
+	
+	    <!-- Gaming mode -->
+        <Preference
+            android:key="gaming_category"
+            android:title="@string/gaming_title" 
+            android:fragment="com.cherish.settings.fragments.GamingModeSettings"
+            android:icon="@drawable/ic_gaming_image"/>
 
 
         <com.cherish.settings.preferences.GlobalSettingSwitchPreference
