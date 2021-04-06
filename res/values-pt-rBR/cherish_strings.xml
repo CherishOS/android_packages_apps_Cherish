@@ -884,15 +884,13 @@
     <string name="corner_fwvals_summary">Útil se o dispositivo tiver cantos arredondados</string>
     <string name="unit_pixels">dp</string>
     <!-- Switch styles -->
-    <string name="switch_style_title">Alternar aparência</string>
+    <string name="switch_style_title">Switch style</string>
     <string name="switch_default">Padrão</string>
-    <string name="switch_oneplus">OnePlus</string>
-    <string name="switch_narrow">Estreito</string>
     <string name="switch_contained">Isolado</string>
-    <string name="switch_md2">MD2</string>
-    <string name="switch_retro">Retrô</string>
     <string name="switch_telegram">Telegram</string>
-    <string name="switch_stockish">Estoque</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Retrô</string>
+    <string name="switch_oos">OxygenOS 11</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Estilo das configurações rápidas</string>
     <string name="qstile_default">Padrão</string>
