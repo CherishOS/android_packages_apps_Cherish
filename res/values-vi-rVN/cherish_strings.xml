@@ -884,15 +884,13 @@
     <string name="corner_fwvals_summary">Hữu ích nếu thiết bị thực sự có các góc tròn</string>
     <string name="unit_pixels">dp</string>
     <!-- Switch styles -->
-    <string name="switch_style_title">Chuyển đổi ngoại hình</string>
+    <string name="switch_style_title">Switch style</string>
     <string name="switch_default">Mặc định</string>
-    <string name="switch_oneplus">OnePlus</string>
-    <string name="switch_narrow">Hẹp</string>
     <string name="switch_contained">Bộ chứa</string>
-    <string name="switch_md2">MD2</string>
-    <string name="switch_retro">Retro</string>
     <string name="switch_telegram">Telegram</string>
-    <string name="switch_stockish">Stockish</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_oos">OxygenOS 11</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Kiểu ô cài đặt nhanh</string>
     <string name="qstile_default">Mặc định</string>
