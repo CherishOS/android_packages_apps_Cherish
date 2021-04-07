@@ -63,6 +63,8 @@
    <string name="sakura_maintainer">Mohit Yadav</string>
    <string name="device_surya">Xiaomi Poco X3</string>
    <string name="surya_maintainer">Rishabh Prakash</string>
+   <string name="device_phoenix">Xiaomi Poco X2</string>
+   <string name="phoenix_maintainer">BIBIN DAS B</string>
 
     <!-- Realme Device maintainers -->
    <string name="device_RMX1901">Realme RMX1901</string>
