@@ -28,7 +28,7 @@
     <string name="powermenu_summary">Gelişmiş yeniden başlatma, güç menüsü şeffaflığı</string>
     <string name="theme_title">Temalar</string>
     <string name="theme_summary">Sistem teması, yuvarlak, geçiş teması</string>
-    <string name="quicksettings_title">Hızlı Ayarlar</string>
+    <string name="quicksettings_title">Hızlı ayarlar</string>
     <string name="quicksettings_summary">Kare düzeni, bulanıklaştırma</string>
     <string name="recents_title">Son uygulamalar</string>
     <string name="recents_summary">Slim son uygulamalar</string>
@@ -51,7 +51,7 @@
     <string name="default_string">Varsayılan</string>
     <string name="disabled">Devre dışı</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Renk Seçici</string>
+    <string name="dialog_color_picker">Renk seçici</string>
     <string name="press_color_to_apply">Uygulamak için aşağıdaki renge basın</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
@@ -79,18 +79,18 @@
     <string name="theme_type_summary">Tema seçin</string>
     <string name="theme_type_light">Açık</string>
     <string name="theme_type_pitch_black">Google karanlık</string>
-    <string name="theme_type_solarized_dark">Güneşleşmiş Karanlık</string>
-    <string name="theme_type_baked_green">Fırında Yeşil</string>
+    <string name="theme_type_solarized_dark">Güneşleşmiş karanlık</string>
+    <string name="theme_type_baked_green">Fırında yeşil</string>
     <string name="theme_type_choco_x">Choco X</string>
-    <string name="theme_type_dark_grey">Koyu Gri</string>
+    <string name="theme_type_dark_grey">Koyu gri</string>
     <string name="theme_type_du_pitchblack">Simsiyah</string>
-    <string name="theme_type_material_ocean">Materyal Okyanus</string>
+    <string name="theme_type_material_ocean">Materyal okyanus</string>
     <string name="theme_type_clear_spring">Clear Spring</string>
     <!--Accenter -->
     <string name="themes_hub_title">Temalar</string>
     <string name="themes_hub_summary">Vurgular-Gradyanlar-Temalar</string>
     <string name="accent_color">Vurgu seçici</string>
-    <string name="accent_summary">Gradyan Oluşturucu</string>
+    <string name="accent_summary">Gradyan oluşturucu</string>
     <string name="gradient_color">Gradyan seçici</string>
     <string name="gradient_summary">Gradyan efekti oluşturucu</string>
     <!--ThemePicker-->
@@ -101,9 +101,9 @@
     <string name="battery_light_enable">Etkinleştir</string>
     <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyin modunda pil ışığı</string>
     <string name="battery_light_low_blinking_title">Düşük pilde ışığı yak söndür</string>
-    <string name="battery_light_cat">Şarj olurkenki pil ışığı rengi</string>
+    <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
     <string name="battery_light_low_color">Düşük pil</string>
-    <string name="battery_light_medium_color">Yarım pil</string>
+    <string name="battery_light_medium_color">Orta pil</string>
     <string name="battery_light_full_color">Neredeyse dolu pil</string>
     <string name="battery_light_reallyfull_color">Tam dolu pil (%100)</string>
     <string name="notification_light_settings">Bildirim ışığı</string>
@@ -237,7 +237,7 @@
     <string name="global_actions_airplane">Uçak modu</string>
     <string name="global_actions_settings">Ayarlar</string>
     <string name="global_actions_lockdown">Kilitle</string>
-    <string name="global_actions_soundpanel">Ses Paneli</string>
+    <string name="global_actions_soundpanel">Ses paneli</string>
     <string name="global_actions_users">Kullanıcılar</string>
     <string name="global_actions_screenshot">Ekran görüntüsü</string>
     <string name="global_actions_screenrecord">Ekran kaydı</string>
@@ -323,7 +323,7 @@
     <!-- Lock Clock & Date Size -->
     <string name="lockdate_font_size_title">Tarih yazı tipi boyutu</string>
     <string name="lockclock_font_size_title">Saat yazı tipi boyutu</string>
-    <string name="custom_text_clock_font_size_title">Tipografi Saat boyutu</string>
+    <string name="custom_text_clock_font_size_title">Tipografi saat boyutu</string>
     <!-- Lockscreen Colors -->
     <string name="lockscreen_colors">Kilit ekranı renkleri</string>
     <string name="lockscreen_clock_color">Kilit ekranı saati</string>
@@ -355,14 +355,14 @@
     <string name="lockscreen_clock_default_bold">Varsayılan (Kalın)</string>
     <string name="lockscreen_clock_sammy">Sammy</string>
     <string name="lockscreen_clock_sammy_bold">Sammy (kalın)</string>
-    <string name="lockscreen_clock_sammy_accent_hour">Sammy Vurgu(saat)</string>
-    <string name="lockscreen_clock_sammy_accent_mins">Sammy Vurgu(dakika)</string>
+    <string name="lockscreen_clock_sammy_accent_hour">Sammy vurgu(saat)</string>
+    <string name="lockscreen_clock_sammy_accent_mins">Sammy vurgu(dakika)</string>
     <string name="lockscreen_clock_text_style">Metin saati</string>
     <string name="lockscreen_clock_analog_style">Analog Q stili</string>
     <string name="lockscreen_clock_analog_num_style">Analog saat(sayı)</string>
     <!-- Lockscreen Date styles -->
     <string name="lockscreen_date_selection_title">Tarih stili</string>
-    <string name="lockscreen_date_dialog_title">Tarih stilini seçin</string>
+    <string name="lockscreen_date_dialog_title">Tarih stili seçin</string>
     <string name="lockscreen_date_selection_default">Varsayılan</string>
     <string name="lockscreen_date_selection_str_box">Yarı şeffaf kutu</string>
     <string name="lockscreen_date_selection_str_round">Yarı şeffaf kutu (yuvarlak)</string>
@@ -390,9 +390,9 @@
     <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal çubuğunun yanında çarpı işareti gösterir</string>
     <!-- Accent QS tint -->
     <string name="qs_bg_use_new_tint">Hızlı ayarlar kare renkleri</string>
-    <string name="qs_bg_use_new_tint_summary">Hızlı Ayarlar kareleri ve arka planı için vurgu rengi kullanın</string>
+    <string name="qs_bg_use_new_tint_summary">Hızlı ayarlar kareleri ve arka planı için vurgu rengi kullanın</string>
     <string name="qs_tint_off">Varsayılan</string>
-    <string name="qs_tint_accent">Vurgu Rengi</string>
+    <string name="qs_tint_accent">Vurgu rengi</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Bildirim pencereleri</string>
@@ -411,7 +411,7 @@
     <string name="lockscreen_hide_shortcuts_title">Alt kısayolları gizle</string>
     <string name="lockscreen_hide_shortcuts_summary">Güvenli kilit ekranında sağ ve sol alt kısayolları gizle</string>
     <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Hava Durumu</string>
+    <string name="lockscreen_weather_category">Hava durumu</string>
     <string name="lockscreen_weather_enabled_title">Kilit ekranında göster</string>
     <string name="lockscreen_weather_enabled_summary">Kilit ekranı ve doze sırasında hava durumu bilgilerini göster</string>
     <string name="lockscreen_weather_settings_title">Hava durumu seçeneklerini ayarla</string>
@@ -530,25 +530,25 @@
     <string name="volume_steps_notification_title">Ses seviyesi: Bildirim</string>
     <string name="volume_steps_ring_title">Ses seviyesi: Zil sesi</string>
     <string name="volume_steps_system_title">Ses seviyesi: Sistem</string>
-    <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli Arama</string>
+    <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli arama</string>
     <string name="volume_steps_reset">Sıfırla</string>
     <!-- Notification headers -->
-    <string name="notification_headers_title">Bildirim Başlığı</string>
+    <string name="notification_headers_title">Bildirim başlığı</string>
     <string name="notification_headers_summary">Başlıkları bildirim gölgesinde göster\nSistem kullanıcı arayüzünün yeniden başlatılmasını gerektirir</string>
     <!-- Center R Notification headers -->
     <string name="center_notification_headers_title">Bildirim başlıklarını ortala</string>
     <string name="center_notification_headers_summary">R stili bildirim başlıklarının gösterilip gösterilmeyeceğini seçin (Sistem arayüzünün yeniden başlatılmasını gerektirir)</string>
     <!-- Dashboard -->
-    <string name="dashboard_conditions_title">Kontrol paneli durumları</string>
-    <string name="summary_dashboard_conditions_enabled">Kontrol paneli durumları etkin</string>
-    <string name="summary_dashboard_conditions_disabled">Kontrol paneli durumları devre dışı</string>
-    <string name="dashboard_suggestions_title">Kontrol paneli önerileri</string>
-    <string name="summary_dashboard_suggestions_enabled">Kontrol paneli önerileri etkin</string>
-    <string name="summary_dashboard_suggestions_disabled">Kontrol paneli önerileri devre dışı</string>
+    <string name="dashboard_conditions_title">Ayarlar menüsü durumları</string>
+    <string name="summary_dashboard_conditions_enabled">Ayarlar menüsü durumları etkin</string>
+    <string name="summary_dashboard_conditions_disabled">Ayarlar menüsü durumları devre dışı</string>
+    <string name="dashboard_suggestions_title">Ayarlar menüsü önerileri</string>
+    <string name="summary_dashboard_suggestions_enabled">Ayarlar menüsü önerileri etkin</string>
+    <string name="summary_dashboard_suggestions_disabled">Ayarlar menüsü önerileri devre dışı</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Müzik görselleştiriciyi görüntüle</string>
     <string name="lockscreen_visualizer_summary">Kilit ekranı görselleştiriciyi değiştir</string>
-    <string name="lockscreen_visualizer_enable">Müzik Görselleştiricisi</string>
+    <string name="lockscreen_visualizer_enable">Müzik görselleştiricisi</string>
     <string name="lockscreen_visualizer_enable_summary">Müzik çalarken görselleştirici çubukları göster</string>
     <string name="lockscreen_autocolor_title">Otomatik renk</string>
     <string name="lockscreen_autocolor_summary">Rengi kilit ekranı arkaplanı ile eşitle</string>
@@ -556,7 +556,7 @@
     <string name="lockscreen_lavalamp_title">Lav lambası</string>
     <string name="lockscreen_lavalamp_summary">Pürüzsüz bir lav lambası tarzı renk karışımı animasyonu kullanın</string>
     <string name="lockscreen_lavalamp_speed_title">Renk karışımı aralığı</string>
-    <string name="lockscreen_solid_lines_category">Kesintisiz Çizgiler</string>
+    <string name="lockscreen_solid_lines_category">Kesintisiz çizgiler</string>
     <string name="lockscreen_solid_units_count_title">Satır sayısı</string>
     <string name="lockscreen_solid_fudge_factor_title">Hassasiyet seviyesi</string>
     <string name="lockscreen_solid_units_opacity_title">Çizgi şeffaflığı</string>
@@ -863,7 +863,7 @@
     <string name="qs_header_style_title">Hızlı ayarlar başlık stili</string>
     <string name="qs_header_black">Siyah</string>
     <string name="qs_header_grey">Gri</string>
-    <string name="qs_header_lightgrey">Açık Gri</string>
+    <string name="qs_header_lightgrey">Açık gri</string>
     <string name="qs_header_accent">Vurgu renkli</string>
     <string name="qs_header_transparent">Şeffaf</string>
     <!-- Quick Settings quick pulldown -->
@@ -884,12 +884,12 @@
     <string name="corner_fwvals_summary">Cihaz gerçekten yuvarlatılmış köşelere sahipse kullanışlıdır</string>
     <string name="unit_pixels">dp</string>
     <!-- Switch styles -->
-    <string name="switch_style_title">Switch style</string>
+    <string name="switch_style_title">Stili değiştir</string>
     <string name="switch_default">Varsayılan</string>
     <string name="switch_contained">Contained</string>
     <string name="switch_telegram">Telegram</string>
-    <string name="switch_md2">Material Design 2</string>
-    <string name="switch_retro">Eski Tarz</string>
+    <string name="switch_md2">Metaryel tasarım 2</string>
+    <string name="switch_retro">Eski still</string>
     <string name="switch_oos">OxygenOS 11</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Hızlı ayarlar kare stili</string>
@@ -920,7 +920,7 @@
     <string name="incall_vibrate_call_wait_title">Çağrı bekletildiğinde titret</string>
     <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
     <!-- Smart Pixels -->
-    <string name="smart_pixels_title">Akıllı Pikseller</string>
+    <string name="smart_pixels_title">Akıllı pikseller</string>
     <string name="smart_pixels_summary">Fazladan pikselleri kapatarak pil tasarrufu sağlayın</string>
     <string name="smart_pixels_on_power_save_title">Pil tasarrufunda otomatik etkinleştir</string>
     <string name="smart_pixels_on_power_save_summary">Güç tasarrufunu artırmak için pil tasarrufu ile etkinleştirin</string>
@@ -955,9 +955,9 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Tahmini pil süresi</string>
     <string name="battery_estimate_summary">Mümkün olduğunda tahmini kalan pil ömrünü görüntüleyin</string>
-    <string name="qs_media_player_title">Hızlı Ayarlar Medya oynatıcısı</string>
-    <string name="qs_media_player_summary_on">Medya oynatıcıyı Hızlı Ayarlarda göster.\nSystemUI\'nin yeniden başlatılmasını gerektirir</string>
-    <string name="qs_media_player_summary_off">Medya oynatıcıyı bildirim olarak göster.\nSystemUI\'nin yeniden başlatılmasını gerektirir</string>
+    <string name="qs_media_player_title">Hızlı ayarlar medya oynatıcısı</string>
+    <string name="qs_media_player_summary_on">Medya oynatıcıyı Hızlı Ayarlarda göster.\nSistem arayüzünün yeniden başlatılmasını gerektirir</string>
+    <string name="qs_media_player_summary_off">Medya oynatıcıyı bildirim olarak göster.\nSistem arayüzünün yeniden başlatılmasını gerektirir</string>
     <!-- Statusbar logo -->
     <string name="status_bar_logo_title">Logo</string>
     <string name="status_bar_logo_summary">Durum çubuğunda özel bir logo göster</string>
@@ -1022,7 +1022,7 @@
     <string name="navbar_orchid">Orkide</string>
     <string name="navbar_red">Kırmızı</string>
     <string name="navbar_purp">Mor</string>
-    <string name="navbar_color_title">Gezinme çubuğu Renkleri</string>
+    <string name="navbar_color_title">Gezinme çubuğu renkleri</string>
     <string name="navbar_color_dialog_title">Renk seçin</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Her zaman açık ekranı programla</string>
@@ -1037,7 +1037,7 @@
     <string name="lockscreen_qs_disabled_title">Kilit ekranında hızlı ayarları devre dışı bırakın</string>
     <string name="lockscreen_qs_disabled_summary">Güvenli kilit ekranlarında hızlı ayarların genişletilmesini devre dışı bırakın</string>
     <!-- Notification Media Options -->
-    <string name="media_category">Medya Bildirimi seçenekleri</string>
+    <string name="media_category">Medya bildirimi seçenekleri</string>
     <string name="artwork_media_background_title">Medya resmi arka planı</string>
     <string name="artwork_media_background_summary">Medya resmini bildirim medyası arka planı olarak ayarla</string>
 </resources>
