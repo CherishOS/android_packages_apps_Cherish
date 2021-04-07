@@ -148,8 +148,8 @@
         </Preference>
 
 <Preference
-            android:title="@string/platina_maintainer"
-            android:summary="@string/device_platina"
+            android:title="@string/chiron_maintainer"
+            android:summary="@string/device_chiron"
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
