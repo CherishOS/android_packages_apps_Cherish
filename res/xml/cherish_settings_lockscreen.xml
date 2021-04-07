@@ -283,6 +283,12 @@
             android:defaultValue="25"
             settings:units="dp"/>
 
+    <Preference
+        android:key="keygaurd_batterybar"
+        android:title="@string/keyguard_show_battery_title"
+        android:summary="@string/keyguard_show_battery_summary"
+        android:fragment="com.cherish.settings.fragments.KeygaurdBatteryBar" />
+
   </PreferenceCategory>
 
     <!-- FOD icon picker -->
