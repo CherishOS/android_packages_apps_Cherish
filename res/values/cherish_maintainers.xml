@@ -61,6 +61,8 @@
    <string name="raphael_maintainer">DanipunK1</string>
    <string name="device_sakura">Xiaomi Redmi 6 Pro</string>
    <string name="sakura_maintainer">Mohit Yadav</string>
+   <string name="device_surya">Xiaomi Poco X3</string>
+   <string name="surya_maintainer">Rishabh Prakash</string>
 
     <!-- Realme Device maintainers -->
    <string name="device_RMX1901">Realme RMX1901</string>
