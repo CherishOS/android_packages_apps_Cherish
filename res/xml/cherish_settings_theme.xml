@@ -97,6 +97,64 @@
         android:entries="@array/panel_bg_titles"
         android:entryValues="@array/panel_bg_values" />
 	</PreferenceCategory>
+	
+	<PreferenceCategory
+        android:key="quick_settings_category"
+        android:title="@string/quicksettings_title">
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tiles_bg_disco"
+            android:title="@string/qs_panel_bg_disco_title"
+            android:summary="@string/qs_panel_bg_disco_summary"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_panel_bg_use_new_tint"
+            android:title="@string/qs_bg_use_new_tint"
+	    android:dialogTitle="@string/qs_bg_use_new_tint"
+            android:entries="@array/qs_tint_entries"
+	    android:entryValues="@array/qs_tint_values"
+            android:summary="@string/qs_bg_use_new_tint_summary"
+            android:defaultValue="1" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="quick_settings_colors_category"
+        android:title="@string/qs_panel_colors_title">
+
+        <!-- QS panel opacity -->
+        <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_panel_bg_alpha"
+            android:title="@string/qs_panel_bg_alpha_title"
+            android:defaultValue="255"
+            android:max="255"
+            android:min="0"
+            settings:units="" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_panel_bg_use_fw"
+            android:title="@string/qs_panel_bg_use_fw_title"
+            android:summary="@string/qs_panel_bg_use_fw_summary"
+            android:defaultValue="true"
+            android:disableDependentsState="true" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="sysui_colors_active"
+            android:title="@string/sysui_colors_active_title"
+            android:summary="@string/sysui_colors_active_summary"
+            android:defaultValue="false"
+            android:dependency="qs_panel_bg_use_fw"
+            android:disableDependentsState="true" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="qs_panel_color"
+            android:title="@string/qs_panel_bg_color_title"
+            android:defaultValue="0xFFFFFFFF"
+            android:persistent="false"
+            android:dependency="sysui_colors_active" />
+
+    </PreferenceCategory>
 
     <ListPreference
             android:key="navbar_color"

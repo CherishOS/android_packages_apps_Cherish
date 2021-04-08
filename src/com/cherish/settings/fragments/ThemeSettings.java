@@ -66,6 +66,9 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 	private static final String PREF_NB_COLOR = "navbar_color";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 	static final int DEFAULT = 0xff1a73e8;
+	private static final String QS_PANEL_COLOR = "qs_panel_color";
+
+    private ColorPickerPreference mQsPanelColor;
 
     private IOverlayManager mOverlayService;
     private UiModeManager mUiModeManager;
@@ -173,6 +176,14 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         mQsTileStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
         mQsTileStyle.setSummary(mQsTileStyle.getEntry());
         mQsTileStyle.setOnPreferenceChangeListener(this);
+		
+		mQsPanelColor = (ColorPickerPreference)findPreference(QS_PANEL_COLOR);
+        mQsPanelColor.setOnPreferenceChangeListener(this);
+        int intColor = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_PANEL_BG_COLOR, DEFAULT_QS_PANEL_COLOR, UserHandle.USER_CURRENT);
+        String hexColor = String.format("#%08x", (0xFFFFFFFF & intColor));
+        mQsPanelColor.setSummary(hexColor);
+        mQsPanelColor.setNewPreviewColor(intColor);
 
         mUiModeManager = getContext().getSystemService(UiModeManager.class);
 
@@ -184,7 +195,15 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         setupGradientPref();
 		setupNavbarSwitchPref();
         }
+        
+    public String getPreferenceKey() {
+        return QS_PANEL_COLOR;
+    }
 
+    public boolean isAvailable() {
+        return true;
+    }
+	
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
@@ -326,6 +345,13 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
             Settings.System.putIntForUser(resolver,
                     Settings.System.QS_TILE_STYLE, qsTileStyleValue, UserHandle.USER_CURRENT);
             mQsTileStyle.setSummary(mQsTileStyle.getEntries()[qsTileStyleValue]);
+		} else if (preference == mQsPanelColor) {
+            String hex = ColorPickerPreference.convertToARGB(
+                    Integer.valueOf(String.valueOf(objValue)));
+            preference.setSummary(hex);
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.QS_PANEL_BG_COLOR, intHex, UserHandle.USER_CURRENT);
 		} else if (preference == mGesbar){
             String nbSwitch = (String) objValue;
             final Context context = getContext();
