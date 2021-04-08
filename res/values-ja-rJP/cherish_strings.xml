@@ -883,14 +883,6 @@
     <string name="corner_fwvals">フレームワークの値を使用</string>
     <string name="corner_fwvals_summary">実際に端末の画面が丸い角の場合に有用です</string>
     <string name="unit_pixels">dp</string>
-    <!-- Switch styles -->
-    <string name="switch_style_title">Switch style</string>
-    <string name="switch_default">既定</string>
-    <string name="switch_contained">格納</string>
-    <string name="switch_telegram">Telegram</string>
-    <string name="switch_md2">Material Design 2</string>
-    <string name="switch_retro">レトロ</string>
-    <string name="switch_oos">OxygenOS 11</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">タイルのスタイル</string>
     <string name="qstile_default">既定</string>
