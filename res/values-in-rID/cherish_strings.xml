@@ -1032,4 +1032,9 @@
     <string name="media_category">Opsi Pemberitahuan Media</string>
     <string name="artwork_media_background_title">Latar belakang media karya seni</string>
     <string name="artwork_media_background_summary">Tetapkan media karya seni sebagai latar belakang media notifikasi</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Bawaan</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
 </resources>
