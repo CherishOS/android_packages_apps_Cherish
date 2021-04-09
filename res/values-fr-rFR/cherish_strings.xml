@@ -1032,4 +1032,9 @@
     <string name="media_category">Media Notification options</string>
     <string name="artwork_media_background_title">Artwork media background</string>
     <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
 </resources>
