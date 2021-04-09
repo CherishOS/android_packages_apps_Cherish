@@ -1035,6 +1035,6 @@
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Mặc định</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ lâu để thiết lập</string>
+    <string name="custom_seekbar_default_value_is_set">Giá trị mặc định được thiết lập</string>
 </resources>
