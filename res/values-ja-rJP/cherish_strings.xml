@@ -1032,4 +1032,9 @@
     <string name="media_category">メディア通知オプション</string>
     <string name="artwork_media_background_title">メディアアートワークの背景</string>
     <string name="artwork_media_background_summary">メディアアートワークをメディア通知の背景に設定する</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">既定</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
 </resources>
