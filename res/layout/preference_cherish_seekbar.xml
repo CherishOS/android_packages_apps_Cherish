@@ -14,79 +14,66 @@
      limitations under the License.
 -->
 
-<LinearLayout
+<androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/prefCard"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:minHeight="?android:attr/listPreferredItemHeightSmall"
-    android:gravity="center_vertical"
-    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
-    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-    android:clickable="false"
-    android:orientation="horizontal">
+    android:layout_height="75dp"
+    android:clickable="true"
+    android:focusable="true"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="4dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginHorizontal="32dp"
+    android:foreground="?android:attr/selectableItemBackground">
 
-    <LinearLayout
-        android:id="@+id/text_container"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minWidth="44dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:paddingEnd="12dp"
-        android:paddingTop="4dp"
-        android:paddingBottom="4dp">
-        <TextView
-            android:id="@+id/seekBarPrefValue"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:singleLine="true"
-            android:ellipsize="end"
-            android:textAppearance="@android:style/TextAppearance.Material.Body1"
-            android:textColor="?android:attr/textColorSecondary"/>
-    </LinearLayout>
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="8dip"
-        android:layout_marginBottom="8dip">
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/icon_frame"
+            android:layout_width="wrap_content"
+            android:paddingStart="16dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@android:id/icon"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:scaleType="center" />
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
             <TextView
                 android:id="@android:id/title"
-                android:layout_width="0dp"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:paddingStart="16dp"
-                android:singleLine="true"
-                android:textAppearance="@android:style/TextAppearance.Material.Subhead"
-                android:textColor="?android:attr/textColorPrimary"
                 android:ellipsize="marquee"
-                android:fadingEdge="horizontal"/>
-            <!-- Preference should place its actual preference widget here. -->
-            <LinearLayout
-                android:id="@android:id/widget_frame"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:paddingStart="16dp"
-                android:orientation="vertical"/>
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textSize="12sp" />
         </LinearLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="6dp">
-
-            <LinearLayout android:id="@+id/seekBarPrefBarContainer"
-                android:layout_gravity="center_vertical"
-                android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        </FrameLayout>
-    </LinearLayout>
-
-</LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
