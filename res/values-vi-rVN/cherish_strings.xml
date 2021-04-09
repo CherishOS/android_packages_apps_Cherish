@@ -1032,4 +1032,9 @@
     <string name="media_category">Tùy chọn phương tiện thông báo</string>
     <string name="artwork_media_background_title">Tác phẩm nghệ thuật nền phương tiện truyền thông</string>
     <string name="artwork_media_background_summary">Đặt tác phẩm nghệ thuật phương tiện làm nền phương tiện thông báo</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Mặc định</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
 </resources>
