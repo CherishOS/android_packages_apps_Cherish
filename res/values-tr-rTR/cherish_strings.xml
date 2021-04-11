@@ -745,6 +745,7 @@
     <string name="file_header_select_title">Depolamadan bir resim seçin</string>
     <string name="file_header_select_summary">Dahili depolamadan resim seçin</string>
     <string name="status_bar_custom_header_shadow_title">Koyu resim</string>
+    <string name="status_bar_custom_header_height_title">Image height offset</string>
     <!-- FOD pressed color -->
     <string name="fod_pressed_color_title">Parmak izi dokunma rengi</string>
     <string name="fod_pressed_color_white">Beyaz</string>
@@ -1033,8 +1034,8 @@
     <string name="artwork_media_background_title">Medya resmi arka planı</string>
     <string name="artwork_media_background_summary">Medya resmini bildirim medyası arka planı olarak ayarla</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_value">Değer: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Varsayılan</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <string name="custom_seekbar_default_value_to_set">Varsayılan değer: <xliff:g id="v">%s</xliff:g>\nAyarlamak için uzun dokunun</string>
+    <string name="custom_seekbar_default_value_is_set">Varsayılan değer ayarlandı</string>
 </resources>
