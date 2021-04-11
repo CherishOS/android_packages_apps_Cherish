@@ -745,6 +745,7 @@
     <string name="file_header_select_title">Выберите изображение с телефона</string>
     <string name="file_header_select_summary">Выберите изображение из внутренней памяти</string>
     <string name="status_bar_custom_header_shadow_title">Затемнить изображение</string>
+    <string name="status_bar_custom_header_height_title">Image height offset</string>
     <!-- FOD pressed color -->
     <string name="fod_pressed_color_title">Эффект нажатого отпечатка пальца</string>
     <string name="fod_pressed_color_white">Белый</string>
