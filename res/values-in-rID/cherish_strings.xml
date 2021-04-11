@@ -745,6 +745,7 @@
     <string name="file_header_select_title">Pilih gambar dari penyimpanan</string>
     <string name="file_header_select_summary">Pilih gambar dari penyimpanan internal</string>
     <string name="status_bar_custom_header_shadow_title">Gambar menggelap</string>
+    <string name="status_bar_custom_header_height_title">Offset tinggi gambar</string>
     <!-- FOD pressed color -->
     <string name="fod_pressed_color_title">Warna sidik jari ditekan</string>
     <string name="fod_pressed_color_white">Putih</string>
