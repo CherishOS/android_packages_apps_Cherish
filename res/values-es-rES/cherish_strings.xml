@@ -745,6 +745,7 @@
     <string name="file_header_select_title">Elija la imagen del almacenamiento</string>
     <string name="file_header_select_summary">Seleccionar una imagen del almacenamiento interno</string>
     <string name="status_bar_custom_header_shadow_title">Imagen oscura</string>
+    <string name="status_bar_custom_header_height_title">Image height offset</string>
     <!-- FOD pressed color -->
     <string name="fod_pressed_color_title">Color de huella digital</string>
     <string name="fod_pressed_color_white">Blanco</string>
