@@ -89,24 +89,20 @@
    <PreferenceCategory
         android:title="@string/qs_show_brightness_slider_title">
 	
-	<com.cherish.settings.preferences.SecureSettingSwitchPreference
+	<com.cherish.settings.preferences.SecureSettingListPreference
         android:key="qs_show_brightness_slider"
         android:title="@string/qs_show_brightness_slider_title"
-        android:summary="@string/qs_show_brightness_slider_summary"
-        android:defaultValue="false" />
-		
-	<com.cherish.settings.preferences.SecureSettingSwitchPreference
-            android:key="qs_show_brightness_slider_show_expanded"
-            android:title="@string/qs_show_brightness_slider_expanded_title"
-            android:summary="@string/qs_show_brightness_slider_expanded_summary"
-            android:defaultValue="true" />
+        android:summary="%s"
+        android:dialogTitle="@string/qs_show_brightness_slider_title"
+        android:entries="@array/qs_show_brightness_slider_entries"
+        android:entryValues="@array/qs_show_brightness_slider_values"
+        android:defaultValue="1" />
 
        <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_brightness_position_bottom"
             android:icon="@drawable/ic_brightness"
             android:title="@string/qs_brightness_position_bottom_title"
             android:summary="@string/qs_brightness_position_bottom_summary"
-            android:dependency="qs_show_brightness_slider_show_expanded"
             android:defaultValue="false" />
 
     <com.cherish.settings.preferences.SecureSettingSwitchPreference
