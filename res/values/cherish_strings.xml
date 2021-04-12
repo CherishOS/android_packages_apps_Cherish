@@ -1210,4 +1210,8 @@
 	<!-- Battery temperature -->
     <string name="ambient_battery_temperature_title">Battery temperature</string>
     <string name="ambient_battery_temperature_summary">Show battery temperature along with the battery percent</string>
+
+    <!-- Volume panel extras -->
+    <string name="volume_panel_tint_title">Tint the active volume bar</string>
+    <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
 </resources>

@@ -111,5 +111,11 @@
             android:entryValues="@array/volume_panel_values"
             android:defaultValue="@string/volume_panel_stock_val" />
 
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="volume_panel_tint"
+            android:summary="@string/volume_panel_tint_summary"
+            android:title="@string/volume_panel_tint_title"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>
