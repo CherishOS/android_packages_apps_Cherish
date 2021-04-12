@@ -745,7 +745,7 @@
     <string name="file_header_select_title">Chọn hình ảnh từ bộ nhớ</string>
     <string name="file_header_select_summary">Chọn một hình ảnh từ bộ nhớ trong</string>
     <string name="status_bar_custom_header_shadow_title">Hình ảnh tối</string>
-    <string name="status_bar_custom_header_height_title">Image height offset</string>
+    <string name="status_bar_custom_header_height_title">Thu phóng kích thước hình ảnh</string>
     <!-- FOD pressed color -->
     <string name="fod_pressed_color_title">Màu biểu tượng khi nhấn</string>
     <string name="fod_pressed_color_white">Trắng</string>
