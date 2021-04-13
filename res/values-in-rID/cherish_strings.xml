@@ -394,6 +394,7 @@
     <string name="qs_tint_off">Bawaan</string>
     <string name="qs_tint_accent">Warna Aksen</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Notifikasi mengambang</string>
     <string name="heads_up_summary">Sesuaikan perilaku Notifikasi Mengambang</string>
@@ -846,13 +847,16 @@
     <string name="ui_style_round_medium">Bulat Sedang</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Slider kecerahan</string>
-    <string name="qs_show_brightness_slider_summary">Tampilkan slider kecerahan di panel pengaturan cepat</string>
-    <string name="qs_show_brightness_slider_expanded_title">Slider kecerahan QS yang diperluas</string>
-    <string name="qs_show_brightness_slider_expanded_summary">Tampilkan slider kecerahan saat diluaskan</string>
+    <string name="qs_show_brightness_slider_summary">Tampilkan slider kecerahan di panel Setelan Cepat</string>
     <string name="qs_show_auto_brightness_title">Ikon Kecerahan Otomatis</string>
     <string name="qs_show_auto_brightness_summary">Tampilkan tombol kecerahan otomatis di dekat slider kecerahan</string>
-    <string name="qs_brightness_position_bottom_title">Slider kecerahan di bawah</string>
-    <string name="qs_brightness_position_bottom_summary">Tampilkan slider kecerahan di bagian bawah QS</string>
+    <string name="qs_brightness_slider_hide">Sembunyikan</string>
+    <string name="qs_brightness_slider_bottom">Bawah</string>
+    <string name="qs_brightness_slider_top">Atas</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    <!-- QQS brightness slider -->
+    <string name="qqs_brightness_slider_title">Slider Kecerahan Cepat</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Gaya latar belakang panel</string>
     <string name="panel_bg_dialog_title">Pilih model latar belakang panel</string>
@@ -1038,4 +1042,9 @@
     <string name="custom_seekbar_default_value">Bawaan</string>
     <string name="custom_seekbar_default_value_to_set">Nilai default: <xliff:g id="v">%s</xliff:g>\nTekan lama untuk menerapkan</string>
     <string name="custom_seekbar_default_value_is_set">Nilai default telah diterapkan</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Replace your notifications with a redesigned version of tickers! \nSlim and less invasive than a standard notification</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
 </resources>

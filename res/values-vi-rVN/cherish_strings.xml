@@ -394,6 +394,7 @@
     <string name="qs_tint_off">Mặc định</string>
     <string name="qs_tint_accent">Màu nhấn</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Thông báo nổi</string>
     <string name="heads_up_summary">Tùy chỉnh hành vi cảnh báo</string>
@@ -847,12 +848,15 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Thanh điều chỉnh độ sáng</string>
     <string name="qs_show_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
-    <string name="qs_show_brightness_slider_expanded_title">Thanh trượt độ sáng QS mở rộng</string>
-    <string name="qs_show_brightness_slider_expanded_summary">Hiển thị thanh trượt độ sáng khi được mở rộng</string>
     <string name="qs_show_auto_brightness_title">Biểu tượng độ sáng tự động</string>
     <string name="qs_show_auto_brightness_summary">Hiển thị chuyển đổi độ sáng tự động gần thanh trượt độ sáng</string>
-    <string name="qs_brightness_position_bottom_title">Thanh trượt độ sáng phía dưới</string>
-    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt chỉnh độ sáng phía dưới bảng cài đặt nhanh</string>
+    <string name="qs_brightness_slider_hide">Ẩn</string>
+    <string name="qs_brightness_slider_bottom">Dưới cùng</string>
+    <string name="qs_brightness_slider_top">Trên cùng</string>
+    <string name="qs_brightness_position_bottom_title">Thanh trượt chỉnh độ sáng ở dưới</string>
+    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh điều chỉnh độ sáng ở phía dưới bảng cài đặt nhanh</string>
+    <!-- QQS brightness slider -->
+    <string name="qqs_brightness_slider_title">Hiện thanh trượt điều chỉnh độ sáng mở rộng</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Màu nền bảng ứng dụng gần đây</string>
     <string name="panel_bg_dialog_title">Chọn kiểu nền bảng điều khiển</string>
@@ -1038,4 +1042,9 @@
     <string name="custom_seekbar_default_value">Mặc định</string>
     <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ lâu để thiết lập</string>
     <string name="custom_seekbar_default_value_is_set">Giá trị mặc định được thiết lập</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Thay thế các thông báo của bạn bằng một phiên bản biểu ngữ được thiết kế lại \nNhẹ nhàng và ít xâm lấn hơn thông báo tiêu chuẩn</string>
+    <string name="reticker_colored_title">Sử dụng nền màu ứng dụng</string>
+    <string name="reticker_colored_summary">Thay thế màu nền reTicker bằng màu chính của ứng dụng thông báo</string>
 </resources>

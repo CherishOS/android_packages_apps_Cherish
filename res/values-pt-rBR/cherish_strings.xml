@@ -394,6 +394,7 @@
     <string name="qs_tint_off">Padrão</string>
     <string name="qs_tint_accent">Accent Color</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Notificações flutuantes</string>
     <string name="heads_up_summary">Personalizar o comportamento gráfico</string>
@@ -845,14 +846,17 @@
     <string name="ui_style_round_large">Arredondado Grande</string>
     <string name="ui_style_round_medium">Arredondamento médio</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Controle de brilho rápido</string>
-    <string name="qs_show_brightness_slider_summary">Mostrar o controle deslizante de brilho no painel de configurações rápidas</string>
-    <string name="qs_show_brightness_slider_expanded_title">Barra de brilho expandida</string>
-    <string name="qs_show_brightness_slider_expanded_summary">Exibir controle deslizante de brilho quando expandido</string>
+    <string name="qs_show_brightness_slider_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
     <string name="qs_show_auto_brightness_title">Ícone de brilho automático</string>
     <string name="qs_show_auto_brightness_summary">Mostrar controle de brilho adaptável perto do controle deslizante</string>
-    <string name="qs_brightness_position_bottom_title">Controle de brilho na parte inferior (funciona apenas para barra rápida expandida)</string>
-    <string name="qs_brightness_position_bottom_summary">Mostrar controle de brilho deslizante expandido na parte inferior das configurações rápidas</string>
+    <string name="qs_brightness_slider_hide">Ocultar</string>
+    <string name="qs_brightness_slider_bottom">Botão</string>
+    <string name="qs_brightness_slider_top">Topo</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    <!-- QQS brightness slider -->
+    <string name="qqs_brightness_slider_title">QQS brightness slider</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Cor de fundo do painel</string>
     <string name="panel_bg_dialog_title">Selecionar modelo de plano de fundo do painel</string>
@@ -1038,4 +1042,9 @@
     <string name="custom_seekbar_default_value">Padrão</string>
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Replace your notifications with a redesigned version of tickers! \nSlim and less invasive than a standard notification</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
 </resources>

@@ -394,6 +394,7 @@
     <string name="qs_tint_off">Varsayılan</string>
     <string name="qs_tint_accent">Vurgu rengi</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Bildirim pencereleri</string>
     <string name="heads_up_summary">Bildirim pencereleri davranışlarını özelleştir</string>
@@ -845,14 +846,17 @@
     <string name="ui_style_round_large">Büyük yuvarlak</string>
     <string name="ui_style_round_medium">Orta yuvarlak</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Hızlı ayarlar parlaklık kaydırıcısı</string>
+    <string name="qs_show_brightness_slider_title">Parlaklık kaydırıcısı</string>
     <string name="qs_show_brightness_slider_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
-    <string name="qs_show_brightness_slider_expanded_title">Genişletilmiş hızlı ayarlar parlaklık kaydırıcısı</string>
-    <string name="qs_show_brightness_slider_expanded_summary">Genişletildiğinde parlaklık kaydırıcısını göster</string>
     <string name="qs_show_auto_brightness_title">Otomatik parlaklık simgesi</string>
     <string name="qs_show_auto_brightness_summary">Kaydırma çubuğunun yanında otomatik parlaklık tuşunu göster</string>
-    <string name="qs_brightness_position_bottom_title">Parlaklık kaydırıcısı altta (yalnızca Genişletilmiş Hızlı ayarlar için çalışır)</string>
-    <string name="qs_brightness_position_bottom_summary">Genişletilmiş hızlı ayarların altında parlaklık kaydırıcısını göster</string>
+    <string name="qs_brightness_slider_hide">Gizle</string>
+    <string name="qs_brightness_slider_bottom">Alt</string>
+    <string name="qs_brightness_slider_top">Üstten</string>
+    <string name="qs_brightness_position_bottom_title">Parlaklık kaydırıcısı altta</string>
+    <string name="qs_brightness_position_bottom_summary">Hızlı ayarlar paneli altında parlaklık kaydırıcısını göster</string>
+    <!-- QQS brightness slider -->
+    <string name="qqs_brightness_slider_title">Hızlı ayarlar parlaklık kaydırıcısı</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Panel arka plan stili</string>
     <string name="panel_bg_dialog_title">Panel arka plan modelini seç</string>
@@ -1038,4 +1042,9 @@
     <string name="custom_seekbar_default_value">Varsayılan</string>
     <string name="custom_seekbar_default_value_to_set">Varsayılan değer: <xliff:g id="v">%s</xliff:g>\nAyarlamak için uzun dokunun</string>
     <string name="custom_seekbar_default_value_is_set">Varsayılan değer ayarlandı</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Replace your notifications with a redesigned version of tickers! \nSlim and less invasive than a standard notification</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
 </resources>
