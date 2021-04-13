@@ -394,6 +394,7 @@
     <string name="qs_tint_off">Mặc định</string>
     <string name="qs_tint_accent">Màu nhấn</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Thông báo nổi</string>
     <string name="heads_up_summary">Tùy chỉnh hành vi cảnh báo</string>
@@ -845,14 +846,17 @@
     <string name="ui_style_round_large">Tròn rộng</string>
     <string name="ui_style_round_medium">Tròn vừa</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Thanh điều chỉnh độ sáng</string>
-    <string name="qs_show_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
-    <string name="qs_show_brightness_slider_expanded_title">Thanh trượt độ sáng QS mở rộng</string>
-    <string name="qs_show_brightness_slider_expanded_summary">Hiển thị thanh trượt độ sáng khi được mở rộng</string>
+    <string name="qs_show_brightness_slider_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
     <string name="qs_show_auto_brightness_title">Biểu tượng độ sáng tự động</string>
     <string name="qs_show_auto_brightness_summary">Hiển thị chuyển đổi độ sáng tự động gần thanh trượt độ sáng</string>
-    <string name="qs_brightness_position_bottom_title">Thanh trượt độ sáng phía dưới</string>
-    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt chỉnh độ sáng phía dưới bảng cài đặt nhanh</string>
+    <string name="qs_brightness_slider_hide">Ẩn</string>
+    <string name="qs_brightness_slider_bottom">Dưới cùng</string>
+    <string name="qs_brightness_slider_top">Trên cùng</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    <!-- QQS brightness slider -->
+    <string name="qqs_brightness_slider_title">QQS brightness slider</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Màu nền bảng ứng dụng gần đây</string>
     <string name="panel_bg_dialog_title">Chọn kiểu nền bảng điều khiển</string>
