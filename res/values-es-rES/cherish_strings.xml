@@ -307,7 +307,7 @@
     <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
     <string name="lock_clock_font_gobold">GoBold Light</string>
     <string name="lock_clock_font_roadrage">Road Rage</string>
-    <string name="lock_clock_font_snowstorm">Snowstorm</string>
+    <string name="lock_clock_font_snowstorm">Tormenta de nieve</string>
     <string name="lock_clock_font_googlesans">Google Sans</string>
     <string name="lock_clock_font_neoneon">Neoneon</string>
     <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
@@ -383,7 +383,7 @@
     <string name="lock_item_center">Centro alineado</string>
     <string name="lock_item_right">Alineado a la derecha</string>
     <string name="lockscreen_item_padding_title">Relleno de elementos de pantalla de bloqueo</string>
-    <string name="lockscreen_weather_alignment_title">LS Weather Alignment</string>
+    <string name="lockscreen_weather_alignment_title">Alineación meteorológica LS</string>
     <string name="lockscreen_weather_selection_title">WeatherView Background Style</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Icono de datos deshabilitados</string>
@@ -394,6 +394,7 @@
     <string name="qs_tint_off">Defecto</string>
     <string name="qs_tint_accent">Accent Color</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Aviso</string>
     <string name="heads_up_summary">Personalizar el comportamiento de Heads Up</string>
@@ -412,19 +413,19 @@
     <string name="lockscreen_hide_shortcuts_summary">Ocultar accesos directos de izquierda a derecha en pantallas de bloqueo seguras</string>
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">Clima</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="lockscreen_weather_enabled_title">Mostrar en la pantalla de bloqueo</string>
+    <string name="lockscreen_weather_enabled_summary">Mostrar información meteorológica en la pantalla de bloqueo y durante el sueño</string>
+    <string name="lockscreen_weather_settings_title">Mostrar opciones del clima</string>
+    <string name="lockscreen_weather_settings_summary">Configurar paquete de iconos y servicio meteorológico</string>
+    <string name="weather_config_title">Servicio meteorológico</string>
+    <string name="weather_config_summary">Ajustes del servicio del sistema</string>
+    <string name="header_weather_title">Vista del clima en el encabezado</string>
+    <string name="header_weather_summary">Habilitar la visualización del tiempo del encabezado del panel de notificaciones</string>
+    <string name="weather_icon_pack_title">Paquete de iconos de clima</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_style_title">Estilo de clima</string>
     <string name="lockscreen_weather_omni_style_title">Omni style</string>
     <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
     <!-- Toast Animation -->
@@ -805,9 +806,9 @@
     <string name="pulse_ambient_light_repeat_count_summary">Establecer el recuento máximo de repeticiones. 0 para infinito</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
-    <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
+    <string name="lockscreen_power_menu_disabled_summary">Esto sólo deshabilitará el menú de apagado en pantallas con seguridad establecida</string>
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_category_title">CarrierLabel Settings</string>
+    <string name="carrier_label_category_title">Ajustes de etiqueta de operador</string>
     <string name="carrier_label_category_summary">Customize statusbar carrierlabel</string>
     <string name="carrier_label_settings_title">Carrier Label</string>
     <string name="carrier_label_settings_summary">Customize the carrier label</string>
@@ -845,14 +846,17 @@
     <string name="ui_style_round_large">Round Large</string>
     <string name="ui_style_round_medium">Round Medium</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Quick QS brightness slider</string>
-    <string name="qs_show_brightness_slider_summary">Show brightness slider in quickbar</string>
-    <string name="qs_show_brightness_slider_expanded_title">Expanded QS brightness slider</string>
-    <string name="qs_show_brightness_slider_expanded_summary">Show brightness slider when expanded</string>
+    <string name="qs_show_brightness_slider_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
     <string name="qs_show_auto_brightness_title">Icono de brillo automático</string>
     <string name="qs_show_auto_brightness_summary">Mostrar un interruptor de brillo automático cerca del control deslizante de brillo</string>
-    <string name="qs_brightness_position_bottom_title">Control deslizante de brillo inferior</string>
-    <string name="qs_brightness_position_bottom_summary">Mostrar el control deslizante de brillo en la parte inferior de QS</string>
+    <string name="qs_brightness_slider_hide">Esconder</string>
+    <string name="qs_brightness_slider_bottom">Bottom</string>
+    <string name="qs_brightness_slider_top">Parte superior</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    <!-- QQS brightness slider -->
+    <string name="qqs_brightness_slider_title">QQS brightness slider</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Panel background style</string>
     <string name="panel_bg_dialog_title">Select panel background model</string>
@@ -913,7 +917,7 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Smart Pixels -->
-    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_title">Píxeles inteligentes</string>
     <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
     <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
     <string name="smart_pixels_on_power_save_summary">Enable with battery saver to increase power savings</string>
