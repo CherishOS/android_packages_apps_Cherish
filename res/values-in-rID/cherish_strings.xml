@@ -853,8 +853,8 @@
     <string name="qs_brightness_slider_hide">Sembunyikan</string>
     <string name="qs_brightness_slider_bottom">Bawah</string>
     <string name="qs_brightness_slider_top">Atas</string>
-    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    <string name="qs_brightness_position_bottom_title">Penggeser kecerahan di bagian bawah</string>
+    <string name="qs_brightness_position_bottom_summary">Tampilkan penggeser kecerahan di bawah setelan cepat</string>
     <!-- QQS brightness slider -->
     <string name="qqs_brightness_slider_title">Slider Kecerahan Cepat</string>
     <!-- Panel Background style -->
@@ -1044,13 +1044,13 @@
     <string name="custom_seekbar_default_value_is_set">Nilai default telah diterapkan</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace your notifications with a redesigned version of tickers! \nSlim and less invasive than a standard notification</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_summary">Gantilah notifikasi Anda dengan versi ticker yang didesain ulang! \nRamping dan tidak terlalu invasif dibandingkan notifikasi standar</string>
+    <string name="reticker_colored_title">Gunakan latar belakang berwarna aplikasi</string>
+    <string name="reticker_colored_summary">Ganti warna latar belakang reTicker menggunakan warna utama notifikasi aplikasi</string>
     <!-- Blink flashlight for incoming calls -->
-    <string name="flashlight_on_call_title">Blink Flashlight for call</string>
+    <string name="flashlight_on_call_title">Kedipkan Senter untuk panggilan</string>
     <string name="flashlight_on_call_disabled">Dinonaktifkan</string>
-    <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
-    <string name="flashlight_on_call_dnd">Only in DND mode</string>
-    <string name="flashlight_on_call_always">Always</string>
+    <string name="flashlight_on_call_not_dnd">Hanya saat mode dering</string>
+    <string name="flashlight_on_call_dnd">Hanya saat mode Jangan Ganggu</string>
+    <string name="flashlight_on_call_always">Selalu</string>
 </resources>
