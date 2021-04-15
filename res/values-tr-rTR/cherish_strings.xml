@@ -1044,13 +1044,13 @@
     <string name="custom_seekbar_default_value_is_set">Varsayılan değer ayarlandı</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace your notifications with a redesigned version of tickers! \nSlim and less invasive than a standard notification</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_summary">Bildirimlerinizi, bildirim çubuğu yazılarının yeniden tasarlanmış haliyle değiştirin!\nStandart bildirimlerden daha zarif ve daha az dikkat dağıtıcıdır</string>
+    <string name="reticker_colored_title">Uygulama renkli arka planı kullan</string>
+    <string name="reticker_colored_summary">Bildirim uygulaması ana rengini kullanarak reTicker arka plan rengini değiştirin</string>
     <!-- Blink flashlight for incoming calls -->
-    <string name="flashlight_on_call_title">Blink Flashlight for call</string>
+    <string name="flashlight_on_call_title">Gelen aramada bildirim flaşı</string>
     <string name="flashlight_on_call_disabled">Devre dışı</string>
-    <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
-    <string name="flashlight_on_call_dnd">Only in DND mode</string>
-    <string name="flashlight_on_call_always">Always</string>
+    <string name="flashlight_on_call_not_dnd">Yalnızca zil sesi modunda</string>
+    <string name="flashlight_on_call_dnd">Yalnızca rahatsız etmeyin modunda</string>
+    <string name="flashlight_on_call_always">Her zaman</string>
 </resources>
