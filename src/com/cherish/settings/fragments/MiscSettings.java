@@ -43,8 +43,12 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
     private static final String KEY_PULSE_BRIGHTNESS = "ambient_pulse_brightness";
     private static final String KEY_DOZE_BRIGHTNESS = "ambient_doze_brightness";
+	private static final String CUSTOM_STATUSBAR_PADDING_START = "custom_statusbar_padding_start";
+    private static final String CUSTOM_STATUSBAR_PADDING_END = "custom_statusbar_padding_end";
 
     private CustomSeekBarPreference mCornerRadius;
+    private CustomSeekBarPreference mCustomStatusbarPaddingStart;
+    private CustomSeekBarPreference mCustomStatusbarPaddingEnd;
     private CustomSeekBarPreference mContentPadding;
     private SecureSettingSwitchPreference mRoundedFwvals;
     private CustomSeekBarPreference mPulseBrightness;
@@ -75,6 +79,18 @@ public class MiscSettings extends SettingsPreferenceFragment implements
                 ((int) (resourceIdRadius / density)), UserHandle.USER_CURRENT);
         mCornerRadius.setValue(cornerRadius);
         mCornerRadius.setOnPreferenceChangeListener(this);
+		
+		mCustomStatusbarPaddingStart = (CustomSeekBarPreference) findPreference(CUSTOM_STATUSBAR_PADDING_START);
+        int customStatusbarPaddingStart = Settings.System.getIntForUser(ctx.getContentResolver(),
+                Settings.System.CUSTOM_STATUSBAR_PADDING_START, res.getIdentifier("com.android.systemui:dimen/status_bar_padding_start", null, null), UserHandle.USER_CURRENT);
+        mCustomStatusbarPaddingStart.setValue(customStatusbarPaddingStart);
+        mCustomStatusbarPaddingStart.setOnPreferenceChangeListener(this);
+
+        mCustomStatusbarPaddingEnd = (CustomSeekBarPreference) findPreference(CUSTOM_STATUSBAR_PADDING_END);
+        int customStatusbarPaddingEnd = Settings.System.getIntForUser(getActivity().getContentResolver(),
+                Settings.System.CUSTOM_STATUSBAR_PADDING_END, res.getIdentifier("com.android.systemui:dimen/status_bar_padding_end", null, null), UserHandle.USER_CURRENT);
+        mCustomStatusbarPaddingEnd.setValue(customStatusbarPaddingEnd);
+        mCustomStatusbarPaddingEnd.setOnPreferenceChangeListener(this);
 
         // Rounded Content Padding
         //mContentPadding = (CustomSeekBarPreference) findPreference(SYSUI_ROUNDED_CONTENT_PADDING);
@@ -145,6 +161,16 @@ public class MiscSettings extends SettingsPreferenceFragment implements
             int value = (Integer) objValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.DOZE_BRIGHTNESS, value);
+            return true;
+		} else if (preference == mCustomStatusbarPaddingStart) {
+            int value = (Integer) objValue;
+            Settings.System.putIntForUser(getContext().getContentResolver(),
+                    Settings.System.CUSTOM_STATUSBAR_PADDING_START, value, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mCustomStatusbarPaddingEnd) {
+            int value = (Integer) objValue;
+            Settings.System.putIntForUser(getContext().getContentResolver(),
+                    Settings.System.CUSTOM_STATUSBAR_PADDING_END, value, UserHandle.USER_CURRENT);
             return true;
 		}
         return false;
