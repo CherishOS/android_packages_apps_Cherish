@@ -179,6 +179,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Thông tin sạc màn hình khoá</string>
     <string name="lockscreen_battery_info_summary">Hiển thị điện áp bộ sạc tối đa hiện tại đã ước tính và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
+    <string name="lockscreen_battery_info_font_title">Thay đổi thông tin khi sạc</string>
+    <string name="lockscreen_battery_info_dialog_title">Lựa chọn thay đổi thông tin khi sạc</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Rung khi xác thực dấu vân tay</string>
     <string name="fprint_sucess_vib_summary">Rung khi xác thực dấu vân tay thành công</string>
@@ -783,6 +785,9 @@
     <string name="pulse_ambient_light_category">Lặp lại ánh sáng cạnh</string>
     <string name="pulse_ambient_light_title">Hiển thị thông báo mới</string>
     <string name="pulse_ambient_light_summary">Hiển thị xung ánh sáng trên thông báo mới</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Chế độ lặp lại ánh sáng</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Khởi động lại</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Đảo vị trí</string>
     <string name="ambient_notification_light_enabled_title">Luôn luôn bật</string>
     <string name="ambient_notification_light_enabled_summary">Hiển thị xung ánh sáng trên thông báo mới bằng cách luôn bật</string>
     <string name="ambient_notification_light_color_title">Tùy chỉnh màu sắc</string>
@@ -804,6 +809,9 @@
     <string name="pulse_ambient_light_duration_summary">Đặt thời lượng cho hiệu ứng màn hình cạnh</string>
     <string name="pulse_ambient_light_repeat_count_title">Thông báo cạnh lặp lại</string>
     <string name="pulse_ambient_light_repeat_count_summary">Đặt số lần lặp lại tối đa. 0 cho vô hạn</string>
+    <string name="pulse_ambient_light_layout_title">Bật sáng màn hình cạnh</string>
+    <string name="pulse_ambient_light_layout_solid">Khối</string>
+    <string name="pulse_ambient_light_layout_faded">Mờ dần</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Vô hiệu hoá menu nguồn trên màn hình khoá</string>
     <string name="lockscreen_power_menu_disabled_summary">Tùy chọn này sẽ chỉ vô hiệu menu nguồn trên màn hình khóa</string>
@@ -853,8 +861,8 @@
     <string name="qs_brightness_slider_hide">Ẩn</string>
     <string name="qs_brightness_slider_bottom">Dưới cùng</string>
     <string name="qs_brightness_slider_top">Trên cùng</string>
-    <string name="qs_brightness_position_bottom_title">Thanh trượt chỉnh độ sáng ở dưới</string>
-    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh điều chỉnh độ sáng ở phía dưới bảng cài đặt nhanh</string>
+    <string name="qs_brightness_position_bottom_title">Thanh trượt độ sáng phía dưới</string>
+    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt chỉnh độ sáng phía dưới bảng cài đặt nhanh</string>
     <!-- QQS brightness slider -->
     <string name="qqs_brightness_slider_title">Hiện thanh trượt điều chỉnh độ sáng mở rộng</string>
     <!-- Panel Background style -->
@@ -1038,7 +1046,7 @@
     <string name="artwork_media_background_title">Tác phẩm nghệ thuật nền phương tiện truyền thông</string>
     <string name="artwork_media_background_summary">Đặt tác phẩm nghệ thuật phương tiện làm nền phương tiện thông báo</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Mặc định</string>
     <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ lâu để thiết lập</string>
     <string name="custom_seekbar_default_value_is_set">Giá trị mặc định được thiết lập</string>
@@ -1048,9 +1056,27 @@
     <string name="reticker_colored_title">Sử dụng nền màu ứng dụng</string>
     <string name="reticker_colored_summary">Thay thế màu nền reTicker bằng màu chính của ứng dụng thông báo</string>
     <!-- Blink flashlight for incoming calls -->
-    <string name="flashlight_on_call_title">Đèn nhấp nháy khi có cuộc gọi</string>
+    <string name="flashlight_on_call_title">Chớp đèn flash cuộc gọi đến</string>
     <string name="flashlight_on_call_disabled">Tắt</string>
     <string name="flashlight_on_call_not_dnd">Chỉ trong chế độ chuông</string>
     <string name="flashlight_on_call_dnd">Chỉ trong chế độ không làm phiền</string>
     <string name="flashlight_on_call_always">Luôn luôn</string>
+    <!-- Keygaurd battery bar & color modes -->
+    <string name="keyguard_show_battery_title">Thanh hiển thị pin</string>
+    <string name="keyguard_show_battery_summary">Hiện thị một thanh pin trên màn hình xung quanh khi sạc</string>
+    <string name="keyguard_show_battery_always_title">Luôn hiển thị thanh pin</string>
+    <string name="keyguard_show_battery_always_summary">Luôn luôn hiển thị một thanh pin trên màn hình xung quanh</string>
+    <string name="keygaurd_battery_bar_color_title">Màu sắc</string>
+    <string name="on_aod_title">Màn hình luôn bật</string>
+    <string name="keyguard_battery_bar_color_modes_title">Chế độ màu</string>
+    <string name="keyguard_battery_bar_color_gradient">Gradient</string>
+    <string name="keyguard_battery_bar_color_accent">Màu nhấn</string>
+    <string name="keyguard_battery_bar_color_random">Ngẫu nhiên</string>
+    <string name="keyguard_battery_bar_color_custom">Tuỳ chỉnh</string>
+    <!-- Battery temperature -->
+    <string name="ambient_battery_temperature_title">Nhiệt độ pin</string>
+    <string name="ambient_battery_temperature_summary">Hiện thi nhiệt độ dọc theo phần trăm pin</string>
+    <!-- Volume panel extras -->
+    <string name="volume_panel_tint_title">Tô màu hoạt động thanh âm lượng</string>
+    <string name="volume_panel_tint_summary">Sử dụng đa màu tô cho thanh âm lượng</string>
 </resources>
