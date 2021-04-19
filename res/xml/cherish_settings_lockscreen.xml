@@ -24,6 +24,13 @@
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
+  
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="ambient_battery_temperature"
+            android:icon="@drawable/ic_temperature"
+            android:title="@string/ambient_battery_temperature_title"
+            android:summary="@string/ambient_battery_temperature_summary"
+            android:defaultValue="false" />
 		
 	<ListPreference
             android:key="lockscreen_battery_info_font"
