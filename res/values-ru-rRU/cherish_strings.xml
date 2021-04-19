@@ -179,6 +179,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
     <string name="lockscreen_battery_info_summary">Показывать напряжение, ток заряда и температуру аккумулятора на экране блокировки во время зарядки</string>
+    <string name="lockscreen_battery_info_font_title">Charging info font</string>
+    <string name="lockscreen_battery_info_dialog_title">Select charging info font</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Вибрировать при авторизации отпечатком</string>
     <string name="fprint_sucess_vib_summary">Вибрировать при успешном распозновании отпечатка пальца</string>
@@ -783,6 +785,9 @@
     <string name="pulse_ambient_light_category">Пульсация по краям экрана</string>
     <string name="pulse_ambient_light_title">Пульсировать при новых уведомлениях</string>
     <string name="pulse_ambient_light_summary">Пульсировать по краям экрана при получении новых уведомлений</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Перезапуск</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
     <string name="ambient_notification_light_enabled_title">Пульсировать в режиме всегда включенного экрана</string>
     <string name="ambient_notification_light_enabled_summary">Пульсировать при новом уведомлении в режиме всегда включенного экрана</string>
     <string name="ambient_notification_light_color_title">Свой цвет</string>
@@ -804,6 +809,9 @@
     <string name="pulse_ambient_light_duration_summary">Установить длительность подсветки пульсации</string>
     <string name="pulse_ambient_light_repeat_count_title">Количество повторов подсветки пульсации</string>
     <string name="pulse_ambient_light_repeat_count_summary">Установить максимальное количество повторений пульсации (от 0 до бесконечности)</string>
+    <string name="pulse_ambient_light_layout_title">Edge Light View</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
     <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
@@ -853,8 +861,8 @@
     <string name="qs_brightness_slider_hide">Скрывать</string>
     <string name="qs_brightness_slider_bottom">Низ</string>
     <string name="qs_brightness_slider_top">Верх</string>
-    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    <string name="qs_brightness_position_bottom_title">Ползунок яркости снизу</string>
+    <string name="qs_brightness_position_bottom_summary">Отображать ползунок яркости в нижней части панели быстрых настроек</string>
     <!-- QQS brightness slider -->
     <string name="qqs_brightness_slider_title">QQS brightness slider</string>
     <!-- Panel Background style -->
@@ -966,79 +974,79 @@
     <string name="status_bar_logo_position_right">Справа</string>
     <string name="status_bar_logo_position_left">Слева</string>
     <string name="status_bar_logo_style">Стиль логотипа</string>
-    <string name="status_bar_logo_style_cherish">Cherish</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Biohazard</string>
-    <string name="status_bar_logo_style_blackberry">Blackberry</string>
-    <string name="status_bar_logo_style_blogger">Blogger</string>
-    <string name="status_bar_logo_style_bomb">Bomb</string>
-    <string name="status_bar_logo_style_brain">Brain</string>
-    <string name="status_bar_logo_style_cake">Cake</string>
-    <string name="status_bar_logo_style_cannabis">Cannabis</string>
-    <string name="status_bar_logo_style_death_star">Death Star</string>
-    <string name="status_bar_logo_style_emoticon">Emoji</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoji (Cool)</string>
-    <string name="status_bar_logo_style_emoticon_dead">Emoji (Dead)</string>
-    <string name="status_bar_logo_style_emoticon_devil">Emoji (Devil)</string>
-    <string name="status_bar_logo_style_emoticon_happy">Emoji (Happy)</string>
-    <string name="status_bar_logo_style_emoticon_neutral">Emoji (Neutral)</string>
-    <string name="status_bar_logo_style_emoticon_poop">Emoji (Poop)</string>
-    <string name="status_bar_logo_style_emoticon_sad">Emoji (Sad)</string>
-    <string name="status_bar_logo_style_emoticon_tongue">Emoji (Tongue)</string>
-    <string name="status_bar_logo_style_fire">Fire</string>
-    <string name="status_bar_logo_style_flask">Flask</string>
-    <string name="status_bar_logo_style_gender_male">Gender (Male)</string>
-    <string name="status_bar_logo_style_gender_female">Gender (Female)</string>
-    <string name="status_bar_logo_style_gender_male_female">Gender (Male &amp; Female)</string>
-    <string name="status_bar_logo_style_ghost">Ghost</string>
-    <string name="status_bar_logo_style_google">Google</string>
-    <string name="status_bar_logo_style_guitar_acoustic">Guitar (Acoustic)</string>
-    <string name="status_bar_logo_style_guitar_electric">Guitar (Electric)</string>
-    <string name="status_bar_logo_style_heart">Heart</string>
-    <string name="status_bar_logo_style_human_male">Human (Male)</string>
-    <string name="status_bar_logo_style_human_female">Human (Female)</string>
-    <string name="status_bar_logo_style_human_male_female">Human (Male &amp; Female)</string>
-    <string name="status_bar_logo_style_incognito">Incognito</string>
-    <string name="status_bar_logo_style_ios">iOS</string>
-    <string name="status_bar_logo_style_linux">Linux</string>
-    <string name="status_bar_logo_style_lock">Lock</string>
-    <string name="status_bar_logo_style_music_note">Music Note</string>
+    <string name="status_bar_logo_style_cherish">Лелея</string>
+    <string name="status_bar_logo_style_android">Андроид</string>
+    <string name="status_bar_logo_style_apple">Яблоко</string>
+    <string name="status_bar_logo_style_beats">Битс</string>
+    <string name="status_bar_logo_style_biohazard">Биотехника</string>
+    <string name="status_bar_logo_style_blackberry">Ежевика</string>
+    <string name="status_bar_logo_style_blogger">Блогер</string>
+    <string name="status_bar_logo_style_bomb">Бомба</string>
+    <string name="status_bar_logo_style_brain">Мозги</string>
+    <string name="status_bar_logo_style_cake">Торт</string>
+    <string name="status_bar_logo_style_cannabis">Конопля</string>
+    <string name="status_bar_logo_style_death_star">Звезда смерти</string>
+    <string name="status_bar_logo_style_emoticon">Эмодзи</string>
+    <string name="status_bar_logo_style_emoticon_cool">Эмодзи (Круто)</string>
+    <string name="status_bar_logo_style_emoticon_dead">Эмодзи (Смерть)</string>
+    <string name="status_bar_logo_style_emoticon_devil">Эмодзи (Дьявол)</string>
+    <string name="status_bar_logo_style_emoticon_happy">Эмодзи (Счастье)</string>
+    <string name="status_bar_logo_style_emoticon_neutral">Эмодзи (Нейтральный)</string>
+    <string name="status_bar_logo_style_emoticon_poop">Эмодзи (Дурачок)</string>
+    <string name="status_bar_logo_style_emoticon_sad">Эмодзи (Печаль)</string>
+    <string name="status_bar_logo_style_emoticon_tongue">Эмодзи (Язык)</string>
+    <string name="status_bar_logo_style_fire">Огонь</string>
+    <string name="status_bar_logo_style_flask">Бутыль</string>
+    <string name="status_bar_logo_style_gender_male">Пол (Мужской)</string>
+    <string name="status_bar_logo_style_gender_female">Пол (Женский)</string>
+    <string name="status_bar_logo_style_gender_male_female">Пол (Мужской и Женский)</string>
+    <string name="status_bar_logo_style_ghost">Привидение</string>
+    <string name="status_bar_logo_style_google">Гугл</string>
+    <string name="status_bar_logo_style_guitar_acoustic">Гитара (Акустическая)</string>
+    <string name="status_bar_logo_style_guitar_electric">Гитара (Электрическая)</string>
+    <string name="status_bar_logo_style_heart">Сердце</string>
+    <string name="status_bar_logo_style_human_male">Человек (Мужчина)</string>
+    <string name="status_bar_logo_style_human_female">Человек (Женщина)</string>
+    <string name="status_bar_logo_style_human_male_female">Человек (Мужчина и Женщина)</string>
+    <string name="status_bar_logo_style_incognito">Инкогнито</string>
+    <string name="status_bar_logo_style_ios">Айос</string>
+    <string name="status_bar_logo_style_linux">Линукс</string>
+    <string name="status_bar_logo_style_lock">Блокировка</string>
+    <string name="status_bar_logo_style_music_note">Музыкальная заметка</string>
     <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_pac_man">Pac-Man</string>
-    <string name="status_bar_logo_style_peace">Peace</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_skull">Skull</string>
-    <string name="status_bar_logo_style_smoking">Smoking</string>
-    <string name="status_bar_logo_style_wallet">Wallet</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">XBOX</string>
-    <string name="status_bar_logo_style_xbox_controller">XBOX Controller</string>
-    <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>
+    <string name="status_bar_logo_style_pac_man">Пак-ман</string>
+    <string name="status_bar_logo_style_peace">Мир</string>
+    <string name="status_bar_logo_style_robot">Робот</string>
+    <string name="status_bar_logo_style_skull">Череп</string>
+    <string name="status_bar_logo_style_smoking">Курение</string>
+    <string name="status_bar_logo_style_wallet">Кошелёк</string>
+    <string name="status_bar_logo_style_windows">Окна</string>
+    <string name="status_bar_logo_style_xbox">ХБОКС</string>
+    <string name="status_bar_logo_style_xbox_controller">Контроллер XBOX</string>
+    <string name="status_bar_logo_style_yin_yang">Инь-Янь</string>
     <!--Nav colors-->
     <string name="navbar_default">По умолчанию</string>
-    <string name="navbar_orchid">Orchid</string>
+    <string name="navbar_orchid">Орхидея</string>
     <string name="navbar_red">Красный</string>
-    <string name="navbar_purp">Purple</string>
-    <string name="navbar_color_title">Navbar Colors</string>
-    <string name="navbar_color_dialog_title">Select color</string>
+    <string name="navbar_purp">Фиолетовый</string>
+    <string name="navbar_color_title">Цвет панели навигации</string>
+    <string name="navbar_color_dialog_title">Выбрать цвет</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">Расписание работы Всегда включённого экрана</string>
+    <string name="always_on_display_schedule_sunset">Закат</string>
+    <string name="always_on_display_schedule_sunrise">Восход</string>
+    <string name="always_on_display_schedule_mixed_sunset">Включен от заката до заданного времени</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Включен от заданного времени до рассвета</string>
     <!-- OOS clear all button -->
-    <string name="enable_clear_all_button">Clear-All button</string>
-    <string name="enable_clear_all_button_summary">Enable to use a bottom-centered button instead of stock Clear All text</string>
+    <string name="enable_clear_all_button">Кнопка «Очистить всё»</string>
+    <string name="enable_clear_all_button_summary">Включите, чтобы использовать кнопку снизу вместо стандартной очистки текста</string>
     <!-- Quick Settings -->
-    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
-    <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
+    <string name="lockscreen_qs_disabled_title">Отключить быстрые настройки на экране блокировки</string>
+    <string name="lockscreen_qs_disabled_summary">Запретить выдвигать панель на экране блокировки</string>
     <!-- Notification Media Options -->
-    <string name="media_category">Media Notification options</string>
-    <string name="artwork_media_background_title">Artwork media background</string>
-    <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
+    <string name="media_category">Параметры уведомлений</string>
+    <string name="artwork_media_background_title">Фон мультимедиа работы</string>
+    <string name="artwork_media_background_summary">Установить медиа-обложку в качестве фона уведомления</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">По умолчанию</string>
@@ -1055,4 +1063,22 @@
     <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
     <string name="flashlight_on_call_dnd">Only in DND mode</string>
     <string name="flashlight_on_call_always">Always</string>
+    <!-- Keygaurd battery bar & color modes -->
+    <string name="keyguard_show_battery_title">Панель заряда батареи</string>
+    <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
+    <string name="keyguard_show_battery_always_title">Always show battery bar</string>
+    <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
+    <string name="keygaurd_battery_bar_color_title">Color</string>
+    <string name="on_aod_title">Всегда включенный дисплей</string>
+    <string name="keyguard_battery_bar_color_modes_title">Color mode</string>
+    <string name="keyguard_battery_bar_color_gradient">Градиент</string>
+    <string name="keyguard_battery_bar_color_accent">Accent</string>
+    <string name="keyguard_battery_bar_color_random">Random</string>
+    <string name="keyguard_battery_bar_color_custom">Пользовательский</string>
+    <!-- Battery temperature -->
+    <string name="ambient_battery_temperature_title">Температура батареи</string>
+    <string name="ambient_battery_temperature_summary">Show battery temperature along with the battery percent</string>
+    <!-- Volume panel extras -->
+    <string name="volume_panel_tint_title">Tint the active volume bar</string>
+    <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
 </resources>

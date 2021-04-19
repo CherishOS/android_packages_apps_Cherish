@@ -179,6 +179,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_font_title">Charging info font</string>
+    <string name="lockscreen_battery_info_dialog_title">Select charging info font</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
@@ -783,6 +785,9 @@
     <string name="pulse_ambient_light_category">Screen edge lighting</string>
     <string name="pulse_ambient_light_title">Show on new notifcation</string>
     <string name="pulse_ambient_light_summary">Show light pulse on new notification</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">重新啟動</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
     <string name="ambient_notification_light_enabled_title">Show on always on</string>
     <string name="ambient_notification_light_enabled_summary">Show light pulse on new notification using always on</string>
     <string name="ambient_notification_light_color_title">Custom color</string>
@@ -804,6 +809,9 @@
     <string name="pulse_ambient_light_duration_summary">Sets the ambient light animation duration</string>
     <string name="pulse_ambient_light_repeat_count_title">Edge Light Repeat count</string>
     <string name="pulse_ambient_light_repeat_count_summary">Set max repeat count. 0 for infinite</string>
+    <string name="pulse_ambient_light_layout_title">Edge Light View</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
     <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
@@ -1053,4 +1061,22 @@
     <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
     <string name="flashlight_on_call_dnd">Only in DND mode</string>
     <string name="flashlight_on_call_always">Always</string>
+    <!-- Keygaurd battery bar & color modes -->
+    <string name="keyguard_show_battery_title">Battery bar</string>
+    <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
+    <string name="keyguard_show_battery_always_title">Always show battery bar</string>
+    <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
+    <string name="keygaurd_battery_bar_color_title">Color</string>
+    <string name="on_aod_title">AOD</string>
+    <string name="keyguard_battery_bar_color_modes_title">Color mode</string>
+    <string name="keyguard_battery_bar_color_gradient">Gradient</string>
+    <string name="keyguard_battery_bar_color_accent">Accent</string>
+    <string name="keyguard_battery_bar_color_random">Random</string>
+    <string name="keyguard_battery_bar_color_custom">自訂</string>
+    <!-- Battery temperature -->
+    <string name="ambient_battery_temperature_title">Battery temperature</string>
+    <string name="ambient_battery_temperature_summary">Show battery temperature along with the battery percent</string>
+    <!-- Volume panel extras -->
+    <string name="volume_panel_tint_title">Tint the active volume bar</string>
+    <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
 </resources>

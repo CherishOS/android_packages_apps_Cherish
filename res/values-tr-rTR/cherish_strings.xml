@@ -179,6 +179,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
     <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
+    <string name="lockscreen_battery_info_font_title">Charging info font</string>
+    <string name="lockscreen_battery_info_dialog_title">Select charging info font</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
     <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulanmasında titret</string>
@@ -746,7 +748,7 @@
     <string name="file_header_select_title">Depolamadan bir resim seçin</string>
     <string name="file_header_select_summary">Dahili depolamadan resim seçin</string>
     <string name="status_bar_custom_header_shadow_title">Koyu resim</string>
-    <string name="status_bar_custom_header_height_title">Görüntü yüksekliği uzaklığı</string>
+    <string name="status_bar_custom_header_height_title">Image height offset</string>
     <!-- FOD pressed color -->
     <string name="fod_pressed_color_title">Parmak izi dokunma rengi</string>
     <string name="fod_pressed_color_white">Beyaz</string>
@@ -783,6 +785,9 @@
     <string name="pulse_ambient_light_category">Ekran kenarı aydınlatması</string>
     <string name="pulse_ambient_light_title">Yeni bildirimde göster</string>
     <string name="pulse_ambient_light_summary">Yeni bildirimlerde kenar aydınlatmalarını göster</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Yeniden başlat</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
     <string name="ambient_notification_light_enabled_title">Her zaman açık göster</string>
     <string name="ambient_notification_light_enabled_summary">Her zaman açık özelliğini kullanarak yeni bildirimlerde kenar aydınlatmalarını göster</string>
     <string name="ambient_notification_light_color_title">Özel renk</string>
@@ -804,6 +809,9 @@
     <string name="pulse_ambient_light_duration_summary">Ortam ışığı animasyonu süresini ayarla</string>
     <string name="pulse_ambient_light_repeat_count_title">Kenar ışığı tekrar sayısı</string>
     <string name="pulse_ambient_light_repeat_count_summary">Maksimum tekrar sayısını ayarlayın. Sonsuz için 0 yazın</string>
+    <string name="pulse_ambient_light_layout_title">Edge Light View</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Kilit ekranında güç menüsünü devre dışı bırak</string>
     <string name="lockscreen_power_menu_disabled_summary">Bu seçenek sadece güvenli kilit ekranlarındaki güç menüsünü devre dışı bırakacaktır</string>
@@ -846,17 +854,17 @@
     <string name="ui_style_round_large">Büyük yuvarlak</string>
     <string name="ui_style_round_medium">Orta yuvarlak</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Parlaklık kaydırıcısı</string>
+    <string name="qs_show_brightness_slider_title">Hızlı ayarlar parlaklık kaydırıcısı</string>
     <string name="qs_show_brightness_slider_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
     <string name="qs_show_auto_brightness_title">Otomatik parlaklık simgesi</string>
     <string name="qs_show_auto_brightness_summary">Kaydırma çubuğunun yanında otomatik parlaklık tuşunu göster</string>
     <string name="qs_brightness_slider_hide">Gizle</string>
     <string name="qs_brightness_slider_bottom">Alt</string>
     <string name="qs_brightness_slider_top">Üstten</string>
-    <string name="qs_brightness_position_bottom_title">Parlaklık kaydırıcısı altta</string>
-    <string name="qs_brightness_position_bottom_summary">Hızlı ayarlar paneli altında parlaklık kaydırıcısını göster</string>
+    <string name="qs_brightness_position_bottom_title">Parlaklık kaydırıcısı altta (yalnızca Genişletilmiş Hızlı ayarlar için çalışır)</string>
+    <string name="qs_brightness_position_bottom_summary">Genişletilmiş hızlı ayarların altında parlaklık kaydırıcısını göster</string>
     <!-- QQS brightness slider -->
-    <string name="qqs_brightness_slider_title">Hızlı ayarlar parlaklık kaydırıcısı</string>
+    <string name="qqs_brightness_slider_title">QQS brightness slider</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Panel arka plan stili</string>
     <string name="panel_bg_dialog_title">Panel arka plan modelini seç</string>
@@ -1038,19 +1046,37 @@
     <string name="artwork_media_background_title">Medya resmi arka planı</string>
     <string name="artwork_media_background_summary">Medya resmini bildirim medyası arka planı olarak ayarla</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Değer: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Varsayılan</string>
-    <string name="custom_seekbar_default_value_to_set">Varsayılan değer: <xliff:g id="v">%s</xliff:g>\nAyarlamak için uzun dokunun</string>
-    <string name="custom_seekbar_default_value_is_set">Varsayılan değer ayarlandı</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Bildirimlerinizi, bildirim çubuğu yazılarının yeniden tasarlanmış haliyle değiştirin!\nStandart bildirimlerden daha zarif ve daha az dikkat dağıtıcıdır</string>
-    <string name="reticker_colored_title">Uygulama renkli arka planı kullan</string>
-    <string name="reticker_colored_summary">Bildirim uygulaması ana rengini kullanarak reTicker arka plan rengini değiştirin</string>
+    <string name="reticker_summary">Replace your notifications with a redesigned version of tickers! \nSlim and less invasive than a standard notification</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
     <!-- Blink flashlight for incoming calls -->
-    <string name="flashlight_on_call_title">Gelen aramada bildirim flaşı</string>
+    <string name="flashlight_on_call_title">Blink Flashlight for call</string>
     <string name="flashlight_on_call_disabled">Devre dışı</string>
-    <string name="flashlight_on_call_not_dnd">Yalnızca zil sesi modunda</string>
-    <string name="flashlight_on_call_dnd">Yalnızca rahatsız etmeyin modunda</string>
-    <string name="flashlight_on_call_always">Her zaman</string>
+    <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
+    <string name="flashlight_on_call_dnd">Only in DND mode</string>
+    <string name="flashlight_on_call_always">Always</string>
+    <!-- Keygaurd battery bar & color modes -->
+    <string name="keyguard_show_battery_title">Pil çubuğu</string>
+    <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
+    <string name="keyguard_show_battery_always_title">Always show battery bar</string>
+    <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
+    <string name="keygaurd_battery_bar_color_title">Color</string>
+    <string name="on_aod_title">AOD</string>
+    <string name="keyguard_battery_bar_color_modes_title">Color mode</string>
+    <string name="keyguard_battery_bar_color_gradient">Gradyan</string>
+    <string name="keyguard_battery_bar_color_accent">Accent</string>
+    <string name="keyguard_battery_bar_color_random">Random</string>
+    <string name="keyguard_battery_bar_color_custom">Özel</string>
+    <!-- Battery temperature -->
+    <string name="ambient_battery_temperature_title">Pil sıcaklığı</string>
+    <string name="ambient_battery_temperature_summary">Show battery temperature along with the battery percent</string>
+    <!-- Volume panel extras -->
+    <string name="volume_panel_tint_title">Tint the active volume bar</string>
+    <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
 </resources>
