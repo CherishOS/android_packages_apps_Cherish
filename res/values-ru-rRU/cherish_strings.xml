@@ -1078,4 +1078,7 @@
     <!-- Volume panel extras -->
     <string name="volume_panel_tint_title">Tint the active volume bar</string>
     <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
+    <!-- Running Services button -->
+    <string name="qs_running_services_title">Running Services Icon</string>
+    <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
 </resources>
