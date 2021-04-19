@@ -1046,37 +1046,37 @@
     <string name="artwork_media_background_title">Medya resmi arka planı</string>
     <string name="artwork_media_background_summary">Medya resmini bildirim medyası arka planı olarak ayarla</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_value">Değer: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Varsayılan</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <string name="custom_seekbar_default_value_to_set">Varsayılan değer: <xliff:g id="v">%s</xliff:g>\nAyarlamak için uzun dokunun</string>
+    <string name="custom_seekbar_default_value_is_set">Varsayılan değer ayarlandı</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace your notifications with a redesigned version of tickers! \nSlim and less invasive than a standard notification</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_summary">Bildirimlerinizi, bildirim çubuğu yazılarının yeniden tasarlanmış haliyle değiştirin!\nStandart bildirimlerden daha zarif ve daha az dikkat dağıtıcıdır</string>
+    <string name="reticker_colored_title">Uygulama renkli arka planı kullan</string>
+    <string name="reticker_colored_summary">Bildirim uygulaması ana rengini kullanarak reTicker arka plan rengini değiştirin</string>
     <!-- Blink flashlight for incoming calls -->
-    <string name="flashlight_on_call_title">Blink Flashlight for call</string>
+    <string name="flashlight_on_call_title">Gelen aramada bildirim flaşı</string>
     <string name="flashlight_on_call_disabled">Devre dışı</string>
-    <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
-    <string name="flashlight_on_call_dnd">Only in DND mode</string>
-    <string name="flashlight_on_call_always">Always</string>
+    <string name="flashlight_on_call_not_dnd">Yalnızca zil sesi modunda</string>
+    <string name="flashlight_on_call_dnd">Yalnızca rahatsız etmeyin modunda</string>
+    <string name="flashlight_on_call_always">Her zaman</string>
     <!-- Keygaurd battery bar & color modes -->
     <string name="keyguard_show_battery_title">Pil çubuğu</string>
-    <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
-    <string name="keyguard_show_battery_always_title">Always show battery bar</string>
-    <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
-    <string name="keygaurd_battery_bar_color_title">Color</string>
+    <string name="keyguard_show_battery_summary">Şarj ederken ortam ekranında bir pil çubuğu göster</string>
+    <string name="keyguard_show_battery_always_title">Her zaman pil çubuğunu göster</string>
+    <string name="keyguard_show_battery_always_summary">Ortam ekranında her zaman bir pil çubuğu göster</string>
+    <string name="keygaurd_battery_bar_color_title">Renk</string>
     <string name="on_aod_title">AOD</string>
-    <string name="keyguard_battery_bar_color_modes_title">Color mode</string>
+    <string name="keyguard_battery_bar_color_modes_title">Renk modu</string>
     <string name="keyguard_battery_bar_color_gradient">Gradyan</string>
-    <string name="keyguard_battery_bar_color_accent">Accent</string>
-    <string name="keyguard_battery_bar_color_random">Random</string>
+    <string name="keyguard_battery_bar_color_accent">Vurgu rengi</string>
+    <string name="keyguard_battery_bar_color_random">Rastgele</string>
     <string name="keyguard_battery_bar_color_custom">Özel</string>
     <!-- Volume panel extras -->
-    <string name="volume_panel_tint_title">Tint the active volume bar</string>
-    <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
+    <string name="volume_panel_tint_title">Aktif ses seviyesi çubuğunu renklendirin</string>
+    <string name="volume_panel_tint_summary">Etkin ses çubuğunu renklendirmek için bir renk gradyanı kullanın</string>
     <!-- Running Services button -->
-    <string name="qs_running_services_title">Running Services Icon</string>
-    <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
+    <string name="qs_running_services_title">Çalışan hizmetler simgesi</string>
+    <string name="qs_running_services_summary">Altbilgideki çalışan hizmetler simgesini etkinleştirin</string>
 </resources>
