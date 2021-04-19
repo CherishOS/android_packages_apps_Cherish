@@ -179,6 +179,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Información de carga de la pantalla de bloqueo</string>
     <string name="lockscreen_battery_info_summary">Muestra la corriente y voltaje máximos negociados del cargador y la temperatura de la batería en la pantalla de bloqueo durante la carga</string>
+    <string name="lockscreen_battery_info_font_title">Charging info font</string>
+    <string name="lockscreen_battery_info_dialog_title">Select charging info font</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Vibración de autenticación de huellas dactilares</string>
     <string name="fprint_sucess_vib_summary">Vibrar con la autenticación de huellas digitales exitosa</string>
@@ -783,6 +785,9 @@
     <string name="pulse_ambient_light_category">Iluminación del borde de la pantalla</string>
     <string name="pulse_ambient_light_title">Mostrar en notifcación nueva</string>
     <string name="pulse_ambient_light_summary">Mostrar pulso de luz en una nueva notificación</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Reiniciar</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
     <string name="ambient_notification_light_enabled_title">Mostrar siempre encendido</string>
     <string name="ambient_notification_light_enabled_summary">Mostrar pulso de luz en una nueva notificación usando siempre encendido</string>
     <string name="ambient_notification_light_color_title">Color personalizado</string>
@@ -804,6 +809,9 @@
     <string name="pulse_ambient_light_duration_summary">Establece la duración de la animación de luz ambiental</string>
     <string name="pulse_ambient_light_repeat_count_title">Recuento de repeticiones de luz de borde</string>
     <string name="pulse_ambient_light_repeat_count_summary">Establecer el recuento máximo de repeticiones. 0 para infinito</string>
+    <string name="pulse_ambient_light_layout_title">Edge Light View</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
     <string name="lockscreen_power_menu_disabled_summary">Esto sólo deshabilitará el menú de apagado en pantallas con seguridad establecida</string>
@@ -853,8 +861,8 @@
     <string name="qs_brightness_slider_hide">Esconder</string>
     <string name="qs_brightness_slider_bottom">Bottom</string>
     <string name="qs_brightness_slider_top">Parte superior</string>
-    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    <string name="qs_brightness_position_bottom_title">Control deslizante de brillo inferior</string>
+    <string name="qs_brightness_position_bottom_summary">Mostrar el control deslizante de brillo en la parte inferior de QS</string>
     <!-- QQS brightness slider -->
     <string name="qqs_brightness_slider_title">QQS brightness slider</string>
     <!-- Panel Background style -->
@@ -1053,4 +1061,22 @@
     <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
     <string name="flashlight_on_call_dnd">Only in DND mode</string>
     <string name="flashlight_on_call_always">Always</string>
+    <!-- Keygaurd battery bar & color modes -->
+    <string name="keyguard_show_battery_title">Barra de batería</string>
+    <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
+    <string name="keyguard_show_battery_always_title">Always show battery bar</string>
+    <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
+    <string name="keygaurd_battery_bar_color_title">Color</string>
+    <string name="on_aod_title">AOD (Pantalla siempre encendida)</string>
+    <string name="keyguard_battery_bar_color_modes_title">Color mode</string>
+    <string name="keyguard_battery_bar_color_gradient">Degradado</string>
+    <string name="keyguard_battery_bar_color_accent">Accent</string>
+    <string name="keyguard_battery_bar_color_random">Random</string>
+    <string name="keyguard_battery_bar_color_custom">Personalizado</string>
+    <!-- Battery temperature -->
+    <string name="ambient_battery_temperature_title">Temperatura de la batería</string>
+    <string name="ambient_battery_temperature_summary">Show battery temperature along with the battery percent</string>
+    <!-- Volume panel extras -->
+    <string name="volume_panel_tint_title">Tint the active volume bar</string>
+    <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
 </resources>
