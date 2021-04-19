@@ -14,107 +14,107 @@
     <!-- App Title -->
     <string name="cherish_settings_title">Улюблені налаштування </string>
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
-    <string name="button_summary">Hardware keys, Navigation bar</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
-    <string name="lockscreen_title">Lock screen</string>
-    <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">Gaming mode, volume controls</string>
-    <string name="animations_title">Animations</string>
-    <string name="animations_summary">System animations</string>
+    <string name="button_title">Кнопки</string>
+    <string name="button_summary">Апаратні кнопки, Панель навігації</string>
+    <string name="gestures_title">Жести</string>
+    <string name="gestures_summary">Перейти до камери, свайп для скріншоту</string>
+    <string name="lockscreen_title">Заблокувати екран</string>
+    <string name="lockscreen_summary">Візуалізатор музики, анімація зарядки, стиль годинника</string>
+    <string name="misc_title">Різне</string>
+    <string name="misc_summary">Ігровий режим, регулятори гучності</string>
+    <string name="animations_title">Анімації</string>
+    <string name="animations_summary">Системні анімації</string>
     <string name="powermenu_title">Меню живлення</string>
-    <string name="powermenu_summary">Advanced restart, power menu opacity</string>
-    <string name="theme_title">Themes</string>
-    <string name="theme_summary">System theme, rounded, switch theme</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="quicksettings_summary">Tile layout, blur</string>
-    <string name="recents_title">Recents apps</string>
-    <string name="recents_summary">Slim recents</string>
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_summary">Clock, carrier, status icons</string>
-    <string name="volume_title">Volume rockers</string>
-    <string name="volume_summary">Volume rockers</string>
+    <string name="powermenu_summary">Розширений перезапуск, непрозорість меню живлення</string>
+    <string name="theme_title">Теми</string>
+    <string name="theme_summary">Системна тема, округлена, перемкнути тему</string>
+    <string name="quicksettings_title">Швидкі налаштування</string>
+    <string name="quicksettings_summary">Схема плиток, розмитий</string>
+    <string name="recents_title">Нещодавні програми</string>
+    <string name="recents_summary">Панель останніх програм в стилі Slim</string>
+    <string name="statusbar_title">Статусбар</string>
+    <string name="statusbar_summary">Годинник, логотип, значки статусбару</string>
+    <string name="volume_title">Клавіші регулювання гучності</string>
+    <string name="volume_summary">Клавіші регулювання гучності</string>
     <string name="notifications_title">Сповіщення</string>
-    <string name="notifications_summary">Battery light, notifications header</string>
-    <string name="about_summary">Learn more about CherishOS</string>
-    <string name="device_part_title">Device features</string>
-    <string name="qs_category">QS category</string>
-    <string name="navbar_title">Navigation bar</string>
-    <string name="volume_keys_title">Volume keys</string>
+    <string name="notifications_summary">Індикатор акумулятора, заголовок сповіщень</string>
+    <string name="about_summary">Дізнайтеся більше про CherishOS</string>
+    <string name="device_part_title">Особливості пристрою</string>
+    <string name="qs_category">Категорія швидких налаштувань</string>
+    <string name="navbar_title">Панель навігації</string>
+    <string name="volume_keys_title">Клавіші гучності</string>
     <!-- General strings -->
-    <string name="ok">OK</string>
+    <string name="ok">ОК</string>
     <string name="reset">Скинути</string>
     <string name="cancel">Скасувати</string>
-    <string name="save">Save</string>
+    <string name="save">Зберегти</string>
     <string name="default_string">Типово</string>
     <string name="disabled">Вимкнено</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Вибір кольору</string>
+    <string name="press_color_to_apply">Натисніть на колір, щоб застосувати його</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
+    <string name="set">Набір</string>
     <string name="color_default">Типово</string>
     <string name="led_color_green">Зелений</string>
     <string name="led_color_red">Червоний</string>
     <!-- QS settings -->
-    <string name="qs_title">Quick settings</string>
+    <string name="qs_title">Швидкі налаштування</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Status bar icons</string>
+    <string name="status_bar_icons_title">Іконки статусбару</string>
     <!-- Lock screen visualizer -->
-    <string name="visualizer_title">Display music visualizer</string>
+    <string name="visualizer_title">Відображати візуалізатор музики</string>
     <!-- Power menu and dialogs opacity -->
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
     <string name="power_menu_animation">Меню живлення</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
-    <string name="lockscreen_category">Lockscreen</string>
+    <string name="lockscreen_category">Екран блокування</string>
     <!-- Themes -->
-    <string name="theme_type_title">System theme</string>
-    <string name="theme_type_summary">Select theme</string>
-    <string name="theme_type_light">Light</string>
-    <string name="theme_type_pitch_black">Google dark</string>
-    <string name="theme_type_solarized_dark">Solarized Dark</string>
-    <string name="theme_type_baked_green">Baked Green</string>
-    <string name="theme_type_choco_x">Choco X</string>
-    <string name="theme_type_dark_grey">Dark Grey</string>
-    <string name="theme_type_du_pitchblack">Pitch black</string>
-    <string name="theme_type_material_ocean">Material Ocean</string>
-    <string name="theme_type_clear_spring">Clear Spring</string>
+    <string name="theme_type_title">Системна тема</string>
+    <string name="theme_type_summary">Виберіть тему</string>
+    <string name="theme_type_light">Світла</string>
+    <string name="theme_type_pitch_black">Темна Google</string>
+    <string name="theme_type_solarized_dark">Сонячна темна</string>
+    <string name="theme_type_baked_green">Пекучє зелена</string>
+    <string name="theme_type_choco_x">Шоколадна</string>
+    <string name="theme_type_dark_grey">Темно-сіра</string>
+    <string name="theme_type_du_pitchblack">Чорна пітьма</string>
+    <string name="theme_type_material_ocean">Темно-синя</string>
+    <string name="theme_type_clear_spring">Чисте джерело</string>
     <!--Accenter -->
-    <string name="themes_hub_title">Themes</string>
-    <string name="themes_hub_summary">Accents-Gradients-Themes</string>
-    <string name="accent_color">Accent picker</string>
-    <string name="accent_summary">Gradient Maker</string>
-    <string name="gradient_color">Gradient picker</string>
-    <string name="gradient_summary">Gradient effect maker</string>
+    <string name="themes_hub_title">Теми</string>
+    <string name="themes_hub_summary">Акценти-Градієнти-Теми</string>
+    <string name="accent_color">Вибір акценту</string>
+    <string name="accent_summary">Вибір градієнту</string>
+    <string name="gradient_color">Налаштування градієнту</string>
+    <string name="gradient_summary">Градієнтний генератор</string>
     <!--ThemePicker-->
-    <string name="theme_select_title">Styles and Wallpapers</string>
-    <string name="theme_select_summary">Browse and select installed themes</string>
+    <string name="theme_select_title">Стилі та Шпалери</string>
+    <string name="theme_select_summary">Перегляд та вибір встановлених тем</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_enable">Enable</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
+    <string name="battery_light_settings">Індикація зарядки акумулятора</string>
+    <string name="battery_light_enable">Ввімкнути</string>
+    <string name="battery_light_allow_on_dnd_title">Індикація батареї в режимі \"Не турбувати\"</string>
+    <string name="battery_light_low_blinking_title">Блимання індикатора при низькому заряді</string>
+    <string name="battery_light_cat">Колір індикатора під час заряджання</string>
     <string name="battery_light_low_color">Низький заряд батареї</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
-    <string name="notification_light_settings">Notifications light</string>
+    <string name="battery_light_medium_color">Середній рівень заряду батареї</string>
+    <string name="battery_light_full_color">Майже повний заряд батареї</string>
+    <string name="battery_light_reallyfull_color">Повний заряд батареї (100%)</string>
+    <string name="notification_light_settings">Індикатор сповіщень</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Пробудження клавішами гучності</string>
+    <string name="volume_rocker_wake_summary">Натискання будь-якої кнопки гучності пробудить пристрій</string>
     <!-- Language options - Volume rocker cursor control -->
-    <string name="cursor_section_header">Cursor</string>
-    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+    <string name="cursor_section_header">Курсор</string>
+    <string name="volume_key_cursor_control_title">Керування курсором клавішами гучності</string>
     <string name="volume_key_cursor_control_off">Вимкнено</string>
-    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volume_key_cursor_control_on">Гучність вгору/вниз переміщає курсор вліво/вправо</string>
     <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
     <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
     <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
@@ -179,6 +179,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_font_title">Charging info font</string>
+    <string name="lockscreen_battery_info_dialog_title">Select charging info font</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
@@ -260,7 +262,7 @@
     <string name="network_traffic_arrow_summary">Show the network traffic indicator arrows</string>
     <string name="network_traffic_type">Select net activity type</string>
     <string name="show_network_traffic_combined">Combined (Upload + Download)</string>
-    <string name="show_network_traffic_dynamic">Dynamic</string>
+    <string name="show_network_traffic_dynamic">Динамічний</string>
     <string name="show_network_traffic_up">Upload</string>
     <string name="show_network_traffic_down">Завантажити</string>
     <string name="show_network_traffic_all">Обидва</string>
@@ -286,7 +288,7 @@
     <string name="lock_clock_font_bold_italic">Bold Italic</string>
     <string name="lock_clock_font_light_italic">Light Italic</string>
     <string name="lock_clock_font_thin_italic">Thin Italic</string>
-    <string name="lock_clock_font_light">Light</string>
+    <string name="lock_clock_font_light">Світла</string>
     <string name="lock_clock_font_thin">Thin</string>
     <string name="lock_clock_font_condensed_normal">Condensed</string>
     <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
@@ -513,7 +515,7 @@
     <string name="power_menu_animation_summary">Change the enter/exit animation of the power menu</string>
     <string name="power_menu_animation_dialog_title">Select power menu animation</string>
     <string name="power_menu_animation_aosp">AOSP (defalt)</string>
-    <string name="power_menu_animation_bottom">Bottom</string>
+    <string name="power_menu_animation_bottom">Нижнє</string>
     <string name="power_menu_animation_top">Top</string>
     <string name="power_menu_animation_xylon">Fly</string>
     <string name="power_menu_animation_slide">Slide</string>
@@ -547,7 +549,7 @@
     <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
     <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_title">Display music visualizer</string>
+    <string name="lockscreen_visualizer_title">Відображати візуалізатор музики</string>
     <string name="lockscreen_visualizer_summary">Toggle lockscreen visualizer</string>
     <string name="lockscreen_visualizer_enable">Music Visualizer</string>
     <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
@@ -658,7 +660,7 @@
     <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
     <string name="fod_recog_animation_miui_normal">MIUI default</string>
     <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_light">Світла</string>
     <string name="fod_recog_animation_miui_pop">Pop</string>
     <string name="fod_recog_animation_miui_pulse">Pulse</string>
     <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
@@ -769,7 +771,7 @@
     <string name="gaming_mode_brightness_summary">Lock screen brightness when Gaming mode is turned on</string>
     <string name="gaming_mode_ringer_title">Ringer in gaming mode</string>
     <string name="gaming_mode_ringer_off_title">Do not change</string>
-    <string name="gaming_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="gaming_mode_ringer_vibrate_title">Вібрація</string>
     <string name="gaming_mode_ringer_dnd_title">Do Not Disturb</string>
     <string name="gaming_mode_ringer_silent_title">Silent</string>
     <string name="gaming_mode_notifications_title">Gaming mode indication</string>
@@ -783,6 +785,9 @@
     <string name="pulse_ambient_light_category">Screen edge lighting</string>
     <string name="pulse_ambient_light_title">Show on new notifcation</string>
     <string name="pulse_ambient_light_summary">Show light pulse on new notification</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Перезавантажити</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
     <string name="ambient_notification_light_enabled_title">Show on always on</string>
     <string name="ambient_notification_light_enabled_summary">Show light pulse on new notification using always on</string>
     <string name="ambient_notification_light_color_title">Custom color</string>
@@ -804,6 +809,9 @@
     <string name="pulse_ambient_light_duration_summary">Sets the ambient light animation duration</string>
     <string name="pulse_ambient_light_repeat_count_title">Edge Light Repeat count</string>
     <string name="pulse_ambient_light_repeat_count_summary">Set max repeat count. 0 for infinite</string>
+    <string name="pulse_ambient_light_layout_title">Edge Light View</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
     <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
@@ -851,7 +859,7 @@
     <string name="qs_show_auto_brightness_title">Autobrightness icon</string>
     <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
     <string name="qs_brightness_slider_hide">Hide</string>
-    <string name="qs_brightness_slider_bottom">Bottom</string>
+    <string name="qs_brightness_slider_bottom">Нижнє</string>
     <string name="qs_brightness_slider_top">Top</string>
     <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
     <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
@@ -1053,4 +1061,22 @@
     <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
     <string name="flashlight_on_call_dnd">Only in DND mode</string>
     <string name="flashlight_on_call_always">Always</string>
+    <!-- Keygaurd battery bar & color modes -->
+    <string name="keyguard_show_battery_title">Battery bar</string>
+    <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
+    <string name="keyguard_show_battery_always_title">Always show battery bar</string>
+    <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
+    <string name="keygaurd_battery_bar_color_title">Color</string>
+    <string name="on_aod_title">AOD</string>
+    <string name="keyguard_battery_bar_color_modes_title">Color mode</string>
+    <string name="keyguard_battery_bar_color_gradient">Gradient</string>
+    <string name="keyguard_battery_bar_color_accent">Accent</string>
+    <string name="keyguard_battery_bar_color_random">Random</string>
+    <string name="keyguard_battery_bar_color_custom">Підлаштувати</string>
+    <!-- Battery temperature -->
+    <string name="ambient_battery_temperature_title">Температура батареї</string>
+    <string name="ambient_battery_temperature_summary">Show battery temperature along with the battery percent</string>
+    <!-- Volume panel extras -->
+    <string name="volume_panel_tint_title">Tint the active volume bar</string>
+    <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
 </resources>
