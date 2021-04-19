@@ -179,6 +179,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
     <string name="lockscreen_battery_info_summary">充電時のロック画面に接続した充電器の最大電流・最大電圧とバッテリー温度の情報を表示する</string>
+    <string name="lockscreen_battery_info_font_title">Charging info font</string>
+    <string name="lockscreen_battery_info_dialog_title">Select charging info font</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">指紋認証時の振動</string>
     <string name="fprint_sucess_vib_summary">指紋認証が成功した時に振動させる</string>
@@ -783,6 +785,9 @@
     <string name="pulse_ambient_light_category">画面のエッジライト</string>
     <string name="pulse_ambient_light_title">新しい通知で表示</string>
     <string name="pulse_ambient_light_summary">新しい通知でライトを点滅させる</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">再起動</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
     <string name="ambient_notification_light_enabled_title">Always On で表示</string>
     <string name="ambient_notification_light_enabled_summary">Always On 使用中に新しい通知でライトを点滅させる</string>
     <string name="ambient_notification_light_color_title">カスタムの色</string>
@@ -804,6 +809,9 @@
     <string name="pulse_ambient_light_duration_summary">アンビエントライトアニメーションの長さを設定する</string>
     <string name="pulse_ambient_light_repeat_count_title">エッジライトの繰り返し回数</string>
     <string name="pulse_ambient_light_repeat_count_summary">繰り返し回数を設定します。0で無制限です。</string>
+    <string name="pulse_ambient_light_layout_title">Edge Light View</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">電源メニュー無効化</string>
     <string name="lockscreen_power_menu_disabled_summary">保護されたロック画面で電源メニューを非表示にする</string>
@@ -846,15 +854,15 @@
     <string name="ui_style_round_large">ラウンド大</string>
     <string name="ui_style_round_medium">ラウンド中</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Brightness slider</string>
-    <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_show_brightness_slider_title">クイック設定の明るさスライダー</string>
+    <string name="qs_show_brightness_slider_summary">クイック設定パネルに明るさスライダーを表示する</string>
     <string name="qs_show_auto_brightness_title">自動明るさアイコン</string>
     <string name="qs_show_auto_brightness_summary">スライダーの近くに明るさ自動調節のトグルを表示する</string>
     <string name="qs_brightness_slider_hide">非表示</string>
     <string name="qs_brightness_slider_bottom">下部</string>
     <string name="qs_brightness_slider_top">トップ</string>
-    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    <string name="qs_brightness_position_bottom_title">下部の明るさスライダー (クイック設定展開時のみ)</string>
+    <string name="qs_brightness_position_bottom_summary">クイック設定展開時の下部に明るさスライダーを表示する</string>
     <!-- QQS brightness slider -->
     <string name="qqs_brightness_slider_title">QQS brightness slider</string>
     <!-- Panel Background style -->
@@ -1053,4 +1061,22 @@
     <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
     <string name="flashlight_on_call_dnd">Only in DND mode</string>
     <string name="flashlight_on_call_always">Always</string>
+    <!-- Keygaurd battery bar & color modes -->
+    <string name="keyguard_show_battery_title">バッテリーバー</string>
+    <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
+    <string name="keyguard_show_battery_always_title">Always show battery bar</string>
+    <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
+    <string name="keygaurd_battery_bar_color_title">Color</string>
+    <string name="on_aod_title">Always On Display</string>
+    <string name="keyguard_battery_bar_color_modes_title">Color mode</string>
+    <string name="keyguard_battery_bar_color_gradient">グラデーション</string>
+    <string name="keyguard_battery_bar_color_accent">Accent</string>
+    <string name="keyguard_battery_bar_color_random">Random</string>
+    <string name="keyguard_battery_bar_color_custom">カスタム</string>
+    <!-- Battery temperature -->
+    <string name="ambient_battery_temperature_title">バッテリー温度</string>
+    <string name="ambient_battery_temperature_summary">Show battery temperature along with the battery percent</string>
+    <!-- Volume panel extras -->
+    <string name="volume_panel_tint_title">Tint the active volume bar</string>
+    <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
 </resources>
