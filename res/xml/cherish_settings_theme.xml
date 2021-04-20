@@ -101,6 +101,18 @@
 	<PreferenceCategory
         android:key="quick_settings_category"
         android:title="@string/quicksettings_title">
+		
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="statusbar_icons_style"
+            android:title="@string/statusbar_icons_style"
+            android:summary="@string/statusbar_icons_style_summary"
+            android:defaultValue="true" />
+			
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="headers_icons_style"
+            android:title="@string/header_icons_style"
+            android:summary="@string/header_icons_style_summary"
+            android:defaultValue="true" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tiles_bg_disco"
