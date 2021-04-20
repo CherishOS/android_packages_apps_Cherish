@@ -31,6 +31,7 @@ import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import com.cherish.settings.preferences.SystemSettingMasterSwitchPreference;
 import com.android.settings.Utils;
+import com.android.internal.util.cherish.CherishUtils;
 import android.util.Log;
 
 import java.util.List;
@@ -64,6 +65,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mStatusBarLogo.setOnPreferenceChangeListener(this);
 		
 		Preference mCutoutPref = (Preference) findPreference(PREF_KEY_CUTOUT);
+		
+		String hasDisplayCutout = getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
+
+        if (TextUtils.isEmpty(hasDisplayCutout)) {
+            getPreferenceScreen().removePreference(mCutoutPref);
+        }
     }
 
     @Override
