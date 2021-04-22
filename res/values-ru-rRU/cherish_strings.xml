@@ -1075,10 +1075,10 @@
     <string name="keyguard_battery_bar_color_accent">Accent</string>
     <string name="keyguard_battery_bar_color_random">Random</string>
     <string name="keyguard_battery_bar_color_custom">Пользовательский</string>
-    <!-- Battery temperature -->
-    <string name="ambient_battery_temperature_title">Температура батареи</string>
-    <string name="ambient_battery_temperature_summary">Show battery temperature along with the battery percent</string>
     <!-- Volume panel extras -->
     <string name="volume_panel_tint_title">Tint the active volume bar</string>
     <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
+    <!-- Running Services button -->
+    <string name="qs_running_services_title">Running Services Icon</string>
+    <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
 </resources>

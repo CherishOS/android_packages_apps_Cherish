@@ -1073,10 +1073,10 @@
     <string name="keyguard_battery_bar_color_accent">Màu nhấn</string>
     <string name="keyguard_battery_bar_color_random">Ngẫu nhiên</string>
     <string name="keyguard_battery_bar_color_custom">Tuỳ chỉnh</string>
-    <!-- Battery temperature -->
-    <string name="ambient_battery_temperature_title">Nhiệt độ pin</string>
-    <string name="ambient_battery_temperature_summary">Hiện thi nhiệt độ dọc theo phần trăm pin</string>
     <!-- Volume panel extras -->
     <string name="volume_panel_tint_title">Tô màu hoạt động thanh âm lượng</string>
     <string name="volume_panel_tint_summary">Sử dụng đa màu tô cho thanh âm lượng</string>
+    <!-- Running Services button -->
+    <string name="qs_running_services_title">Running Services Icon</string>
+    <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
 </resources>
