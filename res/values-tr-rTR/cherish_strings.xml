@@ -179,8 +179,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
     <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
-    <string name="lockscreen_battery_info_font_title">Charging info font</string>
-    <string name="lockscreen_battery_info_dialog_title">Select charging info font</string>
+    <string name="lockscreen_battery_info_font_title">Şarj bilgisi yazı tipi</string>
+    <string name="lockscreen_battery_info_dialog_title">Şarj bilgisi yazı tipini seçin</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
     <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulanmasında titret</string>
@@ -1075,11 +1075,11 @@
     <string name="qs_running_services_title">Çalışan hizmetler simgesi</string>
     <string name="qs_running_services_summary">Altbilgideki çalışan hizmetler simgesini etkinleştirin</string>
     <!-- Statusbar ticker -->
-    <string name="status_bar_ticker_title">Ticker</string>
-    <string name="status_bar_show_ticker_title">Ticker</string>
-    <string name="status_bar_show_ticker_summary">Notification preview in status bar</string>
-    <string name="ticker_animation_mode_title">Ticker animation</string>
+    <string name="status_bar_ticker_title">Bildirim şeridi</string>
+    <string name="status_bar_show_ticker_title">Bildirim şeridi</string>
+    <string name="status_bar_show_ticker_summary">Durum çubuğunda bildirim ön izlemesi</string>
+    <string name="ticker_animation_mode_title">Şerit animasyonu</string>
     <string name="ticker_animation_mode_alpha_fade">Karart</string>
     <string name="ticker_animation_mode_scroll">Kaydır</string>
-    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <string name="ticker_tick_duration_title">Şerit süresi</string>
 </resources>
