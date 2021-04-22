@@ -810,8 +810,8 @@
     <string name="pulse_ambient_light_repeat_count_title">エッジライトの繰り返し回数</string>
     <string name="pulse_ambient_light_repeat_count_summary">繰り返し回数を設定します。0で無制限です。</string>
     <string name="pulse_ambient_light_layout_title">エッジライト表示</string>
-    <string name="pulse_ambient_light_layout_solid">Solid</string>
-    <string name="pulse_ambient_light_layout_faded">Faded</string>
+    <string name="pulse_ambient_light_layout_solid">ソリッド</string>
+    <string name="pulse_ambient_light_layout_faded">フェード</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">電源メニュー無効化</string>
     <string name="lockscreen_power_menu_disabled_summary">保護されたロック画面で電源メニューを非表示にする</string>
@@ -864,7 +864,7 @@
     <string name="qs_brightness_position_bottom_title">下部の明るさスライダー (クイック設定展開時のみ)</string>
     <string name="qs_brightness_position_bottom_summary">クイック設定展開時の下部に明るさスライダーを表示する</string>
     <!-- QQS brightness slider -->
-    <string name="qqs_brightness_slider_title">QQS brightness slider</string>
+    <string name="qqs_brightness_slider_title">クイック設定の明るさスライダー</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">パネルの背景のスタイル</string>
     <string name="panel_bg_dialog_title">パネルのバックグラウンドモデルを選択する</string>
@@ -1046,40 +1046,40 @@
     <string name="artwork_media_background_title">メディアアートワークの背景</string>
     <string name="artwork_media_background_summary">メディアアートワークをメディア通知の背景に設定する</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_value">値: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">既定</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_to_set">既定値: <xliff:g id="v">%s</xliff:g>\n長押しで設定</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     <!-- Blink flashlight for incoming calls -->
-    <string name="flashlight_on_call_title">Blink Flashlight for call</string>
+    <string name="flashlight_on_call_title">着信時にフラッシュライト点滅</string>
     <string name="flashlight_on_call_disabled">無効</string>
-    <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
-    <string name="flashlight_on_call_dnd">Only in DND mode</string>
-    <string name="flashlight_on_call_always">Always</string>
+    <string name="flashlight_on_call_not_dnd">通常モード時のみ</string>
+    <string name="flashlight_on_call_dnd">DNDモード時のみ</string>
+    <string name="flashlight_on_call_always">常時</string>
     <!-- Keygaurd battery bar & color modes -->
     <string name="keyguard_show_battery_title">バッテリーバー</string>
     <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
     <string name="keyguard_show_battery_always_title">Always show battery bar</string>
     <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
-    <string name="keygaurd_battery_bar_color_title">Color</string>
+    <string name="keygaurd_battery_bar_color_title">色</string>
     <string name="on_aod_title">Always On Display</string>
-    <string name="keyguard_battery_bar_color_modes_title">Color mode</string>
+    <string name="keyguard_battery_bar_color_modes_title">色のモード</string>
     <string name="keyguard_battery_bar_color_gradient">グラデーション</string>
-    <string name="keyguard_battery_bar_color_accent">Accent</string>
-    <string name="keyguard_battery_bar_color_random">Random</string>
+    <string name="keyguard_battery_bar_color_accent">アクセント</string>
+    <string name="keyguard_battery_bar_color_random">ランダム</string>
     <string name="keyguard_battery_bar_color_custom">カスタム</string>
     <!-- Volume panel extras -->
     <string name="volume_panel_tint_title">Tint the active volume bar</string>
     <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
     <!-- Running Services button -->
-    <string name="qs_running_services_title">Running Services Icon</string>
-    <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
+    <string name="qs_running_services_title">実行中のサービスアイコン</string>
+    <string name="qs_running_services_summary">フッターの実行中のサービスのアイコンを有効化する</string>
     <!-- Statusbar ticker -->
-    <string name="status_bar_ticker_title">Ticker</string>
-    <string name="status_bar_show_ticker_title">Ticker</string>
-    <string name="status_bar_show_ticker_summary">Notification preview in status bar</string>
-    <string name="ticker_animation_mode_title">Ticker animation</string>
+    <string name="status_bar_ticker_title">ティッカー</string>
+    <string name="status_bar_show_ticker_title">ティッカー</string>
+    <string name="status_bar_show_ticker_summary">ステータスバーでの通知プレビュー</string>
+    <string name="ticker_animation_mode_title">ティッカーのアニメーション</string>
     <string name="ticker_animation_mode_alpha_fade">フェード</string>
     <string name="ticker_animation_mode_scroll">スクロール</string>
-    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <string name="ticker_tick_duration_title">ティッカーの動作時間</string>
 </resources>
