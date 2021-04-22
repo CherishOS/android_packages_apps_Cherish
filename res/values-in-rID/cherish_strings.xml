@@ -1077,9 +1077,9 @@
     <!-- Statusbar ticker -->
     <string name="status_bar_ticker_title">Notifikasi ticker</string>
     <string name="status_bar_show_ticker_title">Notifikasi ticker</string>
-    <string name="status_bar_show_ticker_summary">Notification preview in status bar</string>
-    <string name="ticker_animation_mode_title">Ticker animation</string>
+    <string name="status_bar_show_ticker_summary">Tinjauan notifikasi di bilah status</string>
+    <string name="ticker_animation_mode_title">Animasi Ticker</string>
     <string name="ticker_animation_mode_alpha_fade">Memudar</string>
     <string name="ticker_animation_mode_scroll">Gulir</string>
-    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <string name="ticker_tick_duration_title">Durasi Ticker</string>
 </resources>
