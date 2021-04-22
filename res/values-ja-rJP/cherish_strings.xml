@@ -179,8 +179,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
     <string name="lockscreen_battery_info_summary">充電時のロック画面に接続した充電器の最大電流・最大電圧とバッテリー温度の情報を表示する</string>
-    <string name="lockscreen_battery_info_font_title">Charging info font</string>
-    <string name="lockscreen_battery_info_dialog_title">Select charging info font</string>
+    <string name="lockscreen_battery_info_font_title">充電情報のフォント</string>
+    <string name="lockscreen_battery_info_dialog_title">充電情報のフォントを選択する</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">指紋認証時の振動</string>
     <string name="fprint_sucess_vib_summary">指紋認証が成功した時に振動させる</string>
@@ -748,7 +748,7 @@
     <string name="file_header_select_title">ストレージから画像を選択</string>
     <string name="file_header_select_summary">内部ストレージから画像を選択する</string>
     <string name="status_bar_custom_header_shadow_title">画像を暗くする</string>
-    <string name="status_bar_custom_header_height_title">Image height offset</string>
+    <string name="status_bar_custom_header_height_title">画像の高さのオフセット</string>
     <!-- FOD pressed color -->
     <string name="fod_pressed_color_title">指紋認証タッチ時の色</string>
     <string name="fod_pressed_color_white">白</string>
@@ -785,9 +785,9 @@
     <string name="pulse_ambient_light_category">画面のエッジライト</string>
     <string name="pulse_ambient_light_title">新しい通知で表示</string>
     <string name="pulse_ambient_light_summary">新しい通知でライトを点滅させる</string>
-    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_title">ライトの繰り返しモード</string>
     <string name="pulse_ambient_light_repeat_direction_restart">再起動</string>
-    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">反転</string>
     <string name="ambient_notification_light_enabled_title">Always On で表示</string>
     <string name="ambient_notification_light_enabled_summary">Always On 使用中に新しい通知でライトを点滅させる</string>
     <string name="ambient_notification_light_color_title">カスタムの色</string>
@@ -809,7 +809,7 @@
     <string name="pulse_ambient_light_duration_summary">アンビエントライトアニメーションの長さを設定する</string>
     <string name="pulse_ambient_light_repeat_count_title">エッジライトの繰り返し回数</string>
     <string name="pulse_ambient_light_repeat_count_summary">繰り返し回数を設定します。0で無制限です。</string>
-    <string name="pulse_ambient_light_layout_title">Edge Light View</string>
+    <string name="pulse_ambient_light_layout_title">エッジライト表示</string>
     <string name="pulse_ambient_light_layout_solid">Solid</string>
     <string name="pulse_ambient_light_layout_faded">Faded</string>
     <!-- Power menu on lockscreen -->
