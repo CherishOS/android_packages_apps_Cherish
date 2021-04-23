@@ -1033,8 +1033,8 @@
     <string name="always_on_display_schedule_title">Always On Display のスケジュール</string>
     <string name="always_on_display_schedule_sunset">日没</string>
     <string name="always_on_display_schedule_sunrise">日出</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">日没から設定時刻まで</string>
+    <string name="always_on_display_schedule_mixed_sunrise">設定時刻から日の出まで</string>
     <!-- OOS clear all button -->
     <string name="enable_clear_all_button">全て終了ボタン</string>
     <string name="enable_clear_all_button_summary">全て終了テキストの代わりに下部中央ボタンの使用を有効にする</string>
@@ -1070,7 +1070,7 @@
     <string name="keyguard_battery_bar_color_custom">カスタム</string>
     <!-- Volume panel extras -->
     <string name="volume_panel_tint_title">アクティブな音量バーの色</string>
-    <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
+    <string name="volume_panel_tint_summary">アクティブな音量バーに色のグラデーションを使用する</string>
     <!-- Running Services button -->
     <string name="qs_running_services_title">実行中のサービスアイコン</string>
     <string name="qs_running_services_summary">フッターの実行中のサービスのアイコンを有効化する</string>
