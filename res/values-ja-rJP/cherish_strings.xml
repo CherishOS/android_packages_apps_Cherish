@@ -1049,7 +1049,7 @@
     <string name="custom_seekbar_value">値: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">既定</string>
     <string name="custom_seekbar_default_value_to_set">既定値: <xliff:g id="v">%s</xliff:g>\n長押しで設定</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <string name="custom_seekbar_default_value_is_set">既定値が設定されています</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">着信時にフラッシュライト点滅</string>
     <string name="flashlight_on_call_disabled">無効</string>
@@ -1058,9 +1058,9 @@
     <string name="flashlight_on_call_always">常時</string>
     <!-- Keygaurd battery bar & color modes -->
     <string name="keyguard_show_battery_title">バッテリーバー</string>
-    <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
-    <string name="keyguard_show_battery_always_title">Always show battery bar</string>
-    <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
+    <string name="keyguard_show_battery_summary">充電時にアンビエント画面にバッテリーバーを表示する</string>
+    <string name="keyguard_show_battery_always_title">バッテリーバーを常に表示</string>
+    <string name="keyguard_show_battery_always_summary">アンビエント画面時は常にバッテリーバーを表示する</string>
     <string name="keygaurd_battery_bar_color_title">色</string>
     <string name="on_aod_title">Always On Display</string>
     <string name="keyguard_battery_bar_color_modes_title">色のモード</string>
@@ -1069,7 +1069,7 @@
     <string name="keyguard_battery_bar_color_random">ランダム</string>
     <string name="keyguard_battery_bar_color_custom">カスタム</string>
     <!-- Volume panel extras -->
-    <string name="volume_panel_tint_title">Tint the active volume bar</string>
+    <string name="volume_panel_tint_title">アクティブな音量バーの色</string>
     <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
     <!-- Running Services button -->
     <string name="qs_running_services_title">実行中のサービスアイコン</string>
