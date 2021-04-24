@@ -916,9 +916,6 @@
     <string name="qstile_neonlike">Neon Beyaz</string>
     <string name="qstile_oos">Oksijen</string>
     <string name="qstile_triangles">Üçgen</string>
-    <!-- Show old style mobile data icon -->
-    <string name="use_old_mobiletype_title">Eski stil mobil veri simgesini kullan</string>
-    <string name="use_old_mobiletype_summary">Sinyal için Andorid 9 öncesi mobil tipi simgelerini kullanın</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Arama titreşimi seçenekleri</string>
     <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
@@ -1050,6 +1047,11 @@
     <string name="custom_seekbar_default_value">Varsayılan</string>
     <string name="custom_seekbar_default_value_to_set">Varsayılan değer: <xliff:g id="v">%s</xliff:g>\nAyarlamak için uzun dokunun</string>
     <string name="custom_seekbar_default_value_is_set">Varsayılan değer ayarlandı</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Bildirimlerinizi, bildirim çubuğu yazılarının yeniden tasarlanmış haliyle değiştirin!\nStandart bildirimlerden daha zarif ve daha az dikkat dağıtıcıdır</string>
+    <string name="reticker_colored_title">Uygulama renkli arka planı kullan</string>
+    <string name="reticker_colored_summary">Bildirim uygulaması ana rengini kullanarak reTicker arka plan rengini değiştirin</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Gelen aramada bildirim flaşı</string>
     <string name="flashlight_on_call_disabled">Devre dışı</string>
@@ -1074,12 +1076,4 @@
     <!-- Running Services button -->
     <string name="qs_running_services_title">Çalışan hizmetler simgesi</string>
     <string name="qs_running_services_summary">Altbilgideki çalışan hizmetler simgesini etkinleştirin</string>
-    <!-- Statusbar ticker -->
-    <string name="status_bar_ticker_title">Bildirim şeridi</string>
-    <string name="status_bar_show_ticker_title">Bildirim şeridi</string>
-    <string name="status_bar_show_ticker_summary">Durum çubuğunda bildirim ön izlemesi</string>
-    <string name="ticker_animation_mode_title">Şerit animasyonu</string>
-    <string name="ticker_animation_mode_alpha_fade">Karart</string>
-    <string name="ticker_animation_mode_scroll">Kaydır</string>
-    <string name="ticker_tick_duration_title">Şerit süresi</string>
 </resources>
