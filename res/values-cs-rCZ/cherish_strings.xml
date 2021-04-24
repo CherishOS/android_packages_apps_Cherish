@@ -916,9 +916,6 @@
     <string name="qstile_neonlike">Neon Light</string>
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Triangle</string>
-    <!-- Show old style mobile data icon -->
-    <string name="use_old_mobiletype_title">Use old style mobile data icons</string>
-    <string name="use_old_mobiletype_summary">Use pre-p mobiletype icons for signal</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
@@ -1050,6 +1047,11 @@
     <string name="custom_seekbar_default_value">Výchozí</string>
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Replace your notifications with a redesigned version of tickers! \nSlim and less invasive than a standard notification</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Blink Flashlight for call</string>
     <string name="flashlight_on_call_disabled">Vypnuto</string>
@@ -1074,12 +1076,4 @@
     <!-- Running Services button -->
     <string name="qs_running_services_title">Running Services Icon</string>
     <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
-    <!-- Statusbar ticker -->
-    <string name="status_bar_ticker_title">Ticker</string>
-    <string name="status_bar_show_ticker_title">Ticker</string>
-    <string name="status_bar_show_ticker_summary">Notification preview in status bar</string>
-    <string name="ticker_animation_mode_title">Ticker animation</string>
-    <string name="ticker_animation_mode_alpha_fade">Fade</string>
-    <string name="ticker_animation_mode_scroll">Rolování</string>
-    <string name="ticker_tick_duration_title">Ticker duration</string>
 </resources>
