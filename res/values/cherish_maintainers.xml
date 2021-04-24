@@ -69,8 +69,10 @@
     <!-- Realme Device maintainers -->
    <string name="device_RMX1901">Realme RMX1901</string>
    <string name="RMX1901_maintainer">Ritish</string>
-   <string name="device_RMX1921">Realme RMX1921</string>
+   <string name="device_RMX1921">Realme XT</string>
    <string name="RMX1921_maintainer">Jgen</string>
+   <string name="device_RMX1851">Realme 3 pro</string>
+   <string name="RMX1851_maintainer">Nikhil7001</string>
 
    <!-- Asus Device maintainers -->
    <string name="device_X00T">Asus ZenFone Max Pro M1</string>

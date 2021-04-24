@@ -276,6 +276,15 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/jigen_was_here" />
         </Preference>
+		
+<Preference
+            android:title="@string/RMX1851_maintainer"
+            android:summary="@string/device_RMX1851"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Nikhil7001" />
+        </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
