@@ -179,8 +179,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
     <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
-    <string name="lockscreen_battery_info_font_title">Charging info font</string>
-    <string name="lockscreen_battery_info_dialog_title">Select charging info font</string>
+    <string name="lockscreen_battery_info_font_title">Şarj bilgisi yazı tipi</string>
+    <string name="lockscreen_battery_info_dialog_title">Şarj bilgisi yazı tipini seçin</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
     <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulanmasında titret</string>
@@ -748,7 +748,7 @@
     <string name="file_header_select_title">Depolamadan bir resim seçin</string>
     <string name="file_header_select_summary">Dahili depolamadan resim seçin</string>
     <string name="status_bar_custom_header_shadow_title">Koyu resim</string>
-    <string name="status_bar_custom_header_height_title">Image height offset</string>
+    <string name="status_bar_custom_header_height_title">Görüntü yüksekliği uzaklığı</string>
     <!-- FOD pressed color -->
     <string name="fod_pressed_color_title">Parmak izi dokunma rengi</string>
     <string name="fod_pressed_color_white">Beyaz</string>
@@ -785,9 +785,9 @@
     <string name="pulse_ambient_light_category">Ekran kenarı aydınlatması</string>
     <string name="pulse_ambient_light_title">Yeni bildirimde göster</string>
     <string name="pulse_ambient_light_summary">Yeni bildirimlerde kenar aydınlatmalarını göster</string>
-    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Işık tekrar sayısı</string>
     <string name="pulse_ambient_light_repeat_direction_restart">Yeniden başlat</string>
-    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Tersine</string>
     <string name="ambient_notification_light_enabled_title">Her zaman açık göster</string>
     <string name="ambient_notification_light_enabled_summary">Her zaman açık özelliğini kullanarak yeni bildirimlerde kenar aydınlatmalarını göster</string>
     <string name="ambient_notification_light_color_title">Özel renk</string>
@@ -809,9 +809,9 @@
     <string name="pulse_ambient_light_duration_summary">Ortam ışığı animasyonu süresini ayarla</string>
     <string name="pulse_ambient_light_repeat_count_title">Kenar ışığı tekrar sayısı</string>
     <string name="pulse_ambient_light_repeat_count_summary">Maksimum tekrar sayısını ayarlayın. Sonsuz için 0 yazın</string>
-    <string name="pulse_ambient_light_layout_title">Edge Light View</string>
-    <string name="pulse_ambient_light_layout_solid">Solid</string>
-    <string name="pulse_ambient_light_layout_faded">Faded</string>
+    <string name="pulse_ambient_light_layout_title">Kenar aydınlatma görünümü</string>
+    <string name="pulse_ambient_light_layout_solid">İçidolu</string>
+    <string name="pulse_ambient_light_layout_faded">Solmuş</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Kilit ekranında güç menüsünü devre dışı bırak</string>
     <string name="lockscreen_power_menu_disabled_summary">Bu seçenek sadece güvenli kilit ekranlarındaki güç menüsünü devre dışı bırakacaktır</string>
@@ -864,7 +864,7 @@
     <string name="qs_brightness_position_bottom_title">Parlaklık kaydırıcısı altta (yalnızca Genişletilmiş Hızlı ayarlar için çalışır)</string>
     <string name="qs_brightness_position_bottom_summary">Genişletilmiş hızlı ayarların altında parlaklık kaydırıcısını göster</string>
     <!-- QQS brightness slider -->
-    <string name="qqs_brightness_slider_title">QQS brightness slider</string>
+    <string name="qqs_brightness_slider_title">Hızlı ayarlar parlaklık kaydırıcısı</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Panel arka plan stili</string>
     <string name="panel_bg_dialog_title">Panel arka plan modelini seç</string>
@@ -916,9 +916,6 @@
     <string name="qstile_neonlike">Neon Beyaz</string>
     <string name="qstile_oos">Oksijen</string>
     <string name="qstile_triangles">Üçgen</string>
-    <!-- Show old style mobile data icon -->
-    <string name="use_old_mobiletype_title">Eski stil mobil veri simgesini kullan</string>
-    <string name="use_old_mobiletype_summary">Sinyal için Andorid 9 öncesi mobil tipi simgelerini kullanın</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Arama titreşimi seçenekleri</string>
     <string name="incall_vibrate_connect_title">Bağlandığında titret</string>

@@ -916,9 +916,6 @@
     <string name="qstile_neonlike">Neon Light</string>
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Segitiga</string>
-    <!-- Show old style mobile data icon -->
-    <string name="use_old_mobiletype_title">Gunakan ikon data seluler gaya lama</string>
-    <string name="use_old_mobiletype_summary">Gunakan ikon jenis ponsel oreo untuk sinyal</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opsi getar dalam panggilan</string>
     <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>

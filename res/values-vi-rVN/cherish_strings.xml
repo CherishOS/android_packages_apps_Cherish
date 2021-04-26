@@ -916,9 +916,6 @@
     <string name="qstile_neonlike">Đường Nét Neon</string>
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Tam giác</string>
-    <!-- Show old style mobile data icon -->
-    <string name="use_old_mobiletype_title">Sử dụng các biểu tượng dữ liệu di động kiểu cũ</string>
-    <string name="use_old_mobiletype_summary">Sử dụng các biểu tượng loại di động trước p cho tín hiệu</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Tùy chọn rung trong cuộc gọi</string>
     <string name="incall_vibrate_connect_title">Rung khi kết nối</string>

@@ -916,9 +916,6 @@
     <string name="qstile_neonlike">Luz Néon</string>
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Triângulo</string>
-    <!-- Show old style mobile data icon -->
-    <string name="use_old_mobiletype_title">Usar ícones de dados móveis do estilo antigo</string>
-    <string name="use_old_mobiletype_summary">Usar ícones de tipo mobiletype pré para sinal</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opções de vibração na chamada</string>
     <string name="incall_vibrate_connect_title">Vibrar ao atender</string>

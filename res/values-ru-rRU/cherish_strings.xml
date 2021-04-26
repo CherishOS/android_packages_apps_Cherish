@@ -916,9 +916,6 @@
     <string name="qstile_neonlike">Neon Light</string>
     <string name="qstile_oos">Oxygen</string>
     <string name="qstile_triangles">Triangle</string>
-    <!-- Show old style mobile data icon -->
-    <string name="use_old_mobiletype_title">Старый вид иконки моб. сети</string>
-    <string name="use_old_mobiletype_summary">Объединить значок уровня сигнала и типа сети</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Параметры вибрации при вызове</string>
     <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
