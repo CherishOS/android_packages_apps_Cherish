@@ -901,7 +901,7 @@
     <string name="qstile_default">既定</string>
     <string name="qstile_circle_trim">トリム付きの円</string>
     <string name="qstile_dual_tone_circle">デュアルトーンの円</string>
-    <string name="qstile_squircle_trim">トリム付きの Squircle</string>
+    <string name="qstile_squircle_trim">トリム付きのスクワークル</string>
     <string name="qstile_wavey">波状</string>
     <string name="qstile_pokesign">モンスターボール</string>
     <string name="qstile_ninja">忍者</string>
