@@ -1077,5 +1077,5 @@
     <string name="qs_running_services_title">Çalışan hizmetler simgesi</string>
     <string name="qs_running_services_summary">Altbilgideki çalışan hizmetler simgesini etkinleştirin</string>
     <!-- Notification background opacity -->
-    <string name="notification_alpha_title">Notification background opacity</string>
+    <string name="notification_alpha_title">Bildirim arka planı şeffaflığı</string>
 </resources>
