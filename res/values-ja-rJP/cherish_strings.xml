@@ -1076,4 +1076,6 @@
     <!-- Running Services button -->
     <string name="qs_running_services_title">実行中のサービスアイコン</string>
     <string name="qs_running_services_summary">フッターの実行中のサービスのアイコンを有効化する</string>
+    <!-- Notification background opacity -->
+    <string name="notification_alpha_title">Notification background opacity</string>
 </resources>
