@@ -1076,4 +1076,6 @@
     <!-- Running Services button -->
     <string name="qs_running_services_title">Ikon Layanan Berjalan</string>
     <string name="qs_running_services_summary">Aktifkan ikon layanan berjalan pada bagian bawah</string>
+    <!-- Notification background opacity -->
+    <string name="notification_alpha_title">Notification background opacity</string>
 </resources>
