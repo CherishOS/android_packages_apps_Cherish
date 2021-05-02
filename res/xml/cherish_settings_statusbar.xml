@@ -83,6 +83,29 @@
             android:summary="@string/carrier_label_settings_summary"
             android:fragment="com.cherish.settings.fragments.CustomCarrierLabel" />
 			
+	<com.cherish.settings.preferences.SystemSettingListPreference
+        android:key="status_bar_show_ticker"
+        android:title="@string/ticker_screen_title"
+        android:entries="@array/ticker_mode_entries"
+        android:entryValues="@array/ticker_mode_values"
+        android:defaultValue="0" />
+
+    <com.cherish.settings.preferences.SystemSettingListPreference
+        android:key="status_bar_ticker_animation_mode"
+        android:title="@string/ticker_animation_mode_title"
+        android:entries="@array/ticker_animation_mode_entries"
+        android:entryValues="@array/ticker_animation_mode_values"
+        android:defaultValue="1" />
+
+    <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+        android:key="status_bar_ticker_tick_duration"
+        android:title="@string/ticker_tick_duration_title"
+        settings:min="500"
+        settings:interval="100"
+        android:max="10000"
+        android:defaultValue="3000"
+        settings:units="@string/unit_milliseconds" />
+			
 	<com.cherish.settings.preferences.SystemSettingMasterSwitchPreference
         android:key="status_bar_logo"
 		android:icon="@drawable/ic_logo"
