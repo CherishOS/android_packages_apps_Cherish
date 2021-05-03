@@ -1400,4 +1400,13 @@
     <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
     <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
     <string name="status_bar_show_image">Show image</string>
+	
+	<!-- Clock lottie animations -->
+    <string name="clock_lottie_animation_title">Lottie Animation</string>
+    <string name="clock_lottie_animation_hidden">Hidden</string>
+    <string name="clock_lottie_animation_explosion_circle">Explosion Circle</string>
+    <string name="clock_lottie_animation_blue_circle">Blue Circle</string>
+    <string name="clock_lottie_animation_blue_circle_2">Blue Circle v2</string>
+    <string name="clock_lottie_animation_rainbow_circle">Rainbow Circle</string>
+    <string name="clock_lottie_animation_fire_circle">Fire Circle</string>
 </resources>

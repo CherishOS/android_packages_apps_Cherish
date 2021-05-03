@@ -64,6 +64,8 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
     private static final String FOD_ANIMATION_CATEGORY = "fod_animations";
     private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
+	private static final String PREF_LS_CLOCK_SELECTION = "lockscreen_clock_selection";
+    private static final String PREF_LS_CLOCK_ANIM_SELECTION = "lockscreen_clock_animation_selection";
     private ContentResolver mResolver;
     private Preference FODSettings;
 	
@@ -78,6 +80,8 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mOwnerInfoFontSize;
 	private CustomSeekBarPreference mCustomTextClockFontSize;
     private PreferenceCategory mFODIconPickerCategory;
+	private SecureSettingListPreference mLockClockSelection;
+    private SystemSettingListPreference mLockClockAnimSelection;
     private Preference mAODPref;
 
     @Override
@@ -88,6 +92,18 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
+		
+		mLockClockAnimSelection = (SystemSettingListPreference) findPreference(PREF_LS_CLOCK_ANIM_SELECTION);
+
+        mLockClockSelection = (SecureSettingListPreference) findPreference(PREF_LS_CLOCK_SELECTION);
+        int val = Settings.Secure.getIntForUser(resolver,
+                Settings.Secure.LOCKSCREEN_CLOCK_SELECTION, 2, UserHandle.USER_CURRENT);
+        mLockClockSelection.setOnPreferenceChangeListener(this);
+        if (val > 3 && val < 8) {
+            mLockClockAnimSelection.setEnabled(true);
+        } else {
+            mLockClockAnimSelection.setEnabled(false);
+        }
 		
 	mFODIconPickerCategory = findPreference(FOD_ICON_PICKER_CATEGORY);
         if (mFODIconPickerCategory != null && !FodUtils.hasFodSupport(getContext())) {
@@ -176,6 +192,16 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             int top = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKDATE_FONT_SIZE, top*1);
+            return true;
+		} else if (preference == mLockClockSelection) {
+            int val = Integer.parseInt((String) newValue);
+            Settings.Secure.putInt(resolver,
+                    Settings.Secure.LOCKSCREEN_CLOCK_SELECTION, val);
+            if (val > 3 && val < 8) {
+                mLockClockAnimSelection.setEnabled(true);
+            } else {
+                mLockClockAnimSelection.setEnabled(false);
+            }
             return true;
         }
         return false;

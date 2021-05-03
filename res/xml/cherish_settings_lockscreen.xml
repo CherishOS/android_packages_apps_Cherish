@@ -78,6 +78,14 @@
     <PreferenceCategory
         android:title="Lock Clock"/>
 
+    <com.cherish.settings.preferences.SystemSettingListPreference
+        android:key="lockscreen_clock_animation_selection"
+        android:title="@string/clock_lottie_animation_title"
+        android:entries="@array/clock_lottie_animation_entries"
+        android:entryValues="@array/clock_lottie_animation_values"
+        android:summary="%s"
+        android:defaultValue="0" />
+
     <com.cherish.settings.preferences.SecureSettingListPreference
         android:key="lockscreen_clock_selection"
         android:title="@string/lockscreen_clock_title"

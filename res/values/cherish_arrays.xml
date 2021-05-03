@@ -1368,4 +1368,23 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+
+    <!-- Clock Lottie animations -->
+    <string-array name="clock_lottie_animation_entries" translatable="false">
+        <item>@string/clock_lottie_animation_hidden</item>
+        <item>@string/clock_lottie_animation_explosion_circle</item>
+        <item>@string/clock_lottie_animation_blue_circle</item>
+        <item>@string/clock_lottie_animation_blue_circle_2</item>
+        <item>@string/clock_lottie_animation_rainbow_circle</item>
+        <item>@string/clock_lottie_animation_fire_circle</item>
+    </string-array>
+
+    <string-array name="clock_lottie_animation_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
 </resources>
