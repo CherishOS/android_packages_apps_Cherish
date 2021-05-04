@@ -215,6 +215,15 @@
 <PreferenceCategory
               android:key="asus_devices"
               android:title="@string/asus_devices" >
+			  
+<Preference
+            android:title="@string/Z01R_maintainer"
+            android:summary="@string/device_Z01R"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Vysakh_N" />
+        </Preference>
 <Preference
             android:title="@string/X00T_maintainer"
             android:summary="@string/device_X00T"

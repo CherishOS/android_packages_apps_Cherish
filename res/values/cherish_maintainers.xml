@@ -79,6 +79,8 @@
    <string name="X00T_maintainer">kaneki Ken</string>
    <string name="device_X01BD">Asus ZenFone Max Pro M2</string>
    <string name="X01BD_maintainer">Rams</string>
+   <string name="device_Z01R">Asus Zenfone 5z</string>
+   <string name="Z01R_maintainer">Vysakh N</string>
 
    <!-- Oneplus Device maintainers -->
    <string name="device_enchilada">Oneplus 6</string>
