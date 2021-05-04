@@ -231,24 +231,6 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Rung khi chạm</string>
     <string name="quick_settings_vibrate_summary">Rung khi chạm các ô cài đặt nhanh</string>
-    <!-- Global Actions -->
-    <string name="global_actions_title">Trình đơn nguồn</string>
-    <string name="global_actions_summary">Chọn những thứ hiển thị khi bạn nhấn nút nguồn</string>
-    <string name="global_actions_power">Trình đơn nguồn</string>
-    <string name="global_actions_restart">Khởi động lại</string>
-    <string name="global_actions_airplane">Máy bay</string>
-    <string name="global_actions_settings">Cài đặt</string>
-    <string name="global_actions_lockdown">Khóa lại</string>
-    <string name="global_actions_soundpanel">Bảng âm lượng</string>
-    <string name="global_actions_users">Người dùng</string>
-    <string name="global_actions_screenshot">Ảnh chụp màn hình</string>
-    <string name="global_actions_screenrecord">Quay màn hình</string>
-    <string name="global_actions_flashlight">Đèn pin</string>
-    <string name="global_actions_emergency">Khẩn cấp</string>
-    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
-    <string name="global_actions_advanced_reboot_summary">Khi khởi động lại hiển thị tùy chọn vào chế độ phục hồi và bộ nạp khởi động</string>
-    <string name="global_actions_max_columns_title">Hiện thị hành động tối đa</string>
-    <string name="global_actions_max_columns_summary">Đặt số lượng hành động sẽ hiển thị trước khi các nút chuyển sang menu mục bổ sung</string>
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Hiển thị tốc độ mạng</string>
     <string name="network_traffic_state_title">Tốc độ mạng</string>
@@ -764,7 +746,11 @@
     <string name="add_gaming_mode_package_title">Thêm ứng dụng cho chế độ chơi game</string>
     <string name="add_gaming_mode_package_summary">Chế độ chơi game sẽ tự động bật tắt đối với các ứng dụng này</string>
     <string name="gaming_mode_headsup_title">Chặn thông báo</string>
-    <string name="gaming_mode_headsup_summary">Chặn tất cả các thông báo nổi ngoại trừ cuộc gọi</string>
+    <string name="gaming_mode_headsup_allow">Cho phép tất cả các thông báo nổi</string>
+    <string name="gaming_mode_headsup_dnc">Chặn tất cả các thông báo nổi ngoại trừ các cuộc gọi &amp; báo thức</string>
+    <string name="gaming_mode_headsup_clock">Chặn tất cả các thông báo nổi ngoại trừ báo thức</string>
+    <string name="gaming_mode_headsup_dialer">Chặn tất cả các thông báo nổi ngoại trừ cuộc gọi</string>
+    <string name="gaming_mode_headsup_stop">Chặn tất cả các thông báo nổi</string>
     <string name="gaming_mode_hardware_keys_title">Khóa phím</string>
     <string name="gaming_mode_hardware_keys_summary">Vô hiệu hóa phím cứng khi chế độ trò chơi được bật</string>
     <string name="gaming_mode_brightness_title">Vô hiệu hóa độ sáng tự động</string>
@@ -785,10 +771,13 @@
     <string name="pulse_ambient_light_category">Lặp lại ánh sáng cạnh</string>
     <string name="pulse_ambient_light_title">Hiển thị thông báo mới</string>
     <string name="pulse_ambient_light_summary">Hiển thị xung ánh sáng trên thông báo mới</string>
+    <string name="pulse_ambient_light_show_always_title">Hiển thị cho tất cả các sự kiện ngủ</string>
+    <string name="pulse_ambient_light_show_always_summary">Hiển thị đèn cho tất cả các sự kiện ngủ và không chỉ thông báo</string>
     <string name="pulse_ambient_light_repeat_direction_title">Chế độ lặp lại ánh sáng</string>
     <string name="pulse_ambient_light_repeat_direction_restart">Khởi động lại</string>
     <string name="pulse_ambient_light_repeat_direction_reverse">Đảo vị trí</string>
     <string name="ambient_notification_light_enabled_title">Luôn luôn bật</string>
+    <string name="aod_disabled">AOD đã tắt</string>
     <string name="ambient_notification_light_enabled_summary">Hiển thị xung ánh sáng trên thông báo mới bằng cách luôn bật</string>
     <string name="ambient_notification_light_color_title">Tùy chỉnh màu sắc</string>
     <string name="ambient_notification_light_color_summary">Màu mặc định cho xung ánh sáng</string>
@@ -809,9 +798,6 @@
     <string name="pulse_ambient_light_duration_summary">Đặt thời lượng cho hiệu ứng màn hình cạnh</string>
     <string name="pulse_ambient_light_repeat_count_title">Thông báo cạnh lặp lại</string>
     <string name="pulse_ambient_light_repeat_count_summary">Đặt số lần lặp lại tối đa. 0 cho vô hạn</string>
-    <string name="pulse_ambient_light_layout_title">Bật sáng màn hình cạnh</string>
-    <string name="pulse_ambient_light_layout_solid">Khối</string>
-    <string name="pulse_ambient_light_layout_faded">Mờ dần</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Vô hiệu hoá menu nguồn trên màn hình khoá</string>
     <string name="lockscreen_power_menu_disabled_summary">Tùy chọn này sẽ chỉ vô hiệu menu nguồn trên màn hình khóa</string>
@@ -1038,10 +1024,6 @@
     <!-- Quick Settings -->
     <string name="lockscreen_qs_disabled_title">Vô hiệu hoá bảng cài đặt nhanh khi bị khoá</string>
     <string name="lockscreen_qs_disabled_summary">Vô hiệu hóa mở rộng cài đặt nhanh trên màn hình khóa an toàn</string>
-    <!-- Notification Media Options -->
-    <string name="media_category">Tùy chọn phương tiện thông báo</string>
-    <string name="artwork_media_background_title">Tác phẩm nghệ thuật nền phương tiện truyền thông</string>
-    <string name="artwork_media_background_summary">Đặt tác phẩm nghệ thuật phương tiện làm nền phương tiện thông báo</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Mặc định</string>
@@ -1078,4 +1060,20 @@
     <string name="qs_running_services_summary">Kích hoạt biểu tượng dịch vụ đang chạy ở chân trang</string>
     <!-- Notification background opacity -->
     <string name="notification_alpha_title">Độ mờ của nền thông báo</string>
+    <!-- Global Actions -->
+    <string name="powermenu_advanced_reboot_title">Khởi động lại nâng cao</string>
+    <string name="powermenu_advanced_reboot_summary">Cho phép truy cập vào khôi phục và bộ nạp khởi động</string>
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">Rung khi có thông báo</string>
+    <string name="vibrate_on_notifications_summary">Chuyển đổi để tắt thông báo rung</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Ẩn biểu tượng khóa</string>
+    <string name="hide_lockicon_summary">Ẩn biểu tượng khoá trên màn hình khoá</string>
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Cài đặt biểu tượng bảng điều khiển</string>
+    <string name="theming_settings_dashboard_icons_default">Nền mặc định / Nền trước trong suốt</string>
+    <string name="theming_settings_dashboard_icons_white">Nền mặc định / Nền trước màu trắng</string>
+    <string name="theming_settings_dashboard_icons_accent">Nền nhấn / Nền trước trong suốt</string>
+    <string name="theming_settings_dashboard_icons_plain">Nền trong suốt / Nền trước trơn</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Nền trong suốt / Nền trước màu nhấn</string>
 </resources>
