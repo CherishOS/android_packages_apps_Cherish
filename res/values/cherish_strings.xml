@@ -852,7 +852,7 @@
     <string name="gaming_mode_headsup_dnc">Block all headsup notifications except calls &amp; alarms</string>
     <string name="gaming_mode_headsup_clock">Block all headsup notifications except alarms</string>
     <string name="gaming_mode_headsup_dialer">Block all headsup notifications except calls</string>
-    <string name="gaming_mode_headsup_stop">Block all headsup notifications</string
+    <string name="gaming_mode_headsup_stop">Block all headsup notifications</string>
     <string name="gaming_mode_hardware_keys_title">Lock buttons</string>
     <string name="gaming_mode_hardware_keys_summary">Disable hardware buttons when Gaming mode is turned on</string>
     <string name="gaming_mode_brightness_title">Disable automatic brightness</string>
@@ -1213,4 +1213,4 @@
     <string name="theming_settings_dashboard_icons_accent">Accent background / Transparent foreground</string>
     <string name="theming_settings_dashboard_icons_plain">Transparent background / Plain foreground</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Transparent background / Accent foreground</string>
-</resources>
+	</resources>
