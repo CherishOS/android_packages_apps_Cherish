@@ -172,13 +172,6 @@
             android:defaultValue="false"
             android:dependency="ambient_notification_light_enabled"/>
 
-        <com.cherish.settings.preferences.SystemSettingListPreference
-            android:key="pulse_ambient_light_layout"
-            android:title="@string/pulse_ambient_light_layout_title"
-            android:entries="@array/pulse_ambient_light_layout_entries"
-            android:entryValues="@array/pulse_ambient_light_layout_values"
-            android:defaultValue="0" />
-			
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="ambient_light_pulse_for_all"
             android:title="@string/pulse_ambient_light_show_always_title"
