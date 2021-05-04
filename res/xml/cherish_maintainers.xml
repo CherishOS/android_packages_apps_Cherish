@@ -40,12 +40,21 @@
         </Preference>
 
 <Preference
+            android:title="@string/sweet_maintainer"
+            android:summary="@string/device_sweet"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/nazunamoe" />
+        </Preference>
+		
+<Preference
             android:title="@string/miatoll_maintainer"
             android:summary="@string/device_miatoll"
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/MrJarvis698" />
+                android:data="https://t.me/GismoBe" />
         </Preference>
 
 <Preference
