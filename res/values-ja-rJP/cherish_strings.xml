@@ -231,24 +231,6 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">タッチで振動</string>
     <string name="quick_settings_vibrate_summary">タイルに触れた時に振動させる</string>
-    <!-- Global Actions -->
-    <string name="global_actions_title">電源メニュー</string>
-    <string name="global_actions_summary">電源ボタンを押した時に表示するものを選択する</string>
-    <string name="global_actions_power">電源</string>
-    <string name="global_actions_restart">再起動</string>
-    <string name="global_actions_airplane">機内モード</string>
-    <string name="global_actions_settings">設定</string>
-    <string name="global_actions_lockdown">画面ロック</string>
-    <string name="global_actions_soundpanel">音量パネル</string>
-    <string name="global_actions_users">ユーザー</string>
-    <string name="global_actions_screenshot">スクリーンショット</string>
-    <string name="global_actions_screenrecord">画面録画</string>
-    <string name="global_actions_flashlight">ライト</string>
-    <string name="global_actions_emergency">緊急通報</string>
-    <string name="global_actions_advanced_reboot_title">高度な再起動の有効化</string>
-    <string name="global_actions_advanced_reboot_summary">再起動時にリカバリーとブートローダーのオプションを表示する</string>
-    <string name="global_actions_max_columns_title">表示する最大アクション</string>
-    <string name="global_actions_max_columns_summary">オーバーフローメニューにボタンが移動する前にいくつのアクションを表示するか設定する</string>
     <!-- Statusbar net monitor -->
     <string name="traffic_title">通信速度</string>
     <string name="network_traffic_state_title">通信速度</string>
@@ -764,7 +746,11 @@
     <string name="add_gaming_mode_package_title">アプリを追加</string>
     <string name="add_gaming_mode_package_summary">指定したアプリを開いた時にゲームモードを自動的に有効化し、閉じたときに無効化します</string>
     <string name="gaming_mode_headsup_title">通知のブロック</string>
-    <string name="gaming_mode_headsup_summary">通話以外の通知ををブロックする</string>
+    <string name="gaming_mode_headsup_allow">Allow all headsup notifications</string>
+    <string name="gaming_mode_headsup_dnc">Block all headsup notifications except calls &amp; alarms</string>
+    <string name="gaming_mode_headsup_clock">Block all headsup notifications except alarms</string>
+    <string name="gaming_mode_headsup_dialer">Block all headsup notifications except calls</string>
+    <string name="gaming_mode_headsup_stop">Block all headsup notifications</string>
     <string name="gaming_mode_hardware_keys_title">ボタンのロック</string>
     <string name="gaming_mode_hardware_keys_summary">ゲームモード有効時はハードウェアボタンを無効化する</string>
     <string name="gaming_mode_brightness_title">自動明るさ調節の無効化</string>
@@ -785,10 +771,13 @@
     <string name="pulse_ambient_light_category">画面のエッジライト</string>
     <string name="pulse_ambient_light_title">新しい通知で表示</string>
     <string name="pulse_ambient_light_summary">新しい通知でライトを点滅させる</string>
+    <string name="pulse_ambient_light_show_always_title">Show for all doze events</string>
+    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
     <string name="pulse_ambient_light_repeat_direction_title">ライトの繰り返しモード</string>
     <string name="pulse_ambient_light_repeat_direction_restart">再起動</string>
     <string name="pulse_ambient_light_repeat_direction_reverse">反転</string>
     <string name="ambient_notification_light_enabled_title">Always On で表示</string>
+    <string name="aod_disabled">AOD is disabled</string>
     <string name="ambient_notification_light_enabled_summary">Always On 使用中に新しい通知でライトを点滅させる</string>
     <string name="ambient_notification_light_color_title">カスタムの色</string>
     <string name="ambient_notification_light_color_summary">ライト点滅の既定の色</string>
@@ -809,9 +798,6 @@
     <string name="pulse_ambient_light_duration_summary">アンビエントライトアニメーションの長さを設定する</string>
     <string name="pulse_ambient_light_repeat_count_title">エッジライトの繰り返し回数</string>
     <string name="pulse_ambient_light_repeat_count_summary">繰り返し回数を設定します。0で無制限です。</string>
-    <string name="pulse_ambient_light_layout_title">エッジライト表示</string>
-    <string name="pulse_ambient_light_layout_solid">ソリッド</string>
-    <string name="pulse_ambient_light_layout_faded">フェード</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">電源メニュー無効化</string>
     <string name="lockscreen_power_menu_disabled_summary">保護されたロック画面で電源メニューを非表示にする</string>
@@ -1038,10 +1024,6 @@
     <!-- Quick Settings -->
     <string name="lockscreen_qs_disabled_title">ロック中のクイック設定</string>
     <string name="lockscreen_qs_disabled_summary">保護されたロック画面でのクイック設定の展開を無効にする</string>
-    <!-- Notification Media Options -->
-    <string name="media_category">メディア通知オプション</string>
-    <string name="artwork_media_background_title">メディアアートワークの背景</string>
-    <string name="artwork_media_background_summary">メディアアートワークをメディア通知の背景に設定する</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">値: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">既定</string>
@@ -1074,8 +1056,24 @@
     <string name="volume_panel_tint_title">アクティブな音量バーの色</string>
     <string name="volume_panel_tint_summary">アクティブな音量バーに色のグラデーションを使用する</string>
     <!-- Running Services button -->
-    <string name="qs_running_services_title">実行中のサービスアイコン</string>
-    <string name="qs_running_services_summary">フッターの実行中のサービスのアイコンを有効化する</string>
+    <string name="qs_running_services_title">Running Services Icon</string>
+    <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
     <!-- Notification background opacity -->
     <string name="notification_alpha_title">Notification background opacity</string>
+    <!-- Global Actions -->
+    <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
+    <string name="powermenu_advanced_reboot_summary">Enables access to recovery and bootloader</string>
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">Vibrate for notifications</string>
+    <string name="vibrate_on_notifications_summary">Toogle for disable vibrate notification</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Settings dashboard icons</string>
+    <string name="theming_settings_dashboard_icons_default">Default background / Transparent foreground</string>
+    <string name="theming_settings_dashboard_icons_white">Default background / White foreground</string>
+    <string name="theming_settings_dashboard_icons_accent">Accent background / Transparent foreground</string>
+    <string name="theming_settings_dashboard_icons_plain">Transparent background / Plain foreground</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Transparent background / Accent foreground</string>
 </resources>

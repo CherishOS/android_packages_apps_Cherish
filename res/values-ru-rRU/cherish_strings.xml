@@ -179,8 +179,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
     <string name="lockscreen_battery_info_summary">Показывать напряжение, ток заряда и температуру аккумулятора на экране блокировки во время зарядки</string>
-    <string name="lockscreen_battery_info_font_title">Charging info font</string>
-    <string name="lockscreen_battery_info_dialog_title">Select charging info font</string>
+    <string name="lockscreen_battery_info_font_title">Шрифт зарядки</string>
+    <string name="lockscreen_battery_info_dialog_title">Выберите шрифт для информации о зарядке</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Вибрировать при авторизации отпечатком</string>
     <string name="fprint_sucess_vib_summary">Вибрировать при успешном распозновании отпечатка пальца</string>
@@ -231,24 +231,6 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Вибрировать при касании</string>
     <string name="quick_settings_vibrate_summary">Вибрировать при нажатии на плитки быстрых настроек</string>
-    <!-- Global Actions -->
-    <string name="global_actions_title">Меню кнопки питания</string>
-    <string name="global_actions_summary">Выберите, что показывать, когда вы нажимаете кнопку питания</string>
-    <string name="global_actions_power">Вкл/Выкл</string>
-    <string name="global_actions_restart">Перезапуск</string>
-    <string name="global_actions_airplane">Режим \"В самолёте\"</string>
-    <string name="global_actions_settings">Настройки</string>
-    <string name="global_actions_lockdown">Заблокировать</string>
-    <string name="global_actions_soundpanel">Звуковая панель</string>
-    <string name="global_actions_users">Пользователи</string>
-    <string name="global_actions_screenshot">Снимок экрана</string>
-    <string name="global_actions_screenrecord">Запись экрана</string>
-    <string name="global_actions_flashlight">Фонарик</string>
-    <string name="global_actions_emergency">Экстренный вызов</string>
-    <string name="global_actions_advanced_reboot_title">Включить меню расширенной перезагрузки</string>
-    <string name="global_actions_advanced_reboot_summary">При перезагрузке показывать вариант перезагрузки в Recovery и Bootloader</string>
-    <string name="global_actions_max_columns_title">Максимальное количество действий для отображения</string>
-    <string name="global_actions_max_columns_summary">Установить количество действий для отображения перед перемещением кнопок в переполненном меню</string>
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Индикатор скорости сети</string>
     <string name="network_traffic_state_title">Трафик сети</string>
@@ -748,7 +730,7 @@
     <string name="file_header_select_title">Выберите изображение с телефона</string>
     <string name="file_header_select_summary">Выберите изображение из внутренней памяти</string>
     <string name="status_bar_custom_header_shadow_title">Затемнить изображение</string>
-    <string name="status_bar_custom_header_height_title">Image height offset</string>
+    <string name="status_bar_custom_header_height_title">Смещение высоты изображения</string>
     <!-- FOD pressed color -->
     <string name="fod_pressed_color_title">Эффект нажатого отпечатка пальца</string>
     <string name="fod_pressed_color_white">Белый</string>
@@ -764,7 +746,11 @@
     <string name="add_gaming_mode_package_title">Добавить приложения для игрового режима</string>
     <string name="add_gaming_mode_package_summary">Игровой режим будет включен автоматически, когда эти приложения будут открыты, и выключен, когда они закроются</string>
     <string name="gaming_mode_headsup_title">Блокировать уведомления</string>
-    <string name="gaming_mode_headsup_summary">Блокировать все уведомления, кроме звонков</string>
+    <string name="gaming_mode_headsup_allow">Allow all headsup notifications</string>
+    <string name="gaming_mode_headsup_dnc">Block all headsup notifications except calls &amp; alarms</string>
+    <string name="gaming_mode_headsup_clock">Block all headsup notifications except alarms</string>
+    <string name="gaming_mode_headsup_dialer">Block all headsup notifications except calls</string>
+    <string name="gaming_mode_headsup_stop">Block all headsup notifications</string>
     <string name="gaming_mode_hardware_keys_title">Заблокировать кнопки</string>
     <string name="gaming_mode_hardware_keys_summary">Отключить аппаратные кнопки при включенном игровом режиме</string>
     <string name="gaming_mode_brightness_title">Отключить автоматическую яркость</string>
@@ -785,10 +771,13 @@
     <string name="pulse_ambient_light_category">Пульсация по краям экрана</string>
     <string name="pulse_ambient_light_title">Пульсировать при новых уведомлениях</string>
     <string name="pulse_ambient_light_summary">Пульсировать по краям экрана при получении новых уведомлений</string>
-    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_show_always_title">Show for all doze events</string>
+    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Количество повторов подсветки</string>
     <string name="pulse_ambient_light_repeat_direction_restart">Перезапуск</string>
-    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Обратный</string>
     <string name="ambient_notification_light_enabled_title">Пульсировать в режиме всегда включенного экрана</string>
+    <string name="aod_disabled">AOD is disabled</string>
     <string name="ambient_notification_light_enabled_summary">Пульсировать при новом уведомлении в режиме всегда включенного экрана</string>
     <string name="ambient_notification_light_color_title">Свой цвет</string>
     <string name="ambient_notification_light_color_summary">Цвет пульсации по умолчанию</string>
@@ -809,9 +798,6 @@
     <string name="pulse_ambient_light_duration_summary">Установить длительность подсветки пульсации</string>
     <string name="pulse_ambient_light_repeat_count_title">Количество повторов подсветки пульсации</string>
     <string name="pulse_ambient_light_repeat_count_summary">Установить максимальное количество повторений пульсации (от 0 до бесконечности)</string>
-    <string name="pulse_ambient_light_layout_title">Edge Light View</string>
-    <string name="pulse_ambient_light_layout_solid">Solid</string>
-    <string name="pulse_ambient_light_layout_faded">Faded</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
     <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
@@ -864,7 +850,7 @@
     <string name="qs_brightness_position_bottom_title">Ползунок яркости снизу</string>
     <string name="qs_brightness_position_bottom_summary">Отображать ползунок яркости в нижней части панели быстрых настроек</string>
     <!-- QQS brightness slider -->
-    <string name="qqs_brightness_slider_title">QQS brightness slider</string>
+    <string name="qqs_brightness_slider_title">Ползунок яркости</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Panel background style</string>
     <string name="panel_bg_dialog_title">Select panel background model</string>
@@ -1040,44 +1026,56 @@
     <!-- Quick Settings -->
     <string name="lockscreen_qs_disabled_title">Отключить быстрые настройки на экране блокировки</string>
     <string name="lockscreen_qs_disabled_summary">Запретить выдвигать панель на экране блокировки</string>
-    <!-- Notification Media Options -->
-    <string name="media_category">Параметры уведомлений</string>
-    <string name="artwork_media_background_title">Фон мультимедиа работы</string>
-    <string name="artwork_media_background_summary">Установить медиа-обложку в качестве фона уведомления</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">По умолчанию</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nУдерживайте для применения</string>
+    <string name="custom_seekbar_default_value_is_set">Значение по умолчанию установлено</string>
     <!-- reTicker -->
-    <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace your notifications with a redesigned version of tickers! \nSlim and less invasive than a standard notification</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_title">Слим уведомление </string>
+    <string name="reticker_summary">Замените ваши уведомления переразработанной версией тикеров! \nSlim и менее инвазивный, чем стандартное уведомление</string>
+    <string name="reticker_colored_title">Использовать цветной фон приложения</string>
+    <string name="reticker_colored_summary">Заменить цвет фона reTicker используя цвета основного приложения уведомления</string>
     <!-- Blink flashlight for incoming calls -->
-    <string name="flashlight_on_call_title">Blink Flashlight for call</string>
+    <string name="flashlight_on_call_title">Мигать вспышкой при входящем звонке</string>
     <string name="flashlight_on_call_disabled">Выключен</string>
-    <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
-    <string name="flashlight_on_call_dnd">Only in DND mode</string>
-    <string name="flashlight_on_call_always">Always</string>
+    <string name="flashlight_on_call_not_dnd">Только в режиме звонка</string>
+    <string name="flashlight_on_call_dnd">Только в режиме \"Не беспокоить\"</string>
+    <string name="flashlight_on_call_always">Всегда</string>
     <!-- Keygaurd battery bar & color modes -->
     <string name="keyguard_show_battery_title">Панель заряда батареи</string>
-    <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
-    <string name="keyguard_show_battery_always_title">Always show battery bar</string>
-    <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
-    <string name="keygaurd_battery_bar_color_title">Color</string>
+    <string name="keyguard_show_battery_summary">Показывать панель батареи на ambient дисплее во время зарядки</string>
+    <string name="keyguard_show_battery_always_title">Всегда отображать полоску заряда батареи</string>
+    <string name="keyguard_show_battery_always_summary">Всегда показывать панель батареи на ambient дисплее</string>
+    <string name="keygaurd_battery_bar_color_title">Цвет</string>
     <string name="on_aod_title">Всегда включенный дисплей</string>
-    <string name="keyguard_battery_bar_color_modes_title">Color mode</string>
+    <string name="keyguard_battery_bar_color_modes_title">Режим цвета</string>
     <string name="keyguard_battery_bar_color_gradient">Градиент</string>
-    <string name="keyguard_battery_bar_color_accent">Accent</string>
-    <string name="keyguard_battery_bar_color_random">Random</string>
+    <string name="keyguard_battery_bar_color_accent">Акцент</string>
+    <string name="keyguard_battery_bar_color_random">Случайный</string>
     <string name="keyguard_battery_bar_color_custom">Пользовательский</string>
     <!-- Volume panel extras -->
-    <string name="volume_panel_tint_title">Tint the active volume bar</string>
-    <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
+    <string name="volume_panel_tint_title">Подкрашивайте активную полоску громкости</string>
+    <string name="volume_panel_tint_summary">Использовать цветной градиент для оттенка активной панели громкости</string>
     <!-- Running Services button -->
     <string name="qs_running_services_title">Running Services Icon</string>
     <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
     <!-- Notification background opacity -->
     <string name="notification_alpha_title">Notification background opacity</string>
+    <!-- Global Actions -->
+    <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
+    <string name="powermenu_advanced_reboot_summary">Enables access to recovery and bootloader</string>
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">Vibrate for notifications</string>
+    <string name="vibrate_on_notifications_summary">Toogle for disable vibrate notification</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Settings dashboard icons</string>
+    <string name="theming_settings_dashboard_icons_default">Default background / Transparent foreground</string>
+    <string name="theming_settings_dashboard_icons_white">Default background / White foreground</string>
+    <string name="theming_settings_dashboard_icons_accent">Accent background / Transparent foreground</string>
+    <string name="theming_settings_dashboard_icons_plain">Transparent background / Plain foreground</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Transparent background / Accent foreground</string>
 </resources>
