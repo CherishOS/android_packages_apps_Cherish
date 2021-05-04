@@ -24,6 +24,9 @@ import android.content.Context;
 import android.content.ContentResolver;
 import android.app.WallpaperManager;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
 import android.hardware.fingerprint.FingerprintManager;
 import android.net.Uri;
@@ -66,6 +69,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
 	private static final String PREF_LS_CLOCK_SELECTION = "lockscreen_clock_selection";
     private static final String PREF_LS_CLOCK_ANIM_SELECTION = "lockscreen_clock_animation_selection";
+    private static final String LOTTIE_ANIMATION_SIZE = "lockscreen_clock_animation_size";
     private ContentResolver mResolver;
     private Preference FODSettings;
 	
@@ -82,6 +86,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private PreferenceCategory mFODIconPickerCategory;
 	private SecureSettingListPreference mLockClockSelection;
     private SystemSettingListPreference mLockClockAnimSelection;
+    private CustomSeekBarPreference mLottieAnimationSize;
     private Preference mAODPref;
 
     @Override
@@ -93,6 +98,22 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
 		
+		Resources res = null;
+        Context ctx = getContext();
+        float density = Resources.getSystem().getDisplayMetrics().density;
+
+        try {
+            res = ctx.getPackageManager().getResourcesForApplication("com.android.systemui");
+        } catch (NameNotFoundException e) {
+            e.printStackTrace();
+        }
+		
+		mLottieAnimationSize = (CustomSeekBarPreference) findPreference(LOTTIE_ANIMATION_SIZE);
+        int lottieSize = Settings.System.getIntForUser(ctx.getContentResolver(),
+                Settings.System.LOCKSCREEN_CLOCK_ANIMATION_SIZE, res.getIdentifier("com.android.systemui:dimen/lottie_animation_width_height", null, null), UserHandle.USER_CURRENT);
+        mLottieAnimationSize.setValue(lottieSize);
+        mLottieAnimationSize.setOnPreferenceChangeListener(this);
+		
 		mLockClockAnimSelection = (SystemSettingListPreference) findPreference(PREF_LS_CLOCK_ANIM_SELECTION);
 
         mLockClockSelection = (SecureSettingListPreference) findPreference(PREF_LS_CLOCK_SELECTION);
@@ -101,8 +122,10 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         mLockClockSelection.setOnPreferenceChangeListener(this);
         if (val > 3 && val < 8) {
             mLockClockAnimSelection.setEnabled(true);
+            mLottieAnimationSize.setEnabled(true);
         } else {
             mLockClockAnimSelection.setEnabled(false);
+            mLottieAnimationSize.setEnabled(false);
         }
 		
 	mFODIconPickerCategory = findPreference(FOD_ICON_PICKER_CATEGORY);
@@ -193,14 +216,21 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKDATE_FONT_SIZE, top*1);
             return true;
+		} else if (preference == mLottieAnimationSize) {
+            int value = (Integer) newValue;
+            Settings.System.putIntForUser(getContext().getContentResolver(),
+                    Settings.System.LOCKSCREEN_CLOCK_ANIMATION_SIZE, value, UserHandle.USER_CURRENT);
+            return true;
 		} else if (preference == mLockClockSelection) {
             int val = Integer.parseInt((String) newValue);
             Settings.Secure.putInt(resolver,
                     Settings.Secure.LOCKSCREEN_CLOCK_SELECTION, val);
             if (val > 3 && val < 8) {
                 mLockClockAnimSelection.setEnabled(true);
+                mLottieAnimationSize.setEnabled(true);
             } else {
                 mLockClockAnimSelection.setEnabled(false);
+                mLottieAnimationSize.setEnabled(false);
             }
             return true;
         }

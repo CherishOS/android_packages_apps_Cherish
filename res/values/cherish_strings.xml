@@ -1409,4 +1409,7 @@
     <string name="clock_lottie_animation_blue_circle_2">Blue Circle v2</string>
     <string name="clock_lottie_animation_rainbow_circle">Rainbow Circle</string>
     <string name="clock_lottie_animation_fire_circle">Fire Circle</string>
+
+    <!-- Clock lottie animation size -->
+    <string name="clock_lottie_animation_size_title">Animation size</string>
 </resources>
