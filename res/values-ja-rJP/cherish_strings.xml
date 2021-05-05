@@ -373,12 +373,23 @@
     <string name="data_disabled_icon_title">データ通信無効アイコン</string>
     <string name="data_disabled_icon_summary">モバイルデータが無効の場合にシグナルバーの隣に×を表示する</string>
     <!-- Accent QS tint -->
-    <string name="qs_bg_use_new_tint">QS tile colors</string>
-    <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
     <string name="qs_tint_off">既定</string>
     <string name="qs_tint_accent">アクセント色</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
+    <string name="sysui_colors_active_title">システム UI の色</string>
+    <string name="sysui_colors_active_summary">壁紙がスクリムとクイック設定に色を付けます</string>
+    <!-- QS themes -->
+    <string name="qs_panel_colors_title">クイック設定の色</string>
+    <string name="qs_panel_bg_use_fw_title">フレームワークの既定</string>
+    <string name="qs_panel_bg_use_fw_summary">クイック設定とスクリムの色の編集を無効にする</string>
+    <string name="qs_panel_bg_color_title">背景の色</string>
+    <string name="qs_panel_bg_color_summary">クイック設定パネルの色を変更する</string>
+    <string name="qs_panel_bg_alpha_title">背景の透過度</string>
+    <string name="qs_panel_bg_disco_title">クイック設定タイルのディスコ</string>
+    <string name="qs_panel_bg_disco_summary">クイック設定タイルをカラフルにしましょう!</string>
+    <string name="qs_bg_use_new_tint">QS tile colors</string>
+    <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads Up</string>
     <string name="heads_up_summary">Heads Up の動作を編集する</string>
@@ -746,11 +757,11 @@
     <string name="add_gaming_mode_package_title">アプリを追加</string>
     <string name="add_gaming_mode_package_summary">指定したアプリを開いた時にゲームモードを自動的に有効化し、閉じたときに無効化します</string>
     <string name="gaming_mode_headsup_title">通知のブロック</string>
-    <string name="gaming_mode_headsup_allow">Allow all headsup notifications</string>
-    <string name="gaming_mode_headsup_dnc">Block all headsup notifications except calls &amp; alarms</string>
-    <string name="gaming_mode_headsup_clock">Block all headsup notifications except alarms</string>
-    <string name="gaming_mode_headsup_dialer">Block all headsup notifications except calls</string>
-    <string name="gaming_mode_headsup_stop">Block all headsup notifications</string>
+    <string name="gaming_mode_headsup_allow">Heads Up 通知を許可する</string>
+    <string name="gaming_mode_headsup_dnc">通話とアラーム以外の全ての Heads Up 通知を拒否する</string>
+    <string name="gaming_mode_headsup_clock">アラーム以外の全ての Heads Up 通知を拒否する</string>
+    <string name="gaming_mode_headsup_dialer">通話以外の全ての Heads Up 通知を拒否する</string>
+    <string name="gaming_mode_headsup_stop">全ての Heads Up 通知を拒否する</string>
     <string name="gaming_mode_hardware_keys_title">ボタンのロック</string>
     <string name="gaming_mode_hardware_keys_summary">ゲームモード有効時はハードウェアボタンを無効化する</string>
     <string name="gaming_mode_brightness_title">自動明るさ調節の無効化</string>
@@ -771,13 +782,13 @@
     <string name="pulse_ambient_light_category">画面のエッジライト</string>
     <string name="pulse_ambient_light_title">新しい通知で表示</string>
     <string name="pulse_ambient_light_summary">新しい通知でライトを点滅させる</string>
-    <string name="pulse_ambient_light_show_always_title">Show for all doze events</string>
-    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
+    <string name="pulse_ambient_light_show_always_title">全ての Doze イベントを表示</string>
+    <string name="pulse_ambient_light_show_always_summary">通知だけでなく全ての Doze イベントにライトを表示する</string>
     <string name="pulse_ambient_light_repeat_direction_title">ライトの繰り返しモード</string>
     <string name="pulse_ambient_light_repeat_direction_restart">再起動</string>
     <string name="pulse_ambient_light_repeat_direction_reverse">反転</string>
     <string name="ambient_notification_light_enabled_title">Always On で表示</string>
-    <string name="aod_disabled">AOD is disabled</string>
+    <string name="aod_disabled">Always On Display は無効です</string>
     <string name="ambient_notification_light_enabled_summary">Always On 使用中に新しい通知でライトを点滅させる</string>
     <string name="ambient_notification_light_color_title">カスタムの色</string>
     <string name="ambient_notification_light_color_summary">ライト点滅の既定の色</string>
@@ -1056,24 +1067,24 @@
     <string name="volume_panel_tint_title">アクティブな音量バーの色</string>
     <string name="volume_panel_tint_summary">アクティブな音量バーに色のグラデーションを使用する</string>
     <!-- Running Services button -->
-    <string name="qs_running_services_title">Running Services Icon</string>
-    <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
+    <string name="qs_running_services_title">実行中のサービスアイコン</string>
+    <string name="qs_running_services_summary">フッターの実行中のサービスのアイコンを有効化する</string>
     <!-- Notification background opacity -->
-    <string name="notification_alpha_title">Notification background opacity</string>
+    <string name="notification_alpha_title">通知の背景の透明度</string>
     <!-- Global Actions -->
-    <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-    <string name="powermenu_advanced_reboot_summary">Enables access to recovery and bootloader</string>
+    <string name="powermenu_advanced_reboot_title">高度な再起動</string>
+    <string name="powermenu_advanced_reboot_summary">リカバリーとブートローダーへの再起動を有効にする</string>
     <!-- Notification Vibration -->
-    <string name="vibrate_on_notifications_title">Vibrate for notifications</string>
-    <string name="vibrate_on_notifications_summary">Toogle for disable vibrate notification</string>
+    <string name="vibrate_on_notifications_title">通知時の振動</string>
+    <string name="vibrate_on_notifications_summary">オンにして通知の振動を無効化する</string>
     <!-- Lock icon -->
-    <string name="hide_lockicon_title">Hide lock icon</string>
-    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+    <string name="hide_lockicon_title">ロックアイコンを隠す</string>
+    <string name="hide_lockicon_summary">ロック画面からロックアイコンを隠す</string>
     <!-- Settings dashboard icon style -->
-    <string name="theming_settings_dashboard_icons_title">Settings dashboard icons</string>
-    <string name="theming_settings_dashboard_icons_default">Default background / Transparent foreground</string>
-    <string name="theming_settings_dashboard_icons_white">Default background / White foreground</string>
-    <string name="theming_settings_dashboard_icons_accent">Accent background / Transparent foreground</string>
-    <string name="theming_settings_dashboard_icons_plain">Transparent background / Plain foreground</string>
-    <string name="theming_settings_dashboard_icons_plain_accent">Transparent background / Accent foreground</string>
+    <string name="theming_settings_dashboard_icons_title">ダッシュボートアイコンの設定</string>
+    <string name="theming_settings_dashboard_icons_default">既定の背景/透明な前面</string>
+    <string name="theming_settings_dashboard_icons_white">既定の背景/白い前面</string>
+    <string name="theming_settings_dashboard_icons_accent">アクセントの背景/透明な前面</string>
+    <string name="theming_settings_dashboard_icons_plain">透明な背景/無地の前面</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">透明な背景/アクセントの前面</string>
 </resources>
