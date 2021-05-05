@@ -373,12 +373,23 @@
     <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
     <string name="data_disabled_icon_summary">Menampilkan tanda silang di ikon sinyal saat data dinonaktifkan</string>
     <!-- Accent QS tint -->
-    <string name="qs_bg_use_new_tint">Warna ubin QS</string>
-    <string name="qs_bg_use_new_tint_summary">Pilih Gaya Warna QS</string>
     <string name="qs_tint_off">Bawaan</string>
     <string name="qs_tint_accent">Warna Aksen</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
+    <string name="sysui_colors_active_title">Colored SystemUI</string>
+    <string name="sysui_colors_active_summary">Wallpaper colored scrims and QS</string>
+    <!-- QS themes -->
+    <string name="qs_panel_colors_title">Quick settings colors</string>
+    <string name="qs_panel_bg_use_fw_title">Framework defaults</string>
+    <string name="qs_panel_bg_use_fw_summary">Disable QS and scrim color customizations</string>
+    <string name="qs_panel_bg_color_title">Background color</string>
+    <string name="qs_panel_bg_color_summary">Change color of your QS panel</string>
+    <string name="qs_panel_bg_alpha_title">Background alpha</string>
+    <string name="qs_panel_bg_disco_title">QS Tile Disco</string>
+    <string name="qs_panel_bg_disco_summary">Make your QS Tiles colorful!</string>
+    <string name="qs_bg_use_new_tint">Warna ubin QS</string>
+    <string name="qs_bg_use_new_tint_summary">Pilih Gaya Warna QS</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Notifikasi mengambang</string>
     <string name="heads_up_summary">Sesuaikan perilaku Notifikasi Mengambang</string>
@@ -746,11 +757,11 @@
     <string name="add_gaming_mode_package_title">Tambahkan aplikasi untuk Mode Permainan</string>
     <string name="add_gaming_mode_package_summary">Mode Permainan akan hidup secara otomatis saat aplikasi ini dibuka dan akan mati saat ditutup</string>
     <string name="gaming_mode_headsup_title">Blokir notifikasi</string>
-    <string name="gaming_mode_headsup_allow">Allow all headsup notifications</string>
-    <string name="gaming_mode_headsup_dnc">Block all headsup notifications except calls &amp; alarms</string>
-    <string name="gaming_mode_headsup_clock">Block all headsup notifications except alarms</string>
-    <string name="gaming_mode_headsup_dialer">Block all headsup notifications except calls</string>
-    <string name="gaming_mode_headsup_stop">Block all headsup notifications</string>
+    <string name="gaming_mode_headsup_allow">Izinkan semua notifikasi mengambang</string>
+    <string name="gaming_mode_headsup_dnc">Blok semua notifikasi mengambang kecuali panggilan &amp; alarm</string>
+    <string name="gaming_mode_headsup_clock">Blok semua notifikasi mengambang kecuali alarm</string>
+    <string name="gaming_mode_headsup_dialer">Blok semua notifikasi mengambang kecuali panggilan</string>
+    <string name="gaming_mode_headsup_stop">Blok semua notifikasi mengambang</string>
     <string name="gaming_mode_hardware_keys_title">Kunci tombol</string>
     <string name="gaming_mode_hardware_keys_summary">Nonaktifkan tombol perangkat keras saat Mode Permainan dihidupkan</string>
     <string name="gaming_mode_brightness_title">Nonaktifkan kecerahan otomatis</string>
@@ -771,13 +782,13 @@
     <string name="pulse_ambient_light_category">Pencahayaan tepi layar</string>
     <string name="pulse_ambient_light_title">Tampilkan di notifikasi baru</string>
     <string name="pulse_ambient_light_summary">Tampilkan cahaya pulse pada notifikasi baru</string>
-    <string name="pulse_ambient_light_show_always_title">Show for all doze events</string>
-    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
+    <string name="pulse_ambient_light_show_always_title">Tampilkan untuk semua acara tertunda</string>
+    <string name="pulse_ambient_light_show_always_summary">Tampilkan cahaya untuk semua acara tertunda dan bukan sekadar notifikasi</string>
     <string name="pulse_ambient_light_repeat_direction_title">Mode pengulangan cahaya</string>
     <string name="pulse_ambient_light_repeat_direction_restart">Memulai ulang</string>
     <string name="pulse_ambient_light_repeat_direction_reverse">Putar Balik</string>
     <string name="ambient_notification_light_enabled_title">Tampilkan ada Selalu Aktif</string>
-    <string name="aod_disabled">AOD is disabled</string>
+    <string name="aod_disabled">AOD dinonaktifkan</string>
     <string name="ambient_notification_light_enabled_summary">Tampilkan pulse cahaya pada notifikasi baru menggunakan Selalu Aktif</string>
     <string name="ambient_notification_light_color_title">Warna kustom</string>
     <string name="ambient_notification_light_color_summary">Warna default untuk pulse cahaya</string>
@@ -1056,24 +1067,24 @@
     <string name="volume_panel_tint_title">Warnai bilah volume aktif</string>
     <string name="volume_panel_tint_summary">Gunakan warna gradien untuk mewarnai bilah volume aktif</string>
     <!-- Running Services button -->
-    <string name="qs_running_services_title">Running Services Icon</string>
-    <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
+    <string name="qs_running_services_title">Ikon Layanan Berjalan</string>
+    <string name="qs_running_services_summary">Aktifkan ikon layanan berjalan pada bagian bawah</string>
     <!-- Notification background opacity -->
-    <string name="notification_alpha_title">Notification background opacity</string>
+    <string name="notification_alpha_title">Opasitas latar belakang notifikasi</string>
     <!-- Global Actions -->
-    <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-    <string name="powermenu_advanced_reboot_summary">Enables access to recovery and bootloader</string>
+    <string name="powermenu_advanced_reboot_title">Mulai ulang lanjutan</string>
+    <string name="powermenu_advanced_reboot_summary">Memungkinkan akses ke pemulihan dan bootloader</string>
     <!-- Notification Vibration -->
-    <string name="vibrate_on_notifications_title">Vibrate for notifications</string>
-    <string name="vibrate_on_notifications_summary">Toogle for disable vibrate notification</string>
+    <string name="vibrate_on_notifications_title">Getarkan saat ada notifikasi</string>
+    <string name="vibrate_on_notifications_summary">Tombol untuk menonaktifkan getaran notifikasi</string>
     <!-- Lock icon -->
-    <string name="hide_lockicon_title">Hide lock icon</string>
-    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+    <string name="hide_lockicon_title">Sembunyikan ikon kunci</string>
+    <string name="hide_lockicon_summary">Sembunyikan ikon kunci pada layar kunci</string>
     <!-- Settings dashboard icon style -->
-    <string name="theming_settings_dashboard_icons_title">Settings dashboard icons</string>
-    <string name="theming_settings_dashboard_icons_default">Default background / Transparent foreground</string>
-    <string name="theming_settings_dashboard_icons_white">Default background / White foreground</string>
-    <string name="theming_settings_dashboard_icons_accent">Accent background / Transparent foreground</string>
-    <string name="theming_settings_dashboard_icons_plain">Transparent background / Plain foreground</string>
-    <string name="theming_settings_dashboard_icons_plain_accent">Transparent background / Accent foreground</string>
+    <string name="theming_settings_dashboard_icons_title">Setelan ikon dasbor</string>
+    <string name="theming_settings_dashboard_icons_default">Latar belakang default / Latar depan transparan</string>
+    <string name="theming_settings_dashboard_icons_white">Latar belakang default / Latar depan putih</string>
+    <string name="theming_settings_dashboard_icons_accent">Latar belakang aksen / Latar depan transparan</string>
+    <string name="theming_settings_dashboard_icons_plain">Latar belakang transparan / Latar depan polos</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Latar belakang transparan / Latar depan aksen</string>
 </resources>
