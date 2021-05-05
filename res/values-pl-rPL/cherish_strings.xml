@@ -373,12 +373,23 @@
     <string name="data_disabled_icon_title">Data disabled icon</string>
     <string name="data_disabled_icon_summary">Display a cross sign next to signal bar when data is disabled</string>
     <!-- Accent QS tint -->
-    <string name="qs_bg_use_new_tint">QS tile colors</string>
-    <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
     <string name="qs_tint_off">Domyślne</string>
     <string name="qs_tint_accent">Accent Color</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
+    <string name="sysui_colors_active_title">Colored SystemUI</string>
+    <string name="sysui_colors_active_summary">Wallpaper colored scrims and QS</string>
+    <!-- QS themes -->
+    <string name="qs_panel_colors_title">Quick settings colors</string>
+    <string name="qs_panel_bg_use_fw_title">Framework defaults</string>
+    <string name="qs_panel_bg_use_fw_summary">Disable QS and scrim color customizations</string>
+    <string name="qs_panel_bg_color_title">Background color</string>
+    <string name="qs_panel_bg_color_summary">Change color of your QS panel</string>
+    <string name="qs_panel_bg_alpha_title">Background alpha</string>
+    <string name="qs_panel_bg_disco_title">QS Tile Disco</string>
+    <string name="qs_panel_bg_disco_summary">Make your QS Tiles colorful!</string>
+    <string name="qs_bg_use_new_tint">QS tile colors</string>
+    <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads Up</string>
     <string name="heads_up_summary">Customize Heads Up Behavior</string>
