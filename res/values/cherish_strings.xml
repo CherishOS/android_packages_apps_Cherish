@@ -1268,4 +1268,7 @@
     <string name="theme_navbar_picker_nexus">Nexus</string>
     <string name="theme_navbar_picker_old">Old</string>
     <string name="theme_navbar_picker_sammy">Samsung</string>
+    
+    <!-- Lockscreen blur -->
+    <string name="lockscreen_blur_title">Background blur</string>
 </resources>
