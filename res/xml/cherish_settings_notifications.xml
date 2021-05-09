@@ -56,6 +56,19 @@
         android:title="@string/less_boring_heads_up_title"
         android:summary="@string/less_boring_heads_up_summary"
         android:defaultValue="false" />
+
+    <PreferenceCategory
+        android:key="media_category"
+        android:title="@string/media_category" >
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="artwork_media_background"
+            android:icon="@drawable/ic_media"
+            android:title="@string/artwork_media_background_title"
+            android:summary="@string/artwork_media_background_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
 	
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="center_notification_headers"
