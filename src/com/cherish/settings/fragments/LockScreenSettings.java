@@ -54,7 +54,9 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String DATE_FONT_SIZE  = "lockdate_font_size";
     private static final String LOCKOWNER_FONT_SIZE = "lockowner_font_size";
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
+    private static final String LOCKSCREEN_FOD_CATEGORY = "lockscreen_fod_category";
     private ContentResolver mResolver;
+    private Preference FODSettings;
 	
 	static final int MODE_DISABLED = 0;
     static final int MODE_NIGHT = 1;
@@ -77,20 +79,9 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
 
-        PreferenceCategory overallPreferences = (PreferenceCategory) findPreference("fod_category");
-        mResolver = getActivity().getContentResolver();
-
-       boolean enableScreenOffFOD = getContext().getResources().
-                getBoolean(com.android.internal.R.bool.config_supportsInDisplayFingerprint);
-        Preference ScreenOffFODPref = (Preference) findPreference("fod_gesture");
-
-        if (!enableScreenOffFOD){
-            overallPreferences.removePreference(ScreenOffFODPref);
-        }
-
-        if (!getResources().getBoolean(com.android.internal.R.bool.config_supportsInDisplayFingerprint)) {
-            prefScreen.removePreference(findPreference("fod_category"));
-        }
+        FODSettings = (Preference) findPreference(LOCKSCREEN_FOD_CATEGORY);
+        if (!getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
+            prefScreen.removePreference(FODSettings);
 
         // Lock Clock Size
         mClockFontSize = (CustomSeekBarPreference) findPreference(CLOCK_FONT_SIZE);

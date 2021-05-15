@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (C) 2020-2021 CherishOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:key="fod_category"
+    android:title="@string/lockscreen_fod_category">
+
+
+        <!-- FOD icon picker -->
+        <Preference
+            android:key="fod_icon_picker_category"
+            android:title="@string/fod_icon_picker_title"
+            android:summary="@string/fod_icon_picker_summary"
+            android:fragment="com.cherish.settings.fragments.lockscreen.FODIconPickerFragment" />
+
+    	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="fod_recognizing_animation"
+            android:title="@string/fod_recog_animation"
+            android:summary="@string/fod_recog_animation_summary"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="fod_anim"
+            android:title="@string/fod_recog_animation_effect_title"
+            android:summary="%s"
+            android:entries="@array/fod_recog_animation_entries"
+            android:entryValues="@array/fod_recog_animation_values"
+            android:defaultValue="0"
+            android:dependency="fod_recognizing_animation" />
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="fod_color"
+            android:title="@string/fod_pressed_color_title"
+            android:summary="%s"
+            android:entries="@array/fod_pressed_color_entries"
+            android:entryValues="@array/fod_pressed_color_values"
+            android:defaultValue="0" />
+
+    	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="fod_gesture"
+            android:title="@string/fod_gesture_title"
+            android:summary="@string/fod_gesture_summary"
+            android:defaultValue="false" />
+
+</PreferenceScreen>
