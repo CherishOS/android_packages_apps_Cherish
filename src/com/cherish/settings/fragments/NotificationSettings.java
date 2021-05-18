@@ -39,6 +39,16 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 	private static final String ALERT_SLIDER_PREF = "alert_slider_notifications";
+	
+	private static final String AMBIENT_LIGHT_COLOR = "ambient_notification_color_mode";
+    private static final String AMBIENT_LIGHT_CUSTOM_COLOR = "ambient_notification_light_color";
+    private static final String AMBIENT_LIGHT_DURATION = "ambient_notification_light_duration";
+    private static final String AMBIENT_LIGHT_REPEAT_COUNT = "ambient_notification_light_repeats";
+
+    private SystemSettingListPreference mEdgeLightColorMode;
+    private ColorPickerPreference mEdgeLightColor;
+    private CustomSeekBarPreference mEdgeLightDuration;
+    private CustomSeekBarPreference mEdgeLightRepeatCount;
 
     private Preference mChargingLeds;
 	private Preference mAlertSlider;
@@ -63,6 +73,39 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                         com.android.internal.R.bool.config_intrusiveBatteryLed)) {
             prefScreen.removePreference(mChargingLeds);
         }
+		
+		Context context = getContext();
+
+        mEdgeLightColorMode = (SystemSettingListPreference) findPreference(AMBIENT_LIGHT_COLOR);
+        int edgeLightColorMode = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.NOTIFICATION_PULSE_COLOR_MODE, 0, UserHandle.USER_CURRENT);
+        mEdgeLightColorMode.setValue(String.valueOf(edgeLightColorMode));
+        mEdgeLightColorMode.setSummary(mEdgeLightColorMode.getEntry());
+        mEdgeLightColorMode.setOnPreferenceChangeListener(this);
+
+        mEdgeLightColor = (ColorPickerPreference) findPreference(AMBIENT_LIGHT_CUSTOM_COLOR);
+        int edgeLightColor = Settings.System.getInt(getContentResolver(),
+                Settings.System.NOTIFICATION_PULSE_COLOR, 0xFFFFFFFF);
+        mEdgeLightColor.setNewPreviewColor(edgeLightColor);
+        String edgeLightColorHex = String.format("#%08x", (0xFFFFFFFF & edgeLightColor));
+        if (edgeLightColorHex.equals("#ffffffff")) {
+            mEdgeLightColor.setSummary(R.string.default_string);
+        } else {
+            mEdgeLightColor.setSummary(edgeLightColorHex);
+        }
+        mEdgeLightColor.setOnPreferenceChangeListener(this);
+
+        mEdgeLightDuration = (CustomSeekBarPreference) findPreference(AMBIENT_LIGHT_DURATION);
+        int lightDuration = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.NOTIFICATION_PULSE_DURATION, 2, UserHandle.USER_CURRENT);
+        mEdgeLightDuration.setValue(lightDuration);
+        mEdgeLightDuration.setOnPreferenceChangeListener(this);
+
+        mEdgeLightRepeatCount = (CustomSeekBarPreference) findPreference(AMBIENT_LIGHT_REPEAT_COUNT);
+        int edgeLightRepeatCount = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.NOTIFICATION_PULSE_REPEATS, 0, UserHandle.USER_CURRENT);
+        mEdgeLightRepeatCount.setValue(edgeLightRepeatCount);
+        mEdgeLightRepeatCount.setOnPreferenceChangeListener(this);
 
         PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
         if (!CherishUtils.isVoiceCapable(getActivity())) {
@@ -73,6 +116,42 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+		ContentResolver resolver = getActivity().getContentResolver();
+         if (preference == mEdgeLightColorMode) {
+            int edgeLightColorMode = Integer.valueOf((String) newValue);
+            int index = mEdgeLightColorMode.findIndexOfValue((String) newValue);
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.NOTIFICATION_PULSE_COLOR_MODE, edgeLightColorMode, UserHandle.USER_CURRENT);
+            mEdgeLightColorMode.setSummary(mEdgeLightColorMode.getEntries()[index]);
+            if (edgeLightColorMode == 3) {
+                mEdgeLightColor.setEnabled(true);
+            } else {
+                mEdgeLightColor.setEnabled(false);
+            }
+            return true;
+        } else if (preference == mEdgeLightColor) {
+            String hex = ColorPickerPreference.convertToARGB(
+                    Integer.valueOf(String.valueOf(newValue)));
+            if (hex.equals("#ffffffff")) {
+                preference.setSummary(R.string.default_string);
+            } else {
+                preference.setSummary(hex);
+            }
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.NOTIFICATION_PULSE_COLOR, intHex);
+            return true;
+        } else if (preference == mEdgeLightDuration) {
+            int value = (Integer) newValue;
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.NOTIFICATION_PULSE_DURATION, value, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mEdgeLightRepeatCount) {
+            int value = (Integer) newValue;
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.NOTIFICATION_PULSE_REPEATS, value, UserHandle.USER_CURRENT);
+            return true;
+         }
         return false;
     }
 
