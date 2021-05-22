@@ -98,6 +98,7 @@
     <string name="theme_type_du_pitchblack">Pitch black</string> 
     <string name="theme_type_material_ocean">Material Ocean</string>
     <string name="theme_type_clear_spring">Clear Spring</string>
+    <string name="theme_type_dark_12">Android 12 Dark</string>
 
     <!--Accenter -->
     <string name="themes_hub_title">Themes</string>
