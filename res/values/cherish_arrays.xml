@@ -13,34 +13,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-  <!-- Themes -->
-    <string-array name="theme_type_titles">
-        <item>@string/theme_type_light</item>
-        <item>@string/theme_type_pitch_black</item>
-        <item>@string/theme_type_solarized_dark</item>
-	<item>@string/theme_type_baked_green</item>
-        <item>@string/theme_type_choco_x</item>
-	<item>@string/theme_type_du_pitchblack</item>
-        <item>@string/theme_type_dark_grey</item>
-	<item>@string/theme_type_material_ocean</item>
-	<item>@string/theme_type_clear_spring</item>
-        <item>@string/theme_type_dark_12</item>
-        
-    </string-array>
-
-    <string-array name="theme_type_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-	     <item>4</item>
-        <item>5</item>
-	     <item>6</item>
-	     <item>7</item>
-	     <item>8</item>
-        <item>9</item>
-        <item>10</item>
-    </string-array>
-
    <!--- Volume key cursor control -->
     <string-array name="volume_key_cursor_control_entries">
         <item>@string/volume_key_cursor_control_off</item>
