@@ -69,6 +69,8 @@
    <string name="surya_maintainer">Rishabh Prakash</string>
    <string name="device_phoenix">Xiaomi Poco X2</string>
    <string name="phoenix_maintainer">BIBIN DAS B</string>
+   <string name="device_onclite">Xiaomi Redmi 7</string>
+   <string name="onclite_maintainer">Jack The Ripper</string>
 
     <!-- Realme Device maintainers -->
    <string name="device_RMX1901">Realme RMX1901</string>
