@@ -82,6 +82,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         FODSettings = (Preference) findPreference(LOCKSCREEN_FOD_CATEGORY);
         if (!getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
             prefScreen.removePreference(FODSettings);
+		}
 
         // Lock Clock Size
         mClockFontSize = (CustomSeekBarPreference) findPreference(CLOCK_FONT_SIZE);
