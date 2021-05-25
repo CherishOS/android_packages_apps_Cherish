@@ -55,13 +55,9 @@ public class OmniJawsSettings extends SettingsPreferenceFragment implements
     private static final String DEFAULT_WEATHER_ICON_PREFIX = "outline";
     private static final String WEATHER_SERVICE_PACKAGE = "org.omnirom.omnijaws";
     private static final String CHRONUS_ICON_PACK_INTENT = "com.dvtonder.chronus.ICON_PACK";
-    private static final String LOCK_WEATHER_TEMP_FONTS = "lock_weather_temp_fonts";
-    private static final String LOCK_WEATHER_CITY_FONTS = "lock_weather_city_fonts";
 
     private PreferenceCategory mWeatherCategory;
     private ListPreference mWeatherIconPack;
-    ListPreference mLockTempFonts;
-    ListPreference mLockCityFonts;
 
     @Override
     public int getMetricsCategory() {
@@ -103,20 +99,6 @@ public class OmniJawsSettings extends SettingsPreferenceFragment implements
             mWeatherIconPack.setSummary(mWeatherIconPack.getEntry());
             mWeatherIconPack.setOnPreferenceChangeListener(this);
         }
-
-        // Lockscren Weather Temp Fonts
-        mLockTempFonts = (ListPreference) findPreference(LOCK_WEATHER_TEMP_FONTS);
-        mLockTempFonts.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.LOCK_WEATHER_TEMP_FONTS, 27)));
-        mLockTempFonts.setSummary(mLockTempFonts.getEntry());
-        mLockTempFonts.setOnPreferenceChangeListener(this);
-
-        // Lockscren Weather City Fonts
-        mLockCityFonts = (ListPreference) findPreference(LOCK_WEATHER_CITY_FONTS);
-        mLockCityFonts.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.LOCK_WEATHER_CITY_FONTS, 27)));
-        mLockCityFonts.setSummary(mLockCityFonts.getEntry());
-        mLockCityFonts.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
@@ -127,18 +109,6 @@ public class OmniJawsSettings extends SettingsPreferenceFragment implements
             int valueIndex = mWeatherIconPack.findIndexOfValue(value);
             mWeatherIconPack.setSummary(mWeatherIconPack.getEntries()[valueIndex]);
            return true;
-       } else if (preference == mLockTempFonts) {
-            Settings.System.putInt(getContentResolver(), Settings.System.LOCK_WEATHER_TEMP_FONTS,
-                    Integer.valueOf((String) objValue));
-            mLockTempFonts.setValue(String.valueOf(objValue));
-            mLockTempFonts.setSummary(mLockTempFonts.getEntry());
-            return true;
-       } else if (preference == mLockCityFonts) {
-            Settings.System.putInt(getContentResolver(), Settings.System.LOCK_WEATHER_CITY_FONTS,
-                    Integer.valueOf((String) objValue));
-            mLockCityFonts.setValue(String.valueOf(objValue));
-            mLockCityFonts.setSummary(mLockCityFonts.getEntry());
-            return true;
        }
         return false;
     }
