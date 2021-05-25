@@ -901,16 +901,6 @@
     <string name="allow_signature_fake">Allow signature spoofing</string>
     <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app.</string>
 
-    <!-- Rounded corners -->
-    <string name="corners_category_title">Rounded corners (beta)</string>
-    <string name="corners_category_summary">Adjust rounded corners and padding</string>
-    <string name="corners_title">Customize rounded corners</string>
-    <string name="corner_radius">Rounded corner radius</string>
-    <string name="content_padding">Corner content padding</string>
-    <string name="corner_fwvals">Use framework values</string>
-    <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
-    <string name="unit_pixels">dp</string>
-
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">QS tile style</string>
     <string name="qstile_default">Default</string>
@@ -1137,4 +1127,5 @@
     <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
 	<string name="header_icons_style">Colored Header Icons</string>
     <string name="header_icons_style_summary">Choose the style of your notification headers icons (requires SystemUI restart)</string>
-	</resources>
+
+</resources>

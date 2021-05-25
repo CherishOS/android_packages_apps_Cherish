@@ -83,18 +83,4 @@
         android:fragment="com.cherish.settings.fragments.SmartPixels"
         android:title="@string/smart_pixels_title"
         android:summary="@string/smart_pixels_summary" />
-
-     <!-- Rounded Corners -->
-    <PreferenceCategory 
-         android:key="rounded_corners_category"
-         android:title="@string/corners_category_title">
-
-        <PreferenceScreen
-            android:key="rounded_corners"
-            android:title="@string/corners_title"
-            android:icon="@drawable/ic_round"
-            android:summary="@string/corners_category_summary"
-            android:fragment="com.cherish.settings.fragments.RoundedCorners" />
-
-    </PreferenceCategory>
 </PreferenceScreen>
