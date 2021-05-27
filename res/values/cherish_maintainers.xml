@@ -93,6 +93,10 @@
    <string name="enchilada_maintainer">Zahid M</string>
    <string name="device_fajita">Oneplus 6T</string>
    <string name="fajita_maintainer">Chandu</string>
+   <string name="device_hotdogb">Oneplus 7T</string>
+   <string name="hotdogb_maintainer">Addy</string>
+   <string name="device_guacamole">Oneplus 7 Pro</string>
+   <string name="guacamole_maintainer">Oogeid</string>
 
    <!-- Lenovo Device maintainers -->
    <string name="device_jd2019">Lenovo Z5s</string>

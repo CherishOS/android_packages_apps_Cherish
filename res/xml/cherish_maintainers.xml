@@ -295,7 +295,25 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/Chandu078" />
+                android:data="https://t.me/zahidmgsk" />
+        </Preference>
+		
+<Preference
+            android:title="@string/hotdogb_maintainer"
+            android:summary="@string/device_hotdogb"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Hotdogb_95" />
+        </Preference>
+		
+<Preference
+            android:title="@string/guacamole_maintainer"
+            android:summary="@string/device_guacamole"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Oogeid" />
         </Preference>
 </PreferenceCategory>
 
