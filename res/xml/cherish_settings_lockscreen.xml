@@ -240,16 +240,6 @@
         android:summary="@string/lockscreen_media_art_summary"
         android:defaultValue="true" />
 
-    <com.cherish.settings.preferences.SystemSettingSeekBarPreference
-            android:key="lockscreen_media_blur"
-            android:title="@string/lockscreen_media_blur_title"
-            android:dependency="lockscreen_media_art"
-            settings:allowEditText="true"
-            android:max="25"
-            android:min="0"
-            android:defaultValue="25"
-            settings:units="dp"/>
-
     <Preference
         android:key="keygaurd_batterybar"
         android:title="@string/keyguard_show_battery_title"

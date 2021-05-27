@@ -36,6 +36,4 @@
         <attr name="multiColor" format="boolean" />
         <attr name="withAlpha" format="boolean" />
     </declare-styleable>
-
-    <attr name="allowEditText" format="boolean" />
 </resources>
