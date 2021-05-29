@@ -32,7 +32,7 @@
 
     <net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="gradient_color"
-        android:icon="@drawable/ic_accent_picker"
+        android:icon="@drawable/ic_gradient"
         android:title="@string/gradient_color"
         android:summary="@string/gradient_summary"
         android:defaultValue="0xffffff"
@@ -94,24 +94,28 @@
 		
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="statusbar_icons_style"
+            android:icon="@drawable/ic_invert_colors"
             android:title="@string/statusbar_icons_style"
             android:summary="@string/statusbar_icons_style_summary"
             android:defaultValue="true" />
 			
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="headers_icons_style"
+            android:icon="@drawable/ic_invert_colors"
             android:title="@string/header_icons_style"
             android:summary="@string/header_icons_style_summary"
             android:defaultValue="true" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tiles_bg_disco"
+            android:icon="@drawable/ic_shape2_icon"
             android:title="@string/qs_panel_bg_disco_title"
             android:summary="@string/qs_panel_bg_disco_summary"
             android:defaultValue="false" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_panel_bg_use_new_tint"
+            android:icon="@drawable/ic_color"
             android:title="@string/qs_bg_use_new_tint"
 	    android:dialogTitle="@string/qs_bg_use_new_tint"
             android:entries="@array/qs_tint_entries"
@@ -128,6 +132,7 @@
         <!-- QS panel opacity -->
         <com.cherish.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_panel_bg_alpha"
+            android:icon="@drawable/ic_opacity"
             android:title="@string/qs_panel_bg_alpha_title"
             android:defaultValue="255"
             android:max="255"
@@ -136,6 +141,7 @@
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_panel_bg_use_fw"
+            android:icon="@drawable/ic_fwb"
             android:title="@string/qs_panel_bg_use_fw_title"
             android:summary="@string/qs_panel_bg_use_fw_summary"
             android:defaultValue="true"
@@ -151,6 +157,7 @@
 
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="qs_panel_color"
+            android:icon="@drawable/ic_accent_picker"
             android:title="@string/qs_panel_bg_color_title"
             android:defaultValue="0xFFFFFFFF"
             android:persistent="false"
@@ -182,6 +189,7 @@
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="volume_panel_tint"
+            android:icon="@drawable/ic_format_color"
             android:summary="@string/volume_panel_tint_summary"
             android:title="@string/volume_panel_tint_title"
             android:defaultValue="false" />

@@ -52,22 +52,10 @@
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="less_boring_heads_up"
+		android:icon="@drawable/ic_notification"
         android:title="@string/less_boring_heads_up_title"
         android:summary="@string/less_boring_heads_up_summary"
         android:defaultValue="false" />
-
-    <PreferenceCategory
-        android:key="media_category"
-        android:title="@string/media_category" >
-
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="artwork_media_background"
-            android:icon="@drawable/ic_media"
-            android:title="@string/artwork_media_background_title"
-            android:summary="@string/artwork_media_background_summary"
-            android:defaultValue="true" />
-
-    </PreferenceCategory>
 	
 	<!-- Notification background opacity -->
     <com.cherish.settings.preferences.SystemSettingSeekBarPreference
@@ -97,6 +85,7 @@
 
     <Preference
         android:key="notification_light"
+		android:icon="@drawable/ic_light"
         android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
         android:title="@string/notification_light_settings" >
         <extra

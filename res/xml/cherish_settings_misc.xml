@@ -91,6 +91,7 @@
         <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="sysui_rounded_fwvals"
             android:title="@string/corner_fwvals"
+			android:icon="@drawable/ic_rounded"
             android:summary="@string/corner_fwvals_summary"
             android:defaultValue="true"
             android:disableDependentsState="true" />

@@ -25,18 +25,21 @@
    <Preference
         android:key="system_navigation_settings_preferences"
         android:title="@string/navbar_gestures_title"
+        android:icon="@drawable/ic_swipe"
         android:summary="@string/navbar_gestures_summary"
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController" />
 
    <com.cherish.settings.preferences.SecureSettingSwitchPreference
         android:key="sysui_nav_bar_inverse"
+        android:icon="@drawable/ic_arrow"
         android:title="@string/navigation_bar_invert_layout_title"
         android:summary="@string/navigation_bar_invert_layout_summary"
         android:defaultValue="false" />
 		
 	<SwitchPreference
         android:key="navigation_bar_show_new"
+        android:icon="@drawable/ic_arrow"
         android:title="@string/navbar_visibility"
         android:summary="@string/navbar_vis_summary" />
 
@@ -55,6 +58,7 @@
 
     <Preference
         android:key="volume_key"
+        android:icon="@drawable/ic_hw"
         android:fragment="com.cherish.settings.fragments.VolumeRockerSettings"
         android:title="@string/volume_title" />
 
@@ -70,12 +74,14 @@
             android:key="button_brightness"
             android:title="@string/button_brightness_title"
             android:max="100"
+            android:icon="@drawable/ic_hw"
             settings:min="0"
             settings:units=""
             android:persistent="false" />
 
         <SwitchPreference
             android:key="button_brightness_sw"
+            android:icon="@drawable/ic_hw"
             android:title="@string/button_brightness_sw_title"
             android:persistent="false" />
 
@@ -84,6 +90,7 @@
             android:entries="@array/backlight_timeout_entries"
             android:entryValues="@array/backlight_timeout_values"
             android:key="backlight_timeout"
+            
             android:persistent="false"
             android:title="@string/backlight_timeout_title" />
 
@@ -95,6 +102,7 @@
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="anbi_enabled_option"
+            android:icon="@drawable/ic_hw"
             android:title="@string/anbi_title"
             android:summary="@string/anbi_summary"
             android:defaultValue="false" />
@@ -113,12 +121,14 @@
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_back_long_press"
+            android:icon="@drawable/ic_hw"
             android:summary="@string/hardware_keys_long_press_summary"
             android:title="@string/hardware_keys_long_press_title" >
         </com.cherish.settings.preferences.ActionPreference>
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_back_double_tap"
+            android:icon="@drawable/ic_tap"
             android:summary="@string/hardware_keys_double_tap_summary"
             android:title="@string/hardware_keys_double_tap_title" >
         </com.cherish.settings.preferences.ActionPreference>
@@ -130,24 +140,28 @@
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_home_single_tap"
+            android:icon="@drawable/ic_tap"
             android:summary="@string/hardware_keys_single_tap_summary"
             android:title="@string/hardware_keys_single_tap_title" >
         </com.cherish.settings.preferences.ActionPreference>
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_home_long_press"
+            android:icon="@drawable/ic_hw"
             android:summary="@string/hardware_keys_long_press_summary"
             android:title="@string/hardware_keys_long_press_title" >
         </com.cherish.settings.preferences.ActionPreference>
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_home_double_tap"
+            android:icon="@drawable/ic_tap"
             android:summary="@string/hardware_keys_double_tap_summary"
             android:title="@string/hardware_keys_double_tap_title" >
         </com.cherish.settings.preferences.ActionPreference>
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="allow_incall_home"
+            android:icon="@drawable/ic_call"
             android:title="@string/allow_incall_home_title"
             android:summary="@string/allow_incall_home_summary"
             android:defaultValue="true" />
@@ -160,18 +174,21 @@
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_overview_single_tap"
+            android:icon="@drawable/ic_tap"
             android:summary="@string/hardware_keys_single_tap_summary"
             android:title="@string/hardware_keys_single_tap_title" >
         </com.cherish.settings.preferences.ActionPreference>
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_overview_long_press"
+            android:icon="@drawable/ic_hw"
             android:summary="@string/hardware_keys_long_press_summary"
             android:title="@string/hardware_keys_long_press_title" >
         </com.cherish.settings.preferences.ActionPreference>
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_overview_double_tap"
+            android:icon="@drawable/ic_tap"
             android:summary="@string/hardware_keys_double_tap_summary"
             android:title="@string/hardware_keys_double_tap_title" >
         </com.cherish.settings.preferences.ActionPreference>
@@ -190,12 +207,14 @@
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_menu_long_press"
+            android:icon="@drawable/ic_hw"
             android:summary="@string/hardware_keys_long_press_summary"
             android:title="@string/hardware_keys_long_press_title" >
         </com.cherish.settings.preferences.ActionPreference>
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_menu_double_tap"
+            android:icon="@drawable/ic_tap"
             android:summary="@string/hardware_keys_double_tap_summary"
             android:title="@string/hardware_keys_double_tap_title" >
         </com.cherish.settings.preferences.ActionPreference>
@@ -208,18 +227,21 @@
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_assist_single_tap"
+            android:icon="@drawable/ic_hw"
             android:summary="@string/hardware_keys_single_tap_summary"
             android:title="@string/hardware_keys_single_tap_title" >
         </com.cherish.settings.preferences.ActionPreference>
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_assist_long_press"
+            android:icon="@drawable/ic_hw"
             android:summary="@string/hardware_keys_long_press_summary"
             android:title="@string/hardware_keys_long_press_title" >
         </com.cherish.settings.preferences.ActionPreference>
 
         <com.cherish.settings.preferences.ActionPreference
             android:key="hwkeys_button_assist_double_tap"
+            android:icon="@drawable/ic_tap"
             android:summary="@string/hardware_keys_double_tap_summary"
             android:title="@string/hardware_keys_double_tap_title" >
         </com.cherish.settings.preferences.ActionPreference>

@@ -74,6 +74,7 @@
     <com.cherish.settings.preferences.SecureSettingListPreference
         android:key="lockscreen_clock_selection"
         android:title="@string/lockscreen_clock_title"
+        android:icon="@drawable/ic_clock"
         android:dialogTitle="@string/lockscreen_clock_dialog_title"
         android:entries="@array/lockscreen_clock_titles"
         android:entryValues="@array/lockscreen_clock_values"
@@ -82,6 +83,7 @@
 
     <com.cherish.settings.preferences.CustomSeekBarPreference
         android:key="lockclock_font_size"
+        android:icon="@drawable/ic_font_size"
         android:title="@string/lockclock_font_size_title"
         android:max="101"
         settings:min="50"
@@ -91,6 +93,7 @@
 
     <com.cherish.settings.preferences.CustomSeekBarPreference
         android:key="custom_text_clock_font_size"
+        android:icon="@drawable/ic_font_size"
         android:title="@string/custom_text_clock_font_size_title"
         android:max="50"
         settings:min="35"
@@ -103,6 +106,7 @@
 
     <com.cherish.settings.preferences.SecureSettingListPreference
         android:key="lockscreen_date_selection"
+        android:icon="@drawable/ic_event"
         android:title="@string/lockscreen_date_selection_title"
         android:dialogTitle="@string/lockscreen_date_dialog_title"
         android:entries="@array/lockscreen_date_selection_entries"
@@ -112,6 +116,7 @@
 
     <com.cherish.settings.preferences.CustomSeekBarPreference
         android:key="lockdate_font_size"
+        android:icon="@drawable/ic_font_size"
         android:title="@string/lockdate_font_size_title"
         android:max="25"
         settings:min="10"
@@ -124,6 +129,7 @@
 
     <com.cherish.settings.preferences.CustomSeekBarPreference
         android:key="lockowner_font_size"
+        android:icon="@drawable/ic_font_size"
         android:title="@string/lockowner_font_size_title"
         android:max="25"
         settings:min="10"
@@ -136,6 +142,7 @@
 
     <com.cherish.settings.preferences.SecureSettingListPreference
         android:key="center_text_clock"
+        android:icon="@drawable/ic_align"
         android:title="@string/center_text_clock_title"
         android:dialogTitle="@string/center_text_clock_title"
         android:entries="@array/lockscreen_item_alignment_entries"
@@ -145,6 +152,7 @@
 
     <com.cherish.settings.preferences.SecureSettingListPreference
         android:key="lock_date_alignment"
+        android:icon="@drawable/ic_align"
         android:title="@string/lockscreen_date_alignment_title"
         android:dialogTitle="@string/lockscreen_date_alignment_title"
         android:entries="@array/lockscreen_item_alignment_entries"
@@ -154,6 +162,7 @@
 
     <com.cherish.settings.preferences.SecureSettingListPreference
         android:key="lockscreen_weather_alignment"
+        android:icon="@drawable/ic_align"
         android:title="@string/lockscreen_weather_alignment_title"
         android:dialogTitle="@string/lockscreen_weather_alignment_title"
         android:entries="@array/lockscreen_item_alignment_entries"
@@ -163,6 +172,7 @@
 
     <com.cherish.settings.preferences.SecureSettingListPreference
         android:key="lock_ownerinfo_alignment"
+        android:icon="@drawable/ic_align"
         android:title="@string/lockscreen_ownerinfo_alignment_title"
         android:dialogTitle="@string/lockscreen_ownerinfo_alignment_title"
         android:entries="@array/lockscreen_item_alignment_entries"
@@ -172,6 +182,7 @@
 
     <com.cherish.settings.preferences.SecureSettingSeekBarPreference
         android:key="lockscreen_item_padding"
+        android:icon="@drawable/ic_align"
         android:title="@string/lockscreen_item_padding_title"
         android:defaultValue="35"
         android:max="65"
@@ -181,6 +192,7 @@
 
     <PreferenceScreen
     	android:key="lockscreen_colors"
+        android:icon="@drawable/ic_accent_picker"
        	android:title="@string/lockscreen_colors"
         android:summary="@string/lockscreen_colors_summary"
        	android:fragment="com.cherish.settings.fragments.LockColors" />
@@ -206,6 +218,7 @@
 
             <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="lockscreen_weather_style"
+            android:icon="@drawable/ic_night"
             android:title="@string/lockscreen_weather_style_title"
             android:dialogTitle="@string/lockscreen_weather_style_title"
             android:entries="@array/lockscreen_weather_style_entries"
@@ -242,6 +255,7 @@
 		
 	<com.cherish.settings.preferences.SystemSettingListPreference
             android:key="lockscreen_albumart_filter"
+            android:icon="@drawable/ic_media_art"
             android:title="@string/lockscreen_albumart_filter_title"
             android:summary="%s"
             android:entries="@array/lockscreen_albumart_filter_entries"
@@ -251,6 +265,7 @@
 
     <Preference
         android:key="keygaurd_batterybar"
+        android:icon="@drawable/ic_battery_info"
         android:title="@string/keyguard_show_battery_title"
         android:summary="@string/keyguard_show_battery_summary"
         android:fragment="com.cherish.settings.fragments.KeygaurdBatteryBar" />
@@ -275,6 +290,7 @@
 
   <com.cherish.settings.preferences.SystemSettingListPreference 
             android:key="fod_recognizing_animation_list" 
+            android:icon="@drawable/ic_fingerprint"
             android:title="@string/fod_recog_animation_effect_title" 
             android:summary="%s" 
             android:entries="@array/fod_recognizing_animation_entries" 
@@ -285,6 +301,7 @@
   <!-- FOD pressed color -->
   <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="fod_color"
+            android:icon="@drawable/ic_fingerprint"
             android:dialogTitle="@string/fod_pressed_color_title"
             android:title="@string/fod_pressed_color_title"
             android:summary="%s"

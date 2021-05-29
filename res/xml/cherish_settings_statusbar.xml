@@ -91,6 +91,7 @@
 			
 	<com.cherish.settings.preferences.SystemSettingListPreference
         android:key="status_bar_show_ticker"
+        android:icon="@drawable/ic_ticker"
         android:title="@string/ticker_screen_title"
         android:entries="@array/ticker_mode_entries"
         android:entryValues="@array/ticker_mode_values"
@@ -98,6 +99,7 @@
 
     <com.cherish.settings.preferences.SystemSettingListPreference
         android:key="status_bar_ticker_animation_mode"
+        android:icon="@drawable/ic_ticker_animation"
         android:title="@string/ticker_animation_mode_title"
         android:entries="@array/ticker_animation_mode_entries"
         android:entryValues="@array/ticker_animation_mode_values"
@@ -105,6 +107,7 @@
 
     <com.cherish.settings.preferences.SystemSettingSeekBarPreference
         android:key="status_bar_ticker_tick_duration"
+        android:icon="@drawable/ic_clock"
         android:title="@string/ticker_tick_duration_title"
         settings:min="500"
         settings:interval="100"
@@ -115,6 +118,7 @@
 	<!-- Statusbar Lyric -->
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="status_bar_show_lyric"
+        android:icon="@drawable/ic_music"
         android:title="@string/status_bar_show_lyric_title"
         android:summary="@string/status_bar_show_lyric_summary"
         android:defaultValue="true" />

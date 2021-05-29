@@ -80,6 +80,7 @@
 		
 	<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_running_services_toggle"
+            android:icon="@drawable/ic_run"
             android:title="@string/qs_running_services_title"
             android:summary="@string/qs_running_services_summary"
             android:defaultValue="false" />
@@ -97,6 +98,7 @@
 	
 	<com.cherish.settings.preferences.SecureSettingListPreference
         android:key="qs_show_brightness_slider"
+        android:icon="@drawable/ic_brightness_control"
         android:title="@string/qs_show_brightness_slider_title"
         android:summary="%s"
         android:dialogTitle="@string/qs_show_brightness_slider_title"
@@ -106,6 +108,7 @@
 		
 		<com.cherish.settings.preferences.SecureSettingListPreference
             android:key="qqs_show_brightness_slider"
+            android:icon="@drawable/ic_brightness_qs"
             android:title="@string/qqs_brightness_slider_title"
             android:entries="@array/qs_show_brightness_slider_values"
             android:entryValues="@array/qs_show_brightness_slider_values"
@@ -147,6 +150,7 @@
 
         <com.cherish.settings.preferences.CustomSystemSeekBarPreference
             android:key="qs_rows_portrait"
+            android:icon="@drawable/ic_qs_row"
             android:title="@string/qs_rows_portrait_title"
             android:max="5"
             android:min="1"
@@ -155,6 +159,7 @@
 
         <com.cherish.settings.preferences.CustomSystemSeekBarPreference
             android:key="qs_rows_landscape"
+            android:icon="@drawable/ic_qs_land"
             android:title="@string/qs_rows_landscape_title"
             android:max="5"
             android:min="1"
@@ -163,6 +168,7 @@
 
         <com.cherish.settings.preferences.CustomSystemSeekBarPreference
             android:key="qs_columns_portrait"
+            android:icon="@drawable/ic_qs_column"
             android:title="@string/qs_columns_portrait_title"
             android:max="7"
             android:min="1"
@@ -171,6 +177,7 @@
 
         <com.cherish.settings.preferences.CustomSystemSeekBarPreference
             android:key="qs_columns_landscape"
+            android:icon="@drawable/ic_qs_column_landscape"
             android:title="@string/qs_columns_landscape_title"
             android:max="9"
             android:min="1"
