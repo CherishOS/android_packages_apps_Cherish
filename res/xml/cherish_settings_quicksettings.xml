@@ -53,6 +53,13 @@
         android:title="@string/qs_edit_title"
         android:summary="@string/qs_edit_summary"
         android:defaultValue="true" />
+		
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="oos_qsclock"
+		android:icon="@drawable/ic_clock"
+        android:title="@string/oos_qsclock"
+        android:summary="@string/oos_qsclock_summary"
+        android:defaultValue="true" />
 
    <com.cherish.settings.preferences.SystemSettingListPreference 
         android:key="qs_datausage" 

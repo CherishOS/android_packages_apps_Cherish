@@ -1173,4 +1173,8 @@
     <string name="text_charging_symbol_dollar">Dollar</string>
     <string name="text_charging_symbol_euro">Euro</string>
     <string name="text_charging_symbol_cent">Cent</string>
+	
+	<!-- Qs Clock -->
+    <string name="oos_qsclock">Qs clock</string>
+    <string name="oos_qsclock_summary">Display an oos like clock on qs</string>
 </resources>
