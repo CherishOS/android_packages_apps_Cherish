@@ -28,6 +28,7 @@ import android.content.res.Resources;
 import android.hardware.fingerprint.FingerprintManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.ParcelFileDescriptor;
 import android.os.UserHandle;
 import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
@@ -89,13 +90,15 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.cherish_settings_lockscreen);
-
+        Context mContext = getContext();
         ContentResolver resolver = getActivity().getContentResolver();
         PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
+        WallpaperManager manager = WallpaperManager.getInstance(mContext);
 
+        ParcelFileDescriptor pfd = manager.getWallpaperFile(WallpaperManager.FLAG_LOCK);
         mLockscreenBlur = (SystemSettingSeekBarPreference) findPreference(KEY_LOCKSCREEN_BLUR);
-        if (!Utils.isBlurSupported()) {
+        if (!Utils.isBlurSupported() || pfd != null) {
             prefScreen.removePreference(mLockscreenBlur);
         }
 		
