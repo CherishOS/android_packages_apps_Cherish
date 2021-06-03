@@ -100,7 +100,8 @@
          android:entries="@array/vowifi_icon_style_entries"
          android:entryValues="@array/vowifi_icon_style_values"
          android:summary="%s"
-         android:defaultValue="0"/>
+         android:defaultValue="0"
+	 android:dependency="vowifi_icon"/>
 
     <Preference
             android:key="battery_bar_category"
