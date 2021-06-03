@@ -86,14 +86,12 @@
          android:defaultValue="0"
          android:dependency="show_volte_icon"/>
 
-    <com.cherish.settings.preferences.SystemSettingListPreference
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
          android:key="vowifi_icon"
 	 android:icon="@drawable/ic_vowifi"
          android:title="@string/vowifi_icon_title"
-         android:entries="@array/vowifi_icon_entries"
-         android:entryValues="@array/vowifi_icon_values"
-         android:summary="%s"
-         android:defaultValue="0"/>
+         android:summary="@string/vowifi_switch_summary"
+         android:defaultValue="false"/>
 
     <com.cherish.settings.preferences.SystemSettingListPreference
          android:key="vowifi_icon_style"
