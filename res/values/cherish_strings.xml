@@ -256,9 +256,7 @@
 
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
-    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
+    <string name="vowifi_switch_summary">VoWiFi instead of VoLTE icon</string>
     <string name="vowifi_icon_style_title">VoWiFi icon style</string>
     <string name="vowifi_icon_default">Default Icon</string>
     <string name="vowifi_icon_emui">EMUI Icon</string>
