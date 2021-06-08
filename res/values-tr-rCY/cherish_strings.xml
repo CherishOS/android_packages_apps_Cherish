@@ -77,15 +77,6 @@
     <!-- Themes -->
     <string name="theme_type_title">Sistem teması</string>
     <string name="theme_type_summary">Tema seçin</string>
-    <string name="theme_type_light">Açık</string>
-    <string name="theme_type_pitch_black">Google karanlık</string>
-    <string name="theme_type_solarized_dark">Güneşleşmiş karanlık</string>
-    <string name="theme_type_baked_green">Fırında yeşil</string>
-    <string name="theme_type_choco_x">Choco X</string>
-    <string name="theme_type_dark_grey">Koyu gri</string>
-    <string name="theme_type_du_pitchblack">Simsiyah</string>
-    <string name="theme_type_material_ocean">Materyal okyanus</string>
-    <string name="theme_type_clear_spring">Clear Spring</string>
     <!--Accenter -->
     <string name="themes_hub_title">Temalar</string>
     <string name="themes_hub_summary">Vurgular-Gradyanlar-Temalar</string>
@@ -179,8 +170,6 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
     <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
-    <string name="lockscreen_battery_info_font_title">Şarj bilgisi yazı tipi</string>
-    <string name="lockscreen_battery_info_dialog_title">Şarj bilgisi yazı tipini seçin</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
     <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulanmasında titret</string>
@@ -193,38 +182,9 @@
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">LTE yerine 4G göster</string>
     <string name="show_fourg_summary">Durum çubuğundaki LTE göstergesini 4G ile değiştirir</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">VoLTE simgesi</string>
-    <string name="volte_switch_summary">VoLTE simgesini görüntüle</string>
-    <string name="volte_icon_title">VoLTE simgesi</string>
-    <string name="volte_icon_summary">VoLTE simgesini görüntüle</string>
-    <string name="volte_icon_style_title">VoLTE simgesini seçin</string>
-    <string name="volte_icon_asus">VoLTE Asus Simgesi</string>
-    <string name="volte_icon_vo">Yalnızca Vo Simgesi</string>
-    <string name="volte_icon_volte">VoLTE Simgesi</string>
-    <string name="volte_icon_oos">OOS VoLTE Simgesi</string>
-    <string name="volte_icon_hd">HD Simgesi</string>
-    <string name="volte_icon_hd2">HD CAF Simgesi</string>
-    <string name="volte_icon_miui">MIUI 11 Simgesi</string>
-    <string name="volte_icon_emui">EMIUI Simgesi</string>
-    <string name="volte_icon_oos10">OOS 10 Simgesi</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Ekran görüntüsü almak için kaydırın</string>
     <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı kaydırın</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi simgesi</string>
-    <string name="vowifi_icon_enabled">VoWiFi simgesi etkin</string>
-    <string name="vowifi_icon_disabled">VoWiFi simgesi devre dışı</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoLTE simgesi yerine VoWiFi</string>
-    <string name="vowifi_icon_style_title">VoWiFi simge stili</string>
-    <string name="vowifi_icon_default">Varsayılan Simge</string>
-    <string name="vowifi_icon_emui">EMIUI Simgesi</string>
-    <string name="vowifi_icon_asus">Asus Simgesi</string>
-    <string name="vowifi_icon_oneplus">OOS Simgesi</string>
-    <string name="vowifi_icon_moto">Motorola Simgesi</string>
-    <string name="vowifi_icon_simple1">Simple1 Simgesi</string>
-    <string name="vowifi_icon_simple2">Simple2 Simgesi</string>
-    <string name="vowifi_icon_simple3">Simple3 Simgesi</string>
     <!-- Suppress notifications sound/vibration if screen is ON -->
     <string name="notification_sound_vib_screen_on_title">Ekran açıkken bildirim sesi</string>
     <string name="notification_sound_vib_screen_on_summary">Ekran açıkken bildirimler için ses ve titreşim çal</string>
@@ -252,58 +212,12 @@
     <string name="network_traffic_layout">Etkinlik düzeni</string>
     <string name="network_traffic_layout_h">Yatay</string>
     <string name="network_traffic_layout_v">Dikey</string>
-    <string name="net_traffic_font">Yazı tipi</string>
     <!-- Screenshot -->
     <string name="screenshot_type_title">Ekran görüntüsü türü</string>
     <string name="screenshot_type_fullscreen">Tam ekran görüntüsü al</string>
     <string name="screenshot_type_partial">Ekran görüntüsü almak istediğiniz alana doğru sürükleyin</string>
     <string name="screenshot_options_category">Ekran görüntüsü seçenekleri</string>
     <string name="screenshot_options_summary">Zaman, gecikme, tür gibi ekran görüntüsü özelliklerini özelleştirin</string>
-    <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Saat yazı tipi seçenekleri</string>
-    <string name="custom_text_clock_font_title">Metin saati yazı tipi seçenekleri</string>
-    <string name="lock_clock_font_summary">Kilit ekranı saat widget\'ının varsayılan yazı tipini değiştir</string>
-    <string name="lock_clock_font_dialog_title">Kilit ekranı saat yazı tipi seçin</string>
-    <string name="lock_clock_font_stock">Normal (varsayılan)</string>
-    <string name="lock_clock_font_bold">Kalın</string>
-    <string name="lock_clock_font_italic">İtalik</string>
-    <string name="lock_clock_font_bold_italic">Kalın italik</string>
-    <string name="lock_clock_font_light_italic">Hafif italik</string>
-    <string name="lock_clock_font_thin_italic">İnce italik</string>
-    <string name="lock_clock_font_light">Açık</string>
-    <string name="lock_clock_font_thin">İnce</string>
-    <string name="lock_clock_font_condensed_normal">Yoğun</string>
-    <string name="lock_clock_font_condensed_italic">Yoğun italik</string>
-    <string name="lock_clock_font_condensed_bold">Yoğun kalın</string>
-    <string name="lock_clock_font_condensed_bold_italic">Yoğun kalın italik</string>
-    <string name="lock_clock_font_condensed_light">Yoğun hafif</string>
-    <string name="lock_clock_font_condensed_light_italic">Yoğun hafif italik</string>
-    <string name="lock_clock_font_medium_normal">Orta</string>
-    <string name="lock_clock_font_medium_italic">Orta italik</string>
-    <string name="lock_clock_font_black">Siyah</string>
-    <string name="lock_clock_font_black_italic">Siyah italik</string>
-    <string name="lock_clock_font_dancingscript">DancingScript</string>
-    <string name="lock_clock_font_dancingscript_bold">DancingScript Kalın</string>
-    <string name="lock_clock_font_comingsoon">ComingSoon</string>
-    <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
-    <string name="lock_clock_font_notoserif_italic">NotoSerif italik</string>
-    <string name="lock_clock_font_notoserif_bold">NotoSerif Kalın</string>
-    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Kalın İtalik</string>
-    <string name="lock_clock_font_gobold">GoBold Light</string>
-    <string name="lock_clock_font_roadrage">Road Rage</string>
-    <string name="lock_clock_font_snowstorm">Snowstorm</string>
-    <string name="lock_clock_font_googlesans">Google Sans</string>
-    <string name="lock_clock_font_neoneon">Neoneon</string>
-    <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
-    <string name="lock_clock_font_samsung">Shamshung</string>
-    <string name="lock_clock_font_mexcellent">Mexcellent</string>
-    <string name="lock_clock_font_burnstown">Burnstown</string>
-    <string name="lock_clock_font_dumbledor">Dumbledor</string>
-    <string name="lock_clock_font_phantombold">PhantomBold</string>
-    <!-- Lock Date Fonts -->
-    <string name="lock_date_font_title">Tarih yazı tipi seçenekleri</string>
-    <string name="lock_date_font_summary">Kilit ekranı tarih widget\'ının varsayılan yazı tipini değiştir</string>
-    <string name="lock_date_font_dialog_title">Kilit ekranı tarih yazı tipi seçin</string>
     <!-- Lock Clock & Date Size -->
     <string name="lockdate_font_size_title">Tarih yazı tipi boyutu</string>
     <string name="lockclock_font_size_title">Saat yazı tipi boyutu</string>
@@ -559,8 +473,6 @@
     <!-- Media art -->
     <string name="lockscreen_media_art_title">Medya resmi</string>
     <string name="lockscreen_media_art_summary">Medya resmi görünürlüğünü değiştir</string>
-    <!-- Lockscreen media artwork -->
-    <string name="lockscreen_media_blur_title">Medya resmi bulanıklık seviyesi</string>
     <!-- Charging animation -->
     <string name="charging_animation_title">Şarj animasyonu</string>
     <string name="charging_animation_summary">Cihaz şarja takıldığında bir animasyon göster</string>
@@ -624,6 +536,10 @@
     <string name="status_bar_clock_color_title">Saat yazı tipi rengi</string>
     <string name="clock_date_right">Saatin sağında</string>
     <string name="clock_date_left">Saatin solunda</string>
+    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
     <string name="clock_date_position">Tarih konumu</string>
     <!-- Battery Bar -->
     <string name="battery_bar_title">Pil çubuğu</string>
@@ -692,13 +608,6 @@
     <string name="lockscreen_weather_show_temp_summary">Görüntünün sağında mevcut şehir sıcaklığını göster</string>
     <string name="lockscreen_weather_show_image_title">Durum görüntüsünü göster</string>
     <string name="lockscreen_weather_show_image_summary">Hava Durumu Simgesini Göster</string>
-    <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">Kilit ekranı hava durumu yazı tipi</string>
-    <string name="lock_weather_temp_font_summary">Kilit ekranı hava sıcaklığının varsayılan yazı tipini değiştirin</string>
-    <string name="lock_weather_temp_font_dialog_title">Kilit ekranı hava sıcaklığı yazı tipini seçin</string>
-    <string name="lock_weather_city_font_title">Kilit ekranı hava durumu Şehir yazı tipi</string>
-    <string name="lock_weather_city_font_summary">Kilit ekranı hava durumunun varsayılan şehir yazı tipini değiştir</string>
-    <string name="lock_weather_city_dialog_title">Kilit ekranı hava durumu şehir yazı tipini seçin</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">Hızlı ayarlar altbilgi metni</string>
     <string name="qs_footer_text_summary">Hızlı ayarlar panelinin en altında metni görüntüle</string>
@@ -884,15 +793,6 @@
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">Sahte imzalamaya izin ver</string>
     <string name="allow_signature_fake_summary">Uygulamaların farklı bir uygulama gibi davranarak güvenlik sistemlerini atlamalarına izin ver.</string>
-    <!-- Rounded corners -->
-    <string name="corners_category_title">Yuvarlak köşeler (Beta)</string>
-    <string name="corners_category_summary">Yuvarlatılmış köşeleri ve dolguyu ayarlayın</string>
-    <string name="corners_title">Yuvarlatılmış köşeleri özelleştirin</string>
-    <string name="corner_radius">Yuvarlak köşe yarıçapı</string>
-    <string name="content_padding">Köşe içeriği dolgusu</string>
-    <string name="corner_fwvals">Varsayılan değerleri kullan</string>
-    <string name="corner_fwvals_summary">Cihaz gerçekten yuvarlatılmış köşelere sahipse kullanışlıdır</string>
-    <string name="unit_pixels">dp</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Hızlı ayarlar kare stili</string>
     <string name="qstile_default">Varsayılan</string>
@@ -944,16 +844,10 @@
     <string name="status_bar_battery_style_filled_circle">Dolu daire</string>
     <string name="status_bar_battery_style_text">Metin</string>
     <string name="status_bar_battery_style_hidden">Gizli</string>
-    <!-- Battery percentage -->
-    <string name="battery_percentage_title">Pil yüzdesi</string>
-    <string name="battery_percentage_default">Gizli (varsayılan)</string>
-    <string name="battery_percentage_text_inside">Simgenin içinde</string>
-    <string name="battery_percentage_text_next">Simgenin yanında</string>
-    <string name="battery_text_charging_title">Şarj olurken pil yüzdesi</string>
-    <string name="battery_text_charging_summary">Şarj olurken her zaman pil yüzdesini göster</string>
-    <!-- Battery estimate -->
-    <string name="battery_estimate_title">Tahmini pil süresi</string>
-    <string name="battery_estimate_summary">Mümkün olduğunda tahmini kalan pil ömrünü görüntüleyin</string>
+    <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
+    <string name="status_bar_battery_percentage_default">Gizli</string>
+    <string name="status_bar_battery_percentage_text_inside">Simgenin içinde</string>
+    <string name="status_bar_battery_percentage_text_next">Simgenin yanında</string>
     <string name="qs_media_player_title">Hızlı ayarlar medya oynatıcısı</string>
     <string name="qs_media_player_summary_on">Medya oynatıcıyı Hızlı Ayarlarda göster.\nSistem arayüzünün yeniden başlatılmasını gerektirir</string>
     <string name="qs_media_player_summary_off">Medya oynatıcıyı bildirim olarak göster.\nSistem arayüzünün yeniden başlatılmasını gerektirir</string>
@@ -1035,16 +929,15 @@
     <!-- Quick Settings -->
     <string name="lockscreen_qs_disabled_title">Kilit ekranında hızlı ayarları devre dışı bırakın</string>
     <string name="lockscreen_qs_disabled_summary">Güvenli kilit ekranlarında hızlı ayarların genişletilmesini devre dışı bırakın</string>
+    <!-- Notification Media Options -->
+    <string name="media_category">Media Notification options</string>
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Değer: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Varsayılan</string>
     <string name="custom_seekbar_default_value_to_set">Varsayılan değer: <xliff:g id="v">%s</xliff:g>\nAyarlamak için uzun dokunun</string>
     <string name="custom_seekbar_default_value_is_set">Varsayılan değer ayarlandı</string>
-    <!-- reTicker -->
-    <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Bildirimlerinizi, bildirim çubuğu yazılarının yeniden tasarlanmış haliyle değiştirin!\nStandart bildirimlerden daha zarif ve daha az dikkat dağıtıcıdır</string>
-    <string name="reticker_colored_title">Uygulama renkli arka planı kullan</string>
-    <string name="reticker_colored_summary">Bildirim uygulaması ana rengini kullanarak reTicker arka plan rengini değiştirin</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Gelen aramada bildirim flaşı</string>
     <string name="flashlight_on_call_disabled">Devre dışı</string>
@@ -1087,4 +980,69 @@
     <string name="theming_settings_dashboard_icons_accent">Vurgu renkli arka plan / Şeffaf ön plan</string>
     <string name="theming_settings_dashboard_icons_plain">Şeffaf arka plan / Düz ön plan</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Şeffaf arka plan / Vurgu renkli ön plan</string>
+    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
+    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
+    <string name="header_icons_style">Colored Header Icons</string>
+    <string name="header_icons_style_summary">Choose the style of your notification headers icons (requires SystemUI restart)</string>
+    <!-- Lockscreen album art filter -->
+    <string name="lockscreen_albumart_filter_title">Media cover art filter</string>
+    <string name="lockscreen_albumart_filter_none">Hiçbiri</string>
+    <string name="lockscreen_albumart_filter_grayscale">Grayscale</string>
+    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
+    <string name="lockscreen_albumart_filter_blur">Blur</string>
+    <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
+    <!-- Units -->
+    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_pixels">dp</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Ticker</string>
+    <string name="ticker_screen_summary">Show notifications ticker-style in status bar</string>
+    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
+    <string name="ticker_title">Status bar ticker</string>
+    <string name="ticker_summary">Enable the status bar ticker</string>
+    <string name="ticker_restore_defaults_title">Restore defaults</string>
+    <string name="text_title">Metin</string>
+    <string name="icon_title">Icon</string>
+    <string name="colors_title">Colors</string>
+    <string name="values_restored_title">Values restored</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Karart</string>
+    <string name="ticker_animation_mode_scroll">Kaydır</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <!-- Status Bar Lyric -->
+    <string name="status_bar_show_lyric_title">Status bar lyric</string>
+    <string name="status_bar_show_lyric_summary">Show lyric in status bar (need App support)</string>
+    <!-- Display cutout options -->
+    <string name="cutout_main">Display Cutout</string>
+    <string name="cutout_main_summary">They really cut corners with this one</string>
+    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_hide">Gizle</string>
+    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
+    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <!-- Rounded corners -->
+    <string name="corners_category">Corners</string>
+    <string name="corner_radius">Yuvarlak köşe yarıçapı</string>
+    <string name="content_padding">Köşe içeriği dolgusu</string>
+    <string name="corner_fwvals">Varsayılan değerleri kullan</string>
+    <string name="corner_fwvals_summary">Cihaz gerçekten yuvarlatılmış köşelere sahipse kullanışlıdır</string>
+    <!-- Power menu background opacity -->
+    <string name="power_menu_alpha_title">Power menu opacity</string>
+    <!-- Status bar - Battery custom charging symbol -->
+    <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
+    <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
+    <string name="text_charging_symbol_default">Devre dışı</string>
+    <string name="text_charging_symbol_flash">Flaş</string>
+    <string name="text_charging_symbol_tilde">Tilde</string>
+    <string name="text_charging_symbol_plus">Plus</string>
+    <string name="text_charging_symbol_star">Star</string>
+    <string name="text_charging_symbol_rupee">Rupee</string>
+    <string name="text_charging_symbol_dollar">Dollar</string>
+    <string name="text_charging_symbol_euro">Euro</string>
+    <string name="text_charging_symbol_cent">Cent</string>
 </resources>
