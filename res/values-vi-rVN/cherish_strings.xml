@@ -291,17 +291,17 @@
     <string name="qs_tint_accent">Màu nhấn</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
-    <string name="sysui_colors_active_title">Colored SystemUI</string>
-    <string name="sysui_colors_active_summary">Wallpaper colored scrims and QS</string>
+    <string name="sysui_colors_active_title">Màu sắc Hệ thống</string>
+    <string name="sysui_colors_active_summary">Màu sắc cho hình nền và Cài đặt nhanh</string>
     <!-- QS themes -->
-    <string name="qs_panel_colors_title">Quick settings colors</string>
-    <string name="qs_panel_bg_use_fw_title">Framework defaults</string>
-    <string name="qs_panel_bg_use_fw_summary">Disable QS and scrim color customizations</string>
-    <string name="qs_panel_bg_color_title">Background color</string>
-    <string name="qs_panel_bg_color_summary">Change color of your QS panel</string>
-    <string name="qs_panel_bg_alpha_title">Background alpha</string>
-    <string name="qs_panel_bg_disco_title">QS Tile Disco</string>
-    <string name="qs_panel_bg_disco_summary">Make your QS Tiles colorful!</string>
+    <string name="qs_panel_colors_title">Màu Bảng Cài đặt nhanh</string>
+    <string name="qs_panel_bg_use_fw_title">Khung mặc định</string>
+    <string name="qs_panel_bg_use_fw_summary">Tắt Cài đặt nhanh và tùy chỉnh màu scrim</string>
+    <string name="qs_panel_bg_color_title">Màu nền</string>
+    <string name="qs_panel_bg_color_summary">Thay đổi màu của bảng Cài đặt nhanh</string>
+    <string name="qs_panel_bg_alpha_title">Phông nền alpha</string>
+    <string name="qs_panel_bg_disco_title">Hỗn hợp thanh QS</string>
+    <string name="qs_panel_bg_disco_summary">Làm cho biểu tượng Cài đặt nhanh của bạn đầy màu sắc!</string>
     <string name="qs_bg_use_new_tint">Màu tiles QS</string>
     <string name="qs_bg_use_new_tint_summary">Sử dụng màu nhấn cho biểu tượng và hình nền của qs</string>
     <!-- Heads up -->
@@ -536,10 +536,10 @@
     <string name="status_bar_clock_color_title">Màu sắc của chữ đồng hồ</string>
     <string name="clock_date_right">Bên phải thời gian</string>
     <string name="clock_date_left">Bên trái thời gian</string>
-    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+    <string name="status_bar_clock_auto_hide_title">Tự ẩn đồng hồ</string>
+    <string name="status_bar_clock_auto_hide_summary">Ẩn và hiển thị đồng hồ trong khoảng thời gian đều đặn</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Ẩn thời gian</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Hiển thị thời gian</string>
     <string name="clock_date_position">Vị trí ngày</string>
     <!-- Battery Bar -->
     <string name="battery_bar_title">Thanh hiển thị pin</string>
@@ -930,9 +930,9 @@
     <string name="lockscreen_qs_disabled_title">Vô hiệu hoá bảng cài đặt nhanh khi bị khoá</string>
     <string name="lockscreen_qs_disabled_summary">Vô hiệu hóa mở rộng cài đặt nhanh trên màn hình khóa an toàn</string>
     <!-- Notification Media Options -->
-    <string name="media_category">Media Notification options</string>
-    <string name="artwork_media_background_title">Artwork media background</string>
-    <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
+    <string name="media_category">Tùy chọn phương tiện thông báo</string>
+    <string name="artwork_media_background_title">Tác phẩm nghệ thuật nền phương tiện truyền thông</string>
+    <string name="artwork_media_background_summary">Đặt tác phẩm nghệ thuật phương tiện làm nền phương tiện thông báo</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Mặc định</string>
@@ -980,69 +980,69 @@
     <string name="theming_settings_dashboard_icons_accent">Nền nhấn / Nền trước trong suốt</string>
     <string name="theming_settings_dashboard_icons_plain">Nền trong suốt / Nền trước trơn</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Nền trong suốt / Nền trước màu nhấn</string>
-    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
-    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
-    <string name="header_icons_style">Colored Header Icons</string>
-    <string name="header_icons_style_summary">Choose the style of your notification headers icons (requires SystemUI restart)</string>
+    <string name="statusbar_icons_style">Các biểu tượng trên thanh trạng thái có màu</string>
+    <string name="statusbar_icons_style_summary">Chọn kiểu biểu tượng trên thanh trạng thái của bạn (yêu cầu khởi động lại SystemUI)</string>
+    <string name="header_icons_style">Màu biểu tượng tiêu đề</string>
+    <string name="header_icons_style_summary">Chọn kiểu biểu tượng trên tiêu đề của bạn (yêu cầu khởi động lại SystemUI)</string>
     <!-- Lockscreen album art filter -->
-    <string name="lockscreen_albumart_filter_title">Media cover art filter</string>
+    <string name="lockscreen_albumart_filter_title">Bộ lọc ảnh bìa đa phương tiện</string>
     <string name="lockscreen_albumart_filter_none">Không</string>
-    <string name="lockscreen_albumart_filter_grayscale">Grayscale</string>
-    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
-    <string name="lockscreen_albumart_filter_blur">Blur</string>
-    <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
+    <string name="lockscreen_albumart_filter_grayscale">Màu xám</string>
+    <string name="lockscreen_albumart_filter_tint">Màu nhấn</string>
+    <string name="lockscreen_albumart_filter_blur">Độ mờ</string>
+    <string name="lockscreen_albumart_filter_grayblur">Màu xám và mờ</string>
     <!-- Units -->
-    <string name="unit_seconds">seconds</string>
-    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_seconds">giây</string>
+    <string name="unit_milliseconds">mili giây</string>
     <string name="unit_pixels">dp</string>
     <!-- Status Bar Ticker -->
-    <string name="ticker_screen_title">Ticker</string>
-    <string name="ticker_screen_summary">Show notifications ticker-style in status bar</string>
-    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
-    <string name="ticker_title">Status bar ticker</string>
-    <string name="ticker_summary">Enable the status bar ticker</string>
-    <string name="ticker_restore_defaults_title">Restore defaults</string>
+    <string name="ticker_screen_title">Thông báo dạng tường thuật</string>
+    <string name="ticker_screen_summary">Hiển thị thông báo kiểu tường thuật trên thanh trạng thái</string>
+    <string name="ticker_screen_footer">Ticker chỉ hiển thị khi thông báo bật lên không được hiển thị. Các thiết bị có notch trung tâm sẽ ẩn phần bị cắt trong cài đặt Giao diện người dùng hoặc bên dưới tùy chọn Nhà phát triển.</string>
+    <string name="ticker_title">Thanh trạng thái tường thuật</string>
+    <string name="ticker_summary">Bật kiểu thông báo ticker trên thanh trạng thái</string>
+    <string name="ticker_restore_defaults_title">Khôi phục mặc định</string>
     <string name="text_title">Văn bản</string>
-    <string name="icon_title">Icon</string>
-    <string name="colors_title">Colors</string>
-    <string name="values_restored_title">Values restored</string>
-    <string name="ticker_disabled">No ticker</string>
-    <string name="ticker_enabled">Notification ticker</string>
-    <string name="ticker_media_enabled">Notifications and music ticker</string>
-    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="icon_title">Biểu tượng</string>
+    <string name="colors_title">Màu</string>
+    <string name="values_restored_title">Giá trị được khôi phục</string>
+    <string name="ticker_disabled">Không có thông báo tường thuật</string>
+    <string name="ticker_enabled">Thông báo tường thuật</string>
+    <string name="ticker_media_enabled">Thông báo và tường thuật âm nhạc</string>
+    <string name="ticker_animation_mode_title">Hiệu ứng thông báo tường thuật</string>
     <string name="ticker_animation_mode_alpha_fade">Mờ dần</string>
     <string name="ticker_animation_mode_scroll">Cuộn</string>
-    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <string name="ticker_tick_duration_title">Thời gian tường thuật</string>
     <!-- Status Bar Lyric -->
-    <string name="status_bar_show_lyric_title">Status bar lyric</string>
-    <string name="status_bar_show_lyric_summary">Show lyric in status bar (need App support)</string>
+    <string name="status_bar_show_lyric_title">Lời bài hát thanh trạng thái</string>
+    <string name="status_bar_show_lyric_summary">Hiển thị lời bài hát thanh trạng tháir (cần ứng dụng hỗ trợ)</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display Cutout</string>
-    <string name="cutout_main_summary">They really cut corners with this one</string>
-    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="cutout_main">Vết cắt trên màn hình</string>
+    <string name="cutout_main_summary">Họ thực sự cắt góc với cái này</string>
+    <string name="display_cutout_style_title">Kiểu cắt</string>
     <string name="display_cutout_style_normal">Bình thường</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_immerse">Toàn màn hình</string>
     <string name="display_cutout_style_hide">Ẩn</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="stock_statusbar_in_hide">Chiều cao thanh trạng thái gốc</string>
+    <string name="stock_statusbar_in_hide_summary">Sử dụng chiều cao thanh trạng thái mặc định trong mục Ẩn</string>
     <!-- Rounded corners -->
-    <string name="corners_category">Corners</string>
+    <string name="corners_category">Góc</string>
     <string name="corner_radius">Bán kính góc tròn</string>
     <string name="content_padding">Góc đệm nội dung</string>
     <string name="corner_fwvals">Sử dụng các giá trị khung</string>
     <string name="corner_fwvals_summary">Hữu ích nếu thiết bị thực sự có các góc tròn</string>
     <!-- Power menu background opacity -->
-    <string name="power_menu_alpha_title">Power menu opacity</string>
+    <string name="power_menu_alpha_title">Độ trong suốt menu nguồn</string>
     <!-- Status bar - Battery custom charging symbol -->
-    <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
-    <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
+    <string name="text_charging_symbol_title">Ký hiệu sạc tùy chỉnh cho kiểu chữ</string>
+    <string name="text_charging_symbol_dialog">Ký tự sạc tùy chỉnh gần số phần trăm pin</string>
     <string name="text_charging_symbol_default">Tắt</string>
     <string name="text_charging_symbol_flash">Đèn flash</string>
-    <string name="text_charging_symbol_tilde">Tilde</string>
-    <string name="text_charging_symbol_plus">Plus</string>
-    <string name="text_charging_symbol_star">Star</string>
+    <string name="text_charging_symbol_tilde">Dấu ngã</string>
+    <string name="text_charging_symbol_plus">Cộng thêm</string>
+    <string name="text_charging_symbol_star">Ngôi sao</string>
     <string name="text_charging_symbol_rupee">Rupee</string>
-    <string name="text_charging_symbol_dollar">Dollar</string>
-    <string name="text_charging_symbol_euro">Euro</string>
+    <string name="text_charging_symbol_dollar">Đồng đô la</string>
+    <string name="text_charging_symbol_euro">Đồng Euro</string>
     <string name="text_charging_symbol_cent">Cent</string>
 </resources>
