@@ -67,8 +67,8 @@
    <string name="sakura_maintainer">Mohit Yadav</string>
    <string name="device_surya">Xiaomi Poco X3</string>
    <string name="surya_maintainer">Rishabh Prakash</string>
-   <string name="device_phoenix">Xiaomi Poco X2</string>
-   <string name="phoenix_maintainer">BIBIN DAS B</string>
+   <string name="device_beryllium">Xiaomi Poco F1</string>
+   <string name="beryllium_maintainer">Sourav</string>
    <string name="device_onclite">Xiaomi Redmi 7</string>
    <string name="onclite_maintainer">Jack The Ripper</string>
 

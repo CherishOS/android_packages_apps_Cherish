@@ -30,9 +30,9 @@
         </Preference>
 
 <Preference
-            android:title="@string/phoenix_maintainer"
-            android:summary="@string/device_phoenix"
-            android:icon="@drawable/ic_devs_phone" >
+            android:title="@string/beryllium_maintainer"
+            android:summary="@string/device_beryllium"
+            android:icon="@drawable/ic_devs_phone">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/bibindasb" />
