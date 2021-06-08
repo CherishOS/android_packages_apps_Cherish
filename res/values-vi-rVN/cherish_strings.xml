@@ -77,15 +77,6 @@
     <!-- Themes -->
     <string name="theme_type_title">Chủ đề hệ thống</string>
     <string name="theme_type_summary">Lựa chọn chủ đê</string>
-    <string name="theme_type_light">Sáng</string>
-    <string name="theme_type_pitch_black">Google dark</string>
-    <string name="theme_type_solarized_dark">Solarized dark</string>
-    <string name="theme_type_baked_green">Baked Green</string>
-    <string name="theme_type_choco_x">Choco X</string>
-    <string name="theme_type_dark_grey">Màu xám đen</string>
-    <string name="theme_type_du_pitchblack">Đen tuyền</string>
-    <string name="theme_type_material_ocean">Tối đại dương</string>
-    <string name="theme_type_clear_spring">Clear Spring</string>
     <!--Accenter -->
     <string name="themes_hub_title">Chủ đề</string>
     <string name="themes_hub_summary">Chủ đề màu nhấn Gradients</string>
@@ -179,8 +170,6 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Thông tin sạc màn hình khoá</string>
     <string name="lockscreen_battery_info_summary">Hiển thị điện áp bộ sạc tối đa hiện tại đã ước tính và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
-    <string name="lockscreen_battery_info_font_title">Thay đổi thông tin khi sạc</string>
-    <string name="lockscreen_battery_info_dialog_title">Lựa chọn thay đổi thông tin khi sạc</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Rung khi xác thực dấu vân tay</string>
     <string name="fprint_sucess_vib_summary">Rung khi xác thực dấu vân tay thành công</string>
@@ -193,38 +182,9 @@
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Hiện 4G thay cho LTE</string>
     <string name="show_fourg_summary">Thay thế biểu tượng LTE bằng 4G</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">Biểu tượng VoLTE</string>
-    <string name="volte_switch_summary">Hiển thị biểu tượng VoLTE</string>
-    <string name="volte_icon_title">Biểu tượng VoLTE</string>
-    <string name="volte_icon_summary">Hiển thị biểu tượng VoLTE</string>
-    <string name="volte_icon_style_title">Chọn biểu tượng VoLTE</string>
-    <string name="volte_icon_asus">Biểu tượng VoLTE Asus</string>
-    <string name="volte_icon_vo">Biểu tượng chỉ Vo</string>
-    <string name="volte_icon_volte">Biểu tượng VoLTE</string>
-    <string name="volte_icon_oos">Biểu tượng VoLTE OOS</string>
-    <string name="volte_icon_hd">Biểu tượng HD</string>
-    <string name="volte_icon_hd2">Biểu tượng CAF HD</string>
-    <string name="volte_icon_miui">Biểu tượng MIUI 11</string>
-    <string name="volte_icon_emui">Biểu tượng EMUI</string>
-    <string name="volte_icon_oos10">Biểu tượng OOS 10</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Vuốt để chụp ảnh màn hình</string>
     <string name="three_finger_gesture_summary">Vuốt ba ngón tay để chụp màn hình</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">Biểu tượng VoWifi</string>
-    <string name="vowifi_icon_enabled">Kiểu biểu tượng VoWiFi</string>
-    <string name="vowifi_icon_disabled">Biểu tượng VoWiFi đã tắt</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi thay vì icon VoLTE</string>
-    <string name="vowifi_icon_style_title">Kiểu biểu tượng VoWiFi</string>
-    <string name="vowifi_icon_default">Biểu tượng Mặc định</string>
-    <string name="vowifi_icon_emui">Biểu tượng EMUI</string>
-    <string name="vowifi_icon_asus">Biểu tượng Asus</string>
-    <string name="vowifi_icon_oneplus">Biểu tượng OOS</string>
-    <string name="vowifi_icon_moto">Biểu tượng Motorola</string>
-    <string name="vowifi_icon_simple1">Biểu tượng Simple1</string>
-    <string name="vowifi_icon_simple2">Biểu tượng Simple2</string>
-    <string name="vowifi_icon_simple3">Biểu tượng Simple3</string>
     <!-- Suppress notifications sound/vibration if screen is ON -->
     <string name="notification_sound_vib_screen_on_title">Thông báo âm thanh nếu hoạt động</string>
     <string name="notification_sound_vib_screen_on_summary">Phát âm thanh và rung cho thông báo khi màn hình đang bật</string>
@@ -252,58 +212,12 @@
     <string name="network_traffic_layout">Bố cục hoạt động</string>
     <string name="network_traffic_layout_h">Ngang</string>
     <string name="network_traffic_layout_v">Thẳng đứng</string>
-    <string name="net_traffic_font">Phông chữ</string>
     <!-- Screenshot -->
     <string name="screenshot_type_title">Kiểu chụp màn hình</string>
     <string name="screenshot_type_fullscreen">Chụp ảnh toàn màn hình</string>
     <string name="screenshot_type_partial">Kéo lựa chọn khu vực bạn muốn để chụp màn hình</string>
     <string name="screenshot_options_category">Tùy chọn ảnh chụp màn hình</string>
     <string name="screenshot_options_summary">Tùy chỉnh các thuộc tính chụp màn hình như thời gian, chậm trễ, loại, v.v</string>
-    <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Tùy chọn font đồng hồ</string>
-    <string name="custom_text_clock_font_title">Tùy chọn font đồng hồ</string>
-    <string name="lock_clock_font_summary">Thay đổi phông chữ mặc định của tiện ích con đồng hồ trên màn hình khóa</string>
-    <string name="lock_clock_font_dialog_title">Chọn phông chữ đồng hồ màn hình khóa</string>
-    <string name="lock_clock_font_stock">Bình thường (mặc định)</string>
-    <string name="lock_clock_font_bold">Đậm</string>
-    <string name="lock_clock_font_italic">Nghiêng</string>
-    <string name="lock_clock_font_bold_italic">Đậm nghiêng</string>
-    <string name="lock_clock_font_light_italic">Nghiêng nhạt</string>
-    <string name="lock_clock_font_thin_italic">Nghiêng Mảnh</string>
-    <string name="lock_clock_font_light">Sáng</string>
-    <string name="lock_clock_font_thin">Mỏng</string>
-    <string name="lock_clock_font_condensed_normal">Thu Gọn</string>
-    <string name="lock_clock_font_condensed_italic">Nghiêng thu gọn</string>
-    <string name="lock_clock_font_condensed_bold">Đậm Thu Gọn</string>
-    <string name="lock_clock_font_condensed_bold_italic">Nghiêng đậm thu gọn</string>
-    <string name="lock_clock_font_condensed_light">Nhạt thu gọn</string>
-    <string name="lock_clock_font_condensed_light_italic">Nghiêng Nhạt Thu Gọn</string>
-    <string name="lock_clock_font_medium_normal">Vừa</string>
-    <string name="lock_clock_font_medium_italic">Nghiêng vừa</string>
-    <string name="lock_clock_font_black">Màu đen</string>
-    <string name="lock_clock_font_black_italic">Nghiêng đen</string>
-    <string name="lock_clock_font_dancingscript">Nhảy múa</string>
-    <string name="lock_clock_font_dancingscript_bold">Nhảy múa đậm</string>
-    <string name="lock_clock_font_comingsoon">Sắp tới</string>
-    <string name="lock_clock_font_notoserif">NotoSerif bình thường</string>
-    <string name="lock_clock_font_notoserif_italic">NotoSerif Nghiêng</string>
-    <string name="lock_clock_font_notoserif_bold">NotoSerif đậm</string>
-    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Nghiêng Đậm</string>
-    <string name="lock_clock_font_gobold">GoBold nhạt</string>
-    <string name="lock_clock_font_roadrage">Road Rage</string>
-    <string name="lock_clock_font_snowstorm">Bão tuyết</string>
-    <string name="lock_clock_font_googlesans">Google Sans</string>
-    <string name="lock_clock_font_neoneon">Neoneon</string>
-    <string name="lock_clock_font_themeable">Themeable (hoặc VCR OSD Mono)</string>
-    <string name="lock_clock_font_samsung">Shamshung</string>
-    <string name="lock_clock_font_mexcellent">Mexcellent</string>
-    <string name="lock_clock_font_burnstown">Burnstown</string>
-    <string name="lock_clock_font_dumbledor">Dumbledor</string>
-    <string name="lock_clock_font_phantombold">PhantomBold</string>
-    <!-- Lock Date Fonts -->
-    <string name="lock_date_font_title">Tùy chọn font ngày</string>
-    <string name="lock_date_font_summary">Thay đổi phông chữ mặc định của tiện ích con đồng hồ trên màn hình khóa</string>
-    <string name="lock_date_font_dialog_title">Chọn phông chữ đồng hồ trên màn hình khóa</string>
     <!-- Lock Clock & Date Size -->
     <string name="lockdate_font_size_title">Cỡ chữ ngày</string>
     <string name="lockclock_font_size_title">Cỡ chữ đồng hồ</string>
@@ -373,12 +287,23 @@
     <string name="data_disabled_icon_title">Hiển thị biểu tượng vô hiệu hóa dữ liệu</string>
     <string name="data_disabled_icon_summary">Hiển thị các dấu hiệu chéo bên cạnh thanh tín hiệu khi dữ liệu bị vô hiệu hóa</string>
     <!-- Accent QS tint -->
-    <string name="qs_bg_use_new_tint">Màu tiles QS</string>
-    <string name="qs_bg_use_new_tint_summary">Sử dụng màu nhấn cho biểu tượng và hình nền của qs</string>
     <string name="qs_tint_off">Mặc định</string>
     <string name="qs_tint_accent">Màu nhấn</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
+    <string name="sysui_colors_active_title">Colored SystemUI</string>
+    <string name="sysui_colors_active_summary">Wallpaper colored scrims and QS</string>
+    <!-- QS themes -->
+    <string name="qs_panel_colors_title">Quick settings colors</string>
+    <string name="qs_panel_bg_use_fw_title">Framework defaults</string>
+    <string name="qs_panel_bg_use_fw_summary">Disable QS and scrim color customizations</string>
+    <string name="qs_panel_bg_color_title">Background color</string>
+    <string name="qs_panel_bg_color_summary">Change color of your QS panel</string>
+    <string name="qs_panel_bg_alpha_title">Background alpha</string>
+    <string name="qs_panel_bg_disco_title">QS Tile Disco</string>
+    <string name="qs_panel_bg_disco_summary">Make your QS Tiles colorful!</string>
+    <string name="qs_bg_use_new_tint">Màu tiles QS</string>
+    <string name="qs_bg_use_new_tint_summary">Sử dụng màu nhấn cho biểu tượng và hình nền của qs</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Thông báo nổi</string>
     <string name="heads_up_summary">Tùy chỉnh hành vi cảnh báo</string>
@@ -548,8 +473,6 @@
     <!-- Media art -->
     <string name="lockscreen_media_art_title">Nghệ thuật truyền thông</string>
     <string name="lockscreen_media_art_summary">Chuyển đổi khả năng hiển thị của nghệ thuật truyền thông</string>
-    <!-- Lockscreen media artwork -->
-    <string name="lockscreen_media_blur_title">Mức độ mờ ảnh bìa</string>
     <!-- Charging animation -->
     <string name="charging_animation_title">Hiệu ứng sạc</string>
     <string name="charging_animation_summary">Hiển thị một hiệu ứng khi thiết bị được cắm sạc</string>
@@ -613,6 +536,10 @@
     <string name="status_bar_clock_color_title">Màu sắc của chữ đồng hồ</string>
     <string name="clock_date_right">Bên phải thời gian</string>
     <string name="clock_date_left">Bên trái thời gian</string>
+    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
     <string name="clock_date_position">Vị trí ngày</string>
     <!-- Battery Bar -->
     <string name="battery_bar_title">Thanh hiển thị pin</string>
@@ -681,13 +608,6 @@
     <string name="lockscreen_weather_show_temp_summary">Hiển thị nhiệt độ hiện tại của thành phố bên phải hình ảnh</string>
     <string name="lockscreen_weather_show_image_title">Tình trạng màu sắc hình ảnh</string>
     <string name="lockscreen_weather_show_image_summary">Hiển thị hình ảnh điều kiện thời tiết</string>
-    <!-- LS Weather Temp & City Fonts -->
-    <string name="lock_weather_temp_font_title">Phông chữ Nhiệt độ Thời tiết trên màn hình khóa</string>
-    <string name="lock_weather_temp_font_summary">Thay đổi phông chữ mặc định của nhiệt độ thời tiết màn hình khóa</string>
-    <string name="lock_weather_temp_font_dialog_title">Lựa chọn phông chữ thời tiết màn hình khóa</string>
-    <string name="lock_weather_city_font_title">Phông chữ Thời tiết Thành Phố trên màn hình khóa</string>
-    <string name="lock_weather_city_font_summary">Thay đổi phông chữ mặc định của thời tiết thành phố màn hình khóa</string>
-    <string name="lock_weather_city_dialog_title">Lựa chọn phông chữ thời tiết thành phố màn hình khóa</string>
     <!-- QS Footer Text -->
     <string name="qs_footer_text_title">QS văn bản cuối trang</string>
     <string name="qs_footer_text_summary">Hiển thị văn bản ở dưới cùng của bảng cài đặt nhanh</string>
@@ -873,15 +793,6 @@
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">Cho phép giả mạo chữ ký</string>
     <string name="allow_signature_fake_summary">Cho phép các ứng dụng bỏ qua các hệ thống bảo mật bằng cách giả vờ là một ứng dụng khác.</string>
-    <!-- Rounded corners -->
-    <string name="corners_category_title">Góc tròn</string>
-    <string name="corners_category_summary">Điều chỉnh các góc tròn và phần đệm</string>
-    <string name="corners_title">Tùy chỉnh các góc tròn</string>
-    <string name="corner_radius">Bán kính góc tròn</string>
-    <string name="content_padding">Góc đệm nội dung</string>
-    <string name="corner_fwvals">Sử dụng các giá trị khung</string>
-    <string name="corner_fwvals_summary">Hữu ích nếu thiết bị thực sự có các góc tròn</string>
-    <string name="unit_pixels">dp</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Kiểu ô cài đặt nhanh</string>
     <string name="qstile_default">Mặc định</string>
@@ -933,16 +844,10 @@
     <string name="status_bar_battery_style_filled_circle">Vòng tròn kín</string>
     <string name="status_bar_battery_style_text">Văn bản</string>
     <string name="status_bar_battery_style_hidden">Ẩn</string>
-    <!-- Battery percentage -->
-    <string name="battery_percentage_title">Phần trăm pin</string>
-    <string name="battery_percentage_default">Ẩn (mặc định)</string>
-    <string name="battery_percentage_text_inside">Bên trong biểu tượng pin</string>
-    <string name="battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
-    <string name="battery_text_charging_title">Hiển thị phần trăm pin lúc sạc</string>
-    <string name="battery_text_charging_summary">Luôn hiển thị dung lượng pin lúc sạc</string>
-    <!-- Battery estimate -->
-    <string name="battery_estimate_title">Ước tính pin</string>
-    <string name="battery_estimate_summary">Hiển thị thời lượng pin còn lại ước tính khi khả dụng</string>
+    <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
+    <string name="status_bar_battery_percentage_default">Ẩn</string>
+    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng pin</string>
+    <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
     <string name="qs_media_player_title">Trình chơi nhạc trên QS</string>
     <string name="qs_media_player_summary_on">Hiển thị trình phát đa phương tiện trong QS.\nYêu cầu khởi động lại SystemUI</string>
     <string name="qs_media_player_summary_off">Hiển thị trình phát đa phương tiện trong Qs.\nYêu cầu khởi động lại SystemUI</string>
@@ -1024,16 +929,15 @@
     <!-- Quick Settings -->
     <string name="lockscreen_qs_disabled_title">Vô hiệu hoá bảng cài đặt nhanh khi bị khoá</string>
     <string name="lockscreen_qs_disabled_summary">Vô hiệu hóa mở rộng cài đặt nhanh trên màn hình khóa an toàn</string>
+    <!-- Notification Media Options -->
+    <string name="media_category">Media Notification options</string>
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Mặc định</string>
     <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ lâu để thiết lập</string>
     <string name="custom_seekbar_default_value_is_set">Giá trị mặc định được thiết lập</string>
-    <!-- reTicker -->
-    <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Thay thế các thông báo của bạn bằng một phiên bản biểu ngữ được thiết kế lại \nNhẹ nhàng và ít xâm lấn hơn thông báo tiêu chuẩn</string>
-    <string name="reticker_colored_title">Sử dụng nền màu ứng dụng</string>
-    <string name="reticker_colored_summary">Thay thế màu nền reTicker bằng màu chính của ứng dụng thông báo</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Chớp đèn flash cuộc gọi đến</string>
     <string name="flashlight_on_call_disabled">Tắt</string>
@@ -1076,4 +980,69 @@
     <string name="theming_settings_dashboard_icons_accent">Nền nhấn / Nền trước trong suốt</string>
     <string name="theming_settings_dashboard_icons_plain">Nền trong suốt / Nền trước trơn</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Nền trong suốt / Nền trước màu nhấn</string>
+    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
+    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
+    <string name="header_icons_style">Colored Header Icons</string>
+    <string name="header_icons_style_summary">Choose the style of your notification headers icons (requires SystemUI restart)</string>
+    <!-- Lockscreen album art filter -->
+    <string name="lockscreen_albumart_filter_title">Media cover art filter</string>
+    <string name="lockscreen_albumart_filter_none">Không</string>
+    <string name="lockscreen_albumart_filter_grayscale">Grayscale</string>
+    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
+    <string name="lockscreen_albumart_filter_blur">Blur</string>
+    <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
+    <!-- Units -->
+    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_pixels">dp</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Ticker</string>
+    <string name="ticker_screen_summary">Show notifications ticker-style in status bar</string>
+    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
+    <string name="ticker_title">Status bar ticker</string>
+    <string name="ticker_summary">Enable the status bar ticker</string>
+    <string name="ticker_restore_defaults_title">Restore defaults</string>
+    <string name="text_title">Văn bản</string>
+    <string name="icon_title">Icon</string>
+    <string name="colors_title">Colors</string>
+    <string name="values_restored_title">Values restored</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Mờ dần</string>
+    <string name="ticker_animation_mode_scroll">Cuộn</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <!-- Status Bar Lyric -->
+    <string name="status_bar_show_lyric_title">Status bar lyric</string>
+    <string name="status_bar_show_lyric_summary">Show lyric in status bar (need App support)</string>
+    <!-- Display cutout options -->
+    <string name="cutout_main">Display Cutout</string>
+    <string name="cutout_main_summary">They really cut corners with this one</string>
+    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="display_cutout_style_normal">Bình thường</string>
+    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_hide">Ẩn</string>
+    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
+    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <!-- Rounded corners -->
+    <string name="corners_category">Corners</string>
+    <string name="corner_radius">Bán kính góc tròn</string>
+    <string name="content_padding">Góc đệm nội dung</string>
+    <string name="corner_fwvals">Sử dụng các giá trị khung</string>
+    <string name="corner_fwvals_summary">Hữu ích nếu thiết bị thực sự có các góc tròn</string>
+    <!-- Power menu background opacity -->
+    <string name="power_menu_alpha_title">Power menu opacity</string>
+    <!-- Status bar - Battery custom charging symbol -->
+    <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
+    <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
+    <string name="text_charging_symbol_default">Tắt</string>
+    <string name="text_charging_symbol_flash">Đèn flash</string>
+    <string name="text_charging_symbol_tilde">Tilde</string>
+    <string name="text_charging_symbol_plus">Plus</string>
+    <string name="text_charging_symbol_star">Star</string>
+    <string name="text_charging_symbol_rupee">Rupee</string>
+    <string name="text_charging_symbol_dollar">Dollar</string>
+    <string name="text_charging_symbol_euro">Euro</string>
+    <string name="text_charging_symbol_cent">Cent</string>
 </resources>
