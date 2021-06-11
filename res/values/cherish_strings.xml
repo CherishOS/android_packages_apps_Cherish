@@ -1293,4 +1293,13 @@
 	<!-- Hide SB On Lockscreen -->
     <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
     <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+	
+	<!-- System-wide Slider Styles -->
+    <string name="system_slider_style_title">System Slider styles</string>
+    <string name="system_slider_style_default">Default</string>
+    <string name="system_slider_style_daniel">Daniel</string>
+    <string name="system_slider_style_mememini">Meme mini</string>
+    <string name="system_slider_style_memeround">Meme round</string>
+    <string name="system_slider_style_memeroundstroke">Meme round stroke</string>
+    <string name="system_slider_style_memestroke">Meme stroke</string>
 </resources>

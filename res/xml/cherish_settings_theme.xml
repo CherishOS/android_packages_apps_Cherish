@@ -89,6 +89,16 @@
         android:entries="@array/brightness_slider_style_selector_entries"
         android:entryValues="@array/brightness_slider_style_selector_values"
         android:persistent="false" />
+
+        <!-- System-wide Slider Styles -->
+        <ListPreference
+            android:key="system_slider_style"
+            android:icon="@drawable/ic_seekbar"
+            android:title="@string/system_slider_style_title"
+            android:entries="@array/system_slider_style_entries"
+            android:entryValues="@array/system_slider_style_values"
+            android:summary="%s"
+            android:defaultValue="1" />
 		
 		<!-- Settings dashboard icon style -->
         <com.cherish.settings.preferences.SystemSettingIntListPreference

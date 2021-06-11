@@ -1355,4 +1355,23 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+	
+	<!-- System-wide Sliders Styles -->
+    <string-array name="system_slider_style_entries" translatable="false">
+        <item>@string/system_slider_style_default</item>
+        <item>@string/system_slider_style_daniel</item>
+        <item>@string/system_slider_style_mememini</item>
+        <item>@string/system_slider_style_memeround</item>
+        <item>@string/system_slider_style_memeroundstroke</item>
+        <item>@string/system_slider_style_memestroke</item>
+    </string-array>
+
+    <string-array name="system_slider_style_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
 </resources>
