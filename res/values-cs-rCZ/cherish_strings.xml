@@ -848,6 +848,8 @@
     <string name="status_bar_battery_percentage_default">Skryté</string>
     <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
     <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <string name="qs_media_player_title">Přehrávač médií</string>
     <string name="qs_media_player_summary_on">Zobrazit přehrávač médií v QS\nVyžaduje restart SystemUI</string>
     <string name="qs_media_player_summary_off">Zobrazit přehrávač médií jako oznámení\nVyžaduje restart SystemUI</string>
