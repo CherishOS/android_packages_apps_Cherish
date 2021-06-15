@@ -288,7 +288,7 @@
     <string name="data_disabled_icon_summary">Mostrar um X no ícone do sinal de rede quando os dados móveis estiverem desligados</string>
     <!-- Accent QS tint -->
     <string name="qs_tint_off">Padrão</string>
-    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_accent">Cor de destaque</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
     <string name="sysui_colors_active_title">Colored SystemUI</string>
@@ -586,9 +586,9 @@
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
     <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
     <string name="fod_recog_animation_miui_star_cas">Starlight</string>
-    <string name="fod_recog_animation_op_energy">Energy</string>
+    <string name="fod_recog_animation_op_energy">Energia</string>
     <string name="fod_recog_animation_op_ripple">Ripple</string>
-    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_rog_fusion">Fusão</string>
     <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
     <string name="fod_recog_animation_rog_supernova">Supernova</string>
     <string name="fod_recog_animation_shine">Oppo Shine</string>
@@ -650,7 +650,7 @@
     <string name="file_header_select_title">Selecione uma imagem do armazenamento</string>
     <string name="file_header_select_summary">Selecione uma imagem do armazenamento interno</string>
     <string name="status_bar_custom_header_shadow_title">Escurecer imagem</string>
-    <string name="status_bar_custom_header_height_title">Image height offset</string>
+    <string name="status_bar_custom_header_height_title">Deslocamento da altura da imagem</string>
     <!-- FOD pressed color -->
     <string name="fod_pressed_color_title">Efeito do ícone pressionado</string>
     <string name="fod_pressed_color_white">Branco</string>
@@ -666,11 +666,11 @@
     <string name="add_gaming_mode_package_title">Adicionar apps para o modo de jogo</string>
     <string name="add_gaming_mode_package_summary">O Modo de jogo será ativado automaticamente quando estas aplicações forem abertas e desativado quando forem fechados</string>
     <string name="gaming_mode_headsup_title">Bloquear notificações</string>
-    <string name="gaming_mode_headsup_allow">Allow all headsup notifications</string>
-    <string name="gaming_mode_headsup_dnc">Block all headsup notifications except calls &amp; alarms</string>
-    <string name="gaming_mode_headsup_clock">Block all headsup notifications except alarms</string>
-    <string name="gaming_mode_headsup_dialer">Block all headsup notifications except calls</string>
-    <string name="gaming_mode_headsup_stop">Block all headsup notifications</string>
+    <string name="gaming_mode_headsup_allow">Permitir notificações flutuantes</string>
+    <string name="gaming_mode_headsup_dnc">Bloquear todas as notificações flutuantes, exceto chamadas e alarmes</string>
+    <string name="gaming_mode_headsup_clock">Bloquear todas as notificações flutuantes, exceto alarmes</string>
+    <string name="gaming_mode_headsup_dialer">Bloquear todos as notificações flutuantes, exceto chamadas</string>
+    <string name="gaming_mode_headsup_stop">Bloquear todas as notificações flutuantes</string>
     <string name="gaming_mode_hardware_keys_title">Bloquear botões</string>
     <string name="gaming_mode_hardware_keys_summary">Desativar botões físicos quando o modo de jogo estiver ativado</string>
     <string name="gaming_mode_brightness_title">Desativar o brilho automático</string>
@@ -691,13 +691,13 @@
     <string name="pulse_ambient_light_category">Iluminação da borda da tela</string>
     <string name="pulse_ambient_light_title">Exibir na nova notificação</string>
     <string name="pulse_ambient_light_summary">Iluminar as bordas laterais da tela ao receber notificações</string>
-    <string name="pulse_ambient_light_show_always_title">Show for all doze events</string>
-    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
-    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_show_always_title">Mostrar para todos os eventos do doze</string>
+    <string name="pulse_ambient_light_show_always_summary">Mostrar luzes para todos os eventos doze e não apenas notificações</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Modo de repetição de luz</string>
     <string name="pulse_ambient_light_repeat_direction_restart">Reiniciar</string>
-    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Reverso</string>
     <string name="ambient_notification_light_enabled_title">Mostrar em sempre ativo</string>
-    <string name="aod_disabled">AOD is disabled</string>
+    <string name="aod_disabled">Tela ambiente está desativado</string>
     <string name="ambient_notification_light_enabled_summary">Mostrar Led ao usar novas notificações sempre ativa</string>
     <string name="ambient_notification_light_color_title">Cor personalizada</string>
     <string name="ambient_notification_light_color_summary">Cor padrão ao piscar a luz de notificação</string>
@@ -848,6 +848,8 @@
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
     <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <string name="qs_media_player_title">QS Media player</string>
     <string name="qs_media_player_summary_on">Show media player in QS.\nRequires a SystemUI restart</string>
     <string name="qs_media_player_summary_off">Show media player as a notification.\nRequires a SystemUI restart</string>
