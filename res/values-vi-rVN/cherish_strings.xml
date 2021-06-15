@@ -848,6 +848,8 @@
     <string name="status_bar_battery_percentage_default">Ẩn</string>
     <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng pin</string>
     <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <string name="qs_media_player_title">Trình chơi nhạc trên QS</string>
     <string name="qs_media_player_summary_on">Hiển thị trình phát đa phương tiện trong QS.\nYêu cầu khởi động lại SystemUI</string>
     <string name="qs_media_player_summary_off">Hiển thị trình phát đa phương tiện trong Qs.\nYêu cầu khởi động lại SystemUI</string>
