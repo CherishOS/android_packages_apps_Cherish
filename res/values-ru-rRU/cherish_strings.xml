@@ -848,6 +848,8 @@
     <string name="status_bar_battery_percentage_default">Скрывать</string>
     <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
     <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <string name="qs_media_player_title">Медиапроигрыватель</string>
     <string name="qs_media_player_summary_on">Показать медиаплеер в быстрых настройках.
 Требует перезапуска интерфейса</string>
