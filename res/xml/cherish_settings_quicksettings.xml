@@ -54,15 +54,6 @@
         android:summary="@string/qs_footer_text_summary"
         android:defaultValue="false"/>
 
-    <!-- QS footer text string -->
-    <com.cherish.settings.preferences.SystemSettingEditTextPreference
-        android:key="footer_text_string"
-        android:icon="@drawable/ic_edit1"
-        android:title="@string/qs_footer_text_string_title"
-        android:summary="@string/qs_footer_text_string_summary"
-        android:dependency="omni_footer_text_show"
-        android:defaultValue="#KeeptheLove" />
-
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="qs_edit_toggle"
         android:icon="@drawable/ic_edit"
