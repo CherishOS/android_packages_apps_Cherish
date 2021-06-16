@@ -693,10 +693,6 @@
     <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
     <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
 
-    <!-- QS Footer Text -->
-    <string name="qs_footer_text_title">QS footer text</string>
-    <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
-
     <!-- QS Header data uasge -->
     <string name="qs_datausage_title">Data usage in QS Header</string>
     <string name="qs_datausage_disabled">Disabled</string>
