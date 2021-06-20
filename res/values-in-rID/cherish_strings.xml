@@ -848,6 +848,8 @@
     <string name="status_bar_battery_percentage_default">Tersembunyi</string>
     <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
     <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <string name="qs_media_player_title">Pemutar media QS</string>
     <string name="qs_media_player_summary_on">Tampilkan pemutar media di QS.\nMemerlukan mulai ulang SistemUI</string>
     <string name="qs_media_player_summary_off">Tampilkan pemutar media sebagai notifikasi.\nMemerlukan mulai ulang SistemUI</string>

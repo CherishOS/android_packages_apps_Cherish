@@ -848,6 +848,8 @@
     <string name="status_bar_battery_percentage_default">Hidden</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <string name="qs_media_player_title">QS Media player</string>
     <string name="qs_media_player_summary_on">Show media player in QS.\nRequires a SystemUI restart</string>
     <string name="qs_media_player_summary_off">Show media player as a notification.\nRequires a SystemUI restart</string>

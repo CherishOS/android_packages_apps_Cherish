@@ -848,6 +848,8 @@
     <string name="status_bar_battery_percentage_default">非表示</string>
     <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
     <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <string name="qs_media_player_title">クイック設定のメディアプレーヤー</string>
     <string name="qs_media_player_summary_on">クイック設定にメディアプレーヤーを表示します。\nシステム UI の再起動が必要です。</string>
     <string name="qs_media_player_summary_off">通知としてメディアプレーヤーを表示します。\nシステム UI の再起動が必要です。</string>
