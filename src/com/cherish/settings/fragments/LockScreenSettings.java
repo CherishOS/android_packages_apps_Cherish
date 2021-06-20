@@ -53,8 +53,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 	private static final String CUSTOM_TEXT_CLOCK_FONT_SIZE  = "custom_text_clock_font_size";
     private static final String DATE_FONT_SIZE  = "lockdate_font_size";
     private static final String LOCKOWNER_FONT_SIZE = "lockowner_font_size";
-    private static final String KEY_FOD_RECOGNIZING_ANIMATION = "fod_recognizing_animation";
-    private static final String KEY_FOD_RECOGNIZING_ANIMATION_LIST = "fod_recognizing_animation_list";
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
 	
 	static final int MODE_DISABLED = 0;
@@ -101,14 +99,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         mCustomTextClockFontSize.setValue(Settings.System.getInt(getContentResolver(),
                 Settings.System.CUSTOM_TEXT_CLOCK_FONT_SIZE, 40));
         mCustomTextClockFontSize.setOnPreferenceChangeListener(this);
-
-        SystemSettingSwitchPreference mFODSwitchPref = (SystemSettingSwitchPreference) findPreference(KEY_FOD_RECOGNIZING_ANIMATION);
-	SystemSettingListPreference mFODListViewPref = (SystemSettingListPreference) findPreference(KEY_FOD_RECOGNIZING_ANIMATION_LIST);
-
-	if (!resources.getBoolean(R.bool.config_showFODAnimationSettings)){
-	    prefScreen.removePreference(mFODSwitchPref);
-            prefScreen.removePreference(mFODListViewPref);
-	}
 
         mAODPref = findPreference(AOD_SCHEDULE_KEY);
         updateAlwaysOnSummary();

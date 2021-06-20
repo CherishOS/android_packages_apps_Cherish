@@ -25,9 +25,4 @@
 
     <!-- Shortcut picker -->
     <dimen name="shortcut_picker_left_padding">70dip</dimen>
-
-    <!-- FOD icon picker -->
-    <dimen name="fod_picker_item_margin">10dp</dimen>
-    <dimen name="fod_picker_item_size">100dp</dimen>
-    <dimen name="fod_picker_item_padding">20dp</dimen>
 </resources>
