@@ -66,10 +66,4 @@
             android:entryValues="@array/fod_pressed_color_values"
             android:defaultValue="0" />
 
-    	<com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="fod_gesture"
-            android:title="@string/fod_gesture_title"
-            android:summary="@string/fod_gesture_summary"
-            android:defaultValue="false" />
-
 </PreferenceScreen>

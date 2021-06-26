@@ -1136,8 +1136,6 @@
 	<!-- Screen off fod -->
     <string name="lockscreen_fod_category">Fingerprint On Display</string>
     <string name="fod_category_summary">Configure FOD View</string>
-    <string name="fod_gesture_title">Screen off FOD</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 	
 	<!-- FOD animations -->
     <string name="fod_recog_animation">Fingerprint animation</string>

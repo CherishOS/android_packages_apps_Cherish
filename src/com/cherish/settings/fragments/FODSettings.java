@@ -71,14 +71,6 @@ public class FODSettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.fod_settings);
         PreferenceScreen prefScreen = getPreferenceScreen();
-
-       boolean enableScreenOffFOD = getContext().getResources().
-                getBoolean(com.android.internal.R.bool.config_needCustomFODView);
-        Preference ScreenOffFODPref = (Preference) findPreference("fod_gesture");
-
-        if (!enableScreenOffFOD){
-            prefScreen.removePreference(ScreenOffFODPref);
-        }
     }      
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
