@@ -68,13 +68,6 @@
         android:entries="@array/qs_datausage_entries"
         android:entryValues="@array/qs_datausage_values"
         android:defaultValue="0" />
-		
-	<com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_running_services_toggle"
-            android:icon="@drawable/ic_run"
-            android:title="@string/qs_running_services_title"
-            android:summary="@string/qs_running_services_summary"
-            android:defaultValue="false" />
 	</PreferenceCategory>
 
    <com.cherish.settings.preferences.SystemSettingSwitchPreference
