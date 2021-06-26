@@ -38,7 +38,7 @@ import android.os.SystemProperties;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-
+import com.android.internal.util.cherish.FodUtils;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
 import com.cherish.settings.preferences.SecureSettingListPreference;
@@ -78,11 +78,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
-
-        FODSettings = (Preference) findPreference(LOCKSCREEN_FOD_CATEGORY);
-        if (!getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
+		
+		FODSettings = (Preference) findPreference(LOCKSCREEN_FOD_CATEGORY);
+        if (FODSettings != null
+                && !getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
             prefScreen.removePreference(FODSettings);
-		}
+        }
 
         // Lock Clock Size
         mClockFontSize = (CustomSeekBarPreference) findPreference(CLOCK_FONT_SIZE);
