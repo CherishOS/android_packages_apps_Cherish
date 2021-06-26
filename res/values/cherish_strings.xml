@@ -1195,4 +1195,8 @@
     <string name="ambient_pulse_brightness_summary">Set brightness to use when notifcations are shown</string>
     <string name="ambient_doze_brightness_title">Ambient display brightness</string>
     <string name="ambient_doze_brightness_summary">Set brightness to use during ambient display on</string>
+
+	<!-- Notification count -->
+    <string name="status_bar_notif_count_title">Show notifications count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 </resources>
