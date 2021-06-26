@@ -28,6 +28,15 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/dandollar1" />
         </Preference>
+		
+<Preference
+            android:title="@string/cepheus_maintainer"
+            android:summary="@string/device_cepheus"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Freesoul00" />
+        </Preference>
 
 <Preference
             android:title="@string/beryllium_maintainer"
@@ -35,7 +44,7 @@
             android:icon="@drawable/ic_devs_phone">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/bibindasb" />
+                android:data="https://t.me/resist15" />
         </Preference>
 
 <Preference
@@ -57,12 +66,39 @@
         </Preference>
 		
 <Preference
-            android:title="@string/miatoll_maintainer"
-            android:summary="@string/device_miatoll"
+            android:title="@string/excalibur_maintainer"
+            android:summary="@string/device_excalibur"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/mrjarvis698" />
+        </Preference>
+		
+<Preference
+            android:title="@string/joyeuse_maintainer"
+            android:summary="@string/device_joyeuse"
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/GismoBe" />
+        </Preference>
+		
+<Preference
+            android:title="@string/curtana_maintainer"
+            android:summary="@string/device_curtana"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/itsXRP" />
+        </Preference>
+		
+<Preference
+            android:title="@string/gram_maintainer"
+            android:summary="@string/device_gram"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Kuruin" />
         </Preference>
 
 <Preference
@@ -80,7 +116,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/san2k" />
+                android:data="https://t.me/ZiadFekry" />
         </Preference>
 
   <Preference
@@ -108,15 +144,6 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://github.com/hungphan2001" />
-        </Preference>
-
-<Preference
-            android:title="@string/tulip_maintainer"
-            android:summary="@string/device_tulip"
-            android:icon="@drawable/ic_devs_phone" >
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://t.me/jefinhodatnt" />
         </Preference>
   
    <Preference
@@ -180,15 +207,6 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/HemeinSelen" />
-        </Preference>
-
-<Preference
-            android:title="@string/chiron_maintainer"
-            android:summary="@string/device_chiron"
-            android:icon="@drawable/ic_devs_phone" >
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://t.me/iicecreamm" />
         </Preference>
 
 <Preference
