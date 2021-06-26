@@ -320,14 +320,23 @@
 <PreferenceCategory
               android:key="realme_devices"
               android:title="@string/realme_devices" >
-
+			  
 <Preference
-            android:title="@string/RMX1901_maintainer"
-            android:summary="@string/device_RMX1901"
+            android:title="@string/RMX1971_maintainer"
+            android:summary="@string/device_RMX1971"
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/indianrookie69" />
+                android:data="https://t.me/kssrao13882" />
+        </Preference>
+
+<Preference
+            android:title="@string/RMX1941_maintainer"
+            android:summary="@string/device_RMX1941"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/sundramsays" />
         </Preference>
 
 <Preference
@@ -340,12 +349,48 @@
         </Preference>
 		
 <Preference
+            android:title="@string/RMX1911_maintainer"
+            android:summary="@string/device_RMX1911"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/MAdMiZ" />
+        </Preference>
+		
+<Preference
+            android:title="@string/RMX1901_maintainer"
+            android:summary="@string/device_RMX1901"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/indianrookie69" />
+        </Preference>
+		
+<Preference
             android:title="@string/RMX1851_maintainer"
             android:summary="@string/device_RMX1851"
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/Nikhil7001" />
+        </Preference>
+
+<Preference
+            android:title="@string/RMX1805_maintainer"
+            android:summary="@string/device_RMX1805"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/AbhinavVermabest" />
+        </Preference>
+		
+<Preference
+            android:title="@string/RMX1801_maintainer"
+            android:summary="@string/device_RMX1801"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/RMX1801" />
         </Preference>
 </PreferenceCategory>
 
