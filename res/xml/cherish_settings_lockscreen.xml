@@ -247,7 +247,7 @@
         android:summary="@string/lockscreen_visualizer_enable_summary" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_media_art"
+        android:key="lockscreen_media_metadata"
         android:icon="@drawable/ic_media"
         android:title="@string/lockscreen_media_art_title"
         android:summary="@string/lockscreen_media_art_summary"
@@ -260,7 +260,7 @@
             android:summary="%s"
             android:entries="@array/lockscreen_albumart_filter_entries"
             android:entryValues="@array/lockscreen_albumart_filter_values"
-            android:dependency="lockscreen_media_art"
+            android:dependency="lockscreen_media_metadata"
             android:defaultValue="0" />
 
     <Preference
