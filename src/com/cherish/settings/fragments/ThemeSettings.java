@@ -49,6 +49,7 @@ import java.util.Objects;
 
 import com.android.internal.util.cherish.ThemesUtils;
 import com.android.internal.util.cherish.CherishUtils;
+import com.cherish.settings.preferences.SystemSettingListPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 public class ThemeSettings extends SettingsPreferenceFragment implements
@@ -67,7 +68,9 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 	static final int DEFAULT = 0xff1a73e8;
 	private static final String QS_PANEL_COLOR = "qs_panel_color";
-
+	private static final String SWITCH_STYLE = "switch_style";
+	
+    private SystemSettingListPreference mSwitchStyle;
     private ColorPickerPreference mQsPanelColor;
 
     private IOverlayManager mOverlayService;
@@ -90,6 +93,13 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+		
+	mSwitchStyle = (SystemSettingListPreference)findPreference(SWITCH_STYLE);
+        int switchStyle = Settings.System.getInt(resolver,Settings.System.SWITCH_STYLE, 2);
+        int switchIndex = mSwitchStyle.findIndexOfValue(String.valueOf(switchStyle));
+        mSwitchStyle.setValueIndex(switchIndex >= 0 ? switchIndex : 0);
+        mSwitchStyle.setSummary(mSwitchStyle.getEntry());
+        mSwitchStyle.setOnPreferenceChangeListener(this);
 
         mUIStyle = (ListPreference) findPreference(UI_STYLE);
         int UIStyle = Settings.System.getInt(getActivity().getContentResolver(),
@@ -247,6 +257,11 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                     Settings.System.QS_HEADER_STYLE, Integer.valueOf(value));
                 int newIndex = mQsHeaderStyle.findIndexOfValue(value);
                 mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntries()[newIndex]);
+			}else if (preference == mSwitchStyle) {
+            String value = (String) objValue;
+            Settings.System.putInt(resolver, Settings.System.SWITCH_STYLE, Integer.valueOf(value));
+            int valueIndex = mSwitchStyle.findIndexOfValue(value);
+            mSwitchStyle.setSummary(mSwitchStyle.getEntries()[valueIndex]);
         } else if (preference == mQsTileStyle) {
             int qsTileStyleValue = Integer.valueOf((String) objValue);
             Settings.System.putIntForUser(resolver,

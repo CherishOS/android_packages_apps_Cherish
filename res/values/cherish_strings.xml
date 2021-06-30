@@ -848,6 +848,18 @@
     <string name="lockscreen_status_bar_title">Status bar</string>
     <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
 	
+    <!-- Switch Styles -->
+    <string name="switch_style_title">Switch Style</string>
+    <string name="switch_oneplus">OnePlus (default)</string>
+    <string name="switch_narrow">Narrow</string>
+    <string name="switch_contained">Contained</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_oos">OxygenOS 11</string>
+    <string name="switch_fluid">Fluid</string>
+    <string name="switch_android_s">Android S</string>
+
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">QS tile style</string>
     <string name="qstile_default">Default</string>
