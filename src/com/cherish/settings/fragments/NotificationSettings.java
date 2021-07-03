@@ -38,7 +38,10 @@ import java.util.List;
 public class NotificationSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener{
 
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
-	private Preference mChargingLeds;
+	private static final String ALERT_SLIDER_PREF = "alert_slider_notifications";
+
+    private Preference mChargingLeds;
+	private Preference mAlertSlider;
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -47,7 +50,13 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
-		
+	
+		mAlertSlider = (Preference) prefScreen.findPreference(ALERT_SLIDER_PREF);
+        boolean mAlertSliderAvailable = res.getBoolean(
+                com.android.internal.R.bool.config_hasAlertSlider);
+        if (!mAlertSliderAvailable)
+            prefScreen.removePreference(mAlertSlider);
+
         mChargingLeds = (Preference) findPreference("charging_light");
         if (mChargingLeds != null
                 && !getResources().getBoolean(
@@ -94,6 +103,10 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
                     final Resources res = context.getResources();
+                    boolean mAlertSliderAvailable = res.getBoolean(
+                            com.android.internal.R.bool.config_hasAlertSlider);
+                    if (!mAlertSliderAvailable)
+                        keys.add(ALERT_SLIDER_PREF);
                     return keys;
                 }
     };

@@ -371,7 +371,7 @@
     <string name="hardware_keys_disable_title">Disable hardware buttons</string>
     <string name="hardware_keys_disable_summary">Use the device hardware keys for navigation</string>
     <string name="hardware_keys_volume_keys_title">Volume rocker</string>
-	
+
 	<!-- Hardware button navigation -->
     <string name="action_value_default_action" translatable="false">default</string>
     <string name="action_value_select_app" translatable="false">app</string>
@@ -440,4 +440,8 @@
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
     <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
+	
+	<!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Alert slider notifications</string>
+    <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
 </resources>
