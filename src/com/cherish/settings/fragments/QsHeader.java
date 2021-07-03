@@ -17,6 +17,7 @@ package com.cherish.settings.fragments;
 
 import android.app.Activity;
 import android.content.ContentResolver;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -33,6 +34,9 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.cherish.settings.preferences.CustomSeekBarPreference;
 import com.cherish.settings.preferences.SystemSettingSwitchPreference;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
+import android.provider.SearchIndexableResource;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -40,6 +44,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class QsHeader extends SettingsPreferenceFragment 
              implements Preference.OnPreferenceChangeListener{
 
@@ -224,4 +229,29 @@ public class QsHeader extends SettingsPreferenceFragment
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CHERISH_SETTINGS;
     }
+	
+	/**
+     * For Search.
+     */
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.qs_header;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }

@@ -42,7 +42,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
-
+import android.provider.SearchIndexableResource;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Objects;
@@ -52,6 +52,7 @@ import com.android.internal.util.cherish.CherishUtils;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class ThemeSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
     private static final String BRIGHTNESS_SLIDER_STYLE = "brightness_slider_style";
@@ -370,4 +371,29 @@ private int getOverlayPosition(String[] overlays) {
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CHERISH_SETTINGS;
     }
+	
+	/**
+     * For Search.
+     */
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.cherish_settings_theme;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }

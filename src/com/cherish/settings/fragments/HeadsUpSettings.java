@@ -18,6 +18,7 @@ package com.cherish.settings.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -42,11 +43,16 @@ import com.cherish.settings.preferences.PackageListAdapter;
 import com.cherish.settings.preferences.PackageListAdapter.PackageItem;
 import android.provider.Settings;
 
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
+import android.provider.SearchIndexableResource;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class HeadsUpSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceClickListener {
 
@@ -340,6 +346,31 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
         Settings.System.putString(getContentResolver(),
                 setting, value);
     }
+	
+	/**
+     * For Search.
+     */
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.heads_up_settings;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }
 
 

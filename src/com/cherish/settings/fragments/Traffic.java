@@ -36,7 +36,13 @@ import android.view.WindowManagerGlobal;
 import android.view.IWindowManager;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
+import android.provider.SearchIndexableResource;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
@@ -50,6 +56,7 @@ import com.cherish.settings.preferences.CustomSeekBarPreference;
 import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String NETWORK_TRAFFIC_FONT_SIZE  = "network_traffic_font_size";
@@ -196,4 +203,29 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
                 break;
         }
     }
+	
+	/**
+     * For Search.
+     */
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.traffic;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }
