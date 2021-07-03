@@ -82,6 +82,13 @@
         android:title="@string/notification_headers_title"
         android:summary="@string/notification_headers_summary"
         android:defaultValue="true" />
+		
+	<!-- Alert Slider Notifications -->
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="alert_slider_notifications"
+        android:title="@string/alert_slider_notifications_title"
+        android:summary="@string/alert_slider_notifications_summary"
+        android:defaultValue="true" />
 
     <Preference
         android:key="notification_light"
