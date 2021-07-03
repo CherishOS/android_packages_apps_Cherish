@@ -1027,19 +1027,6 @@
     <string name="flashlight_on_call_dnd">Only in DND mode</string>
     <string name="flashlight_on_call_always">Always</string>
 
-    <!-- Keygaurd battery bar & color modes -->
-    <string name="keyguard_show_battery_title">Battery bar</string>
-    <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
-    <string name="keyguard_show_battery_always_title">Always show battery bar</string>
-    <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
-    <string name="keygaurd_battery_bar_color_title">Color</string>
-    <string name="on_aod_title">AOD</string>
-    <string name="keyguard_battery_bar_color_modes_title">Color mode</string>
-    <string name="keyguard_battery_bar_color_gradient">Gradient</string>
-    <string name="keyguard_battery_bar_color_accent">Accent</string>
-    <string name="keyguard_battery_bar_color_random">Random</string>
-    <string name="keyguard_battery_bar_color_custom">Custom</string>
-
     <!-- Volume panel extras -->
     <string name="volume_panel_tint_title">Tint the active volume bar</string>
     <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
