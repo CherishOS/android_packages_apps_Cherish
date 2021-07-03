@@ -212,4 +212,8 @@
     <string name="ambient_display_category">Ambient display</string>
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
+	
+	<!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Alert slider notifications</string>
+    <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
 </resources>

@@ -23,6 +23,14 @@
         android:key="heads_up_notifications"
         android:title="@string/heads_up_notifications"
         android:fragment="com.cherish.settings.fragments.HeadsUpSettings" />
+			
+		<!-- Alert Slider Notifications -->
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="alert_slider_notifications"
+        android:title="@string/alert_slider_notifications_title"
+        android:summary="@string/alert_slider_notifications_summary"
+        android:defaultValue="true" />
+
 	
 	<PreferenceCategory
         android:key="incall_vib_options"
