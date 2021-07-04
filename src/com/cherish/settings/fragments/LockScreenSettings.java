@@ -39,6 +39,7 @@ import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.util.cherish.FodUtils;
+import com.android.internal.util.cherish.CherishUtils;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
 import com.cherish.settings.preferences.SecureSettingListPreference;
@@ -61,7 +62,8 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String DATE_FONT_SIZE  = "lockdate_font_size";
     private static final String LOCKOWNER_FONT_SIZE = "lockowner_font_size";
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
-    private static final String LOCKSCREEN_FOD_CATEGORY = "lockscreen_fod_category";
+    private static final String FOD_ANIMATION_CATEGORY = "fod_animations";
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
     private ContentResolver mResolver;
     private Preference FODSettings;
 	
@@ -75,6 +77,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mDateFontSize;
     private CustomSeekBarPreference mOwnerInfoFontSize;
 	private CustomSeekBarPreference mCustomTextClockFontSize;
+    private PreferenceCategory mFODIconPickerCategory;
     private Preference mAODPref;
 
     @Override
@@ -83,13 +86,20 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.cherish_settings_lockscreen);
 
         ContentResolver resolver = getActivity().getContentResolver();
-        final PreferenceScreen prefScreen = getPreferenceScreen();
+        PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
 		
-		FODSettings = (Preference) findPreference(LOCKSCREEN_FOD_CATEGORY);
-        if (FODSettings != null
-                && !getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
-            prefScreen.removePreference(FODSettings);
+	mFODIconPickerCategory = findPreference(FOD_ICON_PICKER_CATEGORY);
+        if (mFODIconPickerCategory != null && !FodUtils.hasFodSupport(getContext())) {
+            prefScreen.removePreference(mFODIconPickerCategory);
+        }
+        
+        final PreferenceCategory fodCat = (PreferenceCategory) prefScreen
+                .findPreference(FOD_ANIMATION_CATEGORY);
+        final boolean isFodAnimationResources = CherishUtils.isPackageInstalled(getContext(),
+                      getResources().getString(com.android.internal.R.string.config_fodAnimationPackage));
+        if (!isFodAnimationResources) {
+            prefScreen.removePreference(fodCat);
         }
 
         // Lock Clock Size
@@ -197,6 +207,9 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
+                     if (!FodUtils.hasFodSupport(context)) {
+                        keys.add(FOD_ICON_PICKER_CATEGORY);
+                    }
                     return keys;
                 }
     };

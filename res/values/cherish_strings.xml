@@ -1132,8 +1132,11 @@
     <string name="oos_qsclock">Qs clock</string>
     <string name="oos_qsclock_summary">Display an oos like clock on qs</string>
 	
-	<!-- Screen off fod -->
-    <string name="lockscreen_fod_category">Fingerprint On Display</string>
+	<!-- FOD Icon Picker -->
+    <string name="fod_icon_picker_category_title">FOD settings</string>
+
+    <!-- FOD animations -->
+    <string name="fod_recog_animation_category">FOD animation</string>
     <string name="fod_category_summary">Configure FOD View</string>
 	
 	<!-- FOD animations -->
