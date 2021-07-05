@@ -246,13 +246,6 @@
         android:key="visualizer"
         android:title="@string/visualizer_title">
 
-    <Preference
-        android:key="lockscreen_visualizer"
-        android:fragment="com.cherish.settings.fragments.Visualizer"
-        android:icon="@drawable/ic_visualizer"
-        android:title="@string/lockscreen_visualizer_enable"
-        android:summary="@string/lockscreen_visualizer_enable_summary" />
-
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_media_art"
         android:icon="@drawable/ic_media"
