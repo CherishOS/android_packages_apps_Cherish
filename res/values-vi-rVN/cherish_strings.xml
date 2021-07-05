@@ -1090,20 +1090,20 @@
     <string name="qs_clock_color_title">Màu Qs đồng hồ</string>
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Trình chặn Wakelock</string>
-    <string name="wakelock_blocker_summary">Block system wakelocks</string>
+    <string name="wakelock_blocker_summary">Chặn hệ thống wakelocks</string>
     <string name="wakelock_blocker_save">Lưu</string>
-    <string name="wakelock_list_header">Available wakelocks</string>
-    <string name="wakelock_blocker_reload">Reload</string>
-    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
-    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+    <string name="wakelock_list_header">Wakelock có sẵn</string>
+    <string name="wakelock_blocker_reload">Tải lại</string>
+    <string name="wakelock_blocker_warning_title">Cẩn trọng khi tiến hành</string>
+    <string name="wakelock_blocker_warning">Chặn các wakelock có khả năng gây mất ổn định, dừng đột ngột hoặc mất dữ liệu</string>
     <!-- Alarm blocker -->
-    <string name="alarm_blocker">Alarm blocker</string>
+    <string name="alarm_blocker">Chặn báo thức</string>
     <string name="alarm_blocker_title">Bật</string>
-    <string name="alarm_blocker_summary">Block alarms while screen off</string>
+    <string name="alarm_blocker_summary">Chặn báo thức khi màn hình tắt</string>
     <string name="alarm_blocker_save">Lưu</string>
-    <string name="alarm_list_header">Available alarms</string>
-    <string name="alarm_blocker_reload">Reload</string>
-    <string name="alarm_blocker_warning_title">Proceed with caution</string>
+    <string name="alarm_list_header">Báo thức có sẵn</string>
+    <string name="alarm_blocker_reload">Tải lại</string>
+    <string name="alarm_blocker_warning_title">Cẩn trọng khi tiến hành</string>
     <string name="alarm_blocker_warning">Chặn các báo thức có khả năng gây mất ổn định, dừng đột ngột hoặc mất dữ liệu.</string>
     <!-- Navbar Picker -->
     <string name="theme_navbar_picker_title">Kiểu điều hướng (dành cho điều hướng 3 nút)</string>
