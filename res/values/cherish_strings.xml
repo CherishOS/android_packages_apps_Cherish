@@ -1112,9 +1112,6 @@
     <string name="corner_fwvals">Use framework values</string>
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
 	
-	<!-- Power menu background opacity -->
-    <string name="power_menu_alpha_title">Power menu opacity</string>
-	
 	<!-- Status bar - Battery custom charging symbol -->
     <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
     <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
