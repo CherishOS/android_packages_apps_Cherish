@@ -1287,4 +1287,6 @@
 	<string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">Statusbar</string>
     <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
+    <string name="status_bar_weather_color_title">Temperature color</string>
+    <string name="status_bar_weather_size_title">Font size</string>
 </resources>
