@@ -1118,4 +1118,21 @@
     <string name="theme_navbar_picker_nexus">Nexus</string>
     <string name="theme_navbar_picker_old">Cũ</string>
     <string name="theme_navbar_picker_sammy">Samsung</string>
+    <!-- Lockscreen blur -->
+    <string name="lockscreen_blur_title">Background blur</string>
+    <string name="lockscreen_blur_disabled">Lock screen Blur cannot be enabled because your current lock screen wallpaper does not match your home screen one, or your device does not support Blur at all.</string>
+    <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_title">Status bar weather</string>
+    <string name="statusbar_weather_summary">Configure from QS settings/Weather.</string>
+    <string name="statusbar_weather_dialog_title">Status bar weather style</string>
+    <string name="status_bar_weather_hidden">Hidde weather</string>
+    <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
+    <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
+    <string name="status_bar_weather_location_title">Vị trí</string>
+    <string name="status_bar_show_image">Show image</string>
+    <string name="network_traffic_location_disable">Tắt</string>
+    <string name="network_traffic_location_statusbar">Thanh trạng thái</string>
+    <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
 </resources>
