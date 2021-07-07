@@ -495,6 +495,7 @@
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Tiled</string>
     <string name="volume_panel_miui">MIUI</string>
+    <string name="volume_panel_p404">P404</string>
     <!--  Volume Panel Plugin Values   -->
     <string name="volume_panel_stock_val">com.android.systemui.volume</string>
     <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
@@ -502,6 +503,7 @@
     <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
     <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+    <string name="volume_panel_p404_val">co.potatoproject.plugin.volume.p404</string>
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Clock Settings</string>
     <string name="clock_style_category_summary">Statusbar Clock Tuner</string>
@@ -1135,4 +1137,6 @@
     <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">Statusleiste</string>
     <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
+    <string name="status_bar_weather_color_title">Temperature color</string>
+    <string name="status_bar_weather_size_title">Font size</string>
 </resources>
