@@ -1137,6 +1137,6 @@
     <string name="network_traffic_location_disable">Tắt</string>
     <string name="network_traffic_location_statusbar">Thanh trạng thái</string>
     <string name="network_traffic_location_quick_statusbar">Thanh trạng thái nhanh</string>
-    <string name="status_bar_weather_color_title">Temperature color</string>
-    <string name="status_bar_weather_size_title">Font size</string>
+    <string name="status_bar_weather_color_title">Màu nhiệt độ</string>
+    <string name="status_bar_weather_size_title">Cỡ chữ</string>
 </resources>
