@@ -1289,4 +1289,8 @@
     <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
     <string name="status_bar_weather_color_title">Temperature color</string>
     <string name="status_bar_weather_size_title">Font size</string>
+	
+	<!-- Hide SB On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
+    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
 </resources>
