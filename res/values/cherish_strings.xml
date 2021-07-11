@@ -1305,4 +1305,13 @@
 	
 	<string name="qs_footer_datausage_title">Data usage</string>
     <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+	
+	<!-- Clock header -->
+    <string name="clock_header_title">QS Clock</string>
+    <string name="qs_clock_location_title">Qs clock location</string>
+    <string name="qs_clock_location_summary">Show clock in QS Panel</string>
+    <string name="cherish_clock_gravity_title">Clock position</string>
+    <string name="left_clock">Left</string>
+    <string name="center_clock">Center</string>
+    <string name="right_clock">Right</string>
 </resources>
