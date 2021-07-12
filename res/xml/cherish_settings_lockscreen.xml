@@ -76,13 +76,6 @@
             settings:interval="5"
             android:defaultValue="0" />
 
-   <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_status_bar"
-            android:icon="@drawable/ic_lock_outline"
-            android:title="@string/lockscreen_status_bar_title"
-            android:summary="@string/lockscreen_status_bar_summary"
-            android:defaultValue="true" />
-
     <!-- Lock screen -->
     <PreferenceCategory
         android:title="Lock Clock"/>
