@@ -717,6 +717,8 @@
         <item>@string/brightness_slider_style_memeroundgradient</item>
         <item>@string/brightness_slider_style_memeroundstrokegradient</item>
         <item>@string/brightness_slider_style_memestrokegradient</item>
+		<item>@string/brightness_slider_style_minihalf</item>
+		<item>@string/brightness_slider_style_half</item>
         <item>@string/brightness_slider_style_oos</item>
         <item>@string/brightness_slider_style_a12</item>
     </string-array>
@@ -735,6 +737,8 @@
         <item>10</item>
         <item>11</item>
         <item>12</item>
+		<item>13</item>
+		<item>14</item>
     </string-array>
 
     <!-- Notification Background styles -->

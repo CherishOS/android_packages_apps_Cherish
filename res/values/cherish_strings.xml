@@ -810,6 +810,8 @@
     <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
     <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
     <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
+	<string name="brightness_slider_style_minihalf">Mini half</string>
+	<string name="brightness_slider_style_half">Half</string>
     <string name="brightness_slider_style_oos">OOS style</string>
     <string name="brightness_slider_style_a12">A12 style</string>
 
