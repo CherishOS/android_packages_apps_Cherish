@@ -268,16 +268,6 @@
         android:title="@string/lockscreen_media_art_title"
         android:summary="@string/lockscreen_media_art_summary"
         android:defaultValue="true" />
-		
-	<com.cherish.settings.preferences.SystemSettingListPreference
-            android:key="lockscreen_albumart_filter"
-            android:icon="@drawable/ic_media_art"
-            android:title="@string/lockscreen_albumart_filter_title"
-            android:summary="%s"
-            android:entries="@array/lockscreen_albumart_filter_entries"
-            android:entryValues="@array/lockscreen_albumart_filter_values"
-            android:dependency="lockscreen_media_art"
-            android:defaultValue="0" />
   </PreferenceCategory>
 
   <!-- FOD-->
