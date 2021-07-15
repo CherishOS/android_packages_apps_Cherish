@@ -718,6 +718,7 @@
         <item>@string/brightness_slider_style_memeroundstrokegradient</item>
         <item>@string/brightness_slider_style_memestrokegradient</item>
         <item>@string/brightness_slider_style_oos</item>
+        <item>@string/brightness_slider_style_a12</item>
     </string-array>
 
     <string-array name="brightness_slider_style_selector_values" translatable="false">
@@ -733,6 +734,7 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
+        <item>12</item>
     </string-array>
 
     <!-- Notification Background styles -->
