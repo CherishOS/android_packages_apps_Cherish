@@ -16,8 +16,6 @@ import android.os.UserHandle;
 import android.os.Bundle;
 import android.os.SystemProperties;
 import android.os.ServiceManager;
-import android.os.RemoteException;
-import android.os.ServiceManager;
 import android.content.om.IOverlayManager;
 import android.content.om.OverlayInfo;
 import android.os.RemoteException;
@@ -73,7 +71,6 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 	static final int DEFAULT = 0xff1a73e8;
 	private static final String QS_PANEL_COLOR = "qs_panel_color";
 	private static final String SWITCH_STYLE = "switch_style";
-    private static final String PREF_NAVBAR_STYLE = "theme_navbar_style";
 	
     private SystemSettingListPreference mSwitchStyle;
     private ColorPickerPreference mQsPanelColor;
@@ -90,7 +87,6 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private ListPreference mQsHeaderStyle;
     private ListPreference mQsTileStyle;
 	private ListPreference mGesbar;
-     private ListPreference mNavbarPicker;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -107,16 +103,6 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         mSwitchStyle.setValueIndex(switchIndex >= 0 ? switchIndex : 0);
         mSwitchStyle.setSummary(mSwitchStyle.getEntry());
         mSwitchStyle.setOnPreferenceChangeListener(this);
-
-        mNavbarPicker = (ListPreference) findPreference(PREF_NAVBAR_STYLE);
-        int navbarStyleValues = getOverlayPosition(ThemesUtils.NAVBAR_STYLES);
-        if (navbarStyleValues != -1) {
-            mNavbarPicker.setValue(String.valueOf(navbarStyleValues + 2));
-        } else {
-            mNavbarPicker.setValue("1");
-        }
-        mNavbarPicker.setSummary(mNavbarPicker.getEntry());
-        mNavbarPicker.setOnPreferenceChangeListener(this);
 
         mUIStyle = (ListPreference) findPreference(UI_STYLE);
         int UIStyle = Settings.System.getInt(getActivity().getContentResolver(),
@@ -280,19 +266,6 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(resolver, Settings.System.SWITCH_STYLE, Integer.valueOf(value));
             int valueIndex = mSwitchStyle.findIndexOfValue(value);
             mSwitchStyle.setSummary(mSwitchStyle.getEntries()[valueIndex]);
-        } else if (preference == mNavbarPicker) {
-            String navbarStyle = (String) objValue;
-            int navbarStyleValue = Integer.parseInt(navbarStyle);
-            mNavbarPicker.setValue(String.valueOf(navbarStyleValue));
-            String overlayName = getOverlayName(ThemesUtils.NAVBAR_STYLES);
-                if (overlayName != null) {
-                    handleOverlays(overlayName, false, mOverlayService);
-                }
-                if (navbarStyleValue > 1) {
-                    handleOverlays(ThemesUtils.NAVBAR_STYLES[navbarStyleValue - 2],
-                            true, mOverlayService);
-            }
-            mNavbarPicker.setSummary(mNavbarPicker.getEntry());
         } else if (preference == mSystemSliderStyle) {
             String slider_style = (String) objValue;
             final Context context = getContext();

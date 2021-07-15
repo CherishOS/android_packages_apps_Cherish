@@ -1252,20 +1252,6 @@
     <string name="alarm_blocker_reload">Reload</string>
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
-	
-	<!-- Navbar Picker -->
-    <string name="theme_navbar_picker_title">Navbar style (for 3-button nav)</string>
-    <string name="theme_navbar_picker_summary">Select navbar style</string>
-    <string name="theme_navbar_picker_default">Default</string>
-    <string name="theme_navbar_picker_oneplus">OnePlus</string>
-    <string name="theme_navbar_picker_oneui">One UI</string>
-    <string name="theme_navbar_picker_tecno">Tecno Camon</string>
-    <string name="theme_navbar_picker_asus">ASUS</string>
-    <string name="theme_navbar_picker_android">Android</string>
-    <string name="theme_navbar_picker_moto">Moto</string>
-    <string name="theme_navbar_picker_nexus">Nexus</string>
-    <string name="theme_navbar_picker_old">Old</string>
-    <string name="theme_navbar_picker_sammy">Samsung</string>
     
     <!-- Lockscreen blur -->
     <string name="lockscreen_blur_title">Background blur</string>
