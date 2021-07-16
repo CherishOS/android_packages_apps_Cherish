@@ -422,7 +422,7 @@
     <string name="power_menu_animation_summary">Alterar a animação de entrar/sair do menu de energia</string>
     <string name="power_menu_animation_dialog_title">Selecione a animação do menu de energia</string>
     <string name="power_menu_animation_aosp">AOSP (padrão)</string>
-    <string name="power_menu_animation_bottom">Botão</string>
+    <string name="power_menu_animation_bottom">Margem Inferior</string>
     <string name="power_menu_animation_top">Topo</string>
     <string name="power_menu_animation_xylon">Voar</string>
     <string name="power_menu_animation_slide">Deslizar</string>
@@ -485,6 +485,11 @@
     <string name="lockscreen_charging_animation_phone">Telefone</string>
     <string name="lockscreen_charging_animation_stack">Stack</string>
     <string name="lockscreen_charging_animation_wavy">Ondulado suave</string>
+    <string name="lockscreen_charging_animation_split">Split Loading</string>
+    <string name="lockscreen_charging_animation_yellow">Yellow Animation</string>
+    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_wash">Wash Your Hand</string>
+    <string name="lockscreen_charging_animation_wear">Wear Your Mask</string>
     <string name="click_partial_screenshot_title">Clique para captura parcial de tela</string>
     <string name="click_partial_screenshot_summary">Clique rapidamente e ao mesmo tempo o botão para diminuir o volume e o botão para desligar para capturar parcialmente a tela</string>
     <!--  Volume Panel Plugin   -->
@@ -496,6 +501,7 @@
     <string name="volume_panel_tiled">Blocos</string>
     <string name="volume_panel_miui">MIUI</string>
     <string name="volume_panel_p404">P404</string>
+    <string name="volume_panel_ssos">ShapeShift</string>
     <!--  Volume Panel Plugin Values   -->
     <string name="volume_panel_stock_val">volume</string>
     <string name="volume_panel_aosp_val">volume Aosp</string>
@@ -504,6 +510,7 @@
     <string name="volume_panel_oreo_val">volume oreo</string>
     <string name="volume_panel_tiled_val">volume lado</string>
     <string name="volume_panel_p404_val">co.potatoproject.plugin.volume.p404</string>
+    <string name="volume_panel_ssos_val">co.potatoproject.plugin.volume.ssos</string>
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Configurações do relógio</string>
     <string name="clock_style_category_summary">Ajuste do relógio na barra de status</string>
@@ -706,7 +713,10 @@
     <string name="brightness_slider_style_memeroundgradient">Meme mini (gradiente)</string>
     <string name="brightness_slider_style_memeroundstrokegradient">Meme mini arrendondado (gradiente)</string>
     <string name="brightness_slider_style_memestrokegradient">Meme mini (gradiente)</string>
+    <string name="brightness_slider_style_minihalf">Mini half</string>
+    <string name="brightness_slider_style_half">Half</string>
     <string name="brightness_slider_style_oos">Estilo OOS</string>
+    <string name="brightness_slider_style_a12">A12 style</string>
     <!-- GUI styles -->
     <string name="ui_style_title">Estilo da interface</string>
     <string name="ui_style_default">Padrão</string>
@@ -741,9 +751,6 @@
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">Permitir falsificação de assinatura</string>
     <string name="allow_signature_fake_summary">Permitir que aplicativos ignorem sistemas de segurança fingindo ser um aplicativo diferente.</string>
-    <!-- Show Statusbar on Lockscreen -->
-    <string name="lockscreen_status_bar_title">Barra de status</string>
-    <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
     <!-- Switch Styles -->
     <string name="switch_style_title">Switch Style</string>
     <string name="switch_oneplus">OnePlus (default)</string>
@@ -933,13 +940,6 @@
     <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
     <string name="header_icons_style">Colored Header Icons</string>
     <string name="header_icons_style_summary">Choose the style of your notification headers icons (requires SystemUI restart)</string>
-    <!-- Lockscreen album art filter -->
-    <string name="lockscreen_albumart_filter_title">Media cover art filter</string>
-    <string name="lockscreen_albumart_filter_none">Nenhum</string>
-    <string name="lockscreen_albumart_filter_grayscale">Grayscale</string>
-    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
-    <string name="lockscreen_albumart_filter_blur">Blur</string>
-    <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
     <!-- Units -->
     <string name="unit_seconds">seconds</string>
     <string name="unit_milliseconds">milliseconds</string>
@@ -1107,19 +1107,6 @@
     <string name="alarm_blocker_reload">Reload</string>
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
-    <!-- Navbar Picker -->
-    <string name="theme_navbar_picker_title">Navbar style (for 3-button nav)</string>
-    <string name="theme_navbar_picker_summary">Select navbar style</string>
-    <string name="theme_navbar_picker_default">Padrão</string>
-    <string name="theme_navbar_picker_oneplus">OnePlus</string>
-    <string name="theme_navbar_picker_oneui">One UI</string>
-    <string name="theme_navbar_picker_tecno">Tecno Camon</string>
-    <string name="theme_navbar_picker_asus">ASUS</string>
-    <string name="theme_navbar_picker_android">Android</string>
-    <string name="theme_navbar_picker_moto">Moto</string>
-    <string name="theme_navbar_picker_nexus">Nexus</string>
-    <string name="theme_navbar_picker_old">Old</string>
-    <string name="theme_navbar_picker_sammy">Samsung</string>
     <!-- Lockscreen blur -->
     <string name="lockscreen_blur_title">Background blur</string>
     <string name="lockscreen_blur_disabled">Lock screen Blur cannot be enabled because your current lock screen wallpaper does not match your home screen one, or your device does not support Blur at all.</string>
@@ -1139,4 +1126,15 @@
     <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
     <string name="status_bar_weather_color_title">Temperature color</string>
     <string name="status_bar_weather_size_title">Font size</string>
+    <!-- Hide SB On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
+    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+    <!-- System-wide Slider Styles -->
+    <string name="system_slider_style_title">System Slider styles</string>
+    <string name="system_slider_style_default">Padrão</string>
+    <string name="system_slider_style_daniel">Daniel</string>
+    <string name="system_slider_style_mememini">Meme mini</string>
+    <string name="system_slider_style_memeround">Meme arredondado</string>
+    <string name="system_slider_style_memeroundstroke">Meme arredondado traçado</string>
+    <string name="system_slider_style_memestroke">Meme traçado</string>
 </resources>
