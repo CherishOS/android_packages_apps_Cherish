@@ -485,6 +485,11 @@
     <string name="lockscreen_charging_animation_phone">電話</string>
     <string name="lockscreen_charging_animation_stack">スタック</string>
     <string name="lockscreen_charging_animation_wavy">波</string>
+    <string name="lockscreen_charging_animation_split">Split Loading</string>
+    <string name="lockscreen_charging_animation_yellow">Yellow Animation</string>
+    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_wash">Wash Your Hand</string>
+    <string name="lockscreen_charging_animation_wear">Wear Your Mask</string>
     <string name="click_partial_screenshot_title">クリックして部分スクリーンショット</string>
     <string name="click_partial_screenshot_summary">音量ダウンと電源ボタンを短くクリックして部分スクリーンショットを取得する</string>
     <!--  Volume Panel Plugin   -->
@@ -496,6 +501,7 @@
     <string name="volume_panel_tiled">並べて表示</string>
     <string name="volume_panel_miui">MIUI</string>
     <string name="volume_panel_p404">P404</string>
+    <string name="volume_panel_ssos">ShapeShift</string>
     <!--  Volume Panel Plugin Values   -->
     <string name="volume_panel_stock_val">com.android.systemui.volume</string>
     <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
@@ -504,6 +510,7 @@
     <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
     <string name="volume_panel_p404_val">co.potatoproject.plugin.volume.p404</string>
+    <string name="volume_panel_ssos_val">co.potatoproject.plugin.volume.ssos</string>
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">時計の設定</string>
     <string name="clock_style_category_summary">ステータスバーの時計チューナー</string>
@@ -706,7 +713,10 @@
     <string name="brightness_slider_style_memeroundgradient">Meme round (グラデーション)</string>
     <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (グラデーション)</string>
     <string name="brightness_slider_style_memestrokegradient">Meme stroke (グラデーション)</string>
+    <string name="brightness_slider_style_minihalf">Mini half</string>
+    <string name="brightness_slider_style_half">Half</string>
     <string name="brightness_slider_style_oos">OOS スタイル</string>
+    <string name="brightness_slider_style_a12">A12 style</string>
     <!-- GUI styles -->
     <string name="ui_style_title">UI のスタイル</string>
     <string name="ui_style_default">既定</string>
@@ -741,9 +751,6 @@
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">署名の偽装を許可</string>
     <string name="allow_signature_fake_summary">アプリが別のアプリになりすましてセキュリティシステムを通過できるようにする</string>
-    <!-- Show Statusbar on Lockscreen -->
-    <string name="lockscreen_status_bar_title">ステータスバー</string>
-    <string name="lockscreen_status_bar_summary">ロック画面でステータスバーを表示する</string>
     <!-- Switch Styles -->
     <string name="switch_style_title">スタイルの変更</string>
     <string name="switch_oneplus">OnePlus (既定)</string>
@@ -933,13 +940,6 @@
     <string name="statusbar_icons_style_summary">ステータスバーのスタイルを選択する (システム UI の再起動が必要です)</string>
     <string name="header_icons_style">ヘッダーアイコンの色</string>
     <string name="header_icons_style_summary">通知ヘッダーのスタイルを選択する (システム UI の再起動が必要です)</string>
-    <!-- Lockscreen album art filter -->
-    <string name="lockscreen_albumart_filter_title">メディアカバーアートのフィルター</string>
-    <string name="lockscreen_albumart_filter_none">なし</string>
-    <string name="lockscreen_albumart_filter_grayscale">グレースケール</string>
-    <string name="lockscreen_albumart_filter_tint">アクセントの色</string>
-    <string name="lockscreen_albumart_filter_blur">ぼかし</string>
-    <string name="lockscreen_albumart_filter_grayblur">グレースケールとぼかし</string>
     <!-- Units -->
     <string name="unit_seconds">秒</string>
     <string name="unit_milliseconds">ミリ秒</string>
@@ -1107,19 +1107,6 @@
     <string name="alarm_blocker_reload">再読み込み</string>
     <string name="alarm_blocker_warning_title">注意して進めて下さい</string>
     <string name="alarm_blocker_warning">Alarm のブロックは端末を不安定にしたり、クラッシュやデータの損失などを起こす可能性があります。</string>
-    <!-- Navbar Picker -->
-    <string name="theme_navbar_picker_title">ナビゲーションバーのスタイル (3ボタン用)</string>
-    <string name="theme_navbar_picker_summary">ナビゲーションバーのスタイルを選択する</string>
-    <string name="theme_navbar_picker_default">既定</string>
-    <string name="theme_navbar_picker_oneplus">OnePlus</string>
-    <string name="theme_navbar_picker_oneui">One UI</string>
-    <string name="theme_navbar_picker_tecno">Tecno Camon</string>
-    <string name="theme_navbar_picker_asus">ASUS</string>
-    <string name="theme_navbar_picker_android">Android</string>
-    <string name="theme_navbar_picker_moto">Moto</string>
-    <string name="theme_navbar_picker_nexus">Nexus</string>
-    <string name="theme_navbar_picker_old">旧式</string>
-    <string name="theme_navbar_picker_sammy">Samsung</string>
     <!-- Lockscreen blur -->
     <string name="lockscreen_blur_title">背景のぼかし</string>
     <string name="lockscreen_blur_disabled">現在のロック画面の壁紙がホーム画面の壁紙と一致しないためか、お使いの端末がぼかしに完全に対応していないため、ロック画面のぼかしを有効化できません。</string>
@@ -1139,4 +1126,15 @@
     <string name="network_traffic_location_quick_statusbar">クイックステータスバー</string>
     <string name="status_bar_weather_color_title">温度の色</string>
     <string name="status_bar_weather_size_title">フォントサイズ</string>
+    <!-- Hide SB On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
+    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+    <!-- System-wide Slider Styles -->
+    <string name="system_slider_style_title">System Slider styles</string>
+    <string name="system_slider_style_default">既定</string>
+    <string name="system_slider_style_daniel">Daniel</string>
+    <string name="system_slider_style_mememini">Meme mini</string>
+    <string name="system_slider_style_memeround">Meme round</string>
+    <string name="system_slider_style_memeroundstroke">Meme round stroke</string>
+    <string name="system_slider_style_memestroke">Meme stroke</string>
 </resources>
