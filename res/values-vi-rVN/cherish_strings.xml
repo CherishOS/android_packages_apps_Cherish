@@ -485,6 +485,11 @@
     <string name="lockscreen_charging_animation_phone">Điện thoại</string>
     <string name="lockscreen_charging_animation_stack">Chồng xếp</string>
     <string name="lockscreen_charging_animation_wavy">Dợn sóng</string>
+    <string name="lockscreen_charging_animation_split">Split Loading</string>
+    <string name="lockscreen_charging_animation_yellow">Yellow Animation</string>
+    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_wash">Wash Your Hand</string>
+    <string name="lockscreen_charging_animation_wear">Wear Your Mask</string>
     <string name="click_partial_screenshot_title">Nhấn chụp một phần ảnh chụp màn hình</string>
     <string name="click_partial_screenshot_summary">Nhấp nhanh vào Giảm âm lượng và Nguồn để chụp một phần ảnh chụp màn hình</string>
     <!--  Volume Panel Plugin   -->
@@ -496,6 +501,7 @@
     <string name="volume_panel_tiled">Ô xếp</string>
     <string name="volume_panel_miui">MIUI</string>
     <string name="volume_panel_p404">P404</string>
+    <string name="volume_panel_ssos">ShapeShift</string>
     <!--  Volume Panel Plugin Values   -->
     <string name="volume_panel_stock_val">com.android.systemui.volume</string>
     <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
@@ -504,6 +510,7 @@
     <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
     <string name="volume_panel_p404_val">co.potatoproject.plugin.volume.p404</string>
+    <string name="volume_panel_ssos_val">co.potatoproject.plugin.volume.ssos</string>
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Cài đặt đồng hồ</string>
     <string name="clock_style_category_summary">Bộ điều chỉnh đồng hồ thanh trạng thái</string>
@@ -706,7 +713,10 @@
     <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
     <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
     <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
+    <string name="brightness_slider_style_minihalf">Mini half</string>
+    <string name="brightness_slider_style_half">Half</string>
     <string name="brightness_slider_style_oos">Kiểu OOS</string>
+    <string name="brightness_slider_style_a12">A12 style</string>
     <!-- GUI styles -->
     <string name="ui_style_title">Kiểu giao diện</string>
     <string name="ui_style_default">Mặc định</string>
@@ -741,9 +751,6 @@
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">Cho phép giả mạo chữ ký</string>
     <string name="allow_signature_fake_summary">Cho phép các ứng dụng bỏ qua các hệ thống bảo mật bằng cách giả vờ là một ứng dụng khác.</string>
-    <!-- Show Statusbar on Lockscreen -->
-    <string name="lockscreen_status_bar_title">Thanh trạng thái</string>
-    <string name="lockscreen_status_bar_summary">Hiển thị thanh trạng thái trên màn hình khóa</string>
     <!-- Switch Styles -->
     <string name="switch_style_title">Kiểu chuyển đổi</string>
     <string name="switch_oneplus">OnePlus (mặc định)</string>
@@ -933,13 +940,6 @@
     <string name="statusbar_icons_style_summary">Chọn kiểu biểu tượng trên thanh trạng thái của bạn (yêu cầu khởi động lại SystemUI)</string>
     <string name="header_icons_style">Màu biểu tượng tiêu đề</string>
     <string name="header_icons_style_summary">Chọn kiểu biểu tượng trên tiêu đề của bạn (yêu cầu khởi động lại SystemUI)</string>
-    <!-- Lockscreen album art filter -->
-    <string name="lockscreen_albumart_filter_title">Bộ lọc ảnh bìa đa phương tiện</string>
-    <string name="lockscreen_albumart_filter_none">Không</string>
-    <string name="lockscreen_albumart_filter_grayscale">Màu xám</string>
-    <string name="lockscreen_albumart_filter_tint">Màu nhấn</string>
-    <string name="lockscreen_albumart_filter_blur">Độ mờ</string>
-    <string name="lockscreen_albumart_filter_grayblur">Màu xám và mờ</string>
     <!-- Units -->
     <string name="unit_seconds">giây</string>
     <string name="unit_milliseconds">mili giây</string>
@@ -1107,19 +1107,6 @@
     <string name="alarm_blocker_reload">Tải lại</string>
     <string name="alarm_blocker_warning_title">Cẩn trọng khi tiến hành</string>
     <string name="alarm_blocker_warning">Chặn các báo thức có khả năng gây mất ổn định, dừng đột ngột hoặc mất dữ liệu.</string>
-    <!-- Navbar Picker -->
-    <string name="theme_navbar_picker_title">Kiểu điều hướng (dành cho điều hướng 3 nút)</string>
-    <string name="theme_navbar_picker_summary">Chọn kiểu thanh điều hướng</string>
-    <string name="theme_navbar_picker_default">Mặc định</string>
-    <string name="theme_navbar_picker_oneplus">OnePlus</string>
-    <string name="theme_navbar_picker_oneui">One UI</string>
-    <string name="theme_navbar_picker_tecno">Tecno Camon</string>
-    <string name="theme_navbar_picker_asus">ASUS</string>
-    <string name="theme_navbar_picker_android">Android</string>
-    <string name="theme_navbar_picker_moto">Moto</string>
-    <string name="theme_navbar_picker_nexus">Nexus</string>
-    <string name="theme_navbar_picker_old">Old</string>
-    <string name="theme_navbar_picker_sammy">Samsung</string>
     <!-- Lockscreen blur -->
     <string name="lockscreen_blur_title">Làm mờ nền</string>
     <string name="lockscreen_blur_disabled">Không thể bật Làm mờ màn hình khóa vì hình nền màn hình khóa hiện tại của bạn không khớp với màn hình chính của bạn hoặc thiết bị của bạn không hỗ trợ Làm mờ.</string>
@@ -1139,4 +1126,15 @@
     <string name="network_traffic_location_quick_statusbar">Thanh trạng thái nhanh</string>
     <string name="status_bar_weather_color_title">Màu nhiệt độ</string>
     <string name="status_bar_weather_size_title">Cỡ chữ</string>
+    <!-- Hide SB On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
+    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+    <!-- System-wide Slider Styles -->
+    <string name="system_slider_style_title">System Slider styles</string>
+    <string name="system_slider_style_default">Mặc định</string>
+    <string name="system_slider_style_daniel">Đa-ni-ên</string>
+    <string name="system_slider_style_mememini">Meme mini</string>
+    <string name="system_slider_style_memeround">Tròn Meme</string>
+    <string name="system_slider_style_memeroundstroke">Meme tròn nét</string>
+    <string name="system_slider_style_memestroke">Meme nét</string>
 </resources>
