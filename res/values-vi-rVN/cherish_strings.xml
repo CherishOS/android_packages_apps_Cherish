@@ -485,11 +485,11 @@
     <string name="lockscreen_charging_animation_phone">Điện thoại</string>
     <string name="lockscreen_charging_animation_stack">Chồng xếp</string>
     <string name="lockscreen_charging_animation_wavy">Dợn sóng</string>
-    <string name="lockscreen_charging_animation_split">Split Loading</string>
-    <string name="lockscreen_charging_animation_yellow">Yellow Animation</string>
+    <string name="lockscreen_charging_animation_split">Đang phân chia</string>
+    <string name="lockscreen_charging_animation_yellow">Hoạt ảnh màu vàng</string>
     <string name="lockscreen_charging_animation_covid">Covid19</string>
-    <string name="lockscreen_charging_animation_wash">Wash Your Hand</string>
-    <string name="lockscreen_charging_animation_wear">Wear Your Mask</string>
+    <string name="lockscreen_charging_animation_wash">Rửa tay của bạn</string>
+    <string name="lockscreen_charging_animation_wear">Đeo khẩu trang</string>
     <string name="click_partial_screenshot_title">Nhấn chụp một phần ảnh chụp màn hình</string>
     <string name="click_partial_screenshot_summary">Nhấp nhanh vào Giảm âm lượng và Nguồn để chụp một phần ảnh chụp màn hình</string>
     <!--  Volume Panel Plugin   -->
@@ -716,7 +716,7 @@
     <string name="brightness_slider_style_minihalf">Mini half</string>
     <string name="brightness_slider_style_half">Half</string>
     <string name="brightness_slider_style_oos">Kiểu OOS</string>
-    <string name="brightness_slider_style_a12">A12 style</string>
+    <string name="brightness_slider_style_a12">Kiểu A12</string>
     <!-- GUI styles -->
     <string name="ui_style_title">Kiểu giao diện</string>
     <string name="ui_style_default">Mặc định</string>
@@ -1127,10 +1127,10 @@
     <string name="status_bar_weather_color_title">Màu nhiệt độ</string>
     <string name="status_bar_weather_size_title">Cỡ chữ</string>
     <!-- Hide SB On Lockscreen -->
-    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
-    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+    <string name="hide_lockscreen_status_bar_title">Ẩn thanh trạng thái</string>
+    <string name="hide_lockscreen_status_bar_summary">Chạm vào thanh trạng thái để chuyển đổi chế độ hiển thị</string>
     <!-- System-wide Slider Styles -->
-    <string name="system_slider_style_title">System Slider styles</string>
+    <string name="system_slider_style_title">Kiểu thanh trượt hệ thống</string>
     <string name="system_slider_style_default">Mặc định</string>
     <string name="system_slider_style_daniel">Đa-ni-ên</string>
     <string name="system_slider_style_mememini">Meme mini</string>
