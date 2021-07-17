@@ -716,7 +716,7 @@
     <string name="brightness_slider_style_minihalf">Mini half</string>
     <string name="brightness_slider_style_half">Half</string>
     <string name="brightness_slider_style_oos">Gaya OOS</string>
-    <string name="brightness_slider_style_a12">Gaya A12</string>
+    <string name="brightness_slider_style_a12">A12 style</string>
     <!-- GUI styles -->
     <string name="ui_style_title">Gaya Antarmuka Pengguna</string>
     <string name="ui_style_default">Bawaan</string>
