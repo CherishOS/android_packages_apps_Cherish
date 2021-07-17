@@ -291,17 +291,17 @@
     <string name="qs_tint_accent">Warna Aksen</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
-    <string name="sysui_colors_active_title">Colored SystemUI</string>
-    <string name="sysui_colors_active_summary">Wallpaper colored scrims and QS</string>
+    <string name="sysui_colors_active_title">SistemUI berwarna</string>
+    <string name="sysui_colors_active_summary">Wallpaper berwarna samaran dan QS</string>
     <!-- QS themes -->
-    <string name="qs_panel_colors_title">Quick settings colors</string>
-    <string name="qs_panel_bg_use_fw_title">Framework defaults</string>
-    <string name="qs_panel_bg_use_fw_summary">Disable QS and scrim color customizations</string>
-    <string name="qs_panel_bg_color_title">Background color</string>
-    <string name="qs_panel_bg_color_summary">Change color of your QS panel</string>
-    <string name="qs_panel_bg_alpha_title">Background alpha</string>
-    <string name="qs_panel_bg_disco_title">QS Tile Disco</string>
-    <string name="qs_panel_bg_disco_summary">Make your QS Tiles colorful!</string>
+    <string name="qs_panel_colors_title">Warna Setelan Cepat</string>
+    <string name="qs_panel_bg_use_fw_title">Kerangka default</string>
+    <string name="qs_panel_bg_use_fw_summary">Nonaktifkan QS dan kustomisasi warna samaran</string>
+    <string name="qs_panel_bg_color_title">Warna latar belakang</string>
+    <string name="qs_panel_bg_color_summary">Ubah warna panel QS Anda</string>
+    <string name="qs_panel_bg_alpha_title">Opasitas latar belakang</string>
+    <string name="qs_panel_bg_disco_title">Ubin Disko QS</string>
+    <string name="qs_panel_bg_disco_summary">Jadikan ubin QS Anda penuh warna!</string>
     <string name="qs_bg_use_new_tint">Warna ubin QS</string>
     <string name="qs_bg_use_new_tint_summary">Pilih Gaya Warna QS</string>
     <!-- Heads up -->
@@ -545,10 +545,10 @@
     <string name="status_bar_clock_color_title">Warna font jam</string>
     <string name="clock_date_right">Sebelah kanan jam</string>
     <string name="clock_date_left">Sebelah kiri jam</string>
-    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+    <string name="status_bar_clock_auto_hide_title">Sembunyikan jam otomatis</string>
+    <string name="status_bar_clock_auto_hide_summary">Sembunyikan dan tampilkan jam secara berkala</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Sembunyikan durasi</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Tampilkan durasi</string>
     <string name="clock_date_position">Posisi tanggal</string>
     <!-- Battery Bar -->
     <string name="battery_bar_title">Bilah baterai</string>
@@ -752,12 +752,12 @@
     <string name="allow_signature_fake">Izinkan tanda tangan palsu</string>
     <string name="allow_signature_fake_summary">Memungkinkan aplikasi untuk melewati sistem keamanan dengan berpura-pura menjadi sebuah aplikasi yang berbeda.</string>
     <!-- Switch Styles -->
-    <string name="switch_style_title">Switch Style</string>
+    <string name="switch_style_title">Gaya Beralih</string>
     <string name="switch_oneplus">OnePlus (default)</string>
     <string name="switch_narrow">Narrow</string>
     <string name="switch_contained">Contained</string>
     <string name="switch_telegram">Telegram</string>
-    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_md2">Desain Material 2</string>
     <string name="switch_retro">Retro</string>
     <string name="switch_oos">OxygenOS 11</string>
     <string name="switch_fluid">Fluid</string>
@@ -817,8 +817,8 @@
     <string name="status_bar_battery_percentage_default">Tersembunyi</string>
     <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
     <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Persentase baterai QS</string>
+    <string name="qs_battery_percentage_summary">Tampilkan persentase baterai di header QS alih-alih perkiraan baterai</string>
     <string name="qs_media_player_title">Pemutar media QS</string>
     <string name="qs_media_player_summary_on">Tampilkan pemutar media di QS.\nMemerlukan mulai ulang SistemUI</string>
     <string name="qs_media_player_summary_off">Tampilkan pemutar media sebagai notifikasi.\nMemerlukan mulai ulang SistemUI</string>
@@ -901,9 +901,9 @@
     <string name="lockscreen_qs_disabled_title">Nonaktifkan setelan cepat saat terkunci</string>
     <string name="lockscreen_qs_disabled_summary">Nonaktifkan memperluas setelan cepat pada layar kunci aman</string>
     <!-- Notification Media Options -->
-    <string name="media_category">Media Notification options</string>
-    <string name="artwork_media_background_title">Artwork media background</string>
-    <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
+    <string name="media_category">Opsi Pemberitahuan Media</string>
+    <string name="artwork_media_background_title">Latar belakang media karya seni</string>
+    <string name="artwork_media_background_summary">Tetapkan media karya seni sebagai latar belakang media notifikasi</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Nilai: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Bawaan</string>
@@ -936,58 +936,58 @@
     <string name="theming_settings_dashboard_icons_accent">Latar belakang aksen / Latar depan transparan</string>
     <string name="theming_settings_dashboard_icons_plain">Latar belakang transparan / Latar depan polos</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Latar belakang transparan / Latar depan aksen</string>
-    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
-    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
-    <string name="header_icons_style">Colored Header Icons</string>
-    <string name="header_icons_style_summary">Choose the style of your notification headers icons (requires SystemUI restart)</string>
+    <string name="statusbar_icons_style">Ikon Bilah Status Berwarna</string>
+    <string name="statusbar_icons_style_summary">Pilih gaya ikon bilah status Anda (memerlukan mulai ulang SistemUI)</string>
+    <string name="header_icons_style">Ikon Header Berwarna</string>
+    <string name="header_icons_style_summary">Pilih gaya ikon header notifikasi Anda (memerlukan mulai ulang SistemUI)</string>
     <!-- Units -->
-    <string name="unit_seconds">seconds</string>
-    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_seconds">detik</string>
+    <string name="unit_milliseconds">milidetik</string>
     <string name="unit_pixels">dp</string>
     <!-- Status Bar Ticker -->
-    <string name="ticker_screen_title">Ticker</string>
-    <string name="ticker_screen_summary">Show notifications ticker-style in status bar</string>
-    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
-    <string name="ticker_title">Status bar ticker</string>
-    <string name="ticker_summary">Enable the status bar ticker</string>
-    <string name="ticker_restore_defaults_title">Restore defaults</string>
+    <string name="ticker_screen_title">Notifikasi ticker</string>
+    <string name="ticker_screen_summary">Tampilkan notifikasi gaya ticker di bilah status</string>
+    <string name="ticker_screen_footer">Ticker hanya terlihat ketika notifikasi mengambang tidak ditampilkan. Perangkat dengan notch harus menyembunyikan potongan di bawah pengaturan Antarmuka Pengguna atau di bawah Opsi Pengembang.</string>
+    <string name="ticker_title">Ticker bilah status</string>
+    <string name="ticker_summary">Aktifkan ticker bilah status</string>
+    <string name="ticker_restore_defaults_title">Kembalikan default</string>
     <string name="text_title">Teks</string>
-    <string name="icon_title">Icon</string>
-    <string name="colors_title">Colors</string>
-    <string name="values_restored_title">Values restored</string>
-    <string name="ticker_disabled">No ticker</string>
-    <string name="ticker_enabled">Notification ticker</string>
-    <string name="ticker_media_enabled">Notifications and music ticker</string>
-    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="icon_title">Ikon</string>
+    <string name="colors_title">Warna</string>
+    <string name="values_restored_title">Nilai dipulihkan</string>
+    <string name="ticker_disabled">Tidak ada ticker</string>
+    <string name="ticker_enabled">Notifikasi ticker</string>
+    <string name="ticker_media_enabled">Notifikasi dan ticker musik</string>
+    <string name="ticker_animation_mode_title">Gaya animasi ticker</string>
     <string name="ticker_animation_mode_alpha_fade">Memudar</string>
     <string name="ticker_animation_mode_scroll">Gulir</string>
-    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <string name="ticker_tick_duration_title">Durasi ticker</string>
     <!-- Status Bar Lyric -->
-    <string name="status_bar_show_lyric_title">Status bar lyric</string>
-    <string name="status_bar_show_lyric_summary">Show lyric in status bar (need App support)</string>
+    <string name="status_bar_show_lyric_title">Lirik bilah status</string>
+    <string name="status_bar_show_lyric_summary">Tampilkan lirik di bilah status (perlu dukungan Aplikasi)</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display Cutout</string>
-    <string name="cutout_main_summary">They really cut corners with this one</string>
-    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="cutout_main">Potongan Tampilan</string>
+    <string name="cutout_main_summary">Mereka benar-benar berhemat dengan yang satu ini</string>
+    <string name="display_cutout_style_title">Gaya potongan</string>
     <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_immerse">Membenamkan</string>
     <string name="display_cutout_style_hide">Sembunyikan</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="stock_statusbar_in_hide">Tinggi bilah status bawaan</string>
+    <string name="stock_statusbar_in_hide_summary">Gunakan ketinggian bilah status default di Sembunyikan</string>
     <!-- Rounded corners -->
-    <string name="corners_category">Corners</string>
+    <string name="corners_category">Sudut</string>
     <string name="corner_radius">Radius sudut lengkungan</string>
     <string name="content_padding">Batas konten pada sudut</string>
     <string name="corner_fwvals">Gunakan nilai dari framework</string>
     <string name="corner_fwvals_summary">Berguna jika perangkat benar-benar memiliki sudut layar melengkung</string>
     <!-- Status bar - Battery custom charging symbol -->
-    <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
-    <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
+    <string name="text_charging_symbol_title">Simbol pengisian khusus untuk gaya teks</string>
+    <string name="text_charging_symbol_dialog">Simbol pengisian khusus di dekat teks persentase baterai</string>
     <string name="text_charging_symbol_default">Dinonaktifkan</string>
     <string name="text_charging_symbol_flash">Lampu Kilat</string>
     <string name="text_charging_symbol_tilde">Tilde</string>
     <string name="text_charging_symbol_plus">Plus</string>
-    <string name="text_charging_symbol_star">Star</string>
+    <string name="text_charging_symbol_star">Bintang</string>
     <string name="text_charging_symbol_rupee">Rupee</string>
     <string name="text_charging_symbol_dollar">Dollar</string>
     <string name="text_charging_symbol_euro">Euro</string>
@@ -1040,9 +1040,9 @@
     <string name="fod_pressed_color_yellow">Kuning</string>
     <string name="fod_pressed_color_light_yellow">Light Yellow</string>
     <!-- FOD icon animation -->
-    <string name="fod_icon_animation">Animated FOD icon</string>
-    <string name="fod_icon_animation_effect_title">Select FOD icon animation effect</string>
-    <string name="fod_icon_animation_summary">Animate the FOD icon when turning on the screen</string>
+    <string name="fod_icon_animation">Animasi ikon FOD</string>
+    <string name="fod_icon_animation_effect_title">Pilih efek animasi ikon FOD</string>
+    <string name="fod_icon_animation_summary">Menganimasikan ikon FOD saat menyalakan layar</string>
     <string name="fod_icon_animation_oneui1">OneUI 1</string>
     <string name="fod_icon_animation_oneui2">OneUI 2</string>
     <string name="fod_icon_animation_oos">OOS 11</string>
@@ -1051,40 +1051,40 @@
     <string name="fod_icon_picker_summary">Pilih ikon sidik jari favorit Anda</string>
     <string name="fod_icon_picker_footer">Untuk menambahkan ikon Anda sendiri, pilih ikon kiri atas dan gunakan aplikasi OnePlus 6T FP Customizer untuk memilih ikon yang Anda inginkan.</string>
     <!-- Doze Brightness Config -->
-    <string name="doze_brightness_category">Doze Brightness Config</string>
-    <string name="doze_brightness_force_title">Force brightness values</string>
-    <string name="doze_brightness_force_summary">Use custom brightness values instead of screen brightness</string>
-    <string name="ambient_pulse_brightness_title">Ambient notification brightness</string>
-    <string name="ambient_pulse_brightness_summary">Set brightness to use when notifcations are shown</string>
-    <string name="ambient_doze_brightness_title">Ambient display brightness</string>
-    <string name="ambient_doze_brightness_summary">Set brightness to use during ambient display on</string>
+    <string name="doze_brightness_category">Konfigurasi Kecerahan Doze</string>
+    <string name="doze_brightness_force_title">Paksa nilai kecerahan</string>
+    <string name="doze_brightness_force_summary">Gunakan nilai kecerahan kustom dibandingkan kecerahan layar</string>
+    <string name="ambient_pulse_brightness_title">Pencerahan notifikasi ambien</string>
+    <string name="ambient_pulse_brightness_summary">Setel kecerahan saat notifikasi ditampilkan</string>
+    <string name="ambient_doze_brightness_title">Tampilan kecarahan ambien</string>
+    <string name="ambient_doze_brightness_summary">Setel kecerahan saat tampilan ambien aktif</string>
     <!-- Notification count -->
-    <string name="status_bar_notif_count_title">Show notifications count</string>
-    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+    <string name="status_bar_notif_count_title">Tampilkan jumlah notifikasi</string>
+    <string name="status_bar_notif_count_summary">Tampilkan jumlah notifikasi yang tertunda</string>
     <!-- Custom statusbar paddings -->
-    <string name="custom_statusbar_padding_start">Padding (Start)</string>
-    <string name="custom_statusbar_padding_end">Padding (End)</string>
+    <string name="custom_statusbar_padding_start">Padding (Mulai)</string>
+    <string name="custom_statusbar_padding_end">Padding (Akhir)</string>
     <!-- Alert Slider Notifications (OnePlus devices) -->
-    <string name="alert_slider_notifications_title">Alert slider notifications</string>
-    <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
+    <string name="alert_slider_notifications_title">Notifikasi slider peringatan</string>
+    <string name="alert_slider_notifications_summary">Tampilan notifikasi ketika mengubah posisi slider peringatan</string>
     <!-- Screen state service -->
-    <string name="battery_saving">Battery saving</string>
-    <string name="screen_state_toggles_title">Suspend actions</string>
-    <string name="screen_state_toggles_summary">Control how the device network and gps should behave when the screen is on/off</string>
+    <string name="battery_saving">Hemat baterai</string>
+    <string name="screen_state_toggles_title">Tangguhkan tindakan</string>
+    <string name="screen_state_toggles_summary">Kontrol bagaimana jaringan perangkat dan gps harus berperilaku saat layar hidup/mati</string>
     <string name="screen_state_toggles_enable_title">Aktifkan</string>
-    <string name="screen_state_toggles_enable_summary">Actions executed when the screen is turned off</string>
-    <string name="screen_state_toggles_mobile_title">Mobile network</string>
-    <string name="screen_state_toggles_location_title">Location</string>
-    <string name="screen_state_toggles_twog">Switch to 2G</string>
-    <string name="screen_state_toggles_twog_summary">Network mode will be switched to 2G on screen off</string>
-    <string name="screen_state_toggles_threeg">Switch to 3G</string>
-    <string name="screen_state_toggles_threeg_summary">Network mode will be switched to 3G on screen off</string>
-    <string name="screen_state_toggles_gps">Disable GPS</string>
-    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
-    <string name="screen_state_toggles_mobile_data">Disable mobile data</string>
-    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
-    <string name="screen_state_off_delay_title">Screen-off actions delay</string>
-    <string name="screen_state_on_delay_title">Screen-on actions delay</string>
+    <string name="screen_state_toggles_enable_summary">Tindakan akan dieksekusi saat layar dimatikan</string>
+    <string name="screen_state_toggles_mobile_title">Jaringan selular</string>
+    <string name="screen_state_toggles_location_title">Lokasi</string>
+    <string name="screen_state_toggles_twog">Beralih ke 2G</string>
+    <string name="screen_state_toggles_twog_summary">Mode jaringan akan beralih ke 2G pada saat layar mati</string>
+    <string name="screen_state_toggles_threeg">Beralih ke 3G</string>
+    <string name="screen_state_toggles_threeg_summary">Mode jaringan akan beralih ke 3G pada saat layar mati</string>
+    <string name="screen_state_toggles_gps">Nonaktifkan GPS</string>
+    <string name="screen_state_toggles_gps_summary">Layanan lokasi berbasis GPS akan dinonaktifkan pada saat layar mati</string>
+    <string name="screen_state_toggles_mobile_data">Nonaktifkan data seluler</string>
+    <string name="screen_state_toggles_mobile_data_summary">Data seluler akan dinonaktifkan saat layar mati</string>
+    <string name="screen_state_off_delay_title">Penundaan tindakan saat layar mati</string>
+    <string name="screen_state_on_delay_title">Penundaan tindakan saat layar hidup</string>
     <!-- Qs Header Clock Font Style, Size & Color -->
     <string name="sb_clock_styling">SB Clock Styling</string>
     <string name="qs_clock_styling">Qs Clock Styling</string>
@@ -1119,7 +1119,7 @@
     <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
     <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
     <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
-    <string name="status_bar_weather_location_title">Location</string>
+    <string name="status_bar_weather_location_title">Lokasi</string>
     <string name="status_bar_show_image">Show image</string>
     <string name="network_traffic_location_disable">Dinonaktifkan</string>
     <string name="network_traffic_location_statusbar">Bilah status</string>

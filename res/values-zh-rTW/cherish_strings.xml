@@ -291,7 +291,7 @@
     <string name="qs_tint_accent">強調顏色</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
-    <string name="sysui_colors_active_title">Colored SystemUI</string>
+    <string name="sysui_colors_active_title">彩色的系統介面</string>
     <string name="sysui_colors_active_summary">Wallpaper colored scrims and QS</string>
     <!-- QS themes -->
     <string name="qs_panel_colors_title">Quick settings colors</string>
