@@ -485,11 +485,11 @@
     <string name="lockscreen_charging_animation_phone">電話</string>
     <string name="lockscreen_charging_animation_stack">スタック</string>
     <string name="lockscreen_charging_animation_wavy">波</string>
-    <string name="lockscreen_charging_animation_split">Split Loading</string>
-    <string name="lockscreen_charging_animation_yellow">Yellow Animation</string>
+    <string name="lockscreen_charging_animation_split">分割ローディング</string>
+    <string name="lockscreen_charging_animation_yellow">イエローアニメーション</string>
     <string name="lockscreen_charging_animation_covid">Covid19</string>
-    <string name="lockscreen_charging_animation_wash">Wash Your Hand</string>
-    <string name="lockscreen_charging_animation_wear">Wear Your Mask</string>
+    <string name="lockscreen_charging_animation_wash">手を洗おう</string>
+    <string name="lockscreen_charging_animation_wear">マスクを着けよう</string>
     <string name="click_partial_screenshot_title">クリックして部分スクリーンショット</string>
     <string name="click_partial_screenshot_summary">音量ダウンと電源ボタンを短くクリックして部分スクリーンショットを取得する</string>
     <!--  Volume Panel Plugin   -->
@@ -716,7 +716,7 @@
     <string name="brightness_slider_style_minihalf">Mini half</string>
     <string name="brightness_slider_style_half">Half</string>
     <string name="brightness_slider_style_oos">OOS スタイル</string>
-    <string name="brightness_slider_style_a12">A12 style</string>
+    <string name="brightness_slider_style_a12">A12 スタイル</string>
     <!-- GUI styles -->
     <string name="ui_style_title">UI のスタイル</string>
     <string name="ui_style_default">既定</string>
@@ -1127,10 +1127,10 @@
     <string name="status_bar_weather_color_title">温度の色</string>
     <string name="status_bar_weather_size_title">フォントサイズ</string>
     <!-- Hide SB On Lockscreen -->
-    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
-    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+    <string name="hide_lockscreen_status_bar_title">ステータスバーを隠す</string>
+    <string name="hide_lockscreen_status_bar_summary">ステータスバーのタップで表示を切り替える</string>
     <!-- System-wide Slider Styles -->
-    <string name="system_slider_style_title">System Slider styles</string>
+    <string name="system_slider_style_title">システムのスライダーのスタイル</string>
     <string name="system_slider_style_default">既定</string>
     <string name="system_slider_style_daniel">Daniel</string>
     <string name="system_slider_style_mememini">Meme mini</string>
