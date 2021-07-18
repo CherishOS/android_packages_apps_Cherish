@@ -1023,7 +1023,7 @@
     <string name="fod_recog_animation_op_wave">OnePlus Dalga</string>
     <string name="fod_recog_animation_pureview_dna">Nokia DNA</string>
     <string name="fod_recog_animation_pureview_future">Nokia Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Nokia Halo ring</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo halkası</string>
     <string name="fod_recog_animation_pureview_molecular">Nokia Moleküler</string>
     <string name="fod_recog_animation_rog_fusion">Asus Füzyon</string>
     <string name="fod_recog_animation_rog_pulsar">Asus Pulsar</string>
@@ -1097,40 +1097,40 @@
     <string name="wakelock_list_header">Mevcut uyandırmalar</string>
     <string name="wakelock_blocker_reload">Yeniden yükle</string>
     <string name="wakelock_blocker_warning_title">Dikkatli devam edin</string>
-    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+    <string name="wakelock_blocker_warning">Telefonun uyanmasını engelleme; kararsızlığa, çökmelere veya veri kaybına neden olabilir</string>
     <!-- Alarm blocker -->
-    <string name="alarm_blocker">Alarm blocker</string>
+    <string name="alarm_blocker">Alarm engelleyici</string>
     <string name="alarm_blocker_title">Etkinleştir</string>
-    <string name="alarm_blocker_summary">Block alarms while screen off</string>
+    <string name="alarm_blocker_summary">Ekran kapalıyken alarmları engelle</string>
     <string name="alarm_blocker_save">Kaydet</string>
-    <string name="alarm_list_header">Available alarms</string>
+    <string name="alarm_list_header">Kullanılabilir alarmlar</string>
     <string name="alarm_blocker_reload">Yeniden yükle</string>
     <string name="alarm_blocker_warning_title">Dikkatli devam edin</string>
-    <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+    <string name="alarm_blocker_warning">Alarmları engellemek, istikrarsızlık, çökme veya veri kaybına neden olabilir.</string>
     <!-- Lockscreen blur -->
-    <string name="lockscreen_blur_title">Background blur</string>
-    <string name="lockscreen_blur_disabled">Lock screen Blur cannot be enabled because your current lock screen wallpaper does not match your home screen one, or your device does not support Blur at all.</string>
+    <string name="lockscreen_blur_title">Arkaplan bulanıklığı</string>
+    <string name="lockscreen_blur_disabled">Kilit ekranı bulanıklaştırma, kilit ekranı ve ana ekran duvar kağıdı eşleşmediğinden veya cihazınız bulanıklaştırmayı hiç desteklemediğinden etkinleştirilemiyor.</string>
     <!-- StatusBar weather settings -->
-    <string name="statusbar_weather_title">Status bar weather</string>
-    <string name="statusbar_weather_summary">Configure from QS settings/Weather.</string>
-    <string name="statusbar_weather_dialog_title">Status bar weather style</string>
-    <string name="status_bar_weather_hidden">Hidde weather</string>
-    <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
-    <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
-    <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
-    <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
+    <string name="statusbar_weather_title">Durum çubuğu hava durumu</string>
+    <string name="statusbar_weather_summary">Hızlı ayarlar/Hava durumu\'ndan yapılandırabilirsiniz.</string>
+    <string name="statusbar_weather_dialog_title">Durum çubuğu hava durumu stili</string>
+    <string name="status_bar_weather_hidden">Hava durumunu gizle</string>
+    <string name="status_bar_temperature_image_show_scale">Sıcaklığı derece ve görsel ile göster</string>
+    <string name="status_bar_temperature_image_hide_scale">Sıcaklığı derece olmadan görsel ile göster</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Sıcaklığı dereceyle beraber göster</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Sıcaklığı derece olmadan göster</string>
     <string name="status_bar_weather_location_title">Konum</string>
-    <string name="status_bar_show_image">Show image</string>
+    <string name="status_bar_show_image">Görsel ile göster</string>
     <string name="network_traffic_location_disable">Devre dışı</string>
     <string name="network_traffic_location_statusbar">Durum çubuğu</string>
-    <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
-    <string name="status_bar_weather_color_title">Temperature color</string>
-    <string name="status_bar_weather_size_title">Font size</string>
+    <string name="network_traffic_location_quick_statusbar">Hızlı Durum Çubuğu</string>
+    <string name="status_bar_weather_color_title">Sıcaklık rengi</string>
+    <string name="status_bar_weather_size_title">Yazı boyutu</string>
     <!-- Hide SB On Lockscreen -->
-    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
-    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+    <string name="hide_lockscreen_status_bar_title">Durum çubuğunu gizle</string>
+    <string name="hide_lockscreen_status_bar_summary">Görünür yapmak için durum çubuğuna dokunun</string>
     <!-- System-wide Slider Styles -->
-    <string name="system_slider_style_title">System Slider styles</string>
+    <string name="system_slider_style_title">Sistem kaydırma tarzı</string>
     <string name="system_slider_style_default">Varsayılan</string>
     <string name="system_slider_style_daniel">Daniel</string>
     <string name="system_slider_style_mememini">Miui mini</string>
