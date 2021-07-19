@@ -509,8 +509,8 @@
     <string name="volume_panel_compact_val">volume compacto</string>
     <string name="volume_panel_oreo_val">volume oreo</string>
     <string name="volume_panel_tiled_val">volume lado</string>
-    <string name="volume_panel_p404_val">co-.projeto.plugin.volume.p404</string>
-    <string name="volume_panel_ssos_val">co-.projeto.plugin.volume.ssos</string>
+    <string name="volume_panel_p404_val">co.potatoproject.plugin.volume.p404</string>
+    <string name="volume_panel_ssos_val">co.potatoproject.plugin.volume.ssos</string>
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Configurações do relógio</string>
     <string name="clock_style_category_summary">Ajuste do relógio na barra de status</string>
