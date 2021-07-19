@@ -73,15 +73,6 @@
 		android:icon="@drawable/ic_upset"
         android:title="@string/always_on_display_schedule_title"
         android:fragment="com.cherish.settings.fragments.AODSchedule" />
-		
-	<com.cherish.settings.preferences.SystemSettingSeekBarPreference
-            android:key="lockscreen_blur"
-            android:title="@string/lockscreen_blur_title"
-            android:max="100"
-            settings:min="0"
-            settings:units="%"
-            settings:interval="5"
-            android:defaultValue="0" />
 
     <!-- Lock screen -->
     <PreferenceCategory

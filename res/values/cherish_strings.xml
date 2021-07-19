@@ -779,23 +779,6 @@
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
     <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
 
-    <!-- Custom carrier label and position -->
-    <string name="carrier_label_category_title">CarrierLabel Settings</string>
-    <string name="carrier_label_category_summary">Customize statusbar carrierlabel</string>
-    <string name="carrier_label_settings_title">Carrier Label</string>
-    <string name="carrier_label_settings_summary">Customize the carrier label</string>
-    <string name="custom_carrier_label_title">Custom carrier label</string>
-    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
-    <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="show_carrier_title">Carrier label</string>
-    <string name="show_carrier_disabled">Disabled</string>
-    <string name="show_carrier_keyguard">Lockscreen only</string>
-    <string name="show_carrier_statusbar">Statusbar only</string>
-    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
-    <string name="status_bar_carrier_color">Carrier label color</string>
-    <string name="status_bar_carrier_size">Carrier label size</string>
-    <string name="status_bar_carrier_font_style_title">Carrier Label Font</string>
-
     <!-- Brightness Slider style -->
     <string name="brightness_slider_style_title">Brightness slider style</string>
     <string name="brightness_slider_style_default">Default</string>
@@ -826,8 +809,6 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Brightness slider</string>
     <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
-    <string name="qs_show_auto_brightness_title">Autobrightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
 
     <!-- Panel Background style -->
     <string name="panel_bg_title">Panel background style</string>
@@ -1038,10 +1019,7 @@
     <!-- Volume panel extras -->
     <string name="volume_panel_tint_title">Tint the active volume bar</string>
     <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
-	
-	<!-- Notification background opacity -->
-    <string name="notification_alpha_title">Notification background opacity</string>
-	
+
 	<!-- Global Actions -->
     <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
     <string name="powermenu_advanced_reboot_summary">Enables access to recovery and bootloader</string>
@@ -1254,11 +1232,7 @@
     <string name="alarm_blocker_reload">Reload</string>
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
-    
-    <!-- Lockscreen blur -->
-    <string name="lockscreen_blur_title">Background blur</string>
-    <string name="lockscreen_blur_disabled">Lock screen Blur cannot be enabled because your current lock screen wallpaper does not match your home screen one, or your device does not support Blur at all.</string>
-	
+
 	<!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Status bar weather</string>
     <string name="statusbar_weather_summary">Configure from QS settings/Weather.</string>

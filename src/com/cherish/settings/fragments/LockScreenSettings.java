@@ -28,7 +28,6 @@ import android.content.res.Resources;
 import android.hardware.fingerprint.FingerprintManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.ParcelFileDescriptor;
 import android.os.UserHandle;
 import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
@@ -41,8 +40,6 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.util.cherish.FodUtils;
 import com.android.internal.util.cherish.CherishUtils;
-import com.cherish.settings.preferences.SystemSettingSeekBarPreference;
-import com.cherish.settings.utils.Utils;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
 import com.cherish.settings.preferences.SecureSettingListPreference;
@@ -67,8 +64,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
     private static final String FOD_ANIMATION_CATEGORY = "fod_animations";
     private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
-    private static final String KEY_LOCKSCREEN_BLUR = "lockscreen_blur";
-
     private ContentResolver mResolver;
     private Preference FODSettings;
 	
@@ -78,11 +73,10 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     static final int MODE_MIXED_SUNSET = 3;
     static final int MODE_MIXED_SUNRISE = 4;
 
-    private SystemSettingSeekBarPreference mLockscreenBlur;
     private CustomSeekBarPreference mClockFontSize;
     private CustomSeekBarPreference mDateFontSize;
     private CustomSeekBarPreference mOwnerInfoFontSize;
-    private CustomSeekBarPreference mCustomTextClockFontSize;
+	private CustomSeekBarPreference mCustomTextClockFontSize;
     private PreferenceCategory mFODIconPickerCategory;
     private Preference mAODPref;
 
@@ -90,18 +84,10 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.cherish_settings_lockscreen);
-        Context mContext = getContext();
+
         ContentResolver resolver = getActivity().getContentResolver();
         PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
-        WallpaperManager manager = WallpaperManager.getInstance(mContext);
-
-        ParcelFileDescriptor pfd = manager.getWallpaperFile(WallpaperManager.FLAG_LOCK);
-        mLockscreenBlur = (SystemSettingSeekBarPreference) findPreference(KEY_LOCKSCREEN_BLUR);
-        if (!Utils.isBlurSupported() || pfd != null) {
-            mLockscreenBlur.setEnabled(false);
-            mLockscreenBlur.setSummary(getString(R.string.lockscreen_blur_disabled));
-        }
 		
 	mFODIconPickerCategory = findPreference(FOD_ICON_PICKER_CATEGORY);
         if (mFODIconPickerCategory != null && !FodUtils.hasFodSupport(getContext())) {

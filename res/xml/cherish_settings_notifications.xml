@@ -57,17 +57,6 @@
         android:summary="@string/less_boring_heads_up_summary"
         android:defaultValue="false" />
 	
-	<!-- Notification background opacity -->
-    <com.cherish.settings.preferences.SystemSettingSeekBarPreference
-        android:key="notification_bg_alpha"
-        android:title="@string/notification_alpha_title"
-        android:icon="@drawable/ic_blur"
-        android:defaultValue="255"
-        android:max="255"
-        settings:min="0"
-        settings:units="" />
-
-
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="center_notification_headers"
         android:icon="@drawable/ic_notification_center"
