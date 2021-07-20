@@ -1011,7 +1011,7 @@
     <string name="fod_recog_animation_miui_light">Xiaomi Light</string>
     <string name="fod_recog_animation_miui_pop">Xiaomi Pop</string>
     <string name="fod_recog_animation_miui_pulse">Xiaomi Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Xiaomi Pulse (White)</string>
+    <string name="fod_recog_animation_miui_pulse_white">Xiaomi Pulse (Trắng)</string>
     <string name="fod_recog_animation_miui_rhythm">Xiaomi Rhythm</string>
     <string name="fod_recog_animation_miui_star_cas">Xiaomi Starlight</string>
     <string name="fod_recog_animation_op_cosmos">OnePlus Cosmos</string>
