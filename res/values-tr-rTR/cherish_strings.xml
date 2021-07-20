@@ -485,8 +485,8 @@
     <string name="lockscreen_charging_animation_phone">Telefon</string>
     <string name="lockscreen_charging_animation_stack">Yığın</string>
     <string name="lockscreen_charging_animation_wavy">Dalgalı</string>
-    <string name="lockscreen_charging_animation_split">Split Loading</string>
-    <string name="lockscreen_charging_animation_yellow">Yellow Animation</string>
+    <string name="lockscreen_charging_animation_split">Şarj Animasyonu 1</string>
+    <string name="lockscreen_charging_animation_yellow">Şarj Animasyonu 2</string>
     <string name="lockscreen_charging_animation_covid">Covid 19</string>
     <string name="lockscreen_charging_animation_wash">Ellerini Yıka</string>
     <string name="lockscreen_charging_animation_wear">Maskeni Tak</string>
