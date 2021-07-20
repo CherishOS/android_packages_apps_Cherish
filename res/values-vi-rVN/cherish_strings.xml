@@ -448,28 +448,6 @@
     <!-- Center R Notification headers -->
     <string name="center_notification_headers_title">Hiển thị tiêu đề thông báo trung tâm</string>
     <string name="center_notification_headers_summary">Có hiển thị tiêu đề thông báo kiểu R hay không (Yêu cầu khởi động lại giao diện người dùng hệ thống)</string>
-    <!-- Dashboard -->
-    <string name="dashboard_conditions_title">Bảng điều khiển đề xuất</string>
-    <string name="summary_dashboard_conditions_enabled">Bảng điều khiển đề xuất đã được bật</string>
-    <string name="summary_dashboard_conditions_disabled">Bảng điều khiển đề xuất bị tắt</string>
-    <string name="dashboard_suggestions_title">Bảng điều khiển đề xuất</string>
-    <string name="summary_dashboard_suggestions_enabled">Đề xuất bảng điều khiển được bật</string>
-    <string name="summary_dashboard_suggestions_disabled">Bảng điều khiển đề xuất bị tắt</string>
-    <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_title">Hiển thị trình trực quan âm nhạc</string>
-    <string name="lockscreen_visualizer_summary">Chuyển đổi hiệu ứng sóng nhạc trên màn hình khóa</string>
-    <string name="lockscreen_visualizer_enable">Trình hiển thị nhạc</string>
-    <string name="lockscreen_visualizer_enable_summary">Hiển thị các thanh hiển thị trong khi phát nhạc</string>
-    <string name="lockscreen_autocolor_title">Màu sắc tự động</string>
-    <string name="lockscreen_autocolor_summary">Đồng bộ màu với nền</string>
-    <string name="lockscreen_autocolor_lavalamp">Yêu cầu tắt đèn dung nham</string>
-    <string name="lockscreen_lavalamp_title">Đèn dung nham</string>
-    <string name="lockscreen_lavalamp_summary">Sử dụng một hoạt hình pha trộn màu sắc nham thạch mịn màng</string>
-    <string name="lockscreen_lavalamp_speed_title">Khoảng màu pha trộn</string>
-    <string name="lockscreen_solid_lines_category">Đường liền nét</string>
-    <string name="lockscreen_solid_units_count_title">Số dòng</string>
-    <string name="lockscreen_solid_fudge_factor_title">Độ mạnh</string>
-    <string name="lockscreen_solid_units_opacity_title">Độ mờ dòng</string>
     <!-- Media art -->
     <string name="lockscreen_media_art_title">Nghệ thuật truyền thông</string>
     <string name="lockscreen_media_art_summary">Chuyển đổi khả năng hiển thị của nghệ thuật truyền thông</string>
@@ -585,11 +563,6 @@
     <string name="lockscreen_weather_show_temp_summary">Hiển thị nhiệt độ hiện tại của thành phố bên phải hình ảnh</string>
     <string name="lockscreen_weather_show_image_title">Tình trạng màu sắc hình ảnh</string>
     <string name="lockscreen_weather_show_image_summary">Hiển thị hình ảnh điều kiện thời tiết</string>
-    <!-- QS Header data uasge -->
-    <string name="qs_datausage_title">Sử dụng dữ liệu trong QS Header</string>
-    <string name="qs_datausage_disabled">Tắt</string>
-    <string name="qs_datausage_daily">Sử dụng hàng ngày</string>
-    <string name="qs_datausage_monthly">Sử dụng hàng tháng</string>
     <!-- Navbar options -->
     <string name="navigation_bar_invert_layout_title">Đảo ngược bố cục</string>
     <string name="navigation_bar_invert_layout_summary">Đảo ngược bố cục của thanh điều hướng và các mục khác, chẳng hạn như trình chuyển đổi IME</string>
@@ -683,22 +656,6 @@
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Vô hiệu hoá menu nguồn trên màn hình khoá</string>
     <string name="lockscreen_power_menu_disabled_summary">Tùy chọn này sẽ chỉ vô hiệu menu nguồn trên màn hình khóa</string>
-    <!-- Custom carrier label and position -->
-    <string name="carrier_label_category_title">Cài đặt nhà mạng</string>
-    <string name="carrier_label_category_summary">Tùy chỉnh tên nhà mạng trên thanh trạng thái</string>
-    <string name="carrier_label_settings_title">Tên nhà cung cấp</string>
-    <string name="carrier_label_settings_summary">Tùy chỉnh tên của nhà mạng</string>
-    <string name="custom_carrier_label_title">Tùy chỉnh tên nhà mạng</string>
-    <string name="custom_carrier_label_explain">Vui lòng nhập một nhãn mới. Để trống để trở lại nhãn gốc.</string>
-    <string name="custom_carrier_label_notset">Nhãn tùy chỉnh hiện không được đặt</string>
-    <string name="show_carrier_title">Tên nhà mạng</string>
-    <string name="show_carrier_disabled">Tắt</string>
-    <string name="show_carrier_keyguard">Chỉ màn hình khoá</string>
-    <string name="show_carrier_statusbar">Chỉ thanh trạng thái</string>
-    <string name="show_carrier_enabled">Màn hình khóa &amp; thanh trạng thái</string>
-    <string name="status_bar_carrier_color">Màu tên nhà cung cấp</string>
-    <string name="status_bar_carrier_size">Cỡ chữ tên nhà mạng</string>
-    <string name="status_bar_carrier_font_style_title">Phông chữ tên nhà cung cấp</string>
     <!-- Brightness Slider style -->
     <string name="brightness_slider_style_title">Kiểu thanh trượt độ sáng</string>
     <string name="brightness_slider_style_default">Mặc định</string>
@@ -713,8 +670,8 @@
     <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
     <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
     <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
-    <string name="brightness_slider_style_minihalf">Mini half</string>
-    <string name="brightness_slider_style_half">Half</string>
+    <string name="brightness_slider_style_minihalf">Biểu đồ mini</string>
+    <string name="brightness_slider_style_half">Một nửa</string>
     <string name="brightness_slider_style_oos">Kiểu OOS</string>
     <string name="brightness_slider_style_a12">Kiểu A12</string>
     <!-- GUI styles -->
@@ -727,8 +684,6 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Thanh điều chỉnh độ sáng</string>
     <string name="qs_show_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
-    <string name="qs_show_auto_brightness_title">Biểu tượng độ sáng tự động</string>
-    <string name="qs_show_auto_brightness_summary">Hiển thị chuyển đổi độ sáng tự động gần thanh trượt độ sáng</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Màu nền bảng ứng dụng gần đây</string>
     <string name="panel_bg_dialog_title">Chọn kiểu nền bảng điều khiển</string>
@@ -746,8 +701,6 @@
     <!-- Quick Settings quick pulldown -->
     <string name="quick_settings_quick_pull_down_title">Kéo xuống Cài đặt nhanh</string>
     <string name="quick_settings_quick_pull_down_summary">Tự động mở rộng Cài đặt nhanh khi kéo từ phía bên phải của thanh trạng thái</string>
-    <string name="qs_edit_title">Biểu tượng Chỉnh sửa</string>
-    <string name="qs_edit_summary">Kích hoạt biểu tượng chỉnh sửa ô ở chân trang</string>
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">Cho phép giả mạo chữ ký</string>
     <string name="allow_signature_fake_summary">Cho phép các ứng dụng bỏ qua các hệ thống bảo mật bằng cách giả vờ là một ứng dụng khác.</string>
@@ -758,7 +711,7 @@
     <string name="switch_contained">Bộ chứa</string>
     <string name="switch_telegram">Telegram</string>
     <string name="switch_md2">Material Design 2</string>
-    <string name="switch_retro">Retro</string>
+    <string name="switch_retro">Hoài cổ</string>
     <string name="switch_oos">OxygenOS 11</string>
     <string name="switch_fluid">Chất lỏng</string>
     <string name="switch_android_s">Android S</string>
@@ -918,8 +871,6 @@
     <!-- Volume panel extras -->
     <string name="volume_panel_tint_title">Tô màu hoạt động thanh âm lượng</string>
     <string name="volume_panel_tint_summary">Sử dụng đa màu tô cho thanh âm lượng</string>
-    <!-- Notification background opacity -->
-    <string name="notification_alpha_title">Độ mờ của nền thông báo</string>
     <!-- Global Actions -->
     <string name="powermenu_advanced_reboot_title">Khởi động lại nâng cao</string>
     <string name="powermenu_advanced_reboot_summary">Cho phép truy cập vào khôi phục và bộ nạp khởi động</string>
@@ -974,6 +925,8 @@
     <string name="display_cutout_style_hide">Ẩn</string>
     <string name="stock_statusbar_in_hide">Chiều cao thanh trạng thái gốc</string>
     <string name="stock_statusbar_in_hide_summary">Sử dụng chiều cao thanh trạng thái mặc định trong mục Ẩn</string>
+    <string name="display_hide_notch_title">Ẩn phần cắt hiển thị</string>
+    <string name="display_hide_notch_summary">Tắt tính năng tô màu đen cho phần cắt hiển thị</string>
     <!-- Rounded corners -->
     <string name="corners_category">Góc</string>
     <string name="corner_radius">Bán kính góc tròn</string>
@@ -992,9 +945,6 @@
     <string name="text_charging_symbol_dollar">Đồng đô la</string>
     <string name="text_charging_symbol_euro">Euro</string>
     <string name="text_charging_symbol_cent">Cent</string>
-    <!-- Qs Clock -->
-    <string name="oos_qsclock">Đồng hồ Qs</string>
-    <string name="oos_qsclock_summary">Hiển thị đồng hồ như Oos trên qs</string>
     <!-- FOD Icon Picker -->
     <string name="fod_icon_picker_category_title">Tùy biến vân tay dưới màn hình</string>
     <!-- FOD animations -->
@@ -1011,7 +961,7 @@
     <string name="fod_recog_animation_miui_light">Xiaomi Light</string>
     <string name="fod_recog_animation_miui_pop">Xiaomi Pop</string>
     <string name="fod_recog_animation_miui_pulse">Xiaomi Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Xiaomi Pulse (White)</string>
+    <string name="fod_recog_animation_miui_pulse_white">Xiaomi Pulse (Trắng)</string>
     <string name="fod_recog_animation_miui_rhythm">Xiaomi Rhythm</string>
     <string name="fod_recog_animation_miui_star_cas">Xiaomi Starlight</string>
     <string name="fod_recog_animation_op_cosmos">OnePlus Cosmos</string>
@@ -1107,9 +1057,6 @@
     <string name="alarm_blocker_reload">Tải lại</string>
     <string name="alarm_blocker_warning_title">Cẩn trọng khi tiến hành</string>
     <string name="alarm_blocker_warning">Chặn các báo thức có khả năng gây mất ổn định, dừng đột ngột hoặc mất dữ liệu.</string>
-    <!-- Lockscreen blur -->
-    <string name="lockscreen_blur_title">Làm mờ nền</string>
-    <string name="lockscreen_blur_disabled">Không thể bật Làm mờ màn hình khóa vì hình nền màn hình khóa hiện tại của bạn không khớp với màn hình chính của bạn hoặc thiết bị của bạn không hỗ trợ Làm mờ.</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Thời tiết trên thanh trạng thái</string>
     <string name="statusbar_weather_summary">Tùy chỉnh từ Cài đặt nhanh/Thời tiết.</string>
@@ -1137,4 +1084,101 @@
     <string name="system_slider_style_memeround">Tròn Meme</string>
     <string name="system_slider_style_memeroundstroke">Meme tròn nét</string>
     <string name="system_slider_style_memestroke">Meme nét</string>
+    <!-- Themeing -->
+    <string name="dark_ui_mode_summary">Duyệt qua các tùy chọn chủ đề tối</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Chủ đề</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Phông chữ tiêu đề / nội dung</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Hình dạng biểu tượng</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the statusbar icon -->
+    <string name="themes_base">Tiện ích tùy chỉnh cho CherishOS</string>
+    <string name="theme_customization_sysui_icon_title">Biểu tượng thanh trạng thái</string>
+    <string name="theme_customization_settings_icon_title">Biểu tượng cài đặt</string>
+    <string name="theme_customization_systemui_title">Chủ đề cơ sở</string>
+    <string name="themes_color">Chủ đề</string>
+    <string name="themes_summary">Phần chủ đề</string>
+    <!-- Clock style -->
+    <string name="clock_style_title">Kiểu đồng hồ</string>
+    <string name="clock_style_summary">Tùy chỉnh đồng hồ trên màn hình khóa</string>
+    <!-- Custom Signal bar icons -->
+    <string name="custom_signal_bar_title">Tín hiệu</string>
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="custom_wifi_bar_title">Wi-Fi</string>
+    <string name="theme_customization_statusbar_height_title">Chiều cao thanh trạng thái</string>
+    <!-- Customization titles -->
+    <string name="themes_ui">Chủ đề</string>
+    <!-- Accent Picker -->
+    <string name="accent_color_summary">Chọn giọng mong muốn của bạn</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse là một bộ cân bằng đồ họa âm thanh tuyệt vời khi nhạc phát trên thiết bị</string>
+    <string name="pulse_settings">Sóng nhạc</string>
+    <string name="pulse_settings_summary">Bộ cân bằng đồ họa âm thanh cho thanh điều hướng và màn hình khoá</string>
+    <string name="show_navbar_pulse_title">Thanh điều hướng sóng nhạc</string>
+    <string name="show_navbar_pulse_summary">Trình trực quan đồ họa âm thanh trên thanh điều hướng</string>
+    <string name="show_lockscreen_pulse_title">Sóng nhạc trên màn hình khoá</string>
+    <string name="show_lockscreen_pulse_summary">Sóng nhạc trên màn hình khoá</string>
+    <string name="show_ambient_pulse_title">Hiển thị tương tác sóng nhạc</string>
+    <string name="show_ambient_pulse_summary">Trình trực quan đồ họa âm thanh trên thanh điều hướng</string>
+    <string name="pulse_render_mode_title">Chế độ hiển thị</string>
+    <string name="pulse_render_mode_fading_bars">Khối mờ dần</string>
+    <string name="pulse_render_mode_solid_lines">Đường liền nét</string>
+    <string name="pulse_color">Màu sắc</string>
+    <string name="pulse_color_mode">Chế độ màu</string>
+    <string name="pulse_color_accent">Màu nhấn</string>
+    <string name="pulse_color_custom">Tuỳ chỉnh</string>
+    <string name="pulse_color_lava_lamp">Đèn dung nham</string>
+    <string name="pulse_color_auto">Bìa tác phẩm</string>
+    <string name="pulse_color_chooser">Chọn màu</string>
+    <string name="smoothing_enabled_title">Bật làm mượt</string>
+    <string name="smoothing_enabled_summary">Thanh hoạt cảnh mượt hơn</string>
+    <string name="pulse_advanced_category">Nâng cao</string>
+    <string name="pulse_legacy_mode_advanced_category">Cài đặt chế độ khối mờ dần</string>
+    <string name="pulse_custom_fudge_factor">Độ mạnh</string>
+    <string name="lavamp_speed_title">Tốc độ đèn dung nham</string>
+    <string name="pulse_solid_units_count">Số đường liền nét</string>
+    <string name="pulse_solid_units_opacity">Độ mờ đường liền nét</string>
+    <string name="pulse_solid_dimen_category">Cài đặt chế độ đường thẳng liền nét</string>
+    <string name="pulse_custom_dimen">Độ rộng thanh</string>
+    <string name="pulse_custom_div">Khoảng cách thanh</string>
+    <string name="pulse_filled_block_size">Kích thước khối</string>
+    <string name="pulse_empty_block_size">Khoảng cách khối</string>
+    <string name="pulse_solid_units_rounded_title">Số đường liền nét</string>
+    <string name="pulse_solid_units_rounded_summary">Làm tròn các đường nét</string>
+    <string name="qs_footer_datausage_title">Dung lượng sử dụng</string>
+    <string name="qs_footer_datausage_summary">Hiển thị tóm tắt sử dụng dữ liệu trong chân trang cài đặt nhanh</string>
+    <!-- Clock header -->
+    <string name="clock_header_title">Đồng hồ QS</string>
+    <string name="qs_clock_location_title">Vị trí đồng hồ Qs</string>
+    <string name="qs_clock_location_summary">Hiện đồng hồ trên bảng Qs</string>
+    <string name="cherish_clock_gravity_title">Vị trí đồng hồ</string>
+    <string name="left_clock">Trái</string>
+    <string name="center_clock">Giữa</string>
+    <string name="right_clock">Phải</string>
+    <string name="qs_edit_title">Biểu tượng Chỉnh sửa</string>
+    <string name="qs_edit_summary">Kích hoạt biểu tượng chỉnh sửa ô ở chân trang</string>
+    <string name="qs_user_title">Biểu tượng người dùng</string>
+    <string name="qs_user_summary">Kích hoạt biểu tượng chỉnh sửa ô ở chân trang</string>
+    <string name="qs_settings_title">Biểu tượng cài đặt</string>
+    <string name="qs_settings_summary">Kích hoạt biểu tượng chỉnh sửa ô ở chân trang</string>
+    <string name="qs_running_service_title">Biểu tượng dịch vụ đang chạy</string>
+    <string name="qs_running_service_summary">Bật hoặc tắt biểu tượng dịch vụ đang chạy</string>
+    <!-- SearchBar Style -->
+    <string name="search_bar_style_title">Sử dụng Android 12 tìm kiếm</string>
+    <string name="search_bar_style_summary">Chuyển sang sử dụng thanh tìm kiếm kiểu Android 12 trong ứng dụng Cài đặt. Ứng dụng cài đặt cần được khởi động lại theo cách thủ công để thay đổi có hiệu lực.</string>
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Ẩn ứng dụng khỏi đa nhiệm</string>
+    <string name="hide_apps_from_recents_summary">Ngăn ứng dụng xuất hiện trong đa nhiệm</string>
+    <string name="hide_from_recents_add_app">Thêm ứng dụng</string>
+    <string name="title_activity_spark_recents_settings">Gần đây</string>
+    <!-- Power Profiles -->
+    <string name="powersave_title">Tiết kiệm năng lượng</string>
+    <string name="power_profile">Trình tiết kiệm pin</string>
+    <string name="power_profile_default">Mặc định</string>
+    <string name="power_profile_light">Sáng</string>
+    <string name="power_profile_med">Trung bình</string>
+    <string name="power_profile_high">Cao</string>
+    <string name="power_profile_ext">Rất cao</string>
+    <string name="powersave_summary">Các tùy chọn để kéo dài tuổi thọ pin của bạn</string>
 </resources>

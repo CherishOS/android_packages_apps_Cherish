@@ -448,28 +448,6 @@
     <!-- Center R Notification headers -->
     <string name="center_notification_headers_title">Encabezados de notificaciones centrales</string>
     <string name="center_notification_headers_summary">Ya sea para centrar los encabezados de notificación de estilo R (requiere un reinicio de SystemUI)</string>
-    <!-- Dashboard -->
-    <string name="dashboard_conditions_title">Condiciones del tablero</string>
-    <string name="summary_dashboard_conditions_enabled">Las condiciones del panel están habilitadas</string>
-    <string name="summary_dashboard_conditions_disabled">Las condiciones del panel están deshabilitadas</string>
-    <string name="dashboard_suggestions_title">Sugerencias de panel</string>
-    <string name="summary_dashboard_suggestions_enabled">Las sugerencias de panel están habilitadas</string>
-    <string name="summary_dashboard_suggestions_disabled">Las sugerencias de panel están deshabilitadas</string>
-    <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_title">Visualizador de música de pantalla</string>
-    <string name="lockscreen_visualizer_summary">Alternar visualizador de pantalla de bloqueo</string>
-    <string name="lockscreen_visualizer_enable">Visualizador de música</string>
-    <string name="lockscreen_visualizer_enable_summary">Mostrar barras de visualizador mientras reproduce música</string>
-    <string name="lockscreen_autocolor_title">Color automático</string>
-    <string name="lockscreen_autocolor_summary">Sincronizar el color con el fondo de la pantalla de bloqueo</string>
-    <string name="lockscreen_autocolor_lavalamp">Requiere lámpara de lava desactivada</string>
-    <string name="lockscreen_lavalamp_title">Lámpara de lava</string>
-    <string name="lockscreen_lavalamp_summary">Utilice una animación de mezcla de colores de estilo lámpara de lava suave</string>
-    <string name="lockscreen_lavalamp_speed_title">Intervalo de mezcla de colores</string>
-    <string name="lockscreen_solid_lines_category">Lineas solidas</string>
-    <string name="lockscreen_solid_units_count_title">Recuento de líneas</string>
-    <string name="lockscreen_solid_fudge_factor_title">Nivel de cordura</string>
-    <string name="lockscreen_solid_units_opacity_title">Opacidad de líneas</string>
     <!-- Media art -->
     <string name="lockscreen_media_art_title">Diseño multimedia</string>
     <string name="lockscreen_media_art_summary">Alternar la visibilidad del arte multimedia</string>
@@ -585,11 +563,6 @@
     <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <string name="lockscreen_weather_show_image_title">Show Condition Image</string>
     <string name="lockscreen_weather_show_image_summary">Show weather conditions image</string>
-    <!-- QS Header data uasge -->
-    <string name="qs_datausage_title">Uso de datos en el encabezado QS</string>
-    <string name="qs_datausage_disabled">Deshabilitado</string>
-    <string name="qs_datausage_daily">Uso diario</string>
-    <string name="qs_datausage_monthly">Uso mensual</string>
     <!-- Navbar options -->
     <string name="navigation_bar_invert_layout_title">Invertir diseño</string>
     <string name="navigation_bar_invert_layout_summary">Invierte el diseño de la barra de navegación y otros elementos, como el conmutador IME</string>
@@ -683,22 +656,6 @@
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
     <string name="lockscreen_power_menu_disabled_summary">Esto sólo deshabilitará el menú de apagado en pantallas con seguridad establecida</string>
-    <!-- Custom carrier label and position -->
-    <string name="carrier_label_category_title">Ajustes de etiqueta de operador</string>
-    <string name="carrier_label_category_summary">Customize statusbar carrierlabel</string>
-    <string name="carrier_label_settings_title">Carrier Label</string>
-    <string name="carrier_label_settings_summary">Customize the carrier label</string>
-    <string name="custom_carrier_label_title">Custom carrier label</string>
-    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
-    <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="show_carrier_title">Carrier label</string>
-    <string name="show_carrier_disabled">Deshabilitado</string>
-    <string name="show_carrier_keyguard">Lockscreen only</string>
-    <string name="show_carrier_statusbar">Statusbar only</string>
-    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
-    <string name="status_bar_carrier_color">Carrier label color</string>
-    <string name="status_bar_carrier_size">Carrier label size</string>
-    <string name="status_bar_carrier_font_style_title">Carrier Label Font</string>
     <!-- Brightness Slider style -->
     <string name="brightness_slider_style_title">Brightness slider style</string>
     <string name="brightness_slider_style_default">Defecto</string>
@@ -727,8 +684,6 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Brightness slider</string>
     <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
-    <string name="qs_show_auto_brightness_title">Icono de brillo automático</string>
-    <string name="qs_show_auto_brightness_summary">Mostrar un interruptor de brillo automático cerca del control deslizante de brillo</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Panel background style</string>
     <string name="panel_bg_dialog_title">Select panel background model</string>
@@ -746,8 +701,6 @@
     <!-- Quick Settings quick pulldown -->
     <string name="quick_settings_quick_pull_down_title">Quick Settings quick pull-down</string>
     <string name="quick_settings_quick_pull_down_summary">Automatically expand Quick Settings when pulling from the right side of the status bar</string>
-    <string name="qs_edit_title">Edit Icon</string>
-    <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">Allow signature spoofing</string>
     <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app.</string>
@@ -918,8 +871,6 @@
     <!-- Volume panel extras -->
     <string name="volume_panel_tint_title">Tint the active volume bar</string>
     <string name="volume_panel_tint_summary">Use a color gradient to tint the active volume bar</string>
-    <!-- Notification background opacity -->
-    <string name="notification_alpha_title">Notification background opacity</string>
     <!-- Global Actions -->
     <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
     <string name="powermenu_advanced_reboot_summary">Enables access to recovery and bootloader</string>
@@ -974,6 +925,8 @@
     <string name="display_cutout_style_hide">Esconder</string>
     <string name="stock_statusbar_in_hide">Stock statusbar height</string>
     <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="display_hide_notch_title">Hide display cutout</string>
+    <string name="display_hide_notch_summary">Disable black fill-in for display cutout</string>
     <!-- Rounded corners -->
     <string name="corners_category">Corners</string>
     <string name="corner_radius">Rounded corner radius</string>
@@ -992,9 +945,6 @@
     <string name="text_charging_symbol_dollar">Dollar</string>
     <string name="text_charging_symbol_euro">Euro</string>
     <string name="text_charging_symbol_cent">Cent</string>
-    <!-- Qs Clock -->
-    <string name="oos_qsclock">Qs clock</string>
-    <string name="oos_qsclock_summary">Display an oos like clock on qs</string>
     <!-- FOD Icon Picker -->
     <string name="fod_icon_picker_category_title">FOD settings</string>
     <!-- FOD animations -->
@@ -1107,9 +1057,6 @@
     <string name="alarm_blocker_reload">Reload</string>
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
-    <!-- Lockscreen blur -->
-    <string name="lockscreen_blur_title">Background blur</string>
-    <string name="lockscreen_blur_disabled">Lock screen Blur cannot be enabled because your current lock screen wallpaper does not match your home screen one, or your device does not support Blur at all.</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Status bar weather</string>
     <string name="statusbar_weather_summary">Configure from QS settings/Weather.</string>
@@ -1137,4 +1084,101 @@
     <string name="system_slider_style_memeround">Meme round</string>
     <string name="system_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="system_slider_style_memestroke">Meme stroke</string>
+    <!-- Themeing -->
+    <string name="dark_ui_mode_summary">Browse the dark theme options</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Theming</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the statusbar icon -->
+    <string name="themes_base">System Customisation for CherishOS</string>
+    <string name="theme_customization_sysui_icon_title">Icono de barra de estado</string>
+    <string name="theme_customization_settings_icon_title">Settings icons</string>
+    <string name="theme_customization_systemui_title">Base Theme</string>
+    <string name="themes_color">Theming</string>
+    <string name="themes_summary">Theming section</string>
+    <!-- Clock style -->
+    <string name="clock_style_title">Estilo reloj</string>
+    <string name="clock_style_summary">Personalizar el reloj de la Pantalla de Bloqueo</string>
+    <!-- Custom Signal bar icons -->
+    <string name="custom_signal_bar_title">Signal</string>
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="custom_wifi_bar_title">Wi-Fi</string>
+    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
+    <!-- Customization titles -->
+    <string name="themes_ui">Themes UI</string>
+    <!-- Accent Picker -->
+    <string name="accent_color_summary">Choose your desired accent</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
+    <string name="show_navbar_pulse_title">Navbar Pulse</string>
+    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
+    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
+    <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
+    <string name="pulse_render_mode_title">Render mode</string>
+    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
+    <string name="pulse_render_mode_solid_lines">Solid lines</string>
+    <string name="pulse_color">Color</string>
+    <string name="pulse_color_mode">Color mode</string>
+    <string name="pulse_color_accent">Accent</string>
+    <string name="pulse_color_custom">Personalizado</string>
+    <string name="pulse_color_lava_lamp">Lámpara de lava</string>
+    <string name="pulse_color_auto">Album art</string>
+    <string name="pulse_color_chooser">Choose color</string>
+    <string name="smoothing_enabled_title">Turn on smoothing</string>
+    <string name="smoothing_enabled_summary">Each bar is animated more smoothly</string>
+    <string name="pulse_advanced_category">Avanzado</string>
+    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
+    <string name="pulse_custom_fudge_factor">Nivel de cordura</string>
+    <string name="lavamp_speed_title">Lava lamp speed</string>
+    <string name="pulse_solid_units_count">Solid lines count</string>
+    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
+    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
+    <string name="pulse_custom_dimen">Bar width</string>
+    <string name="pulse_custom_div">Bar spacing</string>
+    <string name="pulse_filled_block_size">Block size</string>
+    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_solid_units_rounded_title">Solid lines rounded</string>
+    <string name="pulse_solid_units_rounded_summary">Round the solid lines</string>
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <!-- Clock header -->
+    <string name="clock_header_title">QS Clock</string>
+    <string name="qs_clock_location_title">Qs clock location</string>
+    <string name="qs_clock_location_summary">Show clock in QS Panel</string>
+    <string name="cherish_clock_gravity_title">Clock position</string>
+    <string name="left_clock">Izquierda</string>
+    <string name="center_clock">Centrar</string>
+    <string name="right_clock">Correcto</string>
+    <string name="qs_edit_title">Edit Icon</string>
+    <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
+    <string name="qs_user_title">User icon</string>
+    <string name="qs_user_summary">Display the tile user icon in the QS  footer</string>
+    <string name="qs_settings_title">Settings icon</string>
+    <string name="qs_settings_summary">Display the tile settings icon in the QS  footer</string>
+    <string name="qs_running_service_title">Running service icon</string>
+    <string name="qs_running_service_summary">Enable or disable running service icon</string>
+    <!-- SearchBar Style -->
+    <string name="search_bar_style_title">Use Android 12 Search Bar</string>
+    <string name="search_bar_style_summary">Toggle to use Android 12 style searchbar in Settings app. Settings app needs to be manually restarted for the change to take effect.</string>
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Hide apps from recents</string>
+    <string name="hide_apps_from_recents_summary">Hide apps from appearing in recents</string>
+    <string name="hide_from_recents_add_app">Agregar aplicación</string>
+    <string name="title_activity_spark_recents_settings">recientes</string>
+    <!-- Power Profiles -->
+    <string name="powersave_title">Power Saving</string>
+    <string name="power_profile">Battery saver profile</string>
+    <string name="power_profile_default">Defecto</string>
+    <string name="power_profile_light">Ligero</string>
+    <string name="power_profile_med">Moderate</string>
+    <string name="power_profile_high">High</string>
+    <string name="power_profile_ext">Extreme</string>
+    <string name="powersave_summary">Options to extend your battery life</string>
 </resources>

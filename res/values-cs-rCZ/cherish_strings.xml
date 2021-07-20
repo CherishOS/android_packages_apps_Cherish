@@ -448,28 +448,6 @@
     <!-- Center R Notification headers -->
     <string name="center_notification_headers_title">Vycentrovat záhlaví oznámení</string>
     <string name="center_notification_headers_summary">Vycentrovat záhlaví oznámení při R stylu (vyžaduje restart System UI)</string>
-    <!-- Dashboard -->
-    <string name="dashboard_conditions_title">Podmínky hlavního panelu</string>
-    <string name="summary_dashboard_conditions_enabled">Podmínky hlavního panelu jsou povoleny</string>
-    <string name="summary_dashboard_conditions_disabled">Podmínky hlavního panelu jsou zakázány</string>
-    <string name="dashboard_suggestions_title">Návrhy hlavního panelu</string>
-    <string name="summary_dashboard_suggestions_enabled">Návrhy hlavního panelu jsou povoleny</string>
-    <string name="summary_dashboard_suggestions_disabled">Návrhy hlavního panelu jsou zakázány</string>
-    <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_title">Zobrazit hudební vizualizaci</string>
-    <string name="lockscreen_visualizer_summary">Přepnout vizualizaci na zamykací obrazovce</string>
-    <string name="lockscreen_visualizer_enable">Vizualizace hudby</string>
-    <string name="lockscreen_visualizer_enable_summary">Při přehrávání hudby zobrazit vizualizační pruhy</string>
-    <string name="lockscreen_autocolor_title">Automatická barva</string>
-    <string name="lockscreen_autocolor_summary">Synchronizovat barvu s pozadím zamykací obrazovky</string>
-    <string name="lockscreen_autocolor_lavalamp">Vyžaduje vypnutí lávové lampy</string>
-    <string name="lockscreen_lavalamp_title">Lávová lampa</string>
-    <string name="lockscreen_lavalamp_summary">Použít hladkou barevnou animaci ve stylu lávové lampy</string>
-    <string name="lockscreen_lavalamp_speed_title">Interval míchání barev</string>
-    <string name="lockscreen_solid_lines_category">Plné čáry</string>
-    <string name="lockscreen_solid_units_count_title">Počet čar</string>
-    <string name="lockscreen_solid_fudge_factor_title">Úroveň výkonu</string>
-    <string name="lockscreen_solid_units_opacity_title">Neprůhlednost čar</string>
     <!-- Media art -->
     <string name="lockscreen_media_art_title">Obal interpreta</string>
     <string name="lockscreen_media_art_summary">Přepnout viditelnost obalu interpreta</string>
@@ -585,11 +563,6 @@
     <string name="lockscreen_weather_show_temp_summary">Zobrazit aktuální teplotu ve městě vpravo od obrázku</string>
     <string name="lockscreen_weather_show_image_title">Zobrazit obrázek stavu počasí</string>
     <string name="lockscreen_weather_show_image_summary">Zobrazení stavu počasí</string>
-    <!-- QS Header data uasge -->
-    <string name="qs_datausage_title">Využití dat v záhlaví QS</string>
-    <string name="qs_datausage_disabled">Vypnuto</string>
-    <string name="qs_datausage_daily">Denní využití</string>
-    <string name="qs_datausage_monthly">Měsíční využití</string>
     <!-- Navbar options -->
     <string name="navigation_bar_invert_layout_title">Převrátit rozložení</string>
     <string name="navigation_bar_invert_layout_summary">Převrátí rozložení navigačního panelu a dalších položek, jako např. přepínače metody vstupu (IME)</string>
@@ -683,22 +656,6 @@
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Zakázat menu napájení na zamykací obrazovce</string>
     <string name="lockscreen_power_menu_disabled_summary">Toto zakáže nabídku napájení na zabezpečené uzamčené obrazovce</string>
-    <!-- Custom carrier label and position -->
-    <string name="carrier_label_category_title">Nastavení názvu operátora</string>
-    <string name="carrier_label_category_summary">Přizpůsobit název operátora ve stavovém řádku</string>
-    <string name="carrier_label_settings_title">Název mobilní sítě</string>
-    <string name="carrier_label_settings_summary">Přizpůsobit název operátora</string>
-    <string name="custom_carrier_label_title">Vlastní název mobilní sítě</string>
-    <string name="custom_carrier_label_explain">Zadejte, prosím, nový název. Nechte prázdné pro navrácení k původnímu.</string>
-    <string name="custom_carrier_label_notset">V současné době není nastaven vlastní název operátora</string>
-    <string name="show_carrier_title">Název mobilní sítě</string>
-    <string name="show_carrier_disabled">Vypnuto</string>
-    <string name="show_carrier_keyguard">Pouze na zamykací obrazovce</string>
-    <string name="show_carrier_statusbar">Pouze stavová lišta</string>
-    <string name="show_carrier_enabled">Zamykací obrazovka &amp; stavová lišta</string>
-    <string name="status_bar_carrier_color">Barva popisku operátora</string>
-    <string name="status_bar_carrier_size">Velikost názvu operátora</string>
-    <string name="status_bar_carrier_font_style_title">Styl popisku operátora</string>
     <!-- Brightness Slider style -->
     <string name="brightness_slider_style_title">Stal posuvníku jasu</string>
     <string name="brightness_slider_style_default">Výchozí</string>
@@ -727,8 +684,6 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Posuvník jasu</string>
     <string name="qs_show_brightness_slider_summary">Zobrazit posuvník jasu v panelu rychlého nastavení</string>
-    <string name="qs_show_auto_brightness_title">Ikona automatického jasu</string>
-    <string name="qs_show_auto_brightness_summary">Zobrazit přepínač pro automatický jas poblíž posuvníku</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">Styl pozadí panelu</string>
     <string name="panel_bg_dialog_title">Vyberte model pozadí panelu</string>
@@ -746,8 +701,6 @@
     <!-- Quick Settings quick pulldown -->
     <string name="quick_settings_quick_pull_down_title">Rychlá nastavení rychlým stažením</string>
     <string name="quick_settings_quick_pull_down_summary">Automaticky rozbalit panel rychlého nastavení při stažení z pravé strany obrazovky</string>
-    <string name="qs_edit_title">Upravit ikonu</string>
-    <string name="qs_edit_summary">Povolit ikonu úprav dlaždic v zápatí</string>
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">Povolit napodobení podpisu aplikace</string>
     <string name="allow_signature_fake_summary">Umožnit aplikacím obejít bezpečnostní systémy tím, že se budou tvářit jako jiné aplikace.</string>
@@ -918,8 +871,6 @@
     <!-- Volume panel extras -->
     <string name="volume_panel_tint_title">Zapnout odstín aktivní lišty hlasitosti</string>
     <string name="volume_panel_tint_summary">Použít přechod barev pro odstín aktivní lišty hlasitosti</string>
-    <!-- Notification background opacity -->
-    <string name="notification_alpha_title">Barva pozadí oznámení</string>
     <!-- Global Actions -->
     <string name="powermenu_advanced_reboot_title">Rozšířený restart</string>
     <string name="powermenu_advanced_reboot_summary">Umožňuje přístup k obnovení a zavaděči</string>
@@ -974,6 +925,8 @@
     <string name="display_cutout_style_hide">Skrýt</string>
     <string name="stock_statusbar_in_hide">Stock statusbar height</string>
     <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="display_hide_notch_title">Hide display cutout</string>
+    <string name="display_hide_notch_summary">Disable black fill-in for display cutout</string>
     <!-- Rounded corners -->
     <string name="corners_category">Corners</string>
     <string name="corner_radius">Poloměr zaoblených rohů</string>
@@ -992,9 +945,6 @@
     <string name="text_charging_symbol_dollar">Dollar</string>
     <string name="text_charging_symbol_euro">Euro</string>
     <string name="text_charging_symbol_cent">Cent</string>
-    <!-- Qs Clock -->
-    <string name="oos_qsclock">Qs clock</string>
-    <string name="oos_qsclock_summary">Display an oos like clock on qs</string>
     <!-- FOD Icon Picker -->
     <string name="fod_icon_picker_category_title">FOD settings</string>
     <!-- FOD animations -->
@@ -1107,9 +1057,6 @@
     <string name="alarm_blocker_reload">Reload</string>
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
-    <!-- Lockscreen blur -->
-    <string name="lockscreen_blur_title">Background blur</string>
-    <string name="lockscreen_blur_disabled">Lock screen Blur cannot be enabled because your current lock screen wallpaper does not match your home screen one, or your device does not support Blur at all.</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Status bar weather</string>
     <string name="statusbar_weather_summary">Configure from QS settings/Weather.</string>
@@ -1137,4 +1084,101 @@
     <string name="system_slider_style_memeround">Meme round</string>
     <string name="system_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="system_slider_style_memestroke">Meme stroke</string>
+    <!-- Themeing -->
+    <string name="dark_ui_mode_summary">Browse the dark theme options</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Theming</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the statusbar icon -->
+    <string name="themes_base">System Customisation for CherishOS</string>
+    <string name="theme_customization_sysui_icon_title">Ikona ve stavové liště</string>
+    <string name="theme_customization_settings_icon_title">Settings icons</string>
+    <string name="theme_customization_systemui_title">Base Theme</string>
+    <string name="themes_color">Theming</string>
+    <string name="themes_summary">Theming section</string>
+    <!-- Clock style -->
+    <string name="clock_style_title">Umístění hodin</string>
+    <string name="clock_style_summary">Přizpůsobení hodin zamykací obrazovky</string>
+    <!-- Custom Signal bar icons -->
+    <string name="custom_signal_bar_title">Signal</string>
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="custom_wifi_bar_title">Wi-Fi</string>
+    <string name="theme_customization_statusbar_height_title">Výška stavového řádku</string>
+    <!-- Customization titles -->
+    <string name="themes_ui">Themes UI</string>
+    <!-- Accent Picker -->
+    <string name="accent_color_summary">Choose your desired accent</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_settings">Pulz</string>
+    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
+    <string name="show_navbar_pulse_title">Navbar Pulse</string>
+    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
+    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
+    <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
+    <string name="pulse_render_mode_title">Render mode</string>
+    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
+    <string name="pulse_render_mode_solid_lines">Solid lines</string>
+    <string name="pulse_color">Barva</string>
+    <string name="pulse_color_mode">Barevný režim</string>
+    <string name="pulse_color_accent">Odstín</string>
+    <string name="pulse_color_custom">Vlastní</string>
+    <string name="pulse_color_lava_lamp">Lávová lampa</string>
+    <string name="pulse_color_auto">Album art</string>
+    <string name="pulse_color_chooser">Choose color</string>
+    <string name="smoothing_enabled_title">Turn on smoothing</string>
+    <string name="smoothing_enabled_summary">Each bar is animated more smoothly</string>
+    <string name="pulse_advanced_category">Pokročilé</string>
+    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
+    <string name="pulse_custom_fudge_factor">Úroveň výkonu</string>
+    <string name="lavamp_speed_title">Lava lamp speed</string>
+    <string name="pulse_solid_units_count">Solid lines count</string>
+    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
+    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
+    <string name="pulse_custom_dimen">Bar width</string>
+    <string name="pulse_custom_div">Bar spacing</string>
+    <string name="pulse_filled_block_size">Block size</string>
+    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_solid_units_rounded_title">Solid lines rounded</string>
+    <string name="pulse_solid_units_rounded_summary">Round the solid lines</string>
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <!-- Clock header -->
+    <string name="clock_header_title">QS Clock</string>
+    <string name="qs_clock_location_title">Qs clock location</string>
+    <string name="qs_clock_location_summary">Show clock in QS Panel</string>
+    <string name="cherish_clock_gravity_title">Clock position</string>
+    <string name="left_clock">Vlevo</string>
+    <string name="center_clock">Střed</string>
+    <string name="right_clock">Právo</string>
+    <string name="qs_edit_title">Upravit ikonu</string>
+    <string name="qs_edit_summary">Povolit ikonu úprav dlaždic v zápatí</string>
+    <string name="qs_user_title">User icon</string>
+    <string name="qs_user_summary">Display the tile user icon in the QS  footer</string>
+    <string name="qs_settings_title">Settings icon</string>
+    <string name="qs_settings_summary">Display the tile settings icon in the QS  footer</string>
+    <string name="qs_running_service_title">Running service icon</string>
+    <string name="qs_running_service_summary">Enable or disable running service icon</string>
+    <!-- SearchBar Style -->
+    <string name="search_bar_style_title">Use Android 12 Search Bar</string>
+    <string name="search_bar_style_summary">Toggle to use Android 12 style searchbar in Settings app. Settings app needs to be manually restarted for the change to take effect.</string>
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Hide apps from recents</string>
+    <string name="hide_apps_from_recents_summary">Hide apps from appearing in recents</string>
+    <string name="hide_from_recents_add_app">Přidat aplikaci</string>
+    <string name="title_activity_spark_recents_settings">Nedávné</string>
+    <!-- Power Profiles -->
+    <string name="powersave_title">Power Saving</string>
+    <string name="power_profile">Battery saver profile</string>
+    <string name="power_profile_default">Výchozí</string>
+    <string name="power_profile_light">Světlý</string>
+    <string name="power_profile_med">Moderate</string>
+    <string name="power_profile_high">High</string>
+    <string name="power_profile_ext">Extreme</string>
+    <string name="powersave_summary">Options to extend your battery life</string>
 </resources>

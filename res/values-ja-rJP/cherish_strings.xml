@@ -448,28 +448,6 @@
     <!-- Center R Notification headers -->
     <string name="center_notification_headers_title">中央配置の通知ヘッダー</string>
     <string name="center_notification_headers_summary">中央揃えのRスタイルの通知ヘッダーに切り替えるか選択する (システム UI の再起動が必要です)</string>
-    <!-- Dashboard -->
-    <string name="dashboard_conditions_title">ダッシュボードの状態表示</string>
-    <string name="summary_dashboard_conditions_enabled">ダッシュボードの状態表示が有効です</string>
-    <string name="summary_dashboard_conditions_disabled">ダッシュボードの状態表示が無効です</string>
-    <string name="dashboard_suggestions_title">ダッシュボードの候補表示</string>
-    <string name="summary_dashboard_suggestions_enabled">ダッシュボードの候補の表示有効です</string>
-    <string name="summary_dashboard_suggestions_disabled">ダッシュボードの候補表示が無効です</string>
-    <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_title">音楽ビジュアライザーの表示</string>
-    <string name="lockscreen_visualizer_summary">ロック画面のビジュアライザーの切替え</string>
-    <string name="lockscreen_visualizer_enable">音楽ビジュアライザー</string>
-    <string name="lockscreen_visualizer_enable_summary">音楽再生中はビジュアライザーのバーを表示する</string>
-    <string name="lockscreen_autocolor_title">自動設定の色</string>
-    <string name="lockscreen_autocolor_summary">背景と色を同期させる</string>
-    <string name="lockscreen_autocolor_lavalamp">ラーヴァランプモードを無効化して下さい</string>
-    <string name="lockscreen_lavalamp_title">ラーヴァランプ</string>
-    <string name="lockscreen_lavalamp_summary">滑らかなラーヴァランプのスタイルの色が混ざったアニメーションを使う</string>
-    <string name="lockscreen_lavalamp_speed_title">色を混ぜる時間の間隔</string>
-    <string name="lockscreen_solid_lines_category">ソリッドライン</string>
-    <string name="lockscreen_solid_units_count_title">ソリッドラインの数</string>
-    <string name="lockscreen_solid_fudge_factor_title">感度レベル</string>
-    <string name="lockscreen_solid_units_opacity_title">ソリッドラインの不透明度</string>
     <!-- Media art -->
     <string name="lockscreen_media_art_title">メディアアート</string>
     <string name="lockscreen_media_art_summary">メディアアートの表示を切り替える</string>
@@ -585,11 +563,6 @@
     <string name="lockscreen_weather_show_temp_summary">画像の右に現在の都市の気温を表示する</string>
     <string name="lockscreen_weather_show_image_title">天気の絵を表示</string>
     <string name="lockscreen_weather_show_image_summary">天気の絵を表示する</string>
-    <!-- QS Header data uasge -->
-    <string name="qs_datausage_title">クイック設定ヘッダーのデータ使用量</string>
-    <string name="qs_datausage_disabled">無効</string>
-    <string name="qs_datausage_daily">毎日の使用量</string>
-    <string name="qs_datausage_monthly">毎月の使用量</string>
     <!-- Navbar options -->
     <string name="navigation_bar_invert_layout_title">レイアウトの反転</string>
     <string name="navigation_bar_invert_layout_summary">ナビゲーションバーや IEM 切替えのようなその他の項目のレイアウトを反転させる</string>
@@ -683,22 +656,6 @@
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">電源メニュー無効化</string>
     <string name="lockscreen_power_menu_disabled_summary">保護されたロック画面で電源メニューを非表示にする</string>
-    <!-- Custom carrier label and position -->
-    <string name="carrier_label_category_title">キャリアラベルの設定</string>
-    <string name="carrier_label_category_summary">ステータスバーのキャリアラベルを編集する</string>
-    <string name="carrier_label_settings_title">キャリアラベル</string>
-    <string name="carrier_label_settings_summary">キャリアラベルを編集する</string>
-    <string name="custom_carrier_label_title">カスタムのキャリアラベル</string>
-    <string name="custom_carrier_label_explain">新しいラベル名を入力して下さい。空白のままにすると標準のラベルに戻ります。</string>
-    <string name="custom_carrier_label_notset">カスタムラベルは設定されていません</string>
-    <string name="show_carrier_title">キャリアラベル</string>
-    <string name="show_carrier_disabled">無効</string>
-    <string name="show_carrier_keyguard">ロック画面のみ</string>
-    <string name="show_carrier_statusbar">ステータスバーのみ</string>
-    <string name="show_carrier_enabled">両方</string>
-    <string name="status_bar_carrier_color">キャリアラベルの色</string>
-    <string name="status_bar_carrier_size">キャリアラベルの文字サイズ</string>
-    <string name="status_bar_carrier_font_style_title">キャリアラベルのフォント</string>
     <!-- Brightness Slider style -->
     <string name="brightness_slider_style_title">明るさスライダーのスタイル</string>
     <string name="brightness_slider_style_default">既定</string>
@@ -727,8 +684,6 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">クイック設定の明るさスライダー</string>
     <string name="qs_show_brightness_slider_summary">クイック設定パネルに明るさスライダーを表示する</string>
-    <string name="qs_show_auto_brightness_title">自動明るさアイコン</string>
-    <string name="qs_show_auto_brightness_summary">スライダーの近くに明るさ自動調節のトグルを表示する</string>
     <!-- Panel Background style -->
     <string name="panel_bg_title">パネルの背景のスタイル</string>
     <string name="panel_bg_dialog_title">パネルのバックグラウンドモデルを選択する</string>
@@ -746,8 +701,6 @@
     <!-- Quick Settings quick pulldown -->
     <string name="quick_settings_quick_pull_down_title">クイックプルダウン</string>
     <string name="quick_settings_quick_pull_down_summary">ステータスバーの右端からプルダウンした時にクイック設定を自動で展開する</string>
-    <string name="qs_edit_title">編集アイコン</string>
-    <string name="qs_edit_summary">フッターのタイル編集アイコンを有効化する</string>
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">署名の偽装を許可</string>
     <string name="allow_signature_fake_summary">アプリが別のアプリになりすましてセキュリティシステムを通過できるようにする</string>
@@ -918,8 +871,6 @@
     <!-- Volume panel extras -->
     <string name="volume_panel_tint_title">アクティブな音量バーの色</string>
     <string name="volume_panel_tint_summary">アクティブな音量バーに色のグラデーションを使用する</string>
-    <!-- Notification background opacity -->
-    <string name="notification_alpha_title">通知の背景の透明度</string>
     <!-- Global Actions -->
     <string name="powermenu_advanced_reboot_title">高度な再起動</string>
     <string name="powermenu_advanced_reboot_summary">リカバリーとブートローダーへの再起動を有効にする</string>
@@ -974,6 +925,8 @@
     <string name="display_cutout_style_hide">非表示</string>
     <string name="stock_statusbar_in_hide">標準のステータスバーの高さ</string>
     <string name="stock_statusbar_in_hide_summary">非表示時は既定のステータスバーの高さを使う</string>
+    <string name="display_hide_notch_title">Hide display cutout</string>
+    <string name="display_hide_notch_summary">Disable black fill-in for display cutout</string>
     <!-- Rounded corners -->
     <string name="corners_category">画面の角</string>
     <string name="corner_radius">画面の丸い角の半径</string>
@@ -992,9 +945,6 @@
     <string name="text_charging_symbol_dollar">ドル</string>
     <string name="text_charging_symbol_euro">ユーロ</string>
     <string name="text_charging_symbol_cent">セント</string>
-    <!-- Qs Clock -->
-    <string name="oos_qsclock">クイック設定の時計</string>
-    <string name="oos_qsclock_summary">クイック設定に OOS のような時計を表示する</string>
     <!-- FOD Icon Picker -->
     <string name="fod_icon_picker_category_title">指紋認証の設定</string>
     <!-- FOD animations -->
@@ -1107,9 +1057,6 @@
     <string name="alarm_blocker_reload">再読み込み</string>
     <string name="alarm_blocker_warning_title">注意して進めて下さい</string>
     <string name="alarm_blocker_warning">Alarm のブロックは端末を不安定にしたり、クラッシュやデータの損失などを起こす可能性があります。</string>
-    <!-- Lockscreen blur -->
-    <string name="lockscreen_blur_title">背景のぼかし</string>
-    <string name="lockscreen_blur_disabled">現在のロック画面の壁紙がホーム画面の壁紙と一致しないためか、お使いの端末がぼかしに完全に対応していないため、ロック画面のぼかしを有効化できません。</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">ステータスバーの天気</string>
     <string name="statusbar_weather_summary">クイック設定/天気から設定して下さい</string>
@@ -1137,4 +1084,101 @@
     <string name="system_slider_style_memeround">Meme round</string>
     <string name="system_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="system_slider_style_memestroke">Meme stroke</string>
+    <!-- Themeing -->
+    <string name="dark_ui_mode_summary">Browse the dark theme options</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Theming</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the statusbar icon -->
+    <string name="themes_base">System Customisation for CherishOS</string>
+    <string name="theme_customization_sysui_icon_title">ステータスバーのアイコン</string>
+    <string name="theme_customization_settings_icon_title">Settings icons</string>
+    <string name="theme_customization_systemui_title">Base Theme</string>
+    <string name="themes_color">Theming</string>
+    <string name="themes_summary">Theming section</string>
+    <!-- Clock style -->
+    <string name="clock_style_title">時計のスタイル</string>
+    <string name="clock_style_summary">ロック画面の時計を編集する</string>
+    <!-- Custom Signal bar icons -->
+    <string name="custom_signal_bar_title">Signal</string>
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="custom_wifi_bar_title">Wi-Fi</string>
+    <string name="theme_customization_statusbar_height_title">ステータスバーの高さ</string>
+    <!-- Customization titles -->
+    <string name="themes_ui">Themes UI</string>
+    <!-- Accent Picker -->
+    <string name="accent_color_summary">Choose your desired accent</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_settings">パルス</string>
+    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
+    <string name="show_navbar_pulse_title">Navbar Pulse</string>
+    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
+    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
+    <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
+    <string name="pulse_render_mode_title">Render mode</string>
+    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
+    <string name="pulse_render_mode_solid_lines">Solid lines</string>
+    <string name="pulse_color">色</string>
+    <string name="pulse_color_mode">色のモード</string>
+    <string name="pulse_color_accent">アクセント</string>
+    <string name="pulse_color_custom">カスタム</string>
+    <string name="pulse_color_lava_lamp">ラーヴァランプ</string>
+    <string name="pulse_color_auto">Album art</string>
+    <string name="pulse_color_chooser">Choose color</string>
+    <string name="smoothing_enabled_title">Turn on smoothing</string>
+    <string name="smoothing_enabled_summary">Each bar is animated more smoothly</string>
+    <string name="pulse_advanced_category">高度な設定</string>
+    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
+    <string name="pulse_custom_fudge_factor">感度レベル</string>
+    <string name="lavamp_speed_title">Lava lamp speed</string>
+    <string name="pulse_solid_units_count">Solid lines count</string>
+    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
+    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
+    <string name="pulse_custom_dimen">Bar width</string>
+    <string name="pulse_custom_div">Bar spacing</string>
+    <string name="pulse_filled_block_size">Block size</string>
+    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_solid_units_rounded_title">Solid lines rounded</string>
+    <string name="pulse_solid_units_rounded_summary">Round the solid lines</string>
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <!-- Clock header -->
+    <string name="clock_header_title">QS Clock</string>
+    <string name="qs_clock_location_title">Qs clock location</string>
+    <string name="qs_clock_location_summary">Show clock in QS Panel</string>
+    <string name="cherish_clock_gravity_title">Clock position</string>
+    <string name="left_clock">左</string>
+    <string name="center_clock">中央</string>
+    <string name="right_clock">右</string>
+    <string name="qs_edit_title">編集アイコン</string>
+    <string name="qs_edit_summary">フッターのタイル編集アイコンを有効化する</string>
+    <string name="qs_user_title">User icon</string>
+    <string name="qs_user_summary">Display the tile user icon in the QS  footer</string>
+    <string name="qs_settings_title">Settings icon</string>
+    <string name="qs_settings_summary">Display the tile settings icon in the QS  footer</string>
+    <string name="qs_running_service_title">Running service icon</string>
+    <string name="qs_running_service_summary">Enable or disable running service icon</string>
+    <!-- SearchBar Style -->
+    <string name="search_bar_style_title">Use Android 12 Search Bar</string>
+    <string name="search_bar_style_summary">Toggle to use Android 12 style searchbar in Settings app. Settings app needs to be manually restarted for the change to take effect.</string>
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Hide apps from recents</string>
+    <string name="hide_apps_from_recents_summary">Hide apps from appearing in recents</string>
+    <string name="hide_from_recents_add_app">アプリを追加</string>
+    <string name="title_activity_spark_recents_settings">アプリ履歴</string>
+    <!-- Power Profiles -->
+    <string name="powersave_title">Power Saving</string>
+    <string name="power_profile">Battery saver profile</string>
+    <string name="power_profile_default">既定</string>
+    <string name="power_profile_light">ライト</string>
+    <string name="power_profile_med">Moderate</string>
+    <string name="power_profile_high">High</string>
+    <string name="power_profile_ext">Extreme</string>
+    <string name="powersave_summary">Options to extend your battery life</string>
 </resources>
