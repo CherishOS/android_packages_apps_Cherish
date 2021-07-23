@@ -173,6 +173,13 @@
         android:dialogTitle="@string/panel_bg_dialog_title"
         android:entries="@array/panel_bg_titles"
         android:entryValues="@array/panel_bg_values" />
+		
+	<!-- Hide notch fill -->
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="display_hide_notch"
+        android:title="@string/display_hide_notch_title"
+        android:summary="@string/display_hide_notch_summary"
+        android:defaultValue="false" />
 	</PreferenceCategory>
 	
 	<PreferenceCategory

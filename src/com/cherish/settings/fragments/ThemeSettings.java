@@ -57,6 +57,7 @@ import com.android.internal.util.cherish.ThemesUtils;
 import com.android.internal.util.cherish.CherishUtils;
 import com.android.settings.dashboard.DashboardFragment;
 import com.cherish.settings.preferences.SystemSettingListPreference;
+import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
@@ -79,6 +80,7 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
 	static final int DEFAULT = 0xff1a73e8;
 	private static final String QS_PANEL_COLOR = "qs_panel_color";
 	private static final String SWITCH_STYLE = "switch_style";
+	private static final String HIDE_NOTCH = "display_hide_notch";
 	
     private SystemSettingListPreference mSwitchStyle;
     private ColorPickerPreference mQsPanelColor;
@@ -95,6 +97,7 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     private ListPreference mQsHeaderStyle;
     private ListPreference mQsTileStyle;
 	private ListPreference mGesbar;
+	private SystemSettingSwitchPreference mHideNotch;
 	
 	private IntentFilter mIntentFilter;
     private static FontPickerPreferenceController mFontPickerPreference;
@@ -150,9 +153,17 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+		final Resources res = getResources();
 		
 		mIntentFilter = new IntentFilter();
         mIntentFilter.addAction("com.android.server.ACTION_FONT_CHANGED");
+		
+		mHideNotch = (SystemSettingSwitchPreference) prefScreen.findPreference(HIDE_NOTCH);
+        boolean mHideNotchSupported = res.getBoolean(
+                com.android.internal.R.bool.config_showHideNotchSettings);
+        if (!mHideNotchSupported) {
+            prefScreen.removePreference(mHideNotch);
+        }
 		
 	mSwitchStyle = (SystemSettingListPreference)findPreference(SWITCH_STYLE);
         int switchStyle = Settings.System.getInt(resolver,Settings.System.SWITCH_STYLE, 2);
