@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2020 ProjectFluid
+<!--
+     Copyright (C) 2020 ProjectFluid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,8 +15,13 @@
      limitations under the License.
 -->
 
-<resources>
-
-	<color name="preview_container_border">@*android:color/accent_device_default_light</color>
-
-</resources>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="314.44dp"
+                android:height="125dp" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/tiles_shape_preview" android:gravity="right"/>
+    <item android:drawable="@drawable/accent_elements_preview" android:gravity="left"/>
+</layer-list>

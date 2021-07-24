@@ -31,4 +31,5 @@
 	
 	<!-- FOD icon picker -->
     <color name="fod_item_background_stroke_color">#d6d6d6</color>
+	<color name="preview_container_border">@*android:color/accent_device_default_light</color>
 </resources>

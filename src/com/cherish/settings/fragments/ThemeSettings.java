@@ -240,7 +240,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         return true;
     }
 	
-	Override
+	@Override
     protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
         return buildPreferenceControllers(context, getSettingsLifecycle(), this);
     }

@@ -1256,7 +1256,12 @@
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
     <string name="theme_customization_icon_shape_title">Icon shape</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the statusbar icon -->
+    <string name="themes_base">System Customisation for CherishOS</string>
     <string name="theme_customization_sysui_icon_title">Statusbar icon</string>
+    <string name="theme_customization_settings_icon_title">Settings icons</string>
+    <string name="theme_customization_systemui_title">Base Theme</string>
+    <string name="themes_color">Theming</string>
+    <string name="themes_summary">Theming section</string>
     <!-- Clock style -->
     <string name="clock_style_title">Clock style</string> 
     <string name="clock_style_summary">Customize lockscreen clock</string>
@@ -1268,4 +1273,7 @@
 	
 	<!-- Customization titles -->
     <string name="themes_ui">Themes UI</string>
+	
+	<!-- Accent Picker -->
+    <string name="accent_color_summary">Choose your desired accent</string>
 </resources>

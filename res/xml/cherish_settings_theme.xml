@@ -23,7 +23,8 @@
         android:title="@string/theme_customization_category">
 		
 		<ListPreference
-	    android:layout="@layout/base_preview" />
+            android:layout="@layout/accents_shapes_base_preview"
+            android:selectable="false" />
 		
 		<Preference
             android:key="dark_ui_mode"
@@ -60,7 +61,8 @@
         </Preference>
 		
 		<ListPreference
-            android:layout="@layout/font_preview" />
+            android:layout="@layout/fonts_base_preview"
+            android:selectable="false" />
 		
 		<com.android.settings.display.FontDialogPreference
         android:key="custom_font"
