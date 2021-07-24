@@ -7,8 +7,8 @@ import static android.os.UserHandle.USER_SYSTEM;
 import android.app.UiModeManager;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.content.BroadcastReceiver;
 import android.content.pm.PackageManager.NameNotFoundException;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -21,6 +21,8 @@ import android.content.om.OverlayInfo;
 import android.os.RemoteException;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+import android.content.Context;
+import android.content.IntentFilter;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import androidx.preference.ListPreference;
@@ -33,6 +35,7 @@ import com.cherish.settings.preferences.CustomSeekBarPreference;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settings.display.OverlayCategoryPreferenceController;
+import com.android.settings.display.FontPickerPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import android.provider.Settings;
 import com.android.settings.R;
@@ -91,6 +94,19 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     private ListPreference mQsHeaderStyle;
     private ListPreference mQsTileStyle;
 	private ListPreference mGesbar;
+	
+	private IntentFilter mIntentFilter;
+    private static FontPickerPreferenceController mFontPickerPreference;
+
+    private BroadcastReceiver mIntentReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            if (action.equals("com.android.server.ACTION_FONT_CHANGED")) {
+                mFontPickerPreference.stopProgress();
+            }
+        }
+    };
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -100,6 +116,9 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+		
+		mIntentFilter = new IntentFilter();
+        mIntentFilter.addAction("com.android.server.ACTION_FONT_CHANGED");
 		
 	mSwitchStyle = (SystemSettingListPreference)findPreference(SWITCH_STYLE);
         int switchStyle = Settings.System.getInt(resolver,Settings.System.SWITCH_STYLE, 2);
@@ -242,6 +261,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                 "android.theme.customization.signal_icon"));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.wifi_icon"));
+		controllers.add(mFontPickerPreference = new FontPickerPreferenceController(context, lifecycle));
         return controllers;
     }
 	
@@ -467,6 +487,21 @@ private int getOverlayPosition(String[] overlays) {
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CHERISH_SETTINGS;
+    }
+	
+	@Override
+    public void onResume() {
+        super.onResume();
+        final Context context = getActivity();
+        context.registerReceiver(mIntentReceiver, mIntentFilter);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        final Context context = getActivity();
+        context.unregisterReceiver(mIntentReceiver);
+        mFontPickerPreference.stopProgress();
     }
 	
 	/**
