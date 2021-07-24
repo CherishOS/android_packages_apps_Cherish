@@ -43,7 +43,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.development.OverlayCategoryPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import java.util.Locale;
@@ -56,12 +55,14 @@ import java.util.Objects;
 
 import com.android.internal.util.cherish.ThemesUtils;
 import com.android.internal.util.cherish.CherishUtils;
+import com.android.settings.dashboard.DashboardFragment;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
-public class ThemeSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+public class ThemeSettings extends DashboardFragment implements OnPreferenceChangeListener {
+			
+	public static final String TAG = "ThemeSettings";
     private static final String BRIGHTNESS_SLIDER_STYLE = "brightness_slider_style";
     private static final String SYSTEM_SLIDER_STYLE = "system_slider_style";
     private static final String UI_STYLE = "ui_style";
@@ -107,12 +108,45 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
             }
         }
     };
+	
+	@Override
+    protected String getLogTag() {
+        return TAG;
+    }
+	
+	@Override
+    protected int getPreferenceScreenResId() {
+        return R.xml.cherish_settings_theme;
+    }
+	
+	@Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        return buildPreferenceControllers(context, getSettingsLifecycle(), this);
+    }
 
+    private static List<AbstractPreferenceController> buildPreferenceControllers(
+            Context context, Lifecycle lifecycle, Fragment fragment) {
+
+        final List<AbstractPreferenceController> controllers = new ArrayList<>();
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.font"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.adaptive_icon_shape"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.icon_pack.android"));
+		controllers.add(new OverlayCategoryPreferenceController(context,
+				"android.theme.customization.statusbar_height"));
+		controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.signal_icon"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.wifi_icon"));
+		controllers.add(mFontPickerPreference = new FontPickerPreferenceController(context, lifecycle));
+        return controllers;
+    }
+	
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-
-        addPreferencesFromResource(R.xml.cherish_settings_theme);
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
@@ -238,31 +272,6 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 
     public boolean isAvailable() {
         return true;
-    }
-	
-	@Override
-    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
-        return buildPreferenceControllers(context, getSettingsLifecycle(), this);
-    }
-
-    private static List<AbstractPreferenceController> buildPreferenceControllers(
-            Context context, Lifecycle lifecycle, Fragment fragment) {
-
-        final List<AbstractPreferenceController> controllers = new ArrayList<>();
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.font"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.adaptive_icon_shape"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.icon_pack.android"));
-		controllers.add(new OverlayCategoryPreferenceController(context,
-				"android.theme.customization.statusbar_height"));
-		controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.signal_icon"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.wifi_icon"));
-		controllers.add(mFontPickerPreference = new FontPickerPreferenceController(context, lifecycle));
-        return controllers;
     }
 	
     @Override
