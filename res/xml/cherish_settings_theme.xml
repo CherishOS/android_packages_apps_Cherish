@@ -19,10 +19,17 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 		
 	<PreferenceCategory
-     android:key="system_theme_category"
-     android:title="@string/theme_type_title">
+        android:key="theme_customization_category"
+        android:title="@string/theme_customization_category">
 		
-	<net.margaritov.preference.colorpicker.ColorPickerPreference
+		<Preference
+            android:key="dark_ui_mode"
+            android:title="@string/dark_ui_mode"
+            android:summary="@string/dark_ui_mode_summary"
+            android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
+            settings:controller="com.android.settings.display.DarkUIPreferenceController" />
+			
+		<net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="accent_color"
         android:icon="@drawable/ic_accent_picker"
         android:title="@string/accent_color"
@@ -37,6 +44,44 @@
         android:summary="@string/gradient_summary"
         android:defaultValue="0xffffff"
         android:persistent="false" />
+
+		<Preference
+            android:key="clock_style"
+            android:title="@string/clock_style_title"
+			 android:icon="@drawable/ic_alarm"
+            android:summary="@string/clock_style_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.android.wallpaper"
+                android:targetClass="com.android.customization.picker.LockClockPickerActivity" />
+        </Preference>
+
+		<ListPreference
+            android:key="android.theme.customization.signal_icon"
+			 android:icon="@drawable/ic_signal"
+            android:title="@string/custom_signal_bar_title" />
+
+        <ListPreference
+            android:key="android.theme.customization.wifi_icon"
+			 android:icon="@drawable/ic_wifi"
+            android:title="@string/custom_wifi_bar_title" />
+        <ListPreference
+            android:key="android.theme.customization.adaptive_icon_shape"
+			android:title="@string/theme_customization_icon_shape_title"
+            android:icon="@drawable/ic_shape"/>
+        <ListPreference
+            android:key="android.theme.customization.icon_pack.android"
+            android:icon="@drawable/ic_package"
+            android:title="@string/theme_customization_sysui_icon_title"/>
+		<ListPreference
+	    android:key="android.theme.customization.statusbar_height"
+            android:icon="@drawable/ic_size"
+            android:title="@string/theme_customization_statusbar_height_title"/>
+    </PreferenceCategory>
+		
+	<PreferenceCategory
+     android:key="system_theme_category"
+     android:title="@string/theme_type_title">
 
         <ListPreference
         android:key="ui_style"

@@ -37,8 +37,12 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import android.provider.Settings;
 import com.android.settings.R;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.development.OverlayCategoryPreferenceController;
+import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settingslib.core.lifecycle.Lifecycle;
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
@@ -215,6 +219,30 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 
     public boolean isAvailable() {
         return true;
+    }
+	
+	Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        return buildPreferenceControllers(context, getSettingsLifecycle(), this);
+    }
+
+    private static List<AbstractPreferenceController> buildPreferenceControllers(
+            Context context, Lifecycle lifecycle, Fragment fragment) {
+
+        final List<AbstractPreferenceController> controllers = new ArrayList<>();
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.font"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.adaptive_icon_shape"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.icon_pack.android"));
+		controllers.add(new OverlayCategoryPreferenceController(context,
+				"android.theme.customization.statusbar_height"));
+		controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.signal_icon"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.wifi_icon"));
+        return controllers;
     }
 	
     @Override
