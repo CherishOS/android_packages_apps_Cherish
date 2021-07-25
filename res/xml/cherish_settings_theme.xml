@@ -29,6 +29,7 @@
 		<Preference
             android:key="dark_ui_mode"
             android:title="@string/dark_ui_mode"
+			 android:icon="@drawable/ic_dark_mode"
             android:summary="@string/dark_ui_mode_summary"
             android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
             settings:controller="com.android.settings.display.DarkUIPreferenceController" />
@@ -43,7 +44,7 @@
 
     <net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="gradient_color"
-        android:icon="@drawable/ic_gradient"
+        android:icon="@drawable/ic_accent_picker"
         android:title="@string/gradient_color"
         android:summary="@string/gradient_summary"
         android:defaultValue="0xffffff"

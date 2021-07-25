@@ -128,12 +128,14 @@
 		<Preference
             android:key="wakelock_blocker"
             android:title="@string/wakelock_blocker_title"
+			android:icon="@drawable/ic_block"
             android:summary="@string/wakelock_blocker_summary"
             android:fragment="com.cherish.settings.fragments.WakeLockBlocker" />
 			
 		<Preference
             android:key="alarm_blocker"
             android:title="@string/alarm_blocker"
+			android:icon="@drawable/ic_alarm"
             android:summary="@string/alarm_blocker_summary"
             android:fragment="com.cherish.settings.fragments.AlarmBlocker" />
 		
