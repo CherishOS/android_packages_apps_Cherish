@@ -45,8 +45,11 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 	private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
     private static final String KEY_AMBIENT = "ambient_notification_light_enabled";
 	private static final String ALERT_SLIDER_PREF = "alert_slider_notifications";
+	private static final String KEY_CHARGING_LIGHT = "charging_light";
+    private static final String LED_CATEGORY = "led";
 
     private Preference mChargingLeds;
+    private PreferenceCategory mLedCategory;
     private ColorPickerPreference mEdgeLightColorPreference;
     private CustomSeekBarPreference mEdgeLightDurationPreference;
     private CustomSeekBarPreference mEdgeLightRepeatCountPreference;
@@ -68,11 +71,18 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         if (!mAlertSliderAvailable)
             prefScreen.removePreference(mAlertSlider);
 
-        mChargingLeds = (Preference) findPreference("charging_light");
-        if (mChargingLeds != null
-                && !getResources().getBoolean(
-                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
-            prefScreen.removePreference(mChargingLeds);
+        boolean hasLED = res.getBoolean(
+                com.android.internal.R.bool.config_hasNotificationLed);
+        if (hasLED) {
+            mChargingLeds = findPreference(KEY_CHARGING_LIGHT);
+            if (mChargingLeds != null
+                    && !res.getBoolean(
+                            com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+                prefScreen.removePreference(mChargingLeds);
+            }
+        } else {
+            mLedCategory = findPreference(LED_CATEGORY);
+            mLedCategory.setVisible(false);
         }
 		
 		PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
