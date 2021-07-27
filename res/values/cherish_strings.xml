@@ -1323,4 +1323,8 @@
 
     <string name="qs_running_service_title">Running service icon</string>
     <string name="qs_running_service_summary">Enable or disable running service icon</string>
+	
+	<!-- SearchBar Style -->
+    <string name="search_bar_style_title">Use Android 12 Search Bar</string>
+    <string name="search_bar_style_summary">Toggle to use Android 12 style searchbar in Settings app. Settings app needs to be manually restarted for the change to take effect.</string>
 </resources>
