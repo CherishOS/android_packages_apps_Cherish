@@ -518,14 +518,6 @@
     <!-- Center R Notification headers -->
     <string name="center_notification_headers_title">Center notification headers</string>
     <string name="center_notification_headers_summary">Whether to Center R style notification headers (Requires a SystemUI restart)</string>
-    
-    <!-- Dashboard -->
-    <string name="dashboard_conditions_title">Dashboard conditions</string>
-    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
-    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
-    <string name="dashboard_suggestions_title">Dashboard suggestions</string>
-    <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
-    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
 
     <!-- Media art -->
     <string name="lockscreen_media_art_title">Media art</string>
