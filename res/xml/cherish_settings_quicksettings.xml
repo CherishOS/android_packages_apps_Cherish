@@ -68,6 +68,13 @@
         android:entries="@array/qs_datausage_entries"
         android:entryValues="@array/qs_datausage_values"
         android:defaultValue="0" />
+
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_datausage"
+			android:icon="@drawable/ic_data"
+            android:title="@string/qs_footer_datausage_title"
+            android:summary="@string/qs_footer_datausage_summary"
+            android:defaultValue="true" />
 	</PreferenceCategory>
 
    <com.cherish.settings.preferences.SystemSettingSwitchPreference
