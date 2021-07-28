@@ -609,18 +609,6 @@
         <item>7</item>
         <item>8</item>
     </string-array>
-
-    <!-- QS Header data uasge -->
-    <string-array name="qs_datausage_entries" translatable="false">
-        <item>@string/qs_datausage_disabled</item> 
-        <item>@string/qs_datausage_daily</item> 
-        <item>@string/qs_datausage_monthly</item>
-    </string-array>
-    <string-array name="qs_datausage_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
 	
 	<!-- QS header image -->
     <string-array name="custom_header_provider_entries" translatable="false">
