@@ -1311,4 +1311,16 @@
     <string name="left_clock">Left</string>
     <string name="center_clock">Center</string>
     <string name="right_clock">Right</string>
+	
+	<string name="qs_edit_title">Edit icon</string>
+    <string name="qs_edit_summary">Display the tile edit icon in the QS  footer</string>
+
+    <string name="qs_user_title">User icon</string>
+    <string name="qs_user_summary">Display the tile user icon in the QS  footer</string>
+
+    <string name="qs_settings_title">Settings icon</string>
+    <string name="qs_settings_summary">Display the tile settings icon in the QS  footer</string>
+
+    <string name="qs_running_service_title">Running service icon</string>
+    <string name="qs_running_service_summary">Enable or disable running service icon</string>
 </resources>

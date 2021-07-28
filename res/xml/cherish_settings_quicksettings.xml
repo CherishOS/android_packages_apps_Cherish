@@ -53,6 +53,34 @@
             android:title="@string/qs_footer_datausage_title"
             android:summary="@string/qs_footer_datausage_summary"
             android:defaultValue="true" />
+
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_edit"
+			android:icon="@drawable/ic_edit1"
+            android:title="@string/qs_edit_title"
+            android:summary="@string/qs_edit_summary"
+            android:defaultValue="true" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_settings"
+			android:icon="@drawable/ic_edit"
+            android:title="@string/qs_settings_title"
+            android:summary="@string/qs_settings_summary"
+            android:defaultValue="true" />
+
+          <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_services"
+			android:icon="@drawable/ic_run"
+            android:title="@string/qs_running_service_title"
+            android:summary="@string/qs_running_service_summary"
+            android:defaultValue="false" />
+
+          <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_user"
+			android:icon="@drawable/ic_users"
+            android:title="@string/qs_user_title"
+            android:summary="@string/qs_user_summary"
+            android:defaultValue="true" />
 	</PreferenceCategory>
 
    <com.cherish.settings.preferences.SystemSettingSwitchPreference
