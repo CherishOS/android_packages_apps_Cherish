@@ -807,9 +807,6 @@
     <!-- Quick Settings quick pulldown -->
     <string name="quick_settings_quick_pull_down_title">Quick Settings quick pull-down</string>
     <string name="quick_settings_quick_pull_down_summary">Automatically expand Quick Settings when pulling from the right side of the status bar</string>
-	
-	<string name="qs_edit_title">Edit Icon</string>
-    <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
 
     <!-- Allow fake signature -->
     <string name="allow_signature_fake">Allow signature spoofing</string>

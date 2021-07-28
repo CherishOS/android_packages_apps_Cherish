@@ -47,13 +47,6 @@
             android:summary="@string/status_bar_custom_header_summary"
             android:defaultValue="false" />
 
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
-        android:key="qs_edit_toggle"
-        android:icon="@drawable/ic_edit"
-        android:title="@string/qs_edit_title"
-        android:summary="@string/qs_edit_summary"
-        android:defaultValue="true" />
-
 	<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_footer_show_datausage"
 			android:icon="@drawable/ic_data"
