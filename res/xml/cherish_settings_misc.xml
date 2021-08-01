@@ -129,6 +129,13 @@
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.settings"
             android:targetClass="com.cherish.settings.fragments.HAFRAppListActivity" />
+			
+		<Preference
+            android:key="ps_cat"
+            android:title="@string/powersave_title" 
+            android:summary="@string/powersave_summary"
+            android:fragment="com.cherish.settings.fragments.PowerSaving"/>
+
     </PreferenceScreen>
 		
 		<PreferenceCategory    
