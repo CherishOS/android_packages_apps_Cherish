@@ -47,7 +47,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
     private static final String SMART_PIXELS = "smart_pixels";
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
-    private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
+    //private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
     private static final String KEY_PULSE_BRIGHTNESS = "ambient_pulse_brightness";
     private static final String KEY_DOZE_BRIGHTNESS = "ambient_doze_brightness";
