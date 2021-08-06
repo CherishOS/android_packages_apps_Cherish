@@ -96,6 +96,14 @@
 
     </PreferenceCategory>
 
+    <Preference
+        android:title="@string/radio_info_title"
+        android:key="radio_info_settings">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.settings.RadioInfo" />
+    </Preference>
+
       <Preference
         android:key="vol_steps"
         android:title="@string/volume_steps_fragment_title"

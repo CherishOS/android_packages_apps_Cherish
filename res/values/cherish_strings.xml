@@ -1337,4 +1337,8 @@
     <string name="power_profile_high">High</string>
     <string name="power_profile_ext">Extreme</string>
     <string name="powersave_summary">Options to extend your battery life</string>
+
+	<!-- Radio informations -->
+    <string name="radio_info_title">Radio info</string>
+
 </resources>
