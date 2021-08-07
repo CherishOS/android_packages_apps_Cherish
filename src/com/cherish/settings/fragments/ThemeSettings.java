@@ -53,6 +53,8 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Objects;
 
+import com.cherish.settings.display.QsTileStylePreferenceController;
+
 import com.android.internal.util.cherish.ThemesUtils;
 import com.android.internal.util.cherish.CherishUtils;
 import com.android.settings.dashboard.DashboardFragment;
@@ -143,6 +145,7 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
                 "android.theme.customization.signal_icon"));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.wifi_icon"));
+        controllers.add(new QsTileStylePreferenceController(context));
 		controllers.add(mFontPickerPreference = new FontPickerPreferenceController(context, lifecycle));
         return controllers;
     }
