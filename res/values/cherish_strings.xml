@@ -1365,5 +1365,9 @@
     <string name="sleep_mode_aggressive_toggle_title">Turn on Aggressive Battery</string>
     <string name="sleep_mode_aggressive_toggle_summary">Enable Aggressive idle and standby when Sleep mode is turned on</string>
     <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+	
+	<!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">Auto brightness icon</string>
+    <string name="brightness_icon_summary">Display toggle for adaptive brightness in the QS footer</string>
 
 </resources>
