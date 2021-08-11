@@ -97,13 +97,6 @@
 	<PreferenceCategory
      android:key="system_theme_category"
      android:title="@string/theme_type_title">
-	 
-	    <com.cherish.settings.preferences.SystemSettingSwitchPreference
-        android:key="use_new_searchbar"
-		 android:icon="@drawable/ic_search_bar"
-        android:title="@string/search_bar_style_title"
-        android:summary="@string/search_bar_style_summary"
-        android:defaultValue="false" />
 
         <ListPreference
         android:key="ui_style"
