@@ -1009,8 +1009,6 @@
     <string name="theming_settings_dashboard_icons_plain">Transparent background / Plain foreground</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Transparent background / Accent foreground</string>
 	
-	<string name="statusbar_icons_style">Colored Statusbar Icons</string>
-    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
 	<string name="header_icons_style">Colored Header Icons</string>
     <string name="header_icons_style_summary">Choose the style of your notification headers icons (requires SystemUI restart)</string>
 	

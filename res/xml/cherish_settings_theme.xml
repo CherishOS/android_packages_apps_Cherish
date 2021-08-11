@@ -185,13 +185,6 @@
 	<PreferenceCategory
         android:key="quick_settings_category"
         android:title="@string/quicksettings_title">
-		
-		<com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="statusbar_icons_style"
-            android:icon="@drawable/ic_invert_colors"
-            android:title="@string/statusbar_icons_style"
-            android:summary="@string/statusbar_icons_style_summary"
-            android:defaultValue="true" />
 			
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="headers_icons_style"
