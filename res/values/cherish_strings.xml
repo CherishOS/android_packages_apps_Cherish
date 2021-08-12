@@ -1385,5 +1385,6 @@
     <string name="gaming_mode_danmaku_speed_horizontal_title">Danmaku speed (horizontal)</string>
     <string name="gaming_mode_danmaku_speed_vertical_title">Danmaku speed (vertical)</string>
     <string name="gaming_mode_danmaku_blacklist">Blacklist</string>
+	<string name="gaming_mode_menu_opacity_title">Menu opacity level</string>
 
 </resources>
