@@ -751,20 +751,13 @@
 
     <!-- Brightness Slider style -->
     <string name="brightness_slider_style_title">Brightness slider style</string>
-    <string name="brightness_slider_style_default">Default</string>
     <string name="brightness_slider_style_daniel">Daniel</string>
     <string name="brightness_slider_style_mememini">Meme mini</string>
     <string name="brightness_slider_style_memeround">Meme round</string>
     <string name="brightness_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="brightness_slider_style_memestroke">Meme stroke</string>
     <string name="brightness_slider_style_default_2">Default (plain accent)</string>
-    <string name="brightness_slider_style_danielgradient">Daniel (Gradient)</string>
-    <string name="brightness_slider_style_mememinigradient">Meme mini (Gradient)</string>
-    <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
-    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
-    <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
 	<string name="brightness_slider_style_minihalf">Mini half</string>
-	<string name="brightness_slider_style_half">Half</string>
     <string name="brightness_slider_style_oos">OOS style</string>
     <string name="brightness_slider_style_a12">A12 style</string>
 
