@@ -34,6 +34,32 @@
             android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
             settings:controller="com.android.settings.display.DarkUIPreferenceController" />
 			
+		<com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="monet_engine"
+            settings:iconSpaceReserved="false"
+            android:title="@string/monet_title"
+            android:summary="@string/monet_summary"
+            android:defaultValue="true" />
+
+        <com.cherish.settings.preferences.SecureSettingListPreference
+            android:key="monet_palette"
+            settings:iconSpaceReserved="false"
+            android:title="@string/monet_pallete_title"
+            android:summary="@string/monet_pallete_summary"
+            android:entries="@array/monet_color_mode_entries"
+            android:entryValues="@array/monet_color_mode_values"
+            android:defaultValue="0"/>
+
+        <com.cherish.settings.preferences.SecureSettingSeekBarPreference
+            android:key="monet_color_gen"
+            settings:iconSpaceReserved="false"
+            android:title="@string/monet_accuracy"
+            android:summary="@string/monet_accuracy_summary"
+            android:max="100"
+            settings:min="1"
+            android:defaultValue="16"
+            settings:interval="1"/>
+			
 		<net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="accent_color"
         android:icon="@drawable/ic_accent_picker"

@@ -1389,5 +1389,25 @@
         <item>4</item>
         <item>2</item>
     </string-array>
+	
+	<string-array name="monet_color_mode_values" translatable="false">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+      <item>6</item>
+    </string-array>
+
+    <string-array name="monet_color_mode_entries">
+       <item>@string/monet_0</item>
+       <item>@string/monet_1</item>
+       <item>@string/monet_2</item>
+       <item>@string/monet_3</item>
+       <item>@string/monet_4</item>
+       <item>@string/monet_5</item>
+       <item>@string/monet_6</item>
+    </string-array>
 
 </resources>
