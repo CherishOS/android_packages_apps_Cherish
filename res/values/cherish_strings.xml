@@ -93,10 +93,11 @@
     <!--Accenter -->
     <string name="themes_hub_title">Themes</string>
     <string name="themes_hub_summary">Accents-Gradients-Themes</string>
-    <string name="accent_color">Accent picker</string>
-    <string name="accent_summary">Gradient Maker</string>
-    <string name="gradient_color">Gradient picker</string>
-    <string name="gradient_summary">Gradient effect maker</string>
+    <string name="rgb_accent_picker_title_dark">Accent Picker</string>
+    <string name="rgb_accent_picker_summary">Choose the accent color yourself</string>
+	
+	<string name="theme_option_reset_title">Reset Theme Options</string>
+    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
 
     <!--ThemePicker-->
     <string name="theme_select_title">Styles and Wallpapers</string>
@@ -751,6 +752,7 @@
 
     <!-- Brightness Slider style -->
     <string name="brightness_slider_style_title">Brightness slider style</string>
+	<string name="brightness_slider_style_default">Default</string>
     <string name="brightness_slider_style_daniel">Daniel</string>
     <string name="brightness_slider_style_mememini">Meme mini</string>
     <string name="brightness_slider_style_memeround">Meme round</string>

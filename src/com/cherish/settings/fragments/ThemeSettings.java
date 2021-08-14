@@ -4,6 +4,10 @@ import static com.cherish.settings.utils.Utils.handleOverlays;
 
 import com.android.internal.logging.nano.MetricsProto;
 import static android.os.UserHandle.USER_SYSTEM;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
 import android.app.UiModeManager;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -22,6 +26,7 @@ import android.os.RemoteException;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.IntentFilter;
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -39,6 +44,9 @@ import com.android.settings.display.FontPickerPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import android.provider.Settings;
 import com.android.settings.R;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.MenuInflater;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -71,24 +79,22 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     private static final String PREF_THEME_SWITCH = "theme_switch";
     private static final String QS_HEADER_STYLE = "qs_header_style";
     private static final String QS_TILE_STYLE = "qs_tile_style";
-    private static final String ACCENT_COLOR = "accent_color";
-    private static final String ACCENT_COLOR_PROP = "persist.sys.theme.accentcolor";
-    private static final String GRADIENT_COLOR = "gradient_color";
-    private static final String GRADIENT_COLOR_PROP = "persist.sys.theme.gradientcolor";
+    private static final String PREF_RGB_ACCENT_PICKER_DARK = "rgb_accent_picker_dark";
 	private static final String PREF_NB_COLOR = "navbar_color";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 	static final int DEFAULT = 0xff1a73e8;
 	private static final String QS_PANEL_COLOR = "qs_panel_color";
 	private static final String SWITCH_STYLE = "switch_style";
 	private static final String HIDE_NOTCH = "display_hide_notch";
+	private static final int MENU_RESET = Menu.FIRST;
 	
     private SystemSettingListPreference mSwitchStyle;
     private ColorPickerPreference mQsPanelColor;
+	private Context mContext;
 
     private IOverlayManager mOverlayService;
     private UiModeManager mUiModeManager;
-    private ColorPickerPreference mThemeColor;
-    private ColorPickerPreference mGradientColor;
+    private ColorPickerPreference rgbAccentPickerDark;
     private ListPreference mThemeSwitch;
     private ListPreference mBrightnessSliderStyle;
     private ListPreference mSystemSliderStyle;
@@ -154,6 +160,7 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 		final Resources res = getResources();
+		mContext =  getActivity();
 		
 		mIntentFilter = new IntentFilter();
         mIntentFilter.addAction("com.android.server.ACTION_FONT_CHANGED");
@@ -271,9 +278,15 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         mOverlayService = IOverlayManager.Stub
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
 
-        setupAccentPref();
+        rgbAccentPickerDark = (ColorPickerPreference) findPreference(PREF_RGB_ACCENT_PICKER_DARK);
+        String colorValDark = Settings.Secure.getStringForUser(mContext.getContentResolver(),
+                Settings.Secure.ACCENT_DARK, UserHandle.USER_CURRENT);
+        int colorDark = (colorValDark == null)
+                ? DEFAULT
+                : Color.parseColor("#" + colorValDark);
+        rgbAccentPickerDark.setNewPreviewColor(colorDark);
+        rgbAccentPickerDark.setOnPreferenceChangeListener(this);
         setSystemSliderPref();
-        setupGradientPref();
 		setupNavbarSwitchPref();
         }
         
@@ -288,20 +301,12 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-         if (preference == mThemeColor) {
-            int color = (Integer) objValue;
-            String hexColor = String.format("%08X", (0xFFFFFFFF & color));
-            SystemProperties.set(ACCENT_COLOR_PROP, hexColor);
-            try {
-                 mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
-                 mOverlayService.reloadAssets("com.android.settings", UserHandle.USER_CURRENT);
-                 mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
-             } catch (RemoteException ignored) {
-             }
-        } else if (preference == mGradientColor) {
-            int color = (Integer) objValue;
-            String hexColor = String.format("%08X", (0xFFFFFFFF & color));
-            SystemProperties.set(GRADIENT_COLOR_PROP, hexColor);
+         if (preference == rgbAccentPickerDark) {
+            int colorDark = (Integer) objValue;
+            String hexColor = String.format("%08X", (0xFFFFFFFF & colorDark));
+            Settings.Secure.putStringForUser(mContext.getContentResolver(),
+                        Settings.Secure.ACCENT_DARK,
+                        hexColor, UserHandle.USER_CURRENT);
             try {
                  mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
                  mOverlayService.reloadAssets("com.android.settings", UserHandle.USER_CURRENT);
@@ -445,27 +450,6 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
             mSystemSliderStyle.setValue("1");
         }
     }
-
-
-    private void setupAccentPref() {
-        mThemeColor = (ColorPickerPreference) findPreference(ACCENT_COLOR);
-        String colorVal = SystemProperties.get(ACCENT_COLOR_PROP, "-1");
-        int color = "-1".equals(colorVal)
-                ? DEFAULT
-                : Color.parseColor("#" + colorVal);
-        mThemeColor.setNewPreviewColor(color);
-        mThemeColor.setOnPreferenceChangeListener(this);
-    }
-
-    private void setupGradientPref() {
-        mGradientColor = (ColorPickerPreference) findPreference(GRADIENT_COLOR);
-        String colorVal = SystemProperties.get(GRADIENT_COLOR_PROP, "-1");
-        int color = "-1".equals(colorVal)
-                ? DEFAULT
-                : Color.parseColor("#" + colorVal);
-        mGradientColor.setNewPreviewColor(color);
-        mGradientColor.setOnPreferenceChangeListener(this);
-    }
 	
 	private void setupNavbarSwitchPref() {
         mGesbar = (ListPreference) findPreference(PREF_NB_COLOR);
@@ -491,6 +475,43 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
             }
         }
         return overlayName;
+    }
+	
+	@Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        menu.add(0, MENU_RESET, 0, R.string.reset)
+                .setIcon(R.drawable.ic_menu_reset)
+                .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case MENU_RESET:
+                resetToDefault();
+                return true;
+            default:
+                return super.onContextItemSelected(item);
+        }
+    }
+	
+	private void resetToDefault() {
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(getActivity());
+        alertDialog.setTitle(R.string.theme_option_reset_title);
+        alertDialog.setMessage(R.string.theme_option_reset_message);
+        alertDialog.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                resetValues();
+            }
+        });
+        alertDialog.setNegativeButton(R.string.cancel, null);
+        alertDialog.create().show();
+    }
+	
+	private void resetValues() {
+        final Context context = getContext();
+        rgbAccentPickerDark = (ColorPickerPreference) findPreference(PREF_RGB_ACCENT_PICKER_DARK);
+        rgbAccentPickerDark.setNewPreviewColor(DEFAULT);
     }
 
 private int getOverlayPosition(String[] overlays) {

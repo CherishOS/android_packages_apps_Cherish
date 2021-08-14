@@ -679,6 +679,7 @@
 
     <!-- Brightness sliders styles -->
     <string-array name="brightness_slider_style_selector_entries" translatable="false">
+	    <item>@string/brightness_slider_style_default</item>
         <item>@string/brightness_slider_style_daniel</item>
         <item>@string/brightness_slider_style_mememini</item>
         <item>@string/brightness_slider_style_memeround</item>
@@ -690,14 +691,15 @@
     </string-array>
 
     <string-array name="brightness_slider_style_selector_values" translatable="false">
+	    <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
         <item>5</item>
         <item>6</item>
-        <item>12</item>
-		<item>14</item>
+        <item>7</item>
+		<item>8</item>
     </string-array>
 
     <!-- Notification Background styles -->
