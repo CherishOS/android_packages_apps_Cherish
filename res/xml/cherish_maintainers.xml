@@ -39,12 +39,12 @@
         </Preference>
 
 <Preference
-            android:title="@string/beryllium_maintainer"
-            android:summary="@string/device_beryllium"
-            android:icon="@drawable/ic_devs_phone">
+            android:title="@string/umi_maintainer"
+            android:summary="@string/device_umi"
+            android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/resist15" />
+                android:data="https://t.me/P4042" />
         </Preference>
 
 <Preference
@@ -99,6 +99,14 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/Kuruin" />
+        </Preference>
+<Preference
+            android:title="@string/juice_maintainer"
+            android:summary="@string/device_juice"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/P4042" />
         </Preference>
 
 <Preference
@@ -174,12 +182,12 @@
         </Preference>
 
   <Preference
-            android:title="@string/santoni_maintainer"
-            android:summary="@string/device_santoni"
+            android:title="@string/tulip_maintainer"
+            android:summary="@string/device_tulip"
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/hung2408" />
+                android:data="https://t.me/professor36" />
         </Preference>
 
 <Preference
@@ -243,6 +251,24 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/DanipunK1" />
+        </Preference>
+
+<Preference
+            android:title="@string/olives_maintainer"
+            android:summary="@string/device_olives"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/me_cafebabe" />
+        </Preference>
+
+<Preference
+            android:title="@string/pine_maintainer"
+            android:summary="@string/device_pine"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/me_cafebabe" />
         </Preference>
 		
 <Preference

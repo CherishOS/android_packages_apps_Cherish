@@ -29,8 +29,8 @@
    <string name="lavender_maintainer">Hung Phan</string>
    <string name="device_ginkgo">Xiaomi Redmi Note 8</string>
    <string name="ginkgo_maintainer">Chulesh</string>
-   <string name="device_santoni">Xiaomi Redmi 4X</string>
-   <string name="santoni_maintainer">Xddeath69</string>
+   <string name="device_tulip">Xiaomi Redmi Note 6 Pro</string>
+   <string name="tulip_maintainer">Rabin</string>
    <string name="device_mido">Xiaomi Redmi Note 4</string>
    <string name="mido_maintainer">Hung Phan</string>
    <string name="device_whyred">Xiaomi Redmi Note 5 Pro</string>
@@ -51,10 +51,14 @@
    <string name="gram_maintainer">Kuruin</string>
    <string name="device_excalibur">Redmi Note 9 Pro Max</string>
    <string name="excalibur_maintainer">MrJarvis698</string>
+   <string name="device_juice">POCO M3/Redmi 9T/9 Power/Note 9 4G</string>
+   <string name="juice_maintainer">Don Nathaniel</string>
    <string name="device_begonia">Xiaomi Redmi Note 8 Pro</string>
    <string name="begonia_maintainer">HyperNotAryanX97</string>
    <string name="device_violet">Xiaomi Redmi Note 7 Pro</string>
    <string name="violet_maintainer">K A R T H I K </string>
+   <string name="device_umi">Xiaomi Mi 10</string>
+   <string name="umi_maintainer">Adrian Lam</string>
    <string name="device_cepheus">Xiaomi Mi 9</string>
    <string name="cepheus_maintainer">Freesoul</string>
    <string name="device_vince">Xiaomi Redmi Note 5/5 Plus</string>
@@ -75,6 +79,10 @@
    <string name="surya_maintainer">Rishabh Prakash</string>
    <string name="device_beryllium">Xiaomi Poco F1</string>
    <string name="beryllium_maintainer">Sourav</string>
+   <string name="device_olives">Xiaomi Redmi 8 Series</string>
+   <string name="olives_maintainer">0xCAFEBABE</string>
+   <string name="device_pine">Xiaomi Redmi 7A</string>
+   <string name="pine_maintainer">0xCAFEBABE</string>
    <string name="device_onclite">Xiaomi Redmi 7</string>
    <string name="onclite_maintainer">Jack The Ripper</string>
 
