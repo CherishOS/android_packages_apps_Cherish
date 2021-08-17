@@ -620,33 +620,6 @@
         <item>@string/file_header_provider</item>
     </string-array>
 
-    <!-- Gaming mode -->
-    <string-array name="gaming_mode_ringer_entries">
-        <item>@string/gaming_mode_ringer_off_title</item>
-        <item>@string/gaming_mode_ringer_vibrate_title</item>
-        <item>@string/gaming_mode_ringer_dnd_title</item>
-        <item>@string/gaming_mode_ringer_silent_title</item>
-    </string-array>
-    <string-array name="gaming_mode_ringer_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
-    <string-array name="gaming_mode_notifications_entries">
-        <item>@string/gaming_mode_notifications_off_title</item>
-        <item>@string/gaming_mode_notifications_notif_title</item>
-        <item>@string/gaming_mode_notifications_toast_title</item>
-        <item>@string/gaming_mode_notifications_all_title</item>
-    </string-array>
-    <string-array name="gaming_mode_notifications_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
     <string-array name="ambient_notification_light_timeout_entries" translatable="false">
         <item>@string/entry_infinite</item>
         <item>@string/entry_five_minute</item>
@@ -1071,23 +1044,6 @@
        <item>3</item>
    </string-array>
 	
-	<!-- Gaming mode-->
-    <string-array name="gaming_mode_headsup_toggle_entries">
-        <item>@string/gaming_mode_headsup_allow</item>
-        <item>@string/gaming_mode_headsup_dnc</item>
-        <item>@string/gaming_mode_headsup_clock</item>
-        <item>@string/gaming_mode_headsup_dialer</item>
-        <item>@string/gaming_mode_headsup_stop</item>
-    </string-array>
-
-    <string-array name="gaming_mode_headsup_toggle_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-	
 	<!-- Settings dashboard icon style -->
     <string-array name="theming_settings_dashboard_icons_entries" translatable="false">
         <item>@string/theming_settings_dashboard_icons_default</item>
@@ -1397,5 +1353,4 @@
        <item>@string/monet_5</item>
        <item>@string/monet_6</item>
     </string-array>
-
 </resources>
