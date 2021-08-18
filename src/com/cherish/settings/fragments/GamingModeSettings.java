@@ -28,13 +28,23 @@ import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.android.internal.util.hwkeys.ActionUtils;
+
 import java.util.ArrayList;
 
 import com.cherish.settings.preferences.PackageListPreference;
 
+import com.cherish.settings.preferences.SystemSettingSwitchPreference;
+
 public class GamingModeSettings extends SettingsPreferenceFragment {
 
+    private static final String GAMING_MODE_DISABLE_HW_KEYS = "gaming_mode_disable_hw_keys";
+    private static final String GAMING_MODE_DISABLE_GESTURE = "gaming_mode_disable_gesture";
+
     private PackageListPreference mGamingPrefList;
+
+    private SystemSettingSwitchPreference mHardwareKeysDisable;
+    private SystemSettingSwitchPreference mGestureDisable;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -43,9 +53,19 @@ public class GamingModeSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.cherish_settings_gaming);
         
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        final boolean hasNavbar = ActionUtils.hasNavbarByDefault(getActivity());
 
         mGamingPrefList = (PackageListPreference) findPreference("gaming_mode_app_list");
         mGamingPrefList.setRemovedListKey(Settings.System.GAMING_MODE_REMOVED_APP_LIST);
+
+        mHardwareKeysDisable = (SystemSettingSwitchPreference) findPreference(GAMING_MODE_DISABLE_HW_KEYS);
+        mGestureDisable = (SystemSettingSwitchPreference) findPreference(GAMING_MODE_DISABLE_GESTURE);
+
+        if (hasNavbar) {
+            prefScreen.removePreference(mHardwareKeysDisable);
+        } else {
+            prefScreen.removePreference(mGestureDisable);
+        }
     }
 
     @Override
