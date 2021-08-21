@@ -1387,4 +1387,23 @@
         <item>4</item>
         <item>5</item>
     </string-array>
+
+    <!-- Charging animation style -->
+    <string-array name="charging_animation_style_entries" translatable="false">
+        <item>@string/default_charging_animation</item>
+        <item>@string/sdb_charging_animation</item>
+        <item>@string/meme_ui_animation</item>
+        <item>@string/explosion_charging_animation</item>
+        <item>@string/rainbow_charging_animation</item>
+        <item>@string/fire_charging_animation</item>
+    </string-array>
+
+    <string-array name="charging_animation_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
 </resources>

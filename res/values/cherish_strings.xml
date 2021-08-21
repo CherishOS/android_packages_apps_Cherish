@@ -1420,4 +1420,13 @@
 
     <!-- Clock lottie animation size -->
     <string name="clock_lottie_animation_size_title">Animation size</string>
+
+    <!-- Charging animation style -->
+    <string name="charging_animation_style_title">System Charging Animation</string>
+    <string name="default_charging_animation">Android Default</string>
+    <string name="sdb_charging_animation">CherishOS Default</string>
+    <string name="meme_ui_animation">MIUI</string>
+    <string name="explosion_charging_animation">Explosion Animation</string>
+    <string name="rainbow_charging_animation">Rainbow Circle</string>
+    <string name="fire_charging_animation">Fire Circle</string>
 </resources>

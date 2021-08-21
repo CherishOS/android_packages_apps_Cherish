@@ -32,6 +32,17 @@
         android:summary="@string/charging_animation_summary"
         android:defaultValue="true" />
 
+    <!-- Charging animation style -->
+        <com.cherish.settings.preferences.SystemSettingListPreference
+           android:key="charging_animation_style"
+           settings:iconSpaceReserved="false"
+           android:title="@string/charging_animation_style_title"
+           android:entries="@array/charging_animation_style_entries"
+           android:entryValues="@array/charging_animation_style_values"
+           android:summary="%s"
+	   android:dependency="charging_animation"
+           android:defaultValue="1" />
+
     <com.cherish.settings.preferences.SystemSettingListPreference
         android:key="lockscreen_charging_animation_style"
         android:icon="@drawable/ic_flash"
