@@ -53,9 +53,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 	private SystemSettingMasterSwitchPreference mStatusBarLogo;
 
     private static final String PREF_KEY_CUTOUT = "cutout_settings";
-    private static final String PREF_STATUS_BAR_WEATHER = "status_bar_weather";
-
-    private ListPreference mStatusBarWeather;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -71,19 +68,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mStatusBarLogo.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.STATUS_BAR_LOGO, 0) == 1));
         mStatusBarLogo.setOnPreferenceChangeListener(this);
-
-        // Status bar weather
-            mStatusBarWeather = (ListPreference) findPreference(PREF_STATUS_BAR_WEATHER);
-            int temperatureShow = Settings.System.getIntForUser(resolver,
-                    Settings.System.STATUS_BAR_SHOW_WEATHER_TEMP, 0,
-                    UserHandle.USER_CURRENT);
-            mStatusBarWeather.setValue(String.valueOf(temperatureShow));
-            if (temperatureShow == 0) {
-                mStatusBarWeather.setSummary(R.string.statusbar_weather_summary);
-            } else {
-                mStatusBarWeather.setSummary(mStatusBarWeather.getEntry());
-            }
-            mStatusBarWeather.setOnPreferenceChangeListener(this);
 		
 		Preference mCutoutPref = (Preference) findPreference(PREF_KEY_CUTOUT);
 		
@@ -101,19 +85,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUS_BAR_LOGO, value ? 1 : 0);
             return true;
-            } else if (preference == mStatusBarWeather) {
-                int temperatureShow = Integer.valueOf((String) objValue);
-                int index = mStatusBarWeather.findIndexOfValue((String) objValue);
-                Settings.System.putIntForUser(getActivity().getContentResolver(),
-                        Settings.System.STATUS_BAR_SHOW_WEATHER_TEMP,
-                        temperatureShow, UserHandle.USER_CURRENT);
-                if (temperatureShow == 0) {
-                    mStatusBarWeather.setSummary(R.string.statusbar_weather_summary);
-                } else {
-                    mStatusBarWeather.setSummary(
-                            mStatusBarWeather.getEntries()[index]);
-                }
-                return true;
 		}
         return false;
     }
