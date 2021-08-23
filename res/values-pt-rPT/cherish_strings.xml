@@ -1156,8 +1156,8 @@
     <string name="left_clock">Left</string>
     <string name="center_clock">Center</string>
     <string name="right_clock">Right</string>
-    <string name="qs_edit_title">Edit Icon</string>
-    <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
+    <string name="qs_edit_title">Edit icon</string>
+    <string name="qs_edit_summary">Display the tile edit icon in the QS  footer</string>
     <string name="qs_user_title">User icon</string>
     <string name="qs_user_summary">Display the tile user icon in the QS  footer</string>
     <string name="qs_settings_title">Settings icon</string>
@@ -1176,9 +1176,33 @@
     <string name="powersave_title">Power Saving</string>
     <string name="power_profile">Battery saver profile</string>
     <string name="power_profile_default">Default</string>
-    <string name="power_profile_light">Claro</string>
+    <string name="power_profile_light">Light</string>
     <string name="power_profile_med">Moderate</string>
     <string name="power_profile_high">High</string>
     <string name="power_profile_ext">Extreme</string>
     <string name="powersave_summary">Options to extend your battery life</string>
+    <!-- Radio informations -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_schedule_sunset">Sunset</string>
+    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
+    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
+    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
+    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
+    <string name="sleep_mode_aod_toggle_title">Turn off AOD</string>
+    <string name="sleep_mode_aod_toggle_summary">Disable Always on display when Sleep mode is turned on</string>
+    <string name="sleep_mode_aggressive_toggle_title">Turn on Aggressive Battery</string>
+    <string name="sleep_mode_aggressive_toggle_summary">Enable Aggressive idle and standby when Sleep mode is turned on</string>
+    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
 </resources>
