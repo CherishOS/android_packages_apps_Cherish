@@ -82,7 +82,7 @@
     <string name="themes_hub_summary">Aksen-Gradien-Tema</string>
     <string name="accent_color">Pemilih aksen</string>
     <string name="accent_summary">Pembuat Gradient</string>
-    <string name="gradient_color">Pilihan gradient</string>
+    <string name="gradient_color">Pilihan gradien</string>
     <string name="gradient_summary">Pembuat efek gradient</string>
     <!--ThemePicker-->
     <string name="theme_select_title">Gaya dan Wallpaper</string>
@@ -465,7 +465,7 @@
     <string name="lockscreen_charging_animation_wavy">Bergelombang</string>
     <string name="lockscreen_charging_animation_split">Split Loading</string>
     <string name="lockscreen_charging_animation_yellow">Animasi Kuning</string>
-    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_covid">Covid19 ( ͡° ͜ʖ ͡°)</string>
     <string name="lockscreen_charging_animation_wash">Cuci Tangan Anda</string>
     <string name="lockscreen_charging_animation_wear">Pakai Masker Anda</string>
     <string name="click_partial_screenshot_title">Klik untuk tangkapan layar sebagian</string>
@@ -854,7 +854,7 @@
     <string name="lockscreen_qs_disabled_title">Nonaktifkan setelan cepat saat terkunci</string>
     <string name="lockscreen_qs_disabled_summary">Nonaktifkan memperluas setelan cepat pada layar kunci aman</string>
     <!-- Notification Media Options -->
-    <string name="media_category">Opsi Pemberitahuan Media</string>
+    <string name="media_category">Opsi Notifikasi Media</string>
     <string name="artwork_media_background_title">Latar belakang media karya seni</string>
     <string name="artwork_media_background_summary">Tetapkan media karya seni sebagai latar belakang media notifikasi</string>
     <!-- Custom seekbar -->
@@ -1075,7 +1075,7 @@
     <string name="status_bar_weather_size_title">Ukuran font</string>
     <!-- Hide SB On Lockscreen -->
     <string name="hide_lockscreen_status_bar_title">Sembunyikan bilah status</string>
-    <string name="hide_lockscreen_status_bar_summary">Sentuh bilah status untuk mengalihkan visibilitas</string>
+    <string name="hide_lockscreen_status_bar_summary">Sentuh bilah status untuk mengaktifkan visibilitas</string>
     <!-- System-wide Slider Styles -->
     <string name="system_slider_style_title">Gaya Slider Sistem</string>
     <string name="system_slider_style_default">Bawaan</string>
@@ -1113,9 +1113,9 @@
     <string name="accent_color_summary">Pilih aksen yang Anda inginkan</string>
     <!-- Pulse -->
     <string name="pulse_help_policy_notice_summary">Visual Audio adalah equalizer grafis audio yang brilian saat musik diputar di perangkat</string>
-    <string name="pulse_settings">Denyut</string>
+    <string name="pulse_settings">Visual Audio</string>
     <string name="pulse_settings_summary">Equalizer grafis audio untuk bilah navigasi dan layar kunci</string>
-    <string name="show_navbar_pulse_title">Visual Audio bilah navigasi</string>
+    <string name="show_navbar_pulse_title">Grafis Audio bilah navigasi</string>
     <string name="show_navbar_pulse_summary">Equalizer grafis audio pada bilah navigasi</string>
     <string name="show_lockscreen_pulse_title">Grafis Audio layar kunci</string>
     <string name="show_lockscreen_pulse_summary">Equalizer grafis audio pada layar kunci</string>
@@ -1151,7 +1151,7 @@
     <!-- Clock header -->
     <string name="clock_header_title">Jam Setelan Cepat</string>
     <string name="qs_clock_location_title">Lokasi jam setelan cepat</string>
-    <string name="qs_clock_location_summary">Tampilkan jam di panel Setelan Cepat</string>
+    <string name="qs_clock_location_summary">Tampilkan jam di Panel Setelan Cepat</string>
     <string name="cherish_clock_gravity_title">Posisi jam</string>
     <string name="left_clock">Kiri</string>
     <string name="center_clock">Tengah</string>
@@ -1176,9 +1176,33 @@
     <string name="powersave_title">Hemat Baterai</string>
     <string name="power_profile">Profil penghemat baterai</string>
     <string name="power_profile_default">Bawaan</string>
-    <string name="power_profile_light">Terang</string>
+    <string name="power_profile_light">Ringan</string>
     <string name="power_profile_med">Sedang</string>
     <string name="power_profile_high">Tinggi</string>
-    <string name="power_profile_ext">Ekstrim</string>
+    <string name="power_profile_ext">Ekstrem</string>
     <string name="powersave_summary">Opsi untuk memperpanjang masa pakai baterai Anda</string>
+    <!-- Radio informations -->
+    <string name="radio_info_title">Info radio</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Mode Tidur</string>
+    <string name="sleep_mode_schedule_sunset">Matahari terbenam</string>
+    <string name="sleep_mode_schedule_sunrise">Matahari terbit</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Menyala dari matahari terbenam ke waktu khusus</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Menyala dari waktu khusus hingga matahari terbit</string>
+    <string name="sleep_mode_toggles_title">Tombol Nonaktifkan</string>
+    <string name="sleep_mode_wifi_toggle_title">Nonaktifkan Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Nonaktifkan Wi-Fi saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Nonaktifkan Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Nonaktifkan Bluetooth saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_cellular_toggle_title">Nonaktifkan data seluler</string>
+    <string name="sleep_mode_cellular_toggle_summary">Nonaktifkan data seluler saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_location_toggle_title">Nonaktifkan Lokasi</string>
+    <string name="sleep_mode_location_toggle_summary">Nonaktifkan Lokasi saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_sensors_toggle_title">Nonaktifkan Sensor</string>
+    <string name="sleep_mode_sensors_toggle_summary">Nonaktifkan Sensor saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_aod_toggle_title">Nonaktifkan AOD</string>
+    <string name="sleep_mode_aod_toggle_summary">Nonaktifkan AOD saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_aggressive_toggle_title">Aktifkan Baterai Agresif</string>
+    <string name="sleep_mode_aggressive_toggle_summary">Aktifkan diam dan siaga agresif saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_display_text">Mode Tidur memungkinkan Anda menonaktifkan layanan tertentu untuk membantu menghemat baterai dan membungkam ponsel saat Anda tidur.</string>
 </resources>
