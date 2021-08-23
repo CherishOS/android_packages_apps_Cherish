@@ -80,7 +80,7 @@
     <!--Accenter -->
     <string name="themes_hub_title">Θέματα</string>
     <string name="themes_hub_summary">Accents-Gradients-Themes</string>
-    <string name="accent_color">Επιλογή έμφασης</string>
+    <string name="accent_color">Accent picker</string>
     <string name="accent_summary">Gradient Maker</string>
     <string name="gradient_color">Gradient picker</string>
     <string name="gradient_summary">Gradient effect maker</string>
@@ -766,10 +766,10 @@
     <string name="status_bar_battery_style_filled_circle">Filled circle</string>
     <string name="status_bar_battery_style_text">Κείμενο</string>
     <string name="status_bar_battery_style_hidden">Κρυφό</string>
-    <string name="status_bar_battery_percentage_title">Ποσοστό μπαταρίας</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
     <string name="status_bar_battery_percentage_default">Κρυφό</string>
-    <string name="status_bar_battery_percentage_text_inside">Μέσα στο εικονίδιο</string>
-    <string name="status_bar_battery_percentage_text_next">Δίπλα στο εικονίδιο</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="qs_battery_percentage_title">QS battery percentage</string>
     <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <string name="qs_media_player_title">QS Media player</string>
@@ -1124,9 +1124,9 @@
     <string name="pulse_render_mode_title">Render mode</string>
     <string name="pulse_render_mode_fading_bars">Fading blocks</string>
     <string name="pulse_render_mode_solid_lines">Solid lines</string>
-    <string name="pulse_color">Χρώμα</string>
-    <string name="pulse_color_mode">Λειτουργία χρωματισμού</string>
-    <string name="pulse_color_accent">Απόχρωση</string>
+    <string name="pulse_color">Color</string>
+    <string name="pulse_color_mode">Color mode</string>
+    <string name="pulse_color_accent">Accent</string>
     <string name="pulse_color_custom">Προσαρμοσμένη</string>
     <string name="pulse_color_lava_lamp">Lava lamp</string>
     <string name="pulse_color_auto">Album art</string>
@@ -1156,8 +1156,8 @@
     <string name="left_clock">Αριστερά</string>
     <string name="center_clock">Κέντρο</string>
     <string name="right_clock">Δεξιά</string>
-    <string name="qs_edit_title">Επεξεργασία εικονιδίου</string>
-    <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
+    <string name="qs_edit_title">Edit icon</string>
+    <string name="qs_edit_summary">Display the tile edit icon in the QS  footer</string>
     <string name="qs_user_title">User icon</string>
     <string name="qs_user_summary">Display the tile user icon in the QS  footer</string>
     <string name="qs_settings_title">Settings icon</string>
@@ -1176,9 +1176,33 @@
     <string name="powersave_title">Power Saving</string>
     <string name="power_profile">Battery saver profile</string>
     <string name="power_profile_default">Προεπιλογή</string>
-    <string name="power_profile_light">Φως</string>
+    <string name="power_profile_light">Light</string>
     <string name="power_profile_med">Moderate</string>
     <string name="power_profile_high">High</string>
     <string name="power_profile_ext">Extreme</string>
     <string name="powersave_summary">Options to extend your battery life</string>
+    <!-- Radio informations -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_schedule_sunset">Δύση ηλίου</string>
+    <string name="sleep_mode_schedule_sunrise">Ανατολή ήλιου</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
+    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
+    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
+    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
+    <string name="sleep_mode_aod_toggle_title">Turn off AOD</string>
+    <string name="sleep_mode_aod_toggle_summary">Disable Always on display when Sleep mode is turned on</string>
+    <string name="sleep_mode_aggressive_toggle_title">Turn on Aggressive Battery</string>
+    <string name="sleep_mode_aggressive_toggle_summary">Enable Aggressive idle and standby when Sleep mode is turned on</string>
+    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
 </resources>

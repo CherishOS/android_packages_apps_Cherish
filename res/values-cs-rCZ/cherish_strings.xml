@@ -80,9 +80,9 @@
     <!--Accenter -->
     <string name="themes_hub_title">Motivy</string>
     <string name="themes_hub_summary">Odstíny-Přechody-Motivy</string>
-    <string name="accent_color">Výběr odstínu</string>
+    <string name="accent_color">Accent picker</string>
     <string name="accent_summary">Tvůrce přechodu</string>
-    <string name="gradient_color">Výběr přechodu</string>
+    <string name="gradient_color">Gradient picker</string>
     <string name="gradient_summary">Tvůrce efektu přechodu</string>
     <!--ThemePicker-->
     <string name="theme_select_title">Styly a tapety</string>
@@ -766,10 +766,10 @@
     <string name="status_bar_battery_style_filled_circle">Vyplněný kruh</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Skryté</string>
-    <string name="status_bar_battery_percentage_title">Procenta baterie</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
     <string name="status_bar_battery_percentage_default">Skryté</string>
-    <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
-    <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="qs_battery_percentage_title">QS battery percentage</string>
     <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <string name="qs_media_player_title">Přehrávač médií</string>
@@ -1113,7 +1113,7 @@
     <string name="accent_color_summary">Choose your desired accent</string>
     <!-- Pulse -->
     <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
-    <string name="pulse_settings">Pulz</string>
+    <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
     <string name="show_navbar_pulse_title">Navbar Pulse</string>
     <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
@@ -1124,18 +1124,18 @@
     <string name="pulse_render_mode_title">Render mode</string>
     <string name="pulse_render_mode_fading_bars">Fading blocks</string>
     <string name="pulse_render_mode_solid_lines">Solid lines</string>
-    <string name="pulse_color">Barva</string>
-    <string name="pulse_color_mode">Barevný režim</string>
-    <string name="pulse_color_accent">Odstín</string>
+    <string name="pulse_color">Color</string>
+    <string name="pulse_color_mode">Color mode</string>
+    <string name="pulse_color_accent">Accent</string>
     <string name="pulse_color_custom">Vlastní</string>
-    <string name="pulse_color_lava_lamp">Lávová lampa</string>
+    <string name="pulse_color_lava_lamp">Lava lamp</string>
     <string name="pulse_color_auto">Album art</string>
     <string name="pulse_color_chooser">Choose color</string>
     <string name="smoothing_enabled_title">Turn on smoothing</string>
     <string name="smoothing_enabled_summary">Each bar is animated more smoothly</string>
     <string name="pulse_advanced_category">Pokročilé</string>
     <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
-    <string name="pulse_custom_fudge_factor">Úroveň výkonu</string>
+    <string name="pulse_custom_fudge_factor">Sanity level</string>
     <string name="lavamp_speed_title">Lava lamp speed</string>
     <string name="pulse_solid_units_count">Solid lines count</string>
     <string name="pulse_solid_units_opacity">Solid lines opacity</string>
@@ -1156,8 +1156,8 @@
     <string name="left_clock">Vlevo</string>
     <string name="center_clock">Střed</string>
     <string name="right_clock">Právo</string>
-    <string name="qs_edit_title">Upravit ikonu</string>
-    <string name="qs_edit_summary">Povolit ikonu úprav dlaždic v zápatí</string>
+    <string name="qs_edit_title">Edit icon</string>
+    <string name="qs_edit_summary">Display the tile edit icon in the QS  footer</string>
     <string name="qs_user_title">User icon</string>
     <string name="qs_user_summary">Display the tile user icon in the QS  footer</string>
     <string name="qs_settings_title">Settings icon</string>
@@ -1176,9 +1176,33 @@
     <string name="powersave_title">Power Saving</string>
     <string name="power_profile">Battery saver profile</string>
     <string name="power_profile_default">Výchozí</string>
-    <string name="power_profile_light">Světlý</string>
+    <string name="power_profile_light">Light</string>
     <string name="power_profile_med">Moderate</string>
     <string name="power_profile_high">High</string>
     <string name="power_profile_ext">Extreme</string>
     <string name="powersave_summary">Options to extend your battery life</string>
+    <!-- Radio informations -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_schedule_sunset">Západ slunce</string>
+    <string name="sleep_mode_schedule_sunrise">Východ slunce</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
+    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
+    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
+    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
+    <string name="sleep_mode_aod_toggle_title">Turn off AOD</string>
+    <string name="sleep_mode_aod_toggle_summary">Disable Always on display when Sleep mode is turned on</string>
+    <string name="sleep_mode_aggressive_toggle_title">Turn on Aggressive Battery</string>
+    <string name="sleep_mode_aggressive_toggle_summary">Enable Aggressive idle and standby when Sleep mode is turned on</string>
+    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
 </resources>
