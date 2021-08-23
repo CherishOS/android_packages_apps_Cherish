@@ -1429,4 +1429,7 @@
     <string name="explosion_charging_animation">Explosion Animation</string>
     <string name="rainbow_charging_animation">Rainbow Circle</string>
     <string name="fire_charging_animation">Fire Circle</string>
+    <string name="system_charging">System Charging Options</string>
+    <string name="charging_animation_bg_title">Charging Background</string>
+    <string name="charging_animation_bg_summary">Enabling this option will make the background on System Animation to black</string>
 </resources>

@@ -42,6 +42,13 @@
            android:summary="%s"
 	   android:dependency="charging_animation"
            android:defaultValue="1" />
+    
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="charging_animation_bg"
+            android:title="@string/charging_animation_bg_title"
+            android:summary="@string/charging_animation_bg_summary"
+            android:dependency="charging_animation"
+            android:defaultValue="false" />
 
     <com.cherish.settings.preferences.SystemSettingListPreference
         android:key="lockscreen_charging_animation_style"
