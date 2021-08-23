@@ -1181,4 +1181,28 @@
     <string name="power_profile_high">Cao</string>
     <string name="power_profile_ext">Rất cao</string>
     <string name="powersave_summary">Các tùy chọn để kéo dài tuổi thọ pin của bạn</string>
+    <!-- Radio informations -->
+    <string name="radio_info_title">Thông tin radio</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Chế độ ngủ</string>
+    <string name="sleep_mode_schedule_sunset">Hoàng hôn</string>
+    <string name="sleep_mode_schedule_sunrise">Bình minh</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Bật từ hoàng hôn đến tùy chọn thời gian</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Bật cho tùy chọn thời gian đến lúc bình minh</string>
+    <string name="sleep_mode_toggles_title">Chuyển đổi</string>
+    <string name="sleep_mode_wifi_toggle_title">Tắt Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Tắt Wi-Fi khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Tắt Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Tắt Bluetooth khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_cellular_toggle_title">Tắt dữ liệu di động</string>
+    <string name="sleep_mode_cellular_toggle_summary">Tắt dữ liệu di động khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_location_toggle_title">Tắt vị trí</string>
+    <string name="sleep_mode_location_toggle_summary">Tắt vị trí khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_sensors_toggle_title">Tắt cảm biến</string>
+    <string name="sleep_mode_sensors_toggle_summary">Tắt cảm biến khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_aod_toggle_title">Tắt AOD</string>
+    <string name="sleep_mode_aod_toggle_summary">Tắt Aod khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_aggressive_toggle_title">Bật tùy chọn pin thích ứng</string>
+    <string name="sleep_mode_aggressive_toggle_summary">Bật chế độ chờ và không hoạt động linh hoạt khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_display_text">Chế độ ngủ cho phép bạn tắt một số dịch vụ nhất định để giúp tiết kiệm pin và tắt tiếng điện thoại khi bạn ngủ.</string>
 </resources>
