@@ -291,7 +291,7 @@
     <string name="qs_tint_accent">Vurgu rengi</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
-    <string name="sysui_colors_active_title">Colored SystemUI</string>
+    <string name="sysui_colors_active_title">Renkli Sistem Arayüzü</string>
     <string name="sysui_colors_active_summary">Wallpaper colored scrims and QS</string>
     <!-- QS themes -->
     <string name="qs_panel_colors_title">Quick settings colors</string>
@@ -1165,8 +1165,8 @@
     <string name="qs_running_service_title">Running service icon</string>
     <string name="qs_running_service_summary">Enable or disable running service icon</string>
     <!-- SearchBar Style -->
-    <string name="search_bar_style_title">Use Android 12 Search Bar</string>
-    <string name="search_bar_style_summary">Toggle to use Android 12 style searchbar in Settings app. Settings app needs to be manually restarted for the change to take effect.</string>
+    <string name="search_bar_style_title">Android 12 arama çubuğunu kullan</string>
+    <string name="search_bar_style_summary">Ayarlar uygulamasında Android 12 stili arama çubuğunu kullanmak için geçiş yapın. Değişikliğin etkili olması için ayarlar uygulamasının manuel olarak yeniden başlatılması gerekiyor.</string>
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">Hide apps from recents</string>
     <string name="hide_apps_from_recents_summary">Hide apps from appearing in recents</string>

@@ -81,9 +81,9 @@
     <string name="themes_hub_title">主題</string>
     <string name="themes_hub_summary">Accents-Gradients-Themes</string>
     <string name="accent_color">主題顏色</string>
-    <string name="accent_summary">Gradient Maker</string>
-    <string name="gradient_color">色彩梯度顏色</string>
-    <string name="gradient_summary">Gradient effect maker</string>
+    <string name="accent_summary">色彩漸層製造器</string>
+    <string name="gradient_color">色彩漸層選擇器</string>
+    <string name="gradient_summary">漸層效果製造器</string>
     <!--ThemePicker-->
     <string name="theme_select_title">樣式和桌布</string>
     <string name="theme_select_summary">瀏覽並選擇要已安裝的主題</string>
@@ -1001,13 +1001,13 @@
     <string name="fod_icon_picker_summary">選擇您喜歡的指紋圖示</string>
     <string name="fod_icon_picker_footer">若希望新增自己的圖示，請選擇最左上方的圖示，然後使用 OnePlus 6T FP Customizer 應用程式選擇您喜歡的圖示。</string>
     <!-- Doze Brightness Config -->
-    <string name="doze_brightness_category">Doze Brightness Config</string>
-    <string name="doze_brightness_force_title">Force brightness values</string>
-    <string name="doze_brightness_force_summary">Use custom brightness values instead of screen brightness</string>
-    <string name="ambient_pulse_brightness_title">Ambient notification brightness</string>
-    <string name="ambient_pulse_brightness_summary">Set brightness to use when notifcations are shown</string>
-    <string name="ambient_doze_brightness_title">Ambient display brightness</string>
-    <string name="ambient_doze_brightness_summary">Set brightness to use during ambient display on</string>
+    <string name="doze_brightness_category">Doze亮度設定</string>
+    <string name="doze_brightness_force_title">強制亮度值</string>
+    <string name="doze_brightness_force_summary">使用自訂的亮度值取代螢幕亮度</string>
+    <string name="ambient_pulse_brightness_title">環境通知的亮度</string>
+    <string name="ambient_pulse_brightness_summary">設定顯示通知時使用的亮度</string>
+    <string name="ambient_doze_brightness_title">環境顯示的亮度</string>
+    <string name="ambient_doze_brightness_summary">設定環境顯示上使用的亮度</string>
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">Show notifications count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
@@ -1066,7 +1066,7 @@
     <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
     <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
     <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
-    <string name="status_bar_weather_location_title">Location</string>
+    <string name="status_bar_weather_location_title">位置</string>
     <string name="status_bar_show_image">Show image</string>
     <string name="network_traffic_location_disable">已停用</string>
     <string name="network_traffic_location_statusbar">狀態列</string>
