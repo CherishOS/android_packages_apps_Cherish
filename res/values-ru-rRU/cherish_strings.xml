@@ -1167,8 +1167,8 @@
     <string name="qs_running_service_title">Значок запущенных служб</string>
     <string name="qs_running_service_summary">Включение или отключение значка запущенной службы</string>
     <!-- SearchBar Style -->
-    <string name="search_bar_style_title">Use Android 12 Search Bar</string>
-    <string name="search_bar_style_summary">Toggle to use Android 12 style searchbar in Settings app. Settings app needs to be manually restarted for the change to take effect.</string>
+    <string name="search_bar_style_title">Использовать панель поиска Android 12</string>
+    <string name="search_bar_style_summary">Включите, чтобы использовать поисковую панель Android 12 в Настройках. Чтобы изменения вступили в силу, необходимо перезапустить приложение настроек вручную.</string>
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">Скрыть приложения из недавних</string>
     <string name="hide_apps_from_recents_summary">Скрыть приложения от появления в недавних</string>
