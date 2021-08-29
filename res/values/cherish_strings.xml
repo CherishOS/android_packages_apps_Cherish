@@ -1432,4 +1432,13 @@
     <string name="system_charging">System Charging Options</string>
     <string name="charging_animation_bg_title">Charging Background</string>
     <string name="charging_animation_bg_summary">Enabling this option will make the background on System Animation to black</string>
+
+    <!-- VoLTE Icon Type -->
+    <string name="volte_icon_style_title">Select VoLTE/HD Icon</string>
+    <string name="volte_icon_volte">VoLTE Icon</string>
+    <string name="volte_icon_oos">VoLTE OnePlus Icon</string>
+    <string name="volte_icon_default">Default-Dynamic Icons</string>
+    <string name="volte_icon_hd">HD Icons</string>
+    <string name="volte_icon_miui">MiUi Icons</string>
+    <string name="volte_icon_emui">EMUI Icons</string>
 </resources>
