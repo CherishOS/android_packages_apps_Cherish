@@ -1441,4 +1441,12 @@
     <string name="volte_icon_hd">HD Icons</string>
     <string name="volte_icon_miui">MiUi Icons</string>
     <string name="volte_icon_emui">EMUI Icons</string>
+
+    <!-- VoWiFi Icon Type -->
+    <string name="vowifi_icon_style_title">Select VoWiFi Icon</string>
+    <string name="vowifi_icon_default">Default-Dynamic Icons</string>
+    <string name="vowifi_icon_asus">Asus VoWiFi Icon</string>
+    <string name="vowifi_icon_oneplus">OnePlus VoWiFi Icon</string>
+    <string name="vowifi_icon_moto">Moto VoWiFi Icons</string>
+    <string name="vowifi_icon_emui">EMUI Icons</string>
 </resources>

@@ -1425,4 +1425,21 @@
         <item>4</item>
         <item>5</item>
     </string-array>
+
+    <!-- VoWiFi Icon Type -->
+    <string-array name="vowifi_icon_type_entries" translatable="false">
+        <item>@string/vowifi_icon_default</item>
+        <item>@string/vowifi_icon_asus</item>
+        <item>@string/vowifi_icon_oneplus</item>
+        <item>@string/vowifi_icon_moto</item>
+        <item>@string/vowifi_icon_emui</item>
+    </string-array>
+
+    <string-array name="vowifi_icon_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
 </resources>
