@@ -37,8 +37,10 @@ import java.util.ArrayList;
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+   private static final String FOOTER_TEXT_STRING = "footer_text_string";
    private static final String STATUS_BAR_CUSTOM_HEADER = "status_bar_custom_header";
 
+    private SystemSettingEditTextPreference mFooterString;
     private SystemSettingMasterSwitchPreference mCustomHeader;
 
     @Override
@@ -55,12 +57,35 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_CUSTOM_HEADER, 0);
         mCustomHeader.setChecked(qsHeader != 0);
         mCustomHeader.setOnPreferenceChangeListener(this);
+
+        mFooterString = (SystemSettingEditTextPreference) findPreference(FOOTER_TEXT_STRING);
+        mFooterString.setOnPreferenceChangeListener(this);
+        String footerString = Settings.System.getString(getContentResolver(),
+                FOOTER_TEXT_STRING);
+        if (footerString != null && footerString != "")
+            mFooterString.setText(footerString);
+        else {
+            mFooterString.setText("#KeepTheLove");
+            Settings.System.putString(getActivity().getContentResolver(),
+                    Settings.System.FOOTER_TEXT_STRING, "#KeepTheLove");
+        }
 	}
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mCustomHeader) {
+         if (preference == mFooterString) {
+            String value = (String) newValue;
+            if (value != "" && value != null)
+                Settings.System.putString(getActivity().getContentResolver(),
+                        Settings.System.FOOTER_TEXT_STRING, value);
+            else {
+                mFooterString.setText("#KeepTheLove");
+                Settings.System.putString(getActivity().getContentResolver(),
+                        Settings.System.FOOTER_TEXT_STRING, "#KeepTheLove");
+            }
+            return true;
+            } else if (preference == mCustomHeader) {
             boolean header = (Boolean) newValue;
             Settings.System.putInt(resolver,
                     Settings.System.STATUS_BAR_CUSTOM_HEADER, header ? 1 : 0);
