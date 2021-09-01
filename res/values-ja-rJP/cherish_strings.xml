@@ -80,10 +80,10 @@
     <!--Accenter -->
     <string name="themes_hub_title">テーマ</string>
     <string name="themes_hub_summary">アクセント-グラデーション-テーマ</string>
-    <string name="accent_color">アクセントの選択</string>
-    <string name="accent_summary">グラデーションメーカー</string>
-    <string name="gradient_color">グラデーションの選択</string>
-    <string name="gradient_summary">グラデーションエフェクトメーカー</string>
+    <string name="rgb_accent_picker_title_dark">Accent Picker</string>
+    <string name="rgb_accent_picker_summary">Choose the accent color yourself</string>
+    <string name="theme_option_reset_title">Reset Theme Options</string>
+    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
     <!--ThemePicker-->
     <string name="theme_select_title">スタイルと壁紙</string>
     <string name="theme_select_summary">インストール済みのテーマを表示して選択する</string>
@@ -169,11 +169,11 @@
     <string name="anbi_summary">画面タッチ中はナビゲーションボタンを無効化して誤操作を防ぐ</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
-    <string name="lockscreen_battery_info_summary">充電時のロック画面に接続した充電器の最大電流・最大電圧とバッテリー温度の情報を表示する</string>
+    <string name="lockscreen_battery_info_summary">充電時のロック画面に接続した充電器の最大電流/最大電圧とバッテリー温度の情報を表示する</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">指紋認証時の振動</string>
     <string name="fprint_sucess_vib_summary">指紋認証が成功した時に振動させる</string>
-    <string name="fprint_error_vib_title">指紋認証エラー時の振動</string>
+    <string name="fprint_error_vib_title">指紋認証失敗時の振動</string>
     <string name="fprint_error_vib_summary">指紋認証が失敗した時に振動させる</string>
     <!--Double Tap to Sleep -->
     <string name="double_tap_gestures_category_title">ダブルタップジェスチャー</string>
@@ -273,15 +273,15 @@
     <string name="lockscreen_date_selection_str_border_accent">アクセント付きの暗い枠線</string>
     <string name="lockscreen_date_selection_str_border_gradient">グラデーション付きの暗い枠線</string>
     <!-- Q To X Clock -->
-    <string name="center_text_clock_title">ロック画面の時計の配置</string>
+    <string name="center_text_clock_title">時計の配置</string>
     <!-- Lockscreen Item Alignments -->
-    <string name="lockscreen_date_alignment_title">ロック画面の日付の配置</string>
-    <string name="lockscreen_ownerinfo_alignment_title">ロック画面の所有者情報の配置</string>
+    <string name="lockscreen_date_alignment_title">日付の配置</string>
+    <string name="lockscreen_ownerinfo_alignment_title">所有者情報の配置</string>
     <string name="lock_item_left">左揃え</string>
     <string name="lock_item_center">中央揃え</string>
     <string name="lock_item_right">右揃え</string>
     <string name="lockscreen_item_padding_title">ロック画面の項目の余白</string>
-    <string name="lockscreen_weather_alignment_title">ロック画面の天気の配置</string>
+    <string name="lockscreen_weather_alignment_title">天気の配置</string>
     <string name="lockscreen_weather_selection_title">WeatherView の背景のスタイル</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">データ通信無効アイコン</string>
@@ -447,7 +447,7 @@
     <string name="notification_headers_summary">通知の影にヘッダーを表示します。\nシステム UI の再起動が必要です。</string>
     <!-- Center R Notification headers -->
     <string name="center_notification_headers_title">中央配置の通知ヘッダー</string>
-    <string name="center_notification_headers_summary">中央揃えのRスタイルの通知ヘッダーに切り替えるか選択する (システム UI の再起動が必要です)</string>
+    <string name="center_notification_headers_summary">中央揃えの R スタイルの通知ヘッダーに切り替えるか選択する (システム UI の再起動が必要です)</string>
     <!-- Media art -->
     <string name="lockscreen_media_art_title">メディアアート</string>
     <string name="lockscreen_media_art_summary">メディアアートの表示を切り替える</string>
@@ -468,7 +468,7 @@
     <string name="lockscreen_charging_animation_covid">Covid19</string>
     <string name="lockscreen_charging_animation_wash">手を洗おう</string>
     <string name="lockscreen_charging_animation_wear">マスクを着けよう</string>
-    <string name="click_partial_screenshot_title">クリックして部分スクリーンショット</string>
+    <string name="click_partial_screenshot_title">部分スクリーンショット</string>
     <string name="click_partial_screenshot_summary">音量ダウンと電源ボタンを短くクリックして部分スクリーンショットを取得する</string>
     <!--  Volume Panel Plugin   -->
     <string name="volume_panel">音量パネルのスタイル</string>
@@ -551,8 +551,8 @@
     <string name="battery_bar_blend_color_reverse_summary_off">フル &#8594; 残量低下: 赤 &#8592; 緑 &#8592; 青 &#8592; 赤</string>
     <string name="battery_bar_blend_color_reverse_summary_on">フル &#8594; 残量低下: 赤 &#8594; 緑 &#8594; 青 &#8594; 赤</string>
     <!-- Navbar Entries -->
-    <string name="navbar_gestures_title">ナビゲーションジェスチャーのオプション</string>
-    <string name="navbar_gestures_summary">端末を操作するボタンまたはジェスチャーを選択して下さい</string>
+    <string name="navbar_gestures_title">システムナビゲーション</string>
+    <string name="navbar_gestures_summary">端末を操作するナビゲーションボタンまたはジェスチャーを選択する</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel アニメーション</string>
     <string name="pixel_navbar_anim_summary">ホームボタンアニメーションを切り替える</string>
@@ -563,6 +563,11 @@
     <string name="lockscreen_weather_show_temp_summary">画像の右に現在の都市の気温を表示する</string>
     <string name="lockscreen_weather_show_image_title">天気の絵を表示</string>
     <string name="lockscreen_weather_show_image_summary">天気の絵を表示する</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">QS footer text</string>
+    <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
+    <string name="qs_footer_text_string_title">Customize footer text</string>
+    <string name="qs_footer_text_string_summary">Set to empty for default #KeepTheLove</string>
     <!-- Navbar options -->
     <string name="navigation_bar_invert_layout_title">レイアウトの反転</string>
     <string name="navigation_bar_invert_layout_summary">ナビゲーションバーや IEM 切替えのようなその他の項目のレイアウトを反転させる</string>
@@ -592,36 +597,6 @@
     <string name="file_header_select_summary">内部ストレージから画像を選択する</string>
     <string name="status_bar_custom_header_shadow_title">画像を暗くする</string>
     <string name="status_bar_custom_header_height_title">画像の高さのオフセット</string>
-    <!-- Gaming mode -->
-    <string name="gaming_mode_title">ゲームモード</string>
-    <string name="gaming_mode_summary">ゲームモードの設定を編集する</string>
-    <string name="gaming_mode_enable_title">ゲームモードを有効化</string>
-    <string name="gaming_mode_enable_summary">ゲームモードのメインスイッチです</string>
-    <string name="gaming_mode_app_picker_title">自動有効にするアプリ</string>
-    <string name="add_gaming_mode_package_title">アプリを追加</string>
-    <string name="add_gaming_mode_package_summary">指定したアプリを開いた時にゲームモードを自動的に有効化し、閉じたときに無効化します</string>
-    <string name="gaming_mode_headsup_title">通知のブロック</string>
-    <string name="gaming_mode_headsup_allow">Heads Up 通知を許可する</string>
-    <string name="gaming_mode_headsup_dnc">通話とアラーム以外の全ての Heads Up 通知を拒否する</string>
-    <string name="gaming_mode_headsup_clock">アラーム以外の全ての Heads Up 通知を拒否する</string>
-    <string name="gaming_mode_headsup_dialer">通話以外の全ての Heads Up 通知を拒否する</string>
-    <string name="gaming_mode_headsup_stop">全ての Heads Up 通知を拒否する</string>
-    <string name="gaming_mode_hardware_keys_title">ボタンのロック</string>
-    <string name="gaming_mode_hardware_keys_summary">ゲームモード有効時はハードウェアボタンを無効化する</string>
-    <string name="gaming_mode_brightness_title">自動明るさ調節の無効化</string>
-    <string name="gaming_mode_brightness_summary">ゲームモード有効時は明るさを固定する</string>
-    <string name="gaming_mode_ringer_title">ゲームモードでの音声モード</string>
-    <string name="gaming_mode_ringer_off_title">変更しない</string>
-    <string name="gaming_mode_ringer_vibrate_title">振動</string>
-    <string name="gaming_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="gaming_mode_ringer_silent_title">サイレント</string>
-    <string name="gaming_mode_notifications_title">ゲームモードの表示</string>
-    <string name="gaming_mode_notifications_off_title">無効</string>
-    <string name="gaming_mode_notifications_notif_title">通知を表示</string>
-    <string name="gaming_mode_notifications_toast_title">トーストを表示</string>
-    <string name="gaming_mode_notifications_all_title">トーストと通知を表示</string>
-    <string name="gaming_mode_dynamic_title">ダイナミックモード</string>
-    <string name="gaming_mode_dynamic_summary">ゲームアプリを自動的に判別して追加しよう試みる</string>
     <!-- Ambient edge lighting -->
     <string name="pulse_ambient_light_category">画面のエッジライト</string>
     <string name="pulse_ambient_light_title">新しい通知で表示</string>
@@ -665,13 +640,7 @@
     <string name="brightness_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="brightness_slider_style_memestroke">Meme stroke</string>
     <string name="brightness_slider_style_default_2">既定 (平坦アクセント)</string>
-    <string name="brightness_slider_style_danielgradient">Daniel (グラデーション)</string>
-    <string name="brightness_slider_style_mememinigradient">Meme mini (グラデーション)</string>
-    <string name="brightness_slider_style_memeroundgradient">Meme round (グラデーション)</string>
-    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (グラデーション)</string>
-    <string name="brightness_slider_style_memestrokegradient">Meme stroke (グラデーション)</string>
-    <string name="brightness_slider_style_minihalf">Mini half</string>
-    <string name="brightness_slider_style_half">Half</string>
+    <string name="brightness_slider_style_minihalf">ミニハーフ</string>
     <string name="brightness_slider_style_oos">OOS スタイル</string>
     <string name="brightness_slider_style_a12">A12 スタイル</string>
     <!-- GUI styles -->
@@ -772,9 +741,9 @@
     <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
     <string name="qs_battery_percentage_title">クイック設定のバッテリー残量</string>
     <string name="qs_battery_percentage_summary">クイック設定ヘッダーに予想稼働時間の代わりにバッテリー残量を表示する</string>
-    <string name="qs_media_player_title">クイック設定のメディアプレーヤー</string>
-    <string name="qs_media_player_summary_on">クイック設定にメディアプレーヤーを表示します。\nシステム UI の再起動が必要です。</string>
-    <string name="qs_media_player_summary_off">通知としてメディアプレーヤーを表示します。\nシステム UI の再起動が必要です。</string>
+    <string name="qs_media_player_title">メディアプレイヤー</string>
+    <string name="qs_media_player_summary_on">クイック設定にメディアプレイヤーを表示します。\nシステム UI の再起動が必要です。</string>
+    <string name="qs_media_player_summary_off">通知としてメディアプレイヤーを表示します。\nシステム UI の再起動が必要です。</string>
     <!-- Statusbar logo -->
     <string name="status_bar_logo_title">ロゴ</string>
     <string name="status_bar_logo_summary">カスタムロゴをステータスバーに表示する</string>
@@ -857,6 +826,8 @@
     <string name="media_category">メディア通知のオプション</string>
     <string name="artwork_media_background_title">メディアアートワークの背景</string>
     <string name="artwork_media_background_summary">メディアアートワークをメディア通知の背景に設定する</string>
+    <string name="artwork_media_fade_level_title">アートワークのフェードレベル</string>
+    <string name="artwork_media_fade_level_summary">メディアアートワーク画像をフェードさせる</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">値: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">既定</string>
@@ -887,8 +858,6 @@
     <string name="theming_settings_dashboard_icons_accent">アクセントの背景/透明な前面</string>
     <string name="theming_settings_dashboard_icons_plain">透明な背景/無地の前面</string>
     <string name="theming_settings_dashboard_icons_plain_accent">透明な背景/アクセントの前面</string>
-    <string name="statusbar_icons_style">ステータスバーの色</string>
-    <string name="statusbar_icons_style_summary">ステータスバーのスタイルを選択する (システム UI の再起動が必要です)</string>
     <string name="header_icons_style">ヘッダーアイコンの色</string>
     <string name="header_icons_style_summary">通知ヘッダーのスタイルを選択する (システム UI の再起動が必要です)</string>
     <!-- Units -->
@@ -919,7 +888,7 @@
     <!-- Display cutout options -->
     <string name="cutout_main">画面の切り欠き</string>
     <string name="cutout_main_summary">彼らは本当にこれでコーナーを切りました</string>
-    <string name="display_cutout_style_title">切り取りのスタイル</string>
+    <string name="display_cutout_style_title">切り欠きのスタイル</string>
     <string name="display_cutout_style_normal">標準</string>
     <string name="display_cutout_style_immerse">没入</string>
     <string name="display_cutout_style_hide">非表示</string>
@@ -951,7 +920,7 @@
     <string name="fod_recog_animation_category">指紋認証のアニメーション</string>
     <string name="fod_category_summary">指紋認証の表示を編集する</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">指紋認証のアニメーション</string>
+    <string name="fod_recog_animation">認証のアニメーション</string>
     <string name="fod_recog_animation_summary">指紋認識中にアニメーションを表示する</string>
     <string name="fod_recog_animation_effect_title">認識のアニメーション効果</string>
     <string name="fod_recog_animation_miui_normal">MIUI 既定</string>
@@ -972,7 +941,7 @@
     <string name="fod_recog_animation_op_stripe">OnePlus ストライプ</string>
     <string name="fod_recog_animation_op_wave">OnePlus ウェーブ</string>
     <string name="fod_recog_animation_pureview_dna">Nokia DNA</string>
-    <string name="fod_recog_animation_pureview_future">Nokiaフューチャー</string>
+    <string name="fod_recog_animation_pureview_future">Nokia フューチャー</string>
     <string name="fod_recog_animation_pureview_halo_ring">Nokia Halo リング</string>
     <string name="fod_recog_animation_pureview_molecular">Nokia Molecular</string>
     <string name="fod_recog_animation_rog_fusion">Asus フュージョン</string>
@@ -990,7 +959,7 @@
     <string name="fod_pressed_color_yellow">黄色</string>
     <string name="fod_pressed_color_light_yellow">ライトイエロー</string>
     <!-- FOD icon animation -->
-    <string name="fod_icon_animation">指紋認証アイコンのアニメーション</string>
+    <string name="fod_icon_animation">認証アイコンのアニメーション</string>
     <string name="fod_icon_animation_effect_title">指紋認証のアニメーション効果を選択する</string>
     <string name="fod_icon_animation_summary">画面点灯時に指紋認証アイコンをアニメーションさせる</string>
     <string name="fod_icon_animation_oneui1">OneUI 1</string>
@@ -1022,12 +991,12 @@
     <string name="screen_state_toggles_title">スリープ時のアクション</string>
     <string name="screen_state_toggles_summary">画面点灯/消灯時の端末のネットワークと GPS の動作を制御する</string>
     <string name="screen_state_toggles_enable_title">有効</string>
-    <string name="screen_state_toggles_enable_summary">画面消灯時に実行されるアクション</string>
+    <string name="screen_state_toggles_enable_summary">画面消灯時にアクションを実行する</string>
     <string name="screen_state_toggles_mobile_title">モバイルネットワーク</string>
     <string name="screen_state_toggles_location_title">位置情報</string>
-    <string name="screen_state_toggles_twog">2G に切り替える</string>
+    <string name="screen_state_toggles_twog">2G に切り替え</string>
     <string name="screen_state_toggles_twog_summary">画面消灯時にネットワークモードを 2G に切り替える</string>
-    <string name="screen_state_toggles_threeg">3G に切り替える</string>
+    <string name="screen_state_toggles_threeg">3G に切り替え</string>
     <string name="screen_state_toggles_threeg_summary">画面消灯時にネットワークモードを 3G に切り替える</string>
     <string name="screen_state_toggles_gps">GPS の無効化</string>
     <string name="screen_state_toggles_gps_summary">画面消灯時に GPS を使用した位置情報サービスを無効化する</string>
@@ -1057,22 +1026,6 @@
     <string name="alarm_blocker_reload">再読み込み</string>
     <string name="alarm_blocker_warning_title">注意して進めて下さい</string>
     <string name="alarm_blocker_warning">Alarm のブロックは端末を不安定にしたり、クラッシュやデータの損失などを起こす可能性があります。</string>
-    <!-- StatusBar weather settings -->
-    <string name="statusbar_weather_title">ステータスバーの天気</string>
-    <string name="statusbar_weather_summary">クイック設定/天気から設定して下さい</string>
-    <string name="statusbar_weather_dialog_title">ステータスバーの天気のスタイル</string>
-    <string name="status_bar_weather_hidden">天気を隠す</string>
-    <string name="status_bar_temperature_image_show_scale">単位付きの温度と画像を表示</string>
-    <string name="status_bar_temperature_image_hide_scale">単位なしの温度と画像を表示</string>
-    <string name="status_bar_temperature_show_scale_hide_image">単位付きの温度を表示</string>
-    <string name="status_bar_temperature_hide_scale_hide_image">単位なしの温度を表示</string>
-    <string name="status_bar_weather_location_title">位置情報</string>
-    <string name="status_bar_show_image">画像を表示</string>
-    <string name="network_traffic_location_disable">無効</string>
-    <string name="network_traffic_location_statusbar">ステータスバー</string>
-    <string name="network_traffic_location_quick_statusbar">クイックステータスバー</string>
-    <string name="status_bar_weather_color_title">温度の色</string>
-    <string name="status_bar_weather_size_title">フォントサイズ</string>
     <!-- Hide SB On Lockscreen -->
     <string name="hide_lockscreen_status_bar_title">ステータスバーを隠す</string>
     <string name="hide_lockscreen_status_bar_summary">ステータスバーのタップで表示を切り替える</string>
@@ -1098,7 +1051,7 @@
     <string name="theme_customization_settings_icon_title">設定アイコン</string>
     <string name="theme_customization_systemui_title">基本のテーマ</string>
     <string name="themes_color">テーマ</string>
-    <string name="themes_summary">テーマセクション</string>
+    <string name="themes_summary">テーマのセクション</string>
     <!-- Clock style -->
     <string name="clock_style_title">時計のスタイル</string>
     <string name="clock_style_summary">ロック画面の時計を編集する</string>
@@ -1108,12 +1061,12 @@
     <string name="custom_wifi_bar_title">Wi-Fi</string>
     <string name="theme_customization_statusbar_height_title">ステータスバーの高さ</string>
     <!-- Customization titles -->
-    <string name="themes_ui">テーマ UI</string>
+    <string name="themes_ui">UI のテーマ</string>
     <!-- Accent Picker -->
     <string name="accent_color_summary">目的のアクセントを選択して下さい</string>
     <!-- Pulse -->
-    <string name="pulse_help_policy_notice_summary">Pulse は端末上で音楽を再生した時に表示されるグラフィックイコライザーです。</string>
-    <string name="pulse_settings">パルス</string>
+    <string name="pulse_help_policy_notice_summary">Pulse は端末上で音楽を再生した時に表示されるグラフィックイコライザーです</string>
+    <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">ナビゲーションバーとロック画面に表示されるグラフィックイコライザー</string>
     <string name="show_navbar_pulse_title">ナビゲーションバーの Pulse</string>
     <string name="show_navbar_pulse_summary">ナビゲーションバー上の音楽グラフィックイコライザー</string>
@@ -1164,9 +1117,6 @@
     <string name="qs_settings_summary">クイック設定のフッターに設定アイコンを表示する</string>
     <string name="qs_running_service_title">実行中のサービスアイコン</string>
     <string name="qs_running_service_summary">実行中のサービスアイコンを有効化/無効化する</string>
-    <!-- SearchBar Style -->
-    <string name="search_bar_style_title">Android 12 の検索バーを使う</string>
-    <string name="search_bar_style_summary">設定アプリで Android 12 のスタイルの検索バーに切り替えて使用します。設定アプリは変更を反映させるために再起動する必要があります。</string>
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">アプリ履歴からアプリを隠す</string>
     <string name="hide_apps_from_recents_summary">アプリ履歴にアプリが表示されないようにする</string>
@@ -1176,9 +1126,128 @@
     <string name="powersave_title">電力の節約</string>
     <string name="power_profile">バッテリーセーバーのプロファイル</string>
     <string name="power_profile_default">既定</string>
-    <string name="power_profile_light">ライト</string>
+    <string name="power_profile_light">弱</string>
     <string name="power_profile_med">中</string>
     <string name="power_profile_high">高</string>
     <string name="power_profile_ext">最高</string>
     <string name="powersave_summary">バッテリーの寿命を延ばすためのオプションを設定する</string>
+    <!-- Radio informations -->
+    <string name="radio_info_title">基地局の情報</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">スリープモード</string>
+    <string name="sleep_mode_schedule_sunset">日没</string>
+    <string name="sleep_mode_schedule_sunrise">日出</string>
+    <string name="sleep_mode_schedule_mixed_sunset">日没から設定時刻まで</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">設定時刻から日の出まで</string>
+    <string name="sleep_mode_toggles_title">切り替え</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi を無効化</string>
+    <string name="sleep_mode_wifi_toggle_summary">スリープモードが ON の時は Wi-Fi を無効にする</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth を無効化</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">スリープモードが ON の時は Bluetooth を無効にする</string>
+    <string name="sleep_mode_cellular_toggle_title">モバイルデータを無効化</string>
+    <string name="sleep_mode_cellular_toggle_summary">スリープモードが ON の時はモバイルデータを無効にする</string>
+    <string name="sleep_mode_location_toggle_title">位置情報を無効化</string>
+    <string name="sleep_mode_location_toggle_summary">スリープモードが ON の時は位置情報を無効にする</string>
+    <string name="sleep_mode_sensors_toggle_title">センサーを無効化</string>
+    <string name="sleep_mode_sensors_toggle_summary">スリープモードが ON の時はセンサーを無効にする</string>
+    <string name="sleep_mode_aod_toggle_title">Always On Display を無効化</string>
+    <string name="sleep_mode_aod_toggle_summary">スリープモードが ON の時は Always On Display を無効にする</string>
+    <string name="sleep_mode_aggressive_toggle_title">アグレッシブバッテリーを有効化</string>
+    <string name="sleep_mode_aggressive_toggle_summary">スリープモードが ON の時はアグレッシブアイドルとアグレッシブスタンバイを有効にする</string>
+    <string name="sleep_mode_display_text">スリープモードはバッテリー消費を減らし睡眠中に音を鳴らさないために端末の特定のサービスを無効化します</string>
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">自動明るさ調整アイコン</string>
+    <string name="brightness_icon_summary">クイック設定のフッターに自動明るさ調節の切り替えを表示する</string>
+    <string name="monet_0">Vibrant</string>
+    <string name="monet_1">Light Vibrant</string>
+    <string name="monet_2">Dark Vibrant</string>
+    <string name="monet_3">Dominant</string>
+    <string name="monet_4">Muted</string>
+    <string name="monet_5">Light Muted</string>
+    <string name="monet_6">Dark Muted</string>
+    <string name="monet_title">MonetWannabe</string>
+    <string name="monet_summary">System Wide Accent Color based on Wallpaper</string>
+    <string name="monet_pallete_title">Pallete</string>
+    <string name="monet_pallete_summary">Color Modes.  \n(After Choosing you need to reapply the wallpaper for the changes to take affect).</string>
+    <string name="monet_accuracy">Monet Accuracy</string>
+    <string name="monet_accuracy_summary">The More Accurate the slower (Def 16)</string>
+    <string name="add_package_to_title">Add application</string>
+    <!-- Gaming mode -->
+    <string name="gaming_title">ゲームモード</string>
+    <string name="gaming_mode_enabled_title">Enable gaming mode</string>
+    <string name="gaming_mode_disable_auto_brightness_title">自動明るさ調節の無効化</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when entering game mode</string>
+    <string name="gaming_mode_notification_danmaku_title">Notification Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_summary">Display the notification content in the form of danmaku in the game</string>
+    <string name="gaming_mode_quick_start_apps_title">Quick Start Apps</string>
+    <string name="gaming_mode_quick_start_apps_summary">Choose the application that you want to launch with a floating ball</string>
+    <string name="gaming_mode_performance">Performance</string>
+    <string name="gaming_mode_use_game_driver_title">Use game driver</string>
+    <string name="gaming_mode_use_game_driver_summary">Use specific drivers for games</string>
+    <string name="gaming_mode_change_performance_title">Performance tuning</string>
+    <string name="gaming_mode_change_performance_summary">Adjust performance level when starting game</string>
+    <string name="gaming_mode_performance_title">Performance level</string>
+    <string name="gaming_mode_dnd">Do not distrub</string>
+    <string name="gaming_mode_disable_notification_alert_title">Disable notification alert</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Do not allow floating notification and conversation bubbles other than incoming calls and alarms</string>
+    <string name="gaming_mode_disable_ringtone_title">No ringing</string>
+    <string name="gaming_mode_disable_ringtone_summary">Turn off the ringing of incoming calls and notifications in gaming mode</string>
+    <string name="gaming_mode_auto_answer_call_title">Answering calls automatically</string>
+    <string name="gaming_mode_auto_answer_call_summary">Answer calls automatically in the game and hands free when no headphones connected</string>
+    <string name="gaming_mode_disable_gesture_summary">Disables navigation gestures when GamingMode is active</string>
+    <string name="gaming_mode_disable_hw_keys_title">Disable hardware keys</string>
+    <string name="gaming_mode_disable_gesture_title">Disable gestures</string>
+    <string name="gaming_mode_apps">Game list</string>
+    <string name="gaming_mode_dynamic_add_title">ダイナミックモード</string>
+    <string name="gaming_mode_dynamic_add_summary">ゲームアプリを自動的に判別して追加しよう試みる</string>
+    <string name="gaming_mode_show_danmaku_title">Show danmaku</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Dynamic filtering notification</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Automatically filter notifications such as download progress</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Danmaku size (horizontal)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Danmaku size  (vertical)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Danmaku speed (horizontal)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Danmaku speed (vertical)</string>
+    <string name="gaming_mode_danmaku_blacklist">ブラックリスト</string>
+    <string name="gaming_mode_menu_opacity_title">Menu opacity level</string>
+    <string name="gaming_mode_hardware_keys_title">ボタンのロック</string>
+    <string name="gaming_mode_hardware_keys_summary">ゲームモード有効時はハードウェアボタンを無効化する</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_category_title">CarrierLabel Settings</string>
+    <string name="carrier_label_category_summary">Customize statusbar carrierlabel</string>
+    <string name="carrier_label_settings_title">Carrier Label</string>
+    <string name="carrier_label_settings_summary">Customize the carrier label</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="show_carrier_title">Carrier label</string>
+    <string name="show_carrier_disabled">無効</string>
+    <string name="show_carrier_keyguard">Lockscreen only</string>
+    <string name="show_carrier_statusbar">Statusbar only</string>
+    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
+    <string name="status_bar_carrier_color">Carrier label color</string>
+    <string name="status_bar_carrier_size">Carrier label size</string>
+    <string name="status_bar_carrier_font_style_title">Carrier Label Font</string>
+    <!-- StatusBar weather settings -->
+    <string name="sb_weather_title">StatusBar Weather</string>
+    <string name="sb_weather_summary">config statusBar and qs weather</string>
+    <string name="status_bar_weather_location_title">位置情報</string>
+    <string name="statusbar_weather_title">ステータスバーの天気</string>
+    <string name="statusbar_weather_summary">クイック設定/天気から設定して下さい</string>
+    <string name="statusbar_weather_dialog_title">ステータスバーの天気のスタイル</string>
+    <string name="status_bar_weather_hidden">天気を隠す</string>
+    <string name="status_bar_temperature_image_show_scale">単位付きの温度と画像を表示</string>
+    <string name="status_bar_temperature_image_hide_scale">単位なしの温度と画像を表示</string>
+    <string name="status_bar_temperature_show_scale_hide_image">単位付きの温度を表示</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">単位なしの温度を表示</string>
+    <string name="status_bar_show_image">画像を表示</string>
+    <!-- Clock lottie animations -->
+    <string name="clock_lottie_animation_title">Lottie Animation</string>
+    <string name="clock_lottie_animation_hidden">非表示</string>
+    <string name="clock_lottie_animation_explosion_circle">Explosion Circle</string>
+    <string name="clock_lottie_animation_blue_circle">Blue Circle</string>
+    <string name="clock_lottie_animation_blue_circle_2">Blue Circle v2</string>
+    <string name="clock_lottie_animation_rainbow_circle">Rainbow Circle</string>
+    <string name="clock_lottie_animation_fire_circle">Fire Circle</string>
+    <!-- Clock lottie animation size -->
+    <string name="clock_lottie_animation_size_title">Animation size</string>
 </resources>
