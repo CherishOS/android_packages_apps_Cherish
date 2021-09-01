@@ -80,10 +80,10 @@
     <!--Accenter -->
     <string name="themes_hub_title">主題</string>
     <string name="themes_hub_summary">Accents-Gradients-Themes</string>
-    <string name="accent_color">Accent picker</string>
-    <string name="accent_summary">Gradient Maker</string>
-    <string name="gradient_color">Gradient picker</string>
-    <string name="gradient_summary">Gradient effect maker</string>
+    <string name="rgb_accent_picker_title_dark">Accent Picker</string>
+    <string name="rgb_accent_picker_summary">Choose the accent color yourself</string>
+    <string name="theme_option_reset_title">Reset Theme Options</string>
+    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
     <!--ThemePicker-->
     <string name="theme_select_title">樣式和桌布</string>
     <string name="theme_select_summary">瀏覽並選擇要已安裝的主題</string>
@@ -563,6 +563,11 @@
     <string name="lockscreen_weather_show_temp_summary">在圖片右邊顯示目前城市氣溫</string>
     <string name="lockscreen_weather_show_image_title">顯示狀態圖片</string>
     <string name="lockscreen_weather_show_image_summary">顯示天氣狀態圖片</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">QS footer text</string>
+    <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
+    <string name="qs_footer_text_string_title">Customize footer text</string>
+    <string name="qs_footer_text_string_summary">Set to empty for default #KeepTheLove</string>
     <!-- Navbar options -->
     <string name="navigation_bar_invert_layout_title">反轉佈局</string>
     <string name="navigation_bar_invert_layout_summary">反轉導覽列和其他項目的版面配置，例如輸入法選擇器</string>
@@ -592,36 +597,6 @@
     <string name="file_header_select_summary">從內部儲存空間選取圖片</string>
     <string name="status_bar_custom_header_shadow_title">暗色圖片</string>
     <string name="status_bar_custom_header_height_title">圖像高度偏移</string>
-    <!-- Gaming mode -->
-    <string name="gaming_mode_title">遊戲模式</string>
-    <string name="gaming_mode_summary">自訂遊戲模式設定</string>
-    <string name="gaming_mode_enable_title">啟用遊戲模式</string>
-    <string name="gaming_mode_enable_summary">遊戲模式的開關</string>
-    <string name="gaming_mode_app_picker_title">使用這些應用程式時自動開啟</string>
-    <string name="add_gaming_mode_package_title">新增應用程式至遊戲模式</string>
-    <string name="add_gaming_mode_package_summary">遊戲模式會在這些應用程式打開時自動啟動，並在應用程式關閉時自動結束</string>
-    <string name="gaming_mode_headsup_title">推播通知</string>
-    <string name="gaming_mode_headsup_allow">允許所有推播通知</string>
-    <string name="gaming_mode_headsup_dnc">封鎖所有推播通知，除了來電 &amp; 鬧鐘</string>
-    <string name="gaming_mode_headsup_clock">封鎖所有推播通知，除了鬧鐘</string>
-    <string name="gaming_mode_headsup_dialer">封鎖所有推播通知，除了來電</string>
-    <string name="gaming_mode_headsup_stop">封鎖所有推播通知</string>
-    <string name="gaming_mode_hardware_keys_title">鎖定按鍵</string>
-    <string name="gaming_mode_hardware_keys_summary">當遊戲模式啟用時關閉實體按鍵</string>
-    <string name="gaming_mode_brightness_title">停用自動亮度</string>
-    <string name="gaming_mode_brightness_summary">當遊戲模式啟用時鎖定螢幕亮度</string>
-    <string name="gaming_mode_ringer_title">遊戲模式中的通知音效</string>
-    <string name="gaming_mode_ringer_off_title">不要變更</string>
-    <string name="gaming_mode_ringer_vibrate_title">震動</string>
-    <string name="gaming_mode_ringer_dnd_title">勿擾模式</string>
-    <string name="gaming_mode_ringer_silent_title">靜音</string>
-    <string name="gaming_mode_notifications_title">遊戲模式提示</string>
-    <string name="gaming_mode_notifications_off_title">已停用</string>
-    <string name="gaming_mode_notifications_notif_title">顯示通知</string>
-    <string name="gaming_mode_notifications_toast_title">顯示快顯通知</string>
-    <string name="gaming_mode_notifications_all_title">顯示快顯通知與推播通知</string>
-    <string name="gaming_mode_dynamic_title">動態模式</string>
-    <string name="gaming_mode_dynamic_summary">嘗試自動偵測並加入遊戲模式</string>
     <!-- Ambient edge lighting -->
     <string name="pulse_ambient_light_category">螢幕邊緣燈光</string>
     <string name="pulse_ambient_light_title">有新通知時顯示</string>
@@ -665,13 +640,7 @@
     <string name="brightness_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="brightness_slider_style_memestroke">Meme stroke</string>
     <string name="brightness_slider_style_default_2">預設 (純粹的強調色)</string>
-    <string name="brightness_slider_style_danielgradient">Daniel (漸層)</string>
-    <string name="brightness_slider_style_mememinigradient">Meme mini (漸層)</string>
-    <string name="brightness_slider_style_memeroundgradient">Meme round (漸層)</string>
-    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
-    <string name="brightness_slider_style_memestrokegradient">Meme stroke (漸層)</string>
     <string name="brightness_slider_style_minihalf">Mini half</string>
-    <string name="brightness_slider_style_half">Half</string>
     <string name="brightness_slider_style_oos">Oxygen OS 樣式</string>
     <string name="brightness_slider_style_a12">A12 style</string>
     <!-- GUI styles -->
@@ -857,6 +826,8 @@
     <string name="media_category">媒體通知選項</string>
     <string name="artwork_media_background_title">專輯媒體背景</string>
     <string name="artwork_media_background_summary">設定專輯媒體封面為通知媒體背景</string>
+    <string name="artwork_media_fade_level_title">封面淡化程度</string>
+    <string name="artwork_media_fade_level_summary">淡化專輯媒體封面圖片</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">值：<xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">預設</string>
@@ -887,8 +858,6 @@
     <string name="theming_settings_dashboard_icons_accent">系統主色背景/透明前景</string>
     <string name="theming_settings_dashboard_icons_plain">透明背景/單色前景</string>
     <string name="theming_settings_dashboard_icons_plain_accent">透明背景/系統主色前景</string>
-    <string name="statusbar_icons_style">彩色的狀態列圖示</string>
-    <string name="statusbar_icons_style_summary">選擇狀態列圖示樣式 (需要 SystemUI 重啟)</string>
     <string name="header_icons_style">彩色的頂部圖示</string>
     <string name="header_icons_style_summary">選擇通知圖示的樣式 (需要 SystemUI 重啟)</string>
     <!-- Units -->
@@ -921,7 +890,7 @@
     <string name="cutout_main_summary">他們真的把這個角落切掉了</string>
     <string name="display_cutout_style_title">瀏海樣式</string>
     <string name="display_cutout_style_normal">正常</string>
-    <string name="display_cutout_style_immerse">全螢幕</string>
+    <string name="display_cutout_style_immerse">沉浸式</string>
     <string name="display_cutout_style_hide">隱藏</string>
     <string name="stock_statusbar_in_hide">原廠狀態列高度</string>
     <string name="stock_statusbar_in_hide_summary">隱藏時使用預設狀態列高度</string>
@@ -1001,7 +970,7 @@
     <string name="fod_icon_picker_summary">選擇您喜歡的指紋圖示</string>
     <string name="fod_icon_picker_footer">若希望新增自己的圖示，請選擇最左上方的圖示，然後使用 OnePlus 6T FP Customizer 應用程式選擇您喜歡的圖示。</string>
     <!-- Doze Brightness Config -->
-    <string name="doze_brightness_category">設定 Doze 的亮度</string>
+    <string name="doze_brightness_category">Doze亮度設定</string>
     <string name="doze_brightness_force_title">強制亮度值</string>
     <string name="doze_brightness_force_summary">使用自訂的亮度值取代螢幕亮度</string>
     <string name="ambient_pulse_brightness_title">環境通知的亮度</string>
@@ -1057,22 +1026,6 @@
     <string name="alarm_blocker_reload">重新載入</string>
     <string name="alarm_blocker_warning_title">請謹慎操作</string>
     <string name="alarm_blocker_warning">封鎖警報有可能導致系統不穩定、當機或遺失資料。</string>
-    <!-- StatusBar weather settings -->
-    <string name="statusbar_weather_title">狀態列天氣</string>
-    <string name="statusbar_weather_summary">快速設定/天氣的設定</string>
-    <string name="statusbar_weather_dialog_title">狀態列天氣樣式</string>
-    <string name="status_bar_weather_hidden">隱藏天氣</string>
-    <string name="status_bar_temperature_image_show_scale">顯示溫度單位與圖片</string>
-    <string name="status_bar_temperature_image_hide_scale">顯示溫度圖片但隱藏單位</string>
-    <string name="status_bar_temperature_show_scale_hide_image">顯示溫度單位</string>
-    <string name="status_bar_temperature_hide_scale_hide_image">顯示溫度但隱藏單位</string>
-    <string name="status_bar_weather_location_title">位置</string>
-    <string name="status_bar_show_image">顯示圖片</string>
-    <string name="network_traffic_location_disable">已停用</string>
-    <string name="network_traffic_location_statusbar">狀態列</string>
-    <string name="network_traffic_location_quick_statusbar">快速狀態列</string>
-    <string name="status_bar_weather_color_title">溫度顏色</string>
-    <string name="status_bar_weather_size_title">字型大小</string>
     <!-- Hide SB On Lockscreen -->
     <string name="hide_lockscreen_status_bar_title">隱藏狀態列</string>
     <string name="hide_lockscreen_status_bar_summary">輕觸狀態列來切換顯示狀態</string>
@@ -1164,9 +1117,6 @@
     <string name="qs_settings_summary">在快速設定面板底部顯示設定圖示</string>
     <string name="qs_running_service_title">正在運作的服務圖示</string>
     <string name="qs_running_service_summary">啟用或停用正在運作的服務圖示</string>
-    <!-- SearchBar Style -->
-    <string name="search_bar_style_title">使用 Android 12 樣式的搜尋框</string>
-    <string name="search_bar_style_summary">在設定應用程式中切換到使用 Android 12 樣式的搜尋列。設定應用程式需要被手動重新啟動，以使變化生效。</string>
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">從「最近使用」畫面中隱藏應用程式</string>
     <string name="hide_apps_from_recents_summary">隱藏應用程式以使其不顯示在「最近使用」畫面中</string>
@@ -1176,9 +1126,128 @@
     <string name="powersave_title">省電模式</string>
     <string name="power_profile">省電模式資料</string>
     <string name="power_profile_default">預設</string>
-    <string name="power_profile_light">亮色</string>
+    <string name="power_profile_light">輕量</string>
     <string name="power_profile_med">適中</string>
     <string name="power_profile_high">高</string>
     <string name="power_profile_ext">極致</string>
     <string name="powersave_summary">延長電池壽命的選項</string>
+    <!-- Radio informations -->
+    <string name="radio_info_title">無線連接資訊</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">睡眠模式</string>
+    <string name="sleep_mode_schedule_sunset">日落</string>
+    <string name="sleep_mode_schedule_sunrise">日出</string>
+    <string name="sleep_mode_schedule_mixed_sunset">從日落開啟到設定的時間</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">從設定的時間開啟到日出</string>
+    <string name="sleep_mode_toggles_title">開關</string>
+    <string name="sleep_mode_wifi_toggle_title">關閉 Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">當睡眠模式開啟時停用 Wi-Fi</string>
+    <string name="sleep_mode_bluetooth_toggle_title">關閉藍牙</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">當睡眠模式開啟時停用藍牙</string>
+    <string name="sleep_mode_cellular_toggle_title">關閉行動數據</string>
+    <string name="sleep_mode_cellular_toggle_summary">當睡眠模式開啟時停用行動數據</string>
+    <string name="sleep_mode_location_toggle_title">關閉定位功能</string>
+    <string name="sleep_mode_location_toggle_summary">當睡眠模式開啟時停用定位功能</string>
+    <string name="sleep_mode_sensors_toggle_title">關閉感測器</string>
+    <string name="sleep_mode_sensors_toggle_summary">當睡眠模式開啟時停用感測器</string>
+    <string name="sleep_mode_aod_toggle_title">關閉 AOD</string>
+    <string name="sleep_mode_aod_toggle_summary">當睡眠模式開啟時停用隨顯螢幕</string>
+    <string name="sleep_mode_aggressive_toggle_title">開啟極限省電功能</string>
+    <string name="sleep_mode_aggressive_toggle_summary">當睡眠模式開啟時啟用極限的閒置和待機模式</string>
+    <string name="sleep_mode_display_text">睡眠模式允許您停用某些服務以幫助節省電池電量並在您睡覺時讓手機靜音。</string>
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">自動亮度圖示</string>
+    <string name="brightness_icon_summary">在快速設定面板底部顯示自動亮度圖示的切換開關</string>
+    <string name="monet_0">Vibrant</string>
+    <string name="monet_1">Light Vibrant</string>
+    <string name="monet_2">Dark Vibrant</string>
+    <string name="monet_3">Dominant</string>
+    <string name="monet_4">Muted</string>
+    <string name="monet_5">Light Muted</string>
+    <string name="monet_6">Dark Muted</string>
+    <string name="monet_title">MonetWannabe</string>
+    <string name="monet_summary">System Wide Accent Color based on Wallpaper</string>
+    <string name="monet_pallete_title">Pallete</string>
+    <string name="monet_pallete_summary">Color Modes.  \n(After Choosing you need to reapply the wallpaper for the changes to take affect).</string>
+    <string name="monet_accuracy">Monet Accuracy</string>
+    <string name="monet_accuracy_summary">The More Accurate the slower (Def 16)</string>
+    <string name="add_package_to_title">Add application</string>
+    <!-- Gaming mode -->
+    <string name="gaming_title">遊戲模式</string>
+    <string name="gaming_mode_enabled_title">Enable gaming mode</string>
+    <string name="gaming_mode_disable_auto_brightness_title">停用自動亮度</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when entering game mode</string>
+    <string name="gaming_mode_notification_danmaku_title">Notification Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_summary">Display the notification content in the form of danmaku in the game</string>
+    <string name="gaming_mode_quick_start_apps_title">Quick Start Apps</string>
+    <string name="gaming_mode_quick_start_apps_summary">Choose the application that you want to launch with a floating ball</string>
+    <string name="gaming_mode_performance">Performance</string>
+    <string name="gaming_mode_use_game_driver_title">Use game driver</string>
+    <string name="gaming_mode_use_game_driver_summary">Use specific drivers for games</string>
+    <string name="gaming_mode_change_performance_title">Performance tuning</string>
+    <string name="gaming_mode_change_performance_summary">Adjust performance level when starting game</string>
+    <string name="gaming_mode_performance_title">Performance level</string>
+    <string name="gaming_mode_dnd">Do not distrub</string>
+    <string name="gaming_mode_disable_notification_alert_title">Disable notification alert</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Do not allow floating notification and conversation bubbles other than incoming calls and alarms</string>
+    <string name="gaming_mode_disable_ringtone_title">No ringing</string>
+    <string name="gaming_mode_disable_ringtone_summary">Turn off the ringing of incoming calls and notifications in gaming mode</string>
+    <string name="gaming_mode_auto_answer_call_title">Answering calls automatically</string>
+    <string name="gaming_mode_auto_answer_call_summary">Answer calls automatically in the game and hands free when no headphones connected</string>
+    <string name="gaming_mode_disable_gesture_summary">Disables navigation gestures when GamingMode is active</string>
+    <string name="gaming_mode_disable_hw_keys_title">Disable hardware keys</string>
+    <string name="gaming_mode_disable_gesture_title">Disable gestures</string>
+    <string name="gaming_mode_apps">Game list</string>
+    <string name="gaming_mode_dynamic_add_title">動態模式</string>
+    <string name="gaming_mode_dynamic_add_summary">嘗試自動偵測並加入遊戲模式</string>
+    <string name="gaming_mode_show_danmaku_title">Show danmaku</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Dynamic filtering notification</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Automatically filter notifications such as download progress</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Danmaku size (horizontal)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Danmaku size  (vertical)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Danmaku speed (horizontal)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Danmaku speed (vertical)</string>
+    <string name="gaming_mode_danmaku_blacklist">黑名單</string>
+    <string name="gaming_mode_menu_opacity_title">Menu opacity level</string>
+    <string name="gaming_mode_hardware_keys_title">鎖定按鍵</string>
+    <string name="gaming_mode_hardware_keys_summary">當遊戲模式啟用時關閉實體按鍵</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_category_title">CarrierLabel Settings</string>
+    <string name="carrier_label_category_summary">Customize statusbar carrierlabel</string>
+    <string name="carrier_label_settings_title">Carrier Label</string>
+    <string name="carrier_label_settings_summary">Customize the carrier label</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="show_carrier_title">Carrier label</string>
+    <string name="show_carrier_disabled">已停用</string>
+    <string name="show_carrier_keyguard">Lockscreen only</string>
+    <string name="show_carrier_statusbar">Statusbar only</string>
+    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
+    <string name="status_bar_carrier_color">Carrier label color</string>
+    <string name="status_bar_carrier_size">Carrier label size</string>
+    <string name="status_bar_carrier_font_style_title">Carrier Label Font</string>
+    <!-- StatusBar weather settings -->
+    <string name="sb_weather_title">StatusBar Weather</string>
+    <string name="sb_weather_summary">config statusBar and qs weather</string>
+    <string name="status_bar_weather_location_title">位置</string>
+    <string name="statusbar_weather_title">狀態列天氣</string>
+    <string name="statusbar_weather_summary">快速設定/天氣的設定</string>
+    <string name="statusbar_weather_dialog_title">狀態列天氣樣式</string>
+    <string name="status_bar_weather_hidden">隱藏天氣</string>
+    <string name="status_bar_temperature_image_show_scale">顯示溫度單位與圖片</string>
+    <string name="status_bar_temperature_image_hide_scale">顯示溫度圖片但隱藏單位</string>
+    <string name="status_bar_temperature_show_scale_hide_image">顯示溫度單位</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">顯示溫度但隱藏單位</string>
+    <string name="status_bar_show_image">顯示圖片</string>
+    <!-- Clock lottie animations -->
+    <string name="clock_lottie_animation_title">Lottie Animation</string>
+    <string name="clock_lottie_animation_hidden">隱藏</string>
+    <string name="clock_lottie_animation_explosion_circle">Explosion Circle</string>
+    <string name="clock_lottie_animation_blue_circle">Blue Circle</string>
+    <string name="clock_lottie_animation_blue_circle_2">Blue Circle v2</string>
+    <string name="clock_lottie_animation_rainbow_circle">Rainbow Circle</string>
+    <string name="clock_lottie_animation_fire_circle">Fire Circle</string>
+    <!-- Clock lottie animation size -->
+    <string name="clock_lottie_animation_size_title">Animation size</string>
 </resources>
