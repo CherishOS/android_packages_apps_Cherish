@@ -80,10 +80,10 @@
     <!--Accenter -->
     <string name="themes_hub_title">Tema</string>
     <string name="themes_hub_summary">Aksen-Gradien-Tema</string>
-    <string name="accent_color">Pemilih aksen</string>
-    <string name="accent_summary">Pembuat Gradient</string>
-    <string name="gradient_color">Pilihan gradient</string>
-    <string name="gradient_summary">Pembuat efek gradient</string>
+    <string name="rgb_accent_picker_title_dark">Accent Picker</string>
+    <string name="rgb_accent_picker_summary">Choose the accent color yourself</string>
+    <string name="theme_option_reset_title">Reset Theme Options</string>
+    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
     <!--ThemePicker-->
     <string name="theme_select_title">Gaya dan Wallpaper</string>
     <string name="theme_select_summary">Jelajahi dan pilih tema yang diinstal</string>
@@ -465,7 +465,7 @@
     <string name="lockscreen_charging_animation_wavy">Bergelombang</string>
     <string name="lockscreen_charging_animation_split">Split Loading</string>
     <string name="lockscreen_charging_animation_yellow">Animasi Kuning</string>
-    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_covid">Covid19 ( ͡° ͜ʖ ͡°)</string>
     <string name="lockscreen_charging_animation_wash">Cuci Tangan Anda</string>
     <string name="lockscreen_charging_animation_wear">Pakai Masker Anda</string>
     <string name="click_partial_screenshot_title">Klik untuk tangkapan layar sebagian</string>
@@ -563,6 +563,11 @@
     <string name="lockscreen_weather_show_temp_summary">Tampilkan suhu kota saat ini di sebelah kanan gambar</string>
     <string name="lockscreen_weather_show_image_title">Tampilkan Gambar Kondisi</string>
     <string name="lockscreen_weather_show_image_summary">Tampilkan gambar kondisi cuaca</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">QS footer text</string>
+    <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
+    <string name="qs_footer_text_string_title">Customize footer text</string>
+    <string name="qs_footer_text_string_summary">Set to empty for default #KeepTheLove</string>
     <!-- Navbar options -->
     <string name="navigation_bar_invert_layout_title">Tukar tata letak</string>
     <string name="navigation_bar_invert_layout_summary">Tukar tata letak bilah navigasi dan item lainnya, seperti pengalih IME</string>
@@ -592,36 +597,6 @@
     <string name="file_header_select_summary">Pilih gambar dari penyimpanan internal</string>
     <string name="status_bar_custom_header_shadow_title">Gambar menggelap</string>
     <string name="status_bar_custom_header_height_title">Offset tinggi gambar</string>
-    <!-- Gaming mode -->
-    <string name="gaming_mode_title">Mode Permainan</string>
-    <string name="gaming_mode_summary">Kustomisasi preferensi Mode Permainan</string>
-    <string name="gaming_mode_enable_title">Aktifkan Mode Permainan</string>
-    <string name="gaming_mode_enable_summary">Sakelar utama untuk Mode Permainan</string>
-    <string name="gaming_mode_app_picker_title">Secara otomatis hidup untuk aplikasi ini</string>
-    <string name="add_gaming_mode_package_title">Tambahkan aplikasi untuk Mode Permainan</string>
-    <string name="add_gaming_mode_package_summary">Mode Permainan akan hidup secara otomatis saat aplikasi ini dibuka dan akan mati saat ditutup</string>
-    <string name="gaming_mode_headsup_title">Blokir notifikasi</string>
-    <string name="gaming_mode_headsup_allow">Izinkan semua notifikasi mengambang</string>
-    <string name="gaming_mode_headsup_dnc">Blok semua notifikasi mengambang kecuali panggilan &amp; alarm</string>
-    <string name="gaming_mode_headsup_clock">Blok semua notifikasi mengambang kecuali alarm</string>
-    <string name="gaming_mode_headsup_dialer">Blok semua notifikasi mengambang kecuali panggilan</string>
-    <string name="gaming_mode_headsup_stop">Blok semua notifikasi mengambang</string>
-    <string name="gaming_mode_hardware_keys_title">Kunci tombol</string>
-    <string name="gaming_mode_hardware_keys_summary">Nonaktifkan tombol perangkat keras saat Mode Permainan dihidupkan</string>
-    <string name="gaming_mode_brightness_title">Nonaktifkan kecerahan otomatis</string>
-    <string name="gaming_mode_brightness_summary">Kunci kecerahan layar saat Mode Permainan dihidupkan</string>
-    <string name="gaming_mode_ringer_title">Dering saat mode permainan</string>
-    <string name="gaming_mode_ringer_off_title">Jangan diubah</string>
-    <string name="gaming_mode_ringer_vibrate_title">Getar</string>
-    <string name="gaming_mode_ringer_dnd_title">Jangan Ganggu</string>
-    <string name="gaming_mode_ringer_silent_title">Senyap</string>
-    <string name="gaming_mode_notifications_title">Indikasi Mode Permainan</string>
-    <string name="gaming_mode_notifications_off_title">Dinonaktifkan</string>
-    <string name="gaming_mode_notifications_notif_title">Tampilkan notifikasi</string>
-    <string name="gaming_mode_notifications_toast_title">Tampilkan toast</string>
-    <string name="gaming_mode_notifications_all_title">Tampilkan toast dan notifikasi</string>
-    <string name="gaming_mode_dynamic_title">Mode dinamis</string>
-    <string name="gaming_mode_dynamic_summary">Mencoba mendeteksi dan menambahkan aplikasi permainan secara otomatis</string>
     <!-- Ambient edge lighting -->
     <string name="pulse_ambient_light_category">Pencahayaan tepi layar</string>
     <string name="pulse_ambient_light_title">Tampilkan di notifikasi baru</string>
@@ -665,13 +640,7 @@
     <string name="brightness_slider_style_memeroundstroke">Meme round stroke</string>
     <string name="brightness_slider_style_memestroke">Meme stroke</string>
     <string name="brightness_slider_style_default_2">Default (aksen polos)</string>
-    <string name="brightness_slider_style_danielgradient">Daniel (Gradien)</string>
-    <string name="brightness_slider_style_mememinigradient">Meme mini (Gradien)</string>
-    <string name="brightness_slider_style_memeroundgradient">Meme round (Gradien)</string>
-    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradien)</string>
-    <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradien)</string>
     <string name="brightness_slider_style_minihalf">Mini half</string>
-    <string name="brightness_slider_style_half">Half</string>
     <string name="brightness_slider_style_oos">Gaya OOS</string>
     <string name="brightness_slider_style_a12">Gaya A12</string>
     <!-- GUI styles -->
@@ -854,9 +823,11 @@
     <string name="lockscreen_qs_disabled_title">Nonaktifkan setelan cepat saat terkunci</string>
     <string name="lockscreen_qs_disabled_summary">Nonaktifkan memperluas setelan cepat pada layar kunci aman</string>
     <!-- Notification Media Options -->
-    <string name="media_category">Opsi Pemberitahuan Media</string>
+    <string name="media_category">Opsi Notifikasi Media</string>
     <string name="artwork_media_background_title">Latar belakang media karya seni</string>
     <string name="artwork_media_background_summary">Tetapkan media karya seni sebagai latar belakang media notifikasi</string>
+    <string name="artwork_media_fade_level_title">Tingkat pudar media karya seni</string>
+    <string name="artwork_media_fade_level_summary">Memudar gambar karya seni media</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Nilai: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Bawaan</string>
@@ -887,8 +858,6 @@
     <string name="theming_settings_dashboard_icons_accent">Latar belakang aksen / Latar depan transparan</string>
     <string name="theming_settings_dashboard_icons_plain">Latar belakang transparan / Latar depan polos</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Latar belakang transparan / Latar depan aksen</string>
-    <string name="statusbar_icons_style">Ikon Bilah Status Berwarna</string>
-    <string name="statusbar_icons_style_summary">Pilih gaya ikon bilah status Anda (memerlukan mulai ulang SistemUI)</string>
     <string name="header_icons_style">Ikon Header Berwarna</string>
     <string name="header_icons_style_summary">Pilih gaya ikon header notifikasi Anda (memerlukan mulai ulang SistemUI)</string>
     <!-- Units -->
@@ -1057,25 +1026,9 @@
     <string name="alarm_blocker_reload">Muat ulang</string>
     <string name="alarm_blocker_warning_title">Lanjutkan dengan hati-hati</string>
     <string name="alarm_blocker_warning">Memblokir alarm dapat berpotensi menyebabkan ketidakstabilan, kerusakan, atau kehilangan data.</string>
-    <!-- StatusBar weather settings -->
-    <string name="statusbar_weather_title">Cuaca di bilah status</string>
-    <string name="statusbar_weather_summary">Konfigurasikan dari setelan QS/Cuaca.</string>
-    <string name="statusbar_weather_dialog_title">Gaya cuaca bilah status</string>
-    <string name="status_bar_weather_hidden">Sembunyikan cuaca</string>
-    <string name="status_bar_temperature_image_show_scale">Tampilkan suhu dengan skala dan gambar</string>
-    <string name="status_bar_temperature_image_hide_scale">Tampilkan suhu dengan gambar tanpa skala</string>
-    <string name="status_bar_temperature_show_scale_hide_image">Tampilkan suhu dengan skala</string>
-    <string name="status_bar_temperature_hide_scale_hide_image">Tampilkan suhu tanpa skala</string>
-    <string name="status_bar_weather_location_title">Lokasi</string>
-    <string name="status_bar_show_image">Tampilkan gambar</string>
-    <string name="network_traffic_location_disable">Dinonaktifkan</string>
-    <string name="network_traffic_location_statusbar">Bilah status</string>
-    <string name="network_traffic_location_quick_statusbar">Bilah Status Cepat</string>
-    <string name="status_bar_weather_color_title">Warna suhu</string>
-    <string name="status_bar_weather_size_title">Ukuran font</string>
     <!-- Hide SB On Lockscreen -->
     <string name="hide_lockscreen_status_bar_title">Sembunyikan bilah status</string>
-    <string name="hide_lockscreen_status_bar_summary">Sentuh bilah status untuk mengalihkan visibilitas</string>
+    <string name="hide_lockscreen_status_bar_summary">Sentuh bilah status untuk mengaktifkan visibilitas</string>
     <!-- System-wide Slider Styles -->
     <string name="system_slider_style_title">Gaya Slider Sistem</string>
     <string name="system_slider_style_default">Bawaan</string>
@@ -1113,9 +1066,9 @@
     <string name="accent_color_summary">Pilih aksen yang Anda inginkan</string>
     <!-- Pulse -->
     <string name="pulse_help_policy_notice_summary">Visual Audio adalah equalizer grafis audio yang brilian saat musik diputar di perangkat</string>
-    <string name="pulse_settings">Denyut</string>
+    <string name="pulse_settings">Visual Audio</string>
     <string name="pulse_settings_summary">Equalizer grafis audio untuk bilah navigasi dan layar kunci</string>
-    <string name="show_navbar_pulse_title">Visual Audio bilah navigasi</string>
+    <string name="show_navbar_pulse_title">Grafis Audio bilah navigasi</string>
     <string name="show_navbar_pulse_summary">Equalizer grafis audio pada bilah navigasi</string>
     <string name="show_lockscreen_pulse_title">Grafis Audio layar kunci</string>
     <string name="show_lockscreen_pulse_summary">Equalizer grafis audio pada layar kunci</string>
@@ -1151,7 +1104,7 @@
     <!-- Clock header -->
     <string name="clock_header_title">Jam Setelan Cepat</string>
     <string name="qs_clock_location_title">Lokasi jam setelan cepat</string>
-    <string name="qs_clock_location_summary">Tampilkan jam di panel Setelan Cepat</string>
+    <string name="qs_clock_location_summary">Tampilkan jam di Panel Setelan Cepat</string>
     <string name="cherish_clock_gravity_title">Posisi jam</string>
     <string name="left_clock">Kiri</string>
     <string name="center_clock">Tengah</string>
@@ -1164,9 +1117,6 @@
     <string name="qs_settings_summary">Tampilkan ikon setelan di footer QS</string>
     <string name="qs_running_service_title">Ikon Layanan Berjalan</string>
     <string name="qs_running_service_summary">Aktifkan atau nonaktifkan ikon layanan berjalan</string>
-    <!-- SearchBar Style -->
-    <string name="search_bar_style_title">Gunakan Bilah Pencarian Android 12</string>
-    <string name="search_bar_style_summary">Tombol untuk menggunakan bilah pencarian gaya Android 12 di aplikasi Pengaturan. Aplikasi pengaturan perlu dimulai ulang secara manual agar perubahan diterapkan.</string>
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">Sembunyikan aplikasi dari Daftar Terkini</string>
     <string name="hide_apps_from_recents_summary">Sembunyikan aplikasi agar tidak muncul di Daftar Terkini</string>
@@ -1176,9 +1126,128 @@
     <string name="powersave_title">Hemat Baterai</string>
     <string name="power_profile">Profil penghemat baterai</string>
     <string name="power_profile_default">Bawaan</string>
-    <string name="power_profile_light">Terang</string>
+    <string name="power_profile_light">Ringan</string>
     <string name="power_profile_med">Sedang</string>
     <string name="power_profile_high">Tinggi</string>
-    <string name="power_profile_ext">Ekstrim</string>
+    <string name="power_profile_ext">Ekstrem</string>
     <string name="powersave_summary">Opsi untuk memperpanjang masa pakai baterai Anda</string>
+    <!-- Radio informations -->
+    <string name="radio_info_title">Info radio</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Mode Tidur</string>
+    <string name="sleep_mode_schedule_sunset">Matahari terbenam</string>
+    <string name="sleep_mode_schedule_sunrise">Matahari terbit</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Menyala dari matahari terbenam ke waktu khusus</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Menyala dari waktu khusus hingga matahari terbit</string>
+    <string name="sleep_mode_toggles_title">Tombol Nonaktifkan</string>
+    <string name="sleep_mode_wifi_toggle_title">Nonaktifkan Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Nonaktifkan Wi-Fi saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Nonaktifkan Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Nonaktifkan Bluetooth saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_cellular_toggle_title">Nonaktifkan data seluler</string>
+    <string name="sleep_mode_cellular_toggle_summary">Nonaktifkan data seluler saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_location_toggle_title">Nonaktifkan Lokasi</string>
+    <string name="sleep_mode_location_toggle_summary">Nonaktifkan Lokasi saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_sensors_toggle_title">Nonaktifkan Sensor</string>
+    <string name="sleep_mode_sensors_toggle_summary">Nonaktifkan Sensor saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_aod_toggle_title">Nonaktifkan AOD</string>
+    <string name="sleep_mode_aod_toggle_summary">Nonaktifkan AOD saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_aggressive_toggle_title">Aktifkan Baterai Agresif</string>
+    <string name="sleep_mode_aggressive_toggle_summary">Aktifkan diam dan siaga agresif saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_display_text">Mode Tidur memungkinkan Anda menonaktifkan layanan tertentu untuk membantu menghemat baterai dan membungkam ponsel saat Anda tidur.</string>
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">Ikon Kecerahan Otomatis</string>
+    <string name="brightness_icon_summary">Tampilkan tombol untuk kecerahan adaptif di footer QS</string>
+    <string name="monet_0">Vibrant</string>
+    <string name="monet_1">Light Vibrant</string>
+    <string name="monet_2">Dark Vibrant</string>
+    <string name="monet_3">Dominant</string>
+    <string name="monet_4">Muted</string>
+    <string name="monet_5">Light Muted</string>
+    <string name="monet_6">Dark Muted</string>
+    <string name="monet_title">MonetWannabe</string>
+    <string name="monet_summary">System Wide Accent Color based on Wallpaper</string>
+    <string name="monet_pallete_title">Pallete</string>
+    <string name="monet_pallete_summary">Color Modes.  \n(After Choosing you need to reapply the wallpaper for the changes to take affect).</string>
+    <string name="monet_accuracy">Monet Accuracy</string>
+    <string name="monet_accuracy_summary">The More Accurate the slower (Def 16)</string>
+    <string name="add_package_to_title">Add application</string>
+    <!-- Gaming mode -->
+    <string name="gaming_title">Mode Permainan</string>
+    <string name="gaming_mode_enabled_title">Enable gaming mode</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Nonaktifkan kecerahan otomatis</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when entering game mode</string>
+    <string name="gaming_mode_notification_danmaku_title">Notification Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_summary">Display the notification content in the form of danmaku in the game</string>
+    <string name="gaming_mode_quick_start_apps_title">Quick Start Apps</string>
+    <string name="gaming_mode_quick_start_apps_summary">Choose the application that you want to launch with a floating ball</string>
+    <string name="gaming_mode_performance">Performance</string>
+    <string name="gaming_mode_use_game_driver_title">Use game driver</string>
+    <string name="gaming_mode_use_game_driver_summary">Use specific drivers for games</string>
+    <string name="gaming_mode_change_performance_title">Performance tuning</string>
+    <string name="gaming_mode_change_performance_summary">Adjust performance level when starting game</string>
+    <string name="gaming_mode_performance_title">Performance level</string>
+    <string name="gaming_mode_dnd">Do not distrub</string>
+    <string name="gaming_mode_disable_notification_alert_title">Disable notification alert</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Do not allow floating notification and conversation bubbles other than incoming calls and alarms</string>
+    <string name="gaming_mode_disable_ringtone_title">No ringing</string>
+    <string name="gaming_mode_disable_ringtone_summary">Turn off the ringing of incoming calls and notifications in gaming mode</string>
+    <string name="gaming_mode_auto_answer_call_title">Answering calls automatically</string>
+    <string name="gaming_mode_auto_answer_call_summary">Answer calls automatically in the game and hands free when no headphones connected</string>
+    <string name="gaming_mode_disable_gesture_summary">Disables navigation gestures when GamingMode is active</string>
+    <string name="gaming_mode_disable_hw_keys_title">Disable hardware keys</string>
+    <string name="gaming_mode_disable_gesture_title">Disable gestures</string>
+    <string name="gaming_mode_apps">Game list</string>
+    <string name="gaming_mode_dynamic_add_title">Mode dinamis</string>
+    <string name="gaming_mode_dynamic_add_summary">Mencoba mendeteksi dan menambahkan aplikasi permainan secara otomatis</string>
+    <string name="gaming_mode_show_danmaku_title">Show danmaku</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Dynamic filtering notification</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Automatically filter notifications such as download progress</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Danmaku size (horizontal)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Danmaku size  (vertical)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Danmaku speed (horizontal)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Danmaku speed (vertical)</string>
+    <string name="gaming_mode_danmaku_blacklist">Daftar hitam</string>
+    <string name="gaming_mode_menu_opacity_title">Menu opacity level</string>
+    <string name="gaming_mode_hardware_keys_title">Kunci tombol</string>
+    <string name="gaming_mode_hardware_keys_summary">Nonaktifkan tombol perangkat keras saat Mode Permainan dihidupkan</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_category_title">CarrierLabel Settings</string>
+    <string name="carrier_label_category_summary">Customize statusbar carrierlabel</string>
+    <string name="carrier_label_settings_title">Carrier Label</string>
+    <string name="carrier_label_settings_summary">Customize the carrier label</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="show_carrier_title">Carrier label</string>
+    <string name="show_carrier_disabled">Dinonaktifkan</string>
+    <string name="show_carrier_keyguard">Lockscreen only</string>
+    <string name="show_carrier_statusbar">Statusbar only</string>
+    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
+    <string name="status_bar_carrier_color">Carrier label color</string>
+    <string name="status_bar_carrier_size">Carrier label size</string>
+    <string name="status_bar_carrier_font_style_title">Carrier Label Font</string>
+    <!-- StatusBar weather settings -->
+    <string name="sb_weather_title">StatusBar Weather</string>
+    <string name="sb_weather_summary">config statusBar and qs weather</string>
+    <string name="status_bar_weather_location_title">Lokasi</string>
+    <string name="statusbar_weather_title">Cuaca di bilah status</string>
+    <string name="statusbar_weather_summary">Konfigurasikan dari setelan QS/Cuaca.</string>
+    <string name="statusbar_weather_dialog_title">Gaya cuaca bilah status</string>
+    <string name="status_bar_weather_hidden">Sembunyikan cuaca</string>
+    <string name="status_bar_temperature_image_show_scale">Tampilkan suhu dengan skala dan gambar</string>
+    <string name="status_bar_temperature_image_hide_scale">Tampilkan suhu dengan gambar tanpa skala</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Tampilkan suhu dengan skala</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Tampilkan suhu tanpa skala</string>
+    <string name="status_bar_show_image">Tampilkan gambar</string>
+    <!-- Clock lottie animations -->
+    <string name="clock_lottie_animation_title">Lottie Animation</string>
+    <string name="clock_lottie_animation_hidden">Tersembunyi</string>
+    <string name="clock_lottie_animation_explosion_circle">Explosion Circle</string>
+    <string name="clock_lottie_animation_blue_circle">Blue Circle</string>
+    <string name="clock_lottie_animation_blue_circle_2">Blue Circle v2</string>
+    <string name="clock_lottie_animation_rainbow_circle">Rainbow Circle</string>
+    <string name="clock_lottie_animation_fire_circle">Fire Circle</string>
+    <!-- Clock lottie animation size -->
+    <string name="clock_lottie_animation_size_title">Animation size</string>
 </resources>
