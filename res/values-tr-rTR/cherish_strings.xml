@@ -1110,7 +1110,7 @@
     <!-- Customization titles -->
     <string name="themes_ui">Tema arayüzü</string>
     <!-- Accent Picker -->
-    <string name="accent_color_summary">İstediğiniz vurguyu seçin</string>
+    <string name="accent_color_summary">İstediğiniz vurgu rengini seçin</string>
     <!-- Pulse -->
     <string name="pulse_help_policy_notice_summary">Müzik çalarken kilit ekranında görünen akıllı bir ses grafik görselleştirmesidir</string>
     <string name="pulse_settings">Pulse</string>
@@ -1174,7 +1174,7 @@
     <string name="title_activity_spark_recents_settings">Son uygulamalar</string>
     <!-- Power Profiles -->
     <string name="powersave_title">Güç Tasarrufu</string>
-    <string name="power_profile">Pil tasarrufu profili</string>
+    <string name="power_profile">Güç tasarrufu profili</string>
     <string name="power_profile_default">Varsayılan</string>
     <string name="power_profile_light">Hafif</string>
     <string name="power_profile_med">Orta</string>
