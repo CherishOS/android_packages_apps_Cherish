@@ -218,8 +218,8 @@
         </Preference>
 
 <Preference
-            android:title="@string/wayne_maintainer"
-            android:summary="@string/device_wayne"
+            android:title="@string/picasso_maintainer"
+            android:summary="@string/device_picasso"
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
