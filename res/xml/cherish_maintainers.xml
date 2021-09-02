@@ -66,6 +66,15 @@
         </Preference>
 		
 <Preference
+            android:title="@string/mojito_maintainer"
+            android:summary="@string/device_mojito"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/hung2408" />
+        </Preference>
+		
+<Preference
             android:title="@string/excalibur_maintainer"
             android:summary="@string/device_excalibur"
             android:icon="@drawable/ic_devs_phone" >
@@ -133,7 +142,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/portmanifest" />
+                android:data="https://t.me/hung2408" />
         </Preference>
 
   <Preference
