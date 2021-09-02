@@ -80,10 +80,10 @@
     <!--Accenter -->
     <string name="themes_hub_title">Chủ đề</string>
     <string name="themes_hub_summary">Chủ đề màu nhấn Gradients</string>
-    <string name="accent_color">Chọn màu nhấn</string>
-    <string name="accent_summary">Tự làm Gradient</string>
-    <string name="gradient_color">Chọn Gradient</string>
-    <string name="gradient_summary">Làm hiệu ứng Gradient</string>
+    <string name="rgb_accent_picker_title_dark">Chọn màu nhấn</string>
+    <string name="rgb_accent_picker_summary">Tự chọn màu nhấn từ bạn</string>
+    <string name="theme_option_reset_title">Đặt lại tùy chọn chủ đề</string>
+    <string name="theme_option_reset_message">Bạn có chắc chắn muốn thiết lập lại các màu này về mặc định?</string>
     <!--ThemePicker-->
     <string name="theme_select_title">Kiểu và hình nền</string>
     <string name="theme_select_summary">Duyệt và chọn chủ đề đã cài đặt</string>
@@ -563,6 +563,11 @@
     <string name="lockscreen_weather_show_temp_summary">Hiển thị nhiệt độ hiện tại của thành phố bên phải hình ảnh</string>
     <string name="lockscreen_weather_show_image_title">Tình trạng màu sắc hình ảnh</string>
     <string name="lockscreen_weather_show_image_summary">Hiển thị hình ảnh điều kiện thời tiết</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">QS văn bản cuối trang</string>
+    <string name="qs_footer_text_summary">Hiển thị văn bản ở dưới cùng của bảng cài đặt nhanh</string>
+    <string name="qs_footer_text_string_title">Tùy chỉnh văn bản cuối trang</string>
+    <string name="qs_footer_text_string_summary">Đặt mặc định là #KeeptheLove</string>
     <!-- Navbar options -->
     <string name="navigation_bar_invert_layout_title">Đảo ngược bố cục</string>
     <string name="navigation_bar_invert_layout_summary">Đảo ngược bố cục của thanh điều hướng và các mục khác, chẳng hạn như trình chuyển đổi IME</string>
@@ -592,36 +597,6 @@
     <string name="file_header_select_summary">Chọn một hình ảnh từ bộ nhớ trong</string>
     <string name="status_bar_custom_header_shadow_title">Hình ảnh tối</string>
     <string name="status_bar_custom_header_height_title">Thu phóng kích thước hình ảnh</string>
-    <!-- Gaming mode -->
-    <string name="gaming_mode_title">Chế độ chơi game</string>
-    <string name="gaming_mode_summary">Tùy chỉnh tùy chọn chế độ trò chơi</string>
-    <string name="gaming_mode_enable_title">Bật chế độ chơi game</string>
-    <string name="gaming_mode_enable_summary">Chế độ chơi game siêu đẳng</string>
-    <string name="gaming_mode_app_picker_title">Tự động bật cho các ứng dụng này</string>
-    <string name="add_gaming_mode_package_title">Thêm ứng dụng cho chế độ chơi game</string>
-    <string name="add_gaming_mode_package_summary">Chế độ chơi game sẽ tự động bật tắt đối với các ứng dụng này</string>
-    <string name="gaming_mode_headsup_title">Chặn thông báo</string>
-    <string name="gaming_mode_headsup_allow">Cho phép tất cả các thông báo nổi</string>
-    <string name="gaming_mode_headsup_dnc">Chặn tất cả các thông báo nổi ngoại trừ các cuộc gọi &amp; báo thức</string>
-    <string name="gaming_mode_headsup_clock">Chặn tất cả các thông báo nổi ngoại trừ báo thức</string>
-    <string name="gaming_mode_headsup_dialer">Chặn tất cả các thông báo nổi ngoại trừ cuộc gọi</string>
-    <string name="gaming_mode_headsup_stop">Chặn tất cả các thông báo nổi</string>
-    <string name="gaming_mode_hardware_keys_title">Khóa phím</string>
-    <string name="gaming_mode_hardware_keys_summary">Vô hiệu hóa phím cứng khi chế độ trò chơi được bật</string>
-    <string name="gaming_mode_brightness_title">Vô hiệu hóa độ sáng tự động</string>
-    <string name="gaming_mode_brightness_summary">Khóa độ sáng màn hình khi chế độ trò chơi được bật</string>
-    <string name="gaming_mode_ringer_title">Chuông trong chế độ trò chơi</string>
-    <string name="gaming_mode_ringer_off_title">Không thay đổi</string>
-    <string name="gaming_mode_ringer_vibrate_title">Rung</string>
-    <string name="gaming_mode_ringer_dnd_title">Không làm phiền</string>
-    <string name="gaming_mode_ringer_silent_title">Im lặng</string>
-    <string name="gaming_mode_notifications_title">Thông báo chế độ chơi game</string>
-    <string name="gaming_mode_notifications_off_title">Tắt</string>
-    <string name="gaming_mode_notifications_notif_title">Hiển thị thông báo</string>
-    <string name="gaming_mode_notifications_toast_title">Hiện thông báo nhanh</string>
-    <string name="gaming_mode_notifications_all_title">Hiện thông báo nhanh và thông báo</string>
-    <string name="gaming_mode_dynamic_title">Chế độ động</string>
-    <string name="gaming_mode_dynamic_summary">Thử xoá và thêm ứng dụng chơi game tự động</string>
     <!-- Ambient edge lighting -->
     <string name="pulse_ambient_light_category">Lặp lại ánh sáng cạnh</string>
     <string name="pulse_ambient_light_title">Hiển thị thông báo mới</string>
@@ -665,13 +640,7 @@
     <string name="brightness_slider_style_memeroundstroke">Meme tròn nét</string>
     <string name="brightness_slider_style_memestroke">Meme nét</string>
     <string name="brightness_slider_style_default_2">Mặc định (màu ấn)</string>
-    <string name="brightness_slider_style_danielgradient">Daniel (Gradient)</string>
-    <string name="brightness_slider_style_mememinigradient">Meme mini (Gradient)</string>
-    <string name="brightness_slider_style_memeroundgradient">Meme round (Gradient)</string>
-    <string name="brightness_slider_style_memeroundstrokegradient">Meme round stroke (Gradient)</string>
-    <string name="brightness_slider_style_memestrokegradient">Meme stroke (Gradient)</string>
     <string name="brightness_slider_style_minihalf">Biểu đồ mini</string>
-    <string name="brightness_slider_style_half">Một nửa</string>
     <string name="brightness_slider_style_oos">Kiểu OOS</string>
     <string name="brightness_slider_style_a12">Kiểu A12</string>
     <!-- GUI styles -->
@@ -857,6 +826,8 @@
     <string name="media_category">Tùy chọn phương tiện thông báo</string>
     <string name="artwork_media_background_title">Tác phẩm nghệ thuật nền phương tiện truyền thông</string>
     <string name="artwork_media_background_summary">Đặt tác phẩm nghệ thuật phương tiện làm nền phương tiện thông báo</string>
+    <string name="artwork_media_fade_level_title">Mức độ mờ dần của tác phẩm nghệ thuật</string>
+    <string name="artwork_media_fade_level_summary">Làm mờ hình ảnh tác phẩm nghệ thuật phương tiện</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Mặc định</string>
@@ -887,8 +858,6 @@
     <string name="theming_settings_dashboard_icons_accent">Nền nhấn / Nền trước trong suốt</string>
     <string name="theming_settings_dashboard_icons_plain">Nền trong suốt / Nền trước trơn</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Nền trong suốt / Nền trước màu nhấn</string>
-    <string name="statusbar_icons_style">Các biểu tượng trên thanh trạng thái có màu</string>
-    <string name="statusbar_icons_style_summary">Chọn kiểu biểu tượng trên thanh trạng thái của bạn (yêu cầu khởi động lại SystemUI)</string>
     <string name="header_icons_style">Màu biểu tượng tiêu đề</string>
     <string name="header_icons_style_summary">Chọn kiểu biểu tượng trên tiêu đề của bạn (yêu cầu khởi động lại SystemUI)</string>
     <!-- Units -->
@@ -1057,22 +1026,6 @@
     <string name="alarm_blocker_reload">Tải lại</string>
     <string name="alarm_blocker_warning_title">Cẩn trọng khi tiến hành</string>
     <string name="alarm_blocker_warning">Chặn các báo thức có khả năng gây mất ổn định, dừng đột ngột hoặc mất dữ liệu.</string>
-    <!-- StatusBar weather settings -->
-    <string name="statusbar_weather_title">Thời tiết trên thanh trạng thái</string>
-    <string name="statusbar_weather_summary">Tùy chỉnh từ Cài đặt nhanh/Thời tiết.</string>
-    <string name="statusbar_weather_dialog_title">Kiểu thời tiết thanh trạng thái</string>
-    <string name="status_bar_weather_hidden">Ẩn thời tiết</string>
-    <string name="status_bar_temperature_image_show_scale">Hiển thị nhiệt độ bằng thang đo và hình ảnh</string>
-    <string name="status_bar_temperature_image_hide_scale">Hiển thị nhiệt độ với hình ảnh mà không có thang đo</string>
-    <string name="status_bar_temperature_show_scale_hide_image">Hiển thị nhiệt độ có thang đo</string>
-    <string name="status_bar_temperature_hide_scale_hide_image">Hiển thị nhiệt độ không có thang đo</string>
-    <string name="status_bar_weather_location_title">Vị trí</string>
-    <string name="status_bar_show_image">Hiển thị hình ảnh</string>
-    <string name="network_traffic_location_disable">Tắt</string>
-    <string name="network_traffic_location_statusbar">Thanh trạng thái</string>
-    <string name="network_traffic_location_quick_statusbar">Thanh trạng thái nhanh</string>
-    <string name="status_bar_weather_color_title">Màu nhiệt độ</string>
-    <string name="status_bar_weather_size_title">Cỡ chữ</string>
     <!-- Hide SB On Lockscreen -->
     <string name="hide_lockscreen_status_bar_title">Ẩn thanh trạng thái</string>
     <string name="hide_lockscreen_status_bar_summary">Chạm vào thanh trạng thái để chuyển đổi chế độ hiển thị</string>
@@ -1164,9 +1117,6 @@
     <string name="qs_settings_summary">Kích hoạt biểu tượng chỉnh sửa ô ở chân trang</string>
     <string name="qs_running_service_title">Biểu tượng dịch vụ đang chạy</string>
     <string name="qs_running_service_summary">Bật hoặc tắt biểu tượng dịch vụ đang chạy</string>
-    <!-- SearchBar Style -->
-    <string name="search_bar_style_title">Sử dụng Android 12 tìm kiếm</string>
-    <string name="search_bar_style_summary">Chuyển sang sử dụng thanh tìm kiếm kiểu Android 12 trong ứng dụng Cài đặt. Ứng dụng cài đặt cần được khởi động lại theo cách thủ công để thay đổi có hiệu lực.</string>
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">Ẩn ứng dụng khỏi đa nhiệm</string>
     <string name="hide_apps_from_recents_summary">Ngăn ứng dụng xuất hiện trong đa nhiệm</string>
@@ -1181,4 +1131,123 @@
     <string name="power_profile_high">Cao</string>
     <string name="power_profile_ext">Rất cao</string>
     <string name="powersave_summary">Các tùy chọn để kéo dài tuổi thọ pin của bạn</string>
+    <!-- Radio informations -->
+    <string name="radio_info_title">Thông tin radio</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Chế độ ngủ</string>
+    <string name="sleep_mode_schedule_sunset">Hoàng hôn</string>
+    <string name="sleep_mode_schedule_sunrise">Bình minh</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Bật từ hoàng hôn đến tùy chọn thời gian</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Bật cho tùy chọn thời gian đến lúc bình minh</string>
+    <string name="sleep_mode_toggles_title">Chuyển đổi</string>
+    <string name="sleep_mode_wifi_toggle_title">Tắt Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Tắt Wi-Fi khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Tắt Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Tắt Bluetooth khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_cellular_toggle_title">Tắt dữ liệu di động</string>
+    <string name="sleep_mode_cellular_toggle_summary">Tắt dữ liệu di động khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_location_toggle_title">Tắt vị trí</string>
+    <string name="sleep_mode_location_toggle_summary">Tắt vị trí khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_sensors_toggle_title">Tắt cảm biến</string>
+    <string name="sleep_mode_sensors_toggle_summary">Tắt cảm biến khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_aod_toggle_title">Tắt AOD</string>
+    <string name="sleep_mode_aod_toggle_summary">Tắt Aod khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_aggressive_toggle_title">Bật tùy chọn pin thích ứng</string>
+    <string name="sleep_mode_aggressive_toggle_summary">Bật chế độ chờ và không hoạt động linh hoạt khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_display_text">Chế độ ngủ cho phép bạn tắt một số dịch vụ nhất định để giúp tiết kiệm pin và tắt tiếng điện thoại khi bạn ngủ.</string>
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">Biểu tượng độ sáng tự động</string>
+    <string name="brightness_icon_summary">Chuyển đổi hiển thị cho độ sáng thích ứng ở chân trang QS</string>
+    <string name="monet_0">Rực rỡ</string>
+    <string name="monet_1">Sáng rực rỡ</string>
+    <string name="monet_2">Tối rực rỡ</string>
+    <string name="monet_3">Nổi trổi</string>
+    <string name="monet_4">Ngắt</string>
+    <string name="monet_5">Sáng mờ nhạt</string>
+    <string name="monet_6">Tối mờ nhạt</string>
+    <string name="monet_title">Monet Wannabe</string>
+    <string name="monet_summary">Màu sắc nổi bật toàn hệ thống dựa trên hình nền</string>
+    <string name="monet_pallete_title">Pallete</string>
+    <string name="monet_pallete_summary">Chế độ màu sắc. \n (Sau khi chọn, bạn cần áp dụng lại hình nền để các thay đổi có hiệu lực).</string>
+    <string name="monet_accuracy">Độ chính xác Monet</string>
+    <string name="monet_accuracy_summary">Càng chính xác càng chậm (Mặc định 16)</string>
+    <string name="add_package_to_title">Thêm ứng dụng</string>
+    <!-- Gaming mode -->
+    <string name="gaming_title">Chế độ Chơi game</string>
+    <string name="gaming_mode_enabled_title">Bật chế độ chơi trò chơi</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Vô hiệu hóa độ sáng tự động</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Tắt độ sáng tự động khi vào chế độ trò chơi</string>
+    <string name="gaming_mode_notification_danmaku_title">Thông báo Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_summary">Hiển thị nội dung thông báo dưới dạng danmaku trong game</string>
+    <string name="gaming_mode_quick_start_apps_title">Ứng dụng bắt đầu nhanh</string>
+    <string name="gaming_mode_quick_start_apps_summary">Chọn ứng dụng mà bạn muốn khởi chạy với một quả bóng nổi</string>
+    <string name="gaming_mode_performance">Hiệu năng</string>
+    <string name="gaming_mode_use_game_driver_title">Sử dụng trình điều khiển trò chơi</string>
+    <string name="gaming_mode_use_game_driver_summary">Sử dụng trình điều khiển cụ thể cho trò chơi</string>
+    <string name="gaming_mode_change_performance_title">Điều chỉnh hiệu suất</string>
+    <string name="gaming_mode_change_performance_summary">Điều chỉnh mức hiệu suất khi bắt đầu trò chơi</string>
+    <string name="gaming_mode_performance_title">Mức độ hiệu suất</string>
+    <string name="gaming_mode_dnd">Không làm phiền</string>
+    <string name="gaming_mode_disable_notification_alert_title">Tắt thông báo</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Không cho phép thông báo nổi và bong bóng hội thoại ngoài cuộc gọi đến và báo thức</string>
+    <string name="gaming_mode_disable_ringtone_title">Không đổ chuông</string>
+    <string name="gaming_mode_disable_ringtone_summary">Tắt chuông cuộc gọi đến và thông báo ở chế độ chơi game</string>
+    <string name="gaming_mode_auto_answer_call_title">Trả lời cuộc gọi tự động</string>
+    <string name="gaming_mode_auto_answer_call_summary">Trả lời cuộc gọi tự động trong trò chơi và rảnh tay khi không kết nối tai nghe</string>
+    <string name="gaming_mode_disable_gesture_summary">Vô hiệu hóa phím cứng khi chế độ trò chơi được bật</string>
+    <string name="gaming_mode_disable_hw_keys_title">Tắt phím cứng</string>
+    <string name="gaming_mode_disable_gesture_title">Tắt cử chỉ</string>
+    <string name="gaming_mode_apps">Danh sách trò chơi</string>
+    <string name="gaming_mode_dynamic_add_title">Chế độ động</string>
+    <string name="gaming_mode_dynamic_add_summary">Thử xoá và thêm ứng dụng chơi game tự động</string>
+    <string name="gaming_mode_show_danmaku_title">Hiển thị danmaku</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Lọc thông báo động</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Tự động lọc các thông báo như tiến trình tải xuống</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Kích thước Danmaku (ngang)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Kích thước Danmaku (dọc)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Tốc độ Danmaku (ngang)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Tốc độ Danmaku (dọc)</string>
+    <string name="gaming_mode_danmaku_blacklist">Danh sách đen</string>
+    <string name="gaming_mode_menu_opacity_title">Mức độ mờ của menu</string>
+    <string name="gaming_mode_hardware_keys_title">Khóa phím</string>
+    <string name="gaming_mode_hardware_keys_summary">Vô hiệu hóa phím cứng khi chế độ trò chơi được bật</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_category_title">Cài đặt nhà mạng</string>
+    <string name="carrier_label_category_summary">Tùy chỉnh tên nhà mạng trên thanh trạng thái</string>
+    <string name="carrier_label_settings_title">Tên nhà cung cấp</string>
+    <string name="carrier_label_settings_summary">Tùy chỉnh tên của nhà mạng</string>
+    <string name="custom_carrier_label_title">Tùy chỉnh tên nhà mạng</string>
+    <string name="custom_carrier_label_explain">Vui lòng nhập một nhãn mới. Để trống để trở lại nhãn gốc.</string>
+    <string name="custom_carrier_label_notset">Tên tùy chỉnh hiện chưa được thiết lập</string>
+    <string name="show_carrier_title">Tên nhà mạng</string>
+    <string name="show_carrier_disabled">Tắt</string>
+    <string name="show_carrier_keyguard">Chỉ màn hình khoá</string>
+    <string name="show_carrier_statusbar">Chỉ thanh trạng thái</string>
+    <string name="show_carrier_enabled">Màn hình khóa &amp; thanh trạng thái</string>
+    <string name="status_bar_carrier_color">Màu tên nhà cung cấp</string>
+    <string name="status_bar_carrier_size">Cỡ chữ tên nhà mạng</string>
+    <string name="status_bar_carrier_font_style_title">Phông chữ tên nhà cung cấp</string>
+    <!-- StatusBar weather settings -->
+    <string name="sb_weather_title">Thời tiết trên thanh trạng thái</string>
+    <string name="sb_weather_summary">cấu hình thanh trạng thái và qs thời tiết</string>
+    <string name="status_bar_weather_location_title">Vị trí</string>
+    <string name="statusbar_weather_title">Thời tiết trên thanh trạng thái</string>
+    <string name="statusbar_weather_summary">Tùy chỉnh từ Cài đặt nhanh/Thời tiết.</string>
+    <string name="statusbar_weather_dialog_title">Kiểu thời tiết thanh trạng thái</string>
+    <string name="status_bar_weather_hidden">Ẩn thời tiết</string>
+    <string name="status_bar_temperature_image_show_scale">Hiển thị nhiệt độ bằng thang đo và hình ảnh</string>
+    <string name="status_bar_temperature_image_hide_scale">Hiển thị nhiệt độ với hình ảnh mà không có thang đo</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Hiển thị nhiệt độ có thang đo</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Hiển thị nhiệt độ không có thang đo</string>
+    <string name="status_bar_show_image">Hiển thị hình ảnh</string>
+    <!-- Clock lottie animations -->
+    <string name="clock_lottie_animation_title">Hoạt ảnh Lottie</string>
+    <string name="clock_lottie_animation_hidden">Ẩn</string>
+    <string name="clock_lottie_animation_explosion_circle">Vòng tròn vụ nổ</string>
+    <string name="clock_lottie_animation_blue_circle">Vòng tròn xanh dương</string>
+    <string name="clock_lottie_animation_blue_circle_2">Vòng tròn xanh dương v2</string>
+    <string name="clock_lottie_animation_rainbow_circle">Nét Cọ Cầu Vồng</string>
+    <string name="clock_lottie_animation_fire_circle">Vòng tròn lửa</string>
+    <!-- Clock lottie animation size -->
+    <string name="clock_lottie_animation_size_title">Cỡ hoạt ảnh</string>
 </resources>
