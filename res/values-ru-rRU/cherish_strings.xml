@@ -80,10 +80,10 @@
     <!--Accenter -->
     <string name="themes_hub_title">Темы</string>
     <string name="themes_hub_summary">Акценты-градиенты-темы</string>
-    <string name="rgb_accent_picker_title_dark">Accent Picker</string>
-    <string name="rgb_accent_picker_summary">Choose the accent color yourself</string>
-    <string name="theme_option_reset_title">Reset Theme Options</string>
-    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
+    <string name="rgb_accent_picker_title_dark">Выбор акцента</string>
+    <string name="rgb_accent_picker_summary">Выберите цвет акцента самостоятельно</string>
+    <string name="theme_option_reset_title">Сбросить настройки темы</string>
+    <string name="theme_option_reset_message">Вы уверены, что хотите сбросить акценты тем по умолчанию?</string>
     <!--ThemePicker-->
     <string name="theme_select_title">Стили и обои</string>
     <string name="theme_select_summary">Просмотр и выбор установленных тем</string>
@@ -564,10 +564,10 @@
     <string name="lockscreen_weather_show_image_title">Показать изображение состояния погоды</string>
     <string name="lockscreen_weather_show_image_summary">Показать погодные условия</string>
     <!-- QS Footer Text -->
-    <string name="qs_footer_text_title">QS footer text</string>
-    <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
-    <string name="qs_footer_text_string_title">Customize footer text</string>
-    <string name="qs_footer_text_string_summary">Set to empty for default #KeepTheLove</string>
+    <string name="qs_footer_text_title">Текст в нижней части быстрых настроек</string>
+    <string name="qs_footer_text_summary">Отображать текст внизу панели быстрых настроек</string>
+    <string name="qs_footer_text_string_title">Настроить текст нижней панели</string>
+    <string name="qs_footer_text_string_summary">Значение пусто по умолчанию #KeepTheLove</string>
     <!-- Navbar options -->
     <string name="navigation_bar_invert_layout_title">Поменять местами кнопки</string>
     <string name="navigation_bar_invert_layout_summary">Инвертирует расположение панели навигации и другие элементы, такие как кнопка смены метода ввода</string>
@@ -1160,28 +1160,28 @@
     <!-- Quick settings brightness icon -->
     <string name="brightness_icon_title">Значок автояркости</string>
     <string name="brightness_icon_summary">Отображать переключение адаптивной яркости в нижнем колонтитуле быстрых настроек</string>
-    <string name="monet_0">Vibrant</string>
-    <string name="monet_1">Light Vibrant</string>
-    <string name="monet_2">Dark Vibrant</string>
-    <string name="monet_3">Dominant</string>
-    <string name="monet_4">Muted</string>
-    <string name="monet_5">Light Muted</string>
-    <string name="monet_6">Dark Muted</string>
+    <string name="monet_0">Яркий</string>
+    <string name="monet_1">Светло-яркий</string>
+    <string name="monet_2">Темная яркость</string>
+    <string name="monet_3">Преобладающий</string>
+    <string name="monet_4">Без звука</string>
+    <string name="monet_5">Приглушённый Свет</string>
+    <string name="monet_6">Приглушенная темнота</string>
     <string name="monet_title">MonetWannabe</string>
-    <string name="monet_summary">System Wide Accent Color based on Wallpaper</string>
-    <string name="monet_pallete_title">Pallete</string>
-    <string name="monet_pallete_summary">Color Modes.  \n(After Choosing you need to reapply the wallpaper for the changes to take affect).</string>
-    <string name="monet_accuracy">Monet Accuracy</string>
-    <string name="monet_accuracy_summary">The More Accurate the slower (Def 16)</string>
-    <string name="add_package_to_title">Add application</string>
+    <string name="monet_summary">Общесистемный цвет акцента на основе обоев</string>
+    <string name="monet_pallete_title">Палитра</string>
+    <string name="monet_pallete_summary">Цветовые режимы.  \n(После выбора необходимо повторно применить обои, чтобы изменения вступили в силу).</string>
+    <string name="monet_accuracy">Точность монет</string>
+    <string name="monet_accuracy_summary">Чем точнее, тем медленнее (Умч. 16)</string>
+    <string name="add_package_to_title">Добавить приложение</string>
     <!-- Gaming mode -->
     <string name="gaming_title">Игровой режим</string>
-    <string name="gaming_mode_enabled_title">Enable gaming mode</string>
+    <string name="gaming_mode_enabled_title">Включить игровой режим</string>
     <string name="gaming_mode_disable_auto_brightness_title">Отключить автоматическую яркость</string>
-    <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when entering game mode</string>
-    <string name="gaming_mode_notification_danmaku_title">Notification Danmaku</string>
-    <string name="gaming_mode_notification_danmaku_summary">Display the notification content in the form of danmaku in the game</string>
-    <string name="gaming_mode_quick_start_apps_title">Quick Start Apps</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Отключить автояркость при входе в игровой режим</string>
+    <string name="gaming_mode_notification_danmaku_title">Уведомление Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_summary">Отображение содержимого уведомлений в виде данмаку в игре</string>
+    <string name="gaming_mode_quick_start_apps_title">Приложения для быстрого запуска</string>
     <string name="gaming_mode_quick_start_apps_summary">Choose the application that you want to launch with a floating ball</string>
     <string name="gaming_mode_performance">Performance</string>
     <string name="gaming_mode_use_game_driver_title">Use game driver</string>
