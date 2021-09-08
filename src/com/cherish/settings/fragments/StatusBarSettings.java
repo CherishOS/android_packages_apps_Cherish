@@ -53,6 +53,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 	private SystemSettingMasterSwitchPreference mStatusBarLogo;
 
     private static final String PREF_KEY_CUTOUT = "cutout_settings";
+    private static final String VOLTE_ICON_STYLE = "volte_icon_style";
+    private static final String VOWIFI_ICON_STYLE = "vowifi_icon_style";
+
+    private SystemSettingListPreference mVolteIconStyle;
+    private SystemSettingListPreference mVowifiIconStyle;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -73,6 +78,18 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 		
 		String hasDisplayCutout = getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
 
+        mVolteIconStyle = (SystemSettingListPreference) findPreference(VOLTE_ICON_STYLE);
+        int volteIconStyle = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.VOLTE_ICON_STYLE, 0);
+        mVolteIconStyle.setValue(String.valueOf(volteIconStyle));
+        mVolteIconStyle.setOnPreferenceChangeListener(this);
+
+        mVowifiIconStyle = (SystemSettingListPreference) findPreference(VOWIFI_ICON_STYLE);
+        int vowifiIconStyle = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.VOWIFI_ICON_STYLE, 0);
+        mVowifiIconStyle.setValue(String.valueOf(vowifiIconStyle));
+        mVowifiIconStyle.setOnPreferenceChangeListener(this);
+
         if (TextUtils.isEmpty(hasDisplayCutout)) {
             getPreferenceScreen().removePreference(mCutoutPref);
         }
@@ -80,12 +97,27 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
 		if (preference == mStatusBarLogo) {
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUS_BAR_LOGO, value ? 1 : 0);
             return true;
-		}
+		}else if (preference == mVolteIconStyle) {
+            int volteIconStyle = Integer.parseInt(((String) objValue).toString());
+            Settings.System.putInt(resolver,
+                  Settings.System.VOLTE_ICON_STYLE, volteIconStyle);
+            mVolteIconStyle.setValue(String.valueOf(volteIconStyle));
+            CherishUtils.showSystemUiRestartDialog(getContext());
+            return true;
+        } else if (preference == mVowifiIconStyle) {
+            int vowifiIconStyle = Integer.parseInt(((String) objValue).toString());
+            Settings.System.putInt(resolver,
+                  Settings.System.VOWIFI_ICON_STYLE, vowifiIconStyle);
+            mVowifiIconStyle.setValue(String.valueOf(vowifiIconStyle));
+            CherishUtils.showSystemUiRestartDialog(getContext());
+            return true;
+        }
         return false;
     }
 	
