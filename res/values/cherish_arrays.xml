@@ -867,6 +867,8 @@
     <!-- Battery -->
     <string-array name="status_bar_battery_style_entries" translatable="false">
         <item>@string/status_bar_battery_style_icon_portrait</item>
+	    <item>@string/status_bar_battery_style_icon_rlandscape</item>
+        <item>@string/status_bar_battery_style_icon_landscape</item>
         <item>@string/status_bar_battery_style_circle</item>
         <item>@string/status_bar_battery_style_dotted_circle</item>
         <item>@string/status_bar_battery_style_filled_circle</item>
@@ -881,6 +883,8 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
+        <item>7</item>
     </string-array>
 	
 	<!-- Status bar logo position -->
