@@ -30,6 +30,12 @@
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController" />
 
+  <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="navigation_bar_menu_arrow_keys"
+            android:title="@string/navigation_bar_arrow_keys_title"
+            android:summary="@string/navigation_bar_arrow_keys_summary"
+            android:defaultValue="false" />
+
    <com.cherish.settings.preferences.SecureSettingSwitchPreference
         android:key="sysui_nav_bar_inverse"
         android:icon="@drawable/ic_arrow"

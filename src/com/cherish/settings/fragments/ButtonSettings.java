@@ -58,6 +58,8 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
 	private static final String PIXEL_ANIMATION_NAVIGATION = "pixel_nav_animation";
+
+    private static final String KEY_NAVIGATION_BAR_ARROWS = "navigation_bar_menu_arrow_keys";
     private static final String INVERT_NAVIGATION = "sysui_nav_bar_inverse";
 	private static final String NAVBAR_VISIBILITY = "navigation_bar_show_new";
 
@@ -90,6 +92,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
 	private SwitchPreference mNavbarVisibility;
         private boolean mIsNavSwitchingMode = false;
 	private Handler mHandler;
+    private SystemSettingSwitchPreference mNavigationArrowKeys;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -101,6 +104,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
         final PreferenceScreen prefScreen = getPreferenceScreen();
 		
 		mNavbarVisibility = (SwitchPreference) findPreference(NAVBAR_VISIBILITY);
+        mNavigationArrowKeys = (SystemSettingSwitchPreference) findPreference(KEY_NAVIGATION_BAR_ARROWS);
 
         boolean showing = Settings.System.getInt(getContentResolver(),
                 Settings.System.FORCE_SHOW_NAVBAR,
