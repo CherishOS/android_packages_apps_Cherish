@@ -18,44 +18,4 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory
-        android:key="double_tap_gestures_category"
-        android:title="@string/double_tap_gestures_category_title">
-
-	<com.cherish.settings.preferences.SystemSettingSwitchPreference
-	    android:key="double_tap_sleep_gesture"
-            android:icon="@drawable/ic_tap"
-            android:title="@string/double_tap_sleep_gesture_title"
-            android:defaultValue="false" />
-
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_lockscreen"
-            android:icon="@drawable/ic_tap"
-            android:title="@string/double_tap_sleep_lockscreen_title"
-            android:defaultValue="false" />
-    </PreferenceCategory>
-
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference 
-           android:icon="@drawable/ic_tap"
-           android:key="three_finger_gesture"
-           android:title="@string/three_finger_gesture"
-           android:summary="@string/three_finger_gesture_summary"
-           android:defaultValue="false" />
-
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
-	android:icon="@drawable/ic_torch"
-        android:key="torch_long_press_power_gesture"
-        android:title="@string/torch_long_press_power_gesture_title"
-        android:summary="@string/torch_long_press_power_gesture_desc"
-        android:defaultValue="false" />
-
-    <ListPreference
-        android:key="torch_long_press_power_timeout"
-        android:dialogTitle="@string/torch_long_press_power_timeout_title"
-        android:title="@string/torch_long_press_power_timeout_title"
-        android:summary="%s"
-        android:entries="@array/torch_long_press_power_timeout_entries"
-        android:entryValues="@array/torch_long_press_power_timeout_values"
-        android:dependency="torch_long_press_power_gesture"
-        android:persistent="false" />
 </PreferenceScreen>
