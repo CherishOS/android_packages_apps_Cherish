@@ -29,12 +29,4 @@ import com.android.settings.R;
 
 public class Utils {
 
-    public static void handleOverlays(String packagename, Boolean state, IOverlayManager mOverlayManager) {
-        try {
-            mOverlayManager.setEnabled(packagename, state, USER_SYSTEM);
-        } catch (RemoteException e) {
-            e.printStackTrace();
-        }
-    }
-
 }

@@ -27,7 +27,7 @@
   <string name="social_header">Вперед!</string>
   <string name="cherish_web">Веб-сайт</string>
   <string name="cherish_web_description">Сайт CherishOS для информации и многое другое.</string>
-  <string name="cherish_web_link">http://cherish.github.io</string>
+  <string name="cherish_web_link">http://cherishos.com</string>
   <string name="cherish_telegram">Telegram </string>
   <string name="cherish_telegram_description">Канал CherishOS.</string>
   <string name="cherish_telegram_link">https://t.me/CherishOS</string>
@@ -36,7 +36,7 @@
   <string name="cherish_github_link">https://github.com/CherishOS/</string>
   <string name="donate">Окажите поддержку</string>
   <string name="donate_description">Пожертвование не обязательно, но каждый из вас может помочь нам оплатить счета за сервер.</string>
-  <string name="donation_link">https://paypal.me</string>
+  <string name="donation_link">https://paypal.me/hungphan2001</string>
   <!--Device maintainers -->
   <string name="official_devices">Официально поддерживаемые устройства</string>
   <string name="maintainers_header">Наши сопровождающие</string>

@@ -17,17 +17,4 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
-        android:key="volume_rocker_wake"
-	android:icon="@drawable/ic_sleep_off"
-        android:summary="@string/volume_rocker_wake_summary"
-        android:title="@string/volume_rocker_wake_title"
-        android:defaultValue="false" />
-
-    <ListPreference
-        android:dialogTitle="@string/volume_key_cursor_control_title"
-        android:entries="@array/volume_key_cursor_control_entries"
-        android:entryValues="@array/volume_key_cursor_control_values"
-        android:key="volume_key_cursor_control"
-        android:title="@string/volume_key_cursor_control_title" />
 </PreferenceScreen>

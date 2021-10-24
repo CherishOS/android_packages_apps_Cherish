@@ -41,7 +41,6 @@ import android.os.SystemProperties;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.internal.util.cherish.FodUtils;
 import com.android.internal.util.cherish.CherishUtils;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
@@ -58,36 +57,6 @@ import java.util.List;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-
-	private static final String CUSTOM_TEXT_CLOCK_FONTS = "custom_text_clock_fonts";
-    private static final String CLOCK_FONT_SIZE  = "lockclock_font_size";
-	private static final String CUSTOM_TEXT_CLOCK_FONT_SIZE  = "custom_text_clock_font_size";
-    private static final String DATE_FONT_SIZE  = "lockdate_font_size";
-    private static final String LOCKOWNER_FONT_SIZE = "lockowner_font_size";
-    private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
-    private static final String FOD_ANIMATION_CATEGORY = "fod_animations";
-    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
-	private static final String PREF_LS_CLOCK_SELECTION = "lockscreen_clock_selection";
-    private static final String PREF_LS_CLOCK_ANIM_SELECTION = "lockscreen_clock_animation_selection";
-    private static final String LOTTIE_ANIMATION_SIZE = "lockscreen_clock_animation_size";
-    private ContentResolver mResolver;
-    private Preference FODSettings;
-	
-	static final int MODE_DISABLED = 0;
-    static final int MODE_NIGHT = 1;
-    static final int MODE_TIME = 2;
-    static final int MODE_MIXED_SUNSET = 3;
-    static final int MODE_MIXED_SUNRISE = 4;
-
-    private CustomSeekBarPreference mClockFontSize;
-    private CustomSeekBarPreference mDateFontSize;
-    private CustomSeekBarPreference mOwnerInfoFontSize;
-	private CustomSeekBarPreference mCustomTextClockFontSize;
-    private PreferenceCategory mFODIconPickerCategory;
-	private SecureSettingListPreference mLockClockSelection;
-    private SystemSettingListPreference mLockClockAnimSelection;
-    private CustomSeekBarPreference mLottieAnimationSize;
-    private Preference mAODPref;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -107,133 +76,15 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         } catch (NameNotFoundException e) {
             e.printStackTrace();
         }
-		
-		mLottieAnimationSize = (CustomSeekBarPreference) findPreference(LOTTIE_ANIMATION_SIZE);
-        int lottieSize = Settings.System.getIntForUser(ctx.getContentResolver(),
-                Settings.System.LOCKSCREEN_CLOCK_ANIMATION_SIZE, res.getIdentifier("com.android.systemui:dimen/lottie_animation_width_height", null, null), UserHandle.USER_CURRENT);
-        mLottieAnimationSize.setValue(lottieSize);
-        mLottieAnimationSize.setOnPreferenceChangeListener(this);
-		
-		mLockClockAnimSelection = (SystemSettingListPreference) findPreference(PREF_LS_CLOCK_ANIM_SELECTION);
-
-        mLockClockSelection = (SecureSettingListPreference) findPreference(PREF_LS_CLOCK_SELECTION);
-        int val = Settings.Secure.getIntForUser(resolver,
-                Settings.Secure.LOCKSCREEN_CLOCK_SELECTION, 2, UserHandle.USER_CURRENT);
-        mLockClockSelection.setOnPreferenceChangeListener(this);
-        if (val > 3 && val < 8) {
-            mLockClockAnimSelection.setEnabled(true);
-            mLottieAnimationSize.setEnabled(true);
-        } else {
-            mLockClockAnimSelection.setEnabled(false);
-            mLottieAnimationSize.setEnabled(false);
-        }
-		
-	mFODIconPickerCategory = findPreference(FOD_ICON_PICKER_CATEGORY);
-        if (mFODIconPickerCategory != null && !FodUtils.hasFodSupport(getContext())) {
-            prefScreen.removePreference(mFODIconPickerCategory);
-        }
-        
-        final PreferenceCategory fodCat = (PreferenceCategory) prefScreen
-                .findPreference(FOD_ANIMATION_CATEGORY);
-        final boolean isFodAnimationResources = CherishUtils.isPackageInstalled(getContext(),
-                      getResources().getString(com.android.internal.R.string.config_fodAnimationPackage));
-        if (!isFodAnimationResources) {
-            prefScreen.removePreference(fodCat);
-        }
-
-        // Lock Clock Size
-        mClockFontSize = (CustomSeekBarPreference) findPreference(CLOCK_FONT_SIZE);
-        mClockFontSize.setValue(Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKCLOCK_FONT_SIZE, 78));
-        mClockFontSize.setOnPreferenceChangeListener(this);
-
-        // Lock Date Size
-        mDateFontSize = (CustomSeekBarPreference) findPreference(DATE_FONT_SIZE);
-        mDateFontSize.setValue(Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKDATE_FONT_SIZE, 18));
-        mDateFontSize.setOnPreferenceChangeListener(this);
-
-        // Lockscren OwnerInfo Size
-        mOwnerInfoFontSize = (CustomSeekBarPreference) findPreference(LOCKOWNER_FONT_SIZE);
-        mOwnerInfoFontSize.setValue(Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKOWNER_FONT_SIZE,21));
-        mOwnerInfoFontSize.setOnPreferenceChangeListener(this);
-		
-		// Custom Text Clock Size
-        mCustomTextClockFontSize = (CustomSeekBarPreference) findPreference(CUSTOM_TEXT_CLOCK_FONT_SIZE);
-        mCustomTextClockFontSize.setValue(Settings.System.getInt(getContentResolver(),
-                Settings.System.CUSTOM_TEXT_CLOCK_FONT_SIZE, 40));
-        mCustomTextClockFontSize.setOnPreferenceChangeListener(this);
-
-        mAODPref = findPreference(AOD_SCHEDULE_KEY);
-        updateAlwaysOnSummary();
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        updateAlwaysOnSummary();
-    }
-
-    private void updateAlwaysOnSummary() {
-        if (mAODPref == null) return;
-        int mode = Settings.Secure.getIntForUser(getActivity().getContentResolver(),
-                Settings.Secure.DOZE_ALWAYS_ON_AUTO_MODE, MODE_DISABLED, UserHandle.USER_CURRENT);
-        switch (mode) {
-            default:
-            case MODE_DISABLED:
-                mAODPref.setSummary(R.string.disabled);
-                break;
-            case MODE_NIGHT:
-                mAODPref.setSummary(R.string.night_display_auto_mode_twilight);
-                break;
-            case MODE_TIME:
-                mAODPref.setSummary(R.string.night_display_auto_mode_custom);
-                break;
-            case MODE_MIXED_SUNSET:
-                mAODPref.setSummary(R.string.always_on_display_schedule_mixed_sunset);
-                break;
-            case MODE_MIXED_SUNRISE:
-                mAODPref.setSummary(R.string.always_on_display_schedule_mixed_sunrise);
-                break;
-        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-         if (preference == mClockFontSize) {
-            int top = (Integer) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.LOCKCLOCK_FONT_SIZE, top*1);
-            return true;
-		} else if (preference == mCustomTextClockFontSize) {
-            int top = (Integer) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.CUSTOM_TEXT_CLOCK_FONT_SIZE, top*1);
-            return true;
-        } else if (preference == mDateFontSize) {
-            int top = (Integer) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.LOCKDATE_FONT_SIZE, top*1);
-            return true;
-		} else if (preference == mLottieAnimationSize) {
-            int value = (Integer) newValue;
-            Settings.System.putIntForUser(getContext().getContentResolver(),
-                    Settings.System.LOCKSCREEN_CLOCK_ANIMATION_SIZE, value, UserHandle.USER_CURRENT);
-            return true;
-		} else if (preference == mLockClockSelection) {
-            int val = Integer.parseInt((String) newValue);
-            Settings.Secure.putInt(resolver,
-                    Settings.Secure.LOCKSCREEN_CLOCK_SELECTION, val);
-            if (val > 3 && val < 8) {
-                mLockClockAnimSelection.setEnabled(true);
-                mLottieAnimationSize.setEnabled(true);
-            } else {
-                mLockClockAnimSelection.setEnabled(false);
-                mLottieAnimationSize.setEnabled(false);
-            }
-            return true;
-        }
         return false;
     }
 
@@ -263,9 +114,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
-                     if (!FodUtils.hasFodSupport(context)) {
-                        keys.add(FOD_ICON_PICKER_CATEGORY);
-                    }
                     return keys;
                 }
     };
