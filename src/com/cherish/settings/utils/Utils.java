@@ -17,14 +17,31 @@
 
 package com.cherish.settings.utils;
 
-import static android.os.UserHandle.USER_SYSTEM;
-
 import android.content.Context;
 import android.content.om.IOverlayManager;
 import android.os.AsyncTask;
 import android.os.RemoteException;
 import android.widget.Toast;
-
+import android.app.Activity;
+import android.app.ActivityManager;
+import android.content.Context;
+import android.content.pm.ActivityInfo;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.pm.Signature;
+import android.content.res.Configuration;
+import android.hardware.camera2.CameraAccessException;
+import android.hardware.camera2.CameraCharacteristics;
+import android.hardware.camera2.CameraManager;
+import android.net.ConnectivityManager;
+import android.os.UserManager;
+import android.os.SystemProperties;
+import android.telephony.TelephonyManager;
+import android.util.DisplayMetrics;
+import android.view.DisplayInfo;
+import android.view.Surface;
+import android.view.WindowManager;
 import com.android.settings.R;
 
 public class Utils {

@@ -31,6 +31,7 @@ import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 import com.android.internal.util.cherish.CherishUtils;
+import com.cherish.settings.preferences.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +39,7 @@ import java.util.List;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class NotificationSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener{
 
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -46,6 +48,11 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
+		
+		PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+                prefScreen.removePreference(incallVibCategory);
+        }
         
     }
 
