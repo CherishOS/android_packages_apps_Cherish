@@ -37,14 +37,12 @@ import com.android.settings.R;
 import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import com.cherish.settings.preferences.SecureSettingSwitchPreference;
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.hwkeys.ActionConstants;
-import com.android.internal.util.hwkeys.ActionUtils;
 
 import com.cherish.settings.preferences.CustomSeekBarPreference;
-import com.cherish.settings.preferences.ActionFragment;
-
+import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
+import android.provider.SearchIndexableResource;
 
 import java.util.ArrayList;
 import java.util.List;
