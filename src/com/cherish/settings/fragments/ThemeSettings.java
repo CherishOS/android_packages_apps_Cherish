@@ -70,12 +70,15 @@ import net.margaritov.preference.colorpicker.ColorPickerPreference;
 public class ThemeSettings extends DashboardFragment implements OnPreferenceChangeListener {
 			
 	public static final String TAG = "ThemeSettings";
+	
+	private String MONET_ENGINE_COLOR_OVERRIDE = "monet_engine_color_override";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 	static final int DEFAULT = 0xff1a73e8;
 	private Context mContext;
 
     private IOverlayManager mOverlayService;
     private UiModeManager mUiModeManager;
+	private ColorPickerPreference mMonetColor;
 	
 	@Override
     protected String getLogTag() {
@@ -117,6 +120,13 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         ContentResolver resolver = getActivity().getContentResolver();
 		final Resources res = getResources();
 		mContext =  getActivity();
+		
+		mMonetColor = (ColorPickerPreference)findPreference(MONET_ENGINE_COLOR_OVERRIDE);
+        int intColor = Settings.Secure.getInt(resolver, MONET_ENGINE_COLOR_OVERRIDE, Color.WHITE);
+        String hexColor = String.format("#%08x", (0xffffff & intColor));
+        mMonetColor.setNewPreviewColor(intColor);
+        mMonetColor.setSummary(hexColor);
+        mMonetColor.setOnPreferenceChangeListener(this);
         }
 
     public boolean isAvailable() {
@@ -126,6 +136,15 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mMonetColor) {
+            String hex = ColorPickerPreference.convertToARGB(Integer
+                .parseInt(String.valueOf(objValue)));
+            preference.setSummary(hex);
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            Settings.Secure.putInt(resolver,
+                MONET_ENGINE_COLOR_OVERRIDE, intHex);
+            return true;
+        }
         return false;
     }
 
