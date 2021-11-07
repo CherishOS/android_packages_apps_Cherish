@@ -83,6 +83,12 @@
              android:title="@string/roaming_indicator_icon_title"
              android:summary="@string/roaming_indicator_icon_summary"
              android:defaultValue="true"/>
+			 
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="use_old_mobiletype"
+            android:title="@string/use_old_mobiletype_title"
+            android:summary="@string/use_old_mobiletype_summary"
+            android:defaultValue="false" />     
 
        <Preference
             android:key="systemui_tuner_statusbar"
