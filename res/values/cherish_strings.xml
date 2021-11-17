@@ -498,5 +498,11 @@
     <string name="status_bar_battery_style_circle">Circle</string>
     <string name="status_bar_battery_style_dotted_circle">Dotted сircle</string>
     <string name="status_bar_battery_style_text">Text</string>
+	
+	<!-- Network Traffic -->
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_summary">Customize the traffic indicators</string>
+    <string name="network_traffic_state_title">Show network traffic</string>
+    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
 
 </resources>
