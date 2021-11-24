@@ -22,6 +22,12 @@
         android:title="@string/qs_title">
 		
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_show_battery_estimate"
+            android:title="@string/qs_show_battery_estimate_title"
+            android:summary="@string/qs_show_battery_estimate_summary"
+            android:defaultValue="true"/>
+		
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_running_services_toggle"
             android:title="@string/qs_running_services_title"
             android:summary="@string/qs_running_services_summary"

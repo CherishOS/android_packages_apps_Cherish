@@ -598,4 +598,8 @@
     <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
     <string name="monet_engine_chroma_factor_title">Chroma factor</string>
     <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+
+	<!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
 </resources>
