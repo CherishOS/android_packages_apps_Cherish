@@ -44,6 +44,12 @@
             android:title="@string/qs_show_lunar_calendar_title"
 	    android:summary="@string/qs_show_lunar_calendar_summary"
 	    android:defaultValue="false"/>
+		
+		<com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="enable_location_privacy_indicator"
+            android:title="@string/location_privacy_title"
+            android:summary="@string/location_privacy_summary"
+            android:defaultValue="true" />
 			
 		<PreferenceCategory
         android:key="quick_settings_brighness_category"
