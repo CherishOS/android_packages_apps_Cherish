@@ -86,7 +86,13 @@
         android:key="show_combined_status_bar_signal_icons"
         android:title="@string/combined_status_bar_signal_icons"
         android:summary="@string/combined_status_bar_signal_icons_summary"
-        android:defaultValue="false" />		
+        android:defaultValue="false" />	
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+               android:key="statusbar_icons_style"
+               android:title="@string/statusbar_icons_style"
+               android:summary="@string/statusbar_icons_style_summary"
+               android:defaultValue="true" />		
 
        <Preference
             android:key="systemui_tuner_statusbar"

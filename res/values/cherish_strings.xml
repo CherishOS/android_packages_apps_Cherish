@@ -712,4 +712,8 @@
 
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
+	
+	<!-- Sb Icon Style -->
+    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
+    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
 </resources>
