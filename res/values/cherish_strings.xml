@@ -466,5 +466,8 @@
 
     <!-- Location privacy indicator -->
     <string name="location_privacy_indicator_title">Show privacy indicator for location</string>
-
+	
+	<!-- Sb Icon Style -->
+    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
+    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
 </resources>
