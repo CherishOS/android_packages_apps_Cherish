@@ -90,5 +90,11 @@
             android:summary="@string/lockscreen_visualizer_enable_summary" />
 
     </PreferenceCategory>
+	
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="screen_off_fod"
+            android:title="@string/screen_off_fod_title"
+            android:summary="@string/screen_off_fod_summary"
+            android:defaultValue="true" />
 
 </PreferenceScreen>
