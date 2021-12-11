@@ -43,7 +43,9 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
     private static final String PREF_FLASH_ON_CALL = "flashlight_on_call";
     private static final String PREF_FLASH_ON_CALL_DND = "flashlight_on_call_ignore_dnd";
     private static final String PREF_FLASH_ON_CALL_RATE = "flashlight_on_call_rate";
+	private static final String KEY_EDGE_LIGHTNING = "pulse_ambient_light";
 
+    private SystemSettingMasterSwitchPreference mEdgeLightning;
     private SystemSettingListPreference mFlashOnCall;
     private SystemSettingSwitchPreference mFlashOnCallIgnoreDND;
     private CustomSeekBarPreference mFlashOnCallRate;
@@ -79,6 +81,13 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         mFlashOnCall = (SystemSettingListPreference)
                 findPreference(PREF_FLASH_ON_CALL);
         mFlashOnCall.setOnPreferenceChangeListener(this);
+		
+		mEdgeLightning = (SystemSettingMasterSwitchPreference)
+                findPreference(KEY_EDGE_LIGHTNING);
+        boolean enabled = Settings.System.getIntForUser(resolver,
+                KEY_EDGE_LIGHTNING, 0, UserHandle.USER_CURRENT) == 1;
+        mEdgeLightning.setChecked(enabled);
+        mEdgeLightning.setOnPreferenceChangeListener(this);
 
         mChargingLeds = (Preference) findPreference("charging_light");
         if (mChargingLeds != null
@@ -103,6 +112,11 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
             int value = (Integer) newValue;
             Settings.System.putInt(resolver,
                     Settings.System.FLASHLIGHT_ON_CALL_RATE, value);
+            return true;
+        } else if (preference == mEdgeLightning) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putIntForUser(resolver, KEY_EDGE_LIGHTNING,
+                    value ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
         }
         return false;
