@@ -34,6 +34,11 @@
         android:defaultValue="true" />
 
     </PreferenceCategory>
+	
+	 <Preference
+        android:key="always_on_display_schedule"
+        android:title="@string/always_on_display_schedule_title"
+        android:fragment="com.cherish.settings.fragments.AODSchedule" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
