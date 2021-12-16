@@ -545,4 +545,22 @@
     <string name="theme_customization_icon_shape_title">Icon shape</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the statusbar icon -->
     <string name="theme_customization_sysui_icon_title">Statusbar icon</string>
+	
+	<!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi icon</string>
+    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
+    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
+    <string name="vowifi_icon_enabled_volte_disabled">Display VoWiFi instead of VoLTE</string>
+    <string name="vowifi_icon_style_title">Select VoWiFi icon</string>
+    <string name="vowifi_icon_default">Default</string>
+    <string name="vowifi_icon_emui">EMUI</string>
+    <string name="vowifi_icon_asus">Asus</string>
+    <string name="vowifi_icon_oneplus">OOS</string>
+    <string name="vowifi_icon_moto">Motorola</string>
+    <string name="vowifi_icon_simple1">Simple 1</string>
+    <string name="vowifi_icon_simple2">Simple 2</string>
+    <string name="vowifi_icon_simple3">Simple 3</string>
+    <string name="vowifi_icon_vivo">Vivo</string>
+    <string name="vowifi_icon_margaritov">Margaritov</string>
+
 </resources>
