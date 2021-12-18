@@ -17,5 +17,24 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/theme_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-		
+	
+	<PreferenceCategory
+        android:title="@string/theme_customization_category">
+
+        <Preference
+            android:key="dark_ui_mode"
+            android:title="@string/dark_ui_mode"
+            android:summary="@string/dark_ui_mode_summary"
+            android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
+            settings:controller="com.android.settings.display.DarkUIPreferenceController" />
+
+        <ListPreference
+            android:key="android.theme.customization.font"
+             android:title="@string/theme_customization_font_title"/>
+
+        <ListPreference
+            android:key="android.theme.customization.icon_pack"
+            android:title="@string/theme_customization_sysui_icon_title"/>
+
+    </PreferenceCategory>
 </PreferenceScreen>
