@@ -49,6 +49,9 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.settings.development.OverlayCategoryPreferenceController;
+import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settingslib.core.lifecycle.Lifecycle;
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
@@ -93,6 +96,10 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
             Context context, Lifecycle lifecycle, Fragment fragment) {
 
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.font"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.icon_pack"));
         return controllers;
     }
 	
