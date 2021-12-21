@@ -51,6 +51,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 import android.provider.SearchIndexableResource;
 import com.android.internal.util.cherish.fod.FodUtils;
+import com.android.internal.util.cherish.CherishUtils;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -92,11 +93,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             e.printStackTrace();
         }
 		
+		PreferenceCategory udfps = (PreferenceCategory) prefScreen.findPreference("udfps_category");
 		mFODScreenOff = (SystemSettingSwitchPreference) findPreference(SCREEN_OFF_FOD_KEY);
         mUdfpsHapticFeedback = (SystemSettingSwitchPreference) findPreference(UDFPS_HAPTIC_FEEDBACK);
         if (!FodUtils.hasFodSupport(getContext())) {
-            prefScreen.removePreference(mFODScreenOff);
-            prefScreen.removePreference(mUdfpsHapticFeedback);
+            prefScreen.removePreference(udfps);
         }
 		
 		mAODPref = findPreference(AOD_SCHEDULE_KEY);
