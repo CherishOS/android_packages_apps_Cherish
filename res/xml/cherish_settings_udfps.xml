@@ -13,4 +13,18 @@
         android:title="@string/udfps_haptic_feedback_title"
         android:summary="@string/udfps_haptic_feedback_summary"
         android:defaultValue="true" />
+
+     <!-- UDFPS ICON PICKER -->
+    <Preference
+        android:key="udfps_icon_picker"
+        android:title="@string/udfps_icon_picker_title"
+        android:summary="@string/udfps_icon_picker_summary"
+        android:fragment="com.cherish.settings.fragments.UdfpsIconPicker" />
+
+    <!-- UDFPS ANIMATIONS -->
+    <Preference
+        android:key="udfps_recognizing_animation_preview"
+        android:title="@string/udfps_recog_animation_effect_title"
+        android:summary="@string/udfps_recog_animation_effect_summary"
+        android:fragment="com.cherish.settings.fragments.UdfpsAnimation" />
 </PreferenceScreen>

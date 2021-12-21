@@ -38,7 +38,7 @@ import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.cherish.CherishUtils;
-
+import com.android.internal.util.cherish.udfps.UdfpsUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -48,14 +48,39 @@ import com.android.settingslib.search.SearchIndexable;
 public class Udfps extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private static final String UDFPS_ICON_PICKER = "udfps_icon_picker";
+    private static final String UDFPS_ANIM_PREVIEW = "udfps_recognizing_animation_preview";
+        
+    private Preference mUdfpsIconPicker;
+    private Preference mUdfpsAnimPreview;
+
+    private static final String UDFPS_CATEGORY = "udfps_category";
+
+    private PreferenceCategory mUdfpsCategory;
+
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.cherish_settings_udfps);
 
+        ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
         Resources resources = getResources();
+
+        mUdfpsCategory = findPreference(UDFPS_CATEGORY);
+    if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
+        prefSet.removePreference(mUdfpsCategory);
+    }
+
+        final boolean udfpsResPkgInstalled = CherishUtils.isPackageInstalled(getContext(),
+                "com.cherish.udfps.resources");
+        mUdfpsIconPicker = findPreference(UDFPS_ICON_PICKER);
+        mUdfpsAnimPreview = findPreference(UDFPS_ANIM_PREVIEW);
+        if (!udfpsResPkgInstalled) {
+            prefSet.removePreference(mUdfpsIconPicker);
+            prefSet.removePreference(mUdfpsAnimPreview);
+        }
 
     }
 
