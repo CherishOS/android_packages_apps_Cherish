@@ -51,6 +51,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 import android.provider.SearchIndexableResource;
 import com.android.internal.util.cherish.fod.FodUtils;
+import com.android.internal.util.cherish.CherishUtils;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -60,6 +61,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 			
 	private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
 	private static final String SCREEN_OFF_FOD_KEY = "screen_off_fod";
+	private static final String UDFPS_HAPTIC_FEEDBACK = "udfps_haptic_feedback";
 	
 	static final int MODE_DISABLED = 0;
     static final int MODE_NIGHT = 1;
@@ -69,6 +71,8 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 	
 	Preference mAODPref;
 	Preference mFODPref;
+	private SystemSettingSwitchPreference mFODScreenOff;
+    private SystemSettingSwitchPreference mUdfpsHapticFeedback;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -89,9 +93,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             e.printStackTrace();
         }
 		
-		mFODPref = findPreference(SCREEN_OFF_FOD_KEY);
+		PreferenceCategory udfps = (PreferenceCategory) prefScreen.findPreference("udfps_category");
+		mFODScreenOff = (SystemSettingSwitchPreference) findPreference(SCREEN_OFF_FOD_KEY);
+        mUdfpsHapticFeedback = (SystemSettingSwitchPreference) findPreference(UDFPS_HAPTIC_FEEDBACK);
         if (!FodUtils.hasFodSupport(getContext())) {
-            removePreference(SCREEN_OFF_FOD_KEY);
+            prefScreen.removePreference(udfps);
         }
 		
 		mAODPref = findPreference(AOD_SCHEDULE_KEY);
