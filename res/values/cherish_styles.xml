@@ -22,4 +22,5 @@
    <dimen name="fod_picker_item_size">100dp</dimen>
    <dimen name="fod_picker_item_padding">20dp</dimen>
 
+    <color name="option_border_default">#5f6368</color>
 </resources>
