@@ -486,4 +486,18 @@
         <item>5</item>
     </string-array>
 
+    <!-- Lockscreen Clock -->
+    <string-array name="lock_screen_custom_clock_face_entries" translatable="false">
+        <item>@string/lock_screen_custom_clock_face_default</item>
+        <item>@string/lock_screen_custom_clock_face_sfunny</item>
+        <item>@string/lock_screen_custom_clock_face_oos</item>
+        <item>@string/lock_screen_custom_clock_face_clockertino</item>
+    </string-array>
+    <string-array name="lock_screen_custom_clock_face_values" translatable="false">
+        <item>com.android.keyguard.clock.DefaultClockController</item>
+        <item>com.android.keyguard.clock.SfunnyClockController</item>
+        <item>com.android.keyguard.clock.OOSClockController</item>
+        <item>com.android.keyguard.clock.ClockertinoClockController</item>
+    </string-array>
+
 </resources>

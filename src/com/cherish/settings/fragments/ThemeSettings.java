@@ -59,7 +59,9 @@ import android.provider.SearchIndexableResource;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Objects;
-
+import org.json.JSONException;
+import org.json.JSONObject;
+import static android.os.UserHandle.USER_CURRENT;
 import com.android.internal.util.cherish.CherishUtils;
 import com.android.settings.dashboard.DashboardFragment;
 import com.cherish.settings.preferences.SystemSettingListPreference;
@@ -74,6 +76,10 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
 	private String MONET_ENGINE_COLOR_OVERRIDE = "monet_engine_color_override";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 	static final int DEFAULT = 0xff1a73e8;
+	private static final String CUSTOM_CLOCK_FACE = Settings.Secure.LOCK_SCREEN_CUSTOM_CLOCK_FACE;
+    private static final String DEFAULT_CLOCK = "com.android.keyguard.clock.DefaultClockController";
+
+    private ListPreference mLockClockStyles;
 	private Context mContext;
 
     private IOverlayManager mOverlayService;
@@ -117,6 +123,12 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         mMonetColor.setNewPreviewColor(intColor);
         mMonetColor.setSummary(hexColor);
         mMonetColor.setOnPreferenceChangeListener(this);
+		
+		mLockClockStyles = (ListPreference) findPreference(CUSTOM_CLOCK_FACE);
+        String mLockClockStylesValue = getLockScreenCustomClockFace();
+        mLockClockStyles.setValue(mLockClockStylesValue);
+        mLockClockStyles.setSummary(mLockClockStyles.getEntry());
+        mLockClockStyles.setOnPreferenceChangeListener(this);
         }
 
     public boolean isAvailable() {
@@ -134,6 +146,11 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
             Settings.Secure.putInt(resolver,
                 MONET_ENGINE_COLOR_OVERRIDE, intHex);
             return true;
+		} else if (preference == mLockClockStyles) {
+            setLockScreenCustomClockFace((String) objValue);
+            int index = mLockClockStyles.findIndexOfValue((String) objValue);
+            mLockClockStyles.setSummary(mLockClockStyles.getEntries()[index]);
+            return true;
         }
         return false;
     }
@@ -141,6 +158,31 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CHERISH_SETTINGS;
+    }
+	
+	private String getLockScreenCustomClockFace() {
+        mContext = getActivity();
+        String value = Settings.Secure.getStringForUser(mContext.getContentResolver(),
+                CUSTOM_CLOCK_FACE, USER_CURRENT);
+
+        if (value == null || value.isEmpty()) value = DEFAULT_CLOCK;
+
+        try {
+            JSONObject json = new JSONObject(value);
+            return json.getString("clock");
+        } catch (JSONException ex) {
+        }
+        return value;
+    }
+
+    private void setLockScreenCustomClockFace(String value) {
+        try {
+            JSONObject json = new JSONObject();
+            json.put("clock", value);
+            Settings.Secure.putStringForUser(mContext.getContentResolver(), CUSTOM_CLOCK_FACE,
+                    json.toString(), USER_CURRENT);
+        } catch (JSONException ex) {
+        }
     }
 	
 	/**
