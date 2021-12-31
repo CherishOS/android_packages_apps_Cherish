@@ -663,5 +663,9 @@
 	<!-- Screen off FOD -->
     <string name="screen_off_fod_title">Screen off FOD</string>
     <string name="screen_off_fod_summary">Keep FOD enabled when the screen is off</string>
+	
+	<!-- Udfps Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">FOD haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching FOD icon</string>
 
 </resources>
