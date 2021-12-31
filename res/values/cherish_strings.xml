@@ -487,10 +487,6 @@
     <string name="status_bar_battery_percentage_text_next">Outside the icon</string>
     <string name="left_battery_text_title">Left battery text</string>
     <string name="left_battery_text_summary">Put the battery text on left of battery icon</string>
-
-    <!-- Call strength icons in QS -->
-    <string name="show_qs_call_strength_icon_title">Show call strength icon(s)</string>
-    <string name="show_qs_call_strength_icon_summary">Show call strength icons in QuickSettings panel when available</string>
 	
 	<!-- Tiles animation style  -->
     <string name="qs_tile_animation_title">Animations</string>

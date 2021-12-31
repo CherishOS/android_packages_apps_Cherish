@@ -105,13 +105,7 @@
         android:key="show_combined_status_bar_signal_icons"
         android:title="@string/combined_status_bar_signal_icons"
         android:summary="@string/combined_status_bar_signal_icons_summary"
-        android:defaultValue="false" />
-
-        <com.cherish.settings.preferences.SecureSettingSwitchPreference
-            android:key="hide_qs_call_strength"
-            android:title="@string/show_qs_call_strength_icon_title"
-            android:summary="@string/show_qs_call_strength_icon_summary"
-            android:defaultValue="true" />			
+        android:defaultValue="false" />		
 
        <Preference
             android:key="systemui_tuner_statusbar"
