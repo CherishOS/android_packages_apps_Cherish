@@ -39,6 +39,12 @@
             android:summary="@string/qs_edit_summary"
             android:defaultValue="true" />
 			
+		<com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_lunar_calendar"
+            android:title="@string/qs_show_lunar_calendar_title"
+	    android:summary="@string/qs_show_lunar_calendar_summary"
+	    android:defaultValue="false"/>
+			
 		<PreferenceCategory
         android:key="quick_settings_brighness_category"
         android:title="@string/qs_brightness_slider_category">

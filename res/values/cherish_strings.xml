@@ -663,5 +663,9 @@
 	<!-- Udfps Haptic Feedback -->
     <string name="udfps_haptic_feedback_title">FOD haptic feedback</string>
     <string name="udfps_haptic_feedback_summary">Vibrate when touching FOD icon</string>
+	
+	<!--Vietnamese lunar calendar -->
+    <string name="qs_show_lunar_calendar_title">Lunar Calendar</string>
+    <string name="qs_show_lunar_calendar_summary">Show lunar calendar in quick settings</string>
 
 </resources>
