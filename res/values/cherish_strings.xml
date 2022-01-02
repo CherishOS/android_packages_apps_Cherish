@@ -16,6 +16,7 @@
 
     <!-- Units -->
     <string name="unit_seconds">seconds</string>
+    <string name="unit_x1000ms">x1000 ms</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
@@ -667,5 +668,12 @@
 	<!--Vietnamese lunar calendar -->
     <string name="qs_show_lunar_calendar_title">Lunar Calendar</string>
     <string name="qs_show_lunar_calendar_summary">Show lunar calendar in quick settings</string>
+	
+	<!-- Burn-in Protection -->
+    <string name="burnin_category">Burn-in protection</string>
+    <string name="burn_in_protection_title">Use Burn-in protection</string>
+    <string name="burn_in_protection_summary">Shift nav bar and status bar icons to prevent burn-in</string>
+    <string name="burn_in_protection_interval_title">Interval of shift</string>
+    <string name="burn_in_protection_interval_summary">How often to make icons shift</string>
 
 </resources>
