@@ -476,6 +476,10 @@
     <string name="udfps_icon_picker_title">Udfps icon picker</string>
     <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
 	
+	<!-- Udfps Custom Options -->
+    <string name="udfps_settings_title">Udfps Options</string>
+    <string name="udfps_settings_summary">Different menus for customizing the udfps</string>
+	
 	<!-- Udfps Haptic Feedback -->
     <string name="udfps_haptic_feedback_title">FOD haptic feedback</string>
     <string name="udfps_haptic_feedback_summary">Vibrate when touching FOD icon</string>
