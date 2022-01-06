@@ -60,8 +60,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 			
 	private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
-	private static final String SCREEN_OFF_FOD_KEY = "screen_off_fod";
-	private static final String UDFPS_HAPTIC_FEEDBACK = "udfps_haptic_feedback";
 	
 	static final int MODE_DISABLED = 0;
     static final int MODE_NIGHT = 1;
@@ -71,8 +69,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 	
 	Preference mAODPref;
 	Preference mFODPref;
-	private SystemSettingSwitchPreference mFODScreenOff;
-    private SystemSettingSwitchPreference mUdfpsHapticFeedback;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -94,8 +90,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         }
 		
 		PreferenceCategory udfps = (PreferenceCategory) prefScreen.findPreference("udfps_category");
-		mFODScreenOff = (SystemSettingSwitchPreference) findPreference(SCREEN_OFF_FOD_KEY);
-        mUdfpsHapticFeedback = (SystemSettingSwitchPreference) findPreference(UDFPS_HAPTIC_FEEDBACK);
         if (!FodUtils.hasFodSupport(getContext())) {
             prefScreen.removePreference(udfps);
         }

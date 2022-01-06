@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020-22 The CherishOS Projects
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+	android:title="@string/udfps_category">
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="udfps_haptic_feedback"
+        android:title="@string/udfps_haptic_feedback_title"
+        android:summary="@string/udfps_haptic_feedback_summary"
+        android:defaultValue="true" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="screen_off_fod"
+        android:title="@string/screen_off_fod_title"
+        android:summary="@string/screen_off_fod_summary"
+        android:defaultValue="true" />
+
+    <PreferenceCategory
+        android:key="udfps_customization"
+        android:title="UDFPS Customization">
+    
+        <Preference
+            android:key="udfps_icon_picker"
+            android:title="@string/udfps_icon_picker_title"
+            android:summary="@string/udfps_icon_picker_summary"
+            android:fragment="com.cherish.settings.fragments.UdfpsIconPicker" />
+
+        <Preference
+            android:key="udfps_recognizing_animation_preview"
+            android:title="@string/udfps_recog_animation_effect_title"
+            android:summary="@string/udfps_recog_animation_effect_summary"
+            android:fragment="com.cherish.settings.fragments.UdfpsAnimation"/>
+    
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -94,30 +94,12 @@
 	<PreferenceCategory
         android:key="udfps_category"
         android:title="@string/udfps_category">
-	
-	<com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="udfps_haptic_feedback"
-            android:title="@string/udfps_haptic_feedback_title"
-            android:summary="@string/udfps_haptic_feedback_summary"
-            android:defaultValue="true" />
-	
-	<com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="screen_off_fod"
-            android:title="@string/screen_off_fod_title"
-            android:summary="@string/screen_off_fod_summary"
-            android:defaultValue="true" />
-			
-	<Preference
-            android:key="udfps_icon_picker"
-            android:title="@string/udfps_icon_picker_title"
-            android:summary="@string/udfps_icon_picker_summary"
-            android:fragment="com.cherish.settings.fragments.UdfpsIconPicker" />
 
         <Preference
-            android:key="udfps_recognizing_animation_preview"
-            android:title="@string/udfps_recog_animation_effect_title"
-            android:summary="@string/udfps_recog_animation_effect_summary"
-            android:fragment="com.cherish.settings.fragments.UdfpsAnimation"/>
+            android:key="udfps_settings"
+            android:title="@string/udfps_settings_title"
+            android:summary="@string/udfps_settings_summary"
+            android:fragment="com.cherish.settings.fragments.UdfpsSettings" />
 			
 	</PreferenceCategory>
 
