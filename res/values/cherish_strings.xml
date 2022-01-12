@@ -491,7 +491,7 @@
     <string name="status_bar_battery_percentage_default">Hidden</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-	
+
 	<!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Battery style</string>
     <string name="status_bar_battery_style_port">Portrait</string>
@@ -699,4 +699,7 @@
     <string name="monet_engine_chroma_factor_title">Chroma factor</string>
     <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
 
+	<!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
 </resources>
