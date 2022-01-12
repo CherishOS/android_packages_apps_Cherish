@@ -22,6 +22,11 @@
         android:key="monel_category"
         android:title="Monet">
 
+    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="system_black_theme"
+        android:title="@string/system_black_theme_title"
+        android:summary="@string/system_black_theme_summary"
+        android:defaultValue="false" />
 
     <com.cherish.settings.preferences.SecureSettingSwitchPreference
         android:key="monet_engine_custom_color"
