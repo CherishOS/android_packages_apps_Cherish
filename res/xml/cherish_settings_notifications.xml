@@ -24,6 +24,24 @@
             android:summary="@string/edge_light_summary"
             android:fragment="com.cherish.settings.fragments.EdgeLightSettings" />
 	
+    <PreferenceCategory
+        android:key="heads_up"
+        android:title="@string/notification_heads_up_title">
+
+        <com.cherish.settings.preferences.GlobalSettingSwitchPreference
+            android:key="heads_up_notifications_enabled"
+            android:title="@string/notification_heads_up_title"
+            android:summary="@string/notification_heads_up_summary"
+            android:defaultValue="true" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false"
+            android:dependency="heads_up_notifications_enabled" />
+    </PreferenceCategory>
+
 	<PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
