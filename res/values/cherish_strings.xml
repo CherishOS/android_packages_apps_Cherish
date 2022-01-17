@@ -709,8 +709,11 @@
     <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
     <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
 	
-    <!-- Location privacy indicator -->
-    <string name="location_privacy_indicator_title">Show privacy indicator for location</string>
+    <!-- Privacy indicators -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location privacy indicator</string>
+    <string name="location_privacy_indicator_summary">Show separate indicator when an any app uses location</string>
 	
 	<!-- Keyguard force small clock -->
     <string name="lockscreen_small_clock_title">Force small clock</string>
