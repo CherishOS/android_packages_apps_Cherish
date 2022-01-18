@@ -49,13 +49,19 @@
             android:summary="@string/theme_customization_icon_shape_summary"
             android:fragment="com.cherish.settings.fragments.ui.IconShapes"/>
 			
-		<ListPreference
-            android:key="android.theme.customization.signal_icon"
-            android:title="@string/custom_signal_bar_title" />
+		<!-- Signal icon style -->
+    <Preference
+        android:key="android.theme.customization.signal_icon"
+        android:title="@string/theme_customization_signal_icon_title"
+        android:summary="@string/theme_customization_signal_icon_summary"
+        android:fragment="com.cherish.settings.fragments.ui.SignalIcons"/>
 
-        <ListPreference
-            android:key="android.theme.customization.wifi_icon"
-            android:title="@string/custom_wifi_bar_title" />
+    <!-- Wifi icon style -->
+    <Preference
+        android:key="android.theme.customization.wifi_icon"
+        android:title="@string/theme_customization_wifi_icon_title"
+        android:summary="@string/theme_customization_wifi_icon_summary"
+        android:fragment="com.cherish.settings.fragments.ui.WifiIcons"/>
 
     </PreferenceCategory>
 </PreferenceScreen>
