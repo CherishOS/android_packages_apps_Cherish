@@ -229,16 +229,4 @@ public class WifiIcons extends SettingsPreferenceFragment {
     public void enableOverlays(int position) {
         mThemeUtils.setOverlayEnabled(mCategory, mPkgs.get(position));
     }
-
-    public void enableOverlay(String category, String target, String pattern) {
-        if (pattern.isEmpty()) {
-            mThemeUtils.setOverlayEnabled(category, "android");
-            return;
-        }
-        for (String pkg: mThemeUtils.getOverlayPackagesForCategory(category, target)) {
-            if (pkg.contains(pattern)) {
-                mThemeUtils.setOverlayEnabled(category, pkg);
-            }
-        }
-    }
 }
