@@ -91,8 +91,8 @@
    <string name="onclite_maintainer">Jack The Ripper</string>
    <string name="device_platina">Xiaomi Mi 8 Lite</string>
    <string name="platina_maintainer">Nanairo</string>
-   <string name="device_lava">Xiaomi Note 9 /Poco M2</string>
-   <string name="lava_maintainer">Mapat</string>
+   <string name="device_lava">Xiaomi Redmi 9/Poco M2</string>
+   <string name="lava_maintainer">marat2509</string>
    <string name="device_alioth">Redmi K40/POCO F3/Mi 11X</string>
    <string name="alioth_maintainer">revolwoc/hungphan2001</string>
  
