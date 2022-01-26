@@ -165,8 +165,6 @@
 
     <!--Volume keys -->
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
-	<string name="volume_rocker_music_controls_title">Music control</string>
-    <string name="volume_rocker_music_controls_summary">Long press volume buttons to switch tracks while screen off</string>
 	
     <!-- Hardware button navigation -->
     <string name="action_value_default_action" translatable="false">default</string>
