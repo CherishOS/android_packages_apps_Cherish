@@ -38,7 +38,7 @@
     <string name="recents_title">Recents apps</string>
     <string name="recents_summary">Slim recents</string>
     <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_summary">Clock, carrier, status icons</string>
+    <string name="statusbar_summary">Clock, status icons</string>
     <string name="volume_title">Volume rockers</string>
     <string name="volume_summary">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
@@ -419,18 +419,6 @@
 	<string name="general_category">General</string>
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
-
-    <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier label</string>
-    <string name="carrier_label_settings_summary">Customize the carrier label</string>
-    <string name="custom_carrier_label_title">Custom carrier label</string>
-    <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
-    <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="show_carrier_title">Carrier label location</string>
-    <string name="show_carrier_disabled">Disabled</string>
-    <string name="show_carrier_keyguard">Lockscreen</string>
-    <string name="show_carrier_statusbar">Statusbar</string>
-    <string name="show_carrier_enabled">Both</string>
 
     <!-- Double Tap on Doze to wake -->
     <string name="double_tap_on_doze_to_wake_title">Double-tap to wake on doze</string>

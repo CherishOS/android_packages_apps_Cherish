@@ -31,11 +31,6 @@
         android:title="@string/sb_icons">
 		
 		<Preference
-        android:key="carrier_label"
-        android:fragment="com.cherish.settings.fragments.CarrierLabel"
-        android:title="@string/carrier_label_settings_title" />
-		
-		<Preference
             android:key="status_bar_clock"
             android:fragment="com.cherish.settings.fragments.ClockDateSettings"
             android:title="@string/status_bar_clock_title" />
