@@ -137,8 +137,6 @@
     <string name="volume_category">Cân bằng âm lượng</string>
     <!--Volume keys -->
     <string name="volume_rocker_wake_summary">Nhấn nút âm lượng để mở thiết bị của bạn</string>
-    <string name="volume_rocker_music_controls_title">Điều khiển nhạc</string>
-    <string name="volume_rocker_music_controls_summary">Nhấn giữ nút âm lượng để chuyển đổi bài hát trong khi màn hình tắt</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Hoạt động</string>
     <string name="select_custom_app_title">Chọn ứng dụng</string>
@@ -163,20 +161,9 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Biểu tượng 4G</string>
     <string name="show_fourg_icon_summary">Hiển thị biểu tượng 4G thay vì LTE</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">Biểu tượng VoLTE</string>
-    <string name="volte_switch_summary">Hiển thị biểu tượng VoLTE</string>
+    <!-- VoLTE icon -->
     <string name="volte_icon_title">Biểu tượng VoLTE</string>
     <string name="volte_icon_summary">Hiển thị biểu tượng VoLTE</string>
-    <string name="volte_icon_style_title">Chọn biểu tượng VoLTE</string>
-    <string name="volte_icon_asus">Biểu tượng VoLTE Asus</string>
-    <string name="volte_icon_vo">Biểu tượng chỉ Vo</string>
-    <string name="volte_icon_volte">Biểu tượng VoLTE</string>
-    <string name="volte_icon_oos">Biểu tượng VoLTE OOS</string>
-    <string name="volte_icon_hd">Biểu tượng HD</string>
-    <string name="volte_icon_hd2">Biểu tượng CAF HD</string>
-    <string name="volte_icon_miui">MIUI 11</string>
-    <string name="volte_icon_emui">EMUI</string>
     <!-- Volume swap buttons -->
     <string name="swap_volume_buttons_title">Đảo chiều Phím âm lượng</string>
     <string name="swap_volume_buttons_summary">Hoán đổi vị trí nút âm lượng khi xoay màn hình</string>
@@ -258,9 +245,7 @@
     <string name="status_bar_clock_auto_hide_summary">Ẩn và hiển thị đồng hồ trong khoảng thời gian đều đặn</string>
     <string name="status_bar_clock_auto_hide_hdur_title">Ẩn thời gian</string>
     <string name="status_bar_clock_auto_hide_sdur_title">Hiển thị thời gian</string>
-    <!-- Running Services button -->
-    <string name="qs_running_services_title">Biểu tượng các dịch vụ đang chạy</string>
-    <string name="qs_running_services_summary">Kích hoạt biểu tượng dịch vụ đang chạy ở chân trang</string>
+    <!--Services button -->
     <string name="qs_edit_title">Biểu tượng Chỉnh sửa</string>
     <string name="qs_edit_summary">Kích hoạt biểu tượng chỉnh sửa ô ở chân trang</string>
     <!-- Statusbar net monitor -->
@@ -369,17 +354,6 @@
     <string name="general_category">Cấu hình chung</string>
     <string name="notification_guts_kill_app_button_title">Nút đóng tác vụ</string>
     <string name="notification_guts_kill_app_button_summary">Hiển thị một nút tắt ứng dụng trong trình đơn của nhấn giữ thông báo</string>
-    <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Tên nhà cung cấp</string>
-    <string name="carrier_label_settings_summary">Tùy chỉnh tên của nhà mạng</string>
-    <string name="custom_carrier_label_title">Tùy chỉnh tên nhà mạng</string>
-    <string name="custom_carrier_label_explain">Vui lòng nhập một nhãn mới. Để trống để trở lại nhãn gốc.</string>
-    <string name="custom_carrier_label_notset">Tên tùy chỉnh hiện chưa được thiết lập</string>
-    <string name="show_carrier_title">Tên nhà mạng</string>
-    <string name="show_carrier_disabled">Tắt</string>
-    <string name="show_carrier_keyguard">Chỉ màn hình khoá</string>
-    <string name="show_carrier_statusbar">Chỉ thanh trạng thái</string>
-    <string name="show_carrier_enabled">Màn hình khóa &amp; thanh trạng thái</string>
     <!-- Double Tap on Doze to wake -->
     <string name="double_tap_on_doze_to_wake_title">Chạm 2 lần để mở thiết bị</string>
     <string name="double_tap_on_doze_to_wake_summary">Nhấn đúp để đánh thức khi thiết bị đang ngủ</string>
@@ -464,28 +438,20 @@
     <string name="theme_customization_category">Chủ đề</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
     <string name="theme_customization_icon_shape_title">Hình dạng biểu tượng</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
-    <string name="theme_customization_accent_color_title">Màu nhấn</string>
+    <string name="theme_customization_icon_shape_summary">Hình dạng các biểu tượng hệ thống</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
     <string name="theme_customization_font_title">Phông chữ tiêu đề / nội dung</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the statusbar icon -->
-    <string name="theme_customization_sysui_icon_title">Biểu tượng thanh trạng thái</string>
+    <string name="theme_customization_font_summary">Font chữ hệ thống</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Gói biểu tượng</string>
+    <string name="theme_customization_icon_pack_summary">Đặt gói biểu tượng</string>
+    <string name="theme_customization_signal_icon_title">Kiểu biểu tượng tín hiệu</string>
+    <string name="theme_customization_signal_icon_summary">Đặt kiểu biểu tượng tín hiệu tùy biến</string>
+    <string name="theme_customization_wifi_icon_title">Kiểu biểu tượng WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Đặt kiểu biểu tượng WiFi tùy biến</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Biểu tượng VoWifi</string>
-    <string name="vowifi_icon_enabled">Biểu tượng VoWiFi đã bật</string>
-    <string name="vowifi_icon_disabled">Biểu tượng VoWiFi đã tắt</string>
-    <string name="vowifi_icon_enabled_volte_disabled">Hiển thị VoWiFi và ẩn VoLTE</string>
-    <string name="vowifi_icon_style_title">Chọn biểu tượng VoWiFi</string>
-    <string name="vowifi_icon_default">Mặc định</string>
-    <string name="vowifi_icon_emui">EMUI</string>
-    <string name="vowifi_icon_asus">Asus</string>
-    <string name="vowifi_icon_oneplus">OOS</string>
-    <string name="vowifi_icon_moto">Motorola</string>
-    <string name="vowifi_icon_simple1">Đơn giản 1</string>
-    <string name="vowifi_icon_simple2">Đơn giản 2</string>
-    <string name="vowifi_icon_simple3">Đơn giản 3</string>
-    <string name="vowifi_icon_vivo">Vivo</string>
-    <string name="vowifi_icon_margaritov">Margaritov</string>
+    <string name="vowifi_icon_summary">Hiển thị biểu tượng VoWiFi khi sẵn sàng</string>
     <!-- Lockscreen media artwork -->
     <string name="lockscreen_media_blur_title">Mức độ mờ ảnh bìa</string>
     <string name="show_lockscreen_media_art_title">Hiển thị ảnh bìa</string>
@@ -582,4 +548,43 @@
     <string name="burn_in_protection_summary">Chuyển các biểu tượng trên thanh điều hướng và thanh trạng thái để ngăn cháy</string>
     <string name="burn_in_protection_interval_title">Khoảng thời gian thay đổi</string>
     <string name="burn_in_protection_interval_summary">Tần suất thay đổi biểu tượng</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Mức âm lượng</string>
+    <string name="volume_steps_summary">Tùy chỉnh mức âm lượng</string>
+    <string name="volume_steps_alarm_title">Mức âm lượng: Báo thức</string>
+    <string name="volume_steps_dtmf_title">Mức âm lượng: Báo DTMF</string>
+    <string name="volume_steps_music_title">Mức âm lượng: Đa phương tiện</string>
+    <string name="volume_steps_notification_title">Mức âm lượng: Thông báo</string>
+    <string name="volume_steps_ring_title">Mức âm lượng: Chuông</string>
+    <string name="volume_steps_system_title">Mức âm lượng: Hệ thống</string>
+    <string name="volume_steps_voice_call_title">Mức âm lượng: Cuộc gọi</string>
+    <string name="volume_steps_reset">Đặt lại</string>
+    <!-- Udfps animations -->
+    <string name="udfps_category">Udfps</string>
+    <string name="udfps_recog_animation">Hoạt cảnh Udfps</string>
+    <string name="udfps_recog_animation_summary">Hiện thị một hoạt cảnh khi đọc ngón tay của bạn</string>
+    <string name="udfps_recog_animation_effect_title">Hiệu ứng hoạt cảnh Udfps</string>
+    <string name="udfps_recog_animation_effect_summary">Chọn hiệu ứng hoạt cảnh</string>
+    <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">Bộ chọn biểu tượng Udfps</string>
+    <string name="udfps_icon_picker_summary">Chọn biểu tượng vân tay ưa thích</string>
+    <!-- Udfps Custom Options -->
+    <string name="udfps_settings_title">Lựa chọn Udfps</string>
+    <string name="udfps_settings_summary">Menu khác nhau để tùy biến udfps</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Biểu tượng UDFPS tùy biến</string>
+    <string name="custom_fp_icon_summary">Bật biểu tượng UDFPS tùy biến từ files</string>
+    <string name="custom_fp_select_title">Chọn biểu tượng UDFPS tùy biến</string>
+    <string name="custom_fp_select_summary">Chọn ảnh từ files của bạn hoặc thư viện</string>
+    <!-- Privacy indicators -->
+    <string name="mic_camera_privacy_indicator_title">Biểu tượng sử dụng mic và camera</string>
+    <string name="mic_camera_privacy_indicator_summary">Hiện thị biểu tượng tách biệt khi một app nào đó sử dụng mic và camera</string>
+    <string name="location_privacy_indicator_title">Biểu tượng sử dụng vị trí</string>
+    <string name="location_privacy_indicator_summary">Hiển thị chấm riêng biệt khi mà một ứng dụng bất kì nào đó dùng quyền vị trí</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Bắt buộc dùng đồng hồ nhỏ</string>
+    <string name="lockscreen_small_clock_summary">Không chuyển sang đồng hồ lớn khi không có thông báo</string>
+    <!-- Volume panel on left -->
+    <string name="volume_panel_on_left_title">Hiện bảng điều khiển âm lượng bên trái</string>
+    <string name="volume_panel_on_left_summary">Hiển thị bảng điều khiển âm lượng ở phía bên trái màn hình</string>
 </resources>
