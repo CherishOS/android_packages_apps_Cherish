@@ -35,11 +35,6 @@
             android:fragment="com.cherish.settings.fragments.ClockDateSettings"
             android:title="@string/status_bar_clock_title" />
 			
-		 <Preference
-            android:key="traffic"
-            android:fragment="com.cherish.settings.fragments.Traffic"
-            android:title="@string/traffic_title" />
-			
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
             android:title="@string/data_disabled_icon_title"
