@@ -154,6 +154,14 @@
                 android:data="https://t.me/marat2509" />
         </Preference>
 
+<Preference
+            android:title="@string/selene_maintainer"
+            android:summary="@string/device_selene"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/yazidkucrit" />
+        </Preference>
 
   <Preference
             android:title="@string/ginkgo_maintainer"
