@@ -23,6 +23,13 @@
             android:title="@string/charging_animation_title"
             android:summary="@string/charging_animation_summary"
             android:defaultValue="false" />
+			
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="use_photos_spoof"
+        android:title="@string/use_photos_spoof_title"
+        android:summary="@string/use_photos_spoof_summary"
+        android:defaultValue="true"
+        android:persistent="false" />
 	
 		<!-- Gaming mode -->
     <Preference

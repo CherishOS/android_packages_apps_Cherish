@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.content.Context;
 import android.content.ContentResolver;
@@ -28,7 +29,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashSet;
-
+import android.widget.Toast;
 import android.content.pm.PackageManager.NameNotFoundException;
 import com.android.settings.SettingsPreferenceFragment;
 import com.cherish.settings.preferences.SystemSettingMasterSwitchPreference;
@@ -44,6 +45,11 @@ import java.util.List;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
+			
+	private static final String KEY_SPOOF = "use_photos_spoof";
+    private static final String SYS_SPOOF = "persist.sys.photo";
+
+    private SwitchPreference mSpoof;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -51,6 +57,13 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
 
         addPreferencesFromResource(R.xml.cherish_settings_misc);
+		
+		final PreferenceScreen prefSet = getPreferenceScreen();
+
+        final String useSpoof = SystemProperties.get(SYS_SPOOF, "1");
+        mSpoof = (SwitchPreference) findPreference(KEY_SPOOF);
+        mSpoof.setChecked("1".equals(useSpoof));
+        mSpoof.setOnPreferenceChangeListener(this);
 		
 		Resources res = null;
         Context ctx = getContext();
@@ -66,6 +79,16 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+		if (preference == mSpoof) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.USE_PHOTOS_SPOOF, value ? 1 : 0);
+            SystemProperties.set(SYS_SPOOF, value ? "1" : "0");
+            Toast.makeText(getActivity(),
+                    (R.string.photos_spoof_toast),
+                    Toast.LENGTH_LONG).show();
+            return true;
+        }
         return false;
     }
 	
