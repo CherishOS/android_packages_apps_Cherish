@@ -59,10 +59,12 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
     private static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
     private static final String NETWORK_TRAFFIC_LOCATION = "network_traffic_location";
     private static final String NETWORK_TRAFFIC_REFRESH_INTERVAL = "network_traffic_refresh_interval";
+    private static final String NETWORK_TRAFFIC_FONT_SIZE  = "network_traffic_font_size";
 
     private CustomSeekBarPreference mThreshold;
     private SystemSettingSeekBarPreference mInterval;
     private ListPreference mNetTrafficLocation;
+    private CustomSeekBarPreference mNetTrafficSize;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -90,6 +92,12 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
         mInterval = (SystemSettingSeekBarPreference) findPreference(NETWORK_TRAFFIC_REFRESH_INTERVAL);
         mInterval.setValue(val);
         mInterval.setOnPreferenceChangeListener(this);
+
+        int fontSize = Settings.System.getInt(resolver,
+                Settings.System.NETWORK_TRAFFIC_FONT_SIZE, 18);
+        mNetTrafficSize = (CustomSeekBarPreference) findPreference(NETWORK_TRAFFIC_FONT_SIZE);
+        mNetTrafficSize.setValue(fontSize / 1);
+        mNetTrafficSize.setOnPreferenceChangeListener(this);
 
         int netMonitorEnabled = Settings.System.getIntForUser(resolver,
                 Settings.System.NETWORK_TRAFFIC_STATE, 0, UserHandle.USER_CURRENT);
@@ -145,6 +153,11 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
                     Settings.System.NETWORK_TRAFFIC_REFRESH_INTERVAL, val,
                     UserHandle.USER_CURRENT);
             return true;
+        }  else if (preference == mNetTrafficSize) {
+            int fontSize = ((Integer)objValue).intValue();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_FONT_SIZE, fontSize);
+            return true;
         }
         return false;
     }
@@ -154,11 +167,15 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
             case 0:
                 mThreshold.setEnabled(false);
                 mInterval.setEnabled(false);
+                mNetTrafficSize.setEnabled(false);
                 break;
             case 1:
+                mNetTrafficSize.setEnabled(true);
+                break;
             case 2:
                 mThreshold.setEnabled(true);
                 mInterval.setEnabled(true);
+                mNetTrafficSize.setEnabled(false);
                 break;
             default:
                 break;

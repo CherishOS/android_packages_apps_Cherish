@@ -512,5 +512,6 @@
     <string name="network_traffic_dynamic">Dynamic</string>
     <string name="network_traffic_download">Download</string>
     <string name="network_traffic_upload">Upload</string>
+    <string name="network_traffic_font_size">Single net font size</string>
 
 </resources>
