@@ -51,4 +51,12 @@
         settings:units="sec"
         android:defaultValue="1" />
 
+    <com.cherish.settings.preferences.CustomSeekBarPreference
+        android:key="network_traffic_font_size"
+        android:title="@string/network_traffic_font_size"
+        android:max="20"
+        android:min="12"
+        settings:defaultValue="18"
+        settings:units="dp" />
+
 </PreferenceScreen>
