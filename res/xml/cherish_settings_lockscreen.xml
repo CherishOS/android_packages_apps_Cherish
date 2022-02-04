@@ -41,6 +41,12 @@
         android:fragment="com.cherish.settings.fragments.AODSchedule" />
 		
 	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="enable_ripple_effect"
+            android:title="@string/enable_fingerprint_ripple_effect_title"
+            android:summary="@string/enable_fingerprint_ripple_effect_summary"
+            android:defaultValue="false" />
+		
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_small_clock"
             android:title="@string/lockscreen_small_clock_title"
             android:summary="@string/lockscreen_small_clock_summary"
