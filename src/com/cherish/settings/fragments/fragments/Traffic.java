@@ -170,6 +170,8 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
                 mNetTrafficSize.setEnabled(false);
                 break;
             case 1:
+                mThreshold.setEnabled(true);
+                mInterval.setEnabled(true);
                 mNetTrafficSize.setEnabled(true);
                 break;
             case 2:
