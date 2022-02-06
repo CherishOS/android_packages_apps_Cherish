@@ -413,6 +413,25 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/Oogeid" />
         </Preference>
+
+<Preference
+            android:title="@string/kebab_maintainer"
+            android:summary="@string/device_kebab"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Viper_1057" />
+        </Preference>
+
+<Preference
+            android:title="@string/lemonades_maintainer"
+            android:summary="@string/device_lemonades"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Viper_1057" />
+        </Preference>
+
 </PreferenceCategory>
 
 <PreferenceCategory
