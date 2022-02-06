@@ -248,24 +248,6 @@
     <!--Services button -->
     <string name="qs_edit_title">Biểu tượng Chỉnh sửa</string>
     <string name="qs_edit_summary">Kích hoạt biểu tượng chỉnh sửa ô ở chân trang</string>
-    <!-- Statusbar net monitor -->
-    <string name="traffic_title">Hiển thị tốc độ mạng</string>
-    <string name="network_traffic">Tốc độ mạng</string>
-    <string name="network_traffic_state_title">Tốc độ mạng</string>
-    <string name="network_traffic_location">Khu vực hiển thị tốc độ mạng</string>
-    <string name="traffic_disabled">Tắt</string>
-    <string name="traffic_statusbar">Thanh trạng thái</string>
-    <string name="traffic_expanded_statusbar">Thanh tiêu đề cài đặt nhanh</string>
-    <string name="network_traffic_autohide_threshold_title">Tự động ẩn mạng (KB/s)</string>
-    <string name="network_traffic_arrow">Hiển thị mũi tên</string>
-    <string name="network_traffic_arrow_summary">Hiển thị mũi tên báo tốc độ mạng</string>
-    <string name="network_traffic_type">Chọn kiểu hoạt động mạng</string>
-    <string name="show_network_traffic_combined">Kết hợp (Tải lên + Tải xuống)</string>
-    <string name="show_network_traffic_dynamic">Động</string>
-    <string name="show_network_traffic_up">Tải lên</string>
-    <string name="show_network_traffic_down">Tải xuống</string>
-    <string name="show_network_traffic_all">Cả hai</string>
-    <string name="nettraf_font_size">Cỡ chữ đơn</string>
     <!-- Volume rocker cursor control -->
     <string name="cursor_section_header">Con trỏ</string>
     <string name="volume_key_cursor_control_title">Điều khiển con trỏ bằng phím âm lượng</string>
@@ -587,4 +569,28 @@
     <!-- Volume panel on left -->
     <string name="volume_panel_on_left_title">Hiện bảng điều khiển âm lượng bên trái</string>
     <string name="volume_panel_on_left_summary">Hiển thị bảng điều khiển âm lượng ở phía bên trái màn hình</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
+    <string name="system_black_theme_summary">Buộc màu nền đen</string>
+    <!-- Unlimited g00gle ph0t0s st0rage -->
+    <string name="use_photos_spoof_title">Lưu trữ hình ảnh không giới hạn</string>
+    <string name="use_photos_spoof_summary">Thiết bị của bạn sẽ được xác định là Pixel XL bởi ứng dụng Ảnh để có được bộ nhớ ảnh không giới hạn ở chất lượng gốc</string>
+    <string name="photos_spoof_toast">Khởi động lại ứng dụng ảnh để ứng dụng có hiệu lực</string>
+    <!-- Network Traffic -->
+    <string name="traffic_title">Tốc độ mạng</string>
+    <string name="traffic_summary">Tùy chỉnh chỉ số lưu lượng mạng</string>
+    <string name="network_traffic_autohide_threshold_title">Tự động ẩn</string>
+    <string name="network_traffic_location_title">Vị trí</string>
+    <string name="network_traffic_disabled">Đã tắt</string>
+    <string name="network_traffic_statusbar">Thanh trạng thái</string>
+    <string name="network_traffic_qs_header">Thanh trạng thái mở rộng</string>
+    <string name="network_traffic_refresh_interval_title">Làm mới</string>
+    <string name="network_traffic_mode_title">Chế độ Hiển thị</string>
+    <string name="network_traffic_dynamic">Động</string>
+    <string name="network_traffic_download">Tải xuống</string>
+    <string name="network_traffic_upload">Tải lên</string>
+    <string name="network_traffic_font_size">Cỡ chữ đơn</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Hiệu ứng gợn sóng</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>
 </resources>
