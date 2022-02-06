@@ -135,6 +135,10 @@
    <string name="hotdogb_maintainer">Addy</string>
    <string name="device_guacamole">Oneplus 7 Pro</string>
    <string name="guacamole_maintainer">Oogeid</string>
+   <string name="device_kebab">Oneplus 8T</string>
+   <string name="kebab_maintainer">Viper_1057 or Amsal1</string>
+   <string name="device_lemonades">Oneplus 9R</string>
+   <string name="lemonades_maintainer">Viper_1057 or Amsal1</string>
 
    <!-- Lenovo Device maintainers -->
    <string name="device_jd2019">Lenovo Z5s</string>
