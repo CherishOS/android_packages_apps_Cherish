@@ -46,10 +46,13 @@ import java.util.List;
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 			
-	private static final String KEY_SPOOF = "use_photos_spoof";
-    private static final String SYS_SPOOF = "persist.sys.photo";
+	private static final String KEY_PHOTOS_SPOOF = "use_photos_spoof";
+    private static final String KEY_STREAM_SPOOF = "use_stream_spoof";
+    private static final String SYS_PHOTOS_SPOOF = "persist.sys.photo";
+    private static final String SYS_STREAM_SPOOF = "persist.sys.stream";
 
-    private SwitchPreference mSpoof;
+    private SwitchPreference mPhotosSpoof;
+    private SwitchPreference mStreamSpoof;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -60,10 +63,15 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 		
 		final PreferenceScreen prefSet = getPreferenceScreen();
 
-        final String useSpoof = SystemProperties.get(SYS_SPOOF, "1");
-        mSpoof = (SwitchPreference) findPreference(KEY_SPOOF);
-        mSpoof.setChecked("1".equals(useSpoof));
-        mSpoof.setOnPreferenceChangeListener(this);
+        final String usePhotosSpoof = SystemProperties.get(SYS_PHOTOS_SPOOF, "1");
+        mPhotosSpoof = (SwitchPreference) findPreference(KEY_PHOTOS_SPOOF);
+        mPhotosSpoof.setChecked("1".equals(usePhotosSpoof));
+        mPhotosSpoof.setOnPreferenceChangeListener(this);
+
+        final String useStreamSpoof = SystemProperties.get(SYS_STREAM_SPOOF, "1");
+        mStreamSpoof = (SwitchPreference) findPreference(KEY_STREAM_SPOOF);
+        mStreamSpoof.setChecked("1".equals(useStreamSpoof));
+        mStreamSpoof.setOnPreferenceChangeListener(this);
 		
 		Resources res = null;
         Context ctx = getContext();
@@ -79,13 +87,22 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-		if (preference == mSpoof) {
+		if (preference == mPhotosSpoof) {
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.USE_PHOTOS_SPOOF, value ? 1 : 0);
-            SystemProperties.set(SYS_SPOOF, value ? "1" : "0");
+            SystemProperties.set(SYS_PHOTOS_SPOOF, value ? "1" : "0");
             Toast.makeText(getActivity(),
                     (R.string.photos_spoof_toast),
+                    Toast.LENGTH_LONG).show();
+            return true;
+		} else if (preference == mStreamSpoof) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.USE_STREAM_SPOOF, value ? 1 : 0);
+            SystemProperties.set(SYS_STREAM_SPOOF, value ? "1" : "0");
+            Toast.makeText(getActivity(),
+                    (R.string.stream_spoof_toast),
                     Toast.LENGTH_LONG).show();
             return true;
         }

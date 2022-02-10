@@ -36,14 +36,20 @@
         android:title="@string/display_cutout_force_fullscreen_title"
         android:summary="@string/display_cutout_force_fullscreen_summary"
         android:fragment="com.cherish.settings.fragments.DisplayCutoutForceFullscreenSettings"
-        settings:controller="com.cherish.settings.fragments.DisplayCutoutForceFullscreenPreferenceController"
-        app:allowDividerAbove="true" />
+        settings:controller="com.cherish.settings.fragments.DisplayCutoutForceFullscreenPreferenceController" />
 
 			
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="use_photos_spoof"
         android:title="@string/use_photos_spoof_title"
         android:summary="@string/use_photos_spoof_summary"
+        android:defaultValue="true"
+        android:persistent="false" />
+		
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="use_stream_spoof"
+        android:title="@string/use_stream_spoof_title"
+        android:summary="@string/use_stream_spoof_summary"
         android:defaultValue="true"
         android:persistent="false" />
 			
