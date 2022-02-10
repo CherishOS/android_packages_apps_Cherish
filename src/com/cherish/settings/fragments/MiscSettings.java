@@ -45,12 +45,14 @@ import java.util.List;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
-			
+	
+    private static final String KEY_FORCE_FULL_SCREEN = "display_cutout_force_fullscreen_settings";	
 	private static final String KEY_PHOTOS_SPOOF = "use_photos_spoof";
     private static final String KEY_STREAM_SPOOF = "use_stream_spoof";
     private static final String SYS_PHOTOS_SPOOF = "persist.sys.photo";
     private static final String SYS_STREAM_SPOOF = "persist.sys.stream";
 
+    private Preference mShowCutoutForce;
     private SwitchPreference mPhotosSpoof;
     private SwitchPreference mStreamSpoof;
 
@@ -62,6 +64,14 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.cherish_settings_misc);
 		
 		final PreferenceScreen prefSet = getPreferenceScreen();
+		Context mContext = getActivity().getApplicationContext();
+
+        final String displayCutout =
+                mContext.getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
+        mShowCutoutForce = (Preference) findPreference(KEY_FORCE_FULL_SCREEN);
+        if (TextUtils.isEmpty(displayCutout)) {
+            prefSet.removePreference(mShowCutoutForce);
+        }
 
         final String usePhotosSpoof = SystemProperties.get(SYS_PHOTOS_SPOOF, "1");
         mPhotosSpoof = (SwitchPreference) findPreference(KEY_PHOTOS_SPOOF);
@@ -136,6 +146,12 @@ public class MiscSettings extends SettingsPreferenceFragment implements
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
+					final String displayCutout =
+                        context.getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
+
+                    if (TextUtils.isEmpty(displayCutout)) {
+                        keys.add(KEY_FORCE_FULL_SCREEN);
+                    }
                     return keys;
                 }
     };

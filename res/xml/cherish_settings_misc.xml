@@ -34,10 +34,11 @@
     <Preference
         android:key="display_cutout_force_fullscreen_settings"
         android:title="@string/display_cutout_force_fullscreen_title"
-        android:summary="@string/display_cutout_force_fullscreen_summary"
-        android:fragment="com.cherish.settings.fragments.DisplayCutoutForceFullscreenSettings"
-        settings:controller="com.cherish.settings.fragments.DisplayCutoutForceFullscreenPreferenceController" />
-
+        android:summary="@string/display_cutout_force_fullscreen_summary">
+        <intent android:action="android.intent.action.MAIN"
+             android:targetPackage="com.android.settings"
+             android:targetClass="com.cherish.settings.fragments.DisplayCutoutForceFullscreenActivity"/>
+    </Preference>
 			
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="use_photos_spoof"
