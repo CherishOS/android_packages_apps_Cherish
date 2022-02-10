@@ -698,4 +698,9 @@
     <string name="use_photos_spoof_title">Unlimited Photos storage</string>
     <string name="use_photos_spoof_summary">Your device will be identified as a Pixel XL by the Photos app to get unlimited photo storage at original quality</string>
     <string name="photos_spoof_toast">Restart the Photos app for it to take effect</string>
+
+	<!-- Higher quality streams for known streaming apps -->
+    <string name="use_stream_spoof_title">Higher quality streams</string>
+    <string name="use_stream_spoof_summary">Enable Higher quality streams on Amazon Prime, Disney+, Hotstar, and Netflix. (Mileage will vary per-device)</string>
+    <string name="stream_spoof_toast">Restart the streaming app for it to take effect</string>
 </resources>
