@@ -17,6 +17,7 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
 import android.provider.Settings;
+import android.util.Log;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import java.util.Locale;
@@ -37,11 +38,15 @@ import java.util.ArrayList;
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 			
+	private static final boolean DEBUG = false;
+			
 	private static final String QS_FOOTER_TEXT_STRING = "qs_footer_text_string";
+	private static final String SYSTEM_INFO = "qs_system_info";
 
     private SystemSettingEditTextPreference mFooterString;
 			
 	private ListPreference mQuickPulldown;
+	private ListPreference mSysInfo;
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -101,6 +106,31 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CHERISH_SETTINGS;
+    }
+	
+	private void configureSystemInfo() {
+        Resources res = getResources();
+        String[] entriesArray = res.getStringArray(R.array.qs_system_info_entries);
+        String[] valuesArray = res.getStringArray(R.array.qs_system_info_values);
+        String[] checksArray = res.getStringArray(R.array.qs_system_info_checks);
+        List<String> entries = new ArrayList<>();
+        List<String> values = new ArrayList<>();
+
+        entries.add(entriesArray[0]);
+        values.add(valuesArray[0]);
+        int count = valuesArray.length;
+        for (int i = 1 ; i < count ; i++) {
+            int resID = res.getIdentifier(checksArray[i-1], "string", "android");
+            if (DEBUG) Log.d("systemInfo", "resID= " + resID);
+            if (resID > 0 && !res.getString(resID).isEmpty()) {
+                  if (DEBUG) Log.d("systemInfo", "sysPath= " + res.getString(resID));
+                  entries.add(entriesArray[i]);
+                  values.add(valuesArray[i]);
+            }
+        }
+        mSysInfo.setEntries(entries.toArray(new String[entries.size()]));
+        mSysInfo.setEntryValues(values.toArray(new String[values.size()]));
+        if (entries.size() < 2) mSysInfo.getParent().removePreference(mSysInfo);
     }
 	
 	/**

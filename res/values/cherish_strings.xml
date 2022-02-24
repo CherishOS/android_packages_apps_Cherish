@@ -827,4 +827,14 @@
     <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
     <string name="disable_usercard_title">Settings UserCard</string>
     <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
+	
+	<string name="qs_header_category_title">QS Header</string>
+	
+	<!-- QS SystemInfo -->
+    <string name="qs_system_info_title">System Info</string>
+    <string name="qs_system_info_off">Off</string>
+    <string name="qs_system_info_cpu_temp">CPU temperature</string>
+    <string name="qs_system_info_battery_temp">Battery temperature</string>
+    <string name="qs_system_info_gpu_clock">GPU frequency</string>
+    <string name="qs_system_info_gpu_busy">GPU utilization</string>
 </resources>
