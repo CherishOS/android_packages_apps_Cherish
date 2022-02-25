@@ -621,4 +621,9 @@
     <string name="settings_dashboard_style_aosp">Aosp</string>
     <string name="settings_layout_category_title">Settings UI interface</string>
 
+	<!-- Media art -->
+    <string name="lockscreen_media_category">Lock screen media</string>
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+
 </resources>
