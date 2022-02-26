@@ -407,9 +407,9 @@
     <string name="qs_tile_animation_interpolator_overshootInterpolator">过冲</string>
     <string name="qs_tile_animation_interpolator_anticipateInterpolator">预留</string>
     <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">预留和越界</string>
-    <string name="qs_set_animation_style">%1$d 秒</string>
-    <string name="qs_set_animation_duration">%1$d 秒</string>
-    <string name="qs_set_animation_interpolator">%1$d 秒</string>
+    <string name="qs_set_animation_style">%1$s 秒</string>
+    <string name="qs_set_animation_duration">%1$s 秒</string>
+    <string name="qs_set_animation_interpolator">%1$s 秒</string>
     <!-- Navigation bar -->
     <string name="navigation_bar_title">屏幕导航栏</string>
     <string name="navigation_bar_summary">启用屏幕导航栏</string>
