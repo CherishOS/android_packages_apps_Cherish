@@ -68,5 +68,10 @@
             android:key="powermenu_logout"
             android:title="@string/powermenu_logout"
             android:defaultValue="false" />
+			
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_devicecontrols"
+            android:title="@string/powermenu_device_controls"
+            android:defaultValue="false" />
 
 </PreferenceScreen>

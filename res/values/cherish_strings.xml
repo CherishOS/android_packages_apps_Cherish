@@ -152,6 +152,7 @@
     <string name="powermenu_users">Users</string>
     <string name="powermenu_logout">Logout</string>
     <string name="powermenu_emergency">Emergency</string>
+    <string name="powermenu_device_controls">Device controls</string>
 	
 	<!-- Double Tap Lockscreen to Sleep -->
     <string name="lockscreen_gesture_title">Gestures</string>
