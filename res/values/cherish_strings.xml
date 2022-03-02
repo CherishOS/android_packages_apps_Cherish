@@ -668,10 +668,6 @@
     <string name="lockscreen_small_clock_title">Force small clock</string>
     <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
 	
-	<!-- Volume panel on left -->
-	<string name="volume_panel_on_left_title">Show volume panel on left</string>
-    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
-	
 	<!-- Black theme -->
     <string name="system_black_theme_title">Use black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
