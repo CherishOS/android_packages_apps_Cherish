@@ -97,7 +97,9 @@
    <string name="selene_maintainer">KeongBalap</string>
    <string name="device_alioth">Redmi K40/POCO F3/Mi 11X</string>
    <string name="alioth_maintainer">revolwoc/hungphan2001</string>
- 
+   <string name="device_santoni">Redmi 4X</string>
+   <string name="santoni_maintainer">EvilAnsh</string>
+
     <!-- Realme Device maintainers -->
 	<string name="device_RMX1971">Realme 5 Pro</string>
    <string name="RMX1971_maintainer">Samba Siva Rao K</string>
