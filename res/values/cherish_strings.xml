@@ -110,4 +110,7 @@
 
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
+
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
 </resources>
