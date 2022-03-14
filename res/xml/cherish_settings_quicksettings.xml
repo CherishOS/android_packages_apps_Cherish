@@ -26,8 +26,12 @@
             android:title="@string/qs_show_battery_estimate_title"
             android:summary="@string/qs_show_battery_estimate_summary"
             android:defaultValue="true"/>
-
-    </PreferenceCategory>
+		
+		<com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="enable_location_privacy_indicator"
+            android:title="@string/location_privacy_title"
+            android:summary="@string/location_privacy_summary"
+            android:defaultValue="true" />
 
         <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="quick_settings_vibrate"
