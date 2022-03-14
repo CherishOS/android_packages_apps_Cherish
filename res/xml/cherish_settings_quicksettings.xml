@@ -29,9 +29,8 @@
 		
 		<com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="enable_location_privacy_indicator"
-            android:title="@string/location_privacy_title"
-            android:summary="@string/location_privacy_summary"
-            android:defaultValue="true" />
+            android:title="@string/location_privacy_indicator_title"
+            android:defaultValue="false" />
 
         <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="quick_settings_vibrate"
