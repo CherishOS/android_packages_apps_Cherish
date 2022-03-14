@@ -73,6 +73,7 @@
     <string name="custom_seekbar_default_value">Default</string>
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+	<string name="add_package_to_title">Add application</string>
 
 	<!-- QS settings -->
     <string name="qs_title">Quick settings</string>
