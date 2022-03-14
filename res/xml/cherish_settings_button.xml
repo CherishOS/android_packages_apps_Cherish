@@ -33,6 +33,12 @@
         android:summary="@string/volume_rocker_wake_summary"
         android:title="@string/volume_rocker_wake_title"
         android:defaultValue="false" />
+		
+	<Preference
+            android:key="vol_steps"
+            android:title="@string/volume_steps_fragment_title"
+            android:summary="@string/volume_steps_summary"
+            android:fragment="com.cherish.settings.fragments.VolumeStepsFragment" />
     </PreferenceCategory>
 	
 	<ListPreference
