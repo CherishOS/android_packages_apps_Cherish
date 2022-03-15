@@ -480,4 +480,9 @@
 	<!-- Notification headers -->
     <string name="notification_headers_title">Notification Headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade</string>
+
+	<!-- Gaming mode -->
+    <string name="gaming_mode_title">Game space</string>
+    <string name="gaming_mode_summary">Extra features for immersive gaming experience</string>
+
 </resources>
