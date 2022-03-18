@@ -12,57 +12,57 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="cherish_settings_title">Setelan Cherish</string>
+    <string name="cherish_settings_title">Cherish Settings</string>
     <!-- Units -->
     <string name="unit_seconds">seconds</string>
     <!-- Categories -->
-    <string name="button_title">Tombol</string>
-    <string name="button_summary">Tombol fisik, Bilah navigasi</string>
-    <string name="gestures_title">Gestur</string>
-    <string name="gestures_summary">Jalan pintas kamera, usap untuk menangkap layar</string>
-    <string name="lockscreen_title">Layar kunci</string>
-    <string name="lockscreen_summary">Visualizer musik, animasi pengisian daya, gaya jam</string>
-    <string name="misc_title">Lain-lain</string>
-    <string name="misc_summary">Mode permainan, kontrol volume</string>
-    <string name="animations_title">Animasi</string>
-    <string name="animations_summary">Animasi Sistem</string>
-    <string name="powermenu_title">Menu Daya</string>
-    <string name="powermenu_summary">Mulai ulang lanjutan, opasitas menu daya</string>
-    <string name="theme_title">Tema</string>
-    <string name="theme_summary">Tema sistem, lengkungan, ganti tema</string>
-    <string name="quicksettings_title">Setelan Cepat</string>
-    <string name="quicksettings_summary">Tata letak ubin, blur</string>
-    <string name="recents_title">Aplikasi baru-baru ini</string>
-    <string name="recents_summary">Slim baru-baru ini</string>
-    <string name="statusbar_title">Bilah status</string>
-    <string name="statusbar_summary">Jam, operator, ikon status</string>
-    <string name="volume_title">Volume Rocker</string>
-    <string name="volume_summary">Volume Rocker</string>
-    <string name="notifications_title">Notifikasi</string>
-    <string name="notifications_summary">Lampu baterai, header notifikasi</string>
-    <string name="about_summary">Pelajari lebih lanjut tentang CherishOS</string>
-    <string name="device_part_title">Fitur Perangkat</string>
-    <string name="qs_category">Kategori QS</string>
-    <string name="navbar_title">Bar Navigasi</string>
-    <string name="volume_keys_title">Tombol Volume</string>
+    <string name="button_title">Buttons</string>
+    <string name="button_summary">Hardware keys, Navigation bar</string>
+    <string name="gestures_title">Gestures</string>
+    <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
+    <string name="lockscreen_title">Lock screen</string>
+    <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
+    <string name="misc_title">Miscellaneous</string>
+    <string name="misc_summary">Gaming mode, volume controls</string>
+    <string name="animations_title">Animations</string>
+    <string name="animations_summary">System animations</string>
+    <string name="powermenu_title">Power menu</string>
+    <string name="powermenu_summary">Advanced restart, power menu opacity</string>
+    <string name="theme_title">Themes</string>
+    <string name="theme_summary">System theme, rounded, switch theme</string>
+    <string name="quicksettings_title">Quick Settings</string>
+    <string name="quicksettings_summary">Tile layout, blur</string>
+    <string name="recents_title">Recents apps</string>
+    <string name="recents_summary">Slim recents</string>
+    <string name="statusbar_title">Status bar</string>
+    <string name="statusbar_summary">Clock, carrier, status icons</string>
+    <string name="volume_title">Volume rockers</string>
+    <string name="volume_summary">Volume rockers</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_summary">Battery light, notifications header</string>
+    <string name="about_summary">Learn more about CherishOS</string>
+    <string name="device_part_title">Device features</string>
+    <string name="qs_category">QS category</string>
+    <string name="navbar_title">Navigation bar</string>
+    <string name="volume_keys_title">Volume keys</string>
     <!-- General strings -->
-    <string name="ok">Oke</string>
-    <string name="reset">Setel ulang</string>
-    <string name="cancel">Batal</string>
-    <string name="save">Simpan</string>
-    <string name="default_string">Bawaan</string>
-    <string name="disabled">Dinonaktifkan</string>
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="default_string">Default</string>
+    <string name="disabled">Disabled</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Pemilih Warna</string>
-    <string name="press_color_to_apply">Tekan pada warna di bawah untuk menerapkan</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Setel</string>
-    <string name="color_default">Bawaan</string>
-    <string name="led_color_green">Hijau</string>
-    <string name="led_color_red">Merah</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+    <string name="led_color_green">Green</string>
+    <string name="led_color_red">Red</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Default</string>
@@ -70,7 +70,7 @@
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     <string name="add_package_to_title">Add application</string>
     <!-- QS settings -->
-    <string name="qs_title">Setelan Cepat</string>
+    <string name="qs_title">Quick settings</string>
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
@@ -85,30 +85,30 @@
     <string name="sb_icons">Statusbar Icons</string>
     <string name="statusbar_items_category">Statusbar items</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Ikon bilah status</string>
+    <string name="status_bar_icons_title">Status bar icons</string>
     <!-- Lock screen visualizer -->
-    <string name="visualizer_title">Tampilkan visualisasi musik</string>
+    <string name="visualizer_title">Display music visualizer</string>
     <!-- Power menu and dialogs opacity -->
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
-    <string name="power_menu_animation">Menu Daya</string>
+    <string name="power_menu_animation">Power menu</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
-    <string name="lockscreen_category">Layar Kunci</string>
+    <string name="lockscreen_category">Lockscreen</string>
     <!-- Themes -->
-    <string name="theme_type_title">Tema Sistem</string>
-    <string name="theme_type_summary">Pilih Tema</string>
+    <string name="theme_type_title">System theme</string>
+    <string name="theme_type_summary">Select theme</string>
     <!--Accenter -->
-    <string name="themes_hub_title">Tema</string>
-    <string name="themes_hub_summary">Aksen-Gradien-Tema</string>
-    <string name="rgb_accent_picker_title_dark">Pemilih Aksen</string>
-    <string name="rgb_accent_picker_summary">Pilih sendiri warna aksen Anda</string>
-    <string name="theme_option_reset_title">Setel ulang Pilihan Tema</string>
-    <string name="theme_option_reset_message">Anda yakin ingin menyetel ulang tema-aksen ke default?</string>
+    <string name="themes_hub_title">Themes</string>
+    <string name="themes_hub_summary">Accents-Gradients-Themes</string>
+    <string name="rgb_accent_picker_title_dark">Accent Picker</string>
+    <string name="rgb_accent_picker_summary">Choose the accent color yourself</string>
+    <string name="theme_option_reset_title">Reset Theme Options</string>
+    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
     <!--ThemePicker-->
-    <string name="theme_select_title">Gaya dan Wallpaper</string>
-    <string name="theme_select_summary">Jelajahi dan pilih tema yang diinstal</string>
-    <string name="notification_light_settings">Lampu notifikasi</string>
+    <string name="theme_select_title">Styles and Wallpapers</string>
+    <string name="theme_select_summary">Browse and select installed themes</string>
+    <string name="notification_light_settings">Notifications light</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="search">Search</string>
@@ -261,7 +261,7 @@
     <string name="vowifi_icon_vivo">Vivo Icon</string>
     <string name="vowifi_icon_margaritov">Margaritov Icon</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Lampu pengisian baterai</string>
+    <string name="battery_light_settings">Battery charging light</string>
     <string name="battery_light_enable">Enable</string>
     <string name="battery_full_light_enabled">Battery light when full charged</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
