@@ -14,7 +14,7 @@
     <!-- App Title -->
     <string name="cherish_settings_title">Cherish Ayarları</string>
     <!-- Units -->
-    <string name="unit_seconds">seconds</string>
+    <string name="unit_seconds">saniye</string>
     <!-- Categories -->
     <string name="button_title">Tuşlar</string>
     <string name="button_summary">Donanım tuşları, Gezinme çubuğu</string>
@@ -55,9 +55,9 @@
     <!-- Color Picker -->
     <string name="dialog_color_picker">Renk seçici</string>
     <string name="press_color_to_apply">Uygulamak için aşağıdaki renge basın</string>
-    <string name="arrow_right">→</string>
-    <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="arrow_right">Sağ ok</string>
+    <string name="arrow_down">Aşağı ok</string>
+    <string name="hex">Altıgen:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Ayarla</string>
     <string name="color_default">Varsayılan</string>
@@ -524,4 +524,13 @@
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
     <string name="clock_date_position">Date position</string>
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Settings layout</string>
+    <string name="settings_dashboard_style_gms">Default</string>
+    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_layout_category_title">Settings UI interface</string>
+    <!-- Lockscreen media artwork -->
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
+    <string name="show_lockscreen_media_art_title">Show media art</string>
+    <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
 </resources>
