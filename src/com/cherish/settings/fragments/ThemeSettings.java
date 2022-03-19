@@ -68,12 +68,15 @@ import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class ThemeSettings extends DashboardFragment implements OnPreferenceChangeListener {
+	
+	private static final String SETTINGS_DASHBOARD_GMS = "settings_dashboard_gms";
 			
 	public static final String TAG = "ThemeSettings";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 	static final int DEFAULT = 0xff1a73e8;
 	private Context mContext;
-
+	private SystemSettingListPreference mSettingsDashBoardGms;
+	
     private IOverlayManager mOverlayService;
     private UiModeManager mUiModeManager;
 	
@@ -107,6 +110,9 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         ContentResolver resolver = getActivity().getContentResolver();
 		final Resources res = getResources();
 		mContext =  getActivity();
+		
+		mSettingsDashBoardGms = (SystemSettingListPreference) findPreference(SETTINGS_DASHBOARD_GMS);
+        mSettingsDashBoardGms.setOnPreferenceChangeListener(this);
         }
 
     public boolean isAvailable() {
@@ -116,6 +122,10 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
+		 if (preference == mSettingsDashBoardGms) {
+            CherishUtils.showSettingsRestartDialog(getContext());
+            return true;
+		 }
         return false;
     }
 
