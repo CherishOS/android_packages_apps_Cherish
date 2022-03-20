@@ -57,4 +57,10 @@
           android:title="@string/use_photos_spoof_title"
           android:summary="@string/use_photos_spoof_summary"
           android:defaultValue="true" />
+
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="click_partial_screenshot"
+        android:title="@string/click_partial_screenshot_title"
+        android:summary="@string/click_partial_screenshot_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
