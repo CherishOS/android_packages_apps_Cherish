@@ -640,7 +640,7 @@
     <!-- QS tiles title visibility -->
     <string name="qs_tile_title_visibility_title">Hide tile titles</string>
     <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
-	
+
 	<!-- QS tiles layout  -->
     <string name="qs_layout_category_title">Tiles layout</string>
     <string name="qs_tile_label_hide_title">Hide label</string>
@@ -771,5 +771,7 @@
     <string name="visualizer_center_mirrored_summary">Set the visualizer in center mirrored mode</string>
     <string name="pulse_vertical_mirror_title">Vertical Mirror</string>
     <string name="pulse_vertical_mirror_summary">Create other pulse and flip vertically</string>
-
+	
+	<string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 </resources>
