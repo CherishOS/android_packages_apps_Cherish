@@ -31,4 +31,10 @@
         android:summary="@string/laboratory_ignore_window_secure_summary"
         android:defaultValue="false"/>
 		
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="click_partial_screenshot"
+        android:title="@string/click_partial_screenshot_title"
+        android:summary="@string/click_partial_screenshot_summary"
+        android:defaultValue="false" />
+		
 </PreferenceScreen>
