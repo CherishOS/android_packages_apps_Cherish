@@ -524,4 +524,13 @@
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
     <string name="clock_date_position">Date position</string>
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Settings layout</string>
+    <string name="settings_dashboard_style_gms">Default</string>
+    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_layout_category_title">Settings UI interface</string>
+    <!-- Lockscreen media artwork -->
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
+    <string name="show_lockscreen_media_art_title">Show media art</string>
+    <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
 </resources>
