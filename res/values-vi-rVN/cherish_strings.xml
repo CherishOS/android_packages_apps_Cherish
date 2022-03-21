@@ -14,6 +14,7 @@
     <!-- App Title -->
     <string name="cherish_settings_title">Thông Điệp Yêu Thương</string>
     <!-- Units -->
+    <string name="unit_milliseconds">milliseconds</string>
     <string name="unit_seconds">giây</string>
     <!-- Categories -->
     <string name="button_title">Phím</string>
@@ -495,8 +496,9 @@
     <string name="status_bar_clock_position_left">Trái</string>
     <string name="status_bar_clock_position_center">Giữa</string>
     <string name="status_bar_clock_position_hidden">Ẩn</string>
-    <string name="status_bar_clock_auto_hide_title">Tự ẩn đồng hồ</string>
-    <string name="status_bar_clock_auto_hide_summary">Ẩn và hiển thị đồng hồ trong khoảng thời gian đều đặn</string>
+    <string name="status_bar_clock_auto_hide_title">Auto hide</string>
+    <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide clock at regular interval</string>
     <string name="status_bar_clock_auto_hide_hdur_title">Ẩn thời gian</string>
     <string name="status_bar_clock_auto_hide_hdur_summary">Số giây để ẩn đồng hồ</string>
     <string name="status_bar_clock_auto_hide_sdur_title">Hiển thị thời gian</string>
@@ -506,22 +508,74 @@
     <string name="status_bar_am_pm_normal">Bình thường</string>
     <string name="status_bar_am_pm_small">Nhỏ</string>
     <string name="status_bar_am_pm_hidden">Ẩn (mặc định)</string>
-    <string name="enable_clock_weekday">Ngày trong tuần</string>
-    <string name="enable_clock_weekday_summary">Viết tắt ngày trong tuần trước thời gian</string>
-    <string name="dont_show">Không hiển thị</string>
-    <string name="clock_date_display">Ngày</string>
-    <string name="clock_date_display_summary">Hiển thị ngày tùy chỉnh trước đồng hồ</string>
-    <string name="clock_date_style">Kiểu ngày</string>
-    <string name="clock_date_format">Định dạng ngày tháng</string>
-    <string name="clock_date_string_edittext_title">Phải thuộc định dạng ngày, ví dụ MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Nhập Chuỗi</string>
-    <string name="clock_date_display_none">Không hiển thị</string>
-    <string name="clock_date_display_small">Kích thước font nhỏ</string>
-    <string name="clock_date_display_normal">Cỡ chữ bình thường</string>
-    <string name="clock_date_style_normal">Bình thường</string>
-    <string name="clock_date_style_lowercase">Chữ thường</string>
-    <string name="clock_date_style_uppercase">Chữ thường</string>
+    <string name="status_bar_date_title">Date</string>
+    <string name="status_bar_date_none">Hidden</string>
+    <string name="status_bar_date_small">Small</string>
+    <string name="status_bar_date_normal">Normal</string>
+    <string name="status_bar_date_format_title">Date format</string>
+    <string name="status_bar_date_style">Date style</string>
+    <string name="status_bar_date_style_normal">Normal</string>
+    <string name="status_bar_date_style_lowercase">Lowercase</string>
+    <string name="status_bar_date_style_uppercase">Uppercase</string>
+    <string name="status_bar_date_format_custom">Custom java format</string>
+    <string name="status_bar_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Enter string</string>
+    <string name="clock_date_position">Vị trí ngày</string>
     <string name="clock_date_right">Bên phải thời gian</string>
     <string name="clock_date_left">Bên trái thời gian</string>
-    <string name="clock_date_position">Vị trí ngày</string>
+    <!-- QS clock -->
+    <string name="qs_clock_title">Clock</string>
+    <string name="qs_clock_summary">Display clock in quick status bar header</string>
+    <!-- QS date -->
+    <string name="qs_date_title">Date</string>
+    <string name="qs_date_summary">Display date in quick status bar header</string>
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Settings layout</string>
+    <string name="settings_dashboard_style_gms">Default</string>
+    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_layout_category_title">Settings UI interface</string>
+    <!-- Media art -->
+    <string name="lockscreen_media_category">Lock screen media</string>
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <!-- Lockscreen album art filter -->
+    <string name="lockscreen_albumart_filter_title">Media cover art filter</string>
+    <string name="lockscreen_albumart_filter_none">None</string>
+    <string name="lockscreen_albumart_filter_grayscale">Grayscale</string>
+    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
+    <string name="lockscreen_albumart_filter_blur">Blur</string>
+    <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
+    <!-- Pulse music visualizer -->
+    <string name="pulse_help_policy_notice_title">About Pulse</string>
+    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
+    <string name="show_navbar_pulse_title">Navbar Pulse</string>
+    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
+    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
+    <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
+    <string name="pulse_render_mode_title">Render mode</string>
+    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
+    <string name="pulse_render_mode_solid_lines">Solid lines</string>
+    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
+    <string name="pulse_custom_fudge_factor">Sanity level</string>
+    <string name="pulse_lavalamp_speed_title">Lava lamp speed</string>
+    <string name="pulse_solid_units_count">Solid lines count</string>
+    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
+    <string name="pulse_solid_units_rounded_title">Rounded corners</string>
+    <string name="pulse_solid_units_rounded_summary">Solid lines with rounded tip</string>
+    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
+    <string name="pulse_color_mode_title">Color</string>
+    <string name="pulse_color_accent">Accent</string>
+    <string name="pulse_color_custom">Custom</string>
+    <string name="pulse_color_lava_lamp">Lava lamp</string>
+    <string name="pulse_color_user_title">Choose color</string>
+    <string name="pulse_smoothing_enabled_title">Turn on smoothing</string>
+    <string name="pulse_smoothing_enabled_summary">Each bar is animated more smoothly</string>
+    <string name="pulse_custom_dimen">Bar width</string>
+    <string name="pulse_custom_div">Bar spacing</string>
+    <string name="pulse_filled_block_size">Block size</string>
+    <string name="pulse_empty_block_size">Block spacing</string>
 </resources>
