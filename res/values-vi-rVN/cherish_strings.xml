@@ -14,6 +14,7 @@
     <!-- App Title -->
     <string name="cherish_settings_title">Thông Điệp Yêu Thương</string>
     <!-- Units -->
+    <string name="unit_milliseconds">mili giây</string>
     <string name="unit_seconds">giây</string>
     <!-- Categories -->
     <string name="button_title">Phím</string>
@@ -495,8 +496,9 @@
     <string name="status_bar_clock_position_left">Trái</string>
     <string name="status_bar_clock_position_center">Giữa</string>
     <string name="status_bar_clock_position_hidden">Ẩn</string>
-    <string name="status_bar_clock_auto_hide_title">Tự ẩn đồng hồ</string>
-    <string name="status_bar_clock_auto_hide_summary">Ẩn và hiển thị đồng hồ trong khoảng thời gian đều đặn</string>
+    <string name="status_bar_clock_auto_hide_title">Tự động ẩn</string>
+    <string name="status_bar_clock_auto_hide_launcher_summary">Ẩn đồng hồ nếu trình khởi chạy hiển thị</string>
+    <string name="status_bar_clock_auto_hide_summary">Ẩn đồng hồ ở khoảng thời gian đều đặn</string>
     <string name="status_bar_clock_auto_hide_hdur_title">Ẩn thời gian</string>
     <string name="status_bar_clock_auto_hide_hdur_summary">Số giây để ẩn đồng hồ</string>
     <string name="status_bar_clock_auto_hide_sdur_title">Hiển thị thời gian</string>
@@ -506,22 +508,74 @@
     <string name="status_bar_am_pm_normal">Bình thường</string>
     <string name="status_bar_am_pm_small">Nhỏ</string>
     <string name="status_bar_am_pm_hidden">Ẩn (mặc định)</string>
-    <string name="enable_clock_weekday">Ngày trong tuần</string>
-    <string name="enable_clock_weekday_summary">Viết tắt ngày trong tuần trước thời gian</string>
-    <string name="dont_show">Không hiển thị</string>
-    <string name="clock_date_display">Ngày</string>
-    <string name="clock_date_display_summary">Hiển thị ngày tùy chỉnh trước đồng hồ</string>
-    <string name="clock_date_style">Kiểu ngày</string>
-    <string name="clock_date_format">Định dạng ngày tháng</string>
-    <string name="clock_date_string_edittext_title">Phải thuộc định dạng ngày, ví dụ MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Nhập Chuỗi</string>
-    <string name="clock_date_display_none">Không hiển thị</string>
-    <string name="clock_date_display_small">Kích thước font nhỏ</string>
-    <string name="clock_date_display_normal">Cỡ chữ bình thường</string>
-    <string name="clock_date_style_normal">Bình thường</string>
-    <string name="clock_date_style_lowercase">Chữ thường</string>
-    <string name="clock_date_style_uppercase">Chữ thường</string>
+    <string name="status_bar_date_title">Ngày</string>
+    <string name="status_bar_date_none">Ẩn</string>
+    <string name="status_bar_date_small">Nhỏ</string>
+    <string name="status_bar_date_normal">Bình thường</string>
+    <string name="status_bar_date_format_title">Định dạng ngày tháng</string>
+    <string name="status_bar_date_style">Kiểu ngày</string>
+    <string name="status_bar_date_style_normal">Bình thường</string>
+    <string name="status_bar_date_style_lowercase">Chữ thường</string>
+    <string name="status_bar_date_style_uppercase">Chữ thường</string>
+    <string name="status_bar_date_format_custom">Định dạng java tùy chỉnh</string>
+    <string name="status_bar_date_string_edittext_title">Phải thuộc định dạng ngày, ví dụ MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Nhập Chuỗi</string>
+    <string name="clock_date_position">Vị trí ngày</string>
     <string name="clock_date_right">Bên phải thời gian</string>
     <string name="clock_date_left">Bên trái thời gian</string>
-    <string name="clock_date_position">Vị trí ngày</string>
+    <!-- QS clock -->
+    <string name="qs_clock_title">Đồng hồ</string>
+    <string name="qs_clock_summary">Hiển thị đồng hồ ở phía trên thanh phím tắt nhanh</string>
+    <!-- QS date -->
+    <string name="qs_date_title">Ngày</string>
+    <string name="qs_date_summary">Hiển thị ngày tháng ở phía trên thanh phím tắt nhanh</string>
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Bố cục cài đặt</string>
+    <string name="settings_dashboard_style_gms">Mặc định</string>
+    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_layout_category_title">Giao diện cài đặt</string>
+    <!-- Media art -->
+    <string name="lockscreen_media_category">Nhạc trên màn hình khóa</string>
+    <string name="media_art_title">Ảnh bìa đa phương tiện</string>
+    <string name="media_art_summary">Bật ảnh bìa phương tiện trên màn hình khóa</string>
+    <!-- Lockscreen album art filter -->
+    <string name="lockscreen_albumart_filter_title">Bộ lọc ảnh bìa đa phương tiện</string>
+    <string name="lockscreen_albumart_filter_none">Không</string>
+    <string name="lockscreen_albumart_filter_grayscale">Màu xám</string>
+    <string name="lockscreen_albumart_filter_tint">Đồng bộ màu chủ đề</string>
+    <string name="lockscreen_albumart_filter_blur">Độ mờ</string>
+    <string name="lockscreen_albumart_filter_grayblur">Thang độ xám và mờ</string>
+    <!-- Pulse music visualizer -->
+    <string name="pulse_help_policy_notice_title">Về Sóng nhạc</string>
+    <string name="pulse_help_policy_notice_summary">Sóng nhạc là một bộ cân bằng đồ họa âm thanh tuyệt vời khi nhạc phát trên thiết bị</string>
+    <string name="pulse_settings">Sóng nhạc</string>
+    <string name="pulse_settings_summary">Bộ cân bằng đồ họa âm thanh cho thanh điều hướng và màn hình khoá</string>
+    <string name="show_navbar_pulse_title">Hiệu ứng trên thanh điều hướng</string>
+    <string name="show_navbar_pulse_summary">Trình trực quan đồ họa âm thanh trên thanh điều hướng</string>
+    <string name="show_lockscreen_pulse_title">Sóng nhạc trên màn hình khoá</string>
+    <string name="show_lockscreen_pulse_summary">Sóng nhạc trên màn hình khoá</string>
+    <string name="show_ambient_pulse_title">Hiển thị tương tác sóng nhạc</string>
+    <string name="show_ambient_pulse_summary">Trình trực quan đồ họa âm thanh trên thanh điều hướng</string>
+    <string name="pulse_render_mode_title">Chế độ hiển thị</string>
+    <string name="pulse_render_mode_fading_bars">Khối mờ dần</string>
+    <string name="pulse_render_mode_solid_lines">Đường liền nét</string>
+    <string name="pulse_legacy_mode_advanced_category">Cài đặt chế độ khối mờ dần</string>
+    <string name="pulse_custom_fudge_factor">Độ mạnh</string>
+    <string name="pulse_lavalamp_speed_title">Tốc độ đèn dung nham</string>
+    <string name="pulse_solid_units_count">Số đường liền nét</string>
+    <string name="pulse_solid_units_opacity">Độ mờ đường liền nét</string>
+    <string name="pulse_solid_units_rounded_title">Bo tròn góc</string>
+    <string name="pulse_solid_units_rounded_summary">Đường nét chắc chắn với đầu bo tròn</string>
+    <string name="pulse_solid_dimen_category">Cài đặt chế độ đường thẳng liền nét</string>
+    <string name="pulse_color_mode_title">Màu sắc</string>
+    <string name="pulse_color_accent">Màu nhấn</string>
+    <string name="pulse_color_custom">Tuỳ chỉnh</string>
+    <string name="pulse_color_lava_lamp">Đèn dung nham</string>
+    <string name="pulse_color_user_title">Chọn màu</string>
+    <string name="pulse_smoothing_enabled_title">Bật làm mượt</string>
+    <string name="pulse_smoothing_enabled_summary">Thanh hoạt cảnh mượt hơn</string>
+    <string name="pulse_custom_dimen">Độ rộng thanh</string>
+    <string name="pulse_custom_div">Khoảng cách thanh</string>
+    <string name="pulse_filled_block_size">Kích thước khối</string>
+    <string name="pulse_empty_block_size">Khoảng cách khối</string>
 </resources>
