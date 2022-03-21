@@ -614,5 +614,11 @@
     <!-- QS date -->
     <string name="qs_date_title">Date</string>
     <string name="qs_date_summary">Display date in quick status bar header</string>
+	
+	<!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Settings layout</string>
+    <string name="settings_dashboard_style_gms">Default</string>
+    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_layout_category_title">Settings UI interface</string>
 
 </resources>
