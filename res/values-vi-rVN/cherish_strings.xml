@@ -601,4 +601,7 @@
     <string name="monet_engine_accurate_shades_title">Sử dụng các sắc thái chính xác</string>
     <string name="monet_engine_chroma_factor_title">Yếu tố sắc tố</string>
     <string name="monet_engine_linear_lightness_title">Sử dụng độ đậm nhạt tuyến tính</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
+    <string name="system_black_theme_summary">Buộc màu nền đen</string>
 </resources>
