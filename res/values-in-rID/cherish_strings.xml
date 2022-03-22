@@ -14,7 +14,7 @@
     <!-- App Title -->
     <string name="cherish_settings_title">Setelan Cherish</string>
     <!-- Units -->
-    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_milliseconds">milidetik</string>
     <string name="unit_seconds">detik</string>
     <!-- Categories -->
     <string name="button_title">Tombol</string>
@@ -496,9 +496,9 @@
     <string name="status_bar_clock_position_left">Kiri</string>
     <string name="status_bar_clock_position_center">Tengah</string>
     <string name="status_bar_clock_position_hidden">Tersembunyi</string>
-    <string name="status_bar_clock_auto_hide_title">Auto hide</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide clock at regular interval</string>
+    <string name="status_bar_clock_auto_hide_title">Sembunyikan otomatis</string>
+    <string name="status_bar_clock_auto_hide_launcher_summary">Sembunyikan jam jika peluncur terlihat</string>
+    <string name="status_bar_clock_auto_hide_summary">Sembunyikan jam secara berkala</string>
     <string name="status_bar_clock_auto_hide_hdur_title">Sembunyikan durasi</string>
     <string name="status_bar_clock_auto_hide_hdur_summary">Jumlah detik untuk menyembunyikan jam</string>
     <string name="status_bar_clock_auto_hide_sdur_title">Tampilkan durasi</string>
@@ -508,74 +508,86 @@
     <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Kecil</string>
     <string name="status_bar_am_pm_hidden">Tersembunyi</string>
-    <string name="status_bar_date_title">Date</string>
-    <string name="status_bar_date_none">Hidden</string>
-    <string name="status_bar_date_small">Small</string>
+    <string name="status_bar_date_title">Tanggal</string>
+    <string name="status_bar_date_none">Tersembunyi</string>
+    <string name="status_bar_date_small">Kecil</string>
     <string name="status_bar_date_normal">Normal</string>
-    <string name="status_bar_date_format_title">Date format</string>
-    <string name="status_bar_date_style">Date style</string>
+    <string name="status_bar_date_format_title">Format tanggal</string>
+    <string name="status_bar_date_style">Gaya tanggal</string>
     <string name="status_bar_date_style_normal">Normal</string>
-    <string name="status_bar_date_style_lowercase">Lowercase</string>
-    <string name="status_bar_date_style_uppercase">Uppercase</string>
-    <string name="status_bar_date_format_custom">Custom java format</string>
-    <string name="status_bar_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="status_bar_date_string_edittext_summary">Enter string</string>
+    <string name="status_bar_date_style_lowercase">Huruf kecil</string>
+    <string name="status_bar_date_style_uppercase">Huruf besar</string>
+    <string name="status_bar_date_format_custom">Format java kustom</string>
+    <string name="status_bar_date_string_edittext_title">Harus dalam format tanggal seperti. MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Masukkan teks</string>
     <string name="clock_date_position">Posisi tanggal</string>
     <string name="clock_date_right">Sebelah kanan jam</string>
     <string name="clock_date_left">Sebelah kiri jam</string>
     <!-- QS clock -->
-    <string name="qs_clock_title">Clock</string>
-    <string name="qs_clock_summary">Display clock in quick status bar header</string>
+    <string name="qs_clock_title">Jam</string>
+    <string name="qs_clock_summary">Tampilkan jam pada bagian atas bilah status cepat</string>
     <!-- QS date -->
-    <string name="qs_date_title">Date</string>
-    <string name="qs_date_summary">Display date in quick status bar header</string>
+    <string name="qs_date_title">Tanggal</string>
+    <string name="qs_date_summary">Tampilkan tanggal pada bagian atas bilah status cepat</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Tata letak Setelan</string>
     <string name="settings_dashboard_style_gms">Bawaan</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_layout_category_title">Atur Antarmuka Setelan</string>
     <!-- Media art -->
-    <string name="lockscreen_media_category">Lock screen media</string>
-    <string name="media_art_title">Media cover art</string>
-    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <string name="lockscreen_media_category">Media layar kunci</string>
+    <string name="media_art_title">Seni sampul media</string>
+    <string name="media_art_summary">Aktifkan seni sampul media di layar kunci</string>
     <!-- Lockscreen album art filter -->
-    <string name="lockscreen_albumart_filter_title">Media cover art filter</string>
-    <string name="lockscreen_albumart_filter_none">None</string>
-    <string name="lockscreen_albumart_filter_grayscale">Grayscale</string>
-    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
-    <string name="lockscreen_albumart_filter_blur">Blur</string>
-    <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
+    <string name="lockscreen_albumart_filter_title">Filter seni sampul media</string>
+    <string name="lockscreen_albumart_filter_none">Tidak ada</string>
+    <string name="lockscreen_albumart_filter_grayscale">Skala abu-abu</string>
+    <string name="lockscreen_albumart_filter_tint">Aksen berwarna</string>
+    <string name="lockscreen_albumart_filter_blur">Buram</string>
+    <string name="lockscreen_albumart_filter_grayblur">Skala abu-abu dan buram</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_help_policy_notice_title">About Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
-    <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
-    <string name="show_navbar_pulse_title">Navbar Pulse</string>
-    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
-    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
-    <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
-    <string name="show_ambient_pulse_title">Ambient Pulse</string>
-    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
-    <string name="pulse_render_mode_title">Render mode</string>
-    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
-    <string name="pulse_render_mode_solid_lines">Solid lines</string>
-    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
-    <string name="pulse_custom_fudge_factor">Sanity level</string>
-    <string name="pulse_lavalamp_speed_title">Lava lamp speed</string>
-    <string name="pulse_solid_units_count">Solid lines count</string>
-    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
-    <string name="pulse_solid_units_rounded_title">Rounded corners</string>
-    <string name="pulse_solid_units_rounded_summary">Solid lines with rounded tip</string>
-    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
-    <string name="pulse_color_mode_title">Color</string>
-    <string name="pulse_color_accent">Accent</string>
-    <string name="pulse_color_custom">Custom</string>
-    <string name="pulse_color_lava_lamp">Lava lamp</string>
-    <string name="pulse_color_user_title">Choose color</string>
-    <string name="pulse_smoothing_enabled_title">Turn on smoothing</string>
-    <string name="pulse_smoothing_enabled_summary">Each bar is animated more smoothly</string>
-    <string name="pulse_custom_dimen">Bar width</string>
-    <string name="pulse_custom_div">Bar spacing</string>
-    <string name="pulse_filled_block_size">Block size</string>
-    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_help_policy_notice_title">Tentang Visual Audio</string>
+    <string name="pulse_help_policy_notice_summary">Visual Audio adalah equalizer grafis audio yang brilian saat musik diputar di perangkat</string>
+    <string name="pulse_settings">Visual Audio</string>
+    <string name="pulse_settings_summary">Equalizer grafis audio untuk bilah navigasi dan layar kunci</string>
+    <string name="show_navbar_pulse_title">Visual Audio Bilah Navigasi</string>
+    <string name="show_navbar_pulse_summary">Equalizer grafis audio pada bilah navigasi</string>
+    <string name="show_lockscreen_pulse_title">Visual Audio Layar Kunci</string>
+    <string name="show_lockscreen_pulse_summary">Equalizer grafis audio pada layar kunci</string>
+    <string name="show_ambient_pulse_title">Visual Audio Layar Ambien</string>
+    <string name="show_ambient_pulse_summary">Equalizer grafis audio pada layar ambien</string>
+    <string name="pulse_render_mode_title">Mode Render</string>
+    <string name="pulse_render_mode_fading_bars">Blok memudar</string>
+    <string name="pulse_render_mode_solid_lines">Garis-garis padat</string>
+    <string name="pulse_legacy_mode_advanced_category">Setelan mode blok memudar</string>
+    <string name="pulse_custom_fudge_factor">Tingkat kinerja</string>
+    <string name="pulse_lavalamp_speed_title">Kecepatan lampu lava</string>
+    <string name="pulse_solid_units_count">Jumlah garis-garis padat</string>
+    <string name="pulse_solid_units_opacity">Keburaman garis-garis padat</string>
+    <string name="pulse_solid_units_rounded_title">Sudut lengkung</string>
+    <string name="pulse_solid_units_rounded_summary">Garis padat dengan ujung melengkung</string>
+    <string name="pulse_solid_dimen_category">Setelan mode garis-garis padat</string>
+    <string name="pulse_color_mode_title">Warna</string>
+    <string name="pulse_color_accent">Aksen</string>
+    <string name="pulse_color_custom">Kustom</string>
+    <string name="pulse_color_lava_lamp">Lampu lava</string>
+    <string name="pulse_color_user_title">Pilih warna</string>
+    <string name="pulse_smoothing_enabled_title">Aktifkan smoothing</string>
+    <string name="pulse_smoothing_enabled_summary">Setiap bar dianimasikan lebih halus</string>
+    <string name="pulse_custom_dimen">Lebar bar</string>
+    <string name="pulse_custom_div">Jarak bar</string>
+    <string name="pulse_filled_block_size">Ukuran blok</string>
+    <string name="pulse_empty_block_size">Jarak blok</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Slider kecerahan</string>
+    <string name="qs_brightness_slider_title">Tampilkan slider kecerahan</string>
+    <string name="qs_brightness_slider_summary">Tampilkan slider kecerahan di panel Setelan Cepat</string>
+    <string name="qs_brightness_position_bottom_title">Tampilkan slider kecerahan di bawah</string>
+    <string name="qs_brightness_position_bottom_summary">Tampilkan slider kecerahan di setelan cepat bawah</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Tombol kecerahan adaptif</string>
+    <string name="brightness_icon_summary">Tampilkan tombol kecerahan adaptif</string>
+    <!-- Quick QS Panel brightness slider -->
+    <string name="quick_qs_brightness_slider_title">Tampilkan slider kecerahan di Panel QS Cepat</string>
+    <string name="quick_qs_brightness_slider_summary">Tampilkan slider kecerahan di panel qs cepat</string>
 </resources>
