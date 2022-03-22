@@ -592,13 +592,16 @@
     <string name="quick_qs_brightness_slider_summary">Hızlı ayarlar panelinde bir parlaklık kaydırma çubuğu göster</string>
     <!-- Monet Engine -->
     <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Monet engine</string>
-    <string name="monet_engine_summary">Customize monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_title">Monet ayarları</string>
+    <string name="monet_engine_summary">Monet parametrelerini özelleştirin</string>
+    <string name="monet_engine_custom_color_title">Özel renk kullan</string>
+    <string name="monet_engine_custom_color_summary">Monet için duvar kağıdı rengi yerine özel renk kullan</string>
+    <string name="monet_engine_color_override_title">Özel renk</string>
+    <string name="monet_engine_white_luminance_user_title">Beyaz parlaklığı</string>
+    <string name="monet_engine_accurate_shades_title">Doğru renk tonları kullan</string>
+    <string name="monet_engine_chroma_factor_title">Berraklık faktörü</string>
+    <string name="monet_engine_linear_lightness_title">Doğrusal canlılığı kullan</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
 </resources>
