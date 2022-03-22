@@ -578,4 +578,27 @@
     <string name="pulse_custom_div">Khoảng cách thanh</string>
     <string name="pulse_filled_block_size">Kích thước khối</string>
     <string name="pulse_empty_block_size">Khoảng cách khối</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Thanh điều chỉnh độ sáng</string>
+    <string name="qs_brightness_slider_title">Hiện thanh trượt điều chỉnh độ sáng</string>
+    <string name="qs_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
+    <string name="qs_brightness_position_bottom_title">Hiển thị thanh trượt chỉnh độ sáng ở dưới</string>
+    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Biểu tượng độ sáng tự động</string>
+    <string name="brightness_icon_summary">Chuyển đổi hiển thị cho độ sáng thích ứng ở chân trang Qs</string>
+    <!-- Quick QS Panel brightness slider -->
+    <string name="quick_qs_brightness_slider_title">Hiển thị thanh trượt độ sáng trong bảng điều khiển nhanh</string>
+    <string name="quick_qs_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
+    <!-- Monet Engine -->
+    <string name="monet_category">Monet</string>
+    <string name="monet_engine_title">Công cụ Monet</string>
+    <string name="monet_engine_summary">Tùy chỉnh các thông số monet</string>
+    <string name="monet_engine_custom_color_title">Sử dụng màu tùy chỉnh</string>
+    <string name="monet_engine_custom_color_summary">Sử dụng màu tùy chỉnh cho động cơ monet thay vì màu nền</string>
+    <string name="monet_engine_color_override_title">Tùy chỉnh màu sắc</string>
+    <string name="monet_engine_white_luminance_user_title">Độ sáng trắng</string>
+    <string name="monet_engine_accurate_shades_title">Sử dụng các sắc thái chính xác</string>
+    <string name="monet_engine_chroma_factor_title">Yếu tố sắc tố</string>
+    <string name="monet_engine_linear_lightness_title">Sử dụng độ đậm nhạt tuyến tính</string>
 </resources>

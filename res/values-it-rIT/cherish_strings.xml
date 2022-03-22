@@ -12,61 +12,61 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_title">Impostazioni di Cherish</string>
     <!-- Units -->
-    <string name="unit_milliseconds">milliseconds</string>
-    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">millisecondi</string>
+    <string name="unit_seconds">secondi</string>
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
-    <string name="button_summary">Hardware keys, Navigation bar</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
-    <string name="lockscreen_title">Lock screen</string>
-    <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">Gaming mode, volume controls</string>
-    <string name="animations_title">Animations</string>
-    <string name="animations_summary">System animations</string>
-    <string name="powermenu_title">Power menu</string>
-    <string name="powermenu_summary">Advanced restart, power menu opacity</string>
-    <string name="theme_title">Themes</string>
-    <string name="theme_summary">System theme, rounded, switch theme</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="quicksettings_summary">Tile layout, blur</string>
-    <string name="recents_title">Recents apps</string>
-    <string name="recents_summary">Slim recents</string>
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_summary">Clock, carrier, status icons</string>
-    <string name="volume_title">Volume rockers</string>
-    <string name="volume_summary">Volume rockers</string>
-    <string name="notifications_title">Notifications</string>
-    <string name="notifications_summary">Battery light, notifications header</string>
-    <string name="about_summary">Learn more about CherishOS</string>
-    <string name="device_part_title">Device features</string>
-    <string name="qs_category">QS category</string>
-    <string name="navbar_title">Navigation bar</string>
-    <string name="volume_keys_title">Volume keys</string>
+    <string name="button_title">Pulsanti</string>
+    <string name="button_summary">Tasti hardware, Barra di navigazione</string>
+    <string name="gestures_title">Gesti</string>
+    <string name="gestures_summary">Vai alla fotocamera, scorri per scattare un\'istantanea</string>
+    <string name="lockscreen_title">Blocco schermo</string>
+    <string name="lockscreen_summary">Visualizzazione musicale, animazione di ricarica, stile orologio</string>
+    <string name="misc_title">Varie</string>
+    <string name="misc_summary">Modalità di gioco, controlli volume</string>
+    <string name="animations_title">Animazioni</string>
+    <string name="animations_summary">Animazioni di sistema</string>
+    <string name="powermenu_title">Menu d\'alimentazione</string>
+    <string name="powermenu_summary">Riavvio avanzato, opacità del menu d\'alimentazione</string>
+    <string name="theme_title">Temi</string>
+    <string name="theme_summary">Tema di sistema, arrotondato, cambia tema</string>
+    <string name="quicksettings_title">Impostazioni Rapide</string>
+    <string name="quicksettings_summary">Disposizione pannello, sfocatura</string>
+    <string name="recents_title">App recenti</string>
+    <string name="recents_summary">Recenti slim</string>
+    <string name="statusbar_title">Barra di stato</string>
+    <string name="statusbar_summary">Orologio, etichetta, icone di stato</string>
+    <string name="volume_title">Pulsanti del volume</string>
+    <string name="volume_summary">Pulsanti del volume</string>
+    <string name="notifications_title">Notifiche</string>
+    <string name="notifications_summary">Luce batteria, intestazione delle notifiche</string>
+    <string name="about_summary">Scopri di più su CherishOS</string>
+    <string name="device_part_title">Caratteristiche del dispositivo</string>
+    <string name="qs_category">Categoria Impostazioni Rapide</string>
+    <string name="navbar_title">Barra di navigazione</string>
+    <string name="volume_keys_title">Tasti del volume</string>
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
-    <string name="default_string">Default</string>
-    <string name="disabled">Disabled</string>
+    <string name="reset">Ripristina</string>
+    <string name="cancel">Annulla</string>
+    <string name="save">Salva</string>
+    <string name="default_string">Predefinito</string>
+    <string name="disabled">Disabilitato</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Selettore del Colore</string>
+    <string name="press_color_to_apply">Premi sul colore seguente per applicarlo</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
-    <string name="led_color_green">Green</string>
-    <string name="led_color_red">Red</string>
+    <string name="set">Imposta</string>
+    <string name="color_default">Predefinito</string>
+    <string name="led_color_green">Verde</string>
+    <string name="led_color_red">Rosso</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">Default</string>
+    <string name="custom_seekbar_value">Valore: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Predefinito</string>
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     <string name="add_package_to_title">Add application</string>
@@ -578,4 +578,27 @@
     <string name="pulse_custom_div">Bar spacing</string>
     <string name="pulse_filled_block_size">Block size</string>
     <string name="pulse_empty_block_size">Block spacing</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Brightness slider</string>
+    <string name="qs_brightness_slider_title">Show brightness slider</string>
+    <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_brightness_position_bottom_title">Show brightness slider on bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Adaptive brightness button</string>
+    <string name="brightness_icon_summary">Show adaptive brightness button</string>
+    <!-- Quick QS Panel brightness slider -->
+    <string name="quick_qs_brightness_slider_title">Show brightness slider in Quick QS Panel</string>
+    <string name="quick_qs_brightness_slider_summary">Show a brightness slider in the quick qs panel</string>
+    <!-- Monet Engine -->
+    <string name="monet_category">Monet</string>
+    <string name="monet_engine_title">Monet engine</string>
+    <string name="monet_engine_summary">Customize monet parameters</string>
+    <string name="monet_engine_custom_color_title">Use custom color</string>
+    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_white_luminance_user_title">White luminance</string>
+    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
+    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
 </resources>
