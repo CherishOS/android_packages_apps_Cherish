@@ -34,6 +34,12 @@
 	
 	<PreferenceCategory
         android:title="@string/theme_customization_category">
+		
+		<Preference
+        android:key="monet_engine"
+        android:title="@string/monet_engine_title"
+        android:summary="@string/monet_engine_summary"
+        android:fragment="com.cherish.settings.fragments.MonetEngine" />
 
         <Preference
             android:key="dark_ui_mode"

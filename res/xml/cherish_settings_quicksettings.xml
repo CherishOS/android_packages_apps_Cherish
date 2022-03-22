@@ -79,8 +79,8 @@
 	<PreferenceCategory
         android:key="quick_settings_brighness_category"
         android:title="@string/qs_brightness_slider_category">
-			
-		<!-- Brightness slider -->
+
+        <!-- Brightness slider -->
         <com.cherish.settings.preferences.SecureSettingListPreference
             android:key="qs_show_brightness_slider"
             android:title="@string/qs_show_brightness_slider_title"
