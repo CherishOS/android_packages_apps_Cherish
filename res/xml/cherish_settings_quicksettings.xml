@@ -21,6 +21,14 @@
   <PreferenceCategory
         android:title="@string/qs_title">
 		
+	  
+	<!-- QS date -->
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="show_qs_date"
+            android:title="@string/qs_date_title"
+            android:summary="@string/qs_date_summary"
+            android:defaultValue="true" />
+		
 		<!-- QS footer text toggle -->
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="qs_footer_text_show"
