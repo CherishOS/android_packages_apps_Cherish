@@ -521,17 +521,6 @@
         <item>@string/status_bar_date_format_custom</item>
     </string-array>
 	
-	<!-- Settings dashboard styles-->
-    <string-array name="settings_dashboard_style_entries" translatable="false">
-        <item>@string/settings_dashboard_style_gms</item>
-        <item>@string/settings_dashboard_style_aosp</item>
-    </string-array>
-
-    <string-array name="settings_dashboard_style_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-	
 	<!-- Lockscreen album art filter -->
     <string-array name="lockscreen_albumart_filter_entries">
         <item>@string/lockscreen_albumart_filter_none</item>
