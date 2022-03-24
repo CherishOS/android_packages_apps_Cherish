@@ -79,12 +79,12 @@
             android:summary="@string/qs_brightness_slider_summary"
             android:defaultValue="true"/>
 
-        <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        <!-- <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="sysui_qqs_brightness_slider"
             android:title="@string/quick_qs_brightness_slider_title"
             android:summary="@string/quick_qs_brightness_slider_summary"
             android:dependency="qs_show_brightness"
-            android:defaultValue="false"/>
+            android:defaultValue="false"/> -->
 
         <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_show_auto_brightness_button"
