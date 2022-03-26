@@ -392,6 +392,26 @@
     <string name="volume_steps_system_title">Mức âm lượng: Hệ thống</string>
     <string name="volume_steps_voice_call_title">Mức âm lượng: Gọi thoại</string>
     <string name="volume_steps_reset">Thiết lập lại</string>
+    <!-- Udfps animations -->
+    <string name="udfps_category">Udfps</string>
+    <string name="udfps_recog_animation">Udfps animation</string>
+    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="udfps_recog_animation_effect_title">Udfps animation effect</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+    <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">Udfps icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <!-- Udfps Custom Options -->
+    <string name="udfps_settings_title">Udfps Options</string>
+    <string name="udfps_settings_summary">Different menus for customizing the udfps</string>
+    <!-- Udfps Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">FOD haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching FOD icon</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
+    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
+    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
+    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
     <!-- Location privacy indicator -->
     <string name="location_privacy_indicator_title">Hiển thị chỉ báo quyền riêng tư cho vị trí</string>
     <!-- Sb Icon Style -->
@@ -496,13 +516,6 @@
     <string name="status_bar_clock_position_left">Trái</string>
     <string name="status_bar_clock_position_center">Giữa</string>
     <string name="status_bar_clock_position_hidden">Ẩn</string>
-    <string name="status_bar_clock_auto_hide_title">Tự động ẩn</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Ẩn đồng hồ nếu trình khởi chạy hiển thị</string>
-    <string name="status_bar_clock_auto_hide_summary">Ẩn đồng hồ ở khoảng thời gian đều đặn</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Ẩn thời gian</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Số giây để ẩn đồng hồ</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Hiển thị thời gian</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Số giây để chờ đợi trước khi ẩn đồng hồ</string>
     <string name="status_bar_am_pm_title">Kiểu SA/CH</string>
     <string name="status_bar_am_pm_info">đồng hồ dạng 24-giờ được kích hoạt</string>
     <string name="status_bar_am_pm_normal">Bình thường</string>
@@ -531,8 +544,6 @@
     <string name="qs_date_summary">Hiển thị ngày tháng ở phía trên thanh phím tắt nhanh</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Bố cục cài đặt</string>
-    <string name="settings_dashboard_style_gms">Mặc định</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
     <string name="settings_layout_category_title">Giao diện cài đặt</string>
     <!-- Media art -->
     <string name="lockscreen_media_category">Nhạc trên màn hình khóa</string>
@@ -604,4 +615,12 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
     <string name="system_black_theme_summary">Buộc màu nền đen</string>
+    <!-- Unlimited g00gle ph0t0s st0rage -->
+    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
+    <string name="use_photos_spoof_summary">Your device will be identified as a Pixel XL by the Photos app to get unlimited photo storage at original quality</string>
+    <string name="photos_spoof_toast">Restart the Photos app for it to take effect</string>
+    <!-- Higher quality streams for known streaming apps -->
+    <string name="use_stream_spoof_title">Higher quality streams</string>
+    <string name="use_stream_spoof_summary">Enable Higher quality streams on Amazon Prime, Disney+, Hotstar, and Netflix. (Mileage will vary per-device)</string>
+    <string name="stream_spoof_toast">Restart the streaming app for it to take effect</string>
 </resources>
