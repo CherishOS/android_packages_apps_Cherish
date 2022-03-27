@@ -48,6 +48,19 @@
         android:summary="@string/lockscreen_charging_info_summary"
         android:defaultValue="true" />
 	
+	<!-- Udfps options -->
+    <PreferenceCategory
+        android:key="udfps_category"
+        android:title="@string/udfps_category">
+
+        <Preference
+            android:key="udfps_settings"
+            android:title="@string/udfps_settings_title"
+            android:summary="@string/udfps_settings_summary"
+            android:fragment="com.cherish.settings.fragments.Udfps" />
+
+    </PreferenceCategory>
+	
 	<PreferenceCategory
         android:key="lockscreen_media_art_options"
         android:title="@string/lockscreen_media_art_options_title">

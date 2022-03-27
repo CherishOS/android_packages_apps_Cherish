@@ -41,6 +41,7 @@ import android.os.SystemProperties;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.internal.util.cherish.udfps.UdfpsUtils;
 import com.android.internal.util.cherish.CherishUtils;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
@@ -57,6 +58,13 @@ import java.util.List;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+
+	private static final String UDFPS_CATEGORY = "udfps_category";
+	
+	
+	private ListPreference mLockClockStyles;
+	private PreferenceCategory mUdfpsCategory;
+	private Context mContext;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -75,6 +83,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             res = ctx.getPackageManager().getResourcesForApplication("com.android.systemui");
         } catch (NameNotFoundException e) {
             e.printStackTrace();
+        }
+		
+		mUdfpsCategory = findPreference(UDFPS_CATEGORY);
+        if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
+            prefSet.removePreference(mUdfpsCategory);
         }
     }
 

@@ -490,5 +490,11 @@
     <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
     <string name="disable_usercard_title">Settings UserCard</string>
     <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
+	
+	<!-- UDFPS Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
+    <string name="udfps_settings_title">UDFPS settings</string>
+    <string name="udfps_settings_summary">Customizations for the UDFPS</string>
 
 </resources>
