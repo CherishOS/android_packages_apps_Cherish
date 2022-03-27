@@ -38,7 +38,9 @@ import android.widget.Toast;
 import com.android.settings.R;
 import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import com.cherish.settings.preferences.SecureSettingSwitchPreference;
+import com.android.internal.cherish.hardware.LineageHardwareManager;
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.cherish.CherishUtils;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
@@ -56,10 +58,18 @@ import android.provider.SearchIndexableResource;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import java.util.Locale;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class ButtonSettings extends ActionFragment implements OnPreferenceChangeListener {
 
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
+    private static final String NAVBAR_VISIBILITY = "navbar_visibility";
+    private static final String KEY_LAYOUT_SETTINGS = "layout_settings";
+    private static final String KEY_NAVIGATION_BAR_ARROWS = "navigation_bar_menu_arrow_keys";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -92,6 +102,13 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private CustomSeekBarPreference mButtonTimoutBar;
     private CustomSeekBarPreference mManualButtonBrightness;
     private PreferenceCategory mButtonBackLightCategory;
+	private SwitchPreference mNavbarVisibility;
+	private Preference mLayoutSettings;
+    private SystemSettingSwitchPreference mNavigationArrows;
+	
+	private boolean mIsNavSwitchingMode = false;
+
+    private Handler mHandler;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -182,6 +199,16 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
         mManualButtonBrightness.setMax(pm.getMaximumScreenBrightnessSetting());
         mManualButtonBrightness.setValue(currentBrightness);
         mManualButtonBrightness.setOnPreferenceChangeListener(this);
+		
+		mNavbarVisibility = (SwitchPreference) findPreference(NAVBAR_VISIBILITY);
+
+        boolean showing = Settings.System.getIntForUser(resolver,
+                Settings.System.FORCE_SHOW_NAVBAR,
+                CherishUtils.hasNavbarByDefault(getActivity()) ? 1 : 0, UserHandle.USER_CURRENT) != 0;
+        mNavbarVisibility.setChecked(showing);
+        mNavbarVisibility.setOnPreferenceChangeListener(this);
+
+        mHandler = new Handler();
 
         mButtonTimoutBar = (CustomSeekBarPreference) findPreference(KEY_BUTTON_TIMEOUT);
         int currentTimeout = Settings.System.getInt(resolver,
@@ -197,6 +224,10 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
         if (!enableBacklightOptions) {
             prefScreen.removePreference(mButtonBackLightCategory);
         }
+
+        mLayoutSettings = (Preference) findPreference(KEY_LAYOUT_SETTINGS);
+
+        mNavigationArrows = (SystemSettingSwitchPreference) findPreference(KEY_NAVIGATION_BAR_ARROWS);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -213,24 +244,45 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getContentResolver(), Settings.System.HARDWARE_KEYS_DISABLE,
                     value ? 1 : 0);
-            setActionPreferencesEnabled(!value);
+			return true;
         } else if (preference == mButtonTimoutBar) {
             int buttonTimeout = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.BUTTON_BACKLIGHT_TIMEOUT, buttonTimeout);
+			return true;
         } else if (preference == mManualButtonBrightness) {
             int buttonBrightness = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.CUSTOM_BUTTON_BRIGHTNESS, buttonBrightness);
-        } else {
-            return false;
+            return true;
+        } else if (preference == mNavbarVisibility) {
+            if (mIsNavSwitchingMode) {
+                return false;
+            }
+            mIsNavSwitchingMode = true;
+            boolean showing = ((Boolean)newValue);
+            Settings.System.putIntForUser(resolver, Settings.System.FORCE_SHOW_NAVBAR,
+                    showing ? 1 : 0, UserHandle.USER_CURRENT);
+            mNavbarVisibility.setChecked(showing);
+            mHandler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    mIsNavSwitchingMode = false;
+                }
+            }, 1500);
+            return true;
         }
-        return true;
+        return false;
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CHERISH_SETTINGS;
+    }
+	
+	private static boolean isKeyDisablerSupported(Context context) {
+        final LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
+        return hardware.isSupported(LineageHardwareManager.FEATURE_KEY_DISABLE);
     }
 	
 	@Override
