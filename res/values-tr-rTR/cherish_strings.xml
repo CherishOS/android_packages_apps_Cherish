@@ -392,8 +392,31 @@
     <string name="volume_steps_system_title">Ses seviyesi: Sistem</string>
     <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli arama</string>
     <string name="volume_steps_reset">Sıfırla</string>
-    <!-- Location privacy indicator -->
-    <string name="location_privacy_indicator_title">Konum için gizlilik göstergesi</string>
+    <!-- Udfps animations -->
+    <string name="udfps_category">Udfps</string>
+    <string name="udfps_recog_animation">Udfps animation</string>
+    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="udfps_recog_animation_effect_title">Udfps animation effect</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+    <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">Udfps icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <!-- Udfps Custom Options -->
+    <string name="udfps_settings_title">Udfps Options</string>
+    <string name="udfps_settings_summary">Different menus for customizing the udfps</string>
+    <!-- Udfps Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">FOD haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching FOD icon</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
+    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
+    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
+    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
+    <!-- Privacy indicators -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location privacy indicator</string>
+    <string name="location_privacy_indicator_summary">Show separate indicator when an any app uses location</string>
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">Renkli Durum Çubuğu Simgeleri</string>
     <string name="statusbar_icons_style_summary">Durum çubuğu ikonları stili (yeniden başlatma gerektirir)</string>
@@ -496,13 +519,6 @@
     <string name="status_bar_clock_position_left">Sol</string>
     <string name="status_bar_clock_position_center">Orta</string>
     <string name="status_bar_clock_position_hidden">Gizli</string>
-    <string name="status_bar_clock_auto_hide_title">Otomatik gizle</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Başlatıcı görünürse saati gizle</string>
-    <string name="status_bar_clock_auto_hide_summary">Saati düzenli aralıklarla gizle</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Gizleme süresi</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Saatin gizlenmesi için gereken saniye süresi</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Görünme süresi</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Saatin gizlenmeden önceki beklenmesi gereken saniye süresi</string>
     <string name="status_bar_am_pm_title">ÖÖ/ÖS stili</string>
     <string name="status_bar_am_pm_info">24 saat biçimi etkin</string>
     <string name="status_bar_am_pm_normal">Normal</string>
@@ -531,8 +547,6 @@
     <string name="qs_date_summary">Hızlı ayarlar durum çubuğu başlığında tarihi göster</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Ayarlar düzeni</string>
-    <string name="settings_dashboard_style_gms">Varsayılan</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
     <string name="settings_layout_category_title">Ayarlar kullanıcı arayüzü</string>
     <!-- Media art -->
     <string name="lockscreen_media_category">Kilit ekranı medya resmi</string>
