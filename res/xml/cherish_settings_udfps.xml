@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2022 The CherishOS Projects
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/udfps_category">
+
+    <!-- Screen OFF UDFPS -->
+     <com.android.settingslib.RestrictedSwitchPreference
+            android:key="@string/security_settings_screen_off_unlock_udfps_key"
+            android:title="@string/security_settings_screen_off_unlock_udfps_title"
+            android:summary="@string/security_settings_screen_off_unlock_udfps_description"
+            settings:keywords="@string/security_settings_screen_off_unlock_udfps_keywords"
+            settings:controller="com.android.settings.biometrics.fingerprint.FingerprintSettingsScreenOffUnlockUdfpsPreferenceController"
+            settings:isPreferenceVisible="false"/>
+
+    <PreferenceCategory
+        android:key="udfps_customization"
+        android:title="@string/udfps_customization">
+
+        <Preference
+            android:key="udfps_recognizing_animation_preview"
+            android:title="@string/udfps_recog_animation_effect_title"
+            android:summary="@string/udfps_recog_animation_effect_summary"
+            android:fragment="com.cherish.settings.fragments.UdfpsAnimation" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
