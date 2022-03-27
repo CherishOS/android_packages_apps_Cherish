@@ -613,5 +613,11 @@
     <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
     <string name="lock_screen_custom_clock_face_spark">Spark</string>
     <string name="lock_screen_custom_clock_face_spark_circle">Spark Circle</string>
+	
+	<!-- UDFPS Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
+    <string name="udfps_settings_title">UDFPS settings</string>
+    <string name="udfps_settings_summary">Customizations for the UDFPS</string>
 
 </resources>

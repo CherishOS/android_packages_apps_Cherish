@@ -41,6 +41,7 @@ import android.os.SystemProperties;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.internal.util.cherish.udfps.UdfpsUtils;
 import com.android.internal.util.cherish.CherishUtils;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
@@ -61,6 +62,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 	private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
 	private static final String CUSTOM_CLOCK_FACE = Settings.Secure.LOCK_SCREEN_CUSTOM_CLOCK_FACE;
     private static final String DEFAULT_CLOCK = "com.android.keyguard.clock.DefaultClockController";
+	private static final String UDFPS_CATEGORY = "udfps_category";
 	
 	static final int MODE_DISABLED = 0;
     static final int MODE_NIGHT = 1;
@@ -69,6 +71,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     static final int MODE_MIXED_SUNRISE = 4;
 	
 	private ListPreference mLockClockStyles;
+	private PreferenceCategory mUdfpsCategory;
 	private Context mContext;
 	
 	Preference mAODPref;
@@ -90,6 +93,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             res = ctx.getPackageManager().getResourcesForApplication("com.android.systemui");
         } catch (NameNotFoundException e) {
             e.printStackTrace();
+        }
+		
+		mUdfpsCategory = findPreference(UDFPS_CATEGORY);
+        if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
+            prefSet.removePreference(mUdfpsCategory);
         }
 		
 		mAODPref = findPreference(AOD_SCHEDULE_KEY);
