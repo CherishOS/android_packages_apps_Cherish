@@ -124,6 +124,16 @@
     <string name="theme_select_title">Styles and Wallpapers</string>
     <string name="theme_select_summary">Browse and select installed themes</string>
 
+    <!-- UDFPS settings -->
+    <string name="udfps_category">UDFPS</string>
+    <string name="udfps_customization">UDFPS customization</string>
+    <string name="udfps_recog_animation">UDFPS animation</string>
+    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+    <string name="udfps_settings_title">UDFPS settings</string>
+    <string name="udfps_settings_summary">Settings for customizing the UDFPS</string>
+
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
 	
