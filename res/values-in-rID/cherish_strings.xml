@@ -392,8 +392,31 @@
     <string name="volume_steps_system_title">Tingkat volume: Sistem</string>
     <string name="volume_steps_voice_call_title">Tingkat volume: Panggilan Suara</string>
     <string name="volume_steps_reset">Setel ulang</string>
-    <!-- Location privacy indicator -->
-    <string name="location_privacy_indicator_title">Tampilkan indikator privasi untuk lokasi</string>
+    <!-- Udfps animations -->
+    <string name="udfps_category">Udfps</string>
+    <string name="udfps_recog_animation">Udfps animation</string>
+    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="udfps_recog_animation_effect_title">Udfps animation effect</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+    <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">Udfps icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <!-- Udfps Custom Options -->
+    <string name="udfps_settings_title">Udfps Options</string>
+    <string name="udfps_settings_summary">Different menus for customizing the udfps</string>
+    <!-- Udfps Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">FOD haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching FOD icon</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
+    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
+    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
+    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
+    <!-- Privacy indicators -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location privacy indicator</string>
+    <string name="location_privacy_indicator_summary">Show separate indicator when an any app uses location</string>
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">Ikon Bilah Status Berwarna</string>
     <string name="statusbar_icons_style_summary">Pilih gaya ikon bilah status Anda (memerlukan mulai ulang SistemUI)</string>
@@ -496,13 +519,6 @@
     <string name="status_bar_clock_position_left">Kiri</string>
     <string name="status_bar_clock_position_center">Tengah</string>
     <string name="status_bar_clock_position_hidden">Tersembunyi</string>
-    <string name="status_bar_clock_auto_hide_title">Sembunyikan otomatis</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Sembunyikan jam jika peluncur terlihat</string>
-    <string name="status_bar_clock_auto_hide_summary">Sembunyikan jam secara berkala</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Sembunyikan durasi</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Jumlah detik untuk menyembunyikan jam</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Tampilkan durasi</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Jumlah detik untuk menunggu sebelum menyembunyikan jam</string>
     <string name="status_bar_am_pm_title">Gaya AM/PM</string>
     <string name="status_bar_am_pm_info">Waktu 24-jam diaktifkan</string>
     <string name="status_bar_am_pm_normal">Normal</string>
@@ -531,8 +547,6 @@
     <string name="qs_date_summary">Tampilkan tanggal pada bagian atas bilah status cepat</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Tata letak Setelan</string>
-    <string name="settings_dashboard_style_gms">Bawaan</string>
-    <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_layout_category_title">Atur Antarmuka Setelan</string>
     <!-- Media art -->
     <string name="lockscreen_media_category">Media layar kunci</string>
