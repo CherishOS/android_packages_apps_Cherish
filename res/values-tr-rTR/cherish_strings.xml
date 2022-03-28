@@ -375,9 +375,6 @@
     <string name="pulse_light_both">Dört taraftan</string>
     <string name="pulse_light_top_bottom">Sadece üst-alt</string>
     <string name="pulse_light_left_right">Sadece sol-sağ</string>
-    <!-- Ambient Ticker -->
-    <string name="pulse_on_new_tracks_title">Müzik şeridi</string>
-    <string name="pulse_on_new_tracks_summary">Parça değişimi sırasında ortam ekranında müzik şeridi göster</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Ekran kapalı parmak izi</string>
     <string name="screen_off_fod_summary">Ekran kapalıyken parmak izini açık tutun</string>
@@ -392,8 +389,31 @@
     <string name="volume_steps_system_title">Ses seviyesi: Sistem</string>
     <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli arama</string>
     <string name="volume_steps_reset">Sıfırla</string>
-    <!-- Location privacy indicator -->
-    <string name="location_privacy_indicator_title">Konum için gizlilik göstergesi</string>
+    <!-- Udfps animations -->
+    <string name="udfps_category">Ekran altı parmak izi sensörü</string>
+    <string name="udfps_recog_animation">Parmak izi animasyonu</string>
+    <string name="udfps_recog_animation_summary">Parmağınızı okurken bir animasyon gösterir</string>
+    <string name="udfps_recog_animation_effect_title">Parmak izi animasyon efekti</string>
+    <string name="udfps_recog_animation_effect_summary">Animasyon efekti seç</string>
+    <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">Parmak izi simge seçici</string>
+    <string name="udfps_icon_picker_summary">En sevdiğiniz parmak izi simgesini seçin</string>
+    <!-- Udfps Custom Options -->
+    <string name="udfps_settings_title">Parmak izi seçenekleri</string>
+    <string name="udfps_settings_summary">Parmak izi özelleştirmeleri için farklı menüler</string>
+    <!-- Udfps Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">Parmak izi dokunma geri bildirimi</string>
+    <string name="udfps_haptic_feedback_summary">Parmak izi simgesine dokunulduğunda titret</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Özel parmak izi simgesi</string>
+    <string name="custom_fp_icon_summary">Dosyalardan özel simgeyi etkinleştir</string>
+    <string name="custom_fp_select_title">Özel parmak izi simgesi seç</string>
+    <string name="custom_fp_select_summary">Özel simgeyi kayıtlı dosyalarınızdan veya galeriden seçin</string>
+    <!-- Privacy indicators -->
+    <string name="mic_camera_privacy_indicator_title">Mikrofon ve kamera gizlilik göstergesi</string>
+    <string name="mic_camera_privacy_indicator_summary">Herhangi bir uygulama mikrofon veya kamera kullandığında ayrı gösterge göster</string>
+    <string name="location_privacy_indicator_title">Konum gizlilik göstergesi</string>
+    <string name="location_privacy_indicator_summary">Herhangi bir uygulama konum kullandığında ayrı gösterge göster</string>
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">Renkli Durum Çubuğu Simgeleri</string>
     <string name="statusbar_icons_style_summary">Durum çubuğu ikonları stili (yeniden başlatma gerektirir)</string>
@@ -479,9 +499,6 @@
     <string name="button_timeout_title">Arka ışık zaman aşımı</string>
     <string name="button_backlight_on_touch_only_title">Sadece tuşa dokunulduğunda aydınlat</string>
     <string name="button_backlight_on_touch_only_summary">Tuş aydınlatma ışığı her zaman değil sadece tuşlara basıldığında görünür. Zaman aşımı yine de bu özelliği etkiler.</string>
-    <!-- Hardware keys -->
-    <string name="hardware_keys_category">Donanım gezinme tuşları</string>
-    <string name="hardware_keys_disable_title">Donanım tuşlarını devre dışı bırak</string>
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">Ekran kapanma animasyonu</string>
     <string name="screen_off_animation_crt">CRT</string>
@@ -496,13 +513,6 @@
     <string name="status_bar_clock_position_left">Sol</string>
     <string name="status_bar_clock_position_center">Orta</string>
     <string name="status_bar_clock_position_hidden">Gizli</string>
-    <string name="status_bar_clock_auto_hide_title">Otomatik gizle</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Başlatıcı görünürse saati gizle</string>
-    <string name="status_bar_clock_auto_hide_summary">Saati düzenli aralıklarla gizle</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Gizleme süresi</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Saatin gizlenmesi için gereken saniye süresi</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Görünme süresi</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Saatin gizlenmeden önceki beklenmesi gereken saniye süresi</string>
     <string name="status_bar_am_pm_title">ÖÖ/ÖS stili</string>
     <string name="status_bar_am_pm_info">24 saat biçimi etkin</string>
     <string name="status_bar_am_pm_normal">Normal</string>
@@ -531,8 +541,6 @@
     <string name="qs_date_summary">Hızlı ayarlar durum çubuğu başlığında tarihi göster</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Ayarlar düzeni</string>
-    <string name="settings_dashboard_style_gms">Varsayılan</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
     <string name="settings_layout_category_title">Ayarlar kullanıcı arayüzü</string>
     <!-- Media art -->
     <string name="lockscreen_media_category">Kilit ekranı medya resmi</string>
@@ -602,6 +610,33 @@
     <string name="monet_engine_chroma_factor_title">Berraklık faktörü</string>
     <string name="monet_engine_linear_lightness_title">Doğrusal canlılığı kullan</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Siyah temayı kullan</string>
+    <string name="system_black_theme_summary">Siyah arka plan renklerini zorla</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Müzik parçalarını atla</string>
+    <!-- Navigation bar -->
+    <string name="navigation_title">Gezinme</string>
+    <string name="navigation_bar_category">Gezinme çubuğu</string>
+    <string name="navigation_bar_title">Ekran gezinme çubuğu</string>
+    <string name="navigation_bar_summary">Gezinme tuşlarını etkinleştir</string>
+    <string name="navigation_bar_layout_title">Düzen</string>
+    <string name="navigation_bar_layout_summary">Gezinme çubuğunun düzenini özelleştirin</string>
+    <string name="navigation_bar_arrow_keys_title">Yazı yazarken ok tuşlarını göster</string>
+    <string name="navigation_bar_arrow_keys_summary">Yazarken gezinme çubuğunda sol ve sağ imleç tuşlarını göster</string>
+    <string name="navigation_bar_help_text">Bu ayarlar genel olarak 3 düğmeli gezinme çubuğu ile ilgilidir. Eğer hareketle gezinme kullanıyorsanız ve özelleştirmek istiyorsanız, örn. gezinme çubuğunu gizleme, lütfen Ayarlar &gt; Sistem &gt; Hareketler yolunu ziyaret edin.</string>
+    <string name="nav_bar_tuner_title">Gezinme çubuğu düzenleyicisi</string>
+    <string name="nav_bar_tuner_summary">Gezinme çubuğu düzenini değiştir</string>
+    <string name="navbar_layout_title">Düzen</string>
+    <string name="navbar_layout_normal">Normal</string>
+    <string name="navbar_layout_compact">Kompakt</string>
+    <string name="navbar_layout_leftleaning">Sola yaslanmış</string>
+    <string name="navbar_layout_rightleaning">Sağa yaslanmış</string>
+    <string name="system_navigation_summary">Hangi sistem gezinme stilini kullanacağınızı seçin</string>
+    <!-- HW keys -->
+    <string name="hardware_keys_title">Tuşlar</string>
+    <string name="hardware_keys_category">Donanım gezinme tuşları</string>
+    <string name="hardware_keys_disable_title">Donanım tuşlarını devre dışı bırak</string>
+    <string name="hardware_keys_disable_summary">Gezinme için cihazın donanımsal tuşlarını kullan</string>
+    <!-- NavBar Inverse -->
+    <string name="navigation_bar_inverse_title">Gezinme tuşlarının yerini değiştir</string>
 </resources>
