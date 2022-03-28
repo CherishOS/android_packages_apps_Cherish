@@ -394,26 +394,26 @@
     <string name="udfps_recog_animation">Hiệu ứng vân tay trên màn hình</string>
     <string name="udfps_recog_animation_summary">Hiện hiệu ứng khi đang đọc vân tay của bạn</string>
     <string name="udfps_recog_animation_effect_title">Hiệu ứng hoạt cảnh vân tay</string>
-    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+    <string name="udfps_recog_animation_effect_summary">Chọn hiệu ứng hoạt ảnh</string>
     <!-- Udfps icon picker -->
-    <string name="udfps_icon_picker_title">Udfps icon picker</string>
-    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="udfps_icon_picker_title">Bộ chọn biểu tượng udfps</string>
+    <string name="udfps_icon_picker_summary">Chọn biểu tượng vân tay ưa thích</string>
     <!-- Udfps Custom Options -->
-    <string name="udfps_settings_title">Udfps Options</string>
-    <string name="udfps_settings_summary">Different menus for customizing the udfps</string>
+    <string name="udfps_settings_title">Lựa chọn Udfps</string>
+    <string name="udfps_settings_summary">Menu khác để tùy biến udfps</string>
     <!-- Udfps Haptic Feedback -->
-    <string name="udfps_haptic_feedback_title">FOD haptic feedback</string>
-    <string name="udfps_haptic_feedback_summary">Vibrate when touching FOD icon</string>
+    <string name="udfps_haptic_feedback_title">Dùng phản hồi xúc giác FOD</string>
+    <string name="udfps_haptic_feedback_summary">Rung khi chạm các icon FOD</string>
     <!-- Custom FOD Icon -->
-    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
-    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
-    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
-    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
+    <string name="custom_fp_icon_title">Biểu tượng UDFPS tùy biến</string>
+    <string name="custom_fp_icon_summary">Bật biểu tượng UDFPS tùy biến từ files</string>
+    <string name="custom_fp_select_title">Chọn biểu tượng UDFPS tùy biến</string>
+    <string name="custom_fp_select_summary">Chọn hình ảnh tùy chỉnh từ các tệp hoặc thư viện đã lưu của bạn</string>
     <!-- Privacy indicators -->
-    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
-    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
-    <string name="location_privacy_indicator_title">Location privacy indicator</string>
-    <string name="location_privacy_indicator_summary">Show separate indicator when an any app uses location</string>
+    <string name="mic_camera_privacy_indicator_title">Biểu tượng sử dụng mic và camera</string>
+    <string name="mic_camera_privacy_indicator_summary">Hiện thị biểu tượng tách biệt khi một app nào đó sử dụng mic và camera</string>
+    <string name="location_privacy_indicator_title">Biểu tượng sử dụng vị trí</string>
+    <string name="location_privacy_indicator_summary">Hiển thị chấm riêng biệt khi mà một ứng dụng bất kì nào đó dùng quyền vị trí</string>
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">Các biểu tượng trên thanh trạng thái có màu</string>
     <string name="statusbar_icons_style_summary">Chọn kiểu biểu tượng trên thanh trạng thái của bạn (yêu cầu khởi động lại SystemUI)</string>
@@ -613,30 +613,30 @@
     <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
     <string name="system_black_theme_summary">Buộc màu nền đen</string>
     <!-- Volume rocker gestures -->
-    <string name="volume_skiptrack_screen_title">Skip music tracks</string>
+    <string name="volume_skiptrack_screen_title">Bỏ qua bản nhạc</string>
     <!-- Navigation bar -->
-    <string name="navigation_title">Navigatie</string>
-    <string name="navigation_bar_category">Navigation bar</string>
-    <string name="navigation_bar_title">On-screen navigation bar</string>
-    <string name="navigation_bar_summary">Enable on-screen navigation keys</string>
-    <string name="navigation_bar_layout_title">Layout</string>
-    <string name="navigation_bar_layout_summary">Customize the layout of the navigation bar</string>
-    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
-    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons in navigation bar while typing</string>
-    <string name="navigation_bar_help_text">These settings mainly relate to the 3-button navigation bar. If you use gesture navigation and want to customize it, e.g. hide the gesture handle, please visit: Settings &gt; System &gt; Gestures.</string>
-    <string name="nav_bar_tuner_title">Navigation bar tuner</string>
-    <string name="nav_bar_tuner_summary">Change nav bar layout</string>
-    <string name="navbar_layout_title">Layout</string>
-    <string name="navbar_layout_normal">Normal</string>
-    <string name="navbar_layout_compact">Compact</string>
-    <string name="navbar_layout_leftleaning">Left-leaning</string>
-    <string name="navbar_layout_rightleaning">Right-leaning</string>
-    <string name="system_navigation_summary">Choose which system navigation style to use</string>
+    <string name="navigation_title">Thanh điều hướng</string>
+    <string name="navigation_bar_category">Thanh điều hướng</string>
+    <string name="navigation_bar_title">Thanh điều hướng trên màn hình</string>
+    <string name="navigation_bar_summary">Bật các phím điều hướng trên màn hình</string>
+    <string name="navigation_bar_layout_title">Bố cục</string>
+    <string name="navigation_bar_layout_summary">Tùy chỉnh bố cục của thanh điều hướng</string>
+    <string name="navigation_bar_arrow_keys_title">Hiển thị các phím mũi tên trong khi nhập</string>
+    <string name="navigation_bar_arrow_keys_summary">Hiển thị các con trỏ trái và phải trong thanh điều hướng trong khi gõ</string>
+    <string name="navigation_bar_help_text">Các cài đặt này chủ yếu liên quan đến thanh điều hướng 3 nút. Nếu bạn sử dụng điều hướng bằng cử chỉ và muốn tùy chỉnh nó, ví dụ: ẩn tay cầm cử chỉ, vui lòng truy cập: Cài đặt &amp; gt; Hệ thống &amp; gt; Cử chỉ.</string>
+    <string name="nav_bar_tuner_title">Trình chỉnh sửa thanh điều hướng</string>
+    <string name="nav_bar_tuner_summary">Thay đổi cách bố trí thanh điều hướng</string>
+    <string name="navbar_layout_title">Bố cục</string>
+    <string name="navbar_layout_normal">Bình thường</string>
+    <string name="navbar_layout_compact">Nhỏ gọn</string>
+    <string name="navbar_layout_leftleaning">Nghiêng sang trái</string>
+    <string name="navbar_layout_rightleaning">Nghiêng sang phải</string>
+    <string name="system_navigation_summary">Chọn kiểu điều hướng hệ thống sẽ sử dụng</string>
     <!-- HW keys -->
-    <string name="hardware_keys_title">Buttons</string>
+    <string name="hardware_keys_title">Phím</string>
     <string name="hardware_keys_category">Phím cứng</string>
     <string name="hardware_keys_disable_title">Tắt phím</string>
-    <string name="hardware_keys_disable_summary">Use the device hardware keys for navigation</string>
+    <string name="hardware_keys_disable_summary">Sử dụng các phím cứng của thiết bị để điều hướng</string>
     <!-- NavBar Inverse -->
-    <string name="navigation_bar_inverse_title">Invert 3 button navigation bar</string>
+    <string name="navigation_bar_inverse_title">Đảo ngược bố cục của thanh điều hướng</string>
 </resources>
