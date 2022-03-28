@@ -375,9 +375,6 @@
     <string name="pulse_light_both">Semua Empat Sisi</string>
     <string name="pulse_light_top_bottom">Hanya Atas-Bawah</string>
     <string name="pulse_light_left_right">Hanya Kiri-Kanan</string>
-    <!-- Ambient Ticker -->
-    <string name="pulse_on_new_tracks_title">Penampil musik</string>
-    <string name="pulse_on_new_tracks_summary">Tampilkan penampil musik di Tampilan Ambien selama perubahan trek</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">FOD layar mati</string>
     <string name="screen_off_fod_summary">Tetap aktifkan FOD saat layar mati</string>
@@ -392,8 +389,31 @@
     <string name="volume_steps_system_title">Tingkat volume: Sistem</string>
     <string name="volume_steps_voice_call_title">Tingkat volume: Panggilan Suara</string>
     <string name="volume_steps_reset">Setel ulang</string>
-    <!-- Location privacy indicator -->
-    <string name="location_privacy_indicator_title">Tampilkan indikator privasi untuk lokasi</string>
+    <!-- Udfps animations -->
+    <string name="udfps_category">Sidik jari dalam layar</string>
+    <string name="udfps_recog_animation">Animasi sidik jari dalam layar</string>
+    <string name="udfps_recog_animation_summary">Perlihatkan animasi saat jari Anda terdeteksi</string>
+    <string name="udfps_recog_animation_effect_title">Efek animasi sidik jari dalam layar</string>
+    <string name="udfps_recog_animation_effect_summary">Pilih efek animasi</string>
+    <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">Pemilih ikon sidik jari dalam layar</string>
+    <string name="udfps_icon_picker_summary">Pilih ikon sidik jari favorit Anda</string>
+    <!-- Udfps Custom Options -->
+    <string name="udfps_settings_title">Opsi Sidik Jari Dalam Layar</string>
+    <string name="udfps_settings_summary">Menu berbeda untuk menyesuaikan sidik jari dalam layar</string>
+    <!-- Udfps Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">Umpan balik FOD</string>
+    <string name="udfps_haptic_feedback_summary">Bergetar saat menyentuh ikon FOD</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Ikon kustom Sidik Jari Dalam Layar</string>
+    <string name="custom_fp_icon_summary">Aktifkan ikon kustom sidik jari dalam layar dari file</string>
+    <string name="custom_fp_select_title">Pilih Ikon Kustom Sidik Jari Dalam Layar</string>
+    <string name="custom_fp_select_summary">Pilih gambar kustom dari file atau galeri yang Anda simpan</string>
+    <!-- Privacy indicators -->
+    <string name="mic_camera_privacy_indicator_title">Indikator privasi mikrofon dan kamera</string>
+    <string name="mic_camera_privacy_indicator_summary">Tampilkan indikator terpisah saat aplikasi apa pun menggunakan mikrofon atau kamera</string>
+    <string name="location_privacy_indicator_title">Indikator privasi lokasi</string>
+    <string name="location_privacy_indicator_summary">Tampilkan indikator terpisah saat aplikasi apa pun menggunakan lokasi</string>
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">Ikon Bilah Status Berwarna</string>
     <string name="statusbar_icons_style_summary">Pilih gaya ikon bilah status Anda (memerlukan mulai ulang SistemUI)</string>
@@ -479,9 +499,6 @@
     <string name="button_timeout_title">Batas waktu lampu latar</string>
     <string name="button_backlight_on_touch_only_title">Sentuh lampu latar tombol</string>
     <string name="button_backlight_on_touch_only_summary">Lampu latar tombol hanya akan tampak ketika tombol ditekan daripada aktif sepanjang waktu. Batas waktu masih mempengaruhi fitur ini.</string>
-    <!-- Hardware keys -->
-    <string name="hardware_keys_category">Tombol navigasi fisik</string>
-    <string name="hardware_keys_disable_title">Nonaktifkan tombol fisik</string>
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">Animasi Layar Mati</string>
     <string name="screen_off_animation_crt">CRT</string>
@@ -496,13 +513,6 @@
     <string name="status_bar_clock_position_left">Kiri</string>
     <string name="status_bar_clock_position_center">Tengah</string>
     <string name="status_bar_clock_position_hidden">Tersembunyi</string>
-    <string name="status_bar_clock_auto_hide_title">Sembunyikan otomatis</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Sembunyikan jam jika peluncur terlihat</string>
-    <string name="status_bar_clock_auto_hide_summary">Sembunyikan jam secara berkala</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Sembunyikan durasi</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Jumlah detik untuk menyembunyikan jam</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Tampilkan durasi</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Jumlah detik untuk menunggu sebelum menyembunyikan jam</string>
     <string name="status_bar_am_pm_title">Gaya AM/PM</string>
     <string name="status_bar_am_pm_info">Waktu 24-jam diaktifkan</string>
     <string name="status_bar_am_pm_normal">Normal</string>
@@ -531,8 +541,6 @@
     <string name="qs_date_summary">Tampilkan tanggal pada bagian atas bilah status cepat</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Tata letak Setelan</string>
-    <string name="settings_dashboard_style_gms">Bawaan</string>
-    <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_layout_category_title">Atur Antarmuka Setelan</string>
     <!-- Media art -->
     <string name="lockscreen_media_category">Media layar kunci</string>
@@ -604,4 +612,31 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Gunakan tema gelap</string>
     <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Lewati trek lagu</string>
+    <!-- Navigation bar -->
+    <string name="navigation_title">Navigasi</string>
+    <string name="navigation_bar_category">Bilah navigasi</string>
+    <string name="navigation_bar_title">Bilah navigasi di layar</string>
+    <string name="navigation_bar_summary">Aktifkan tombol navigasi pada layar</string>
+    <string name="navigation_bar_layout_title">Tata letak</string>
+    <string name="navigation_bar_layout_summary">Sesuaikan tata letak bilah navigasi</string>
+    <string name="navigation_bar_arrow_keys_title">Tampilkan tombol panah saat mengetik</string>
+    <string name="navigation_bar_arrow_keys_summary">Tampilkan tombol kursor kiri dan kanan di bilah navigasi saat mengetik</string>
+    <string name="navigation_bar_help_text">Setelan ini terutama terkait dengan bilah navigasi 3 tombol. Jika Anda menggunakan navigasi gestur dan ingin menyesuaikannya, misalkan sembunyikan pegangan gestur, silakan kunjungi: Setelan &gt; Sistem &gt; Gestur.</string>
+    <string name="nav_bar_tuner_title">Atur bilah navigasi</string>
+    <string name="nav_bar_tuner_summary">Ubah tata letak tombol navigasi</string>
+    <string name="navbar_layout_title">Tata letak</string>
+    <string name="navbar_layout_normal">Normal</string>
+    <string name="navbar_layout_compact">Ringkas</string>
+    <string name="navbar_layout_leftleaning">Condong ke kiri</string>
+    <string name="navbar_layout_rightleaning">Condong ke kanan</string>
+    <string name="system_navigation_summary">Pilih gaya navigasi sistem yang akan digunakan</string>
+    <!-- HW keys -->
+    <string name="hardware_keys_title">Tombol</string>
+    <string name="hardware_keys_category">Tombol navigasi fisik</string>
+    <string name="hardware_keys_disable_title">Nonaktifkan tombol fisik</string>
+    <string name="hardware_keys_disable_summary">Gunakan tombol fisik perangkat untuk navigasi</string>
+    <!-- NavBar Inverse -->
+    <string name="navigation_bar_inverse_title">Balikkan bilah navigasi 3 tombol</string>
 </resources>

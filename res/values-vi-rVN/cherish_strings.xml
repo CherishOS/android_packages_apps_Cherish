@@ -375,9 +375,6 @@
     <string name="pulse_light_both">Tất cả bốn mặt</string>
     <string name="pulse_light_top_bottom">Trên và dưới</string>
     <string name="pulse_light_left_right">Trái và phải</string>
-    <!-- Ambient Ticker -->
-    <string name="pulse_on_new_tracks_title">Thông báo nhạc</string>
-    <string name="pulse_on_new_tracks_summary">Hiển thị nhạc trên Màn hình môi trường trong khi thay đổi bản nhạc</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">FOD ở chế độ chờ</string>
     <string name="screen_off_fod_summary">Giữ trạng thái FOD bật khi màn hình tắt</string>
@@ -392,8 +389,31 @@
     <string name="volume_steps_system_title">Mức âm lượng: Hệ thống</string>
     <string name="volume_steps_voice_call_title">Mức âm lượng: Gọi thoại</string>
     <string name="volume_steps_reset">Thiết lập lại</string>
-    <!-- Location privacy indicator -->
-    <string name="location_privacy_indicator_title">Hiển thị chỉ báo quyền riêng tư cho vị trí</string>
+    <!-- Udfps animations -->
+    <string name="udfps_category">Vân tay trong màn</string>
+    <string name="udfps_recog_animation">Hiệu ứng vân tay trên màn hình</string>
+    <string name="udfps_recog_animation_summary">Hiện hiệu ứng khi đang đọc vân tay của bạn</string>
+    <string name="udfps_recog_animation_effect_title">Hiệu ứng hoạt cảnh vân tay</string>
+    <string name="udfps_recog_animation_effect_summary">Chọn hiệu ứng hoạt ảnh</string>
+    <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">Bộ chọn biểu tượng udfps</string>
+    <string name="udfps_icon_picker_summary">Chọn biểu tượng vân tay ưa thích</string>
+    <!-- Udfps Custom Options -->
+    <string name="udfps_settings_title">Lựa chọn Udfps</string>
+    <string name="udfps_settings_summary">Menu khác để tùy biến udfps</string>
+    <!-- Udfps Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">Dùng phản hồi xúc giác FOD</string>
+    <string name="udfps_haptic_feedback_summary">Rung khi chạm các icon FOD</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Biểu tượng UDFPS tùy biến</string>
+    <string name="custom_fp_icon_summary">Bật biểu tượng UDFPS tùy biến từ files</string>
+    <string name="custom_fp_select_title">Chọn biểu tượng UDFPS tùy biến</string>
+    <string name="custom_fp_select_summary">Chọn hình ảnh tùy chỉnh từ các tệp hoặc thư viện đã lưu của bạn</string>
+    <!-- Privacy indicators -->
+    <string name="mic_camera_privacy_indicator_title">Biểu tượng sử dụng mic và camera</string>
+    <string name="mic_camera_privacy_indicator_summary">Hiện thị biểu tượng tách biệt khi một app nào đó sử dụng mic và camera</string>
+    <string name="location_privacy_indicator_title">Biểu tượng sử dụng vị trí</string>
+    <string name="location_privacy_indicator_summary">Hiển thị chấm riêng biệt khi mà một ứng dụng bất kì nào đó dùng quyền vị trí</string>
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">Các biểu tượng trên thanh trạng thái có màu</string>
     <string name="statusbar_icons_style_summary">Chọn kiểu biểu tượng trên thanh trạng thái của bạn (yêu cầu khởi động lại SystemUI)</string>
@@ -479,9 +499,6 @@
     <string name="button_timeout_title">Thời gian chờ đèn nền</string>
     <string name="button_backlight_on_touch_only_title">Chạm vào nút</string>
     <string name="button_backlight_on_touch_only_summary">Bật đèn nền với thời gian chờ khi chạm vào nút</string>
-    <!-- Hardware keys -->
-    <string name="hardware_keys_category">Phím cứng</string>
-    <string name="hardware_keys_disable_title">Tắt phím</string>
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">Hiệu ứng tắt màn hình</string>
     <string name="screen_off_animation_crt">CRT</string>
@@ -496,13 +513,6 @@
     <string name="status_bar_clock_position_left">Trái</string>
     <string name="status_bar_clock_position_center">Giữa</string>
     <string name="status_bar_clock_position_hidden">Ẩn</string>
-    <string name="status_bar_clock_auto_hide_title">Tự động ẩn</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Ẩn đồng hồ nếu trình khởi chạy hiển thị</string>
-    <string name="status_bar_clock_auto_hide_summary">Ẩn đồng hồ ở khoảng thời gian đều đặn</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Ẩn thời gian</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Số giây để ẩn đồng hồ</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Hiển thị thời gian</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Số giây để chờ đợi trước khi ẩn đồng hồ</string>
     <string name="status_bar_am_pm_title">Kiểu SA/CH</string>
     <string name="status_bar_am_pm_info">đồng hồ dạng 24-giờ được kích hoạt</string>
     <string name="status_bar_am_pm_normal">Bình thường</string>
@@ -531,8 +541,6 @@
     <string name="qs_date_summary">Hiển thị ngày tháng ở phía trên thanh phím tắt nhanh</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Bố cục cài đặt</string>
-    <string name="settings_dashboard_style_gms">Mặc định</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
     <string name="settings_layout_category_title">Giao diện cài đặt</string>
     <!-- Media art -->
     <string name="lockscreen_media_category">Nhạc trên màn hình khóa</string>
@@ -604,4 +612,31 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
     <string name="system_black_theme_summary">Buộc màu nền đen</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Bỏ qua bản nhạc</string>
+    <!-- Navigation bar -->
+    <string name="navigation_title">Thanh điều hướng</string>
+    <string name="navigation_bar_category">Thanh điều hướng</string>
+    <string name="navigation_bar_title">Thanh điều hướng trên màn hình</string>
+    <string name="navigation_bar_summary">Bật các phím điều hướng trên màn hình</string>
+    <string name="navigation_bar_layout_title">Bố cục</string>
+    <string name="navigation_bar_layout_summary">Tùy chỉnh bố cục của thanh điều hướng</string>
+    <string name="navigation_bar_arrow_keys_title">Hiển thị các phím mũi tên trong khi nhập</string>
+    <string name="navigation_bar_arrow_keys_summary">Hiển thị các con trỏ trái và phải trong thanh điều hướng trong khi gõ</string>
+    <string name="navigation_bar_help_text">Các cài đặt này chủ yếu liên quan đến thanh điều hướng 3 nút. Nếu bạn sử dụng điều hướng bằng cử chỉ và muốn tùy chỉnh nó, ví dụ: ẩn tay cầm cử chỉ, vui lòng truy cập: Cài đặt &amp; gt; Hệ thống &amp; gt; Cử chỉ.</string>
+    <string name="nav_bar_tuner_title">Trình chỉnh sửa thanh điều hướng</string>
+    <string name="nav_bar_tuner_summary">Thay đổi cách bố trí thanh điều hướng</string>
+    <string name="navbar_layout_title">Bố cục</string>
+    <string name="navbar_layout_normal">Bình thường</string>
+    <string name="navbar_layout_compact">Nhỏ gọn</string>
+    <string name="navbar_layout_leftleaning">Nghiêng sang trái</string>
+    <string name="navbar_layout_rightleaning">Nghiêng sang phải</string>
+    <string name="system_navigation_summary">Chọn kiểu điều hướng hệ thống sẽ sử dụng</string>
+    <!-- HW keys -->
+    <string name="hardware_keys_title">Phím</string>
+    <string name="hardware_keys_category">Phím cứng</string>
+    <string name="hardware_keys_disable_title">Tắt phím</string>
+    <string name="hardware_keys_disable_summary">Sử dụng các phím cứng của thiết bị để điều hướng</string>
+    <!-- NavBar Inverse -->
+    <string name="navigation_bar_inverse_title">Đảo ngược bố cục của thanh điều hướng</string>
 </resources>

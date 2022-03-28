@@ -14,7 +14,7 @@
     <!-- App Title -->
     <string name="cherish_settings_title">Cherish 設定</string>
     <!-- Units -->
-    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_milliseconds">ミリ秒</string>
     <string name="unit_seconds">秒</string>
     <!-- Categories -->
     <string name="button_title">ボタン</string>
@@ -375,9 +375,6 @@
     <string name="pulse_light_both">四辺全て</string>
     <string name="pulse_light_top_bottom">上下のみ</string>
     <string name="pulse_light_left_right">左右のみ</string>
-    <!-- Ambient Ticker -->
-    <string name="pulse_on_new_tracks_title">音楽ティッカー</string>
-    <string name="pulse_on_new_tracks_summary">再生中の音楽の変更時にアンビエント表示に音楽ティッカーを表示する</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">画面消灯時の画面内指紋認証</string>
     <string name="screen_off_fod_summary">画面消灯時も画面内指紋認証を使用する</string>
@@ -392,8 +389,31 @@
     <string name="volume_steps_system_title">音量レベル: システム</string>
     <string name="volume_steps_voice_call_title">音量レベル: 音声通話</string>
     <string name="volume_steps_reset">リセット</string>
-    <!-- Location privacy indicator -->
-    <string name="location_privacy_indicator_title">位置情報プライバシー表示</string>
+    <!-- Udfps animations -->
+    <string name="udfps_category">画面内指紋認証</string>
+    <string name="udfps_recog_animation">画面内指紋認証アニメーション</string>
+    <string name="udfps_recog_animation_summary">指紋認識中にアニメーションを表示する</string>
+    <string name="udfps_recog_animation_effect_title">画面内指紋認証アニメーションの効果</string>
+    <string name="udfps_recog_animation_effect_summary">アニメーション効果を選択する</string>
+    <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">画面内指紋認証アイコンの選択</string>
+    <string name="udfps_icon_picker_summary">お気に入りの指紋アイコンを選択する</string>
+    <!-- Udfps Custom Options -->
+    <string name="udfps_settings_title">画面内指紋認証オプション</string>
+    <string name="udfps_settings_summary">様々なメニューで画面内指紋認証を編集する</string>
+    <!-- Udfps Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">画面内指紋認証の振動</string>
+    <string name="udfps_haptic_feedback_summary">画面内指紋認証アイコンに触れた時に振動させる</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">カスタム画面内指紋認証アイコン</string>
+    <string name="custom_fp_icon_summary">ファイルからカスタムの画面内指紋認証アイコンを有効にする</string>
+    <string name="custom_fp_select_title">カスタム画面内指紋認証アイコンを選択</string>
+    <string name="custom_fp_select_summary">保存したファイルまたはギャラリーからカスタム画像を選択する</string>
+    <!-- Privacy indicators -->
+    <string name="mic_camera_privacy_indicator_title">マイクとカメラのプライバシー表示</string>
+    <string name="mic_camera_privacy_indicator_summary">アプリがマイクまたはカメラを使用する時にインジケーターを表示する</string>
+    <string name="location_privacy_indicator_title">位置情報のプライバシー表示</string>
+    <string name="location_privacy_indicator_summary">アプリが位置情報を使用する時にインジケーターを表示する</string>
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">ステータスバーの色</string>
     <string name="statusbar_icons_style_summary">ステータスバーのスタイルを選択する (システム UI の再起動が必要です)</string>
@@ -479,9 +499,6 @@
     <string name="button_timeout_title">バックライトの点灯時間</string>
     <string name="button_backlight_on_touch_only_title">タッチ時のみバックライトを点灯</string>
     <string name="button_backlight_on_touch_only_summary">ボタンを押した時にだけバックライトが点灯するようになります。点灯時間はこの設定にも引き続き影響します。</string>
-    <!-- Hardware keys -->
-    <string name="hardware_keys_category">ハードウェアナビゲーション</string>
-    <string name="hardware_keys_disable_title">ハードウェアボタンを無効化</string>
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">画面消灯時のアニメーション</string>
     <string name="screen_off_animation_crt">ブラウン管</string>
@@ -496,112 +513,130 @@
     <string name="status_bar_clock_position_left">左</string>
     <string name="status_bar_clock_position_center">中央</string>
     <string name="status_bar_clock_position_hidden">非表示</string>
-    <string name="status_bar_clock_auto_hide_title">Auto hide</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide clock at regular interval</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">非表示にする時間</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">時計を非表示にする秒数の長さを指定する</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">表示する時間</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">時計を非表示にする前の秒数の長さを指定する</string>
     <string name="status_bar_am_pm_title">AM/PM のスタイル</string>
     <string name="status_bar_am_pm_info">24時間表示が有効です</string>
     <string name="status_bar_am_pm_normal">標準</string>
     <string name="status_bar_am_pm_small">小</string>
     <string name="status_bar_am_pm_hidden">非表示</string>
-    <string name="status_bar_date_title">Date</string>
-    <string name="status_bar_date_none">Hidden</string>
-    <string name="status_bar_date_small">Small</string>
-    <string name="status_bar_date_normal">Normal</string>
-    <string name="status_bar_date_format_title">Date format</string>
-    <string name="status_bar_date_style">Date style</string>
-    <string name="status_bar_date_style_normal">Normal</string>
-    <string name="status_bar_date_style_lowercase">Lowercase</string>
-    <string name="status_bar_date_style_uppercase">Uppercase</string>
-    <string name="status_bar_date_format_custom">Custom java format</string>
-    <string name="status_bar_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="status_bar_date_string_edittext_summary">Enter string</string>
+    <string name="status_bar_date_title">日付</string>
+    <string name="status_bar_date_none">非表示</string>
+    <string name="status_bar_date_small">小</string>
+    <string name="status_bar_date_normal">標準</string>
+    <string name="status_bar_date_format_title">日付の形式</string>
+    <string name="status_bar_date_style">日付のスタイル</string>
+    <string name="status_bar_date_style_normal">標準</string>
+    <string name="status_bar_date_style_lowercase">小文字</string>
+    <string name="status_bar_date_style_uppercase">大文字</string>
+    <string name="status_bar_date_format_custom">カスタム java 形式</string>
+    <string name="status_bar_date_string_edittext_title">DateFormat 形式で入力して下さい (例: yy/MM/dd)</string>
+    <string name="status_bar_date_string_edittext_summary">文字列を入力</string>
     <string name="clock_date_position">日付の位置</string>
     <string name="clock_date_right">時刻の右</string>
     <string name="clock_date_left">時刻の左</string>
     <!-- QS clock -->
-    <string name="qs_clock_title">Clock</string>
-    <string name="qs_clock_summary">Display clock in quick status bar header</string>
+    <string name="qs_clock_title">時計</string>
+    <string name="qs_clock_summary">クイックステータスバーのヘッダーに時計を表示する</string>
     <!-- QS date -->
-    <string name="qs_date_title">Date</string>
-    <string name="qs_date_summary">Display date in quick status bar header</string>
+    <string name="qs_date_title">日付</string>
+    <string name="qs_date_summary">クイックステータスバーのヘッダーに日付を表示する</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">設定のレイアウト</string>
-    <string name="settings_dashboard_style_gms">既定</string>
-    <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_layout_category_title">設定 UI のインターフェース</string>
     <!-- Media art -->
-    <string name="lockscreen_media_category">Lock screen media</string>
-    <string name="media_art_title">Media cover art</string>
-    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <string name="lockscreen_media_category">ロック画面のメディアアート</string>
+    <string name="media_art_title">メディアカバーアート</string>
+    <string name="media_art_summary">ロック画面にアルバムアートを表示する</string>
     <!-- Lockscreen album art filter -->
-    <string name="lockscreen_albumart_filter_title">Media cover art filter</string>
-    <string name="lockscreen_albumart_filter_none">None</string>
-    <string name="lockscreen_albumart_filter_grayscale">Grayscale</string>
-    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
-    <string name="lockscreen_albumart_filter_blur">Blur</string>
-    <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
+    <string name="lockscreen_albumart_filter_title">メディアカバーアートのフィルター</string>
+    <string name="lockscreen_albumart_filter_none">なし</string>
+    <string name="lockscreen_albumart_filter_grayscale">グレースケール</string>
+    <string name="lockscreen_albumart_filter_tint">アクセントの色</string>
+    <string name="lockscreen_albumart_filter_blur">ぼかし</string>
+    <string name="lockscreen_albumart_filter_grayblur">グレースケールとぼかし</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_help_policy_notice_title">About Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_help_policy_notice_title">Pulse について</string>
+    <string name="pulse_help_policy_notice_summary">Pulse は端末上で音楽を再生した時に表示されるグラフィックイコライザーです</string>
     <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
-    <string name="show_navbar_pulse_title">Navbar Pulse</string>
-    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
-    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
-    <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
-    <string name="show_ambient_pulse_title">Ambient Pulse</string>
-    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
-    <string name="pulse_render_mode_title">Render mode</string>
-    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
-    <string name="pulse_render_mode_solid_lines">Solid lines</string>
-    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
-    <string name="pulse_custom_fudge_factor">Sanity level</string>
-    <string name="pulse_lavalamp_speed_title">Lava lamp speed</string>
-    <string name="pulse_solid_units_count">Solid lines count</string>
-    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
-    <string name="pulse_solid_units_rounded_title">Rounded corners</string>
-    <string name="pulse_solid_units_rounded_summary">Solid lines with rounded tip</string>
-    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
-    <string name="pulse_color_mode_title">Color</string>
-    <string name="pulse_color_accent">Accent</string>
-    <string name="pulse_color_custom">Custom</string>
-    <string name="pulse_color_lava_lamp">Lava lamp</string>
-    <string name="pulse_color_user_title">Choose color</string>
-    <string name="pulse_smoothing_enabled_title">Turn on smoothing</string>
-    <string name="pulse_smoothing_enabled_summary">Each bar is animated more smoothly</string>
-    <string name="pulse_custom_dimen">Bar width</string>
-    <string name="pulse_custom_div">Bar spacing</string>
-    <string name="pulse_filled_block_size">Block size</string>
-    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_settings_summary">ナビゲーションバーとロック画面に表示されるグラフィックイコライザー</string>
+    <string name="show_navbar_pulse_title">ナビゲーションバーの Pulse</string>
+    <string name="show_navbar_pulse_summary">ナビゲーションバー上の音楽グラフィックイコライザー</string>
+    <string name="show_lockscreen_pulse_title">ロック画面の Pulse</string>
+    <string name="show_lockscreen_pulse_summary">ロック画面のグラフィックイコライザー</string>
+    <string name="show_ambient_pulse_title">アンビエントの Pulse</string>
+    <string name="show_ambient_pulse_summary">アンビエント画面の音楽グラフィックイコライザー</string>
+    <string name="pulse_render_mode_title">レンダリングモード</string>
+    <string name="pulse_render_mode_fading_bars">フェーディングブロック</string>
+    <string name="pulse_render_mode_solid_lines">ソリッドライン</string>
+    <string name="pulse_legacy_mode_advanced_category">フェーディングブロックの設定</string>
+    <string name="pulse_custom_fudge_factor">感度レベル</string>
+    <string name="pulse_lavalamp_speed_title">ラーヴァランプの速度</string>
+    <string name="pulse_solid_units_count">ソリッドラインの数</string>
+    <string name="pulse_solid_units_opacity">ソリッドラインの不透明度</string>
+    <string name="pulse_solid_units_rounded_title">角を丸める</string>
+    <string name="pulse_solid_units_rounded_summary">丸みを帯びたソリッドライン</string>
+    <string name="pulse_solid_dimen_category">ソリッドラインの設定</string>
+    <string name="pulse_color_mode_title">色</string>
+    <string name="pulse_color_accent">アクセント</string>
+    <string name="pulse_color_custom">カスタム</string>
+    <string name="pulse_color_lava_lamp">ラーヴァランプ</string>
+    <string name="pulse_color_user_title">色の選択</string>
+    <string name="pulse_smoothing_enabled_title">スムージングの有効化</string>
+    <string name="pulse_smoothing_enabled_summary">両方のバーがよりスムーズに表示されます</string>
+    <string name="pulse_custom_dimen">バーの幅</string>
+    <string name="pulse_custom_div">バーの間隔</string>
+    <string name="pulse_filled_block_size">ブロックの大きさ</string>
+    <string name="pulse_empty_block_size">ブロックの間隔</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_category">Brightness slider</string>
-    <string name="qs_brightness_slider_title">Show brightness slider</string>
-    <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
-    <string name="qs_brightness_position_bottom_title">Show brightness slider on bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+    <string name="qs_brightness_slider_category">明るさスライダー</string>
+    <string name="qs_brightness_slider_title">明るさスライダーを表示</string>
+    <string name="qs_brightness_slider_summary">クイック設定パネルに明るさスライダーを表示する</string>
+    <string name="qs_brightness_position_bottom_title">下部に明るさスライダーを表示</string>
+    <string name="qs_brightness_position_bottom_summary">クイック設定下部に明るさスライダーを表示する</string>
     <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Adaptive brightness button</string>
-    <string name="brightness_icon_summary">Show adaptive brightness button</string>
+    <string name="brightness_icon_title">明るさ自動調節ボタン</string>
+    <string name="brightness_icon_summary">明るさ自動調節ボタンを表示する</string>
     <!-- Quick QS Panel brightness slider -->
-    <string name="quick_qs_brightness_slider_title">Show brightness slider in Quick QS Panel</string>
-    <string name="quick_qs_brightness_slider_summary">Show a brightness slider in the quick qs panel</string>
+    <string name="quick_qs_brightness_slider_title">明るさスライダーを表示</string>
+    <string name="quick_qs_brightness_slider_summary">クイック設定に画面の明るさスライダーを表示する</string>
     <!-- Monet Engine -->
     <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Monet engine</string>
-    <string name="monet_engine_summary">Customize monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_title">Monet エンジン</string>
+    <string name="monet_engine_summary">Monet のパラメータを編集する</string>
+    <string name="monet_engine_custom_color_title">カスタムの色を使用</string>
+    <string name="monet_engine_custom_color_summary">Monet エンジンに壁紙の色の代わりにカスタムの色を使用する</string>
+    <string name="monet_engine_color_override_title">カスタムの色</string>
+    <string name="monet_engine_white_luminance_user_title">白い輝き</string>
+    <string name="monet_engine_accurate_shades_title">正確な色合いを使用</string>
+    <string name="monet_engine_chroma_factor_title">クローマ (彩度) 係数</string>
+    <string name="monet_engine_linear_lightness_title">線形の明度を使用</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">ブラックテーマを使用</string>
+    <string name="system_black_theme_summary">強制的に黒い背景のテーマを使用する</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">音楽トラックをスキップ</string>
+    <!-- Navigation bar -->
+    <string name="navigation_title">ナビゲーション</string>
+    <string name="navigation_bar_category">ナビゲーションバー</string>
+    <string name="navigation_bar_title">画面内ナビゲーションバー</string>
+    <string name="navigation_bar_summary">画面上にナビゲーションバーを表示する</string>
+    <string name="navigation_bar_layout_title">レイアウト</string>
+    <string name="navigation_bar_layout_summary">ナビゲーションバーのレイアウトを編集する</string>
+    <string name="navigation_bar_arrow_keys_title">入力中に矢印キーを表示</string>
+    <string name="navigation_bar_arrow_keys_summary">入力中は左右のカーソルボタンをナビゲーションバーに表示する</string>
+    <string name="navigation_bar_help_text">これらは主に3ボタンナビゲーションバーに関係する設定です。ジェスチャーナビゲーションを使用していて、それをカスタマイズ (例: ジェスチャーハンドルを隠す) しようとする場合は、「設定&gt;システム&gt;ジェスチャー」に移動して下さい。</string>
+    <string name="nav_bar_tuner_title">ナビゲーションバーチューナー</string>
+    <string name="nav_bar_tuner_summary">ナビゲーションバーのレイアウトを変更する</string>
+    <string name="navbar_layout_title">レイアウト</string>
+    <string name="navbar_layout_normal">標準</string>
+    <string name="navbar_layout_compact">コンパクト</string>
+    <string name="navbar_layout_leftleaning">左寄り</string>
+    <string name="navbar_layout_rightleaning">右寄り</string>
+    <string name="system_navigation_summary">使用するシステムナビゲーションバーのスタイルを選択する</string>
+    <!-- HW keys -->
+    <string name="hardware_keys_title">ボタン</string>
+    <string name="hardware_keys_category">ハードウェアナビゲーション</string>
+    <string name="hardware_keys_disable_title">ハードウェアボタンを無効化</string>
+    <string name="hardware_keys_disable_summary">ハードウェアキーをナビゲーションに使用する</string>
+    <!-- NavBar Inverse -->
+    <string name="navigation_bar_inverse_title">3ボタンナビゲーションバーの反転</string>
 </resources>
