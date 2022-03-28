@@ -375,9 +375,6 @@
     <string name="pulse_light_both">All Four Sides</string>
     <string name="pulse_light_top_bottom">Only Top-Bottom</string>
     <string name="pulse_light_left_right">Only Left-Right</string>
-    <!-- Ambient Ticker -->
-    <string name="pulse_on_new_tracks_title">Music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Screen off FOD</string>
     <string name="screen_off_fod_summary">Keep FOD enabled when the screen is off</string>
@@ -392,8 +389,31 @@
     <string name="volume_steps_system_title">Níveis de volume: Sistema</string>
     <string name="volume_steps_voice_call_title">Níveis de volume: Chamada de Voz</string>
     <string name="volume_steps_reset">Redefinir</string>
-    <!-- Location privacy indicator -->
-    <string name="location_privacy_indicator_title">Show privacy indicator for location</string>
+    <!-- Udfps animations -->
+    <string name="udfps_category">Udfps</string>
+    <string name="udfps_recog_animation">Udfps animation</string>
+    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="udfps_recog_animation_effect_title">Udfps animation effect</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+    <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">Udfps icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <!-- Udfps Custom Options -->
+    <string name="udfps_settings_title">Udfps Options</string>
+    <string name="udfps_settings_summary">Different menus for customizing the udfps</string>
+    <!-- Udfps Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">FOD haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching FOD icon</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
+    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
+    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
+    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
+    <!-- Privacy indicators -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location privacy indicator</string>
+    <string name="location_privacy_indicator_summary">Show separate indicator when an any app uses location</string>
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">Colored Statusbar Icons</string>
     <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
@@ -479,9 +499,6 @@
     <string name="button_timeout_title">Backlight timeout</string>
     <string name="button_backlight_on_touch_only_title">Toque do botão</string>
     <string name="button_backlight_on_touch_only_summary">Ativar luz de fundo com tempo limite apenas quando tocar no botão</string>
-    <!-- Hardware keys -->
-    <string name="hardware_keys_category">Teclas físicas</string>
-    <string name="hardware_keys_disable_title">Desativar as teclas físicas</string>
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">Animação ao desligar a tela</string>
     <string name="screen_off_animation_crt">CRT</string>
@@ -496,13 +513,6 @@
     <string name="status_bar_clock_position_left">Left</string>
     <string name="status_bar_clock_position_center">Center</string>
     <string name="status_bar_clock_position_hidden">Hidden</string>
-    <string name="status_bar_clock_auto_hide_title">Auto hide</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide clock at regular interval</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Number of seconds to hide clock</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Number of seconds to wait before hiding clock</string>
     <string name="status_bar_am_pm_title">Estilo AM/PM</string>
     <string name="status_bar_am_pm_info">O formato de relógio 24 horas está ativado</string>
     <string name="status_bar_am_pm_normal">Normal</string>
@@ -531,8 +541,6 @@
     <string name="qs_date_summary">Display date in quick status bar header</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Settings layout</string>
-    <string name="settings_dashboard_style_gms">Default</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
     <string name="settings_layout_category_title">Settings UI interface</string>
     <!-- Media art -->
     <string name="lockscreen_media_category">Lock screen media</string>
@@ -604,4 +612,31 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Use black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Skip music tracks</string>
+    <!-- Navigation bar -->
+    <string name="navigation_title">Navigatie</string>
+    <string name="navigation_bar_category">Navigation bar</string>
+    <string name="navigation_bar_title">On-screen navigation bar</string>
+    <string name="navigation_bar_summary">Enable on-screen navigation keys</string>
+    <string name="navigation_bar_layout_title">Layout</string>
+    <string name="navigation_bar_layout_summary">Customize the layout of the navigation bar</string>
+    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
+    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons in navigation bar while typing</string>
+    <string name="navigation_bar_help_text">These settings mainly relate to the 3-button navigation bar. If you use gesture navigation and want to customize it, e.g. hide the gesture handle, please visit: Settings &gt; System &gt; Gestures.</string>
+    <string name="nav_bar_tuner_title">Navigation bar tuner</string>
+    <string name="nav_bar_tuner_summary">Change nav bar layout</string>
+    <string name="navbar_layout_title">Layout</string>
+    <string name="navbar_layout_normal">Normal</string>
+    <string name="navbar_layout_compact">Compact</string>
+    <string name="navbar_layout_leftleaning">Left-leaning</string>
+    <string name="navbar_layout_rightleaning">Right-leaning</string>
+    <string name="system_navigation_summary">Choose which system navigation style to use</string>
+    <!-- HW keys -->
+    <string name="hardware_keys_title">Buttons</string>
+    <string name="hardware_keys_category">Teclas físicas</string>
+    <string name="hardware_keys_disable_title">Desativar as teclas físicas</string>
+    <string name="hardware_keys_disable_summary">Use the device hardware keys for navigation</string>
+    <!-- NavBar Inverse -->
+    <string name="navigation_bar_inverse_title">Invert 3 button navigation bar</string>
 </resources>
