@@ -375,6 +375,9 @@
     <string name="pulse_light_both">四辺全て</string>
     <string name="pulse_light_top_bottom">上下のみ</string>
     <string name="pulse_light_left_right">左右のみ</string>
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">Music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">画面消灯時の画面内指紋認証</string>
     <string name="screen_off_fod_summary">画面消灯時も画面内指紋認証を使用する</string>
@@ -598,20 +601,6 @@
     <!-- Quick QS Panel brightness slider -->
     <string name="quick_qs_brightness_slider_title">明るさスライダーを表示</string>
     <string name="quick_qs_brightness_slider_summary">クイック設定に画面の明るさスライダーを表示する</string>
-    <!-- Monet Engine -->
-    <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Monet エンジン</string>
-    <string name="monet_engine_summary">Monet のパラメータを編集する</string>
-    <string name="monet_engine_custom_color_title">カスタムの色を使用</string>
-    <string name="monet_engine_custom_color_summary">Monet エンジンに壁紙の色の代わりにカスタムの色を使用する</string>
-    <string name="monet_engine_color_override_title">カスタムの色</string>
-    <string name="monet_engine_white_luminance_user_title">白い輝き</string>
-    <string name="monet_engine_accurate_shades_title">正確な色合いを使用</string>
-    <string name="monet_engine_chroma_factor_title">クローマ (彩度) 係数</string>
-    <string name="monet_engine_linear_lightness_title">線形の明度を使用</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">ブラックテーマを使用</string>
-    <string name="system_black_theme_summary">強制的に黒い背景のテーマを使用する</string>
     <!-- Volume rocker gestures -->
     <string name="volume_skiptrack_screen_title">音楽トラックをスキップ</string>
     <!-- Navigation bar -->
