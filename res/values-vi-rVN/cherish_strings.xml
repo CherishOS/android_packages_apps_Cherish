@@ -375,6 +375,9 @@
     <string name="pulse_light_both">Tất cả bốn mặt</string>
     <string name="pulse_light_top_bottom">Trên và dưới</string>
     <string name="pulse_light_left_right">Trái và phải</string>
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">Music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">FOD ở chế độ chờ</string>
     <string name="screen_off_fod_summary">Giữ trạng thái FOD bật khi màn hình tắt</string>
@@ -598,20 +601,6 @@
     <!-- Quick QS Panel brightness slider -->
     <string name="quick_qs_brightness_slider_title">Hiển thị thanh trượt độ sáng trong bảng điều khiển nhanh</string>
     <string name="quick_qs_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
-    <!-- Monet Engine -->
-    <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Công cụ Monet</string>
-    <string name="monet_engine_summary">Tùy chỉnh các thông số monet</string>
-    <string name="monet_engine_custom_color_title">Sử dụng màu tùy chỉnh</string>
-    <string name="monet_engine_custom_color_summary">Sử dụng màu tùy chỉnh cho động cơ monet thay vì màu nền</string>
-    <string name="monet_engine_color_override_title">Tùy chỉnh màu sắc</string>
-    <string name="monet_engine_white_luminance_user_title">Độ sáng trắng</string>
-    <string name="monet_engine_accurate_shades_title">Sử dụng các sắc thái chính xác</string>
-    <string name="monet_engine_chroma_factor_title">Yếu tố sắc tố</string>
-    <string name="monet_engine_linear_lightness_title">Sử dụng độ đậm nhạt tuyến tính</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
-    <string name="system_black_theme_summary">Buộc màu nền đen</string>
     <!-- Volume rocker gestures -->
     <string name="volume_skiptrack_screen_title">Bỏ qua bản nhạc</string>
     <!-- Navigation bar -->
