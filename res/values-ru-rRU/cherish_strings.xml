@@ -14,8 +14,8 @@
     <!-- App Title -->
     <string name="cherish_settings_title">Настройки CherishOS</string>
     <!-- Units -->
-    <string name="unit_milliseconds">milliseconds</string>
-    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">миллисекунды</string>
+    <string name="unit_seconds">секунды</string>
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
     <string name="button_summary">Аппаратные кнопки, Панель навигации</string>
@@ -65,26 +65,26 @@
     <string name="led_color_green">Зелёный</string>
     <string name="led_color_red">Красный</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">Default</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
-    <string name="add_package_to_title">Add application</string>
+    <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">По умолчанию</string>
+    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nУдерживайте для применения</string>
+    <string name="custom_seekbar_default_value_is_set">Установлено значение по умолчанию</string>
+    <string name="add_package_to_title">Добавить приложение</string>
     <!-- QS settings -->
     <string name="qs_title">Быстрые настройки</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">Вибрировать при касании</string>
+    <string name="quick_settings_vibrate_summary">Вибрировать при нажатии на плитки быстрых настроек</string>
     <!-- Lockscreen shortcuts -->
-    <string name="ls_category">Lockscreen Items</string>
-    <string name="ls_tuner">Enable Lockscreen tuner</string>
-    <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
-    <string name="ls_shortcut_summary">Customize Lockscreen shortcuts</string>
+    <string name="ls_category">Элементы экрана блокировки</string>
+    <string name="ls_tuner">Включить тюнер экрана блокировки</string>
+    <string name="lockscreen_shortcuts">Ярлыки экрана блокировки</string>
+    <string name="ls_shortcut_summary">Настройка ярлыков на экране блокировки</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Lockscreen tuner</string>
+    <string name="lockscreen_tuner_title">Тюнер экрана блокировки</string>
     <!-- Statusbar Items -->
-    <string name="sb_icons">Statusbar Icons</string>
-    <string name="statusbar_items_category">Statusbar items</string>
+    <string name="sb_icons">Значки строки состояния</string>
+    <string name="statusbar_items_category">Элементы строки состояния</string>
     <!-- Status bar - icons -->
     <string name="status_bar_icons_title">Значки строки состояния</string>
     <!-- Lock screen visualizer -->
@@ -111,41 +111,41 @@
     <string name="theme_select_summary">Просмотр и выбор установленных тем</string>
     <string name="notification_light_settings">Индикатор уведомлений</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="volume_rocker_wake_title">Пробуждение кнопкой громкости</string>
+    <string name="search">Поиск</string>
+    <string name="search_apps">Поиск приложений</string>
     <!-- Power Menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_title_summary">View or change power menu entries</string>
-    <string name="powermenu_screenshot">Screenshot</string>
-    <string name="powermenu_power">Power</string>
-    <string name="powermenu_advanced">Advanced reboot options</string>
-    <string name="powermenu_restart">Restart</string>
-    <string name="powermenu_airplane">Airplane</string>
-    <string name="powermenu_settings">Settings</string>
-    <string name="powermenu_lockdown">Lock Down</string>
-    <string name="powermenu_soundpanel">Sound Panel</string>
-    <string name="powermenu_users">Users</string>
-    <string name="powermenu_logout">Logout</string>
-    <string name="powermenu_emergency">Emergency</string>
+    <string name="power_menu_title">Меню питания</string>
+    <string name="power_menu_title_summary">Просмотр или изменение элементов меню питания</string>
+    <string name="powermenu_screenshot">Снимок экрана</string>
+    <string name="powermenu_power">Питание</string>
+    <string name="powermenu_advanced">Расширенные параметры перезагрузки</string>
+    <string name="powermenu_restart">Перезапуск</string>
+    <string name="powermenu_airplane">Режим полета</string>
+    <string name="powermenu_settings">Настройки</string>
+    <string name="powermenu_lockdown">Заблокировать</string>
+    <string name="powermenu_soundpanel">Звуковая панель</string>
+    <string name="powermenu_users">Пользователи</string>
+    <string name="powermenu_logout">Выход</string>
+    <string name="powermenu_emergency">Экстренный</string>
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="lockscreen_gesture_title">Gestures</string>
-    <string name="double_tap_to_sleep_lockscreen_title">Double tap to sleep</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+    <string name="lockscreen_gesture_title">Жесты</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Двойное нажатие для сна</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Дважды нажмите на экране блокировки, чтобы перевести устройство в спящий режим</string>
     <!-- Double Tap Statusbar to Sleep -->
-    <string name="statusbar_gesture_title">Gestures</string>
-    <string name="double_tap_to_sleep_statusbar_title">Double tap to sleep</string>
-    <string name="double_tap_to_sleep_statusbar_summary">Double tap on statusbar to put the device to sleep</string>
+    <string name="statusbar_gesture_title">Жесты</string>
+    <string name="double_tap_to_sleep_statusbar_title">Двойное нажатие для сна</string>
+    <string name="double_tap_to_sleep_statusbar_summary">Дважды коснитесь строки состояния, чтобы перевести устройство в спящий режим</string>
     <!-- Buttons title -->
-    <string name="volume_category">Volume Rocker</string>
+    <string name="volume_category">Качелька громкости</string>
     <!--Volume keys -->
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_summary">Нажатие клавиш громкости пробуждает ваше устройство</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_title">Фонарик при выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания (более медленный отклик на одно нажатие), отключает двойное нажатие для камеры.</string>
+    <string name="torch_power_button_gesture_dt_toast">Переход к жесту камеры теперь отключен</string>
+    <string name="torch_power_button_gesture_lp">Долгое нажатие кнопки питания</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Activities</string>
     <string name="select_custom_app_title">Select custom app</string>
@@ -204,62 +204,62 @@
     <string name="heads_up_time_out_10sec">10 seconds</string>
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_summary_one_minute">Смахивание вверх отложит всплывающие сообщения от приложения на 1 минуту</string>
+    <string name="heads_up_snooze_summary">Смахивание вверх отложит всплывающие уведомления от приложения на <xliff:g id="number">%d</xliff:g> минут(ы)</string>
+    <string name="heads_up_snooze_disabled_summary">Таймер повтора отключен</string>
+    <string name="heads_up_snooze_1min">1 минута</string>
+    <string name="heads_up_snooze_5min">5 минут</string>
+    <string name="heads_up_snooze_10min">10 минут</string>
+    <string name="heads_up_snooze_15min">15 минут</string>
+    <string name="heads_up_snooze_20min">20 минут</string>
     <!-- Quick QS pulldown -->
-    <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
-    <string name="quick_pulldown_none">Disabled</string>
-    <string name="quick_pulldown_right">Pulldown statusbar from right side</string>
-    <string name="quick_pulldown_left">Pulldown statusbar from left side</string>
+    <string name="status_bar_quick_qs_pulldown">Быстрый доступ к панели быстрых настроек</string>
+    <string name="quick_pulldown_none">Отключено</string>
+    <string name="quick_pulldown_right">Выпадающая строка состояния с правой стороны</string>
+    <string name="quick_pulldown_left">Выпадающая строка состояния с левой стороны</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Параметры вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
+    <string name="incall_vibrate_call_wait_title">Вибрировать при ожидании вызова</string>
+    <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+    <string name="data_disabled_icon_title">Показывать значок отключенной передачи данных</string>
+    <string name="data_disabled_icon_summary">Показывать крестик возле значка сигнала, когда передача данных отключена</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">Индикатор роуминга</string>
+    <string name="roaming_indicator_icon_summary">Отображать индикатор роуминга рядом со значком сети при нахождении в роуминге</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">VoLTE icon</string>
-    <string name="volte_switch_summary">Display VoLTE icon</string>
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon</string>
-    <string name="volte_icon_style_title">Select VoLTE Icon</string>
-    <string name="volte_icon_asus">VoLTE Asus Icon</string>
-    <string name="volte_icon_vo">Vo Only Icon</string>
-    <string name="volte_icon_volte">VoLTE Icon</string>
-    <string name="volte_icon_oos">VoLTE OOS Icon</string>
-    <string name="volte_icon_hd">HD Icon</string>
-    <string name="volte_icon_hd2">HD CAF Icon</string>
-    <string name="volte_icon_miui">MIUI 11 Icon</string>
-    <string name="volte_icon_emui">EMUI Icon</string>
-    <string name="volte_icon_margaritov">HD Filled Icon</string>
-    <string name="volte_icon_margaritov2">Margaritov VoLTE Icon</string>
-    <string name="volte_icon_vivo">Vivo Icon</string>
+    <string name="volte_switch_title">Значок VoLTE</string>
+    <string name="volte_switch_summary">Отображать значок VoLTE</string>
+    <string name="volte_icon_title">Значок VoLTE</string>
+    <string name="volte_icon_summary">Отображать значок VoLTE</string>
+    <string name="volte_icon_style_title">Выбрать значок VoLTE</string>
+    <string name="volte_icon_asus">Значок VoLTE Asus</string>
+    <string name="volte_icon_vo">Только значок Vo</string>
+    <string name="volte_icon_volte">Значок VoLTE</string>
+    <string name="volte_icon_oos">Значок VoLTE OOS</string>
+    <string name="volte_icon_hd">Значок HD</string>
+    <string name="volte_icon_hd2">Значок HD CAF</string>
+    <string name="volte_icon_miui">Значок MIUI 11</string>
+    <string name="volte_icon_emui">Значок EMUI</string>
+    <string name="volte_icon_margaritov">Заполненный значок HD</string>
+    <string name="volte_icon_margaritov2">Маргаритов значка VoLTE</string>
+    <string name="volte_icon_vivo">Значок Vivo</string>
     <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
-    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
-    <string name="vowifi_icon_style_title">VoWiFi icon style</string>
-    <string name="vowifi_icon_default">Default Icon</string>
-    <string name="vowifi_icon_emui">EMUI Icon</string>
-    <string name="vowifi_icon_asus">Asus Icon</string>
-    <string name="vowifi_icon_oneplus">OOS Icon</string>
-    <string name="vowifi_icon_moto">Motorola Icon</string>
-    <string name="vowifi_icon_simple1">Simple1 Icon</string>
-    <string name="vowifi_icon_simple2">Simple2 Icon</string>
-    <string name="vowifi_icon_simple3">Simple3 Icon</string>
-    <string name="vowifi_icon_vivo">Vivo Icon</string>
+    <string name="vowifi_icon_title">Значок VoWiFi</string>
+    <string name="vowifi_icon_enabled">Значок VoWiFi включен</string>
+    <string name="vowifi_icon_disabled">Значок VoWiFi отключен</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi вместо значка VoLTE</string>
+    <string name="vowifi_icon_style_title">Стиль значка VoWiFi</string>
+    <string name="vowifi_icon_default">Значок по умолчанию</string>
+    <string name="vowifi_icon_emui">Значок EMUI</string>
+    <string name="vowifi_icon_asus">Значок Asus</string>
+    <string name="vowifi_icon_oneplus">Значок OOS</string>
+    <string name="vowifi_icon_moto">Значок Motorola</string>
+    <string name="vowifi_icon_simple1">Значок Простой1</string>
+    <string name="vowifi_icon_simple2">Значок Простой 2</string>
+    <string name="vowifi_icon_simple3">Значок Простой 3</string>
+    <string name="vowifi_icon_vivo">Значок Vivo</string>
     <string name="vowifi_icon_margaritov">Margaritov Icon</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Индикация зарядки батареи</string>
@@ -320,61 +320,64 @@
     <string name="flashlight_on_call_ringer">When ringing</string>
     <string name="flashlight_on_call_no_ringer">When ringer is silent</string>
     <string name="flashlight_on_call_silent">When entirely silent (no ringer or vibrator)</string>
-    <string name="flashlight_on_call_always">Always</string>
-    <string name="flashlight_on_call_ignore_dnd_title">Ignore DND</string>
-    <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when in Do Not Disturb mode</string>
-    <string name="flashlight_on_call_rate_title">Rate</string>
-    <string name="flashlight_on_call_rate_summary">Flashlight on call blink rate</string>
+    <string name="flashlight_on_call_always">Всегда</string>
+    <string name="flashlight_on_call_ignore_dnd_title">Игнорировать \"Не беспокоить\"</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Мигать ли в режиме \"Не беспокоить\"</string>
+    <string name="flashlight_on_call_rate_title">Частота</string>
+    <string name="flashlight_on_call_rate_summary">Частота мигания фонарика при звонке</string>
     <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
+    <string name="combined_status_bar_signal_icons">Комбинированные значки сигнала</string>
+    <string name="combined_status_bar_signal_icons_summary">Включить комбинированные значки сигнала в строке состояния.\nТребует перезапуска SystemUI</string>
     <!-- QS battery estimates -->
-    <string name="qs_show_battery_estimate_title">Battery estimates</string>
-    <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
+    <string name="qs_show_battery_estimate_title">Оценочное время работы</string>
+    <string name="qs_show_battery_estimate_summary">Показать ожидаемый остаток заряда батареи рядом со значком</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">Расписание AOD</string>
+    <string name="always_on_display_schedule_sunset">Закат</string>
+    <string name="always_on_display_schedule_sunrise">Рассвет</string>
+    <string name="always_on_display_schedule_mixed_sunset">Включается от заката до заданного времени</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Включается от заданного времени до рассвета</string>
     <!-- Pulse notifications lightning -->
-    <string name="pulse_ambient_light_title">Ambient edge lightning</string>
-    <string name="pulse_ambient_light_summary">Light ambient edges for pulsing notifications</string>
-    <string name="ambient_notification_light_enabled_title">Show on AOD</string>
-    <string name="ambient_notification_light_enabled_summary">Keep showing edge lightning on AOD</string>
-    <string name="ambient_notification_light_hide_aod_title">Hide AOD content</string>
-    <string name="ambient_notification_light_hide_aod_summary">Hide AOD content when edges are lighted</string>
-    <string name="ambient_notification_light_duration_title">Duration</string>
-    <string name="ambient_notification_light_duration_summary">Time it takes for each animation to complete</string>
-    <string name="ambient_notification_light_repeats_title">Repeats</string>
-    <string name="ambient_notification_light_repeats_summary">Amount of times the animation should show\n0 for infinite</string>
-    <string name="ambient_notification_light_timeout_title">Timeout</string>
-    <string name="ambient_notification_light_timeout_forever">Forever</string>
-    <string name="ambient_notification_light_timeout_half_minute">30 seconds</string>
-    <string name="ambient_notification_light_timeout_minute">1 minute</string>
-    <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
-    <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
-    <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
-    <string name="set_to_zero">Set repeats to 0 to enable</string>
-    <string name="ambient_notification_color_mode_title">Color mode</string>
-    <string name="ambient_notification_color_mode_accent">Accent color</string>
-    <string name="ambient_notification_color_mode_wall">Wallpaper dominant color</string>
-    <string name="ambient_notification_color_mode_notification">Notification icon color</string>
+    <string name="pulse_ambient_light_title">Подсветка краёв экрана</string>
+    <string name="pulse_ambient_light_summary">Подсвечивать края экрана для пульсирующих уведомлений</string>
+    <string name="ambient_notification_light_enabled_title">Показать на AOD</string>
+    <string name="ambient_notification_light_enabled_summary">Показывать подсветку краёв на AOD</string>
+    <string name="ambient_notification_light_hide_aod_title">Скрывать содержимое на AOD</string>
+    <string name="ambient_notification_light_hide_aod_summary">Скрывать содержимое AOD когда края подсвечиваются</string>
+    <string name="ambient_notification_light_duration_title">Длительность</string>
+    <string name="ambient_notification_light_duration_summary">Время, необходимое для завершения каждой анимации</string>
+    <string name="ambient_notification_light_repeats_title">Повторы</string>
+    <string name="ambient_notification_light_repeats_summary">Количество раз, которое анимация должна показывать\n0 для бесконечного</string>
+    <string name="ambient_notification_light_timeout_title">Время ожидания</string>
+    <string name="ambient_notification_light_timeout_forever">Навсегда</string>
+    <string name="ambient_notification_light_timeout_half_minute">30 секунд</string>
+    <string name="ambient_notification_light_timeout_minute">1 минута</string>
+    <string name="ambient_notification_light_timeout_three_minutes">3 минуты</string>
+    <string name="ambient_notification_light_timeout_five_minutes">5 минут</string>
+    <string name="ambient_notification_light_timeout_ten_minutes">10 минут</string>
+    <string name="set_to_zero">Установить повторы на 0 для включения</string>
+    <string name="ambient_notification_color_mode_title">Цветовой режим</string>
+    <string name="ambient_notification_color_mode_accent">Цвет акцента</string>
+    <string name="ambient_notification_color_mode_wall">Доминирующий цвет обоев</string>
+    <string name="ambient_notification_color_mode_notification">Цвет значка уведомлений</string>
     <string name="ambient_notification_color_mode_custom">@string/ambient_notification_light_color_title</string>
-    <string name="ambient_notification_light_color_title">Custom color</string>
-    <string name="pulse_ambient_light_show_always_title">Show always</string>
-    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
-    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
-    <string name="pulse_ambient_light_repeat_direction_restart">Restart</string>
-    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
-    <string name="pulse_ambient_light_layout_title">Light view</string>
-    <string name="pulse_ambient_light_layout_solid">Solid</string>
-    <string name="pulse_ambient_light_layout_faded">Faded</string>
-    <string name="pulse_ambient_light_width_title">Light width</string>
-    <string name="pulse_light_layout_style_title">Light Layout Style</string>
-    <string name="pulse_light_both">All Four Sides</string>
-    <string name="pulse_light_top_bottom">Only Top-Bottom</string>
+    <string name="ambient_notification_light_color_title">Свой цвет</string>
+    <string name="pulse_ambient_light_show_always_title">Всегда показывать</string>
+    <string name="pulse_ambient_light_show_always_summary">Подсвечивать края для всех событий, а не только уведомлений</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Количество повторов подсветки</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Перезапуск</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Обратный</string>
+    <string name="pulse_ambient_light_layout_title">Вид свечения</string>
+    <string name="pulse_ambient_light_layout_solid">Сплошной</string>
+    <string name="pulse_ambient_light_layout_faded">Затухание</string>
+    <string name="pulse_ambient_light_width_title">Ширина свечения</string>
+    <string name="pulse_light_layout_style_title">Стиль подсвечивания</string>
+    <string name="pulse_light_both">Все четыре стороны</string>
+    <string name="pulse_light_top_bottom">Только сверху-снизу</string>
     <string name="pulse_light_left_right">Only Left-Right</string>
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">Music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Screen off FOD</string>
     <string name="screen_off_fod_summary">Keep FOD enabled when the screen is off</string>
@@ -438,66 +441,66 @@
     <string name="status_bar_battery_style_port">Portrait</string>
     <string name="status_bar_battery_style_circle">Circle</string>
     <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_filled_circle">Круг (Заполнен)</string>
+    <string name="status_bar_battery_style_text">Текст</string>
     <!-- Network Traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Customize the traffic indicators</string>
-    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
-    <string name="network_traffic_location_title">Location</string>
-    <string name="network_traffic_disabled">Disabled</string>
-    <string name="network_traffic_statusbar">Status bar</string>
-    <string name="network_traffic_qs_header">QS header</string>
-    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
-    <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
-    <string name="network_traffic_mode_title">Display mode</string>
-    <string name="network_traffic_dynamic">Dynamic</string>
-    <string name="network_traffic_download">Download</string>
-    <string name="network_traffic_upload">Upload</string>
-    <string name="network_traffic_font_size">Single net font size</string>
-    <string name="network_traffic_autohide">Auto hide</string>
-    <string name="network_traffic_autohide_summary">Hide the traffic monitor when inactive</string>
-    <string name="network_traffic_autohide_kilobits">Kb/s</string>
-    <string name="network_traffic_autohide_kilobytes">KB/s</string>
-    <string name="network_traffic_units_title">Traffic measurement units</string>
-    <string name="network_traffic_units_bits">Bits per second (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
-    <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="traffic_title">Индикация трафика</string>
+    <string name="traffic_summary">Настройки индикации трафика</string>
+    <string name="network_traffic_autohide_threshold_title">Порог неактивности</string>
+    <string name="network_traffic_location_title">Местоположение</string>
+    <string name="network_traffic_disabled">Отключено</string>
+    <string name="network_traffic_statusbar">Строка состояния</string>
+    <string name="network_traffic_qs_header">Заголовок быстрых настроек</string>
+    <string name="network_traffic_refresh_interval_title">Частота обновления</string>
+    <string name="network_traffic_refresh_interval_summary">Интервал повторного измерения скорости</string>
+    <string name="network_traffic_mode_title">Режим отображения</string>
+    <string name="network_traffic_dynamic">Динамический</string>
+    <string name="network_traffic_download">Входящий</string>
+    <string name="network_traffic_upload">Исходящий</string>
+    <string name="network_traffic_font_size">Размер шрифта одиночной сети</string>
+    <string name="network_traffic_autohide">Автоскрытие</string>
+    <string name="network_traffic_autohide_summary">Скрыть монитор трафика, когда сеть неактивена</string>
+    <string name="network_traffic_autohide_kilobits">Кб/с</string>
+    <string name="network_traffic_autohide_kilobytes">КБ/с</string>
+    <string name="network_traffic_units_title">Единицы измерения трафика</string>
+    <string name="network_traffic_units_bits">Бит в секунду (бит/с)</string>
+    <string name="network_traffic_units_kilobits">Килобит в секунду (кбит/с)</string>
+    <string name="network_traffic_units_megabits">Мегабит в секунду (Мбит/с)</string>
+    <string name="network_traffic_units_bytes">Байт в секунду (Б/с)</string>
+    <string name="network_traffic_units_kilobytes">Килобайт в секунду (кБ/с)</string>
+    <string name="network_traffic_units_megabytes">Мегабит в секунду (Мбит/с)</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрывать стрелки индикатора сетевого трафика</string>
     <!-- Themeing -->
-    <string name="dark_ui_mode_summary">Browse the dark theme options</string>
+    <string name="dark_ui_mode_summary">Просмотреть параметры темной темы</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
-    <string name="theme_customization_category">Theming</string>
+    <string name="theme_customization_category">Оформление</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
-    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_icon_shape_title">Форма значка</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
-    <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
+    <string name="theme_customization_icon_shape_summary">Установить стиль формы значка системы</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
-    <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_font_summary">Set system font style</string>
+    <string name="theme_customization_font_title">Заголовок / Основной шрифт</string>
+    <string name="theme_customization_font_summary">Установить стиль системного шрифта</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
-    <string name="theme_customization_icon_pack_title">Icon pack</string>
-    <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
-    <string name="theme_customization_signal_icon_title">Signal icon style</string>
-    <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
-    <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
-    <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
+    <string name="theme_customization_icon_pack_title">Набор значков</string>
+    <string name="theme_customization_icon_pack_summary">Установить пользовательский стиль набора значков</string>
+    <string name="theme_customization_signal_icon_title">Стиль значка сигнала</string>
+    <string name="theme_customization_signal_icon_summary">Установить стиль значков сигналов</string>
+    <string name="theme_customization_wifi_icon_title">Стиль значка Wi-Fi</string>
+    <string name="theme_customization_wifi_icon_summary">Установить стиль значка Wi-Fi</string>
     <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Signal</string>
+    <string name="custom_signal_bar_title">Сигнал</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">Backlight options</string>
-    <string name="button_backlight_enable_title">Allow button backlight</string>
-    <string name="button_link_brightness">Link to screen brightness</string>
-    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
-    <string name="button_manual_brightness">Brightness level</string>
-    <string name="button_timeout_title">Backlight timeout</string>
-    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_options_category">Настройки подсветки</string>
+    <string name="button_backlight_enable_title">Разрешить подсветку кнопок</string>
+    <string name="button_link_brightness">Связать с яркостью экрана</string>
+    <string name="button_link_brightness_summary">Яркость подсветки кнопок будет регулироваться в зависимости от яркости экрана</string>
+    <string name="button_manual_brightness">Уровень яркости</string>
+    <string name="button_timeout_title">Длительность подсветки</string>
+    <string name="button_backlight_on_touch_only_title">Подсветка кнопок при касании</string>
     <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">Screen off animation</string>
@@ -598,20 +601,6 @@
     <!-- Quick QS Panel brightness slider -->
     <string name="quick_qs_brightness_slider_title">Show brightness slider in Quick QS Panel</string>
     <string name="quick_qs_brightness_slider_summary">Show a brightness slider in the quick qs panel</string>
-    <!-- Monet Engine -->
-    <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Monet engine</string>
-    <string name="monet_engine_summary">Customize monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
     <!-- Volume rocker gestures -->
     <string name="volume_skiptrack_screen_title">Skip music tracks</string>
     <!-- Navigation bar -->

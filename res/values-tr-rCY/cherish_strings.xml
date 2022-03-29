@@ -375,6 +375,9 @@
     <string name="pulse_light_both">Dört taraftan</string>
     <string name="pulse_light_top_bottom">Sadece üst-alt</string>
     <string name="pulse_light_left_right">Sadece sol-sağ</string>
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">Music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Ekran kapalı parmak izi</string>
     <string name="screen_off_fod_summary">Ekran kapalıyken parmak izini açık tutun</string>
@@ -598,20 +601,6 @@
     <!-- Quick QS Panel brightness slider -->
     <string name="quick_qs_brightness_slider_title">Hızlı ayar panelinde parlaklık kaydırıcısını göster</string>
     <string name="quick_qs_brightness_slider_summary">Hızlı ayarlar panelinde bir parlaklık kaydırma çubuğu göster</string>
-    <!-- Monet Engine -->
-    <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Monet ayarları</string>
-    <string name="monet_engine_summary">Monet parametrelerini özelleştirin</string>
-    <string name="monet_engine_custom_color_title">Özel renk kullan</string>
-    <string name="monet_engine_custom_color_summary">Monet için duvar kağıdı rengi yerine özel renk kullan</string>
-    <string name="monet_engine_color_override_title">Özel renk</string>
-    <string name="monet_engine_white_luminance_user_title">Beyaz parlaklığı</string>
-    <string name="monet_engine_accurate_shades_title">Doğru renk tonları kullan</string>
-    <string name="monet_engine_chroma_factor_title">Berraklık faktörü</string>
-    <string name="monet_engine_linear_lightness_title">Doğrusal canlılığı kullan</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Siyah temayı kullan</string>
-    <string name="system_black_theme_summary">Siyah arka plan renklerini zorla</string>
     <!-- Volume rocker gestures -->
     <string name="volume_skiptrack_screen_title">Müzik parçalarını atla</string>
     <!-- Navigation bar -->

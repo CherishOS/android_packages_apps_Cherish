@@ -375,6 +375,9 @@
     <string name="pulse_light_both">Semua Empat Sisi</string>
     <string name="pulse_light_top_bottom">Hanya Atas-Bawah</string>
     <string name="pulse_light_left_right">Hanya Kiri-Kanan</string>
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">Music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">FOD layar mati</string>
     <string name="screen_off_fod_summary">Tetap aktifkan FOD saat layar mati</string>
@@ -598,20 +601,6 @@
     <!-- Quick QS Panel brightness slider -->
     <string name="quick_qs_brightness_slider_title">Tampilkan slider kecerahan di Panel QS Cepat</string>
     <string name="quick_qs_brightness_slider_summary">Tampilkan slider kecerahan di panel qs cepat</string>
-    <!-- Monet Engine -->
-    <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Mesin Monet</string>
-    <string name="monet_engine_summary">Sesuaikan parameter monet</string>
-    <string name="monet_engine_custom_color_title">Gunakan warna kustom</string>
-    <string name="monet_engine_custom_color_summary">Gunakan warna kustom untuk mesin monet alih-alih warna wallpaper</string>
-    <string name="monet_engine_color_override_title">Warna kustom</string>
-    <string name="monet_engine_white_luminance_user_title">Pencahayaan putih</string>
-    <string name="monet_engine_accurate_shades_title">Gunakan nuansa yang akurat</string>
-    <string name="monet_engine_chroma_factor_title">Faktor kroma</string>
-    <string name="monet_engine_linear_lightness_title">Gunakan cahaya linier</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Gunakan tema gelap</string>
-    <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
     <!-- Volume rocker gestures -->
     <string name="volume_skiptrack_screen_title">Lewati trek lagu</string>
     <!-- Navigation bar -->
