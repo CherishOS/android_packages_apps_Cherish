@@ -376,8 +376,8 @@
     <string name="pulse_light_top_bottom">上下のみ</string>
     <string name="pulse_light_left_right">左右のみ</string>
     <!-- Ambient Ticker -->
-    <string name="pulse_on_new_tracks_title">Music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
+    <string name="pulse_on_new_tracks_title">音楽ティッカー</string>
+    <string name="pulse_on_new_tracks_summary">再生中の音楽の変更時にアンビエント表示に音楽ティッカーを表示する</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">画面消灯時の画面内指紋認証</string>
     <string name="screen_off_fod_summary">画面消灯時も画面内指紋認証を使用する</string>
