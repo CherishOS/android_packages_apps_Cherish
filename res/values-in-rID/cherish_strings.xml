@@ -376,8 +376,8 @@
     <string name="pulse_light_top_bottom">Hanya Atas-Bawah</string>
     <string name="pulse_light_left_right">Hanya Kiri-Kanan</string>
     <!-- Ambient Ticker -->
-    <string name="pulse_on_new_tracks_title">Music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
+    <string name="pulse_on_new_tracks_title">Penampil musik</string>
+    <string name="pulse_on_new_tracks_summary">Tampilkan penampil musik di Tampilan Ambien selama perubahan trek</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">FOD layar mati</string>
     <string name="screen_off_fod_summary">Tetap aktifkan FOD saat layar mati</string>
