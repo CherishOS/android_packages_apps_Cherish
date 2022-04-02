@@ -376,8 +376,8 @@
     <string name="pulse_light_top_bottom">Sadece üst-alt</string>
     <string name="pulse_light_left_right">Sadece sol-sağ</string>
     <!-- Ambient Ticker -->
-    <string name="pulse_on_new_tracks_title">Music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
+    <string name="pulse_on_new_tracks_title">Müzik şeridi</string>
+    <string name="pulse_on_new_tracks_summary">Parça değişimi sırasında ortam ekranında müzik şeridi göster</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Ekran kapalı parmak izi</string>
     <string name="screen_off_fod_summary">Ekran kapalıyken parmak izini açık tutun</string>
