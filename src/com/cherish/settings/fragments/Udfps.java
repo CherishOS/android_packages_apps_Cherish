@@ -48,6 +48,7 @@ import com.android.settingslib.search.SearchIndexable;
 public class Udfps extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private static final String UDFPS_CUSTOMIZATION = "udfps_customization";
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -56,6 +57,13 @@ public class Udfps extends SettingsPreferenceFragment implements
 
         final PreferenceScreen prefSet = getPreferenceScreen();
         Resources resources = getResources();
+
+        final boolean udfpsResPkgInstalled = CherishUtils.isPackageInstalled(getContext(),
+                "com.cherish.udfps.resources");
+	mUdfpsCustomization = (PreferenceCategory) findPreference(UDFPS_CUSTOMIZATION);
+        if (!udfpsResPkgInstalled) {
+            prefSet.removePreference(mUdfpsCustomization);
+        }
 
     }
 
