@@ -44,6 +44,12 @@
             android:summary="@string/udfps_recog_animation_effect_summary"
             android:fragment="com.cherish.settings.fragments.UdfpsAnimation" />
 
+        <Preference
+            android:key="udfps_pressedicon_picker"
+            android:title="@string/udfps_pressed_color_title"
+            android:summary="@string/udfps_pressed_color_summary"
+            android:fragment="com.cherish.settings.fragments.UdfpsPressedIconPicker" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
