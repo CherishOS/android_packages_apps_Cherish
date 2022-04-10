@@ -376,8 +376,8 @@
     <string name="pulse_light_top_bottom">Trên và dưới</string>
     <string name="pulse_light_left_right">Trái và phải</string>
     <!-- Ambient Ticker -->
-    <string name="pulse_on_new_tracks_title">Music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
+    <string name="pulse_on_new_tracks_title">Thông báo nhạc</string>
+    <string name="pulse_on_new_tracks_summary">Hiển thị nhạc trên Màn hình môi trường trong khi thay đổi bản nhạc</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">FOD ở chế độ chờ</string>
     <string name="screen_off_fod_summary">Giữ trạng thái FOD bật khi màn hình tắt</string>
@@ -516,6 +516,13 @@
     <string name="status_bar_clock_position_left">Trái</string>
     <string name="status_bar_clock_position_center">Giữa</string>
     <string name="status_bar_clock_position_hidden">Ẩn</string>
+    <string name="status_bar_clock_auto_hide_title">Tự động ẩn</string>
+    <string name="status_bar_clock_auto_hide_launcher_summary">Ẩn đồng hồ nếu trình khởi chạy hiển thị</string>
+    <string name="status_bar_clock_auto_hide_summary">Ẩn đồng hồ ở khoảng thời gian đều đặn</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Thời gian ẩn</string>
+    <string name="status_bar_clock_auto_hide_hdur_summary">Số giây để ẩn đồng hồ</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Hiển thị thời gian</string>
+    <string name="status_bar_clock_auto_hide_sdur_summary">Số giây để chờ đợi trước khi ẩn đồng hồ</string>
     <string name="status_bar_am_pm_title">Kiểu SA/CH</string>
     <string name="status_bar_am_pm_info">đồng hồ dạng 24-giờ được kích hoạt</string>
     <string name="status_bar_am_pm_normal">Bình thường</string>
@@ -544,6 +551,11 @@
     <string name="qs_date_summary">Hiển thị ngày tháng ở phía trên thanh phím tắt nhanh</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Bố cục cài đặt</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
+    <string name="settings_dashboard_style_oos11_gms">OOS11 Gapps</string>
+    <string name="settings_dashboard_style_oos11_microg">OOS11 MicroG</string>
+    <string name="settings_dashboard_style_oos12_gms">OOS12 Gapps</string>
+    <string name="settings_dashboard_style_oos12_microg">OOS12 MicroG</string>
     <string name="settings_layout_category_title">Giao diện cài đặt</string>
     <!-- Media art -->
     <string name="lockscreen_media_category">Nhạc trên màn hình khóa</string>
@@ -628,4 +640,35 @@
     <string name="hardware_keys_disable_summary">Sử dụng các phím cứng của thiết bị để điều hướng</string>
     <!-- NavBar Inverse -->
     <string name="navigation_bar_inverse_title">Đảo ngược bố cục của thanh điều hướng</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Thanh điều chỉnh độ sáng</string>
+    <string name="qs_show_brightness_slider_never">Không hiển thị</string>
+    <string name="qs_show_brightness_slider_expanded">Hiển thị khi mở rộng</string>
+    <string name="qs_show_brightness_slider_always">Luôn hiển thị</string>
+    <string name="qs_show_brightness_slider_not_expanded">Hiển thị khi không mở rộng</string>
+    <string name="qs_brightness_slider_position_title">Vị trí</string>
+    <string name="qs_brightness_slider_position_top">Trên cùng</string>
+    <string name="qs_brightness_slider_position_bottom">Dưới cùng</string>
+    <!-- Monet Engine -->
+    <string name="monet_category">Monet</string>
+    <string name="monet_engine_title">Công cụ Monet</string>
+    <string name="monet_engine_summary">Tùy chỉnh các thông số monet</string>
+    <string name="monet_engine_custom_color_title">Sử dụng màu tùy chỉnh</string>
+    <string name="monet_engine_custom_color_summary">Sử dụng màu tùy chỉnh cho động cơ monet thay vì màu nền</string>
+    <string name="monet_engine_color_override_title">Tùy chỉnh màu sắc</string>
+    <string name="monet_engine_white_luminance_user_title">Độ sáng trắng</string>
+    <string name="monet_engine_accurate_shades_title">Sử dụng các sắc thái chính xác</string>
+    <string name="monet_engine_chroma_factor_title">Yếu tố sắc tố</string>
+    <string name="monet_engine_linear_lightness_title">Sử dụng độ đậm nhạt tuyến tính</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="qs_show_auto_brightness_title">Biểu tượng độ sáng tự động</string>
+    <string name="qs_show_auto_brightness_summary">Hiển thị chuyển đổi độ sáng tự động gần thanh trượt độ sáng</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
+    <string name="system_black_theme_summary">Buộc màu nền đen</string>
+    <!-- OOS style material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_button_title">Xóa tất cả nút thông báo</string>
+    <string name="notification_material_dismiss_button_summary">Thay thế xóa tất cả văn bản thông báo bằng nút nổi</string>
+    <string name="clearall_style_title">Các kiểu xóa tất cả nút thông báo</string>
+    <string name="clearall_bgstyle_title">Các kiểu nền xóa tất cả nút thông báo</string>
 </resources>
