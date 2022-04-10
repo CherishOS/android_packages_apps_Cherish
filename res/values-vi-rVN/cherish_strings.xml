@@ -516,6 +516,13 @@
     <string name="status_bar_clock_position_left">Trái</string>
     <string name="status_bar_clock_position_center">Giữa</string>
     <string name="status_bar_clock_position_hidden">Ẩn</string>
+    <string name="status_bar_clock_auto_hide_title">Auto hide</string>
+    <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide clock at regular interval</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
+    <string name="status_bar_clock_auto_hide_hdur_summary">Number of seconds to hide clock</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+    <string name="status_bar_clock_auto_hide_sdur_summary">Number of seconds to wait before hiding clock</string>
     <string name="status_bar_am_pm_title">Kiểu SA/CH</string>
     <string name="status_bar_am_pm_info">đồng hồ dạng 24-giờ được kích hoạt</string>
     <string name="status_bar_am_pm_normal">Bình thường</string>
@@ -544,6 +551,11 @@
     <string name="qs_date_summary">Hiển thị ngày tháng ở phía trên thanh phím tắt nhanh</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Bố cục cài đặt</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
+    <string name="settings_dashboard_style_oos11_gms">OOS11 Gapps</string>
+    <string name="settings_dashboard_style_oos11_microg">OOS11 MicroG</string>
+    <string name="settings_dashboard_style_oos12_gms">OOS12 Gapps</string>
+    <string name="settings_dashboard_style_oos12_microg">OOS12 MicroG</string>
     <string name="settings_layout_category_title">Giao diện cài đặt</string>
     <!-- Media art -->
     <string name="lockscreen_media_category">Nhạc trên màn hình khóa</string>
@@ -628,4 +640,35 @@
     <string name="hardware_keys_disable_summary">Sử dụng các phím cứng của thiết bị để điều hướng</string>
     <!-- NavBar Inverse -->
     <string name="navigation_bar_inverse_title">Đảo ngược bố cục của thanh điều hướng</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_never">Never show</string>
+    <string name="qs_show_brightness_slider_expanded">Show when expanded</string>
+    <string name="qs_show_brightness_slider_always">Show always</string>
+    <string name="qs_show_brightness_slider_not_expanded">Show when not expanded</string>
+    <string name="qs_brightness_slider_position_title">Position</string>
+    <string name="qs_brightness_slider_position_top">Top</string>
+    <string name="qs_brightness_slider_position_bottom">Bottom</string>
+    <!-- Monet Engine -->
+    <string name="monet_category">Monet</string>
+    <string name="monet_engine_title">Monet engine</string>
+    <string name="monet_engine_summary">Customize monet parameters</string>
+    <string name="monet_engine_custom_color_title">Use custom color</string>
+    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_white_luminance_user_title">White luminance</string>
+    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
+    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
+    <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+    <!-- OOS style material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_button_title">Clear all notification button</string>
+    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
+    <string name="clearall_style_title">Clear all notification button style</string>
+    <string name="clearall_bgstyle_title">Clear all notification button background</string>
 </resources>
