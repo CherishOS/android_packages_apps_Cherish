@@ -101,9 +101,9 @@
     <string name="theme_type_summary">Выберите тему</string>
     <!--Accenter -->
     <string name="themes_hub_title">Темы</string>
-    <string name="themes_hub_summary">Акценты-градиенты-темы</string>
+    <string name="themes_hub_summary">Акценты, градиенты, темы</string>
     <string name="rgb_accent_picker_title_dark">Выбор акцента</string>
-    <string name="rgb_accent_picker_summary">Выберите цвет акцента самостоятельно</string>
+    <string name="rgb_accent_picker_summary">Выбрать цвет акцента самостоятельно</string>
     <string name="theme_option_reset_title">Сбросить настройки темы</string>
     <string name="theme_option_reset_message">Вы уверены, что хотите сбросить акценты тем по умолчанию?</string>
     <!--ThemePicker-->
@@ -516,13 +516,13 @@
     <string name="status_bar_clock_position_left">Слева</string>
     <string name="status_bar_clock_position_center">По центру</string>
     <string name="status_bar_clock_position_hidden">Скрытый</string>
-    <string name="status_bar_clock_auto_hide_title">Auto hide</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide clock at regular interval</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Number of seconds to hide clock</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Number of seconds to wait before hiding clock</string>
+    <string name="status_bar_clock_auto_hide_title">Скрывать автоматически</string>
+    <string name="status_bar_clock_auto_hide_launcher_summary">Скрывать часы, если открыт главный экран</string>
+    <string name="status_bar_clock_auto_hide_summary">Скрывать часы с регулярным интервалом</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Скрыть продолжительность</string>
+    <string name="status_bar_clock_auto_hide_hdur_summary">Количество секунд до скрытия часов</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Показать продолжительность</string>
+    <string name="status_bar_clock_auto_hide_sdur_summary">Количество секунд ожидания перед скрытием часов</string>
     <string name="status_bar_am_pm_title">Стиль AM/PM</string>
     <string name="status_bar_am_pm_info">24-часовой формат включен</string>
     <string name="status_bar_am_pm_normal">Обычный</string>
@@ -641,34 +641,34 @@
     <!-- NavBar Inverse -->
     <string name="navigation_bar_inverse_title">Инвертировать панель навигации 3 кнопки</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Brightness slider</string>
-    <string name="qs_show_brightness_slider_never">Never show</string>
-    <string name="qs_show_brightness_slider_expanded">Show when expanded</string>
-    <string name="qs_show_brightness_slider_always">Show always</string>
-    <string name="qs_show_brightness_slider_not_expanded">Show when not expanded</string>
-    <string name="qs_brightness_slider_position_title">Position</string>
-    <string name="qs_brightness_slider_position_top">Top</string>
-    <string name="qs_brightness_slider_position_bottom">Bottom</string>
+    <string name="qs_show_brightness_slider_title">Ползунок регулировки яркости</string>
+    <string name="qs_show_brightness_slider_never">Не показывать</string>
+    <string name="qs_show_brightness_slider_expanded">Показывать в развернутом виде</string>
+    <string name="qs_show_brightness_slider_always">Всегда показывать</string>
+    <string name="qs_show_brightness_slider_not_expanded">Показывать в свёрнутом виде</string>
+    <string name="qs_brightness_slider_position_title">Позиция</string>
+    <string name="qs_brightness_slider_position_top">Сверху</string>
+    <string name="qs_brightness_slider_position_bottom">Снизу</string>
     <!-- Monet Engine -->
     <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Monet engine</string>
-    <string name="monet_engine_summary">Customize monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_title">Движок Monet</string>
+    <string name="monet_engine_summary">Кастомизация параметров Monet</string>
+    <string name="monet_engine_custom_color_title">Использовать свой цвет</string>
+    <string name="monet_engine_custom_color_summary">Использовать свои цвета для движка Monet вместо цветов обоев</string>
+    <string name="monet_engine_color_override_title">Свой цвет</string>
+    <string name="monet_engine_white_luminance_user_title">Яркость белого</string>
+    <string name="monet_engine_accurate_shades_title">Использовать точные оттенки</string>
+    <string name="monet_engine_chroma_factor_title">Коэффициент цветности</string>
+    <string name="monet_engine_linear_lightness_title">Использовать линейное освещение</string>
     <!-- Quick Settings brightness icon -->
-    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
+    <string name="qs_show_auto_brightness_title">Значок адаптивной регулировки яркости</string>
+    <string name="qs_show_auto_brightness_summary">Показывать переключатель для адаптивной регулировки яркости</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Использовать черную тему</string>
+    <string name="system_black_theme_summary">Принудительно использовать черные цвета в фоне</string>
     <!-- OOS style material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_button_title">Clear all notification button</string>
-    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
-    <string name="clearall_style_title">Clear all notification button style</string>
-    <string name="clearall_bgstyle_title">Clear all notification button background</string>
+    <string name="notification_material_dismiss_button_title">Кнопка очистки всех уведомлений</string>
+    <string name="notification_material_dismiss_button_summary">Заменить текст уведомления \"Очистить все\" на плавающую кнопку</string>
+    <string name="clearall_style_title">Стиль кнопки очистки уведомлений</string>
+    <string name="clearall_bgstyle_title">Задний фон кнопки очистки уведомлений</string>
 </resources>
