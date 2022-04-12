@@ -12,10 +12,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_title">Configuración de Cherish</string>
     <!-- Units -->
-    <string name="unit_milliseconds">milliseconds</string>
-    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">milisegundos</string>
+    <string name="unit_seconds">segundos</string>
     <!-- Categories -->
     <string name="button_title">Botones</string>
     <string name="button_summary">Teclas de hardware, barra de navegación</string>
@@ -66,25 +66,25 @@
     <string name="led_color_red">Rojo</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">Default</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
-    <string name="add_package_to_title">Add application</string>
+    <string name="custom_seekbar_default_value">Por defecto</string>
+    <string name="custom_seekbar_default_value_to_set">Valor por defecto: <xliff:g id="v">%s</xliff:g>\n Mantén presionado para editar</string>
+    <string name="custom_seekbar_default_value_is_set">El valor por defecto está editado</string>
+    <string name="add_package_to_title">Añadir aplicación</string>
     <!-- QS settings -->
     <string name="qs_title">Ajustes rápidos</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">Vibrar al tocar</string>
+    <string name="quick_settings_vibrate_summary">Vibrar cuando se toca el QS tiles</string>
     <!-- Lockscreen shortcuts -->
-    <string name="ls_category">Lockscreen Items</string>
-    <string name="ls_tuner">Enable Lockscreen tuner</string>
-    <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
-    <string name="ls_shortcut_summary">Customize Lockscreen shortcuts</string>
+    <string name="ls_category">Items de la pantalla de bloqueo</string>
+    <string name="ls_tuner">Permitir el editor de la pantalla de bloqueo</string>
+    <string name="lockscreen_shortcuts">Accesos directos de la pantalla de bloqueo</string>
+    <string name="ls_shortcut_summary">Configurar los accesos directos de la pantalla de bloqueo</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Lockscreen tuner</string>
+    <string name="lockscreen_tuner_title">Editor de la pantalla de bloqueo</string>
     <!-- Statusbar Items -->
-    <string name="sb_icons">Statusbar Icons</string>
-    <string name="statusbar_items_category">Statusbar items</string>
+    <string name="sb_icons">Iconos de la barra de estado</string>
+    <string name="statusbar_items_category">Elementos de la barra de estado</string>
     <!-- Status bar - icons -->
     <string name="status_bar_icons_title">Iconos de la barra de estado</string>
     <!-- Lock screen visualizer -->
