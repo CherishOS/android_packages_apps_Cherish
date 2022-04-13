@@ -14,8 +14,8 @@
     <!-- App Title -->
     <string name="cherish_settings_title">Nastavení Cherish</string>
     <!-- Units -->
-    <string name="unit_milliseconds">milliseconds</string>
-    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">milisekundy</string>
+    <string name="unit_seconds">sekundy</string>
     <!-- Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="button_summary">Hardwarová tlačítka, navigační panel</string>
