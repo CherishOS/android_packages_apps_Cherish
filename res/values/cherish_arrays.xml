@@ -394,4 +394,22 @@
         <item>3</item>
         <item>4</item>
     </string-array>
+
+    <!-- Lockscreen Clock -->
+    <string-array name="lock_screen_custom_clock_face_entries" translatable="false">
+        <item>@string/lock_screen_custom_clock_face_default</item>
+        <item>@string/lock_screen_custom_clock_face_sfunny</item>
+        <item>@string/lock_screen_custom_clock_face_oos</item>
+        <item>@string/lock_screen_custom_clock_face_clockertino</item>
+        <item>@string/lock_screen_custom_clock_face_spark</item>
+        <item>@string/lock_screen_custom_clock_face_spark_circle</item>
+    </string-array>
+    <string-array name="lock_screen_custom_clock_face_values" translatable="false">
+        <item>com.android.keyguard.clock.DefaultClockController</item>
+        <item>com.android.keyguard.clock.SfunnyClockController</item>
+        <item>com.android.keyguard.clock.OOSClockController</item>
+        <item>com.android.keyguard.clock.ClockertinoClockController</item>
+        <item>com.android.keyguard.clock.SparkClockController</item>
+        <item>com.android.keyguard.clock.SparkCircleClockController</item>
+    </string-array>
 </resources>

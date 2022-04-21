@@ -604,4 +604,14 @@
     <string name="disable_usercard_title">Settings UserCard</string>
     <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
 
+	<!-- Lockscreen Clocks -->
+    <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
+    <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
+    <string name="lock_screen_custom_clock_face_default">Default</string>
+    <string name="lock_screen_custom_clock_face_sfunny">Sfuny</string>
+    <string name="lock_screen_custom_clock_face_oos">OOS</string>
+    <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
+    <string name="lock_screen_custom_clock_face_spark">Spark</string>
+    <string name="lock_screen_custom_clock_face_spark_circle">Spark Circle</string>
+
 </resources>
