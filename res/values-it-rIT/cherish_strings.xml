@@ -67,21 +67,21 @@
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Valore: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Predefinito</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
-    <string name="add_package_to_title">Add application</string>
+    <string name="custom_seekbar_default_value_to_set">Valore predefinito: <xliff:g id="v">%s</xliff:g>\nPressione prolungata per impostare</string>
+    <string name="custom_seekbar_default_value_is_set">Valore predefinito impostato</string>
+    <string name="add_package_to_title">Aggiungi applicazione</string>
     <!-- QS settings -->
-    <string name="qs_title">Quick settings</string>
+    <string name="qs_title">Impostazioni rapide</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">Vibra al tocco</string>
+    <string name="quick_settings_vibrate_summary">Vibra al tocco dei tile delle impostazioni rapide</string>
     <!-- Lockscreen shortcuts -->
-    <string name="ls_category">Lockscreen Items</string>
-    <string name="ls_tuner">Enable Lockscreen tuner</string>
-    <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
-    <string name="ls_shortcut_summary">Customize Lockscreen shortcuts</string>
+    <string name="ls_category">Elementi schermata di blocco</string>
+    <string name="ls_tuner">Abilita modifica schermata di blocco</string>
+    <string name="lockscreen_shortcuts">Scorciatoie schermata di blocco</string>
+    <string name="ls_shortcut_summary">Personalizza le scorciatoie della schermata di blocco</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Lockscreen tuner</string>
+    <string name="lockscreen_tuner_title">Modifica schermata di blocco</string>
     <!-- Statusbar Items -->
     <string name="sb_icons">Statusbar Icons</string>
     <string name="statusbar_items_category">Statusbar items</string>
