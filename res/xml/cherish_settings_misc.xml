@@ -23,6 +23,18 @@
             android:title="@string/charging_animation_title"
             android:summary="@string/charging_animation_summary"
             android:defaultValue="false" />
+			
+	<com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/laboratory_ignore_window_secure_title"
+        android:summary="@string/laboratory_ignore_window_secure_summary"
+        android:defaultValue="false"/>
+			
+	<com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="pm_downgrade_allowed"
+        android:title="@string/laboratory_app_downgrade_title"
+        android:summary="@string/laboratory_app_downgrade_summary"
+        android:defaultValue="false"/>
 	
 		<!-- Gaming mode -->
     <Preference
