@@ -671,4 +671,10 @@
     <string name="notification_material_dismiss_button_summary">全て終了ボタンをフローティングボタンに置き換える</string>
     <string name="clearall_style_title">全ての通知を消去ボタンのスタイル</string>
     <string name="clearall_bgstyle_title">全ての通知を消去ボタンの背景</string>
+    <!-- Laboratory - Application downgrade -->
+    <string name="laboratory_app_downgrade_title">アプリのダウングレードを許可</string>
+    <string name="laboratory_app_downgrade_summary">アプリをダウングレードを許可します。クラッシュやデータの破損に繋がる可能性があることに注意して下さい。</string>
+    <!-- Laboratory - Ignore window secure -->
+    <string name="laboratory_ignore_window_secure_title">ウィンドウのセキュアフラグを無視</string>
+    <string name="laboratory_ignore_window_secure_summary">全てのアプリへのスクリーンショットや画面録画の制限を解除します。基本的に録画では特別なアプリは黒く領域が塗り潰されます。いくつかの場合で便利になることがありますが、プライバシー保護が脆弱になる可能性があります。この設定切り替えの後、効果を反映させるにはアプリの再起動が必要になる可能性があります。</string>
 </resources>
