@@ -812,4 +812,19 @@
 	<!-- Qs Transparency -->
     <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI)</string>
     <string name="qs_transparency_title">Qs Transparency</string>
+	
+	<!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Settings layout</string>
+    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
+    <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
+    <string name="settings_dashboard_style_cherish">Cherish</string>
+    <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
+    <string name="settings_layout_category_title">Settings UI interface</string>
+    <string name="settings_base_style_title">Settings Base layout</string>
+    <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
+    <string name="settings_home_style_title">Settings Home layout</string>
+    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
+    <string name="disable_usercard_title">Settings UserCard</string>
+    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
 </resources>
