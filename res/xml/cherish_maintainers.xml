@@ -431,6 +431,14 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/Viper_1057" />
         </Preference>
+<Preference
+            android:title="@string/avicii_maintainer"
+            android:summary="@string/device_avicii"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Snippetguy" />
+        </Preference>
 
 </PreferenceCategory>
 
