@@ -17,12 +17,6 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-		
-		<com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="charging_animation"
-            android:title="@string/charging_animation_title"
-            android:summary="@string/charging_animation_summary"
-            android:defaultValue="false" />
 			
 	<com.cherish.settings.preferences.SecureSettingSwitchPreference
         android:key="window_ignore_secure"
@@ -47,5 +41,4 @@
             android:targetPackage="org.exthmui.game"
             android:targetClass="org.exthmui.game.ui.MainActivity" />
     </Preference>
-		
 </PreferenceScreen>
