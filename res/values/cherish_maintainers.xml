@@ -141,8 +141,8 @@
    <string name="kebab_maintainer">Viper_1057 or Amsal1</string>
    <string name="device_lemonades">Oneplus 9R</string>
    <string name="lemonades_maintainer">Viper_1057 or Amsal1</string>
-   <string name="device_lemonades">Oneplus Nord</string>
-   <string name="lemonades_maintainer">Snippetguy</string>
+   <string name="device_avicii">Oneplus Nord</string>
+   <string name="avicii_maintainer">Snippetguy</string>
 
    <!-- Lenovo Device maintainers -->
    <string name="device_jd2019">Lenovo Z5s</string>
