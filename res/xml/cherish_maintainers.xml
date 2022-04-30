@@ -20,6 +20,16 @@
   <PreferenceCategory
               android:key="xiaomi_devices"
               android:title="@string/xiaomi_devices" >
+
+<Preference
+            android:title="@string/santoni_maintainer"
+            android:summary="@string/device_santoni"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/EvilAnsh" />
+        </Preference>
+
 <Preference
             android:title="@string/jason_maintainer"
             android:summary="@string/device_jason"
