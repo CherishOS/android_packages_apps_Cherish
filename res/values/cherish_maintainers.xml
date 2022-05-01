@@ -19,6 +19,7 @@
    <string name="asus_devices">Asus</string>
    <string name="oneplus_devices">Oneplus</string>
    <string name="lenovo_devices">Lenovo</string>
+   <string name="motorola_devices">Motorola</string>
 
    <!-- Xiaomi Device maintainers -->
    <string name="device_jason">Xiaomi Mi Note 3</string>
@@ -147,4 +148,8 @@
    <!-- Lenovo Device maintainers -->
    <string name="device_jd2019">Lenovo Z5s</string>
    <string name="jd2019_maintainer">Dimaty562</string>
+
+   <!-- Motorola Device maintainers -->
+   <string name="device_chef">Motorola One Power</string>
+   <string name="chef_maintainer">Rushi Ranpise</string>
 </resources>

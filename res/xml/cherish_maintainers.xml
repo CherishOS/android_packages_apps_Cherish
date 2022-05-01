@@ -551,4 +551,18 @@
                 android:data="https://t.me/Dimaty562" />
         </Preference>
 </PreferenceCategory>
+
+<PreferenceCategory
+              android:key="motorola_devices"
+              android:title="@string/motorola_devices" >
+
+  <Preference
+            android:title="@string/chef_maintainer"
+            android:summary="@string/device_chef"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/saucefinder" />
+        </Preference>
+</PreferenceCategory>
 </PreferenceScreen>
