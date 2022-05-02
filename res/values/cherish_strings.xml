@@ -300,6 +300,20 @@
     <string name="volte_icon_margaritov">HD Filled Icon</string>
     <string name="volte_icon_margaritov2">Margaritov VoLTE Icon</string>
     <string name="volte_icon_vivo">Vivo Icon</string>
+	<string name="volte_icon_aris">Aris Icon</string>
+    <string name="volte_icon_beast">Aww Icon</string>
+    <string name="volte_icon_ios">Ios Icon</string>
+    <string name="volte_icon_lr">Livenge Icon</string>
+    <string name="volte_icon_realme">Realme Icon</string>
+    <string name="volte_icon_typeA">Mild Icon</string>
+    <string name="volte_icon_typeB">Filth Icon</string>
+    <string name="volte_icon_typeC">Mue Icon</string>
+    <string name="volte_icon_typeD">Sus Icon</string>
+    <string name="volte_icon_typeE">Acherus Icon</string>
+    <string name="volte_icon_vcircle">Circle Icon</string>
+    <string name="volte_icon_vimeo">Vimeo Icon</string>
+    <string name="volte_icon_volit">Volit Icon</string>
+    <string name="volte_icon_zirco">Ziroc Icon</string>
 
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">VoWiFi icon</string>
