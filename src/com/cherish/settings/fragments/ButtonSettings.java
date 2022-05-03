@@ -38,7 +38,7 @@ import android.widget.Toast;
 import com.android.settings.R;
 import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import com.cherish.settings.preferences.SecureSettingSwitchPreference;
-import com.android.internal.cherish.hardware.LineageHardwareManager;
+import com.android.internal.custom.hardware.LineageHardwareManager;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.cherish.CherishUtils;
 import com.android.settings.SettingsPreferenceFragment;
