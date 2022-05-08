@@ -72,7 +72,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/horizon2000" />
+                android:data="https://t.me/xisan" />
         </Preference>
 
 <Preference
