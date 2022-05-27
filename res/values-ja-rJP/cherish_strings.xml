@@ -245,20 +245,20 @@
     <string name="volte_icon_margaritov">HD 塗りつぶしアイコン</string>
     <string name="volte_icon_margaritov2">Margaritov VoLTE アイコン</string>
     <string name="volte_icon_vivo">Vivo アイコン</string>
-    <string name="volte_icon_aris">Aris Icon</string>
-    <string name="volte_icon_beast">Aww Icon</string>
-    <string name="volte_icon_ios">Ios Icon</string>
-    <string name="volte_icon_lr">Livenge Icon</string>
-    <string name="volte_icon_realme">Realme Icon</string>
-    <string name="volte_icon_typeA">Mild Icon</string>
-    <string name="volte_icon_typeB">Filth Icon</string>
-    <string name="volte_icon_typeC">Mue Icon</string>
-    <string name="volte_icon_typeD">Sus Icon</string>
-    <string name="volte_icon_typeE">Acherus Icon</string>
-    <string name="volte_icon_vcircle">Circle Icon</string>
-    <string name="volte_icon_vimeo">Vimeo Icon</string>
-    <string name="volte_icon_volit">Volit Icon</string>
-    <string name="volte_icon_zirco">Ziroc Icon</string>
+    <string name="volte_icon_aris">Aris アイコン</string>
+    <string name="volte_icon_beast">Aww アイコン</string>
+    <string name="volte_icon_ios">Ios アイコン</string>
+    <string name="volte_icon_lr">Livenge アイコン</string>
+    <string name="volte_icon_realme">Realme アイコン</string>
+    <string name="volte_icon_typeA">Mild アイコン</string>
+    <string name="volte_icon_typeB">Filth アイコン</string>
+    <string name="volte_icon_typeC">Mue アイコン</string>
+    <string name="volte_icon_typeD">Sus アイコン</string>
+    <string name="volte_icon_typeE">Acherus アイコン</string>
+    <string name="volte_icon_vcircle">Circle アイコン</string>
+    <string name="volte_icon_vimeo">Vimeo アイコン</string>
+    <string name="volte_icon_volit">Volit アイコン</string>
+    <string name="volte_icon_zirco">Ziroc アイコン</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">VoWiFi アイコン</string>
     <string name="vowifi_icon_enabled">VoWiFi アイコンは有効です</string>
@@ -457,17 +457,17 @@
     <string name="status_bar_battery_style_dotted_circle">円 (点線)</string>
     <string name="status_bar_battery_style_filled_circle">円 (塗り潰し)</string>
     <string name="status_bar_battery_style_text">文字</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
-    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
-    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_rlandscape">水平アイコン (右)</string>
+    <string name="status_bar_battery_style_icon_landscape">水平アイコン (左)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">右横向きスタイル A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">左横向きスタイル A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">右横向きスタイル B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">左横向きスタイル B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">縦向き Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">横向き Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">縦向き IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">横向き Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">横向き Capsule</string>
     <!-- Network Traffic -->
     <string name="traffic_title">通信速度</string>
     <string name="traffic_summary">通信速度表示を編集する</string>
@@ -695,33 +695,33 @@
     <string name="laboratory_ignore_window_secure_title">ウィンドウのセキュアフラグを無視</string>
     <string name="laboratory_ignore_window_secure_summary">全てのアプリへのスクリーンショットや画面録画の制限を解除します。基本的に録画では特別なアプリは黒く領域が塗り潰されます。いくつかの場合で便利になることがありますが、プライバシー保護が脆弱になる可能性があります。この設定切り替えの後、効果を反映させるにはアプリの再起動が必要になる可能性があります。</string>
     <!-- Colorful battery icon -->
-    <string name="battery_level_colors_title">Toggle colorful battery icon</string>
-    <string name="battery_level_colors_summary">Each battery level drop is color coded</string>
+    <string name="battery_level_colors_title">バッテリーアイコンの色</string>
+    <string name="battery_level_colors_summary">バッテリー残量に応じて色が変化します</string>
     <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI)</string>
-    <string name="qs_transparency_title">Qs Transparency</string>
+    <string name="qs_transparency_summary">クイック設定をどの程度透明にするかを選択する (システム UI の再起動が必要です)</string>
+    <string name="qs_transparency_title">クイック設定の透明度</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">設定のレイアウト</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
     <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
     <string name="settings_dashboard_style_cherish">Cherish</string>
-    <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
+    <string name="settings_dashboard_style_cherish_clean">CherishClean</string>
     <string name="settings_layout_category_title">設定 UI のインターフェース</string>
-    <string name="settings_base_style_title">Settings Base layout</string>
-    <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
-    <string name="settings_home_style_title">Settings Home layout</string>
-    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
-    <string name="disable_usercard_title">Settings UserCard</string>
-    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
-    <string name="spoof_title">Spoofing</string>
+    <string name="settings_base_style_title">設定の基本レイアウト</string>
+    <string name="settings_base_style_summary">設定メニューに別のレイアウトを使用する</string>
+    <string name="settings_home_style_title">設定のホームレイアウト</string>
+    <string name="settings_home_style_summary">ホームページに標準の AOPS レイアウトを使用する</string>
+    <string name="disable_usercard_title">設定のユーザーカード</string>
+    <string name="disable_usercard_summary">メイン設定ページにユーザーカードを表示しないように切り替える</string>
+    <string name="spoof_title">偽装</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
-    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
-    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+    <string name="use_photos_spoof_title">無制限のフォトストレージ</string>
+    <string name="use_photos_spoof_summary">お使いの端末は Pixel XL として写真アプリに認識され、無劣化で無制限のフォトストレージを利用できます。</string>
     <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
-    <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <string name="use_games_spoof_title">ゲーム時の FPS の向上</string>
+    <string name="use_games_spoof_summary">より高い FPS 設定を表示させるために一部のゲームで異なるモデルとして端末を偽装する</string>
     <!-- Unlock higher quality streams for specific apps -->
-    <string name="use_stream_spoof_title">Unlock higher quality streams</string>
-    <string name="use_stream_spoof_summary">Spoof your device as Pixel 6 Pro to unlock higher quality streams on Amazon Prime, Disney+, Hotstar, and Netflix</string>
+    <string name="use_stream_spoof_title">高品質ストリーム</string>
+    <string name="use_stream_spoof_summary">お使いの端末は Pixel 6 Pro として認識され、Amazon Prime、Disney+、Hotstar、Netflix をより高品質にストリーミングできるようになります。</string>
 </resources>
