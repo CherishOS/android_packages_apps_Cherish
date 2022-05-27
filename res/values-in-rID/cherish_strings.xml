@@ -245,20 +245,20 @@
     <string name="volte_icon_margaritov">Ikon HD Berisi</string>
     <string name="volte_icon_margaritov2">Ikon VoLTE Margaritov</string>
     <string name="volte_icon_vivo">Ikon Vivo</string>
-    <string name="volte_icon_aris">Aris Icon</string>
-    <string name="volte_icon_beast">Aww Icon</string>
-    <string name="volte_icon_ios">Ios Icon</string>
-    <string name="volte_icon_lr">Livenge Icon</string>
-    <string name="volte_icon_realme">Realme Icon</string>
-    <string name="volte_icon_typeA">Mild Icon</string>
-    <string name="volte_icon_typeB">Filth Icon</string>
-    <string name="volte_icon_typeC">Mue Icon</string>
-    <string name="volte_icon_typeD">Sus Icon</string>
-    <string name="volte_icon_typeE">Acherus Icon</string>
-    <string name="volte_icon_vcircle">Circle Icon</string>
-    <string name="volte_icon_vimeo">Vimeo Icon</string>
-    <string name="volte_icon_volit">Volit Icon</string>
-    <string name="volte_icon_zirco">Ziroc Icon</string>
+    <string name="volte_icon_aris">Ikon Aris</string>
+    <string name="volte_icon_beast">Ikon Aww</string>
+    <string name="volte_icon_ios">Ikon iOS</string>
+    <string name="volte_icon_lr">Ikon Livenge</string>
+    <string name="volte_icon_realme">Ikon Realme</string>
+    <string name="volte_icon_typeA">Ikon Mild</string>
+    <string name="volte_icon_typeB">Ikon Filth</string>
+    <string name="volte_icon_typeC">Ikon Mue</string>
+    <string name="volte_icon_typeD">Ikon Sus</string>
+    <string name="volte_icon_typeE">Ikon Acherus</string>
+    <string name="volte_icon_vcircle">Ikon Lingkaran</string>
+    <string name="volte_icon_vimeo">Ikon Vimeo</string>
+    <string name="volte_icon_volit">Ikon Volit</string>
+    <string name="volte_icon_zirco">Ikon Ziroc</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Ikon VoWiFi</string>
     <string name="vowifi_icon_enabled">Ikon VoWiFi diaktifkan</string>
@@ -457,12 +457,12 @@
     <string name="status_bar_battery_style_dotted_circle">Lingkaran (Putus-putus)</string>
     <string name="status_bar_battery_style_filled_circle">Lingkaran (Terisi)</string>
     <string name="status_bar_battery_style_text">Teks</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ikon mendatar (Kanan)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ikon mendatar (Kiri)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Mendatar kanan Gaya A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Mendatar kiri Gaya A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Mendatar kanan Gaya B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Mendatar kiri Gaya B</string>
     <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
     <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
     <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
@@ -695,11 +695,11 @@
     <string name="laboratory_ignore_window_secure_title">Abaikan bendera pengaman jendela</string>
     <string name="laboratory_ignore_window_secure_summary">Ini menghapus batas tangkapan layar dan rekaman layar untuk semua aplikasi. Biasanya, aplikasi khusus diganti dengan area hitam dalam rekaman. Ini bisa nyaman dalam beberapa kasus tetapi dapat menyebabkan kebocoran privasi. Setelah mengubah sakelar ini, Anda mungkin perlu memulai ulang aplikasi agar perubahan diterapkan.</string>
     <!-- Colorful battery icon -->
-    <string name="battery_level_colors_title">Toggle colorful battery icon</string>
-    <string name="battery_level_colors_summary">Each battery level drop is color coded</string>
+    <string name="battery_level_colors_title">Tombol ikon baterai berwarna-warni</string>
+    <string name="battery_level_colors_summary">Setiap penurunan level baterai diberi kode warna</string>
     <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI)</string>
-    <string name="qs_transparency_title">Qs Transparency</string>
+    <string name="qs_transparency_summary">Pilih seberapa transparan yang Anda inginkan dari setelan cepat Anda (Membutuhkan mulai ulang SistemUI)</string>
+    <string name="qs_transparency_title">Transparansi Setelan Cepat</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Tata letak Setelan</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
@@ -708,20 +708,20 @@
     <string name="settings_dashboard_style_cherish">Cherish</string>
     <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
     <string name="settings_layout_category_title">Atur Antarmuka Setelan</string>
-    <string name="settings_base_style_title">Settings Base layout</string>
-    <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
-    <string name="settings_home_style_title">Settings Home layout</string>
-    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
-    <string name="disable_usercard_title">Settings UserCard</string>
-    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
-    <string name="spoof_title">Spoofing</string>
+    <string name="settings_base_style_title">Tata letak Basis Setelan</string>
+    <string name="settings_base_style_summary">Gunakan tata letak alternatif untuk mengatur menu</string>
+    <string name="settings_home_style_title">Tata letak Beranda Setelan</string>
+    <string name="settings_home_style_summary">Gunakan tata letak bawaan aosp untuk beranda</string>
+    <string name="disable_usercard_title">Kartu Pengguna Setelan</string>
+    <string name="disable_usercard_summary">Tombol agar tidak menampilkan kartu pengguna di halaman setelan utama</string>
+    <string name="spoof_title">Pemalsuan</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
-    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
-    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+    <string name="use_photos_spoof_title">Penyimpanan Google Foto tanpa batas</string>
+    <string name="use_photos_spoof_summary">Palsukan perangkat Anda sebagai Pixel XL untuk aplikasi Google Foto hanya untuk menyediakan penyimpanan tidak terbatas untuk cadangan</string>
     <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
-    <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <string name="use_games_spoof_title">Buka kunci FPS yang lebih tinggi dalam game</string>
+    <string name="use_games_spoof_summary">Palsukan perangkat Anda sebagai model yang berbeda untuk game tertentu agar dapat membuka FPS yang lebih tinggi</string>
     <!-- Unlock higher quality streams for specific apps -->
-    <string name="use_stream_spoof_title">Unlock higher quality streams</string>
-    <string name="use_stream_spoof_summary">Spoof your device as Pixel 6 Pro to unlock higher quality streams on Amazon Prime, Disney+, Hotstar, and Netflix</string>
+    <string name="use_stream_spoof_title">Buka kunci streaming berkualitas lebih tinggi</string>
+    <string name="use_stream_spoof_summary">Palsukan perangkat Anda sebagai Pixel 6 Pro untuk membuka streaming berkualitas lebih tinggi di Amazon Prime, Disney+, Hotstar, dan Netflix</string>
 </resources>
