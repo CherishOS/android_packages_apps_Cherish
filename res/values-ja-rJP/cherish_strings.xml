@@ -697,9 +697,6 @@
     <!-- Colorful battery icon -->
     <string name="battery_level_colors_title">バッテリーアイコンの色</string>
     <string name="battery_level_colors_summary">バッテリー残量に応じて色が変化します</string>
-    <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">クイック設定をどの程度透明にするかを選択する (システム UI の再起動が必要です)</string>
-    <string name="qs_transparency_title">クイック設定の透明度</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">設定のレイアウト</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
