@@ -697,9 +697,6 @@
     <!-- Colorful battery icon -->
     <string name="battery_level_colors_title">Bỏ qua cờ bảo mật cửa sổ</string>
     <string name="battery_level_colors_summary">Mỗi lần giảm mức pin được mã hóa bằng màu sắc</string>
-    <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">Chọn mức độ trong suốt mà bạn muốn qs của mình (Yêu cầu SystemUI)</string>
-    <string name="qs_transparency_title">Trong suốt của Qs</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Bố cục cài đặt</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
