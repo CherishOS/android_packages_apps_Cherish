@@ -43,7 +43,7 @@
     <string name="notifications_summary">Đèn sạc, tiêu đề thông báo</string>
     <string name="about_summary">Tìm hiểu thêm về CherishOS</string>
     <string name="device_part_title">Tính năng thiết bị</string>
-    <string name="qs_category">Kiểu Qs</string>
+    <string name="qs_category">Kiểu cài đặt nhanh</string>
     <string name="navbar_title">Thanh điều hướng</string>
     <string name="volume_keys_title">Phím âm lượng</string>
     <!-- General strings -->
@@ -697,9 +697,6 @@
     <!-- Colorful battery icon -->
     <string name="battery_level_colors_title">Bỏ qua cờ bảo mật cửa sổ</string>
     <string name="battery_level_colors_summary">Mỗi lần giảm mức pin được mã hóa bằng màu sắc</string>
-    <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">Chọn mức độ trong suốt mà bạn muốn qs của mình (Yêu cầu SystemUI)</string>
-    <string name="qs_transparency_title">Trong suốt của Qs</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Bố cục cài đặt</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
@@ -724,4 +721,7 @@
     <!-- Unlock higher quality streams for specific apps -->
     <string name="use_stream_spoof_title">Mở khóa các luồng chất lượng cao hơn</string>
     <string name="use_stream_spoof_summary">Giả mạo thiết bị của bạn thành Pixel 6 Pro để mở khóa các luồng chất lượng cao hơn trên Amazon Prime, Disney +, Hotstar và Netflix</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Ẩn ứng dụng</string>
+    <string name="hidden_apps_summary">Ứng dụng cần ẩn trên màn hình</string>
 </resources>

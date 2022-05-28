@@ -697,9 +697,6 @@
     <!-- Colorful battery icon -->
     <string name="battery_level_colors_title">Tombol ikon baterai berwarna-warni</string>
     <string name="battery_level_colors_summary">Setiap penurunan level baterai diberi kode warna</string>
-    <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">Pilih seberapa transparan yang Anda inginkan dari setelan cepat Anda (Membutuhkan mulai ulang SistemUI)</string>
-    <string name="qs_transparency_title">Transparansi Setelan Cepat</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Tata letak Setelan</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
@@ -724,4 +721,7 @@
     <!-- Unlock higher quality streams for specific apps -->
     <string name="use_stream_spoof_title">Buka kunci streaming berkualitas lebih tinggi</string>
     <string name="use_stream_spoof_summary">Palsukan perangkat Anda sebagai Pixel 6 Pro untuk membuka streaming berkualitas lebih tinggi di Amazon Prime, Disney+, Hotstar, dan Netflix</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Sembunyikan aplikasi</string>
+    <string name="hidden_apps_summary">Aplikasi yang akan disembunyikan dari peluncur</string>
 </resources>

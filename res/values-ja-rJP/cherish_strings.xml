@@ -697,9 +697,6 @@
     <!-- Colorful battery icon -->
     <string name="battery_level_colors_title">バッテリーアイコンの色</string>
     <string name="battery_level_colors_summary">バッテリー残量に応じて色が変化します</string>
-    <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">クイック設定をどの程度透明にするかを選択する (システム UI の再起動が必要です)</string>
-    <string name="qs_transparency_title">クイック設定の透明度</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">設定のレイアウト</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
@@ -724,4 +721,7 @@
     <!-- Unlock higher quality streams for specific apps -->
     <string name="use_stream_spoof_title">高品質ストリーム</string>
     <string name="use_stream_spoof_summary">お使いの端末は Pixel 6 Pro として認識され、Amazon Prime、Disney+、Hotstar、Netflix をより高品質にストリーミングできるようになります。</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">非表示のアプリ</string>
+    <string name="hidden_apps_summary">ランチャーアプリから非表示になるアプリです。変更を反映させるにはランチャーの再起動が必要です。</string>
 </resources>
