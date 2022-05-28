@@ -697,9 +697,6 @@
     <!-- Colorful battery icon -->
     <string name="battery_level_colors_title">Toggle colorful battery icon</string>
     <string name="battery_level_colors_summary">Each battery level drop is color coded</string>
-    <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI)</string>
-    <string name="qs_transparency_title">Qs Transparency</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Layout impostazioni</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
