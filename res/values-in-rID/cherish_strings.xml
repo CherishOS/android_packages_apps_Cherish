@@ -697,9 +697,6 @@
     <!-- Colorful battery icon -->
     <string name="battery_level_colors_title">Tombol ikon baterai berwarna-warni</string>
     <string name="battery_level_colors_summary">Setiap penurunan level baterai diberi kode warna</string>
-    <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">Pilih seberapa transparan yang Anda inginkan dari setelan cepat Anda (Membutuhkan mulai ulang SistemUI)</string>
-    <string name="qs_transparency_title">Transparansi Setelan Cepat</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Tata letak Setelan</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
