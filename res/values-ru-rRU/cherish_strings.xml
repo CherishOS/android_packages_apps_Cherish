@@ -697,9 +697,6 @@
     <!-- Colorful battery icon -->
     <string name="battery_level_colors_title">Toggle colorful battery icon</string>
     <string name="battery_level_colors_summary">Each battery level drop is color coded</string>
-    <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI)</string>
-    <string name="qs_transparency_title">Qs Transparency</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Расположение настроек</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
@@ -710,18 +707,18 @@
     <string name="settings_layout_category_title">Настройки UI интерфейса</string>
     <string name="settings_base_style_title">Settings Base layout</string>
     <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
-    <string name="settings_home_style_title">Settings Home layout</string>
-    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
-    <string name="disable_usercard_title">Settings UserCard</string>
-    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
-    <string name="spoof_title">Spoofing</string>
+    <string name="settings_home_style_title">Настройки домашней страницы</string>
+    <string name="settings_home_style_summary">Использовать расположение aosp для главной страницы</string>
+    <string name="disable_usercard_title">Настройки карточки пользователя</string>
+    <string name="disable_usercard_summary">Переключить, чтобы не показывать карточку пользователя на главной странице настроек</string>
+    <string name="spoof_title">Подмена</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
-    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
-    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+    <string name="use_photos_spoof_title">Неограниченное хранилище фотографий</string>
+    <string name="use_photos_spoof_summary">Маскировка устройства под Pixel XL для \"Google Фото\", чтобы предоставить неограниченное хранилище для резервного копирования фотографий</string>
     <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
-    <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <string name="use_games_spoof_title">Разблокировать высокий FPS в играх</string>
+    <string name="use_games_spoof_summary">Маскировка устройства под другую модель для определенных игр, чтобы разблокировать более высокий FPS</string>
     <!-- Unlock higher quality streams for specific apps -->
-    <string name="use_stream_spoof_title">Unlock higher quality streams</string>
-    <string name="use_stream_spoof_summary">Spoof your device as Pixel 6 Pro to unlock higher quality streams on Amazon Prime, Disney+, Hotstar, and Netflix</string>
+    <string name="use_stream_spoof_title">Разблокировать потоки более высокого качества</string>
+    <string name="use_stream_spoof_summary">Замените свое устройство на Pixel 6 Pro, чтобы разблокировать более качественные трансляции на Amazon Prime, Disney+, Hotstar и Netflix</string>
 </resources>
