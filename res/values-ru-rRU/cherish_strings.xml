@@ -721,4 +721,7 @@
     <!-- Unlock higher quality streams for specific apps -->
     <string name="use_stream_spoof_title">Разблокировать потоки более высокого качества</string>
     <string name="use_stream_spoof_summary">Замените свое устройство на Pixel 6 Pro, чтобы разблокировать более качественные трансляции на Amazon Prime, Disney+, Hotstar и Netflix</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Hidden apps</string>
+    <string name="hidden_apps_summary">Applications that should be hidden from launcher</string>
 </resources>
