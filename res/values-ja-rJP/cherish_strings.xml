@@ -721,4 +721,7 @@
     <!-- Unlock higher quality streams for specific apps -->
     <string name="use_stream_spoof_title">高品質ストリーム</string>
     <string name="use_stream_spoof_summary">お使いの端末は Pixel 6 Pro として認識され、Amazon Prime、Disney+、Hotstar、Netflix をより高品質にストリーミングできるようになります。</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Hidden apps</string>
+    <string name="hidden_apps_summary">Applications that should be hidden from launcher</string>
 </resources>
