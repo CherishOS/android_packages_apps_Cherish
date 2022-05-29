@@ -721,4 +721,7 @@
     <!-- Unlock higher quality streams for specific apps -->
     <string name="use_stream_spoof_title">Mở khóa các luồng chất lượng cao hơn</string>
     <string name="use_stream_spoof_summary">Giả mạo thiết bị của bạn thành Pixel 6 Pro để mở khóa các luồng chất lượng cao hơn trên Amazon Prime, Disney +, Hotstar và Netflix</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Hidden apps</string>
+    <string name="hidden_apps_summary">Applications that should be hidden from launcher</string>
 </resources>
