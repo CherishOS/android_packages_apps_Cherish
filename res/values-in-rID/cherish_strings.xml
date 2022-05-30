@@ -722,6 +722,6 @@
     <string name="use_stream_spoof_title">Buka kunci streaming berkualitas lebih tinggi</string>
     <string name="use_stream_spoof_summary">Palsukan perangkat Anda sebagai Pixel 6 Pro untuk membuka streaming berkualitas lebih tinggi di Amazon Prime, Disney+, Hotstar, dan Netflix</string>
     <!-- Hidden apps -->
-    <string name="hidden_apps_title">Hidden apps</string>
-    <string name="hidden_apps_summary">Applications that should be hidden from launcher</string>
+    <string name="hidden_apps_title">Sembunyikan aplikasi</string>
+    <string name="hidden_apps_summary">Aplikasi yang akan disembunyikan dari peluncur</string>
 </resources>
