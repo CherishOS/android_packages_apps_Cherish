@@ -58,7 +58,7 @@
     <string name="press_color_to_apply">Uygulamak için aşağıdaki renge basın</string>
     <string name="arrow_right">Sağ ok</string>
     <string name="arrow_down">Aşağı ok</string>
-    <string name="hex">Altıgen:</string>
+    <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Ayarla</string>
     <string name="color_default">Varsayılan</string>
