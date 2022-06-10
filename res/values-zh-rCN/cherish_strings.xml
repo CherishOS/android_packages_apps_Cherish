@@ -67,75 +67,75 @@
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">值: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">默认</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
-    <string name="add_package_to_title">Add application</string>
+    <string name="custom_seekbar_default_value_to_set">默认值: <xliff:g id="v">%s</xliff:g>\n长按以设置</string>
+    <string name="custom_seekbar_default_value_is_set">已设为默认值</string>
+    <string name="add_package_to_title">添加应用程序</string>
     <!-- QS settings -->
-    <string name="qs_title">Quick settings</string>
+    <string name="qs_title">快速设置</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">触摸时振动</string>
+    <string name="quick_settings_vibrate_summary">触摸快速设置磁贴时震动</string>
     <!-- Lockscreen shortcuts -->
-    <string name="ls_category">Lockscreen Items</string>
+    <string name="ls_category">锁屏项目</string>
     <string name="ls_tuner">Enable Lockscreen tuner</string>
-    <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
+    <string name="lockscreen_shortcuts">锁屏界面快捷方式</string>
     <string name="ls_shortcut_summary">Customize Lockscreen shortcuts</string>
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen tuner</string>
     <!-- Statusbar Items -->
-    <string name="sb_icons">Statusbar Icons</string>
-    <string name="statusbar_items_category">Statusbar items</string>
+    <string name="sb_icons">状态栏图标</string>
+    <string name="statusbar_items_category">状态栏项目</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Status bar icons</string>
+    <string name="status_bar_icons_title">状态栏图标</string>
     <!-- Lock screen visualizer -->
-    <string name="visualizer_title">Display music visualizer</string>
+    <string name="visualizer_title">显示音乐可视化效果</string>
     <!-- Power menu and dialogs opacity -->
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
-    <string name="power_menu_animation">Power menu</string>
+    <string name="power_menu_animation">电源键菜单</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
-    <string name="lockscreen_category">Lockscreen</string>
+    <string name="lockscreen_category">锁屏</string>
     <!-- Themes -->
-    <string name="theme_type_title">System theme</string>
-    <string name="theme_type_summary">Select theme</string>
+    <string name="theme_type_title">系统主题</string>
+    <string name="theme_type_summary">选择主题</string>
     <!--Accenter -->
-    <string name="themes_hub_title">Themes</string>
+    <string name="themes_hub_title">主题</string>
     <string name="themes_hub_summary">Accents-Gradients-Themes</string>
-    <string name="rgb_accent_picker_title_dark">Accent Picker</string>
-    <string name="rgb_accent_picker_summary">Choose the accent color yourself</string>
-    <string name="theme_option_reset_title">Reset Theme Options</string>
+    <string name="rgb_accent_picker_title_dark">选择强调色</string>
+    <string name="rgb_accent_picker_summary">自定义强调色</string>
+    <string name="theme_option_reset_title">重置主题选项</string>
     <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
     <!--ThemePicker-->
-    <string name="theme_select_title">Styles and Wallpapers</string>
-    <string name="theme_select_summary">Browse and select installed themes</string>
+    <string name="theme_select_title">样式和壁纸</string>
+    <string name="theme_select_summary">浏览并选择已安装的主题</string>
     <string name="notification_light_settings">Notifications light</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="volume_rocker_wake_title">音量键唤醒</string>
+    <string name="search">搜索</string>
+    <string name="search_apps">搜索应用程序</string>
     <!-- Power Menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_title_summary">View or change power menu entries</string>
-    <string name="powermenu_screenshot">Screenshot</string>
-    <string name="powermenu_power">Power</string>
-    <string name="powermenu_advanced">Advanced reboot options</string>
-    <string name="powermenu_restart">Restart</string>
-    <string name="powermenu_airplane">Airplane</string>
-    <string name="powermenu_settings">Settings</string>
-    <string name="powermenu_lockdown">Lock Down</string>
-    <string name="powermenu_soundpanel">Sound Panel</string>
-    <string name="powermenu_users">Users</string>
-    <string name="powermenu_logout">Logout</string>
+    <string name="power_menu_title">电源菜单</string>
+    <string name="power_menu_title_summary">查看或更改电源菜单项</string>
+    <string name="powermenu_screenshot">截屏</string>
+    <string name="powermenu_power">关机</string>
+    <string name="powermenu_advanced">高级重启选项</string>
+    <string name="powermenu_restart">重启</string>
+    <string name="powermenu_airplane">飞行模式</string>
+    <string name="powermenu_settings">设置</string>
+    <string name="powermenu_lockdown">锁定设备</string>
+    <string name="powermenu_soundpanel">声音面板</string>
+    <string name="powermenu_users">用户</string>
+    <string name="powermenu_logout">注销</string>
     <string name="powermenu_emergency">Emergency</string>
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="lockscreen_gesture_title">Gestures</string>
-    <string name="double_tap_to_sleep_lockscreen_title">Double tap to sleep</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+    <string name="lockscreen_gesture_title">手势</string>
+    <string name="double_tap_to_sleep_lockscreen_title">双击休眠</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">双击锁屏界面顶部三分之一或底部捷径区域使设备休眠</string>
     <!-- Double Tap Statusbar to Sleep -->
-    <string name="statusbar_gesture_title">Gestures</string>
-    <string name="double_tap_to_sleep_statusbar_title">Double tap to sleep</string>
-    <string name="double_tap_to_sleep_statusbar_summary">Double tap on statusbar to put the device to sleep</string>
+    <string name="statusbar_gesture_title">手势</string>
+    <string name="double_tap_to_sleep_statusbar_title">双击休眠</string>
+    <string name="double_tap_to_sleep_statusbar_summary">双击状态栏使设备睡眠</string>
     <!-- Buttons title -->
     <string name="volume_category">音量键</string>
     <!--Volume keys -->
@@ -196,25 +196,25 @@
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">超时</string>
     <string name="heads_up_time_out_summary">浮动通知将显示 <xliff:g id="number">%d</xliff:g> 秒</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_2sec">2秒</string>
+    <string name="heads_up_time_out_4sec">4秒</string>
+    <string name="heads_up_time_out_5sec">5秒</string>
+    <string name="heads_up_time_out_6sec">6秒</string>
+    <string name="heads_up_time_out_8sec">8秒</string>
+    <string name="heads_up_time_out_10sec">10秒</string>
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Snooze timer</string>
     <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
     <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
     <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_1min">1分钟</string>
+    <string name="heads_up_snooze_5min">5分钟</string>
+    <string name="heads_up_snooze_10min">10分钟</string>
+    <string name="heads_up_snooze_15min">15分钟</string>
+    <string name="heads_up_snooze_20min">20分钟</string>
     <!-- Quick QS pulldown -->
     <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
-    <string name="quick_pulldown_none">Disabled</string>
+    <string name="quick_pulldown_none">已禁用</string>
     <string name="quick_pulldown_right">Pulldown statusbar from right side</string>
     <string name="quick_pulldown_left">Pulldown statusbar from left side</string>
     <!-- Incall vibrate options -->
@@ -238,16 +238,16 @@
     <string name="volte_icon_vo">Vo Only Icon</string>
     <string name="volte_icon_volte">VoLTE Icon</string>
     <string name="volte_icon_oos">VoLTE OOS Icon</string>
-    <string name="volte_icon_hd">HD Icon</string>
+    <string name="volte_icon_hd">HD 图标</string>
     <string name="volte_icon_hd2">HD CAF Icon</string>
-    <string name="volte_icon_miui">MIUI 11 Icon</string>
+    <string name="volte_icon_miui">MIUI 11 图标</string>
     <string name="volte_icon_emui">EMUI Icon</string>
     <string name="volte_icon_margaritov">HD Filled Icon</string>
     <string name="volte_icon_margaritov2">Margaritov VoLTE Icon</string>
-    <string name="volte_icon_vivo">Vivo Icon</string>
-    <string name="volte_icon_aris">Aris Icon</string>
+    <string name="volte_icon_vivo">Vivo 图标</string>
+    <string name="volte_icon_aris">Aris图标</string>
     <string name="volte_icon_beast">Aww Icon</string>
-    <string name="volte_icon_ios">Ios Icon</string>
+    <string name="volte_icon_ios">Ios 图标</string>
     <string name="volte_icon_lr">Livenge Icon</string>
     <string name="volte_icon_realme">Realme Icon</string>
     <string name="volte_icon_typeA">Mild Icon</string>
