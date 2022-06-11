@@ -71,6 +71,17 @@
 	<PreferenceCategory
            android:key="notifications_general_category"
            android:title="@string/general_category">
+		   
+		 <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="reticker_status"
+        android:title="@string/reticker_title"
+        android:summary="@string/reticker_summary" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="reticker_colored"
+        android:title="@string/reticker_colored_title"
+        android:summary="@string/reticker_colored_summary"
+        android:dependency="reticker_status" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
            android:key="notification_guts_kill_app_button"
