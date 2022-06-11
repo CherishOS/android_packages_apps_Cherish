@@ -29,20 +29,6 @@
             android:summary="@string/qs_date_summary"
             android:defaultValue="true" />
 		
-		<!-- QS footer text toggle -->
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
-        android:key="qs_footer_text_show"
-        android:title="@string/qs_footer_text_show_title"
-        android:defaultValue="false" />
-
-    <!-- QS footer text string -->
-    <com.cherish.settings.preferences.SystemSettingEditTextPreference
-        android:key="qs_footer_text_string"
-        android:title="@string/qs_footer_text_string_title"
-        android:summary="@string/qs_footer_text_string_summary"
-        android:dependency="qs_footer_text_show"
-        android:defaultValue="TheKeepLove" />
-		
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_show_battery_estimate"
             android:title="@string/qs_show_battery_estimate_title"
