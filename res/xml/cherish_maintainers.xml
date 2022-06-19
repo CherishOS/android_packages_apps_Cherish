@@ -516,7 +516,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/Nikhil7001" />
+                android:data="https://t.me/CykeekBuilds" />
         </Preference>
 
 <Preference
