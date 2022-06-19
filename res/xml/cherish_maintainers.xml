@@ -65,6 +65,15 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/P4042" />
         </Preference>
+
+  <Preference
+            android:title="@string/venus_maintainer"
+            android:summary="@string/device_venus"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/kota15th" />
+        </Preference>
 		
 <Preference
             android:title="@string/beryllium_maintainer"
