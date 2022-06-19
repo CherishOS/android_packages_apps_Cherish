@@ -62,6 +62,8 @@
    <string name="violet_maintainer">Madhav</string>
    <string name="device_umi">Xiaomi Mi 10</string>
    <string name="umi_maintainer">Adrian Lam</string>
+   <string name="device_venus">Xiaomi Mi 11</string>
+   <string name="venus_maintainer">kota</string>
    <string name="device_cepheus">Xiaomi Mi 9</string>
    <string name="cepheus_maintainer">Freesoul</string>
    <string name="device_vince">Xiaomi Redmi Note 5/5 Plus</string>
