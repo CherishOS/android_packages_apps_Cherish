@@ -80,8 +80,8 @@
 	    android:summary="@string/device_ysl"
 	    android:icon="@drawable/ic_devs_phone" >
 	    <intent
-	        android:action="android.intent.action.VIEW'
-		android:data="http://t.me/Iris0411" />
+	        android:action="android.intent.action.VIEW"
+		android:data="https://t.me/Iris0411" />
         </Preference>
 		
 <Preference
