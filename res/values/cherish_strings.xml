@@ -849,4 +849,15 @@
 	<!-- Qs Transparency -->
     <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI Restart)</string>
     <string name="qs_transparency_title">Qs Transparency</string>
+	
+	<!-- Media artwork -->
+    <string name="media_category">Media notification</string>
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
+    <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
+    <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
+    <string name="artwork_media_background_fade_filter_title">Fade amount for media artwork</string>
+    <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
+    <string name="just_kidding">Just kidding! providing logs helps us look like professional programmers err i mean trace the bugs that users reports.</string>
+    <string name="bug_report_drill">Bug Reporting Procedure</string>
 </resources>

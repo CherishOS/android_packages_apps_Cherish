@@ -90,6 +90,47 @@
            android:defaultValue="false" />
     </PreferenceCategory>
 	
+	<PreferenceCategory
+        android:title="@string/media_category">
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="artwork_media_background"
+            android:title="@string/artwork_media_background_title"
+            android:summary="@string/artwork_media_background_summary"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="artwork_media_background_fade_percent"
+            android:title="@string/artwork_media_background_fade_filter_title"
+            android:dependency="artwork_media_background"
+            android:defaultValue="30"
+            android:max="50"
+            settings:min="1" />
+            
+        <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="artwork_media_background_alpha"
+            android:title="@string/artwork_media_background_alpha_title"
+            android:dependency="artwork_media_background"
+            android:defaultValue="255"
+            android:max="255"
+            settings:min="0" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="artwork_media_background_enable_blur"
+            android:title="@string/artwork_media_background_enable_blur_title"
+            android:dependency="artwork_media_background"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="artwork_media_background_blur_radius"
+            android:title="@string/artwork_media_background_blur_radius_title"
+            android:dependency="artwork_media_background_enable_blur"
+            android:defaultValue="1"
+            android:max="25"
+            settings:min="1" />
+
+    </PreferenceCategory>
+	
 	<Preference
         android:key="charging_light"
         android:fragment="com.cherish.settings.fragments.BatteryLightSettings"
