@@ -18,49 +18,49 @@
     <string name="unit_seconds">seconds</string>
     <!-- Categories -->
     <string name="button_title">Buttons</string>
-    <string name="button_summary">Hardware-Tasten, Navigationsleiste</string>
-    <string name="gestures_title">Gesten und Bewegungen</string>
-    <string name="gestures_summary">Zur Kamera springen, zum Screenshot wischen</string>
-    <string name="lockscreen_title">Sperrbildschirm</string>
-    <string name="lockscreen_summary">Musikvisualisierer, Ladeanimation, Uhrenstil</string>
-    <string name="misc_title">Sonstiges</string>
-    <string name="misc_summary">Spielmodus, Lautstärkeregelung</string>
-    <string name="animations_title">Animationen</string>
-    <string name="animations_summary">Systemanimationen</string>
+    <string name="button_summary">Hardware keys, Navigation bar</string>
+    <string name="gestures_title">Gestures</string>
+    <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
+    <string name="lockscreen_title">Lock screen</string>
+    <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
+    <string name="misc_title">Miscellaneous</string>
+    <string name="misc_summary">Gaming mode, volume controls</string>
+    <string name="animations_title">Animations</string>
+    <string name="animations_summary">System animations</string>
     <string name="powermenu_title">Power menu</string>
-    <string name="powermenu_summary">Erweiterter Neustart, Deckkraft des Ein/Aus-Menü</string>
+    <string name="powermenu_summary">Advanced restart, power menu opacity</string>
     <string name="theme_title">Themes</string>
-    <string name="theme_summary">System-Template abgerundet, Theme wechseln</string>
-    <string name="quicksettings_title">Schnelleinstellungen</string>
-    <string name="quicksettings_summary">Kachellayout, Unschärfe</string>
-    <string name="recents_title">Kürzlich verwendete Anwendungen</string>
-    <string name="recents_summary">Slim \"Letzte Apps\"</string>
-    <string name="statusbar_title">Statusleiste</string>
-    <string name="statusbar_summary">Uhr, Mobilfunkanbieter, Status-Symbole</string>
-    <string name="volume_title">Lautstärkewippe</string>
-    <string name="volume_summary">Lautstärkewippe</string>
+    <string name="theme_summary">System theme, rounded, switch theme</string>
+    <string name="quicksettings_title">Quick Settings</string>
+    <string name="quicksettings_summary">Tile layout, blur</string>
+    <string name="recents_title">Recents apps</string>
+    <string name="recents_summary">Slim recents</string>
+    <string name="statusbar_title">Status bar</string>
+    <string name="statusbar_summary">Clock, carrier, status icons</string>
+    <string name="volume_title">Volume rockers</string>
+    <string name="volume_summary">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
-    <string name="notifications_summary">Akkulicht, Benachrichtigungskopfzeile</string>
-    <string name="about_summary">Erfahre mehr über CherishOS</string>
-    <string name="device_part_title">Geräteeinstellungen</string>
-    <string name="qs_category">QS Kategorie</string>
-    <string name="navbar_title">Navigationsleiste</string>
-    <string name="volume_keys_title">Lautstärketasten</string>
+    <string name="notifications_summary">Battery light, notifications header</string>
+    <string name="about_summary">Learn more about CherishOS</string>
+    <string name="device_part_title">Device features</string>
+    <string name="qs_category">QS category</string>
+    <string name="navbar_title">Navigation bar</string>
+    <string name="volume_keys_title">Volume keys</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
-    <string name="cancel">Abbrechen</string>
-    <string name="save">Speichern</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
     <string name="default_string">Default</string>
     <string name="disabled">Disabled</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Farbauswahl</string>
-    <string name="press_color_to_apply">Zum Festlegen der Farbe auf die Farbdarstellung unten tippen</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Setzen</string>
+    <string name="set">Set</string>
     <string name="color_default">Default</string>
     <string name="led_color_green">Green</string>
     <string name="led_color_red">Red</string>
@@ -71,7 +71,7 @@
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     <string name="add_package_to_title">Add application</string>
     <!-- QS settings -->
-    <string name="qs_title">Schnelleinstellungen</string>
+    <string name="qs_title">Quick settings</string>
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
@@ -86,19 +86,19 @@
     <string name="sb_icons">Statusbar Icons</string>
     <string name="statusbar_items_category">Statusbar items</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Statusleisten Symbole</string>
+    <string name="status_bar_icons_title">Status bar icons</string>
     <!-- Lock screen visualizer -->
-    <string name="visualizer_title">Musikvisualisierung</string>
+    <string name="visualizer_title">Display music visualizer</string>
     <!-- Power menu and dialogs opacity -->
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
     <string name="power_menu_animation">Power menu</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
-    <string name="lockscreen_category">Sperrbildschirm</string>
+    <string name="lockscreen_category">Lockscreen</string>
     <!-- Themes -->
-    <string name="theme_type_title">System Theme</string>
-    <string name="theme_type_summary">Theme auswählen</string>
+    <string name="theme_type_title">System theme</string>
+    <string name="theme_type_summary">Select theme</string>
     <!--Accenter -->
     <string name="themes_hub_title">Themes</string>
     <string name="themes_hub_summary">Accents-Gradients-Themes</string>
@@ -107,9 +107,9 @@
     <string name="theme_option_reset_title">Reset Theme Options</string>
     <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
     <!--ThemePicker-->
-    <string name="theme_select_title">Designs und Hintergründe</string>
-    <string name="theme_select_summary">Installierte Themes durchsuchen und auswählen</string>
-    <string name="notification_light_settings">Benachrichtigungs-LED</string>
+    <string name="theme_select_title">Styles and Wallpapers</string>
+    <string name="theme_select_summary">Browse and select installed themes</string>
+    <string name="notification_light_settings">Notifications light</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="search">Search</string>
@@ -276,7 +276,7 @@
     <string name="vowifi_icon_vivo">Vivo Icon</string>
     <string name="vowifi_icon_margaritov">Margaritov Icon</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Akku Ladelicht</string>
+    <string name="battery_light_settings">Battery charging light</string>
     <string name="battery_light_enable">Enable</string>
     <string name="battery_full_light_enabled">Battery light when full charged</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
@@ -434,10 +434,6 @@
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">Colored Statusbar Icons</string>
     <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
-    <!-- QS footer text -->
-    <string name="qs_footer_text_show_title">Show QS footer text</string>
-    <string name="qs_footer_text_string_title">Customize footer text</string>
-    <string name="qs_footer_text_string_summary">Set to empty for default TheKeepLove</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Notification Headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade</string>
@@ -693,13 +689,13 @@
     <string name="laboratory_app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
     <!-- Laboratory - Ignore window secure -->
     <string name="laboratory_ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="laboratory_ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="laboratory_ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications	are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
     <!-- Colorful battery icon -->
     <string name="battery_level_colors_title">Toggle colorful battery icon</string>
     <string name="battery_level_colors_summary">Each battery level drop is color coded</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Settings layout</string>
-    <string name="settings_dashboard_style_aosp">AOSP</string>
+    <string name="settings_dashboard_style_aosp">Aosp</string>
     <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
     <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
     <string name="settings_dashboard_style_cherish">Cherish</string>
@@ -724,4 +720,15 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Hidden apps</string>
     <string name="hidden_apps_summary">Applications that should be hidden from launcher</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <!-- Qs Transparency -->
+    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI Restart)</string>
+    <string name="qs_transparency_title">Qs Transparency</string>
 </resources>
