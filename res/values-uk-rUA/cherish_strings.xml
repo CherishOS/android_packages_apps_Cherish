@@ -12,128 +12,128 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="cherish_settings_title">Улюблені налаштування </string>
+    <string name="cherish_settings_title">Cherish Settings</string>
     <!-- Units -->
     <string name="unit_milliseconds">milliseconds</string>
-    <string name="unit_seconds">секунди</string>
+    <string name="unit_seconds">seconds</string>
     <!-- Categories -->
-    <string name="button_title">Кнопки</string>
-    <string name="button_summary">Апаратні кнопки, Панель навігації</string>
-    <string name="gestures_title">Жести</string>
-    <string name="gestures_summary">Перейти до камери, свайп для скріншоту</string>
-    <string name="lockscreen_title">Заблокувати екран</string>
-    <string name="lockscreen_summary">Візуалізатор музики, анімація зарядки, стиль годинника</string>
-    <string name="misc_title">Різне</string>
-    <string name="misc_summary">Ігровий режим, регулятори гучності</string>
-    <string name="animations_title">Анімації</string>
-    <string name="animations_summary">Системні анімації</string>
-    <string name="powermenu_title">Меню живлення</string>
-    <string name="powermenu_summary">Розширений перезапуск, непрозорість меню живлення</string>
-    <string name="theme_title">Теми</string>
-    <string name="theme_summary">Системна тема, округлена, перемкнути тему</string>
-    <string name="quicksettings_title">Швидкі налаштування</string>
-    <string name="quicksettings_summary">Схема плиток, розмитий</string>
-    <string name="recents_title">Нещодавні програми</string>
-    <string name="recents_summary">Панель останніх програм в стилі Slim</string>
-    <string name="statusbar_title">Статусбар</string>
-    <string name="statusbar_summary">Годинник, логотип, значки статусбару</string>
-    <string name="volume_title">Клавіші регулювання гучності</string>
-    <string name="volume_summary">Клавіші регулювання гучності</string>
-    <string name="notifications_title">Сповіщення</string>
-    <string name="notifications_summary">Індикатор акумулятора, заголовок сповіщень</string>
-    <string name="about_summary">Дізнайтеся більше про CherishOS</string>
-    <string name="device_part_title">Особливості пристрою</string>
-    <string name="qs_category">Категорія швидких налаштувань</string>
-    <string name="navbar_title">Панель навігації</string>
-    <string name="volume_keys_title">Клавіші гучності</string>
+    <string name="button_title">Buttons</string>
+    <string name="button_summary">Hardware keys, Navigation bar</string>
+    <string name="gestures_title">Gestures</string>
+    <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
+    <string name="lockscreen_title">Lock screen</string>
+    <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
+    <string name="misc_title">Miscellaneous</string>
+    <string name="misc_summary">Gaming mode, volume controls</string>
+    <string name="animations_title">Animations</string>
+    <string name="animations_summary">System animations</string>
+    <string name="powermenu_title">Power menu</string>
+    <string name="powermenu_summary">Advanced restart, power menu opacity</string>
+    <string name="theme_title">Themes</string>
+    <string name="theme_summary">System theme, rounded, switch theme</string>
+    <string name="quicksettings_title">Quick Settings</string>
+    <string name="quicksettings_summary">Tile layout, blur</string>
+    <string name="recents_title">Recents apps</string>
+    <string name="recents_summary">Slim recents</string>
+    <string name="statusbar_title">Status bar</string>
+    <string name="statusbar_summary">Clock, carrier, status icons</string>
+    <string name="volume_title">Volume rockers</string>
+    <string name="volume_summary">Volume rockers</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_summary">Battery light, notifications header</string>
+    <string name="about_summary">Learn more about CherishOS</string>
+    <string name="device_part_title">Device features</string>
+    <string name="qs_category">QS category</string>
+    <string name="navbar_title">Navigation bar</string>
+    <string name="volume_keys_title">Volume keys</string>
     <!-- General strings -->
-    <string name="ok">ОК</string>
-    <string name="reset">Скинути</string>
-    <string name="cancel">Скасувати</string>
-    <string name="save">Зберегти</string>
-    <string name="default_string">Типово</string>
-    <string name="disabled">Вимкнено</string>
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="default_string">Default</string>
+    <string name="disabled">Disabled</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Вибір кольору</string>
-    <string name="press_color_to_apply">Натисніть на колір, щоб застосувати його</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Набір</string>
-    <string name="color_default">Типово</string>
-    <string name="led_color_green">Зелений</string>
-    <string name="led_color_red">Червоний</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+    <string name="led_color_green">Green</string>
+    <string name="led_color_red">Red</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Значення: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">За замовчуванням</string>
-    <string name="custom_seekbar_default_value_to_set">Значення за замовченням: <xliff:g id="v">%s</xliff:g>\nНатисніть і утримуйте для встановлення</string>
-    <string name="custom_seekbar_default_value_is_set">Значення за замовчуванням встановлено</string>
-    <string name="add_package_to_title">Додати програму</string>
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <string name="add_package_to_title">Add application</string>
     <!-- QS settings -->
-    <string name="qs_title">Швидкі налаштування</string>
+    <string name="qs_title">Quick settings</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Вібрація під час дотику</string>
-    <string name="quick_settings_vibrate_summary">Вібрація при дотику до плитки швидких налаштувань</string>
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
     <!-- Lockscreen shortcuts -->
-    <string name="ls_category">Елементи екрану блокування</string>
-    <string name="ls_tuner">Увімкнути тюнер екрану блокування</string>
-    <string name="lockscreen_shortcuts">Ярлики екрана блокування</string>
-    <string name="ls_shortcut_summary">Налаштуйте ярлики на заблокованому екрані</string>
+    <string name="ls_category">Lockscreen Items</string>
+    <string name="ls_tuner">Enable Lockscreen tuner</string>
+    <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
+    <string name="ls_shortcut_summary">Customize Lockscreen shortcuts</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Налаштування екрана блокування</string>
+    <string name="lockscreen_tuner_title">Lockscreen tuner</string>
     <!-- Statusbar Items -->
-    <string name="sb_icons">Значки рядка стану</string>
-    <string name="statusbar_items_category">Елементи рядка стану</string>
+    <string name="sb_icons">Statusbar Icons</string>
+    <string name="statusbar_items_category">Statusbar items</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Іконки статусбару</string>
+    <string name="status_bar_icons_title">Status bar icons</string>
     <!-- Lock screen visualizer -->
-    <string name="visualizer_title">Відображати візуалізатор музики</string>
+    <string name="visualizer_title">Display music visualizer</string>
     <!-- Power menu and dialogs opacity -->
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
-    <string name="power_menu_animation">Меню живлення</string>
+    <string name="power_menu_animation">Power menu</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
-    <string name="lockscreen_category">Екран блокування</string>
+    <string name="lockscreen_category">Lockscreen</string>
     <!-- Themes -->
-    <string name="theme_type_title">Системна тема</string>
-    <string name="theme_type_summary">Виберіть тему</string>
+    <string name="theme_type_title">System theme</string>
+    <string name="theme_type_summary">Select theme</string>
     <!--Accenter -->
-    <string name="themes_hub_title">Теми</string>
-    <string name="themes_hub_summary">Акценти-Градієнти-Теми</string>
-    <string name="rgb_accent_picker_title_dark">Вибір акценту</string>
-    <string name="rgb_accent_picker_summary">Самостійно виберіть колір акценту</string>
-    <string name="theme_option_reset_title">Скинути налаштування теми</string>
-    <string name="theme_option_reset_message">Ви впевнені, що хочете скинути теми-акцент до стандартних?</string>
+    <string name="themes_hub_title">Themes</string>
+    <string name="themes_hub_summary">Accents-Gradients-Themes</string>
+    <string name="rgb_accent_picker_title_dark">Accent Picker</string>
+    <string name="rgb_accent_picker_summary">Choose the accent color yourself</string>
+    <string name="theme_option_reset_title">Reset Theme Options</string>
+    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
     <!--ThemePicker-->
-    <string name="theme_select_title">Стилі та Шпалери</string>
-    <string name="theme_select_summary">Перегляд та вибір встановлених тем</string>
-    <string name="notification_light_settings">Індикатор сповіщень</string>
+    <string name="theme_select_title">Styles and Wallpapers</string>
+    <string name="theme_select_summary">Browse and select installed themes</string>
+    <string name="notification_light_settings">Notifications light</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Пробудження кнопками гучности</string>
-    <string name="search">Пошук</string>
-    <string name="search_apps">Пошук додатків</string>
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
     <!-- Power Menu -->
-    <string name="power_menu_title">Меню живлення</string>
-    <string name="power_menu_title_summary">Перегляд або зміна пунктів меню живлення</string>
-    <string name="powermenu_screenshot">Знімок екрана</string>
-    <string name="powermenu_power">Живлення</string>
-    <string name="powermenu_advanced">Розширене меню перезавантаження</string>
-    <string name="powermenu_restart">Перезавантажити</string>
-    <string name="powermenu_airplane">Режим польоту</string>
-    <string name="powermenu_settings">Налаштування</string>
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_title_summary">View or change power menu entries</string>
+    <string name="powermenu_screenshot">Screenshot</string>
+    <string name="powermenu_power">Power</string>
+    <string name="powermenu_advanced">Advanced reboot options</string>
+    <string name="powermenu_restart">Restart</string>
+    <string name="powermenu_airplane">Airplane</string>
+    <string name="powermenu_settings">Settings</string>
     <string name="powermenu_lockdown">Lock Down</string>
-    <string name="powermenu_soundpanel">Панель гучності</string>
-    <string name="powermenu_users">Користувач</string>
-    <string name="powermenu_logout">Вийти</string>
-    <string name="powermenu_emergency">Екстрений виклик</string>
+    <string name="powermenu_soundpanel">Sound Panel</string>
+    <string name="powermenu_users">Users</string>
+    <string name="powermenu_logout">Logout</string>
+    <string name="powermenu_emergency">Emergency</string>
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="lockscreen_gesture_title">Жести</string>
-    <string name="double_tap_to_sleep_lockscreen_title">Двічі торкніться для сну</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Двічі натисніть на верхній третині або в нижній зоні області ярликів блокування екрану, щоб перевести пристрій в режим сну</string>
+    <string name="lockscreen_gesture_title">Gestures</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Double tap to sleep</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
     <!-- Double Tap Statusbar to Sleep -->
-    <string name="statusbar_gesture_title">Жести</string>
+    <string name="statusbar_gesture_title">Gestures</string>
     <string name="double_tap_to_sleep_statusbar_title">Double tap to sleep</string>
     <string name="double_tap_to_sleep_statusbar_summary">Double tap on statusbar to put the device to sleep</string>
     <!-- Buttons title -->
@@ -276,7 +276,7 @@
     <string name="vowifi_icon_vivo">Vivo Icon</string>
     <string name="vowifi_icon_margaritov">Margaritov Icon</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Індикація зарядки акумулятора</string>
+    <string name="battery_light_settings">Battery charging light</string>
     <string name="battery_light_enable">Enable</string>
     <string name="battery_full_light_enabled">Battery light when full charged</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
@@ -434,10 +434,6 @@
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">Colored Statusbar Icons</string>
     <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
-    <!-- QS footer text -->
-    <string name="qs_footer_text_show_title">Show QS footer text</string>
-    <string name="qs_footer_text_string_title">Customize footer text</string>
-    <string name="qs_footer_text_string_summary">Set to empty for default TheKeepLove</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Notification Headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade</string>
@@ -693,13 +689,13 @@
     <string name="laboratory_app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
     <!-- Laboratory - Ignore window secure -->
     <string name="laboratory_ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="laboratory_ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="laboratory_ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications	are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
     <!-- Colorful battery icon -->
     <string name="battery_level_colors_title">Toggle colorful battery icon</string>
     <string name="battery_level_colors_summary">Each battery level drop is color coded</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Settings layout</string>
-    <string name="settings_dashboard_style_aosp">AOSP</string>
+    <string name="settings_dashboard_style_aosp">Aosp</string>
     <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
     <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
     <string name="settings_dashboard_style_cherish">Cherish</string>
@@ -724,4 +720,15 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Hidden apps</string>
     <string name="hidden_apps_summary">Applications that should be hidden from launcher</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <!-- Qs Transparency -->
+    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI Restart)</string>
+    <string name="qs_transparency_title">Qs Transparency</string>
 </resources>
