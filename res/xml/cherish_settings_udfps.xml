@@ -21,8 +21,8 @@
         android:summary="@string/udfps_haptic_feedback_summary"
         android:defaultValue="true" />
 
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
-        android:key="screen_off_fod"
+    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="screen_off_udfps_enabled"
         android:title="@string/screen_off_fod_title"
         android:summary="@string/screen_off_fod_summary"
         android:defaultValue="true" />
