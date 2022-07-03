@@ -257,7 +257,7 @@
     <string name="volte_icon_typeE">Acherus 图标</string>
     <string name="volte_icon_vcircle">圆形图标</string>
     <string name="volte_icon_vimeo">Vimeo 图标</string>
-    <string name="volte_icon_volit">Volit图标</string>
+    <string name="volte_icon_volit">Volit 图标</string>
     <string name="volte_icon_zirco">Ziroc 图标</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">VoWiFi 图标</string>
@@ -692,7 +692,7 @@
     <string name="laboratory_ignore_window_secure_summary">这将删除所有应用程序的截图和录屏限制。 通常，特殊应用程序会把截图或录屏中的内容变黑。 在某些情况下这可能很方便，但可能会导致隐私泄露。 更改此切换后，您可能需要重新启动</string>
     <!-- Colorful battery icon -->
     <string name="battery_level_colors_title">切换多色电池图标</string>
-    <string name="battery_level_colors_summary">每次电量下降都使用颜色编码</string>
+    <string name="battery_level_colors_summary">电量下降使用颜色编码</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">设置布局</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
