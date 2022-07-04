@@ -41,6 +41,13 @@
         android:title="@string/strict_standby_policy_title"
         android:summary="@string/strict_standby_policy_summary"
         android:defaultValue="false"/>
+
+        <com.cherish.settings.preferences.GlobalSettingSwitchPreference
+        android:key="force_background_freezer"
+        android:title="@string/lforce_background_freezer_title"
+        android:summary="@string/force_background_freezer_summary"
+        settings:controller="com.cherish.settings.preferences.ForceBackgroundFreezePreferenceController"
+        android:defaultValue="false"/>
 	
 		<!-- Gaming mode -->
     <Preference
