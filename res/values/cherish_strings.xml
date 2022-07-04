@@ -861,4 +861,8 @@
     <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
     <string name="just_kidding">Just kidding! providing logs helps us look like professional programmers err i mean trace the bugs that users reports.</string>
     <string name="bug_report_drill">Bug Reporting Procedure</string>
+	
+	<!-- Strict standby -->
+    <string name="strict_standby_policy_title">Strict standby policy</string>
+    <string name="strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
 </resources>

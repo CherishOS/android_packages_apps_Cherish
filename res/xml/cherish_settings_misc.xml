@@ -35,6 +35,12 @@
         android:title="@string/laboratory_app_downgrade_title"
         android:summary="@string/laboratory_app_downgrade_summary"
         android:defaultValue="false"/>
+
+        <com.cherish.settings.preferences.GlobalSettingSwitchPreference
+        android:key="strict_standby_policy"
+        android:title="@string/strict_standby_policy_title"
+        android:summary="@string/strict_standby_policy_summary"
+        android:defaultValue="false"/>
 	
 		<!-- Gaming mode -->
     <Preference
