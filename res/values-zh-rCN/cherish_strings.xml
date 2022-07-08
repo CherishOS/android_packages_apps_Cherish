@@ -731,4 +731,14 @@
     <!-- Qs Transparency -->
     <string name="qs_transparency_summary">选择快速设置面板的透明度(需要重启SystemUI)</string>
     <string name="qs_transparency_title">QS 透明度</string>
+    <!-- Media artwork -->
+    <string name="media_category">媒体通知</string>
+    <string name="artwork_media_background_title">媒体封面背景</string>
+    <string name="artwork_media_background_summary">设置媒体图稿为通知媒体背景</string>
+    <string name="artwork_media_background_enable_blur_title">模糊媒体封面背景</string>
+    <string name="artwork_media_background_blur_radius_title">媒体封面的模糊量</string>
+    <string name="artwork_media_background_fade_filter_title">媒体的淡入淡出量</string>
+    <string name="artwork_media_background_alpha_title">媒体封面的透明度</string>
+    <string name="just_kidding">只是开玩笑！提供日志能帮助我们看起来专业的程序员，我的意思是跟踪用户反馈的bug。</string>
+    <string name="bug_report_drill">错误报告程序</string>
 </resources>
