@@ -732,13 +732,13 @@
     <string name="qs_transparency_summary">Pilih seberapa transparan yang diinginkan dari setelan cepat Anda (Membutuhkan mulai ulang SistemUI)</string>
     <string name="qs_transparency_title">Transparansi Setelan Cepat</string>
     <!-- Media artwork -->
-    <string name="media_category">Media notification</string>
-    <string name="artwork_media_background_title">Artwork media background</string>
-    <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
-    <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
-    <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
-    <string name="artwork_media_background_fade_filter_title">Fade amount for media artwork</string>
-    <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
-    <string name="just_kidding">Just kidding! providing logs helps us look like professional programmers err i mean trace the bugs that users reports.</string>
-    <string name="bug_report_drill">Bug Reporting Procedure</string>
+    <string name="media_category">Notifikasi Media</string>
+    <string name="artwork_media_background_title">Latar belakang karya seni media</string>
+    <string name="artwork_media_background_summary">Tetapkan karya seni media sebagai latar belakang media notifikasi</string>
+    <string name="artwork_media_background_enable_blur_title">Blur latar belakang karya seni media</string>
+    <string name="artwork_media_background_blur_radius_title">Jumlah blur untuk karya seni media</string>
+    <string name="artwork_media_background_fade_filter_title">Jumlah memudar untuk karya seni media</string>
+    <string name="artwork_media_background_alpha_title">Transparansi karya seni media</string>
+    <string name="just_kidding">Hanya bercanda! Menyediakan log membantu kami terlihat seperti programmer profesional eh maksud kami melacak bug yang dilaporkan pengguna.</string>
+    <string name="bug_report_drill">Prosedur Pelaporan Bug</string>
 </resources>
