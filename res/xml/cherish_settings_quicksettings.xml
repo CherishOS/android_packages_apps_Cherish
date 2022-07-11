@@ -26,9 +26,10 @@
         android:key="qs_transparency"
         android:title="@string/qs_transparency_title"
         android:summary="@string/qs_transparency_summary"
-        android:defaultValue="10"
+        android:defaultValue="100"
         settings:interval="1"
-        android:max="10"         
+        settings:units="%"
+        android:max="100"
         android:min="1" />
 		
 	  
