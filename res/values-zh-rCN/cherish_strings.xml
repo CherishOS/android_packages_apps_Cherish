@@ -344,7 +344,7 @@
     <string name="combined_status_bar_signal_icons_summary">在状态栏启用合并信号图标。\n需要重启系统界面</string>
     <!-- QS battery estimates -->
     <string name="qs_show_battery_estimate_title">电量预估</string>
-    <string name="qs_show_battery_estimate_summary">在电池图标旁边显示电量可用时间</string>
+    <string name="qs_show_battery_estimate_summary">在电池图标旁边显示电池剩余可用时间</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">总是在时间表内显示</string>
     <string name="always_on_display_schedule_sunset">日落</string>
@@ -658,7 +658,7 @@
     <string name="qs_show_brightness_slider_never">从不显示</string>
     <string name="qs_show_brightness_slider_expanded">快速设置展开时显示</string>
     <string name="qs_show_brightness_slider_always">始终显示</string>
-    <string name="qs_show_brightness_slider_not_expanded">控制中心未展开时显示</string>
+    <string name="qs_show_brightness_slider_not_expanded">快速设置未展开时显示</string>
     <string name="qs_brightness_slider_position_title">位置</string>
     <string name="qs_brightness_slider_position_top">顶部</string>
     <string name="qs_brightness_slider_position_bottom">底部</string>
@@ -730,5 +730,15 @@
     <string name="qs_footer_datausage_summary">在快速设置的底部显示流量使用情况</string>
     <!-- Qs Transparency -->
     <string name="qs_transparency_summary">选择快速设置面板的透明度(需要重启SystemUI)</string>
-    <string name="qs_transparency_title">QS 透明度</string>
+    <string name="qs_transparency_title">快速设置透明度</string>
+    <!-- Media artwork -->
+    <string name="media_category">媒体通知</string>
+    <string name="artwork_media_background_title">媒体封面背景</string>
+    <string name="artwork_media_background_summary">设置媒体图稿为通知媒体背景</string>
+    <string name="artwork_media_background_enable_blur_title">模糊媒体封面背景</string>
+    <string name="artwork_media_background_blur_radius_title">媒体封面的模糊量</string>
+    <string name="artwork_media_background_fade_filter_title">媒体的淡入淡出量</string>
+    <string name="artwork_media_background_alpha_title">媒体封面的透明度</string>
+    <string name="just_kidding">只是开玩笑！提供日志能帮助我们看起来专业的程序员，我的意思是跟踪用户反馈的bug。</string>
+    <string name="bug_report_drill">错误报告程序</string>
 </resources>

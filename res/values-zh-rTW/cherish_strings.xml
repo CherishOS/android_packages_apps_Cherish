@@ -434,10 +434,6 @@
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">彩色狀態列圖示</string>
     <string name="statusbar_icons_style_summary">選擇狀態列圖示樣式 (需要 SystemUI 重啟)</string>
-    <!-- QS footer text -->
-    <string name="qs_footer_text_show_title">快速設定面板底部文字</string>
-    <string name="qs_footer_text_string_title">自訂頁尾文字</string>
-    <string name="qs_footer_text_string_summary">留空則將設定為預設文本 TheKeepLove</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">通知標題</string>
     <string name="notification_headers_summary">在通知列顯示標題</string>
@@ -724,4 +720,25 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">隱藏應用程式</string>
     <string name="hidden_apps_summary">應該對啟動器隱藏的應用程序</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <!-- Qs Transparency -->
+    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI Restart)</string>
+    <string name="qs_transparency_title">Qs Transparency</string>
+    <!-- Media artwork -->
+    <string name="media_category">Media notification</string>
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
+    <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
+    <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
+    <string name="artwork_media_background_fade_filter_title">Fade amount for media artwork</string>
+    <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
+    <string name="just_kidding">Just kidding! providing logs helps us look like professional programmers err i mean trace the bugs that users reports.</string>
+    <string name="bug_report_drill">Bug Reporting Procedure</string>
 </resources>

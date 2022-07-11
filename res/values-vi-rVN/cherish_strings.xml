@@ -434,10 +434,6 @@
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">Các biểu tượng trên thanh trạng thái có màu</string>
     <string name="statusbar_icons_style_summary">Chọn kiểu biểu tượng trên thanh trạng thái của bạn (yêu cầu khởi động lại SystemUI)</string>
-    <!-- QS footer text -->
-    <string name="qs_footer_text_show_title">QS văn bản cuối trang</string>
-    <string name="qs_footer_text_string_title">Tùy chỉnh văn bản cuối trang</string>
-    <string name="qs_footer_text_string_summary">Đặt mặc định là #KeeptheLove</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Tiêu đề thông báo</string>
     <string name="notification_headers_summary">Hiển thị tiêu đề trong ngăn thông báo \nYêu cầu khởi động lại SystemUI</string>
@@ -724,4 +720,25 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Ẩn ứng dụng</string>
     <string name="hidden_apps_summary">Ứng dụng cần ẩn trên màn hình</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Thay thế thông báo nổi bằng thông báo kiểu mới được thiết kế lại mỏng và ít xâm lấn hơn</string>
+    <string name="reticker_colored_title">Sử dụng nền màu ứng dụng</string>
+    <string name="reticker_colored_summary">Thay thế màu nền reTicker bằng màu chính của ứng dụng thông báo</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Dung lượng sử dụng</string>
+    <string name="qs_footer_datausage_summary">Hiển thị tóm tắt sử dụng dữ liệu trong chân trang cài đặt nhanh</string>
+    <!-- Qs Transparency -->
+    <string name="qs_transparency_summary">Chọn mức độ trong suốt mà bạn muốn qs của mình (Yêu cầu SystemUI)</string>
+    <string name="qs_transparency_title">Trong Suốt Cài Đặt Nhanh</string>
+    <!-- Media artwork -->
+    <string name="media_category">Thông báo phương tiện</string>
+    <string name="artwork_media_background_title">Hình nền ảnh bìa phương tiện</string>
+    <string name="artwork_media_background_summary">Đặt ảnh bìa tác phẩm làm nền phương tiện thông báo</string>
+    <string name="artwork_media_background_enable_blur_title">Làm mờ nền ảnh bìa tác phẩm</string>
+    <string name="artwork_media_background_blur_radius_title">Độ mờ ảnh bìa tác phẩm</string>
+    <string name="artwork_media_background_fade_filter_title">Mờ dần cho ảnh bìa tác phẩm</string>
+    <string name="artwork_media_background_alpha_title">Độ trong suốt ảnh bìa tác phẩm</string>
+    <string name="just_kidding">Đùa thôi! cung cấp nhật ký giúp chúng tôi trông giống như các lập trình viên chuyên nghiệp, ý tôi là theo dõi các lỗi mà người dùng báo cáo.</string>
+    <string name="bug_report_drill">Quy trình báo cáo lỗi</string>
 </resources>
