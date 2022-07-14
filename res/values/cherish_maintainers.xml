@@ -40,8 +40,6 @@
    <string name="kenzo_maintainer">MrJarvis698</string>
    <string name="device_chiron">Xiaomi Mi Mix 2</string>
    <string name="chiron_maintainer">Braian Diez</string>
-   <string name="device_ysl">Xiaomi Redmi Y2</string>
-   <string name="ysl_maintainer">Sushmit</string>
    <string name="device_sweet">Redmi Note 10 Pro</string>
    <string name="sweet_maintainer">Niranjan</string>
    <string name="device_mojito">Redmi Note 10</string>
@@ -102,6 +100,8 @@
    <string name="alioth_maintainer">revolwoc/hungphan2001</string>
    <string name="device_santoni">Xiaomi Redmi 4X</string>
    <string name="santoni_maintainer">EvilAnsh</string> 
+   <string name="device_ysl">Xiaomi Redmi S2</string>
+   <string name="ysl_maintainer">Iris</string>
 
     <!-- Realme Device maintainers -->
 	<string name="device_RMX1971">Realme 5 Pro</string>
