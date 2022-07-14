@@ -573,5 +573,13 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/saucefinder" />
         </Preference>
+<Preference
+            android:title="@string/ysl_maintainer"
+            android:summary="@string/device_ysl"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Iris041" />
+        </Preference>
 </PreferenceCategory>
 </PreferenceScreen>
