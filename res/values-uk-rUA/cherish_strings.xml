@@ -12,16 +12,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_title">Настройки Cherish</string>
     <!-- Units -->
-    <string name="unit_milliseconds">milliseconds</string>
-    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">миллисекунд</string>
+    <string name="unit_seconds">секунд</string>
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
+    <string name="button_title">Кнопки</string>
     <string name="button_summary">Hardware keys, Navigation bar</string>
-    <string name="gestures_title">Gestures</string>
+    <string name="gestures_title">Жесты</string>
     <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
-    <string name="lockscreen_title">Lock screen</string>
+    <string name="lockscreen_title">Экран блокировки</string>
     <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">Gaming mode, volume controls</string>
