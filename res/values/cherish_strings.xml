@@ -858,6 +858,7 @@
     <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
     <string name="artwork_media_background_fade_filter_title">Fade amount for media artwork</string>
     <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
+    <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
     <string name="just_kidding">Just kidding! providing logs helps us look like professional programmers err i mean trace the bugs that users reports.</string>
     <string name="bug_report_drill">Bug Reporting Procedure</string>
 </resources>
