@@ -739,6 +739,13 @@
     <string name="artwork_media_background_blur_radius_title">媒体封面的模糊量</string>
     <string name="artwork_media_background_fade_filter_title">媒体的淡入淡出量</string>
     <string name="artwork_media_background_alpha_title">媒体封面的透明度</string>
+    <string name="artwork_media_background_alpha_title">媒体封面的透明度</string>
     <string name="just_kidding">只是开玩笑！提供日志能帮助我们看起来专业的程序员，我的意思是跟踪用户反馈的bug。</string>
     <string name="bug_report_drill">错误报告程序</string>
+    <!-- Strict standby -->
+    <string name="strict_standby_policy_title">Strict standby policy</string>
+    <string name="strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
+    <!-- Force background freezer -->
+    <string name="force_background_freezer_title">Background tasks freezer</string>
+    <string name="force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
 </resources>
