@@ -743,9 +743,9 @@
     <string name="just_kidding">Đùa thôi! cung cấp nhật ký giúp chúng tôi trông giống như các lập trình viên chuyên nghiệp, ý tôi là theo dõi các lỗi mà người dùng báo cáo.</string>
     <string name="bug_report_drill">Quy trình báo cáo lỗi</string>
     <!-- Strict standby -->
-    <string name="strict_standby_policy_title">Strict standby policy</string>
-    <string name="strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
+    <string name="strict_standby_policy_title">Chính sách chờ nghiêm ngặt</string>
+    <string name="strict_standby_policy_summary">Khi loại bỏ khỏi phần gần đây, điều này sẽ buộc dừng các ứng dụng có mức sử dụng pin hạn chế và áp đặt các hạn chế mạnh hơn đối với chúng. Ngoài ra, tất cả các giới hạn ở chế độ chờ của ứng dụng sẽ được áp dụng ngay cả khi thiết bị đang sạc.</string>
     <!-- Force background freezer -->
-    <string name="force_background_freezer_title">Background tasks freezer</string>
-    <string name="force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
+    <string name="force_background_freezer_title">Đóng băng tác vụ nền</string>
+    <string name="force_background_freezer_summary">Đóng băng các tác vụ có mức sử dụng pin hạn chế khi di chuyển chúng xuống nền và giải phóng chúng khi chuyển sang nền trước. Điều này có thể tiết kiệm pin một chút nhưng có thể dẫn đến sự cố và ứng dụng không phản hồi nền.</string>
 </resources>
