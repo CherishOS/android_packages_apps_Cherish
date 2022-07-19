@@ -12,166 +12,166 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_title">Paramètres de Cherish</string>
     <!-- Units -->
-    <string name="unit_milliseconds">milliseconds</string>
-    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">millisecondes</string>
+    <string name="unit_seconds">secondes</string>
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
-    <string name="button_summary">Hardware keys, Navigation bar</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
-    <string name="lockscreen_title">Lock screen</string>
-    <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">Gaming mode, volume controls</string>
+    <string name="button_title">Boutons</string>
+    <string name="button_summary">Touches physiques, barre de navigation</string>
+    <string name="gestures_title">Gestes</string>
+    <string name="gestures_summary">Aller à l\'appareil photo, glisser pour faire une capture d\'écran</string>
+    <string name="lockscreen_title">Écran de verrouillage</string>
+    <string name="lockscreen_summary">Visualiseur de musique, animation de chargement, style de l\'horloge</string>
+    <string name="misc_title">Divers</string>
+    <string name="misc_summary">Mode jeu, commandes de volume</string>
     <string name="animations_title">Animations</string>
-    <string name="animations_summary">System animations</string>
-    <string name="powermenu_title">Power menu</string>
-    <string name="powermenu_summary">Advanced restart, power menu opacity</string>
-    <string name="theme_title">Themes</string>
-    <string name="theme_summary">System theme, rounded, switch theme</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="quicksettings_summary">Tile layout, blur</string>
-    <string name="recents_title">Recents apps</string>
-    <string name="recents_summary">Slim recents</string>
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_summary">Clock, carrier, status icons</string>
-    <string name="volume_title">Volume rockers</string>
-    <string name="volume_summary">Volume rockers</string>
+    <string name="animations_summary">Animations système</string>
+    <string name="powermenu_title">Menu d\'alimentation</string>
+    <string name="powermenu_summary">Redémarrage avancé, opacité du menu d\'alimentation</string>
+    <string name="theme_title">Thèmes</string>
+    <string name="theme_summary">Thème du système, arrondi, changer de thème</string>
+    <string name="quicksettings_title">Paramètres rapides</string>
+    <string name="quicksettings_summary">Disposition des tuiles, flou</string>
+    <string name="recents_title">Applications récentes</string>
+    <string name="recents_summary">Applis Récentes \"Fines\"</string>
+    <string name="statusbar_title">Barre d\'état</string>
+    <string name="statusbar_summary">Horloge, opérateur, icônes d\'état</string>
+    <string name="volume_title">Boutons de volume</string>
+    <string name="volume_summary">Boutons de volume</string>
     <string name="notifications_title">Notifications</string>
-    <string name="notifications_summary">Battery light, notifications header</string>
-    <string name="about_summary">Learn more about CherishOS</string>
-    <string name="device_part_title">Device features</string>
-    <string name="qs_category">QS category</string>
-    <string name="navbar_title">Navigation bar</string>
-    <string name="volume_keys_title">Volume keys</string>
+    <string name="notifications_summary">Voyant de la batterie, en-tête des notifications</string>
+    <string name="about_summary">En savoir plus sur CherishOS</string>
+    <string name="device_part_title">Fonctionnalités de l\'appareil</string>
+    <string name="qs_category">Catégorie des réglages rapides</string>
+    <string name="navbar_title">Barre de navigation</string>
+    <string name="volume_keys_title">Boutons du volume</string>
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
-    <string name="default_string">Default</string>
-    <string name="disabled">Disabled</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Sauvegarder</string>
+    <string name="default_string">Par défaut</string>
+    <string name="disabled">Désactivé</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Sélecteur de Couleur</string>
+    <string name="press_color_to_apply">Appuyer sur la couleur ci-dessous pour l\'appliquer</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">Hex :</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
-    <string name="led_color_green">Green</string>
-    <string name="led_color_red">Red</string>
+    <string name="set">Appliquer</string>
+    <string name="color_default">Par défaut</string>
+    <string name="led_color_green">Vert</string>
+    <string name="led_color_red">Rouge</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">Default</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
-    <string name="add_package_to_title">Add application</string>
+    <string name="custom_seekbar_value">Valeur : <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Par défaut</string>
+    <string name="custom_seekbar_default_value_to_set">Valeur par défaut : <xliff:g id="v">%s</xliff:g>\nRester appuyer pour définir</string>
+    <string name="custom_seekbar_default_value_is_set">Valeur par défaut définie</string>
+    <string name="add_package_to_title">Ajouter une application</string>
     <!-- QS settings -->
-    <string name="qs_title">Quick settings</string>
+    <string name="qs_title">Paramètres rapides</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">Vibrer au touché</string>
+    <string name="quick_settings_vibrate_summary">Vibrer au toucher des tuiles des réglages rapides</string>
     <!-- Lockscreen shortcuts -->
-    <string name="ls_category">Lockscreen Items</string>
-    <string name="ls_tuner">Enable Lockscreen tuner</string>
-    <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
-    <string name="ls_shortcut_summary">Customize Lockscreen shortcuts</string>
+    <string name="ls_category">Éléments de l\'écran de verrouillage</string>
+    <string name="ls_tuner">Activer le visualiseur sur l\'écran de verrouillage</string>
+    <string name="lockscreen_shortcuts">Raccourcis de l\'écran de verrouillage</string>
+    <string name="ls_shortcut_summary">Personnaliser les raccourcis de l\'écran de verrouillage</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Lockscreen tuner</string>
+    <string name="lockscreen_tuner_title">Réglages de l\'écran de verrouillage</string>
     <!-- Statusbar Items -->
-    <string name="sb_icons">Statusbar Icons</string>
-    <string name="statusbar_items_category">Statusbar items</string>
+    <string name="sb_icons">Icônes de la Barre d\'état</string>
+    <string name="statusbar_items_category">Éléments de la barre d\'État</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Status bar icons</string>
+    <string name="status_bar_icons_title">Icônes de barre d\'État</string>
     <!-- Lock screen visualizer -->
-    <string name="visualizer_title">Display music visualizer</string>
+    <string name="visualizer_title">Afficher le visualiseur de musique</string>
     <!-- Power menu and dialogs opacity -->
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
-    <string name="power_menu_animation">Power menu</string>
+    <string name="power_menu_animation">Menu d\'alimentation</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
-    <string name="lockscreen_category">Lockscreen</string>
+    <string name="lockscreen_category">Écran de Verrouillage</string>
     <!-- Themes -->
-    <string name="theme_type_title">System theme</string>
-    <string name="theme_type_summary">Select theme</string>
+    <string name="theme_type_title">Thème du système</string>
+    <string name="theme_type_summary">Sélectionner le thème</string>
     <!--Accenter -->
-    <string name="themes_hub_title">Themes</string>
-    <string name="themes_hub_summary">Accents-Gradients-Themes</string>
-    <string name="rgb_accent_picker_title_dark">Accent Picker</string>
-    <string name="rgb_accent_picker_summary">Choose the accent color yourself</string>
-    <string name="theme_option_reset_title">Reset Theme Options</string>
-    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
+    <string name="themes_hub_title">Thèmes</string>
+    <string name="themes_hub_summary">Thèmes Gradients Accents</string>
+    <string name="rgb_accent_picker_title_dark">Sélecteur d\'accent</string>
+    <string name="rgb_accent_picker_summary">Choisissez vous-même la couleur d\'accentuation</string>
+    <string name="theme_option_reset_title">Réinitialiser les options du thème</string>
+    <string name="theme_option_reset_message">Êtes-vous sûr de vouloir réinitialiser les thèmes-accent par défaut ?</string>
     <!--ThemePicker-->
-    <string name="theme_select_title">Styles and Wallpapers</string>
-    <string name="theme_select_summary">Browse and select installed themes</string>
-    <string name="notification_light_settings">Notifications light</string>
+    <string name="theme_select_title">Styles et fonds d\'écran</string>
+    <string name="theme_select_summary">Parcourir et sélectionner les thèmes installés</string>
+    <string name="notification_light_settings">Voyant des notifications</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="volume_rocker_wake_title">Réveiller l\'appareil en utilisant les boutons de volume</string>
+    <string name="search">Recherche</string>
+    <string name="search_apps">Rechercher dans les applications</string>
     <!-- Power Menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_title_summary">View or change power menu entries</string>
-    <string name="powermenu_screenshot">Screenshot</string>
-    <string name="powermenu_power">Power</string>
-    <string name="powermenu_advanced">Advanced reboot options</string>
-    <string name="powermenu_restart">Restart</string>
-    <string name="powermenu_airplane">Airplane</string>
-    <string name="powermenu_settings">Settings</string>
-    <string name="powermenu_lockdown">Lock Down</string>
-    <string name="powermenu_soundpanel">Sound Panel</string>
-    <string name="powermenu_users">Users</string>
-    <string name="powermenu_logout">Logout</string>
-    <string name="powermenu_emergency">Emergency</string>
+    <string name="power_menu_title">Menu d\'alimentation</string>
+    <string name="power_menu_title_summary">Afficher ou modifier les entrées du menu d\'alimentation</string>
+    <string name="powermenu_screenshot">Capture d\'écran</string>
+    <string name="powermenu_power">Alimentation</string>
+    <string name="powermenu_advanced">Options de redémarrage avancé</string>
+    <string name="powermenu_restart">Redémarrer</string>
+    <string name="powermenu_airplane">Mode Avion</string>
+    <string name="powermenu_settings">Paramètres</string>
+    <string name="powermenu_lockdown">Verrouiller</string>
+    <string name="powermenu_soundpanel">Panneau de volume</string>
+    <string name="powermenu_users">Utilisateurs</string>
+    <string name="powermenu_logout">Se déconnecter</string>
+    <string name="powermenu_emergency">Urgence</string>
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="lockscreen_gesture_title">Gestures</string>
-    <string name="double_tap_to_sleep_lockscreen_title">Double tap to sleep</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+    <string name="lockscreen_gesture_title">Gestes</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Double tape pour mise en veille</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Double appui sur le tiers supérieur ou inférieur de l\'écran de verrouillage afin de mettre l\'appareil en veille</string>
     <!-- Double Tap Statusbar to Sleep -->
-    <string name="statusbar_gesture_title">Gestures</string>
-    <string name="double_tap_to_sleep_statusbar_title">Double tap to sleep</string>
-    <string name="double_tap_to_sleep_statusbar_summary">Double tap on statusbar to put the device to sleep</string>
+    <string name="statusbar_gesture_title">Gestes</string>
+    <string name="double_tap_to_sleep_statusbar_title">Double tape pour mettre en veille</string>
+    <string name="double_tap_to_sleep_statusbar_summary">Double appui sur la barre d\'état pour mettre l\'appareil en veille</string>
     <!-- Buttons title -->
-    <string name="volume_category">Volume Rocker</string>
+    <string name="volume_category">Boutons de volume</string>
     <!--Volume keys -->
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_summary">L\'appui sur les touches de volumes réveillera votre appareil</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_title">Activer/désactiver la lampe torche lorsque l\'écran est éteint</string>
+    <string name="torch_power_button_gesture_none">Désactivé</string>
+    <string name="torch_power_button_gesture_dt">Presser deux fois le bouton d\'alimentation (réduit le temps de réponse de l\'appui simple), Désactive l\'appui double pour la caméra.</string>
+    <string name="torch_power_button_gesture_dt_toast">Le geste pour ouvrir la caméra est maintenant désactivé</string>
+    <string name="torch_power_button_gesture_lp">Appui prolongé sur le bouton d\'alimentation</string>
     <!-- Hardware button navigation -->
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
+    <string name="picker_activities">Activités</string>
+    <string name="select_custom_app_title">Sélectionnez une application personalisée</string>
+    <string name="select_custom_activity_title">Sélectionner une activité personnalisée</string>
     <string name="profile_applist_title">Applications</string>
-    <string name="choose_action_title">Choose action</string>
-    <string name="action_entry_default_action">Default settings</string>
-    <string name="action_entry_select_app">Select application</string>
-    <string name="action_entry_custom_action">Select custom action</string>
-    <string name="hardware_keys_volume_keys_title">Volume rocker</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
-    <string name="hardware_keys_appswitch_key_title">Overview button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
-    <string name="hardware_keys_long_press_summary">Set long press action</string>
-    <string name="hardware_keys_single_tap_title">Single tap action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
+    <string name="choose_action_title">Choisir une action</string>
+    <string name="action_entry_default_action">Paramètres par défaut</string>
+    <string name="action_entry_select_app">Sélectionner une application</string>
+    <string name="action_entry_custom_action">Sélectionner une action personnalisée</string>
+    <string name="hardware_keys_volume_keys_title">Boutons de volume</string>
+    <string name="hardware_keys_home_key_title">Bouton Accueil</string>
+    <string name="hardware_keys_menu_key_title">Bouton de menu</string>
+    <string name="hardware_keys_assist_key_title">Bouton de recherche</string>
+    <string name="hardware_keys_appswitch_key_title">Bouton d\'Aperçu</string>
+    <string name="hardware_keys_back_key_title">Bouton de retour</string>
+    <string name="hardware_keys_double_tap_summary">Définir une action pour un double appui</string>
+    <string name="hardware_keys_single_tap_summary">Définir une action pour un appui simple</string>
+    <string name="hardware_keys_long_press_summary">Définir une action pour un appui long</string>
+    <string name="hardware_keys_single_tap_title">Action pour un appui simple</string>
+    <string name="hardware_keys_long_press_title">Action lors d\'un appui long</string>
+    <string name="hardware_keys_double_tap_title">Action sur double appui</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">Icône 4G</string>
+    <string name="show_fourg_icon_summary">Afficher l\'indicateur 4G au lieu de LTE dans l\'icône du signal</string>
     <!-- Volume swap buttons -->
-    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_title">Réorienter</string>
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
@@ -194,16 +194,16 @@
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
     <!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_title">Délai dépassé</string>
+    <string name="heads_up_time_out_summary">Les notifications flottantes s\'afficheront pour <xliff:g id="number">%d</xliff:g> secondes</string>
+    <string name="heads_up_time_out_2sec">2 secondes</string>
+    <string name="heads_up_time_out_4sec">4 secondes</string>
+    <string name="heads_up_time_out_5sec">5 secondes</string>
+    <string name="heads_up_time_out_6sec">6 secondes</string>
+    <string name="heads_up_time_out_8sec">8 secondes</string>
+    <string name="heads_up_time_out_10sec">10 secondes</string>
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Snooze timer</string>
+    <string name="heads_up_snooze_title">Rappel d\'alarme</string>
     <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
     <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
     <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>

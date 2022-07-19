@@ -742,9 +742,9 @@
     <string name="just_kidding">Hanya bercanda! Menyediakan log membantu kami terlihat seperti programmer profesional eh maksud kami melacak bug yang dilaporkan pengguna.</string>
     <string name="bug_report_drill">Prosedur Pelaporan Bug</string>
     <!-- Strict standby -->
-    <string name="strict_standby_policy_title">Strict standby policy</string>
-    <string name="strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
+    <string name="strict_standby_policy_title">Kebijakan siaga yang ketat</string>
+    <string name="strict_standby_policy_summary">Saat menutup dari yang terbaru, ini akan memaksa menghentikan aplikasi dengan penggunaan baterai terbatas dan memberlakukan pembatasan yang lebih kuat kepada mereka. Selain itu, semua batasan siaga aplikasi akan diberlakukan bahkan saat perangkat sedang diisi daya.</string>
     <!-- Force background freezer -->
-    <string name="force_background_freezer_title">Background tasks freezer</string>
-    <string name="force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
+    <string name="force_background_freezer_title">Bekukan tugas latar belakang</string>
+    <string name="force_background_freezer_summary">Membekukan tugas dengan penggunaan baterai terbatas saat memindahkannya ke latar belakang dan mencairkan saat memindahkannya ke latar depan. Ini dapat menghemat baterai sedikit tetapi dapat menyebabkan crash dan ANR latar belakang.</string>
 </resources>
