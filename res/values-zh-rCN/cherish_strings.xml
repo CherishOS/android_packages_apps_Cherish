@@ -742,9 +742,9 @@
     <string name="just_kidding">只是开玩笑！提供日志能帮助我们看起来专业的程序员，我的意思是跟踪用户反馈的bug。</string>
     <string name="bug_report_drill">错误报告程序</string>
     <!-- Strict standby -->
-    <string name="strict_standby_policy_title">Strict standby policy</string>
-    <string name="strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
+    <string name="strict_standby_policy_title">严格的应用待机策略</string>
+    <string name="strict_standby_policy_summary">这将对“电池用量”受限的应用启用划卡即停，并对其施加更加严格的应用待机限制。所有限制将在电源连接时也保持执行。</string>
     <!-- Force background freezer -->
-    <string name="force_background_freezer_title">Background tasks freezer</string>
-    <string name="force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
+    <string name="force_background_freezer_title">墓碑后台</string>
+    <string name="force_background_freezer_summary">这将对“电池用量”受限的应用启用墓碑后台。当应用被移至后台时将会被冻结，移到前台时重新解冻。这能够在一定程度上减少电量消耗，但可能造成应用崩溃与后台应用未响应。</string>
 </resources>
