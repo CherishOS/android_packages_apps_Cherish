@@ -44,12 +44,14 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
     private static final String PREF_FLASH_ON_CALL_DND = "flashlight_on_call_ignore_dnd";
     private static final String PREF_FLASH_ON_CALL_RATE = "flashlight_on_call_rate";
 	private static final String KEY_EDGE_LIGHTNING = "pulse_ambient_light";
+	private static final String RETICKER_STATUS = "reticker_status";
 
     private SystemSettingMasterSwitchPreference mEdgeLightning;
     private SystemSettingListPreference mFlashOnCall;
     private SystemSettingSwitchPreference mFlashOnCallIgnoreDND;
     private CustomSeekBarPreference mFlashOnCallRate;
 	private Preference mChargingLeds;
+	private SystemSettingSwitchPreference mRetickerStatus;
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -96,6 +98,11 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                         com.android.internal.R.bool.config_intrusiveBatteryLed)) {
             prefScreen.removePreference(mChargingLeds);
         }
+		
+		mRetickerStatus = findPreference(RETICKER_STATUS);
+        mRetickerStatus.setChecked((Settings.System.getInt(resolver,
+                Settings.System.RETICKER_STATUS, 0) == 1));
+        mRetickerStatus.setOnPreferenceChangeListener(this);
         
     }
 
@@ -119,6 +126,12 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
             boolean value = (Boolean) newValue;
             Settings.System.putIntForUser(resolver, KEY_EDGE_LIGHTNING,
                     value ? 1 : 0, UserHandle.USER_CURRENT);
+            return true;
+		} else if (preference == mRetickerStatus) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(resolver,
+                    Settings.System.RETICKER_STATUS, value ? 1 : 0);
+            CherishUtils.showSettingsRestartDialog(getContext());
             return true;
         }
         return false;
