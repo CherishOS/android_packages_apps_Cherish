@@ -133,9 +133,9 @@
 
    <!-- Oneplus Device maintainers -->
    <string name="device_enchilada">Oneplus 6</string>
-   <string name="enchilada_maintainer">Zahid M</string>
+   <string name="enchilada_maintainer">Vikas yaduvanshi</string>
    <string name="device_fajita">Oneplus 6T</string>
-   <string name="fajita_maintainer">Chandu</string>
+   <string name="fajita_maintainer">Vikas yaduvanshi</string>
    <string name="device_hotdogb">Oneplus 7T</string>
    <string name="hotdogb_maintainer">Addy</string>
    <string name="device_guacamole">Oneplus 7 Pro</string>
