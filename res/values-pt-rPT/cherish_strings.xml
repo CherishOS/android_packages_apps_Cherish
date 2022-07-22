@@ -722,29 +722,29 @@
     <string name="hidden_apps_summary">Aplicações que devem estar ocultas no launcher</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_summary">Substituir as notificações flutuantes por uma versão mais fina e menos invasiva</string>
+    <string name="reticker_colored_title">Usar fundo colorido da app</string>
+    <string name="reticker_colored_summary">Substituir a cor de fundo do reTicker usando a cor principal da app que emite a notificação</string>
     <!-- Data usage info in QS footer -->
-    <string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <string name="qs_footer_datausage_title">Utilização de dados</string>
+    <string name="qs_footer_datausage_summary">Mostrar resumo da utilização de dados no rodapé das definições rápidas</string>
     <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI Restart)</string>
-    <string name="qs_transparency_title">Qs Transparency</string>
+    <string name="qs_transparency_summary">Escolha a transparência do painel de definições rápidas (Requer reinício do SystemUI)</string>
+    <string name="qs_transparency_title">Transparência do painel QS</string>
     <!-- Media artwork -->
-    <string name="media_category">Media notification</string>
-    <string name="artwork_media_background_title">Artwork media background</string>
-    <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
-    <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
-    <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
-    <string name="artwork_media_background_fade_filter_title">Fade amount for media artwork</string>
-    <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
+    <string name="media_category">Notificação de multimédia</string>
+    <string name="artwork_media_background_title">Fundo da capa de música</string>
+    <string name="artwork_media_background_summary">Definir a capa da música como fundo da notificação multimédia</string>
+    <string name="artwork_media_background_enable_blur_title">Desfocar fundo da capa de música</string>
+    <string name="artwork_media_background_blur_radius_title">Nível de desfocagem da capa da música</string>
+    <string name="artwork_media_background_fade_filter_title">Nível de desvanecimento da capa da música</string>
+    <string name="artwork_media_background_alpha_title">Transparência da capa da música</string>
     <string name="just_kidding">Just kidding! providing logs helps us look like professional programmers err i mean trace the bugs that users reports.</string>
-    <string name="bug_report_drill">Bug Reporting Procedure</string>
+    <string name="bug_report_drill">Procedimento de reporte de erros</string>
     <!-- Strict standby -->
-    <string name="strict_standby_policy_title">Strict standby policy</string>
-    <string name="strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
+    <string name="strict_standby_policy_title">Política rigorosa de standby</string>
+    <string name="strict_standby_policy_summary">Quando removidas dos recentes, isto forçará a paragem das apps com restrição de uso de bateria e imporá restrições mais fortes. Além disso, todas as restrições de apps em espera serão impostas mesmo quando o dispositivo estiver a carregar.</string>
     <!-- Force background freezer -->
-    <string name="force_background_freezer_title">Background tasks freezer</string>
-    <string name="force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
+    <string name="force_background_freezer_title">Congelador de tarefas em segundo plano</string>
+    <string name="force_background_freezer_summary">Congela as tarefas com uso restrito de bateria quando são movidas para segundo plano e desbloqueia-as quando passam para primeiro plano. Isso pode economizar um pouco de bateria, mas pode causar travamentos e apps a não responder.</string>
 </resources>
