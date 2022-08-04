@@ -32,6 +32,13 @@
         android:max="100"
         android:min="1" />
 		
+	<com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="qs_system_info"
+            android:title="@string/qs_system_info_title"
+            android:entries="@array/qs_system_info_entries"
+            android:entryValues="@array/qs_system_info_values"
+            android:defaultValue="0" />
+		
 	  
 	<!-- QS date -->
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
