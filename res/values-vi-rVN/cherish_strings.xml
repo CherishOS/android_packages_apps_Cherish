@@ -748,21 +748,21 @@
     <string name="force_background_freezer_title">Đóng băng tác vụ nền</string>
     <string name="force_background_freezer_summary">Đóng băng các tác vụ có mức sử dụng pin hạn chế khi di chuyển chúng xuống nền và giải phóng chúng khi chuyển sang nền trước. Điều này có thể tiết kiệm pin một chút nhưng có thể dẫn đến sự cố và ứng dụng không phản hồi nền.</string>
     <!-- Wi-Fi Standard icon -->
-    <string name="show_wifi_standard_icon_title">Show Wi-Fi Standard icon</string>
-    <string name="show_wifi_standard_icon_summary">Show Wi-Fi type in Wi-Fi signal indicator</string>
+    <string name="show_wifi_standard_icon_title">Hiển thị chuẩn Wi-Fi</string>
+    <string name="show_wifi_standard_icon_summary">Hiển thị chuẩn Wi-Fi ở biểu tượng Wi-Fi</string>
     <!-- Lockscreen clock color -->
-    <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
-    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
+    <string name="lockscreen_clock_color_title">Màu đồng hồ màn hình khóa</string>
+    <string name="lockscreen_clock_color_summary">Sử dụng màu phụ cho đồng hồ màn hình khóa, nếu bị tắt sẽ sử dụng màu nhấn</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_category_title">Tile layout</string>
-    <string name="qs_tile_layout_title">Vertical layout</string>
-    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+    <string name="qs_tile_layout_category_title">Bố cục các ô</string>
+    <string name="qs_tile_layout_title">Bố cục dọc</string>
+    <string name="qs_tile_layout_summary">Cho phép bố cục dọc. Mặc định là ngang</string>
     <!-- QS rows and columns -->
-    <string name="qs_layout_category_title">QS Layout</string>
-    <string name="qs_rows_portrait_title">Tile rows on portrait</string>
-    <string name="qs_rows_landscape_title">Tile rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
+    <string name="qs_layout_category_title">Bố trí thanh thông báo nhanh</string>
+    <string name="qs_rows_portrait_title">Số hàng theo chiều dọc</string>
+    <string name="qs_rows_landscape_title">Số hàng theo chiều ngang</string>
+    <string name="qs_columns_portrait_title">Số cột theo chiều dọc</string>
     <!-- QS tiles title visibility -->
-    <string name="qs_tile_title_visibility_title">Hide tile titles</string>
-    <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
+    <string name="qs_tile_title_visibility_title">Ẩn tiêu đề các ô</string>
+    <string name="qs_tile_title_visibility_summary">Công tắc ẩn ô tiêu đề</string>
 </resources>
