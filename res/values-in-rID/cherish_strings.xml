@@ -747,4 +747,22 @@
     <!-- Force background freezer -->
     <string name="force_background_freezer_title">Bekukan tugas latar belakang</string>
     <string name="force_background_freezer_summary">Membekukan tugas dengan penggunaan baterai terbatas saat memindahkannya ke latar belakang dan mencairkan saat memindahkannya ke latar depan. Ini dapat menghemat baterai sedikit tetapi dapat menyebabkan crash dan ANR latar belakang.</string>
+    <!-- Wi-Fi Standard icon -->
+    <string name="show_wifi_standard_icon_title">Show Wi-Fi Standard icon</string>
+    <string name="show_wifi_standard_icon_summary">Show Wi-Fi type in Wi-Fi signal indicator</string>
+    <!-- Lockscreen clock color -->
+    <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
+    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
+    <!-- QS tiles layout direction: vertical or horizontal -->
+    <string name="qs_tile_layout_category_title">Tile layout</string>
+    <string name="qs_tile_layout_title">Vertical layout</string>
+    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+    <!-- QS rows and columns -->
+    <string name="qs_layout_category_title">QS Layout</string>
+    <string name="qs_rows_portrait_title">Tile rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tile rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
+    <!-- QS tiles title visibility -->
+    <string name="qs_tile_title_visibility_title">Hide tile titles</string>
+    <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
 </resources>
