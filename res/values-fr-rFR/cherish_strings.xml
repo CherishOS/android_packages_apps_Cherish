@@ -208,10 +208,10 @@
     <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
     <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
     <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_5min">5 minutes</string>
+    <string name="heads_up_snooze_10min">10 minutes</string>
+    <string name="heads_up_snooze_15min">15 minutes</string>
+    <string name="heads_up_snooze_20min">20 minutes</string>
     <!-- Quick QS pulldown -->
     <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
     <string name="quick_pulldown_none">Disabled</string>
@@ -317,9 +317,9 @@
     <string name="qs_tile_animation_duration_default">Default</string>
     <string name="qs_tile_animation_duration_fast">Fast</string>
     <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accélèrer</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Décélérer</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accélérer décélérer</string>
     <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
     <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
     <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
@@ -334,7 +334,7 @@
     <string name="flashlight_on_call_ringer">When ringing</string>
     <string name="flashlight_on_call_no_ringer">When ringer is silent</string>
     <string name="flashlight_on_call_silent">When entirely silent (no ringer or vibrator)</string>
-    <string name="flashlight_on_call_always">Always</string>
+    <string name="flashlight_on_call_always">Toujours</string>
     <string name="flashlight_on_call_ignore_dnd_title">Ignore DND</string>
     <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when in Do Not Disturb mode</string>
     <string name="flashlight_on_call_rate_title">Rate</string>
@@ -364,11 +364,11 @@
     <string name="ambient_notification_light_repeats_summary">Amount of times the animation should show\n0 for infinite</string>
     <string name="ambient_notification_light_timeout_title">Timeout</string>
     <string name="ambient_notification_light_timeout_forever">Forever</string>
-    <string name="ambient_notification_light_timeout_half_minute">30 seconds</string>
+    <string name="ambient_notification_light_timeout_half_minute">30 secondes</string>
     <string name="ambient_notification_light_timeout_minute">1 minute</string>
-    <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
-    <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
-    <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
+    <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
+    <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
+    <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
     <string name="set_to_zero">Set repeats to 0 to enable</string>
     <string name="ambient_notification_color_mode_title">Color mode</string>
     <string name="ambient_notification_color_mode_accent">Accent color</string>
@@ -379,8 +379,8 @@
     <string name="pulse_ambient_light_show_always_title">Show always</string>
     <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
     <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
-    <string name="pulse_ambient_light_repeat_direction_restart">Restart</string>
-    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Redémarrer</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Inverser</string>
     <string name="pulse_ambient_light_layout_title">Light view</string>
     <string name="pulse_ambient_light_layout_solid">Solid</string>
     <string name="pulse_ambient_light_layout_faded">Faded</string>
@@ -429,11 +429,11 @@
     <!-- Privacy indicators -->
     <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
     <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
-    <string name="location_privacy_indicator_title">Location privacy indicator</string>
-    <string name="location_privacy_indicator_summary">Show separate indicator when an any app uses location</string>
+    <string name="location_privacy_indicator_title">Indicateur de localisation</string>
+    <string name="location_privacy_indicator_summary">Afficher un indicateur séparé lorsqu\'une application utilise un emplacement</string>
     <!-- Sb Icon Style -->
-    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
-    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
+    <string name="statusbar_icons_style">Icônes colorées dans la barre d\'État</string>
+    <string name="statusbar_icons_style_summary">Choisissez le style des icônes de la barre d\'état (nécessite un redémarrage de SystemUI)</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Notification Headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade</string>
@@ -441,8 +441,8 @@
     <string name="gaming_mode_title">Game space</string>
     <string name="gaming_mode_summary">Extra features for immersive gaming experience</string>
     <!-- Battery percentage -->
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="battery_style_category_title">Icône de batterie</string>
+    <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
     <string name="status_bar_battery_percentage_default">Hidden</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
@@ -469,7 +469,7 @@
     <string name="traffic_summary">Customize the traffic indicators</string>
     <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
     <string name="network_traffic_location_title">Location</string>
-    <string name="network_traffic_disabled">Disabled</string>
+    <string name="network_traffic_disabled">Désactivé</string>
     <string name="network_traffic_statusbar">Status bar</string>
     <string name="network_traffic_qs_header">QS header</string>
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
@@ -483,8 +483,8 @@
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when inactive</string>
     <string name="network_traffic_autohide_kilobits">Kb/s</string>
     <string name="network_traffic_autohide_kilobytes">KB/s</string>
-    <string name="network_traffic_units_title">Traffic measurement units</string>
-    <string name="network_traffic_units_bits">Bits per second (b/s)</string>
+    <string name="network_traffic_units_title">Unités de mesure du trafic</string>
+    <string name="network_traffic_units_bits">Bits par seconde (b/s)</string>
     <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
     <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
     <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
@@ -565,7 +565,7 @@
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
     <!-- QS clock -->
-    <string name="qs_clock_title">Clock</string>
+    <string name="qs_clock_title">Horloge</string>
     <string name="qs_clock_summary">Display clock in quick status bar header</string>
     <!-- QS date -->
     <string name="qs_date_title">Date</string>
@@ -647,24 +647,24 @@
     <string name="navbar_layout_rightleaning">Right-leaning</string>
     <string name="system_navigation_summary">Choose which system navigation style to use</string>
     <!-- HW keys -->
-    <string name="hardware_keys_title">Buttons</string>
-    <string name="hardware_keys_category">Hardware navigation buttons</string>
-    <string name="hardware_keys_disable_title">Disable hardware buttons</string>
+    <string name="hardware_keys_title">Boutons</string>
+    <string name="hardware_keys_category">Boutons de navigation physiques</string>
+    <string name="hardware_keys_disable_title">Désactiver les boutons physiques</string>
     <string name="hardware_keys_disable_summary">Use the device hardware keys for navigation</string>
     <!-- NavBar Inverse -->
-    <string name="navigation_bar_inverse_title">Invert 3 button navigation bar</string>
+    <string name="navigation_bar_inverse_title">Inverser la barre de navigation à 3 boutons</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Brightness slider</string>
-    <string name="qs_show_brightness_slider_never">Never show</string>
-    <string name="qs_show_brightness_slider_expanded">Show when expanded</string>
-    <string name="qs_show_brightness_slider_always">Show always</string>
-    <string name="qs_show_brightness_slider_not_expanded">Show when not expanded</string>
+    <string name="qs_show_brightness_slider_title">Curseur de luminosité</string>
+    <string name="qs_show_brightness_slider_never">Ne jamais afficher</string>
+    <string name="qs_show_brightness_slider_expanded">Afficher une fois développé</string>
+    <string name="qs_show_brightness_slider_always">Toujours afficher</string>
+    <string name="qs_show_brightness_slider_not_expanded">Afficher lorsqu\'il n\'est pas développé</string>
     <string name="qs_brightness_slider_position_title">Position</string>
-    <string name="qs_brightness_slider_position_top">Top</string>
-    <string name="qs_brightness_slider_position_bottom">Bottom</string>
+    <string name="qs_brightness_slider_position_top">En haut</string>
+    <string name="qs_brightness_slider_position_bottom">En bas</string>
     <!-- Monet Engine -->
-    <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Monet engine</string>
+    <string name="monet_category">Material You</string>
+    <string name="monet_engine_title">Moteur Material You</string>
     <string name="monet_engine_summary">Customize monet parameters</string>
     <string name="monet_engine_custom_color_title">Use custom color</string>
     <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
@@ -765,4 +765,7 @@
     <!-- QS tiles title visibility -->
     <string name="qs_tile_title_visibility_title">Hide tile titles</string>
     <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 </resources>
