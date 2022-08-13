@@ -55,6 +55,14 @@
             android:summary="@string/qs_date_summary"
             android:defaultValue="true" />
 			
+		<com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_header_date_size"
+            android:title="@string/qs_date_title_size_title"
+            android:max="27"
+            settings:min="10"
+            android:defaultValue="14"
+            settings:units="dp"/>
+			
 		<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_footer_data_usage"
             android:title="@string/qs_footer_datausage_title"

@@ -38,9 +38,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 			
 	private static final String KEY_QS_CLOCK_SIZE = "qs_header_clock_size";
+	private static final String KEY_QS_DATE_SIZE = "qs_header_date_size";
 			
 	private ListPreference mQuickPulldown;
 	private CustomSeekBarPreference mQsClockSize;
+	private CustomSeekBarPreference mQSDateSize;
 	
     @Override
     public void onCreate(Bundle icicle) {
@@ -63,6 +65,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QS_HEADER_CLOCK_SIZE, 14);
         mQsClockSize.setValue(qsClockSize / 1);
         mQsClockSize.setOnPreferenceChangeListener(this);
+		
+		mQSDateSize = (CustomSeekBarPreference) findPreference(KEY_QS_DATE_SIZE);
+        int qsDateSize = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.QS_HEADER_DATE_SIZE, 14);
+        mQSDateSize.setValue(qsDateSize / 1);
+        mQSDateSize.setOnPreferenceChangeListener(this);
 	}
 
     @Override
@@ -81,6 +89,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             int width = ((Integer)newValue).intValue();
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.QS_HEADER_CLOCK_SIZE, width);
+            return true;
+		} else if (preference == mQSDateSize) {
+            int dateWidth = ((Integer)newValue).intValue();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.QS_HEADER_DATE_SIZE, dateWidth);
             return true;
 		}
         return false;
