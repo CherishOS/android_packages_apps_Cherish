@@ -27,6 +27,7 @@ import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.SystemSettingEditTextPreference;
 import com.cherish.settings.preferences.SystemSettingMasterSwitchPreference;
+import com.android.internal.util.cherish.CherishUtils;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 import android.provider.SearchIndexableResource;
@@ -36,8 +37,10 @@ import java.util.ArrayList;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
+    private static final String KEY_QS_TILE_STYLE = "qs_tile_style";
 			
-	private ListPreference mQuickPulldown;
+    private ListPreference mQuickPulldown;
+    private SystemSettingSwitchPreference mQSTileStyle;
 	
     @Override
     public void onCreate(Bundle icicle) {
@@ -55,6 +58,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mQuickPulldown.setValue(String.valueOf(qpmode));
         mQuickPulldown.setSummary(mQuickPulldown.getEntry());
         mQuickPulldown.setOnPreferenceChangeListener(this);
+
+        mQSTileStyle = (SystemSettingSwitchPreference) findPreference(KEY_QS_TILE_STYLE);
+        mQSTileStyle.setOnPreferenceChangeListener(this);
 	}
 
     @Override
@@ -68,6 +74,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             int index = mQuickPulldown.findIndexOfValue((String) newValue);
             mQuickPulldown.setSummary(
                     mQuickPulldown.getEntries()[index]);
+            return true;
+        } else if (preference == mQSTileStyle) {
+            CherishUtils.showSystemUiRestartDialog(getContext());
             return true;
         }
         return false;
