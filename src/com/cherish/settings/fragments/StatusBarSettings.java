@@ -53,9 +53,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final String CONFIG_RESOURCE_NAME = "flag_combined_status_bar_signal_icons";
     private static final String COBINED_STATUSBAR_ICONS = "show_combined_status_bar_signal_icons";
 	private static final String STATUS_BAR_CLOCK_STYLE = "status_bar_clock";
+	private static final String KEY_STATUS_BAR_CLOCK_SIZE  = "status_bar_clock_size";
 
     private SecureSettingSwitchPreference mCombinedIcons;
 	private SystemSettingListPreference mStatusBarClock;
+	private CustomSeekBarPreference mClockSize;
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -65,6 +67,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 	PreferenceScreen prefSet = getPreferenceScreen();
 	final Context mContext = getActivity().getApplicationContext();
         final ContentResolver resolver = getActivity().getContentResolver();
+		
+		mClockSize = (CustomSeekBarPreference) findPreference(KEY_STATUS_BAR_CLOCK_SIZE);
+        int clockSize = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_CLOCK_SIZE, 14);
+        mClockSize.setValue(clockSize / 1);
+        mClockSize.setOnPreferenceChangeListener(this);
 
         mCombinedIcons = (SecureSettingSwitchPreference)
                 findPreference(COBINED_STATUSBAR_ICONS);
@@ -112,6 +120,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             boolean enabled = (boolean) objValue;
             Settings.Secure.putInt(resolver,
                     COBINED_STATUSBAR_ICONS, enabled ? 1 : 0);
+            return true;
+		} else if (preference == mClockSize) {
+            int width = ((Integer)objValue).intValue();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_CLOCK_SIZE, width);
             return true;
             }
         return false;

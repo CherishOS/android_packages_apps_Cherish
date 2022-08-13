@@ -38,6 +38,14 @@
             android:entries="@array/qs_system_info_entries"
             android:entryValues="@array/qs_system_info_values"
             android:defaultValue="0" />
+			
+	<com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_header_clock_size"
+            android:title="@string/qs_clock_font_size_title"
+            android:max="27"
+            settings:min="10"
+            android:defaultValue="14"
+            settings:units="dp"/>
 		
 	  
 	<!-- QS date -->

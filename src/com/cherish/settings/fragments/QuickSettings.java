@@ -37,7 +37,11 @@ import java.util.ArrayList;
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 			
+	private static final String KEY_QS_CLOCK_SIZE = "qs_header_clock_size";
+			
 	private ListPreference mQuickPulldown;
+	private CustomSeekBarPreference mQsClockSize;
+	
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -53,6 +57,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mQuickPulldown.setValue(String.valueOf(qpmode));
         mQuickPulldown.setSummary(mQuickPulldown.getEntry());
         mQuickPulldown.setOnPreferenceChangeListener(this);
+		
+		mQsClockSize = (CustomSeekBarPreference) findPreference(KEY_QS_CLOCK_SIZE);
+        int qsClockSize = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.QS_HEADER_CLOCK_SIZE, 14);
+        mQsClockSize.setValue(qsClockSize / 1);
+        mQsClockSize.setOnPreferenceChangeListener(this);
 	}
 
     @Override
@@ -66,6 +76,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             int index = mQuickPulldown.findIndexOfValue((String) newValue);
             mQuickPulldown.setSummary(
                     mQuickPulldown.getEntries()[index]);
+            return true;
+		} else if (preference == mQsClockSize) {
+            int width = ((Integer)newValue).intValue();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.QS_HEADER_CLOCK_SIZE, width);
             return true;
 		}
         return false;
