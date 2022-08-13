@@ -914,4 +914,6 @@
     <string name="status_bar_clock_font_size_title">Statusbar Clock font size</string>
     <string name="qs_clock_font_size_title">QS Header Clock font size</string>
     <string name="qs_date_title_size_title">QS Header Date font size</string>
+	
+	<string name="status_bar_show_clock_bg">Show clock background chip</string>
 </resources>
