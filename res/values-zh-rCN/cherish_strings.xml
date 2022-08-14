@@ -766,6 +766,6 @@
     <string name="qs_tile_title_visibility_title">隐藏磁贴标题</string>
     <string name="qs_tile_title_visibility_summary">切换到隐藏磁贴标题</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">波纹效果</string>
+    <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示波纹效果</string>
 </resources>
