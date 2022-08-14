@@ -722,47 +722,50 @@
     <string name="hidden_apps_summary">ランチャーアプリから非表示になるアプリです。変更を反映させるにはランチャーの再起動が必要です。</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_summary">Heads Up 通知をスリムで邪魔になりにくいティッカーバージョンに置き換える</string>
+    <string name="reticker_colored_title">アプリに色付きの背景を使用</string>
+    <string name="reticker_colored_summary">reTicker の背景の色を通知アプリのメインの色で置き換える</string>
     <!-- Data usage info in QS footer -->
-    <string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <string name="qs_footer_datausage_title">データ使用量</string>
+    <string name="qs_footer_datausage_summary">クイック設定のフッターにデータ使用量を表示する</string>
     <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI Restart)</string>
-    <string name="qs_transparency_title">Qs Transparency</string>
+    <string name="qs_transparency_summary">クイック設定をどの程度透明にするかを選択する (システム UI の再起動が必要です)</string>
+    <string name="qs_transparency_title">クイック設定の透明度</string>
     <!-- Media artwork -->
-    <string name="media_category">Media notification</string>
-    <string name="artwork_media_background_title">Artwork media background</string>
-    <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
-    <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
-    <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
-    <string name="artwork_media_background_fade_filter_title">Fade amount for media artwork</string>
-    <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
-    <string name="just_kidding">Just kidding! providing logs helps us look like professional programmers err i mean trace the bugs that users reports.</string>
-    <string name="bug_report_drill">Bug Reporting Procedure</string>
+    <string name="media_category">メディアの通知</string>
+    <string name="artwork_media_background_title">メディアアートワークの背景</string>
+    <string name="artwork_media_background_summary">メディアアートワークをメディア通知の背景に設定する</string>
+    <string name="artwork_media_background_enable_blur_title">メディアアートワークの背景をぼかす</string>
+    <string name="artwork_media_background_blur_radius_title">メディアアートワークのぼかし量</string>
+    <string name="artwork_media_background_fade_filter_title">メディアアートワークのフェード量</string>
+    <string name="artwork_media_background_alpha_title">メディアアートワークの透明度</string>
+    <string name="just_kidding">冗談です! ログを提供することで、あなたがプロのプログラマーのように見えるようになり、私たちはユーザーから報告されたバグを追跡することができます。</string>
+    <string name="bug_report_drill">バグ報告の手順</string>
     <!-- Strict standby -->
-    <string name="strict_standby_policy_title">Strict standby policy</string>
-    <string name="strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
+    <string name="strict_standby_policy_title">厳格なスタンバイポリシー</string>
+    <string name="strict_standby_policy_summary">アプリ履歴から消去した時、バッテリー使用の制限を設定されたアプリの場合は強制終了され、より厳格な制限を与えます。また、アプリのスタンバイ制限は端末が充電中の時でも発生します。</string>
     <!-- Force background freezer -->
-    <string name="force_background_freezer_title">Background tasks freezer</string>
-    <string name="force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
+    <string name="force_background_freezer_title">バックグラウンドタスク停止</string>
+    <string name="force_background_freezer_summary">バックグラウンドに移動させる時はバッテリー使用制限によってタスクを停止し、フォアグラウンドに移動させる時はタスクの停止を解除します。これによりバッテリー消費を少し節約できますが、クラッシュやアプリケーション応答なしエラー (ANR) が発生する可能性があります。</string>
     <!-- Wi-Fi Standard icon -->
-    <string name="show_wifi_standard_icon_title">Show Wi-Fi Standard icon</string>
-    <string name="show_wifi_standard_icon_summary">Show Wi-Fi type in Wi-Fi signal indicator</string>
+    <string name="show_wifi_standard_icon_title">Wi-Fi 標準アイコンを表示</string>
+    <string name="show_wifi_standard_icon_summary">Wi-Fi 電波表示に Wi-Fi の種類を表示する</string>
     <!-- Lockscreen clock color -->
-    <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
-    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
+    <string name="lockscreen_clock_color_title">ロック画面の時計の色</string>
+    <string name="lockscreen_clock_color_summary">色のアクセントが無効な場合はセカンダリの色をロック画面の時計に使用する</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_category_title">Tile layout</string>
-    <string name="qs_tile_layout_title">Vertical layout</string>
-    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+    <string name="qs_tile_layout_category_title">タイルのレイアウト</string>
+    <string name="qs_tile_layout_title">縦方向レイアウト</string>
+    <string name="qs_tile_layout_summary">垂直のレイアウトを有効化します。既定では水平です。</string>
     <!-- QS rows and columns -->
-    <string name="qs_layout_category_title">QS Layout</string>
-    <string name="qs_rows_portrait_title">Tile rows on portrait</string>
-    <string name="qs_rows_landscape_title">Tile rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
+    <string name="qs_layout_category_title">クイック設定のレイアウト</string>
+    <string name="qs_rows_portrait_title">縦向き時の行数</string>
+    <string name="qs_rows_landscape_title">横向き時の行数</string>
+    <string name="qs_columns_portrait_title">縦向き時の列数</string>
     <!-- QS tiles title visibility -->
-    <string name="qs_tile_title_visibility_title">Hide tile titles</string>
-    <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
+    <string name="qs_tile_title_visibility_title">タイルの名称を隠す</string>
+    <string name="qs_tile_title_visibility_summary">クイック設定のタイル名を無効化する</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">波紋の効果</string>
+    <string name="enable_fingerprint_ripple_effect_summary">指紋認証のロック解除時に波紋効果を表示する</string>
 </resources>
