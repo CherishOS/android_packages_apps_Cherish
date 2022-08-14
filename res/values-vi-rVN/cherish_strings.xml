@@ -766,6 +766,6 @@
     <string name="qs_tile_title_visibility_title">Ẩn tiêu đề các ô</string>
     <string name="qs_tile_title_visibility_summary">Công tắc ẩn ô tiêu đề</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">Hiệu ứng gợn sóng</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>
 </resources>
