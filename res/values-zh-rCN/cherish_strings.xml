@@ -748,21 +748,24 @@
     <string name="force_background_freezer_title">墓碑后台</string>
     <string name="force_background_freezer_summary">这将对“电池用量”受限的应用启用墓碑后台。当应用被移至后台时将会被冻结，移到前台时重新解冻。这能够在一定程度上减少电量消耗，但可能造成应用崩溃与后台应用未响应。</string>
     <!-- Wi-Fi Standard icon -->
-    <string name="show_wifi_standard_icon_title">Show Wi-Fi Standard icon</string>
-    <string name="show_wifi_standard_icon_summary">Show Wi-Fi type in Wi-Fi signal indicator</string>
+    <string name="show_wifi_standard_icon_title">显示 Wi-Fi 标准图标</string>
+    <string name="show_wifi_standard_icon_summary">在 Wi-Fi 信号指示器中显示 Wi-Fi 类型</string>
     <!-- Lockscreen clock color -->
-    <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
-    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
+    <string name="lockscreen_clock_color_title">锁屏时钟颜色</string>
+    <string name="lockscreen_clock_color_summary">锁屏时钟使用次要颜色，如果禁用则使用强调色</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_category_title">Tile layout</string>
-    <string name="qs_tile_layout_title">Vertical layout</string>
-    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+    <string name="qs_tile_layout_category_title">磁贴布局</string>
+    <string name="qs_tile_layout_title">垂直布局</string>
+    <string name="qs_tile_layout_summary">启用垂直布局，默认是水平的</string>
     <!-- QS rows and columns -->
-    <string name="qs_layout_category_title">QS Layout</string>
-    <string name="qs_rows_portrait_title">Tile rows on portrait</string>
-    <string name="qs_rows_landscape_title">Tile rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
+    <string name="qs_layout_category_title">快速设置布局</string>
+    <string name="qs_rows_portrait_title">行数 (纵向)</string>
+    <string name="qs_rows_landscape_title">行数 (横向)</string>
+    <string name="qs_columns_portrait_title">列数 (纵向)</string>
     <!-- QS tiles title visibility -->
-    <string name="qs_tile_title_visibility_title">Hide tile titles</string>
-    <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
+    <string name="qs_tile_title_visibility_title">隐藏磁贴标题</string>
+    <string name="qs_tile_title_visibility_summary">切换到隐藏磁贴标题</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">波纹效果</string>
+    <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示波纹效果</string>
 </resources>
