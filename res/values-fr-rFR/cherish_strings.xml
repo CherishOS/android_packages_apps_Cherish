@@ -141,7 +141,7 @@
     <!--Volume keys -->
     <string name="volume_rocker_wake_summary">L\'appui sur les touches de volumes réveillera votre appareil</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Activer/désactiver la lampe torche lorsque l\'écran est éteint</string>
+    <string name="torch_power_button_gesture_title">Lampe de poche lorsque l\'écran est éteint</string>
     <string name="torch_power_button_gesture_none">Désactivé</string>
     <string name="torch_power_button_gesture_dt">Presser deux fois le bouton d\'alimentation (réduit le temps de réponse de l\'appui simple), Désactive l\'appui double pour la caméra.</string>
     <string name="torch_power_button_gesture_dt_toast">Le geste pour ouvrir la caméra est maintenant désactivé</string>
@@ -177,8 +177,8 @@
     <string name="lockscreen_power_menu_disabled_title">Désactiver le menu d\'alimentation sur l’écran de verrouillage</string>
     <string name="lockscreen_power_menu_disabled_summary">Cela désactivera uniquement le menu d\'alimentation sur un écran de verrouillage sécurisé</string>
     <!-- Toast app icon -->
-    <string name="toast_icon_title">Toast app icon</string>
-    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
+    <string name="toast_icon_title">Icône de l\'application toast</string>
+    <string name="toast_icon_summary">Afficher l\'icône de l\'application correspondant au toast</string>
     <!-- Heads up -->
     <string name="headsup_category">Paramètres des notifications flottantes</string>
     <string name="heads_up_notifications">Notifications flottantes</string>
@@ -204,16 +204,16 @@
     <string name="heads_up_time_out_10sec">10 secondes</string>
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Rappel d\'alarme</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_summary_one_minute">Glisser la notification vers le haut désactivera les notifications flottantes de cette application pendant 1 minute</string>
+    <string name="heads_up_snooze_summary">Glisser la notification vers le haut désactivera les notifications flottantes de cette application pendant <xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_disabled_summary">La désactivation temporaire est désactivée</string>
     <string name="heads_up_snooze_1min">1 minute</string>
     <string name="heads_up_snooze_5min">5 minutes</string>
     <string name="heads_up_snooze_10min">10 minutes</string>
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
     <!-- Quick QS pulldown -->
-    <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
+    <string name="status_bar_quick_qs_pulldown">Menu déroulant des réglages rapides</string>
     <string name="quick_pulldown_none">Désactivé</string>
     <string name="quick_pulldown_right">Tirer la barre d\'état vers le bas à partir de la droite</string>
     <string name="quick_pulldown_left">Tirer la barre d\'état vers le bas à partir de la gauche</string>
@@ -288,14 +288,14 @@
     <string name="battery_light_reallyfull_color">Batterie pleine (100%)</string>
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Rendre les notifications flottantes moins dérangeantes</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
+    <string name="less_boring_heads_up_summary">Afficher les notifications flottantes uniquement pour les applis de messagerie si elles ne sont pas au premier plan</string>
     <!-- Notification guts kill app button -->
     <string name="general_category">Général</string>
     <string name="notification_guts_kill_app_button_title">Bouton forcer l\'arrêt des apps</string>
     <string name="notification_guts_kill_app_button_summary">Afficher un bouton pour fermer toutes les application dans le menu lors d\'un appui long sur la notification</string>
     <!-- Double Tap on Doze to wake -->
-    <string name="double_tap_on_doze_to_wake_title">Double-tap to wake on doze</string>
-    <string name="double_tap_on_doze_to_wake_summary">Double tap to wake when device is dreaming</string>
+    <string name="double_tap_on_doze_to_wake_title">Appui double pour réveiller l\'appareil</string>
+    <string name="double_tap_on_doze_to_wake_summary">Appui double pour réveiller l\'appareil en veille profonde</string>
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Petit icône de type mobile</string>
     <string name="use_old_mobiletype_summary">Afficher l\'icône de type mobile au dessus de l\'indicateur de signal</string>
@@ -309,7 +309,7 @@
     <string name="qs_tile_animation_title">Animations</string>
     <string name="qs_tile_animation_style_title">Style d\'animation</string>
     <string name="qs_tile_animation_duration_title">Durée de l\'animation</string>
-    <string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string>
+    <string name="qs_tile_animation_interpolator_title">Interpolateur d\'animation des tuiles</string>
     <string name="qs_tile_animation_style_off">Aucune animation</string>
     <string name="qs_tile_animation_style_flip">Retourner</string>
     <string name="qs_tile_animation_style_rotate">Pivoter</string>
@@ -336,9 +336,9 @@
     <string name="flashlight_on_call_silent">Lorsqu\'il est entièrement silencieux (pas de sonnerie ou de vibration)</string>
     <string name="flashlight_on_call_always">Toujours</string>
     <string name="flashlight_on_call_ignore_dnd_title">Ignorer le mode Ne pas déranger</string>
-    <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when in Do Not Disturb mode</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Activer la lampe de poche en mode Ne pas déranger</string>
     <string name="flashlight_on_call_rate_title">Évaluer</string>
-    <string name="flashlight_on_call_rate_summary">Flashlight on call blink rate</string>
+    <string name="flashlight_on_call_rate_summary">Taux de clignotement de la lampe de poche pendant l\'appel</string>
     <!-- Combined signal icons in status bar -->
     <string name="combined_status_bar_signal_icons">Icônes de signal combinées</string>
     <string name="combined_status_bar_signal_icons_summary">Activer les icônes de signal combinées dans la barre d\'état.\nNécessite un redémarrage de l\'interface utilisateur</string>
@@ -352,16 +352,16 @@
     <string name="always_on_display_schedule_mixed_sunset">S\'allume dès le coucher du soleil jusqu\'à une certaine heure</string>
     <string name="always_on_display_schedule_mixed_sunrise">Allumé du lever du soleil jusqu\'à une certaine heure</string>
     <!-- Pulse notifications lightning -->
-    <string name="pulse_ambient_light_title">Ambient edge lightning</string>
-    <string name="pulse_ambient_light_summary">Light ambient edges for pulsing notifications</string>
+    <string name="pulse_ambient_light_title">Éclairage des bords</string>
+    <string name="pulse_ambient_light_summary">Éclairage des bords pour les notifications push</string>
     <string name="ambient_notification_light_enabled_title">Afficher sur l\"affichage permanent</string>
     <string name="ambient_notification_light_enabled_summary">Conserve l’éclairage des bords sur l\'affichage permanent</string>
     <string name="ambient_notification_light_hide_aod_title">Masquer le contenu de l\'affichage permanent</string>
     <string name="ambient_notification_light_hide_aod_summary">Masquer le contenu de l\'affichage permanent lorsque les bords sont éclairés</string>
     <string name="ambient_notification_light_duration_title">Durée</string>
-    <string name="ambient_notification_light_duration_summary">Time it takes for each animation to complete</string>
+    <string name="ambient_notification_light_duration_summary">Temps nécessaire pour chaque animation</string>
     <string name="ambient_notification_light_repeats_title">Répétitions</string>
-    <string name="ambient_notification_light_repeats_summary">Amount of times the animation should show\n0 for infinite</string>
+    <string name="ambient_notification_light_repeats_summary">Nombre de fois que l\'animation doit apparaître\n0 pour infini</string>
     <string name="ambient_notification_light_timeout_title">Délai d\'expiration</string>
     <string name="ambient_notification_light_timeout_forever">Pour toujours</string>
     <string name="ambient_notification_light_timeout_half_minute">30 secondes</string>
@@ -377,24 +377,24 @@
     <string name="ambient_notification_color_mode_custom">@string/ambient_notification_light_color_title</string>
     <string name="ambient_notification_light_color_title">Couleur personnalisée</string>
     <string name="pulse_ambient_light_show_always_title">Toujours afficher</string>
-    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
-    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_show_always_summary">Afficher les lumières pour tous les événements et pas seulement les notifications</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Mode répétition</string>
     <string name="pulse_ambient_light_repeat_direction_restart">Redémarrer</string>
     <string name="pulse_ambient_light_repeat_direction_reverse">Inverser</string>
-    <string name="pulse_ambient_light_layout_title">Light view</string>
-    <string name="pulse_ambient_light_layout_solid">Solid</string>
-    <string name="pulse_ambient_light_layout_faded">Faded</string>
-    <string name="pulse_ambient_light_width_title">Light width</string>
-    <string name="pulse_light_layout_style_title">Light Layout Style</string>
-    <string name="pulse_light_both">All Four Sides</string>
-    <string name="pulse_light_top_bottom">Only Top-Bottom</string>
-    <string name="pulse_light_left_right">Only Left-Right</string>
+    <string name="pulse_ambient_light_layout_title">Vue lumineuse</string>
+    <string name="pulse_ambient_light_layout_solid">Plein</string>
+    <string name="pulse_ambient_light_layout_faded">Dégradé</string>
+    <string name="pulse_ambient_light_width_title">Largeur de la lumière</string>
+    <string name="pulse_light_layout_style_title">Style de disposition de la lumière</string>
+    <string name="pulse_light_both">Les quatre côtés</string>
+    <string name="pulse_light_top_bottom">Seulement en haut et en bas</string>
+    <string name="pulse_light_left_right">Seulement à gauche et à droite</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Indicateur de musique</string>
-    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
+    <string name="pulse_on_new_tracks_summary">Afficher les informations musicales sur l\'affichage en mode veille lors du changement de piste</string>
     <!-- Screen off FOD -->
-    <string name="screen_off_fod_title">Screen off FOD</string>
-    <string name="screen_off_fod_summary">Keep FOD enabled when the screen is off</string>
+    <string name="screen_off_fod_title">Reconnaissance d\'empreinte lorsque l\'écran est éteint</string>
+    <string name="screen_off_fod_summary">Laisser la reconnaissance de l\'empreinte activée lorsque l\'écran est éteint</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Incrémentation du volume</string>
     <string name="volume_steps_summary">Personnaliser les niveaux d’incréments du volume</string>
@@ -409,26 +409,26 @@
     <!-- Udfps animations -->
     <string name="udfps_category">Udfps</string>
     <string name="udfps_recog_animation">Animation Udfps</string>
-    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="udfps_recog_animation_summary">Affiche une animation lors de la reconnaissance de l\'empreinte</string>
     <string name="udfps_recog_animation_effect_title">Effet d\'animation Udfps</string>
     <string name="udfps_recog_animation_effect_summary">Choisir l\'effet d\'animation</string>
     <!-- Udfps icon picker -->
     <string name="udfps_icon_picker_title">Sélecteur d\'icônes Udfps</string>
     <string name="udfps_icon_picker_summary">Choisissez votre icône d\'empreinte digitale préférée</string>
     <!-- Udfps Custom Options -->
-    <string name="udfps_settings_title">Udfps Options</string>
-    <string name="udfps_settings_summary">Different menus for customizing the udfps</string>
+    <string name="udfps_settings_title">Options Udfps</string>
+    <string name="udfps_settings_summary">Menus différents pour personnaliser les udfps</string>
     <!-- Udfps Haptic Feedback -->
-    <string name="udfps_haptic_feedback_title">FOD haptic feedback</string>
-    <string name="udfps_haptic_feedback_summary">Vibrate when touching FOD icon</string>
+    <string name="udfps_haptic_feedback_title">Retour haptique du capteur d\'empreinte</string>
+    <string name="udfps_haptic_feedback_summary">Vibrer lorsque vous touchez l\'icône du capteur d\'empreinte</string>
     <!-- Custom FOD Icon -->
     <string name="custom_fp_icon_title">Icône UDFPS personnalisée</string>
     <string name="custom_fp_icon_summary">Activer l\'icône UDFPS personnalisée à partir de fichiers</string>
     <string name="custom_fp_select_title">Sélectionnez l\'icône UDFPS personnalisée</string>
     <string name="custom_fp_select_summary">Sélectionnez une image personnalisée à partir de vos fichiers enregistrés ou de votre galerie</string>
     <!-- Privacy indicators -->
-    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
-    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
+    <string name="mic_camera_privacy_indicator_title">Indicateur de confidentialité du micro et de la caméra</string>
+    <string name="mic_camera_privacy_indicator_summary">Affiche un indicateur séparé lorsqu\'une application utilise le micro ou la caméra</string>
     <string name="location_privacy_indicator_title">Indicateur de localisation</string>
     <string name="location_privacy_indicator_summary">Afficher un indicateur séparé lorsqu\'une application utilise un emplacement</string>
     <!-- Sb Icon Style -->
@@ -495,7 +495,7 @@
     <!-- Themeing -->
     <string name="dark_ui_mode_summary">Parcourir les options du thème sombre</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
-    <string name="theme_customization_category">Theming</string>
+    <string name="theme_customization_category">Thème</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
     <string name="theme_customization_icon_shape_title">Forme des icônes</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
@@ -518,11 +518,11 @@
     <string name="button_backlight_options_category">Options de rétroéclairage</string>
     <string name="button_backlight_enable_title">Activer le rétroéclairage des boutons</string>
     <string name="button_link_brightness">Lier à la luminosité de l\'écran</string>
-    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+    <string name="button_link_brightness_summary">Ajuster la luminosité du rétroéclairage des boutons en fonction du niveau de luminosité de l\'écran</string>
     <string name="button_manual_brightness">Niveau de luminosité</string>
-    <string name="button_timeout_title">Backlight timeout</string>
-    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
-    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
+    <string name="button_timeout_title">Délai d\'extinction du rétroéclairage</string>
+    <string name="button_backlight_on_touch_only_title">Rétroéclairage du bouton au touché</string>
+    <string name="button_backlight_on_touch_only_summary">Le rétroéclairage des boutons se déclenchera uniquement lorsque ceux-ci seront pressés plutôt que tout le temps. Le délai s\'applique sur cette fonction.</string>
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">Animation à l\'extinction de l\'écran</string>
     <string name="screen_off_animation_crt">CRT</string>
@@ -530,7 +530,7 @@
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Horloge &amp; date</string>
     <string name="status_bar_clock_summary">Personnaliser l\'horloge &amp; la date</string>
-    <string name="status_bar_clock_seconds_title">Clock seconds</string>
+    <string name="status_bar_clock_seconds_title">Horloge secondes</string>
     <string name="status_bar_clock_seconds_summary">Afficher les secondes à côté de l\'horloge dans la barre d\'état</string>
     <string name="status_bar_clock_position_title">Style de l\'horloge</string>
     <string name="status_bar_clock_position_right">Droite</string>
@@ -538,10 +538,10 @@
     <string name="status_bar_clock_position_center">Centre</string>
     <string name="status_bar_clock_position_hidden">Masqué</string>
     <string name="status_bar_clock_auto_hide_title">Masquer automatiquement</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide clock at regular interval</string>
+    <string name="status_bar_clock_auto_hide_launcher_summary">Masquer l\'horloge si le lanceur d\'applications est visible</string>
+    <string name="status_bar_clock_auto_hide_summary">Masquer l\'horloge à intervalles réguliers</string>
     <string name="status_bar_clock_auto_hide_hdur_title">Masquer la durée</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Number of seconds to hide clock</string>
+    <string name="status_bar_clock_auto_hide_hdur_summary">Nombre de secondes pour masquer l’horloge</string>
     <string name="status_bar_clock_auto_hide_sdur_title">Afficher la durée</string>
     <string name="status_bar_clock_auto_hide_sdur_summary">Nombre de secondes avant de masquer l\'horloge</string>
     <string name="status_bar_am_pm_title">Style AM/PM</string>
@@ -573,84 +573,84 @@
     <!-- Media art -->
     <string name="lockscreen_media_category">Pochette du média sur l\'écran de verrouillage</string>
     <string name="media_art_title">Pochette de l\'album</string>
-    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <string name="media_art_summary">Afficher la pochette de l\'album sur l\'écran de déverrouillage</string>
     <!-- Lockscreen album art filter -->
-    <string name="lockscreen_albumart_filter_title">Media cover art filter</string>
-    <string name="lockscreen_albumart_filter_none">None</string>
+    <string name="lockscreen_albumart_filter_title">Filtre des pochettes d\'albums</string>
+    <string name="lockscreen_albumart_filter_none">Ne pas afficher</string>
     <string name="lockscreen_albumart_filter_grayscale">Niveau de gris</string>
-    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
-    <string name="lockscreen_albumart_filter_blur">Blur</string>
-    <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
+    <string name="lockscreen_albumart_filter_tint">Accent teinté</string>
+    <string name="lockscreen_albumart_filter_blur">Flouter</string>
+    <string name="lockscreen_albumart_filter_grayblur">Niveaux de gris et flou</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_help_policy_notice_title">About Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_help_policy_notice_title">À propos de Pulse</string>
+    <string name="pulse_help_policy_notice_summary">Pulse est un superbe égaliseur graphique lors de la lecture de la musique</string>
     <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
-    <string name="show_navbar_pulse_title">Navbar Pulse</string>
-    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
-    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
-    <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
-    <string name="show_ambient_pulse_title">Ambient Pulse</string>
-    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
-    <string name="pulse_render_mode_title">Render mode</string>
-    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
-    <string name="pulse_render_mode_solid_lines">Solid lines</string>
-    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
-    <string name="pulse_custom_fudge_factor">Sanity level</string>
-    <string name="pulse_lavalamp_speed_title">Lava lamp speed</string>
-    <string name="pulse_solid_units_count">Solid lines count</string>
-    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
-    <string name="pulse_solid_units_rounded_title">Rounded corners</string>
-    <string name="pulse_solid_units_rounded_summary">Solid lines with rounded tip</string>
-    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
-    <string name="pulse_color_mode_title">Color</string>
-    <string name="pulse_color_accent">Accent</string>
-    <string name="pulse_color_custom">Custom</string>
-    <string name="pulse_color_lava_lamp">Lava lamp</string>
-    <string name="pulse_color_user_title">Choose color</string>
-    <string name="pulse_smoothing_enabled_title">Turn on smoothing</string>
-    <string name="pulse_smoothing_enabled_summary">Each bar is animated more smoothly</string>
-    <string name="pulse_custom_dimen">Bar width</string>
-    <string name="pulse_custom_div">Bar spacing</string>
-    <string name="pulse_filled_block_size">Block size</string>
-    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_settings_summary">Égaliseur audio-graphique pour la barre de navigation et l\'écran de verrouillage</string>
+    <string name="show_navbar_pulse_title">Pulse pour la barre de navigation</string>
+    <string name="show_navbar_pulse_summary">Égaliseur audio-graphique dans la barre de navigation</string>
+    <string name="show_lockscreen_pulse_title">Pulse pour l\'écran de verrouillage</string>
+    <string name="show_lockscreen_pulse_summary">Égaliseur audio-graphique sur l\'écran de verrouillage</string>
+    <string name="show_ambient_pulse_title">Pulse sur l\'affichage ambiant</string>
+    <string name="show_ambient_pulse_summary">Égaliseur audio-graphique sur l\'affichage ambiant</string>
+    <string name="pulse_render_mode_title">Mode de Rendu</string>
+    <string name="pulse_render_mode_fading_bars">Blocs en degradé</string>
+    <string name="pulse_render_mode_solid_lines">Lignes pleines</string>
+    <string name="pulse_legacy_mode_advanced_category">Paramètres du mode blocs en degradé</string>
+    <string name="pulse_custom_fudge_factor">Niveau d\'intensité</string>
+    <string name="pulse_lavalamp_speed_title">Vitesse de la lampe à lave</string>
+    <string name="pulse_solid_units_count">Nombre de lignes pleines</string>
+    <string name="pulse_solid_units_opacity">Opacité des lignes pleines</string>
+    <string name="pulse_solid_units_rounded_title">Coins arrondis</string>
+    <string name="pulse_solid_units_rounded_summary">Lignes pleines avec bout arrondi</string>
+    <string name="pulse_solid_dimen_category">Paramètres du mode lignes pleines</string>
+    <string name="pulse_color_mode_title">Couleur </string>
+    <string name="pulse_color_accent">Couleur d\'accentuation</string>
+    <string name="pulse_color_custom">Personnalisé</string>
+    <string name="pulse_color_lava_lamp">Lampe à lave</string>
+    <string name="pulse_color_user_title">Choisissez la couleur</string>
+    <string name="pulse_smoothing_enabled_title">Activer la fluidité</string>
+    <string name="pulse_smoothing_enabled_summary">Chaque barre est animée de manière plus fluide</string>
+    <string name="pulse_custom_dimen">Largeur des barres</string>
+    <string name="pulse_custom_div">Espacement des barres</string>
+    <string name="pulse_filled_block_size">Taille des blocs</string>
+    <string name="pulse_empty_block_size">Espacement des blocs</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_category">Brightness slider</string>
+    <string name="qs_brightness_slider_category">Curseur de luminosité</string>
     <string name="qs_brightness_slider_title">Afficher le curseur de luminosité</string>
     <string name="qs_brightness_slider_summary">Afficher un curseur de luminosité dans le volet des réglages rapides</string>
     <string name="qs_brightness_position_bottom_title">Afficher le curseur de luminosité en bas</string>
     <string name="qs_brightness_position_bottom_summary">Afficher une barre de luminosité sous les réglages rapides</string>
     <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Adaptive brightness button</string>
-    <string name="brightness_icon_summary">Show adaptive brightness button</string>
+    <string name="brightness_icon_title">Bouton de luminosité automatique</string>
+    <string name="brightness_icon_summary">Afficher le bouton de luminosité automatique</string>
     <!-- Quick QS Panel brightness slider -->
-    <string name="quick_qs_brightness_slider_title">Show brightness slider in Quick QS Panel</string>
-    <string name="quick_qs_brightness_slider_summary">Show a brightness slider in the quick qs panel</string>
+    <string name="quick_qs_brightness_slider_title">Afficher le curseur de luminosité dans le panneau des réglages rapides</string>
+    <string name="quick_qs_brightness_slider_summary">Afficher le curseur de luminosité dans le panneau de configuration rapide</string>
     <!-- Volume rocker gestures -->
-    <string name="volume_skiptrack_screen_title">Skip music tracks</string>
+    <string name="volume_skiptrack_screen_title">Changer de piste musicale</string>
     <!-- Navigation bar -->
-    <string name="navigation_title">Navigatie</string>
-    <string name="navigation_bar_category">Navigation bar</string>
-    <string name="navigation_bar_title">On-screen navigation bar</string>
-    <string name="navigation_bar_summary">Enable on-screen navigation keys</string>
-    <string name="navigation_bar_layout_title">Layout</string>
-    <string name="navigation_bar_layout_summary">Customize the layout of the navigation bar</string>
-    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
-    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons in navigation bar while typing</string>
-    <string name="navigation_bar_help_text">These settings mainly relate to the 3-button navigation bar. If you use gesture navigation and want to customize it, e.g. hide the gesture handle, please visit: Settings &gt; System &gt; Gestures.</string>
-    <string name="nav_bar_tuner_title">Navigation bar tuner</string>
-    <string name="nav_bar_tuner_summary">Change nav bar layout</string>
-    <string name="navbar_layout_title">Layout</string>
+    <string name="navigation_title">Navigation</string>
+    <string name="navigation_bar_category">Barre de navigation</string>
+    <string name="navigation_bar_title">Barre de navigation sur l\'écran</string>
+    <string name="navigation_bar_summary">Activer les boutons de navigations sur l\'écran</string>
+    <string name="navigation_bar_layout_title">Disposition</string>
+    <string name="navigation_bar_layout_summary">Réglages de la disposition de la barre de navigation</string>
+    <string name="navigation_bar_arrow_keys_title">Afficher les flèches lors de la frappe</string>
+    <string name="navigation_bar_arrow_keys_summary">Afficher les touches de direction gauche et droite dans la barre de navigation lors de la frappe</string>
+    <string name="navigation_bar_help_text">Ces paramètres concernent principalement la barre de navigation à 3 boutons. Si vous utilisez la navigation gestuelle et souhaitez la personnaliser, par ex. masquer la poignée de geste, veuillez visiter : Paramètres &gt; Système &gt; Gestes.</string>
+    <string name="nav_bar_tuner_title">Réglages de la barre de navigation</string>
+    <string name="nav_bar_tuner_summary">Changer la disposition de la barre de navigation</string>
+    <string name="navbar_layout_title">Disposition</string>
     <string name="navbar_layout_normal">Normale</string>
     <string name="navbar_layout_compact">Compact</string>
-    <string name="navbar_layout_leftleaning">Left-leaning</string>
-    <string name="navbar_layout_rightleaning">Right-leaning</string>
-    <string name="system_navigation_summary">Choose which system navigation style to use</string>
+    <string name="navbar_layout_leftleaning">Alignée à gauche</string>
+    <string name="navbar_layout_rightleaning">Alignée à droite</string>
+    <string name="system_navigation_summary">Choisir le style de navigation système à utiliser</string>
     <!-- HW keys -->
     <string name="hardware_keys_title">Boutons</string>
     <string name="hardware_keys_category">Boutons de navigation physiques</string>
     <string name="hardware_keys_disable_title">Désactiver les boutons physiques</string>
-    <string name="hardware_keys_disable_summary">Use the device hardware keys for navigation</string>
+    <string name="hardware_keys_disable_summary">Utiliser les touches physiques de l\'appareil pour la navigation</string>
     <!-- NavBar Inverse -->
     <string name="navigation_bar_inverse_title">Inverser la barre de navigation à 3 boutons</string>
     <!-- Quick Settings brightness slider -->
@@ -665,106 +665,106 @@
     <!-- Monet Engine -->
     <string name="monet_category">Material You</string>
     <string name="monet_engine_title">Moteur Material You</string>
-    <string name="monet_engine_summary">Customize monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_summary">Personnaliser les paramètres de Material You</string>
+    <string name="monet_engine_custom_color_title">Utiliser une couleur personnalisée</string>
+    <string name="monet_engine_custom_color_summary">Utiliser une couleur personnalisée pour le moteur Material You au lieu des couleurs du fond d\'écran</string>
+    <string name="monet_engine_color_override_title">Couleur personnalisée</string>
+    <string name="monet_engine_white_luminance_user_title">Éclairage blanc</string>
+    <string name="monet_engine_accurate_shades_title">Utiliser des nuances précises</string>
+    <string name="monet_engine_chroma_factor_title">Facteur chromatique</string>
+    <string name="monet_engine_linear_lightness_title">Utiliser la clarté linéaire</string>
     <!-- Quick Settings brightness icon -->
-    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
+    <string name="qs_show_auto_brightness_title">Icône de luminosité automatique</string>
+    <string name="qs_show_auto_brightness_summary">Afficher le bouton de luminosité adaptative près du curseur</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Utiliser le thème sombre</string>
+    <string name="system_black_theme_summary">Forcer l\'utilisation de couleurs d\'arrière-plan sombres</string>
     <!-- OOS style material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_button_title">Clear all notification button</string>
-    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
-    <string name="clearall_style_title">Clear all notification button style</string>
-    <string name="clearall_bgstyle_title">Clear all notification button background</string>
+    <string name="notification_material_dismiss_button_title">Bouton pour effacer toutes les notifications</string>
+    <string name="notification_material_dismiss_button_summary">Remplacer le texte effacer toutes les notifications par un bouton flottant</string>
+    <string name="clearall_style_title">Style du bouton effacer toutes les notifications</string>
+    <string name="clearall_bgstyle_title">Arrière-plan du bouton effacer toutes les notifications</string>
     <!-- Laboratory - Application downgrade -->
-    <string name="laboratory_app_downgrade_title">Allow application downgrade</string>
-    <string name="laboratory_app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
+    <string name="laboratory_app_downgrade_title">Autoriser le downgrade de l\'application</string>
+    <string name="laboratory_app_downgrade_summary">Cela permet de downgrader les applications. Notez que cela peut conduire à des plantages et à une corruption des données.</string>
     <!-- Laboratory - Ignore window secure -->
-    <string name="laboratory_ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="laboratory_ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications	are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="laboratory_ignore_window_secure_title">Ignorer les fenêtres d\'indication de sécurité</string>
+    <string name="laboratory_ignore_window_secure_summary">Supprimer les limites de capture d\'écran et d\'enregistrement d\'écran pour toutes les applications. Cela peut être pratique dans certains cas, mais peut entraîner des fuites de confidentialité. Après la modification, vous devrez redémarrer les applications pour que le changement prenne effet.</string>
     <!-- Colorful battery icon -->
-    <string name="battery_level_colors_title">Activer/désactiver l\'icône de batterie colorée</string>
+    <string name="battery_level_colors_title">Icône de batterie colorée</string>
     <string name="battery_level_colors_summary">Each battery level drop is color coded</string>
     <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings layout</string>
+    <string name="settings_dashboard_style_title">Disposition des paramètres</string>
     <string name="settings_dashboard_style_aosp">Aosp</string>
     <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
     <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
     <string name="settings_dashboard_style_cherish">Cherish</string>
-    <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
-    <string name="settings_layout_category_title">Settings UI interface</string>
-    <string name="settings_base_style_title">Settings Base layout</string>
-    <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
-    <string name="settings_home_style_title">Settings Home layout</string>
-    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
+    <string name="settings_dashboard_style_cherish_clean">Nettoyage Cherish</string>
+    <string name="settings_layout_category_title">Paramètres de l\'interface utilisateur</string>
+    <string name="settings_base_style_title">Disposition des paramètres de base</string>
+    <string name="settings_base_style_summary">Utiliser une disposition alternative pour régler les menus</string>
+    <string name="settings_home_style_title">Disposition des paramètres de la page d\'accueil</string>
+    <string name="settings_home_style_summary">Utiliser la disposition aosp de base pour la page d\'accueil</string>
     <string name="disable_usercard_title">Settings UserCard</string>
-    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
-    <string name="spoof_title">Spoofing</string>
+    <string name="disable_usercard_summary">Ne pas afficher la fiche utilisateur sur la page des paramètres principaux</string>
+    <string name="spoof_title">Usurpation</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
     <string name="use_photos_spoof_title">Stockage illimité des photos</string>
-    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+    <string name="use_photos_spoof_summary">Usurper votre appareil en tant que Pixel XL pour avoir accès à la sauvegarde illimitée dans Google Photos</string>
     <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
-    <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <string name="use_games_spoof_title">Augmentation des FPS en mode jeu</string>
+    <string name="use_games_spoof_summary">Usurper le modèle de votre appareil en tant que différents modèles pour augmenter les FPS en mode jeu</string>
     <!-- Unlock higher quality streams for specific apps -->
-    <string name="use_stream_spoof_title">Unlock higher quality streams</string>
-    <string name="use_stream_spoof_summary">Spoof your device as Pixel 6 Pro to unlock higher quality streams on Amazon Prime, Disney+, Hotstar, and Netflix</string>
+    <string name="use_stream_spoof_title">Débloquer les flux de meilleure qualité</string>
+    <string name="use_stream_spoof_summary">Usurper le modèle de votre appareil en tant que Pixel 6 Pro pour débloquer des flux de meilleure qualité sur Amazon Prime, Disney+, Hotstar et Netflix</string>
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Applications masquées</string>
-    <string name="hidden_apps_summary">Applications that should be hidden from launcher</string>
+    <string name="hidden_apps_summary">Applications qui doivent être cachées du lanceur d\'applications</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_summary">Remplacer la notification flottante par une version moins invasive</string>
+    <string name="reticker_colored_title">Utiliser l\'arrière-plan coloré de l\'application</string>
+    <string name="reticker_colored_summary">Remplacer la couleur d\'arrière-plan de reTicker par la couleur principale de l\'application de notification</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Utilisation des données</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <string name="qs_footer_datausage_summary">Afficher le résumé de l\'utilisation des données dans le pied de page des réglages rapides</string>
     <!-- Qs Transparency -->
-    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI Restart)</string>
-    <string name="qs_transparency_title">Qs Transparency</string>
+    <string name="qs_transparency_summary">Choisissez le niveau de transparence que vous voulez pour les réglages rapides (nécessite un redémarrage de SystemUI)</string>
+    <string name="qs_transparency_title">Transparence des réglages rapides</string>
     <!-- Media artwork -->
-    <string name="media_category">Media notification</string>
-    <string name="artwork_media_background_title">Artwork media background</string>
-    <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
-    <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
-    <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
-    <string name="artwork_media_background_fade_filter_title">Fade amount for media artwork</string>
-    <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
-    <string name="just_kidding">Just kidding! providing logs helps us look like professional programmers err i mean trace the bugs that users reports.</string>
+    <string name="media_category">Notification de média</string>
+    <string name="artwork_media_background_title">Arrière-plan des pochettes</string>
+    <string name="artwork_media_background_summary">Définir la pochette comme arrière-plan du média de notification</string>
+    <string name="artwork_media_background_enable_blur_title">Flouter l\'arrière-plan des pochettes</string>
+    <string name="artwork_media_background_blur_radius_title">Niveau de flou des pochettes</string>
+    <string name="artwork_media_background_fade_filter_title">Niveau de fondu des pochettes</string>
+    <string name="artwork_media_background_alpha_title">Transparence des pochettes</string>
+    <string name="just_kidding">Je plaisante ! fournir des logs nous aide à ressembler à des programmeurs professionnels errr cela signifie tracer les bugs que les utilisateurs rapportent.</string>
     <string name="bug_report_drill">Procédure de signalement de bugs</string>
     <!-- Strict standby -->
-    <string name="strict_standby_policy_title">Strict standby policy</string>
-    <string name="strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
+    <string name="strict_standby_policy_title">Politique stricte de mise en veille</string>
+    <string name="strict_standby_policy_summary">En cas de rejet des applications récentes, cela forcera l\'arrêt des applications avec une utilisation restreinte de la batterie et leur imposera des restrictions plus sévères. En outre, toutes les restrictions de mise en veille des applications seront imposées même lorsque l\'appareil est en charge.</string>
     <!-- Force background freezer -->
-    <string name="force_background_freezer_title">Background tasks freezer</string>
-    <string name="force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
+    <string name="force_background_freezer_title">Geler les tâches en arrière-plan</string>
+    <string name="force_background_freezer_summary">Geler les tâches avec une utilisation restreinte de la batterie lorsque vous les déplacez en arrière-plan et les dégeler lorsque vous passez au premier plan. Cela peut légèrement économiser de la batterie, mais peut conduire à des plantages et à l\'ANR en arrière-plan.</string>
     <!-- Wi-Fi Standard icon -->
-    <string name="show_wifi_standard_icon_title">Show Wi-Fi Standard icon</string>
+    <string name="show_wifi_standard_icon_title">Afficher l\'icône Wi-Fi Standard</string>
     <string name="show_wifi_standard_icon_summary">Afficher le type de Wi-Fi dans l\'indicateur de signal Wi-Fi</string>
     <!-- Lockscreen clock color -->
     <string name="lockscreen_clock_color_title">Couleur de l\'horloge de l\'écran de verrouillage</string>
     <string name="lockscreen_clock_color_summary">Utiliser la couleur secondaire pour l\'horloge de l\'écran de verrouillage, si désactivé, utilisera la couleur d\'accentuation</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_category_title">Tile layout</string>
-    <string name="qs_tile_layout_title">Vertical layout</string>
-    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+    <string name="qs_tile_layout_category_title">Disposition des tuiles</string>
+    <string name="qs_tile_layout_title">Disposition verticale</string>
+    <string name="qs_tile_layout_summary">Activer pour la disposition verticale. Disposition horizontale par défaut</string>
     <!-- QS rows and columns -->
-    <string name="qs_layout_category_title">QS Layout</string>
-    <string name="qs_rows_portrait_title">Tile rows on portrait</string>
-    <string name="qs_rows_landscape_title">Tile rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
+    <string name="qs_layout_category_title">Disposition des réglages rapides</string>
+    <string name="qs_rows_portrait_title">Lignes de tuiles en mode portrait</string>
+    <string name="qs_rows_landscape_title">Lignes de tuiles en mode paysage</string>
+    <string name="qs_columns_portrait_title">Colonnes de tuiles en mode portrait</string>
     <!-- QS tiles title visibility -->
     <string name="qs_tile_title_visibility_title">Masquer les titres des tuiles</string>
-    <string name="qs_tile_title_visibility_summary">Activer/désactiver pour masquer les titres des tuiles</string>
+    <string name="qs_tile_title_visibility_summary">Masquer les titres des tuiles</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Effet d\'ondulation</string>
     <string name="enable_fingerprint_ripple_effect_summary">Afficher l\'effet d\'ondulation en déverrouillant avec l\'empreinte digitale</string>
