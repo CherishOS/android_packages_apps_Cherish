@@ -141,7 +141,7 @@
     <!--Volume keys -->
     <string name="volume_rocker_wake_summary">L\'appui sur les touches de volumes réveillera votre appareil</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Lampe de poche lorsque l\'écran est éteint</string>
+    <string name="torch_power_button_gesture_title">Allumer/éteindre la lampe de poche lorsque l\'écran est éteint</string>
     <string name="torch_power_button_gesture_none">Désactivé</string>
     <string name="torch_power_button_gesture_dt">Presser deux fois le bouton d\'alimentation (réduit le temps de réponse de l\'appui simple), Désactive l\'appui double pour la caméra.</string>
     <string name="torch_power_button_gesture_dt_toast">Le geste pour ouvrir la caméra est maintenant désactivé</string>
@@ -691,8 +691,8 @@
     <string name="laboratory_ignore_window_secure_title">Ignorer les fenêtres d\'indication de sécurité</string>
     <string name="laboratory_ignore_window_secure_summary">Supprimer les limites de capture d\'écran et d\'enregistrement d\'écran pour toutes les applications. Cela peut être pratique dans certains cas, mais peut entraîner des fuites de confidentialité. Après la modification, vous devrez redémarrer les applications pour que le changement prenne effet.</string>
     <!-- Colorful battery icon -->
-    <string name="battery_level_colors_title">Icône de batterie colorée</string>
-    <string name="battery_level_colors_summary">Each battery level drop is color coded</string>
+    <string name="battery_level_colors_title">Afficher/Masquer l\'icône de batterie colorée</string>
+    <string name="battery_level_colors_summary">Chaque niveau de batterie est codée en couleur</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Disposition des paramètres</string>
     <string name="settings_dashboard_style_aosp">Aosp</string>
@@ -705,8 +705,8 @@
     <string name="settings_base_style_summary">Utiliser une disposition alternative pour régler les menus</string>
     <string name="settings_home_style_title">Disposition des paramètres de la page d\'accueil</string>
     <string name="settings_home_style_summary">Utiliser la disposition aosp de base pour la page d\'accueil</string>
-    <string name="disable_usercard_title">Settings UserCard</string>
-    <string name="disable_usercard_summary">Ne pas afficher la fiche utilisateur sur la page des paramètres principaux</string>
+    <string name="disable_usercard_title">Paramètres de la carte utilisateur</string>
+    <string name="disable_usercard_summary">Activer/désactiver pour ne pas afficher la carte utilisateur sur la page des paramètres principaux</string>
     <string name="spoof_title">Usurpation</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
     <string name="use_photos_spoof_title">Stockage illimité des photos</string>
@@ -764,7 +764,7 @@
     <string name="qs_columns_portrait_title">Colonnes de tuiles en mode portrait</string>
     <!-- QS tiles title visibility -->
     <string name="qs_tile_title_visibility_title">Masquer les titres des tuiles</string>
-    <string name="qs_tile_title_visibility_summary">Masquer les titres des tuiles</string>
+    <string name="qs_tile_title_visibility_summary">Activer/désactiver pour masquer les titres de tuiles</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Effet d\'ondulation</string>
     <string name="enable_fingerprint_ripple_effect_summary">Afficher l\'effet d\'ondulation en déverrouillant avec l\'empreinte digitale</string>
