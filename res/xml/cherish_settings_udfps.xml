@@ -22,6 +22,18 @@
         android:defaultValue="true" />
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="fingerprint_success_vib"
+        android:title="@string/fprint_sucess_vib_title"
+        android:summary="@string/fprint_sucess_vib_summary"
+        android:persistent="true" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="fingerprint_error_vib"
+        android:title="@string/fprint_error_vib_title"
+        android:summary="@string/fprint_error_vib_summary"
+        android:persistent="true" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="screen_off_fod"
         android:title="@string/screen_off_fod_title"
         android:summary="@string/screen_off_fod_summary"
