@@ -58,7 +58,7 @@
     <string name="press_color_to_apply">Нажмите на цвет внизу, чтобы применить</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">HEX:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Задать</string>
     <string name="color_default">По умолчанию</string>
@@ -663,7 +663,7 @@
     <string name="qs_brightness_slider_position_top">Сверху</string>
     <string name="qs_brightness_slider_position_bottom">Снизу</string>
     <!-- Monet Engine -->
-    <string name="monet_category">Monet</string>
+    <string name="monet_category">Темы Monet</string>
     <string name="monet_engine_title">Настройки Monet</string>
     <string name="monet_engine_summary">Настройка параметров monet</string>
     <string name="monet_engine_custom_color_title">Использовать свой цвет</string>
@@ -695,7 +695,7 @@
     <string name="battery_level_colors_summary">Каждое понижение уровня заряда батареи кодируется цветом</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Расположение настроек</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
     <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
     <string name="settings_dashboard_style_cherish">Cherish</string>
@@ -742,17 +742,17 @@
     <string name="just_kidding">Просто умеет! Предоставление логов помогает нам, как профессиональные программисты err я имею в виду обнаружить ошибки, которые сообщают пользователи.</string>
     <string name="bug_report_drill">Процедура представления отчетов об ошибках</string>
     <!-- Strict standby -->
-    <string name="strict_standby_policy_title">Strict standby policy</string>
-    <string name="strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
+    <string name="strict_standby_policy_title">Строгая политика в режиме ожидания</string>
+    <string name="strict_standby_policy_summary">При смахивании приложения из недавно открытых приложений произойдёт его отстановка с ограниченным потреблением заряда батареи и более строгими ограничениями. Кроме того, все ограничения фонового режима будут действовать даже при зарядке устройства.</string>
     <!-- Force background freezer -->
-    <string name="force_background_freezer_title">Background tasks freezer</string>
-    <string name="force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
+    <string name="force_background_freezer_title">Заморозка фоновых задач</string>
+    <string name="force_background_freezer_summary">Заморозить задачи с ограниченным использованием батареи при перемещении их в фоновый режим и разморозить их при переключении на передний план. Это может немного сэкономить аккумулятор, но может привести к неправильной работе в фоновом режиме.</string>
     <!-- Wi-Fi Standard icon -->
-    <string name="show_wifi_standard_icon_title">Show Wi-Fi Standard icon</string>
-    <string name="show_wifi_standard_icon_summary">Show Wi-Fi type in Wi-Fi signal indicator</string>
+    <string name="show_wifi_standard_icon_title">Показывать стандартную иконку Wi-Fi</string>
+    <string name="show_wifi_standard_icon_summary">Показывать тип Wi-Fi в иконке</string>
     <!-- Lockscreen clock color -->
-    <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
-    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
+    <string name="lockscreen_clock_color_title">Цвет часов экрана блокировки</string>
+    <string name="lockscreen_clock_color_summary">Использовать дополнительный цвет для часов экрана блокировки</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
     <string name="qs_tile_layout_category_title">Tile layout</string>
     <string name="qs_tile_layout_title">Vertical layout</string>
