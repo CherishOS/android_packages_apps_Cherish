@@ -418,6 +418,11 @@
     <!-- Udfps Custom Options -->
     <string name="udfps_settings_title">Opsi Sidik Jari Dalam Layar</string>
     <string name="udfps_settings_summary">Menu berbeda untuk menyesuaikan sidik jari dalam layar</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Getaran sukses sidik jari</string>
+    <string name="fprint_sucess_vib_summary">Bergetar saat autentikasi sidik jari sukses</string>
+    <string name="fprint_error_vib_title">Getaran kesalahan sidik jari</string>
+    <string name="fprint_error_vib_summary">Bergetar saat autentikasi sidik jari salah</string>
     <!-- Udfps Haptic Feedback -->
     <string name="udfps_haptic_feedback_title">Umpan balik Sidik Jari Dalam Layar</string>
     <string name="udfps_haptic_feedback_summary">Bergetar saat menyentuh ikon Sidik Jari Dalam Layar</string>
