@@ -418,6 +418,11 @@
     <!-- Udfps Custom Options -->
     <string name="udfps_settings_title">Options Udfps</string>
     <string name="udfps_settings_summary">Menus différents pour personnaliser les udfps</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibration de succès d\'empreintes digitales</string>
+    <string name="fprint_sucess_vib_summary">Vibrer en cas de succès de l\'authentification par empreintes digitales</string>
+    <string name="fprint_error_vib_title">Vibrer en cas d\'échec de l\'authentification par empreintes digitales</string>
+    <string name="fprint_error_vib_summary">Vibrer en cas d\'échec de l\'authentification par empreinte digitale</string>
     <!-- Udfps Haptic Feedback -->
     <string name="udfps_haptic_feedback_title">Retour haptique du capteur d\'empreinte</string>
     <string name="udfps_haptic_feedback_summary">Vibrer lorsque vous touchez l\'icône du capteur d\'empreinte</string>
