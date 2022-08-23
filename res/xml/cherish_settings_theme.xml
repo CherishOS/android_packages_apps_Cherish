@@ -59,6 +59,12 @@
             android:summary="@string/dark_ui_mode_summary"
             android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
             settings:controller="com.android.settings.display.DarkUIPreferenceController" />
+			
+		<Preference
+            android:key="android.theme.customization.style"
+            android:title="@string/theme_customization_ui_style_title"
+            android:summary="@string/theme_customization_ui_style_summary"
+            android:fragment="com.cherish.settings.fragments.ui.UIStyles"/>
 		 
 		 <!-- QS style -->
     <com.cherish.settings.preferences.SystemSettingListPreference
