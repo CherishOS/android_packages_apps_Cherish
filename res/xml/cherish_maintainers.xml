@@ -536,6 +536,14 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/RMX1801" />
         </Preference>
+<Preference
+            android:title="@string/RMX3360_maintainer"
+            android:summary="@string/device_RMX3360"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/itsXRP" />
+        </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
