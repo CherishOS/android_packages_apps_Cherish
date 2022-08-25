@@ -24,25 +24,25 @@
     <string name="lockscreen_title">Экран блокировки</string>
     <string name="lockscreen_summary">Визуализатор музыки, анимация зарядки, стиль часов</string>
     <string name="misc_title">Прочее</string>
-    <string name="misc_summary">Режим игры, управление громкостью</string>
+    <string name="misc_summary">Игровой режим, управление громкостью</string>
     <string name="animations_title">Анимации</string>
     <string name="animations_summary">Системные анимации</string>
     <string name="powermenu_title">Меню питания</string>
-    <string name="powermenu_summary">Расширенный перезапуск, непрозрачность меню питания</string>
+    <string name="powermenu_summary">Расширенный перезапуск, прозрачность меню питания</string>
     <string name="theme_title">Темы</string>
-    <string name="theme_summary">Системная тема, округленная, переключить тему</string>
+    <string name="theme_summary">Системная тема, скругленая, переключить тему</string>
     <string name="quicksettings_title">Быстрые настройки</string>
-    <string name="quicksettings_summary">Расположение плитки, размытие</string>
-    <string name="recents_title">Недавние приложения</string>
-    <string name="recents_summary">Недавние Slim</string>
+    <string name="quicksettings_summary">Расположение плиток, размытие</string>
+    <string name="recents_title">Недавно открытые приложения</string>
+    <string name="recents_summary">Меню недавних приложений в минималистичном стиле</string>
     <string name="statusbar_title">Строка состояния</string>
-    <string name="statusbar_summary">Часы, оператор, значки статуса</string>
+    <string name="statusbar_summary">Часы и дата, иконки строки состояния</string>
     <string name="volume_title">Регулятор громкости</string>
-    <string name="volume_summary">Регулятор громксти</string>
+    <string name="volume_summary">Регулятор громкости</string>
     <string name="notifications_title">Уведомления</string>
     <string name="notifications_summary">Индикатор батареи, заголовок уведомлений</string>
     <string name="about_summary">Узнайте больше о CherishOS</string>
-    <string name="device_part_title">Возможности устройства</string>
+    <string name="device_part_title">Характеристика устройства</string>
     <string name="qs_category">Категории быстрых настроек</string>
     <string name="navbar_title">Панель навигации</string>
     <string name="volume_keys_title">Кнопки громкости</string>
@@ -58,7 +58,7 @@
     <string name="press_color_to_apply">Нажмите на цвет внизу, чтобы применить</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">HEX:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Задать</string>
     <string name="color_default">По умолчанию</string>
@@ -418,6 +418,11 @@
     <!-- Udfps Custom Options -->
     <string name="udfps_settings_title">Настроить отпечаток пальца</string>
     <string name="udfps_settings_summary">Различные меню для настройки отпечатка пальца</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint success vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fprint_error_vib_title">Fingerprint error vibration</string>
+    <string name="fprint_error_vib_summary">Vibrate on failed fingerprint authentication</string>
     <!-- Udfps Haptic Feedback -->
     <string name="udfps_haptic_feedback_title">Использовать виброотклик для FOD</string>
     <string name="udfps_haptic_feedback_summary">Вибрировать при касании значка FOD</string>
@@ -663,7 +668,7 @@
     <string name="qs_brightness_slider_position_top">Сверху</string>
     <string name="qs_brightness_slider_position_bottom">Снизу</string>
     <!-- Monet Engine -->
-    <string name="monet_category">Monet</string>
+    <string name="monet_category">Темы Monet</string>
     <string name="monet_engine_title">Настройки Monet</string>
     <string name="monet_engine_summary">Настройка параметров monet</string>
     <string name="monet_engine_custom_color_title">Использовать свой цвет</string>
@@ -695,7 +700,7 @@
     <string name="battery_level_colors_summary">Каждое понижение уровня заряда батареи кодируется цветом</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Расположение настроек</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
     <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
     <string name="settings_dashboard_style_cherish">Cherish</string>
@@ -742,30 +747,30 @@
     <string name="just_kidding">Просто умеет! Предоставление логов помогает нам, как профессиональные программисты err я имею в виду обнаружить ошибки, которые сообщают пользователи.</string>
     <string name="bug_report_drill">Процедура представления отчетов об ошибках</string>
     <!-- Strict standby -->
-    <string name="strict_standby_policy_title">Strict standby policy</string>
-    <string name="strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
+    <string name="strict_standby_policy_title">Строгая политика в режиме ожидания</string>
+    <string name="strict_standby_policy_summary">При смахивании приложения из недавно открытых приложений произойдёт его отстановка с ограниченным потреблением заряда батареи и более строгими ограничениями. Кроме того, все ограничения фонового режима будут действовать даже при зарядке устройства.</string>
     <!-- Force background freezer -->
-    <string name="force_background_freezer_title">Background tasks freezer</string>
-    <string name="force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
+    <string name="force_background_freezer_title">Заморозка фоновых задач</string>
+    <string name="force_background_freezer_summary">Заморозить задачи с ограниченным использованием батареи при перемещении их в фоновый режим и разморозить их при переключении на передний план. Это может немного сэкономить аккумулятор, но может привести к неправильной работе в фоновом режиме.</string>
     <!-- Wi-Fi Standard icon -->
-    <string name="show_wifi_standard_icon_title">Show Wi-Fi Standard icon</string>
-    <string name="show_wifi_standard_icon_summary">Show Wi-Fi type in Wi-Fi signal indicator</string>
+    <string name="show_wifi_standard_icon_title">Показывать стандартную иконку Wi-Fi</string>
+    <string name="show_wifi_standard_icon_summary">Показывать тип Wi-Fi в иконке</string>
     <!-- Lockscreen clock color -->
-    <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
-    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
+    <string name="lockscreen_clock_color_title">Цвет часов экрана блокировки</string>
+    <string name="lockscreen_clock_color_summary">Использовать дополнительный цвет для часов экрана блокировки</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_category_title">Tile layout</string>
-    <string name="qs_tile_layout_title">Vertical layout</string>
-    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+    <string name="qs_tile_layout_category_title">Расположение плиток быстрых настроек</string>
+    <string name="qs_tile_layout_title">Вертикальная расстановка</string>
+    <string name="qs_tile_layout_summary">Включить для вертикального расположения. По умолчанию горизонтально</string>
     <!-- QS rows and columns -->
-    <string name="qs_layout_category_title">QS Layout</string>
-    <string name="qs_rows_portrait_title">Tile rows on portrait</string>
-    <string name="qs_rows_landscape_title">Tile rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
+    <string name="qs_layout_category_title">Панель быстрых настроек</string>
+    <string name="qs_rows_portrait_title">Стиль строк в портретной ориентации экрана</string>
+    <string name="qs_rows_landscape_title">Стиль строк в ландшафтной ориентации</string>
+    <string name="qs_columns_portrait_title">Колонок с плитками в портретной ориентации</string>
     <!-- QS tiles title visibility -->
-    <string name="qs_tile_title_visibility_title">Hide tile titles</string>
-    <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
+    <string name="qs_tile_title_visibility_title">Скрыть названия плиток быстрых настроек</string>
+    <string name="qs_tile_title_visibility_summary">Включить для отображения названия плиток</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">Эффект волны</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Показать эффект волны при разблокировке с помощью отпечатка пальца</string>
 </resources>

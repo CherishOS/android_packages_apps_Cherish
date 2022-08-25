@@ -418,6 +418,11 @@
     <!-- Udfps Custom Options -->
     <string name="udfps_settings_title">画面内指紋認証オプション</string>
     <string name="udfps_settings_summary">様々なメニューで画面内指紋認証を編集する</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">指紋認証成功時の振動</string>
+    <string name="fprint_sucess_vib_summary">指紋認証が成功した時に振動させる</string>
+    <string name="fprint_error_vib_title">指紋認証失敗時の振動</string>
+    <string name="fprint_error_vib_summary">指紋認証が失敗した時に振動させる</string>
     <!-- Udfps Haptic Feedback -->
     <string name="udfps_haptic_feedback_title">画面内指紋認証の振動</string>
     <string name="udfps_haptic_feedback_summary">画面内指紋認証アイコンに触れた時に振動させる</string>

@@ -418,6 +418,11 @@
     <!-- Udfps Custom Options -->
     <string name="udfps_settings_title">指紋選項</string>
     <string name="udfps_settings_summary">針對於指紋辨識的各種設定</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint success vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fprint_error_vib_title">Fingerprint error vibration</string>
+    <string name="fprint_error_vib_summary">Vibrate on failed fingerprint authentication</string>
     <!-- Udfps Haptic Feedback -->
     <string name="udfps_haptic_feedback_title">觸控回饋</string>
     <string name="udfps_haptic_feedback_summary">輕觸指紋圖示時震動</string>
