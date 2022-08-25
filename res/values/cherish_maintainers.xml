@@ -19,6 +19,7 @@
    <string name="asus_devices">Asus</string>
    <string name="oneplus_devices">Oneplus</string>
    <string name="lenovo_devices">Lenovo</string>
+   <string name="motorola_devices">Motorola</string>
 
    <!-- Xiaomi Device maintainers -->
    <string name="device_jason">Xiaomi Mi Note 3</string>
@@ -26,7 +27,7 @@
    <string name="device_lmi">Xiaomi Redmi K30 Pro</string>
    <string name="lmi_maintainer">Ziad Fekry</string>
    <string name="device_lavender">Xiaomi Redmi Note 7</string>
-   <string name="lavender_maintainer">Hung Phan</string>
+   <string name="lavender_maintainer">Moonitime: Ultra Romantic</string>
    <string name="device_ginkgo">Xiaomi Redmi Note 8</string>
    <string name="ginkgo_maintainer">Khuong Hung</string>
    <string name="device_tulip">Xiaomi Redmi Note 6 Pro</string>
@@ -39,8 +40,6 @@
    <string name="kenzo_maintainer">MrJarvis698</string>
    <string name="device_chiron">Xiaomi Mi Mix 2</string>
    <string name="chiron_maintainer">Braian Diez</string>
-   <string name="device_ysl">Xiaomi Redmi Y2</string>
-   <string name="ysl_maintainer">Sushmit</string>
    <string name="device_sweet">Redmi Note 10 Pro</string>
    <string name="sweet_maintainer">Niranjan</string>
    <string name="device_mojito">Redmi Note 10</string>
@@ -56,11 +55,13 @@
    <string name="device_juice">POCO M3/Redmi 9T/9 Power/Note 9 4G</string>
    <string name="juice_maintainer">Don Nathaniel</string>
    <string name="device_begonia">Xiaomi Redmi Note 8 Pro</string>
-   <string name="begonia_maintainer">HyperNotAryanX97</string>
+   <string name="begonia_maintainer">Bishwo</string>
    <string name="device_violet">Xiaomi Redmi Note 7 Pro</string>
    <string name="violet_maintainer">Madhav</string>
    <string name="device_umi">Xiaomi Mi 10</string>
    <string name="umi_maintainer">Adrian Lam</string>
+   <string name="device_venus">Xiaomi Mi 11</string>
+   <string name="venus_maintainer">kota</string>
    <string name="device_cepheus">Xiaomi Mi 9</string>
    <string name="cepheus_maintainer">Freesoul</string>
    <string name="device_vince">Xiaomi Redmi Note 5/5 Plus</string>
@@ -99,6 +100,8 @@
    <string name="alioth_maintainer">revolwoc/hungphan2001</string>
    <string name="device_santoni">Xiaomi Redmi 4X</string>
    <string name="santoni_maintainer">EvilAnsh</string> 
+   <string name="device_ysl">Xiaomi Redmi S2</string>
+   <string name="ysl_maintainer">Iris</string>
 
     <!-- Realme Device maintainers -->
 	<string name="device_RMX1971">Realme 5 Pro</string>
@@ -112,14 +115,15 @@
    <string name="device_RMX1911">Realme 5 Series</string>
    <string name="RMX1911_maintainer">Christopher K. Irvine</string>
    <string name="device_RMX1851">Realme 3 pro</string>
-   <string name="RMX1851_maintainer">Nikhil7001</string>
+   <string name="RMX1851_maintainer">Cykeek</string>
    <string name="device_RMX1801">Realme 2 pro</string>
    <string name="RMX1801_maintainer">Shazu_xD</string>
    <string name="device_RMX1805">Realme 2/C1</string>
    <string name="RMX1805_maintainer">AbhinavVermabest</string>
    <string name="device_RM6785">Realme 6/6i(Indian)/6s/7/Narzo/Narzo20Pro/Narzo30 4G</string>
    <string name="RM6785_maintainer">Pain</string>
-
+   <string name="device_RMX3360">Realme GT Master Edition</string>
+   <string name="RMX3360_maintainer">X-R-P</string>
    <!-- Asus Device maintainers -->
    <string name="device_X00T">Asus ZenFone Max Pro M1</string>
    <string name="X00T_maintainer">NotHarshhaa</string>
@@ -130,9 +134,9 @@
 
    <!-- Oneplus Device maintainers -->
    <string name="device_enchilada">Oneplus 6</string>
-   <string name="enchilada_maintainer">Zahid M</string>
+   <string name="enchilada_maintainer">Vikas yaduvanshi</string>
    <string name="device_fajita">Oneplus 6T</string>
-   <string name="fajita_maintainer">Chandu</string>
+   <string name="fajita_maintainer">Vikas yaduvanshi</string>
    <string name="device_hotdogb">Oneplus 7T</string>
    <string name="hotdogb_maintainer">Addy</string>
    <string name="device_guacamole">Oneplus 7 Pro</string>
@@ -141,8 +145,14 @@
    <string name="kebab_maintainer">Viper_1057 or Amsal1</string>
    <string name="device_lemonades">Oneplus 9R</string>
    <string name="lemonades_maintainer">Viper_1057 or Amsal1</string>
+   <string name="device_avicii">Oneplus Nord</string>
+   <string name="avicii_maintainer">Snippetguy</string>
 
    <!-- Lenovo Device maintainers -->
    <string name="device_jd2019">Lenovo Z5s</string>
    <string name="jd2019_maintainer">Dimaty562</string>
+
+   <!-- Motorola Device maintainers -->
+   <string name="device_chef">Motorola One Power</string>
+   <string name="chef_maintainer">Rushi Ranpise</string>
 </resources>

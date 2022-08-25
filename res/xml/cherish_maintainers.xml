@@ -20,6 +20,16 @@
   <PreferenceCategory
               android:key="xiaomi_devices"
               android:title="@string/xiaomi_devices" >
+
+<Preference
+            android:title="@string/santoni_maintainer"
+            android:summary="@string/device_santoni"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/EvilAnsh" />
+        </Preference>
+
 <Preference
             android:title="@string/jason_maintainer"
             android:summary="@string/device_jason"
@@ -54,6 +64,15 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/P4042" />
+        </Preference>
+
+  <Preference
+            android:title="@string/venus_maintainer"
+            android:summary="@string/device_venus"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/kota15th" />
         </Preference>
 		
 <Preference
@@ -142,7 +161,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/HyperNotAryanX97" />
+                android:data="https://t.me/bishwofic" />
         </Preference>
 
 <Preference
@@ -187,7 +206,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/hungphan2001" />
+                android:data="https://t.me/moonichanwa" />
         </Preference>
   
    <Preference
@@ -333,15 +352,6 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/bruh_its_your_brother" />
         </Preference>
-		
-<Preference
-            android:title="@string/ysl_maintainer"
-            android:summary="@string/device_ysl"
-            android:icon="@drawable/ic_devs_phone" >
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://t.me/uchihasushmit" />
-        </Preference>
 
 	</PreferenceCategory>
 
@@ -385,7 +395,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/zahidmgsk" />
+                android:data="https://t.me/OptimussPriime" />
         </Preference>
 <Preference
             android:title="@string/fajita_maintainer"
@@ -393,7 +403,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/zahidmgsk" />
+                android:data="https://t.me/OptimussPriime" />
         </Preference>
 		
 <Preference
@@ -430,6 +440,14 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/Viper_1057" />
+        </Preference>
+<Preference
+            android:title="@string/avicii_maintainer"
+            android:summary="@string/device_avicii"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Snippetguy" />
         </Preference>
 
 </PreferenceCategory>
@@ -498,7 +516,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/Nikhil7001" />
+                android:data="https://t.me/CykeekBuilds" />
         </Preference>
 
 <Preference
@@ -518,6 +536,14 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/RMX1801" />
         </Preference>
+<Preference
+            android:title="@string/RMX3360_maintainer"
+            android:summary="@string/device_RMX3360"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/itsXRP" />
+        </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
@@ -531,6 +557,28 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/Dimaty562" />
+        </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
+              android:key="motorola_devices"
+              android:title="@string/motorola_devices" >
+
+  <Preference
+            android:title="@string/chef_maintainer"
+            android:summary="@string/device_chef"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/saucefinder" />
+        </Preference>
+<Preference
+            android:title="@string/ysl_maintainer"
+            android:summary="@string/device_ysl"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Iris041" />
         </Preference>
 </PreferenceCategory>
 </PreferenceScreen>
