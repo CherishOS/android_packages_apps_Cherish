@@ -30,6 +30,12 @@
         android:title="@string/battery_settings_title" />
 
         <Preference
+        android:key="clock"
+        android:title="@string/status_bar_clock_title"
+        android:summary="@string/status_bar_clock_summary"
+        android:fragment="com.cherish.settings.fragments.Clock" />
+
+        <Preference
         android:key="network_traffic_settings"
         android:title="@string/network_traffic_settings_title"
         android:summary="@string/network_traffic_settings_summary"
