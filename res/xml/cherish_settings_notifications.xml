@@ -46,6 +46,12 @@
         android:key="charging_light"
         android:fragment="com.cherish.settings.fragments.BatteryLightSettings"
         android:title="@string/battery_light_settings" />
+		
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
 	
     
 </PreferenceScreen>
