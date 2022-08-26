@@ -17,5 +17,32 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+	
+	<PreferenceCategory
+        android:key="lockscreen_media_art_options"
+        android:title="@string/lockscreen_media_art_options_title">
+
+        <com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/media_art_title"
+            android:summary="@string/media_art_summary"
+            android:defaultValue="true" />
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="lockscreen_albumart_filter"
+            android:title="@string/lockscreen_albumart_filter_title"
+            android:entries="@array/lockscreen_albumart_filter_entries"
+            android:entryValues="@array/lockscreen_albumart_filter_values"
+            android:dependency="lockscreen_media_metadata"
+            android:defaultValue="0" />
+
+        <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="ls_media_filter_blur_radius"
+            android:title="@string/lockscreen_albumart_filter_blur_radius_title"
+            android:defaultValue="10"
+            android:max="25"
+            settings:min="1" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
