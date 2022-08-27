@@ -58,6 +58,20 @@
         <item>@string/volte_icon_oos</item>
         <item>@string/volte_icon_volte</item>
         <item>@string/volte_icon_vo</item>
+		 <item>@string/volte_icon_aris</item>
+        <item>@string/volte_icon_beast</item>
+        <item>@string/volte_icon_ios</item>
+        <item>@string/volte_icon_lr</item>
+        <item>@string/volte_icon_realme</item>
+        <item>@string/volte_icon_typeA</item>
+        <item>@string/volte_icon_typeB</item>
+        <item>@string/volte_icon_typeC</item>
+        <item>@string/volte_icon_typeD</item>
+        <item>@string/volte_icon_typeE</item>
+        <item>@string/volte_icon_vcircle</item>
+        <item>@string/volte_icon_vimeo</item>
+        <item>@string/volte_icon_volit</item>
+        <item>@string/volte_icon_zirco</item>
     </string-array>
 
     <string-array name="volte_icon_type_values" translatable="false">
@@ -72,6 +86,20 @@
         <item>2</item>
         <item>1</item>
         <item>0</item>
+		<item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+		 <item>23</item>
+		<item>24</item>
     </string-array>
    
 </resources>
