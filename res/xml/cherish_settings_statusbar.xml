@@ -14,8 +14,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-		
-	<PreferenceCategory
+	
+    <PreferenceCategory
         android:title="@string/status_bar_icons_category_title">
 		
 		<Preference
@@ -28,6 +28,12 @@
         android:key="battery_bar_category"
         android:fragment="com.cherish.settings.fragments.BatterySettings"
         android:title="@string/battery_settings_title" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="statusbar_clock_chip"
+            android:title="@string/statusbar_clock_chip_title"
+            android:summary="@string/statusbar_clock_chip_summary"
+            android:defaultValue="false" />
 
         <Preference
         android:key="clock"

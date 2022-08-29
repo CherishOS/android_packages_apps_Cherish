@@ -428,6 +428,10 @@
     <string name="volume_answer_call_summary">Answer incoming calls by pressing the volume buttons</string>
     <string name="home_answer_call_title">Answer call</string>
     <string name="home_answer_call_summary">Answer incoming calls by pressing the home button</string>
+	
+	<!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Background chip</string>
+    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
 
     <!-- Navigation Bar -->
     <string name="navigation_bar_category">Navigation bar</string>
