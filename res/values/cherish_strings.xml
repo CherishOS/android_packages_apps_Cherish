@@ -295,5 +295,9 @@
     <string name="qs_battery_category_title">In QS Panel</string>
     <string name="qs_battery_percent_title" translatable="false">@string/status_bar_battery_percent_title</string>
     <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+	
+	<!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Background chip</string>
+    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
 
 </resources>
