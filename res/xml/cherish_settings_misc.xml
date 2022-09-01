@@ -31,6 +31,13 @@
         android:summary="@string/laboratory_ignore_window_secure_summary"
         android:defaultValue="false"/>
 		
+	<!-- Smart Charging -->
+    <Preference
+        android:key="smart_charging"
+        android:title="@string/smart_charging_title"
+        android:summary="@string/smart_charging_summary"
+        android:fragment="com.cherish.settings.fragments.SmartCharging"/>
+
 	<!-- Unlock FPS for specific games -->
      <SwitchPreference
           android:key="use_games_spoof"
