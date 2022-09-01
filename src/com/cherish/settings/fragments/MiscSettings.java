@@ -39,10 +39,11 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 import android.provider.SearchIndexableResource;
 
+import com.cherish.settings.fragments.SmartCharging;
 import java.util.ArrayList;
 import java.util.List;
 
-@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
+@SearchIndexable
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 	private static final String KEY_GAMES_SPOOF = "use_games_spoof";
@@ -50,9 +51,12 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
     private static final String SYS_GAMES_SPOOF = "persist.sys.pixelprops.games";
     private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
+	
+	private static final String SMART_CHARGING = "smart_charging";
 
     private SwitchPreference mGamesSpoof;
     private SwitchPreference mPhotosSpoof;
+	private Preference mSmartCharging;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -60,16 +64,9 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
 
         addPreferencesFromResource(R.xml.cherish_settings_misc);
-		
-		Resources res = null;
-        Context ctx = getContext();
-        float density = Resources.getSystem().getDisplayMetrics().density;
-
-        try {
-            res = ctx.getPackageManager().getResourcesForApplication("com.android.systemui");
-        } catch (NameNotFoundException e) {
-            e.printStackTrace();
-        }
+	
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        final Resources res = getResources();
 		
 		mGamesSpoof = (SwitchPreference) findPreference(KEY_GAMES_SPOOF);
         mGamesSpoof.setChecked(SystemProperties.getBoolean(SYS_GAMES_SPOOF, false));
@@ -78,6 +75,12 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 		mPhotosSpoof = (SwitchPreference) findPreference(KEY_PHOTOS_SPOOF);
         mPhotosSpoof.setChecked(SystemProperties.getBoolean(SYS_PHOTOS_SPOOF, true));
         mPhotosSpoof.setOnPreferenceChangeListener(this);
+		
+		mSmartCharging = (Preference) prefScreen.findPreference(SMART_CHARGING);
+        boolean mSmartChargingSupported = res.getBoolean(
+                com.android.internal.R.bool.config_smartChargingAvailable);
+        if (!mSmartChargingSupported)
+            prefScreen.removePreference(mSmartCharging);
 
     }
 
@@ -100,29 +103,19 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CHERISH_SETTINGS;
     }
-	
-	/**
-     * For Search.
-     */
 
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider() {
-
-                @Override
-                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
-                        boolean enabled) {
-                    ArrayList<SearchIndexableResource> result =
-                            new ArrayList<SearchIndexableResource>();
-                    SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.cherish_settings_misc;
-                    result.add(sir);
-                    return result;
-                }
-
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.cherish_settings_misc) {
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
+
+                    boolean mSmartChargingSupported = context.getResources().getBoolean(
+                            com.android.internal.R.bool.config_smartChargingAvailable);
+                    if (!mSmartChargingSupported)
+                        keys.add(SMART_CHARGING);
+
                     return keys;
                 }
-    };
+            };
 }
