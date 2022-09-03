@@ -35,7 +35,16 @@
             android:title="@string/qs_date_title"
             android:summary="@string/qs_date_summary"
             android:defaultValue="true" />
-
+	
+		<com.cherish.settings.preferences.SystemSettingSeekBarPreference
+        android:key="qs_transparency"
+        android:title="@string/qs_transparency_title"
+        android:summary="@string/qs_transparency_summary"
+        android:defaultValue="100"
+        settings:interval="1"
+        settings:units="%"
+        android:max="100"
+        android:min="1" />
 
     </PreferenceCategory>
 	
