@@ -316,4 +316,8 @@
 	<!-- Lockscreen battery info -->
     <string name="lockscreen_charging_info_title">Show charging info in lockscreen</string>
     <string name="lockscreen_charging_info_summary">Shows temperature, charging current and more while plugged in</string>
+	
+	<!-- QS Transparency -->
+    <string name="qs_transparency_title">Background transparency</string>
+    <string name="qs_transparency_summary">Set transparency level for QS background</string>
 </resources>
