@@ -325,4 +325,19 @@
 	<!-- QS Transparency -->
     <string name="qs_transparency_title">Background transparency</string>
     <string name="qs_transparency_summary">Set transparency level for QS background</string>
+
+	<!-- QS tiles layout direction: vertical or horizontal -->
+    <string name="qs_tile_layout_category_title">Tile layout</string>
+    <string name="qs_tile_layout_title">Vertical layout</string>
+    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+
+    <!-- QS rows and columns -->
+    <string name="qs_layout_category_title">QS Layout</string>
+    <string name="qs_rows_portrait_title">Tile rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tile rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
+
+    <!-- QS tiles title visibility -->
+    <string name="qs_tile_title_visibility_title">Hide tile titles</string>
+    <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
 </resources>

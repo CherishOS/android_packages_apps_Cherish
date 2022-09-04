@@ -65,5 +65,37 @@
             android:defaultValue="true" />
 
     </PreferenceCategory>
+	
+	<PreferenceCategory
+        android:key="tile_layout_category"
+        android:title="@string/qs_tile_layout_category_title">
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_label_hide"
+            android:title="@string/qs_tile_title_visibility_title"
+            android:summary="@string/qs_tile_title_visibility_summary"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_vertical_layout"
+            android:title="@string/qs_tile_layout_title"
+            android:summary="@string/qs_tile_layout_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="qs_layout_category"
+        android:title="@string/qs_layout_category_title">
+
+        <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_layout_columns"
+            android:title="@string/qs_columns_portrait_title"
+            android:max="4"
+            settings:min="2"
+            settings:interval="1"
+            android:defaultValue="2" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
