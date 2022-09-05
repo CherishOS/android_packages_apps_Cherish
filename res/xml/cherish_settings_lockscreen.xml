@@ -33,6 +33,12 @@
             android:summary="@string/power_menu_hide_on_secure_summary"
             android:defaultValue="false" />
 			
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="hide_lockscreen_status_bar"
+            android:title="@string/hide_lockscreen_status_bar_title"
+            android:summary="@string/hide_lockscreen_status_bar_summary"
+            android:defaultValue="false" />
+			
 	</PreferenceCategory>
 	
 	
