@@ -113,9 +113,6 @@
 	
 	<string name="notification_light_settings">Notifications light</string>
 
-    <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
 
@@ -328,4 +325,119 @@
 	<!-- Power menu on lockscreen -->
     <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
     <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
+	
+	<!-- Hide Status bar on lock screen -->
+    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
+    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+	
+	<!-- Navigation bar -->
+    <string name="navigation_bar_category">Navigation bar</string>
+    <string name="navigation_bar_title">On-screen navigation bar</string>
+    <string name="navigation_bar_summary">Enable on-screen navigation keys</string>
+    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
+    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons in navigation bar while typing</string>
+    <string name="navigation_bar_compact_layout_title">Compact layout</string>
+    <string name="navigation_bar_compact_layout_summary">Use a compact layout in the navigation bar</string>
+    <string name="system_navigation_summary">Choose which system navigation style to use</string>
+	
+	<!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+	<string name="volume_category">Volume rocker</string>
+	
+	<!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Volume steps</string>
+    <string name="volume_steps_summary">Customize volume steps</string>
+    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
+    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
+    <string name="volume_steps_music_title">Volume steps: Media</string>
+    <string name="volume_steps_notification_title">Volume steps: Notification</string>
+    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
+    <string name="volume_steps_system_title">Volume steps: System</string>
+    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+    <string name="volume_steps_reset">Reset</string>
+	
+	<!-- Buttons - Enable navbar -->
+    <string name="disable_navkeys_title">Enable on-screen nav bar</string>
+    <string name="disable_navkeys_summary">Enable on-screen navigation bar and disable hardware buttons</string>
+
+    <!-- Buttons - Swap capacitive keys -->
+    <string name="swap_capacitive_keys_title">Swap capacitive buttons</string>
+    <string name="swap_capacitive_keys_summary">Swap the order of recents and back buttons</string>
+	
+	<!-- HW keys -->
+    <string name="hardware_keys_title">Buttons</string>
+    <string name="hardware_keys_category">Hardware navigation buttons</string>
+    <string name="hardware_keys_disable_title">Disable hardware buttons</string>
+    <string name="hardware_keys_disable_summary">Use the device hardware keys for navigation</string>
+    <string name="hardware_keys_volume_keys_title">Volume rocker</string>
+	
+	<!-- Hardware button navigation -->
+    <string name="action_value_default_action" translatable="false">default</string>
+    <string name="action_value_select_app" translatable="false">app</string>
+    <string name="action_value_custom_action" translatable="false">custom</string>
+    <string name="action_value_back" translatable="false">task_back</string>
+    <string name="action_value_home" translatable="false">task_home</string>
+    <string name="action_value_search_assist" translatable="false">task_assist</string>
+    <string name="action_value_recent_apps" translatable="false">task_recents</string>
+    <string name="action_value_voice_search" translatable="false">task_voice_search</string>
+    <string name="action_value_menu" translatable="false">task_menu</string>
+    <string name="picker_activities">Activities</string>
+    <string name="select_custom_app_title">Select custom app</string>
+    <string name="select_custom_activity_title">Select custom activity</string>
+    <string name="profile_applist_title">Applications</string>
+    <string name="choose_action_title">Choose action</string>
+    <string name="action_entry_default_action">Default settings</string>
+    <string name="action_entry_select_app">Select application</string>
+    <string name="action_entry_custom_action">Select custom action</string>
+    <string name="hardware_keys_home_key_title">Home button</string>
+    <string name="hardware_keys_back_key_title">Back button</string>
+    <string name="hardware_keys_menu_key_title">Menu button</string>
+    <string name="hardware_keys_assist_key_title">Search button</string>
+    <string name="hardware_keys_appswitch_key_title">Recents button</string>
+    <string name="hardware_keys_camera_key_title">Camera button</string>
+    <string name="hardware_keys_short_press_title">Short press action</string>
+    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
+    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
+    <string name="hardware_keys_long_press_summary">Set long press action</string>
+    <string name="hardware_keys_single_tap_title">Single tap action</string>
+    <string name="hardware_keys_long_press_title">Long press action</string>
+    <string name="hardware_keys_double_tap_title">Double tap action</string>
+    <string name="hardware_keys_action_nothing">No action</string>
+    <string name="hardware_keys_action_menu">Open/close menu</string>
+    <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
+    <string name="hardware_keys_action_search">Search assistant</string>
+    <string name="hardware_keys_action_voice_search">Voice search</string>
+    <string name="hardware_keys_action_in_app_search">In-app search</string>
+    <string name="hardware_keys_action_launch_camera">Launch camera</string>
+    <string name="hardware_keys_action_sleep">Turn screen off</string>
+    <string name="hardware_keys_action_split_screen">Split screen</string>
+    <string name="hardware_keys_action_close_app">Kill app</string>
+    <string name="hardware_keys_action_torch">Flashlight</string>
+    <string name="hardware_keys_action_screenshot">Screenshot</string>
+    <string name="hardware_keys_action_volume_panel">Toggle volume panel</string>
+    <string name="hardware_keys_action_clear_all_notifications">Clear all notifications</string>
+    <string name="hardware_keys_action_notifications_panel">Toggle notifications panel</string>
+    <string name="hardware_keys_action_toggle_qs_panel">Toggle QS panel</string>
+    <string name="hardware_keys_action_ringer_modes">Ringer modes</string>
+    <string name="hardware_keys_swipe_right_key_title">Swipe right</string>
+    <string name="hardware_keys_swipe_left_key_title">Swipe left</string>
+    <string name="hardware_keys_long_tap_key_title">Long tap</string>
+    <string name="hardware_keys_swipe_tap_title">Swipe action</string>
+    <string name="hardware_keys_long_tap_title">Long tap action</string>
+    <string name="button_wake_title">Wake device</string>
+    <string name="button_wake_summary">Wake device by pressing the button</string>
+    <string name="camera_sleep_on_release_title">Screen peek</string>
+    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
+    <string name="camera_launch_title">Launch camera</string>
+    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="cursor_section_header">Cursor</string>
+    <string name="volume_key_cursor_control_title">Keyboard cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume Up/Down - Cursor Left/Right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume Up/Down - Cursor Right/Left</string>
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
 </resources>
