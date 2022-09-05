@@ -49,6 +49,12 @@ import java.util.List;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class ButtonSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+			
+	private static final String KEY_NAVBAR_INVERSE = "navigation_bar_inverse";
+    private static final String KEY_NAVIGATION_COMPACT_LAYOUT = "navigation_bar_compact_layout";
+	
+	private SystemSettingSwitchPreference mNavbarInverse;
+    private SystemSettingSwitchPreference mNavigationCompactLayout;
 
 
     @Override
@@ -59,6 +65,12 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+		
+		final boolean isThreeButtonNavbarEnabled = EvolutionUtils.isThemeEnabled("com.android.internal.systemui.navbar.threebutton");
+        mNavbarInverse = (SystemSettingSwitchPreference) findPreference(KEY_NAVBAR_INVERSE);
+        mNavbarInverse.setEnabled(isThreeButtonNavbarEnabled);
+        mNavigationCompactLayout = (SystemSettingSwitchPreference) findPreference(KEY_NAVIGATION_COMPACT_LAYOUT);
+        mNavigationCompactLayout.setEnabled(isThreeButtonNavbarEnabled);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
