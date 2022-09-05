@@ -18,11 +18,23 @@
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 		
-	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+	<PreferenceCategory
+        android:key="navigation_keys"
+        android:title="@string/navigation_bar_category">
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="navigation_bar_compact_layout"
+            android:title="@string/navigation_bar_compact_layout_title"
+            android:summary="@string/navigation_bar_compact_layout_summary"
+            android:defaultValue="false" />-->
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="navigation_bar_inverse"
             android:title="@string/navigation_bar_inverse_title"
             android:defaultValue="0"
             settings:controller="com.cherish.settings.fragments.NavBarInversePreferenceController" />
+
+    </PreferenceCategory>
 
 
 </PreferenceScreen>
