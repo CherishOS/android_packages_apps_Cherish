@@ -467,4 +467,8 @@
 	<!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Unlimited Photos storage</string>
     <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+	
+	<!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Force stop button</string>
+    <string name="notification_guts_kill_app_button_summary">Show force stop button in the notification\'s longpress menu</string>
 </resources>

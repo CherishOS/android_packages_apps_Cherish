@@ -59,6 +59,12 @@
         android:title="@string/alert_slider_notifications_title"
         android:summary="@string/alert_slider_notifications_summary"
         android:defaultValue="true" />
+		
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="notification_guts_kill_app_button"
+            android:title="@string/notification_guts_kill_app_button_title"
+            android:summary="@string/notification_guts_kill_app_button_summary"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 	
