@@ -65,8 +65,13 @@
             android:title="@string/notification_guts_kill_app_button_title"
             android:summary="@string/notification_guts_kill_app_button_summary"
             android:defaultValue="false" />
-
-    </PreferenceCategory>
+			
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="toast_icon"
+            android:order="24"
+            android:title="@string/toast_icon_title"
+            android:summary="@string/toast_icon_summary"
+            android:defaultValue="true"/>
 	
 	<PreferenceCategory
         android:key="incall_vib_options"
