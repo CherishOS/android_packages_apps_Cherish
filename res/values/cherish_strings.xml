@@ -584,5 +584,9 @@
     <string name="wallpaper_color">Wallpaper color</string>
     <string name="custom_color">Custom color</string>
     <string name="edge_light_custom_color_title">Custom color</string>
+	
+	<!-- Black theme -->
+    <string name="system_black_theme_title">Vivid Colors</string>
+    <string name="system_black_theme_summary">Use colorful and darker monet shades</string>
 
 </resources>

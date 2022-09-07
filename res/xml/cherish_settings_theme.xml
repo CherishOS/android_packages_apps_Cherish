@@ -20,6 +20,12 @@
 	
 	<PreferenceCategory
         android:title="@string/theme_customization_category">
+		
+		<com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="system_black_theme"
+        android:title="@string/system_black_theme_title"
+        android:summary="@string/system_black_theme_summary"
+        android:defaultValue="false" />
 
         <Preference
             android:key="dark_ui_mode"
