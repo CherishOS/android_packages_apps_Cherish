@@ -563,5 +563,10 @@
     <!-- QS date -->
     <string name="qs_date_title">Date</string>
     <string name="qs_date_summary">Display date in quick status bar header</string>
+	
+	<!-- Footer -->
+	<string name="qs_footer_category">QS Footer</string>
+	<string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
 
 </resources>
