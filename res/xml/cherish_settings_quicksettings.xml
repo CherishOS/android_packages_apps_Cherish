@@ -37,6 +37,21 @@
             android:entries="@array/quick_pulldown_entries"
             android:entryValues="@array/quick_pulldown_values"
             android:defaultValue="0" />
+			
+		<com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_header_clock_size"
+            android:title="@string/clock_font_size_title"
+            android:max="27"
+            settings:min="10"
+            settings:interval="1"
+            android:defaultValue="14"
+            settings:units="@string/unit_pixels" />
+			
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="show_qs_date"
+            android:title="@string/qs_date_title"
+            android:summary="@string/qs_date_summary"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 	
