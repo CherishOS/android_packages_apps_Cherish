@@ -613,6 +613,11 @@
  
      The progress bar dynamically switches between media and download states, ensuring you always have the most relevant information at a glance."
      </string>
+	
+	<!-- Footer -->
+	<string name="qs_footer_category">QS Footer</string>
+	<string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
 
      <!-- Monet settings -->
     <string name="monet_settings_title">Theming settings</string>

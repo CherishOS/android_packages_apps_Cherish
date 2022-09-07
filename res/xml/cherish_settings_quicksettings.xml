@@ -47,7 +47,17 @@
             android:title="@string/show_squiggle_animation_title"
             android:summary="@string/show_squiggle_animation_summary"
             android:defaultValue="true" />
+	
+	<PreferenceCategory
+        android:title="@string/qs_footer_category">
 
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_data_usage"
+            android:title="@string/qs_footer_datausage_title"
+            android:summary="@string/qs_footer_datausage_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 
 	   <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="secure_lockscreen_qs_disabled"
