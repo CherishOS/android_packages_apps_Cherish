@@ -48,7 +48,7 @@
     <string name="reset">リセット</string>
     <string name="cancel">中止</string>
     <string name="save">保存</string>
-    <string name="none_string">None</string>
+    <string name="none_string">なし</string>
     <string name="default_string">既定</string>
     <string name="disabled">無効</string>
     <!-- Color Picker -->
