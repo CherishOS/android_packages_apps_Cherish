@@ -43,6 +43,19 @@
             android:title="@string/notification_guts_kill_app_button_title"
             android:summary="@string/notification_guts_kill_app_button_summary"
             android:defaultValue="false" />
+
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="reticker_status"
+        android:title="@string/reticker_title"
+        android:summary="@string/reticker_summary"
+        android:defaultValue="false" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:dependency="reticker_status"
+        android:key="reticker_colored"
+        android:title="@string/reticker_colored_title"
+        android:summary="@string/reticker_colored_summary"
+        android:defaultValue="false" />
 	
 	<PreferenceCategory
         android:key="incall_vib_options"
