@@ -82,6 +82,19 @@
             android:title="@string/toast_icon_title"
             android:summary="@string/toast_icon_summary"
             android:defaultValue="true"/>
+			
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="reticker_status"
+        android:title="@string/reticker_title"
+        android:summary="@string/reticker_summary"
+        android:defaultValue="false" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:dependency="reticker_status"
+        android:key="reticker_colored"
+        android:title="@string/reticker_colored_title"
+        android:summary="@string/reticker_colored_summary"
+        android:defaultValue="false" />
 
     </PreferenceCategory>
 	
