@@ -48,7 +48,7 @@
     <string name="reset">Repor</string>
     <string name="cancel">Cancelar</string>
     <string name="save">Guardar</string>
-    <string name="none_string">None</string>
+    <string name="none_string">Nenhum</string>
     <string name="default_string">Padrão</string>
     <string name="disabled">Desativado</string>
     <!-- Color Picker -->
@@ -56,7 +56,7 @@
     <string name="press_color_to_apply">Pressione uma cor em baixo para aplicar</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">Hexadecimal:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Definir</string>
     <string name="color_default">Padrão</string>
@@ -138,14 +138,14 @@
     <string name="quick_pulldown_none">Desativada</string>
     <string name="quick_pulldown_right">Puxar a barra de status pela direita</string>
     <string name="quick_pulldown_left">Puxar a barra de status pela esquerda</string>
-    <string name="quick_pulldown_always">Always show quick settings on status bar pull down</string>
+    <string name="quick_pulldown_always">Mostrar sempre as configurações rápidas ao puxar a barra de estado</string>
     <!-- Statusbar double tap to sleep -->
-    <string name="double_tap_to_sleep_title">Status bar double tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_title">Toque duplo na barra de estado para desligar</string>
+    <string name="double_tap_to_sleep_summary">Dê um toque duplo na barra de estado para suspender o dispositivo</string>
     <!-- Lockscreen double tap to sleep -->
     <string name="lockscreen_gesture_title">Gestos</string>
-    <string name="double_tap_sleep_lockscreen_title">Lockscreen double tap to sleep</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">Toque duplo no ecrã de bloqueio para desligar</string>
+    <string name="double_tap_sleep_lockscreen_summary">Dê um toque duplo em qualquer local do ecrã de bloqueio para suspender o dispositivo</string>
     <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
     <string name="notification_sound_vib_screen_on_summary">Disable to block notifications sound and vibration when the screen is awake</string>
     <!-- Heads up options -->
@@ -161,18 +161,18 @@
     <string name="headset_connect_player_title">Launch music app on headset connection</string>
     <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
-    <string name="network_options_title">Options</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
+    <string name="network_traffic_title">Indicador de tráfego de rede</string>
+    <string name="network_traffic_summary">Ativar ou desativar o indicador de velocidade de rede na barra de estado</string>
+    <string name="network_traffic_master_switch_title">Usar indicador de tráfego de rede</string>
+    <string name="network_options_title">Opções</string>
+    <string name="network_traffic_autohide_title">Ocultar indicador de tráfego de rede se inativo</string>
     <string name="network_traffic_autohide_summary">Ocultar o monitor de tráfego quando inativo</string>
     <!-- NavBar Inverse -->
     <string name="navigation_bar_inverse_title">Inverter barra de navegação de 3 botões</string>
-    <string name="status_bar_icons_category_title">Icons</string>
+    <string name="status_bar_icons_category_title">Ícones</string>
     <!-- Status bar - icon blocklist -->
     <string name="status_bar_icons_title">Icones da barra de estado</string>
-    <string name="status_bar_icons_summary">Choose which status bar icons can be shown</string>
+    <string name="status_bar_icons_summary">Selecionar os ícones da barra de estado a serem mostrados</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Mostrar ícone de dados desligados</string>
     <string name="data_disabled_icon_summary">Exibir um X junto do ícone de sinal quando os dados estiverem desligados</string>
@@ -186,7 +186,7 @@
     <string name="roaming_indicator_icon_title">Indicador de roaming</string>
     <string name="roaming_indicator_icon_summary">Exibir o indicador de roaming no ícone de sinal quando em modo de roaming</string>
     <!-- Lock screen media artwork -->
-    <string name="lockscreen_media_art_options_title">Lock screen media art</string>
+    <string name="lockscreen_media_art_options_title">Capa da música no ecrã de bloqueio</string>
     <!-- Media art -->
     <string name="media_art_title">Capa do álbum</string>
     <string name="media_art_summary">Exibir a capa do álbum de música no ecrã de bloqueio</string>
@@ -196,7 +196,7 @@
     <string name="lockscreen_albumart_filter_tint">Tom da cor de destaque</string>
     <string name="lockscreen_albumart_filter_blur">Desfocar</string>
     <string name="lockscreen_albumart_filter_grayblur">Tons de cinza e desfocado</string>
-    <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lockscreen media artwork</string>
+    <string name="lockscreen_albumart_filter_blur_radius_title">Nível de desfoque da capa de música no ecrã de bloqueio</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_switch_title">Ícone de VoLTE</string>
     <string name="volte_switch_summary">Mostrar o ícone de VoLTE</string>
@@ -229,28 +229,28 @@
     <string name="volte_icon_volit">Ícone Volit</string>
     <string name="volte_icon_zirco">Ícone Ziroc</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
+    <string name="battery_style_title">Estilo do indicador de bateria</string>
+    <string name="battery_style_summary">Personalizar os ícones da bateria, ocultar ou mostrar a percentagem</string>
     <string name="battery_style_category_title">Ícone da bateria</string>
-    <string name="status_bar_battery_category_title">In Status Bar</string>
-    <string name="status_bar_battery_percent_title">Battery percentage</string>
+    <string name="status_bar_battery_category_title">Na Barra de Estado</string>
+    <string name="status_bar_battery_percent_title">Percentagem da bateria</string>
     <string name="status_bar_battery_style_title">Estilo do ícone da bateria</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone em retrato (padrão)</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
     <string name="status_bar_battery_style_dotted_circle">Círculo (pontilhado)</string>
     <string name="status_bar_battery_style_filled_circle">Círculo (preenchido)</string>
-    <string name="status_bar_battery_style_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
+    <string name="status_bar_battery_style_big_circle">Círculo grande</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Círculo pontilhado grande</string>
     <string name="status_bar_battery_style_text">Texto</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_style_hidden">Oculta</string>
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
-    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
-    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="status_bar_battery_percent_text_next_right">Ao lado do ícone (direita)</string>
+    <string name="status_bar_battery_percent_text_next_left">Ao lado do ícone (esquerda)</string>
+    <string name="status_bar_battery_text_charging_title">Percentagem da bateria ao carregar</string>
+    <string name="status_bar_battery_text_charging_summary">Exibir sempre a percentagem da bateria ao carregar</string>
     <!-- QS battery -->
-    <string name="qs_battery_category_title">In QS Panel</string>
+    <string name="qs_battery_category_title">No painel de configurações rápidas</string>
     <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Background chip</string>
