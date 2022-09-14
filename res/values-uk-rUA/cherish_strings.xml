@@ -70,63 +70,63 @@
     <string name="add_package_to_title">Додати застосунок</string>
     <string name="profile_choose_app">Вибрати додаток</string>
     <string name="dialog_delete_title">Видалити</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="dialog_delete_message">Вилучити вибраний елемент?</string>
     <!-- Units -->
     <string name="unit_milliseconds">миллисекунд</string>
     <string name="unit_seconds">секунд</string>
     <!-- QS settings -->
-    <string name="qs_title">Quick settings</string>
+    <string name="qs_title">Швидкі налаштування</string>
     <!-- Lock screen visualizer -->
-    <string name="visualizer_title">Display music visualizer</string>
+    <string name="visualizer_title">Відображати візуалізатор музики</string>
     <!-- Power menu and dialogs opacity -->
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
-    <string name="power_menu_animation">Power menu</string>
+    <string name="power_menu_animation">Меню живлення</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
-    <string name="lockscreen_category">Lockscreen</string>
+    <string name="lockscreen_category">Екран блокування</string>
     <!-- Themes -->
-    <string name="theme_type_title">System theme</string>
-    <string name="theme_type_summary">Select theme</string>
+    <string name="theme_type_title">Системна тема</string>
+    <string name="theme_type_summary">Виберіть тему</string>
     <!--Accenter -->
-    <string name="themes_hub_title">Themes</string>
-    <string name="themes_hub_summary">Accents-Gradients-Themes</string>
-    <string name="rgb_accent_picker_title_dark">Accent Picker</string>
-    <string name="rgb_accent_picker_summary">Choose the accent color yourself</string>
-    <string name="theme_option_reset_title">Reset Theme Options</string>
-    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
+    <string name="themes_hub_title">Теми</string>
+    <string name="themes_hub_summary">Акценти-Градієнти-Теми</string>
+    <string name="rgb_accent_picker_title_dark">Вибір акценту</string>
+    <string name="rgb_accent_picker_summary">Самостійно виберіть колір акценту</string>
+    <string name="theme_option_reset_title">Скинути налаштування теми</string>
+    <string name="theme_option_reset_message">Ви впевнені, що хочете повернути кольори за замовчуванням?</string>
     <!--ThemePicker-->
-    <string name="theme_select_title">Styles and Wallpapers</string>
-    <string name="theme_select_summary">Browse and select installed themes</string>
-    <string name="notification_light_settings">Notifications light</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="theme_select_title">Стилі та Шпалери</string>
+    <string name="theme_select_summary">Перегляд та вибір встановлених тем</string>
+    <string name="notification_light_settings">Індикатор сповіщень</string>
+    <string name="search">Пошук</string>
+    <string name="search_apps">Пошук додатків</string>
     <!-- Themeing -->
-    <string name="dark_ui_mode_summary">Browse the dark theme options</string>
+    <string name="dark_ui_mode_summary">Переглянути параметри темної теми</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
-    <string name="theme_customization_category">Theming</string>
+    <string name="theme_customization_category">Теми</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
-    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_icon_shape_title">Форма значка</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
-    <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
+    <string name="theme_customization_icon_shape_summary">Задати форму піктограми</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
-    <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_font_summary">Set system font style</string>
+    <string name="theme_customization_font_title">Заголовок / Основний шрифт</string>
+    <string name="theme_customization_font_summary">Встановити стиль системного шрифту</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
-    <string name="theme_customization_icon_pack_title">Icon pack</string>
-    <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
-    <string name="theme_customization_signal_icon_title">Signal icon style</string>
-    <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
-    <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
-    <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
+    <string name="theme_customization_icon_pack_title">Пакет іконок</string>
+    <string name="theme_customization_icon_pack_summary">Задати користувацький набір піктограм</string>
+    <string name="theme_customization_signal_icon_title">Стиль індикатора сигналу</string>
+    <string name="theme_customization_signal_icon_summary">Встановити власний стиль значка сигналу</string>
+    <string name="theme_customization_wifi_icon_title">Стиль значка WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Встановити користувацький стиль іконки wifi</string>
     <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Signal</string>
+    <string name="custom_signal_bar_title">Сигнал</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_enable">Enable</string>
-    <string name="battery_full_light_enabled">Battery light when full charged</string>
+    <string name="battery_light_settings">Індикація зарядки акумулятора</string>
+    <string name="battery_light_enable">Ввімкнути</string>
+    <string name="battery_full_light_enabled">Індикатор батареї при повному заряді</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
     <string name="battery_light_cat">Battery light color when charging</string>
