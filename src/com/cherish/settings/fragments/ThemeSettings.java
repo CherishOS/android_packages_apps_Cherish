@@ -68,6 +68,11 @@ import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class ThemeSettings extends DashboardFragment implements OnPreferenceChangeListener {
+
+    private static final String ALT_SETTINGS_LAYOUT = "alt_settings_layout";
+    private static final String SETTINGS_DASHBOARD_STYLE = "settings_dashboard_style";
+    private static final String USE_STOCK_LAYOUT = "use_stock_layout";
+    private static final String DISABLE_USERCARD = "disable_usercard";
 			
 	public static final String TAG = "ThemeSettings";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
@@ -76,6 +81,10 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
 
     private IOverlayManager mOverlayService;
     private UiModeManager mUiModeManager;
+    private SystemSettingListPreference mSettingsDashBoardStyle;
+    private SystemSettingSwitchPreference mAltSettingsLayout;
+    private SystemSettingSwitchPreference mUseStockLayout;
+    private SystemSettingSwitchPreference mDisableUserCard; 
 	
 	@Override
     protected String getLogTag() {
@@ -105,8 +114,17 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
-		final Resources res = getResources();
-		mContext =  getActivity();
+	final Resources res = getResources();
+	mContext =  getActivity();
+
+        mSettingsDashBoardStyle = (SystemSettingListPreference) findPreference(SETTINGS_DASHBOARD_STYLE);
+        mSettingsDashBoardStyle.setOnPreferenceChangeListener(this);
+        mAltSettingsLayout = (SystemSettingSwitchPreference) findPreference(ALT_SETTINGS_LAYOUT);
+        mAltSettingsLayout.setOnPreferenceChangeListener(this);
+        mUseStockLayout = (SystemSettingSwitchPreference) findPreference(USE_STOCK_LAYOUT);
+        mUseStockLayout.setOnPreferenceChangeListener(this);
+        mDisableUserCard = (SystemSettingSwitchPreference) findPreference(DISABLE_USERCARD);
+        mDisableUserCard.setOnPreferenceChangeListener(this);
         }
 
     public boolean isAvailable() {
@@ -116,6 +134,19 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mSettingsDashBoardStyle) {
+            CherishUtils.showSettingsRestartDialog(getContext());
+            return true;
+        } else if (preference == mAltSettingsLayout) {
+            CherishUtils.showSettingsRestartDialog(getContext());
+            return true;
+        } else if (preference == mUseStockLayout) {
+            CherishUtils.showSettingsRestartDialog(getContext());
+            return true;
+        } else if (preference == mDisableUserCard) {
+            CherishUtils.showSettingsRestartDialog(getContext());
+            return true;
+        }
         return false;
     }
 
