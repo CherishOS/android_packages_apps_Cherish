@@ -91,20 +91,22 @@ class AppLockSettingsPreferenceController(
     }
 
     override fun updateState(preference: Preference) {
-        if (getAvailabilityStatus() == AVAILABLE) {
-            preference.setEnabled(true)
-            preference.summary = getSummaryForListSize(appLockManager.getPackages().size)
-        } else {
-            preference.setEnabled(false)
-            preference.summary = mContext.getString(R.string.disabled_because_no_backup_security)
+        preference.apply {
+            if (getAvailabilityStatus() == AVAILABLE) {
+                setEnabled(true)
+                summary = getSummaryForListSize(appLockManager.packageData.size)
+            } else {
+                setEnabled(false)
+                summary = mContext.getString(R.string.disabled_because_no_backup_security)
+            }
         }
     }
 
     private fun getSummaryForListSize(size: Int): CharSequence? =
-        when {
-            size == 0 -> null
-            size == 1 -> mContext.getString(R.string.app_lock_summary_singular)
-            else -> mContext.getString(R.string.app_lock_summary_plural, size)
+        if (size == 0) {
+            null
+        } else {
+            mContext.resources.getQuantityString(R.plurals.app_lock_summary, size, size)
         }
 
     override fun handlePreferenceTreeClick(preference: Preference): Boolean {

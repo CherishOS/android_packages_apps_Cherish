@@ -28,7 +28,7 @@ class AppLockTimeoutPreferenceController(
     context: Context,
     key: String,
 ) : BasePreferenceController(context, key),
-        Preference.OnPreferenceChangeListener {
+    Preference.OnPreferenceChangeListener {
 
     private val appLockManager = context.getSystemService(AppLockManager::class.java)
 
