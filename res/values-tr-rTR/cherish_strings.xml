@@ -391,8 +391,8 @@
     <string name="cursor_section_header">İmleç</string>
     <string name="volume_key_cursor_control_title">Klavye imleç kontrolü</string>
     <string name="volume_key_cursor_control_off">Devre dışı</string>
-    <string name="volume_key_cursor_control_on">Volume Up/Down - Cursor Left/Right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume Up/Down - Cursor Right/Left</string>
+    <string name="volume_key_cursor_control_on">Ses arttırma/azaltma imleci sola/sağa kaydırır</string>
+    <string name="volume_key_cursor_control_on_reverse">Ses arttırma/azaltma imleci sağa/sola kaydırır</string>
     <string name="swap_volume_buttons_title">Yeniden ata</string>
     <string name="swap_volume_buttons_summary">Ekran döndürüldüğünde ses tuşlarının yerini değiştir</string>
     <string name="volume_panel_on_left_title">Ses panelini solda göster</string>
@@ -483,9 +483,9 @@
     <!-- Edge light -->
     <string name="edge_light_title">Kenar aydınlatması</string>
     <string name="enable_edge_light">Kenar Aydınlatmasını Etkinleştir</string>
-    <string name="edge_light_intro_text">Display an animation along the edges of the screen when pulsing</string>
-    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
+    <string name="edge_light_intro_text">Ekran kenarlarında yanıp sönen bir animasyon gösterir</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Pulse sırasında daima tetikle</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Kenar aydınlatmasının ortam ekranında veya sadece bildirimlerde gösterilip gösterilmeyeceği</string>
     <string name="edge_light_repeat_animation_title">Animasyonu tekrarla</string>
     <string name="edge_light_repeat_animation_summary_on">Zaman aşımına kadar tekrarla</string>
     <string name="edge_light_repeat_animation_summary_off">Yalnızca bir kez göster</string>
