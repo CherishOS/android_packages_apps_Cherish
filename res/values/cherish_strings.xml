@@ -652,5 +652,22 @@
     <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
     <string name="reticker_colored_title">Use app colored background</string>
     <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+	
+	<!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi icon</string>
+    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
+    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
+    <string name="vowifi_icon_style_title">VoWiFi icon style</string>
+    <string name="vowifi_icon_default">Default Icon</string>
+    <string name="vowifi_icon_emui">EMUI Icon</string>
+    <string name="vowifi_icon_asus">Asus Icon</string>
+    <string name="vowifi_icon_oneplus">OOS Icon</string>
+    <string name="vowifi_icon_moto">Motorola Icon</string>
+    <string name="vowifi_icon_simple1">Simple1 Icon</string>
+    <string name="vowifi_icon_simple2">Simple2 Icon</string>
+    <string name="vowifi_icon_simple3">Simple3 Icon</string>
+    <string name="vowifi_icon_vivo">Vivo Icon</string>
+    <string name="vowifi_icon_margaritov">Margaritov Icon</string>
 
 </resources>
