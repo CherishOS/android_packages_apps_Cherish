@@ -161,18 +161,18 @@
     <string name="headset_connect_player_title">Launch music app on headset connection</string>
     <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_traffic_title">Indicateur de trafic réseau</string>
+    <string name="network_traffic_summary">Activer ou désactiver l\'indicateur de vitesse du réseau dans la barre d\'état</string>
+    <string name="network_traffic_master_switch_title">Utiliser l\'indicateur de trafic réseau</string>
     <string name="network_options_title">Options</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
+    <string name="network_traffic_autohide_title">Masquer l\'indicateur de trafic réseau si inactif</string>
     <string name="network_traffic_autohide_summary">Masquer le moniteur de trafic réseau lorsqu\'il n\'y a pas d\'activité</string>
     <!-- NavBar Inverse -->
     <string name="navigation_bar_inverse_title">Inverser la barre de navigation à 3 boutons</string>
-    <string name="status_bar_icons_category_title">Icons</string>
+    <string name="status_bar_icons_category_title">Icônes</string>
     <!-- Status bar - icon blocklist -->
     <string name="status_bar_icons_title">Icônes de barre d\'État</string>
-    <string name="status_bar_icons_summary">Choose which status bar icons can be shown</string>
+    <string name="status_bar_icons_summary">Choisir les icônes affichées dans la barre d\'état</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Afficher l\'icône des données désactivées</string>
     <string name="data_disabled_icon_summary">Afficher une croix à côté de la barre de signal lorsque les données sont désactivées</string>
@@ -186,7 +186,7 @@
     <string name="roaming_indicator_icon_title">Indicateur d\'itinérance</string>
     <string name="roaming_indicator_icon_summary">Affichage de l\'indicateur d\'itinérance dans l\'icône de signal lors de l\'itinérance</string>
     <!-- Lock screen media artwork -->
-    <string name="lockscreen_media_art_options_title">Lock screen media art</string>
+    <string name="lockscreen_media_art_options_title">Pochette du média sur l\'écran de verrouillage</string>
     <!-- Media art -->
     <string name="media_art_title">Pochette de l\'album</string>
     <string name="media_art_summary">Afficher la pochette de l\'album sur l\'écran de déverrouillage</string>
@@ -196,7 +196,7 @@
     <string name="lockscreen_albumart_filter_tint">Accent teinté</string>
     <string name="lockscreen_albumart_filter_blur">Flouter</string>
     <string name="lockscreen_albumart_filter_grayblur">Niveaux de gris et flou</string>
-    <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lockscreen media artwork</string>
+    <string name="lockscreen_albumart_filter_blur_radius_title">Quantité de flou pour les pochettes sur l\'écran de verrouillage</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_switch_title">Icône VoLTE</string>
     <string name="volte_switch_summary">Afficher l\'icône VoLTE</string>
@@ -229,29 +229,29 @@
     <string name="volte_icon_volit">Icône Volit</string>
     <string name="volte_icon_zirco">Icône Ziroc</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
+    <string name="battery_style_title">Style de l\'icône de batterie</string>
+    <string name="battery_style_summary">Personnaliser les icônes de la batterie, masquer ou afficher le pourcentage</string>
     <string name="battery_style_category_title">Icône de batterie</string>
-    <string name="status_bar_battery_category_title">In Status Bar</string>
-    <string name="status_bar_battery_percent_title">Battery percentage</string>
+    <string name="status_bar_battery_category_title">Dans la barre d\'état</string>
+    <string name="status_bar_battery_percent_title">Pourcentage de la batterie</string>
     <string name="status_bar_battery_style_title">Style de l\'icône de la batterie</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_icon_portrait">Icône portrait (défaut)</string>
     <string name="status_bar_battery_style_circle">Cercle</string>
     <string name="status_bar_battery_style_dotted_circle">Cercle (Pointillé)</string>
     <string name="status_bar_battery_style_filled_circle">Cercle (Rempli)</string>
-    <string name="status_bar_battery_style_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
+    <string name="status_bar_battery_style_big_circle">Grand cercle</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Grand cercle pointillé</string>
     <string name="status_bar_battery_style_text">Texte</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_style_hidden">Masqué</string>
     <string name="status_bar_battery_percentage_default">Masqué</string>
     <string name="status_bar_battery_percentage_text_inside">À l\'intérieur de l\'icône</string>
-    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
-    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="status_bar_battery_percent_text_next_right">À côté de l\'icône (à droite)</string>
+    <string name="status_bar_battery_percent_text_next_left">À côté de l\'icône (à gauche)</string>
+    <string name="status_bar_battery_text_charging_title">Pourcentage de la batterie lors de la charge</string>
+    <string name="status_bar_battery_text_charging_summary">Toujours afficher le pourcentage de la batterie lors de la charge</string>
     <!-- QS battery -->
-    <string name="qs_battery_category_title">In QS Panel</string>
-    <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+    <string name="qs_battery_category_title">Dans le panneau des réglages rapides</string>
+    <string name="qs_use_status_bar_battery_style">Même style que la barre d\'état</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Background chip</string>
     <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
@@ -271,8 +271,8 @@
     <string name="laboratory_ignore_window_secure_title">Ignorer les fenêtres d\'indication de sécurité</string>
     <string name="laboratory_ignore_window_secure_summary">Supprimer les limites de capture d\'écran et d\'enregistrement d\'écran pour toutes les applications. Cela peut être pratique dans certains cas, mais peut entraîner des fuites de confidentialité. Après la modification, vous devrez redémarrer les applications pour que le changement prenne effet.</string>
     <!-- Lockscreen battery info -->
-    <string name="lockscreen_charging_info_title">Show charging info in lockscreen</string>
-    <string name="lockscreen_charging_info_summary">Shows temperature, charging current and more while plugged in</string>
+    <string name="lockscreen_charging_info_title">Afficher les informations de charge sur l\'écran de verrouillage</string>
+    <string name="lockscreen_charging_info_summary">Afficher la température, le courant de charge et plus encore lorsque l\'appareil est connecté</string>
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Transparence des réglages rapides</string>
     <string name="qs_transparency_summary">Choisissez le niveau de transparence que vous voulez pour les réglages rapides (nécessite un redémarrage de SystemUI)</string>
@@ -289,18 +289,18 @@
     <string name="qs_tile_title_visibility_title">Masquer les titres des tuiles</string>
     <string name="qs_tile_title_visibility_summary">Masquer les titres des tuiles</string>
     <!-- QS Tile style -->
-    <string name="qs_tile_style_title">QS Tile style</string>
+    <string name="qs_tile_style_title">Style des tuiles des réglages rapides</string>
     <string name="qs_tile_style_summary">Change quicksettings tile design</string>
-    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
-    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+    <string name="click_partial_screenshot_title">Cliquer pour capturer l\'écran partiellement</string>
+    <string name="click_partial_screenshot_summary">Pressez brièvement Volume Down et Power pour une capture d\'écran partielle</string>
     <!-- Brightness control -->
-    <string name="status_bar_brightness_control_title">Brightness control</string>
-    <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_brightness_control_title">Réglage de la luminosité</string>
+    <string name="status_bar_brightness_control_summary">Ajuster la luminosité en glissant sur la barre d\'état</string>
     <!-- Power menu on lockscreen -->
     <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
     <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
     <!-- Hide Status bar on lock screen -->
-    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
+    <string name="hide_lockscreen_status_bar_title">Masquer la barre d\'état</string>
     <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
     <!-- Navigation bar -->
     <string name="navigation_bar_category">Barre de navigation</string>
@@ -352,7 +352,7 @@
     <string name="hardware_keys_menu_key_title">Bouton de menu</string>
     <string name="hardware_keys_assist_key_title">Bouton de recherche</string>
     <string name="hardware_keys_appswitch_key_title">Bouton d\'Aperçu</string>
-    <string name="hardware_keys_camera_key_title">Camera button</string>
+    <string name="hardware_keys_camera_key_title">Bouton de l\'appareil photo</string>
     <string name="hardware_keys_short_press_title">Short press action</string>
     <string name="hardware_keys_double_tap_summary">Définir une action pour un double appui</string>
     <string name="hardware_keys_single_tap_summary">Définir une action pour un appui simple</string>
@@ -360,7 +360,7 @@
     <string name="hardware_keys_single_tap_title">Action pour un appui simple</string>
     <string name="hardware_keys_long_press_title">Action lors d\'un appui long</string>
     <string name="hardware_keys_double_tap_title">Action sur double appui</string>
-    <string name="hardware_keys_action_nothing">No action</string>
+    <string name="hardware_keys_action_nothing">Aucune action</string>
     <string name="hardware_keys_action_menu">Open/close menu</string>
     <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
     <string name="hardware_keys_action_search">Search assistant</string>
