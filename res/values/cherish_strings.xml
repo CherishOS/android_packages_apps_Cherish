@@ -530,5 +530,9 @@
     <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
     <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
     <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
+	
+	<!-- Notification count -->
+    <string name="statusbar_notif_count_title">Show notification count</string>
+    <string name="statusbar_notif_count_summary">Display the number of pending notifications</string>
 
 </resources>
