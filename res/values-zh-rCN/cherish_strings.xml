@@ -43,6 +43,7 @@
     <string name="qs_category">快速设置类别</string>
     <string name="navbar_title">导航栏</string>
     <string name="volume_keys_title">音量键</string>
+    <string name="udfps_category">UDFPS</string>
     <!-- General strings -->
     <string name="ok">确定</string>
     <string name="reset">重置</string>
@@ -498,4 +499,86 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">使用暗色主题</string>
     <string name="system_black_theme_summary">强制黑色背景</string>
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Settings layout</string>
+    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
+    <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
+    <string name="settings_dashboard_style_cherish">Cherish</string>
+    <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
+    <string name="settings_layout_category_title">Settings UI interface</string>
+    <string name="settings_base_style_title">Settings Base layout</string>
+    <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
+    <string name="settings_home_style_title">Settings Home layout</string>
+    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
+    <string name="disable_usercard_title">Settings UserCard</string>
+    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
+    <!-- Lockscreen Clocks -->
+    <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
+    <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
+    <string name="lock_screen_custom_clock_face_default">Default</string>
+    <string name="lock_screen_custom_clock_face_sfunny">Sfuny</string>
+    <string name="lock_screen_custom_clock_face_oos">OOS</string>
+    <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
+    <string name="lock_screen_custom_clock_face_spark">Spark</string>
+    <string name="lock_screen_custom_clock_face_spark_circle">Spark Circle</string>
+    <!-- UDFPS Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
+    <!-- UDFPS Recog Animation -->
+    <string name="udfps_customization">UDFPS customization</string>
+    <string name="udfps_recog_animation">UDFPS animation</string>
+    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+    <string name="udfps_settings_title">UDFPS settings</string>
+    <string name="udfps_settings_summary">Settings for customizing the UDFPS</string>
+    <!-- UDFPS icon picker -->
+    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
+    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
+    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
+    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
+    <!-- UDFPS pressed color -->
+    <string name="udfps_pressed_color_title">Udfps pressed color</string>
+    <string name="udfps_pressed_color_summary">Choose your favorite udfps pressed color</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi icon</string>
+    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
+    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
+    <string name="vowifi_icon_style_title">VoWiFi icon style</string>
+    <string name="vowifi_icon_default">Default Icon</string>
+    <string name="vowifi_icon_emui">EMUI Icon</string>
+    <string name="vowifi_icon_asus">Asus Icon</string>
+    <string name="vowifi_icon_oneplus">OOS Icon</string>
+    <string name="vowifi_icon_moto">Motorola Icon</string>
+    <string name="vowifi_icon_simple1">Simple1 Icon</string>
+    <string name="vowifi_icon_simple2">Simple2 Icon</string>
+    <string name="vowifi_icon_simple3">Simple3 Icon</string>
+    <string name="vowifi_icon_vivo">Vivo Icon</string>
+    <string name="vowifi_icon_margaritov">Margaritov Icon</string>
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location privacy indicator</string>
+    <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
+    <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
+    <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
+    <!-- Notification count -->
+    <string name="statusbar_notif_count_title">Show notification count</string>
+    <string name="statusbar_notif_count_summary">Display the number of pending notifications</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Colored icons</string>
+    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in statusbar</string>
 </resources>
