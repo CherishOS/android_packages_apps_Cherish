@@ -550,4 +550,10 @@
     <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
     <string name="torch_power_button_gesture_lp">Long press power button</string>
 
+     <!-- Quick settings styling -->
+    <string name="qs_styling">Quick Settings UI</string>
+    <string name="qs_styles_title">QS Panel Styles</string>
+    <string name="qs_outline">QS Outline Style</string>
+    <string name="qs_two_tone">QS Two-Tone Accent</string>
+    <string name="qs_color_pop">QS Color Pop</string>
 </resources>

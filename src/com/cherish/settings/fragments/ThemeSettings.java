@@ -2,6 +2,7 @@ package com.cherish.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 import static android.os.UserHandle.USER_SYSTEM;
+import static android.os.UserHandle.USER_CURRENT;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -59,7 +60,9 @@ import android.provider.SearchIndexableResource;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Objects;
-
+import android.database.ContentObserver;
+import android.net.Uri;
+import android.os.Handler;
 import com.android.internal.util.cherish.CherishUtils;
 import com.android.settings.dashboard.DashboardFragment;
 import com.cherish.settings.preferences.SystemSettingListPreference;
@@ -73,13 +76,17 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     private static final String SETTINGS_DASHBOARD_STYLE = "settings_dashboard_style";
     private static final String USE_STOCK_LAYOUT = "use_stock_layout";
     private static final String DISABLE_USERCARD = "disable_usercard";
+	private static final String QS_PANEL_STYLE  = "qs_panel_style";
 			
 	public static final String TAG = "ThemeSettings";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 	static final int DEFAULT = 0xff1a73e8;
 	private Context mContext;
 
+    private Handler mHandler;
+    private IOverlayManager mOverlayManager;
     private IOverlayManager mOverlayService;
+    private SystemSettingListPreference mQsStyle;
     private UiModeManager mUiModeManager;
     private SystemSettingListPreference mSettingsDashBoardStyle;
     private SystemSettingSwitchPreference mAltSettingsLayout;
@@ -125,10 +132,39 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         mUseStockLayout.setOnPreferenceChangeListener(this);
         mDisableUserCard = (SystemSettingSwitchPreference) findPreference(DISABLE_USERCARD);
         mDisableUserCard.setOnPreferenceChangeListener(this);
+		
+		mOverlayService = IOverlayManager.Stub
+        .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
+
+        mQsStyle = (SystemSettingListPreference) findPreference(QS_PANEL_STYLE);
+        mCustomSettingsObserver.observe();
         }
 
     public boolean isAvailable() {
         return true;
+    }
+	
+	private CustomSettingsObserver mCustomSettingsObserver = new CustomSettingsObserver(mHandler);
+    private class CustomSettingsObserver extends ContentObserver {
+
+        CustomSettingsObserver(Handler handler) {
+            super(handler);
+        }
+
+        void observe() {
+            Context mContext = getContext();
+            ContentResolver resolver = mContext.getContentResolver();
+            resolver.registerContentObserver(Settings.System.getUriFor(
+                    Settings.System.QS_PANEL_STYLE),
+                    false, this, UserHandle.USER_ALL);
+        }
+
+        @Override
+        public void onChange(boolean selfChange, Uri uri) {
+            if (uri.equals(Settings.System.getUriFor(Settings.System.QS_PANEL_STYLE))) {
+                updateQsStyle();
+            }
+        }
     }
 	
     @Override
@@ -146,9 +182,59 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         } else if (preference == mDisableUserCard) {
             CherishUtils.showSettingsRestartDialog(getContext());
             return true;
+		} else if (preference == mQsStyle) {
+            mCustomSettingsObserver.observe();
+            return true;
         }
         return false;
     }
+	
+	private void updateQsStyle() {
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        int qsPanelStyle = Settings.System.getIntForUser(getContext().getContentResolver(),
+                Settings.System.QS_PANEL_STYLE , 0, UserHandle.USER_CURRENT);
+
+        if (qsPanelStyle == 0) {
+            setDefaultStyle(mOverlayService);
+        } else if (qsPanelStyle == 1) {
+            setQsStyle(mOverlayService, "com.android.system.qs.outline");
+        } else if (qsPanelStyle == 2 || qsPanelStyle == 3) {
+            setQsStyle(mOverlayService, "com.android.system.qs.twotoneaccent");
+        }
+    }
+
+    public static void setDefaultStyle(IOverlayManager overlayManager) {
+        for (int i = 0; i < QS_STYLES.length; i++) {
+            String qsStyles = QS_STYLES[i];
+            try {
+                overlayManager.setEnabled(qsStyles, false, USER_SYSTEM);
+            } catch (RemoteException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static void setQsStyle(IOverlayManager overlayManager, String overlayName) {
+        try {
+            for (int i = 0; i < QS_STYLES.length; i++) {
+                String qsStyles = QS_STYLES[i];
+                try {
+                    overlayManager.setEnabled(qsStyles, false, USER_SYSTEM);
+                } catch (RemoteException e) {
+                    e.printStackTrace();
+                }
+            }
+            overlayManager.setEnabled(overlayName, true, USER_SYSTEM);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static final String[] QS_STYLES = {
+        "com.android.system.qs.outline",
+        "com.android.system.qs.twotoneaccent"
+    };
 
     @Override
     public int getMetricsCategory() {
