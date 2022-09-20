@@ -144,6 +144,12 @@
             android:title="@string/projection_privacy_indicator_title"
             android:summary="@string/projection_privacy_indicator_summary"
             android:defaultValue="true" />
+			
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+	        android:key="statusbar_notif_count"
+	        android:title="@string/statusbar_notif_count_title"
+	        android:summary="@string/statusbar_notif_count_summary"
+	        android:defaultValue="false" />
 
 			
 		<!-- Birghtness control -->
