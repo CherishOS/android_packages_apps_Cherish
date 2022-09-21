@@ -43,6 +43,7 @@
     <string name="qs_category">Kiểu cài đặt nhanh</string>
     <string name="navbar_title">Thanh điều hướng</string>
     <string name="volume_keys_title">Phím âm lượng</string>
+    <string name="udfps_category">Vân tay dưới màn hình</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Thiết lập lại</string>
@@ -498,4 +499,86 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
     <string name="system_black_theme_summary">Buộc màu nền đen</string>
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Bố cục cài đặt</string>
+    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
+    <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
+    <string name="settings_dashboard_style_cherish">Cherish</string>
+    <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
+    <string name="settings_layout_category_title">Giao diện cài đặt</string>
+    <string name="settings_base_style_title">Bố cục chính cài đặt</string>
+    <string name="settings_base_style_summary">Sử dụng bố cục thay thế để đặt menu</string>
+    <string name="settings_home_style_title">Bố cục chính cài đặt</string>
+    <string name="settings_home_style_summary">Sử dụng bố cục gốc trong trang chủ</string>
+    <string name="disable_usercard_title">Cài đặt Thẻ người dùng</string>
+    <string name="disable_usercard_summary">Chuyển đổi để không hiển thị phần trăm trên trang cài đặt chính</string>
+    <!-- Lockscreen Clocks -->
+    <string name="lock_screen_custom_clock_face_category">Đồng hồ màn hình khóa</string>
+    <string name="lock_screen_custom_clock_face_title">Kiểu đồng hồ màn hình khóa</string>
+    <string name="lock_screen_custom_clock_face_default">Mặc định</string>
+    <string name="lock_screen_custom_clock_face_sfunny">Sfuny</string>
+    <string name="lock_screen_custom_clock_face_oos">OOS</string>
+    <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
+    <string name="lock_screen_custom_clock_face_spark">Spark</string>
+    <string name="lock_screen_custom_clock_face_spark_circle">Spark Circle</string>
+    <!-- UDFPS Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">Phản hồi xúc giác UDFPS</string>
+    <string name="udfps_haptic_feedback_summary">Rung khi chạm vào biểu tượng UDFPS</string>
+    <!-- UDFPS Recog Animation -->
+    <string name="udfps_customization">Tùy chỉnh UDFPS</string>
+    <string name="udfps_recog_animation">Hiệu ứng vân tay trên màn hình</string>
+    <string name="udfps_recog_animation_summary">Hiện hiệu ứng khi đang đọc vân tay của bạn</string>
+    <string name="udfps_recog_animation_effect_title">Tùy chỉnh hoạt ảnh UDFPS</string>
+    <string name="udfps_recog_animation_effect_summary">Chọn hiệu ứng hoạt ảnh</string>
+    <string name="udfps_settings_title">Tùy biến vân tay dưới màn hình</string>
+    <string name="udfps_settings_summary">Cài đặt tùy chỉnh vân tay dưới màn hình</string>
+    <!-- UDFPS icon picker -->
+    <string name="udfps_icon_picker_title">Bộ chọn biểu tượng vân tay dưới màn hình</string>
+    <string name="udfps_icon_picker_summary">Chọn biểu tượng vân tay ưa thích</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Biểu tượng vân tay dưới màn hình tùy biến</string>
+    <string name="custom_fp_icon_summary">Bật biểu tượng vân tay dưới màn hình tùy biến từ files</string>
+    <string name="custom_fp_select_title">Chọn biểu tượng vân tay dưới màn hình tùy biến</string>
+    <string name="custom_fp_select_summary">Chọn hình ảnh tùy chỉnh từ các tệp hoặc thư viện đã lưu của bạn</string>
+    <!-- UDFPS pressed color -->
+    <string name="udfps_pressed_color_title">Màu sắc khi nút được bấm vân tay dưới màn hình</string>
+    <string name="udfps_pressed_color_summary">Chọn màu ép vân dưới màn hình yêu thích của bạn</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Hiệu ứng gợn sóng</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Thay thế thông báo nổi bằng thông báo kiểu mới được thiết kế lại mỏng và ít xâm lấn hơn</string>
+    <string name="reticker_colored_title">Sử dụng nền màu ứng dụng</string>
+    <string name="reticker_colored_summary">Thay thế màu nền reTicker bằng màu chính của ứng dụng thông báo</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Biểu tượng VoWifi</string>
+    <string name="vowifi_icon_enabled">Biểu tượng VoWiFi đã bật</string>
+    <string name="vowifi_icon_disabled">Biểu tượng VoWiFi đã tắt</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi thay vì icon VoLTE</string>
+    <string name="vowifi_icon_style_title">Kiểu biểu tượng VoWiFi</string>
+    <string name="vowifi_icon_default">Biểu tượng Mặc định</string>
+    <string name="vowifi_icon_emui">Biểu tượng EMUI</string>
+    <string name="vowifi_icon_asus">Biểu tượng Asus</string>
+    <string name="vowifi_icon_oneplus">Biểu tượng OOS</string>
+    <string name="vowifi_icon_moto">Biểu tượng Motorola</string>
+    <string name="vowifi_icon_simple1">Biểu tượng Simple1</string>
+    <string name="vowifi_icon_simple2">Biểu tượng Simple2</string>
+    <string name="vowifi_icon_simple3">Biểu tượng Simple3</string>
+    <string name="vowifi_icon_vivo">Biểu tượng Vivo</string>
+    <string name="vowifi_icon_margaritov">Biểu tượng Margaritov VoLTE</string>
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Biểu tượng sử dụng mic và camera</string>
+    <string name="mic_camera_privacy_indicator_summary">Hiện thị biểu tượng tách biệt khi một app nào đó sử dụng mic và camera</string>
+    <string name="location_privacy_indicator_title">Biểu tượng sử dụng vị trí</string>
+    <string name="location_privacy_indicator_summary">Hiện thị biểu tượng tách biệt khi một app nào đó sử dụng mic và camera</string>
+    <string name="projection_privacy_indicator_title">Chỉ báo truyền media</string>
+    <string name="projection_privacy_indicator_summary">Hiển thị chỉ báo khi truyền màn hình</string>
+    <!-- Notification count -->
+    <string name="statusbar_notif_count_title">Hiện số lượng thông báo</string>
+    <string name="statusbar_notif_count_summary">Hiển thị số lượng thông báo đang chờ xử lý</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Biểu tượng màu</string>
+    <string name="statusbar_colored_icons_summary">Sử dụng các biểu tượng ứng dụng thích hợp cho các biểu tượng thông báo trên thanh trạng thái</string>
 </resources>
