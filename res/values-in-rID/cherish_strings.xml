@@ -43,7 +43,7 @@
     <string name="qs_category">Kategori Setelan Cepat</string>
     <string name="navbar_title">Bilah navigasi</string>
     <string name="volume_keys_title">Tombol Volume</string>
-    <string name="udfps_category">UDFPS</string>
+    <string name="udfps_category">Sidik Jari Dalam Layar</string>
     <!-- General strings -->
     <string name="ok">Oke</string>
     <string name="reset">Setel ulang</string>
@@ -500,85 +500,85 @@
     <string name="system_black_theme_title">Gunakan tema gelap</string>
     <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
     <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings layout</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_dashboard_style_title">Tata Letak Setelan</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
     <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
     <string name="settings_dashboard_style_cherish">Cherish</string>
     <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
-    <string name="settings_layout_category_title">Settings UI interface</string>
-    <string name="settings_base_style_title">Settings Base layout</string>
-    <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
-    <string name="settings_home_style_title">Settings Home layout</string>
-    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
-    <string name="disable_usercard_title">Settings UserCard</string>
-    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
+    <string name="settings_layout_category_title">Atur Antarmuka Setelan</string>
+    <string name="settings_base_style_title">Tata letak Basis Setelan</string>
+    <string name="settings_base_style_summary">Gunakan tata letak alternatif untuk mengatur menu</string>
+    <string name="settings_home_style_title">Tata letak Beranda Setelan</string>
+    <string name="settings_home_style_summary">Gunakan tata letak bawaan aosp untuk beranda</string>
+    <string name="disable_usercard_title">Kartu Pengguna Setelan</string>
+    <string name="disable_usercard_summary">Tombol agar tidak menampilkan kartu pengguna di halaman setelan utama</string>
     <!-- Lockscreen Clocks -->
-    <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
-    <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
-    <string name="lock_screen_custom_clock_face_default">Default</string>
+    <string name="lock_screen_custom_clock_face_category">Jam Layar Kunci</string>
+    <string name="lock_screen_custom_clock_face_title">Gaya jam layar kunci</string>
+    <string name="lock_screen_custom_clock_face_default">Bawaan</string>
     <string name="lock_screen_custom_clock_face_sfunny">Sfuny</string>
     <string name="lock_screen_custom_clock_face_oos">OOS</string>
     <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
     <string name="lock_screen_custom_clock_face_spark">Spark</string>
     <string name="lock_screen_custom_clock_face_spark_circle">Spark Circle</string>
     <!-- UDFPS Haptic Feedback -->
-    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
-    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
+    <string name="udfps_haptic_feedback_title">Umpan balik Sidik Jari Dalam Layar</string>
+    <string name="udfps_haptic_feedback_summary">Bergetar saat menyentuh ikon Sidik Jari Dalam Layar</string>
     <!-- UDFPS Recog Animation -->
-    <string name="udfps_customization">UDFPS customization</string>
-    <string name="udfps_recog_animation">UDFPS animation</string>
-    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
-    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
-    <string name="udfps_settings_title">UDFPS settings</string>
-    <string name="udfps_settings_summary">Settings for customizing the UDFPS</string>
+    <string name="udfps_customization">Kustomisasi Sidik Jari Dalam Layar</string>
+    <string name="udfps_recog_animation">Animasi Sidik Jari Dalam Layar</string>
+    <string name="udfps_recog_animation_summary">Perlihatkan animasi saat jari Anda terdeteksi</string>
+    <string name="udfps_recog_animation_effect_title">Kustomisasi animasi Sidik Jari Dalam Layar</string>
+    <string name="udfps_recog_animation_effect_summary">Pilih efek animasi</string>
+    <string name="udfps_settings_title">Setelan Sidik Jari Dalam Layar</string>
+    <string name="udfps_settings_summary">Setelan untuk menyesuaikan Sidik Jari Dalam Layar</string>
     <!-- UDFPS icon picker -->
-    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
-    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="udfps_icon_picker_title">Pilihan ikon Sidik Jari Dalam Layar</string>
+    <string name="udfps_icon_picker_summary">Pilih ikon sidik jari favorit Anda</string>
     <!-- Custom FOD Icon -->
-    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
-    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
-    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
-    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
+    <string name="custom_fp_icon_title">Ikon kustom Sidik Jari Dalam Layar</string>
+    <string name="custom_fp_icon_summary">Aktifkan ikon kustom sidik jari dalam layar dari file</string>
+    <string name="custom_fp_select_title">Pilih Ikon Kustom Sidik Jari Dalam Layar</string>
+    <string name="custom_fp_select_summary">Pilih gambar kustom dari file atau galeri yang Anda simpan</string>
     <!-- UDFPS pressed color -->
-    <string name="udfps_pressed_color_title">Udfps pressed color</string>
-    <string name="udfps_pressed_color_summary">Choose your favorite udfps pressed color</string>
+    <string name="udfps_pressed_color_title">Warna sidik jari ditekan</string>
+    <string name="udfps_pressed_color_summary">Pilih warna tekan sidik jari favorit Anda</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">Efek riak</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Tampilkan efek riak saat membuka kunci dengan sidik jari</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_summary">Ganti notifikasi mengambang dengan versi ticker yang didesain ulang yang ramping dan tidak terlalu invasif</string>
+    <string name="reticker_colored_title">Gunakan latar belakang berwarna aplikasi</string>
+    <string name="reticker_colored_summary">Ganti warna latar belakang reTicker menggunakan warna utama notifikasi aplikasi</string>
     <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
-    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
-    <string name="vowifi_icon_style_title">VoWiFi icon style</string>
-    <string name="vowifi_icon_default">Default Icon</string>
-    <string name="vowifi_icon_emui">EMUI Icon</string>
-    <string name="vowifi_icon_asus">Asus Icon</string>
-    <string name="vowifi_icon_oneplus">OOS Icon</string>
-    <string name="vowifi_icon_moto">Motorola Icon</string>
-    <string name="vowifi_icon_simple1">Simple1 Icon</string>
-    <string name="vowifi_icon_simple2">Simple2 Icon</string>
-    <string name="vowifi_icon_simple3">Simple3 Icon</string>
-    <string name="vowifi_icon_vivo">Vivo Icon</string>
-    <string name="vowifi_icon_margaritov">Margaritov Icon</string>
+    <string name="vowifi_icon_title">Ikon VoWiFi</string>
+    <string name="vowifi_icon_enabled">Ikon VoWiFi diaktifkan</string>
+    <string name="vowifi_icon_disabled">Ikon VoWiFi dinonaktifkan</string>
+    <string name="vowifi_icon_enabled_volte_disabled">Ikon VoWiFi sebagai ganti VoLTE</string>
+    <string name="vowifi_icon_style_title">Gaya ikon VoWiFi</string>
+    <string name="vowifi_icon_default">Ikon Default</string>
+    <string name="vowifi_icon_emui">Ikon EMUI</string>
+    <string name="vowifi_icon_asus">Ikon Asus</string>
+    <string name="vowifi_icon_oneplus">Ikon OOS</string>
+    <string name="vowifi_icon_moto">Ikon Motorola</string>
+    <string name="vowifi_icon_simple1">Ikon Simple1</string>
+    <string name="vowifi_icon_simple2">Ikon Simple2</string>
+    <string name="vowifi_icon_simple3">Ikon Simple3</string>
+    <string name="vowifi_icon_vivo">Ikon Vivo</string>
+    <string name="vowifi_icon_margaritov">Ikon Margaritov</string>
     <!-- Privacy Indicator -->
-    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
-    <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or camera</string>
-    <string name="location_privacy_indicator_title">Location privacy indicator</string>
-    <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
-    <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
-    <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
+    <string name="mic_camera_privacy_indicator_title">Indikator privasi mikrofon dan kamera</string>
+    <string name="mic_camera_privacy_indicator_summary">Tampilkan indikator terpisah saat aplikasi apa pun menggunakan mikrofon atau kamera</string>
+    <string name="location_privacy_indicator_title">Indikator privasi lokasi</string>
+    <string name="location_privacy_indicator_summary">Tampilkan indikator terpisah saat aplikasi apa pun menggunakan lokasi</string>
+    <string name="projection_privacy_indicator_title">Indikator privasi proyeksi media</string>
+    <string name="projection_privacy_indicator_summary">Tampilkan indikator saat layar perangkat diproyeksikan</string>
     <!-- Notification count -->
-    <string name="statusbar_notif_count_title">Show notification count</string>
-    <string name="statusbar_notif_count_summary">Display the number of pending notifications</string>
+    <string name="statusbar_notif_count_title">Tampilkan jumlah notifikasi</string>
+    <string name="statusbar_notif_count_summary">Tampilkan jumlah notifikasi yang tertunda</string>
     <!-- Statusbar colored icons -->
-    <string name="statusbar_colored_icons_title">Colored icons</string>
-    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in statusbar</string>
+    <string name="statusbar_colored_icons_title">Ikon berwarna</string>
+    <string name="statusbar_colored_icons_summary">Gunakan ikon aplikasi yang tepat untuk ikon notifikasi di bilah status</string>
 </resources>
