@@ -43,7 +43,7 @@
     <string name="qs_category">クイック設定カテゴリー</string>
     <string name="navbar_title">ナビゲーションバー</string>
     <string name="volume_keys_title">音量キー</string>
-    <string name="udfps_category">UDFPS</string>
+    <string name="udfps_category">画面内指紋認証</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">リセット</string>
@@ -500,64 +500,64 @@
     <string name="system_black_theme_title">ブラックテーマを使用</string>
     <string name="system_black_theme_summary">強制的に黒い背景のテーマを使用する</string>
     <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings layout</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_dashboard_style_title">設定のレイアウト</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
     <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
     <string name="settings_dashboard_style_cherish">Cherish</string>
-    <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
-    <string name="settings_layout_category_title">Settings UI interface</string>
-    <string name="settings_base_style_title">Settings Base layout</string>
-    <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
-    <string name="settings_home_style_title">Settings Home layout</string>
-    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
-    <string name="disable_usercard_title">Settings UserCard</string>
-    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
+    <string name="settings_dashboard_style_cherish_clean">CherishClean</string>
+    <string name="settings_layout_category_title">設定 UI のインターフェース</string>
+    <string name="settings_base_style_title">設定の基本レイアウト</string>
+    <string name="settings_base_style_summary">設定メニューに別のレイアウトを使用する</string>
+    <string name="settings_home_style_title">設定のホームレイアウト</string>
+    <string name="settings_home_style_summary">ホームページに標準の AOPS レイアウトを使用する</string>
+    <string name="disable_usercard_title">設定のユーザーカード</string>
+    <string name="disable_usercard_summary">メイン設定ページにユーザーカードを表示しないように切り替える</string>
     <!-- Lockscreen Clocks -->
-    <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
-    <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
-    <string name="lock_screen_custom_clock_face_default">Default</string>
+    <string name="lock_screen_custom_clock_face_category">ロック画面の時計</string>
+    <string name="lock_screen_custom_clock_face_title">ロック画面の時計のスタイル</string>
+    <string name="lock_screen_custom_clock_face_default">既定</string>
     <string name="lock_screen_custom_clock_face_sfunny">Sfuny</string>
     <string name="lock_screen_custom_clock_face_oos">OOS</string>
     <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
     <string name="lock_screen_custom_clock_face_spark">Spark</string>
     <string name="lock_screen_custom_clock_face_spark_circle">Spark Circle</string>
     <!-- UDFPS Haptic Feedback -->
-    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
-    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
+    <string name="udfps_haptic_feedback_title">画面内指紋認証の触覚の使用</string>
+    <string name="udfps_haptic_feedback_summary">画面内指紋認証アイコンに触れた時に振動させる</string>
     <!-- UDFPS Recog Animation -->
-    <string name="udfps_customization">UDFPS customization</string>
-    <string name="udfps_recog_animation">UDFPS animation</string>
-    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
-    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
-    <string name="udfps_settings_title">UDFPS settings</string>
-    <string name="udfps_settings_summary">Settings for customizing the UDFPS</string>
+    <string name="udfps_customization">画面内指紋認証の編集</string>
+    <string name="udfps_recog_animation">画面内指紋認証のアニメーション</string>
+    <string name="udfps_recog_animation_summary">指紋認識中にアニメーションを表示する</string>
+    <string name="udfps_recog_animation_effect_title">画面内指紋認証のカスタムアニメーション</string>
+    <string name="udfps_recog_animation_effect_summary">アニメーション効果を選択する</string>
+    <string name="udfps_settings_title">画面内指紋認証の設定</string>
+    <string name="udfps_settings_summary">画面内指紋認証の編集を設定する</string>
     <!-- UDFPS icon picker -->
-    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
-    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="udfps_icon_picker_title">画面内指紋認証アイコンの選択</string>
+    <string name="udfps_icon_picker_summary">お気に入りの指紋アイコンを選択する</string>
     <!-- Custom FOD Icon -->
-    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
-    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
-    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
-    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
+    <string name="custom_fp_icon_title">カスタム画面内指紋認証アイコン</string>
+    <string name="custom_fp_icon_summary">ファイルからカスタムの画面内指紋認証アイコンを有効にする</string>
+    <string name="custom_fp_select_title">カスタム画面内指紋認証アイコンを選択</string>
+    <string name="custom_fp_select_summary">保存したファイルまたはギャラリーからカスタム画像を選択する</string>
     <!-- UDFPS pressed color -->
-    <string name="udfps_pressed_color_title">Udfps pressed color</string>
-    <string name="udfps_pressed_color_summary">Choose your favorite udfps pressed color</string>
+    <string name="udfps_pressed_color_title">画面内指紋認証タッチ時の色</string>
+    <string name="udfps_pressed_color_summary">お気に入りの指紋認証時の色を選択する</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">波紋の効果</string>
+    <string name="enable_fingerprint_ripple_effect_summary">指紋認証のロック解除時に波紋効果を表示する</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_summary">Heads Up 通知をスリムで邪魔になりにくいティッカーバージョンに置き換える</string>
+    <string name="reticker_colored_title">アプリに色付きの背景を使用</string>
+    <string name="reticker_colored_summary">reTicker の背景の色を通知アプリのメインの色で置き換える</string>
     <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
-    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
-    <string name="vowifi_icon_style_title">VoWiFi icon style</string>
+    <string name="vowifi_icon_title">VoWiFi アイコン</string>
+    <string name="vowifi_icon_enabled">VoWiFi アイコンは有効です</string>
+    <string name="vowifi_icon_disabled">VoWiFi アイコンは無効です</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoLTE の代わりに VoWiFi を使用</string>
+    <string name="vowifi_icon_style_title">VoWiFi アイコンのスタイル</string>
     <string name="vowifi_icon_default">既定のアイコン</string>
     <string name="vowifi_icon_emui">EMUI アイコン</string>
     <string name="vowifi_icon_asus">Asus アイコン</string>
@@ -573,8 +573,8 @@
     <string name="mic_camera_privacy_indicator_summary">アプリがマイクまたはカメラを使用する時にインジケーターを表示する</string>
     <string name="location_privacy_indicator_title">位置情報のプライバシー表示</string>
     <string name="location_privacy_indicator_summary">アプリが位置情報を使用する時にインジケーターを表示する</string>
-    <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
-    <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
+    <string name="projection_privacy_indicator_title">メディアプロジェクションプライバシー表示</string>
+    <string name="projection_privacy_indicator_summary">端末の画面へメディアプロジェクション時にインジケーターを表示する</string>
     <!-- Notification count -->
     <string name="statusbar_notif_count_title">通知の数を表示</string>
     <string name="statusbar_notif_count_summary">保留中の通知の数を表示する</string>
