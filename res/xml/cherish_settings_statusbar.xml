@@ -156,6 +156,12 @@
             android:title="@string/statusbar_colored_icons_title"
             android:summary="@string/statusbar_colored_icons_summary"
             android:defaultValue="false" />
+			
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="bluetooth_show_battery"
+        android:title="@string/bluetooth_battery_title"
+        android:summary="@string/bluetooth_battery_summary"
+        android:defaultValue="true"/>
 
 			
 		<!-- Birghtness control -->
