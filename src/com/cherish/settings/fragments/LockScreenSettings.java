@@ -51,6 +51,7 @@ import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 import android.provider.SearchIndexableResource;
+import android.widget.Toast;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -74,6 +75,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 	private static final String CUSTOM_CLOCK_FACE = Settings.Secure.LOCK_SCREEN_CUSTOM_CLOCK_FACE;
     private static final String DEFAULT_CLOCK = "com.android.keyguard.clock.DefaultClockController";
 	private static final String UDFPS_CATEGORY = "udfps_category";
+	private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
 	
 	static final int MODE_DISABLED = 0;
     static final int MODE_NIGHT = 1;
@@ -84,6 +86,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 	private ListPreference mLockClockStyles;
 	private PreferenceCategory mUdfpsCategory;
 	private Context mContext;
+	private ListPreference mTorchPowerButton;
 	
 	Preference mAODPref;
 
@@ -117,6 +120,14 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         mLockClockStyles.setValue(mLockClockStylesValue);
         mLockClockStyles.setSummary(mLockClockStyles.getEntry());
         mLockClockStyles.setOnPreferenceChangeListener(this);
+
+        // screen off torch
+        mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
+        int mTorchPowerButtonValue = Settings.System.getInt(resolver,
+                Settings.System.TORCH_POWER_BUTTON_GESTURE, 0);
+        mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
+        mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
+        mTorchPowerButton.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -156,7 +167,15 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             int index = mLockClockStyles.findIndexOfValue((String) newValue);
             mLockClockStyles.setSummary(mLockClockStyles.getEntries()[index]);
             return true;
-         }
+         } else if (preference == mTorchPowerButton) {
+            int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
+            int index = mTorchPowerButton.findIndexOfValue((String) newValue);
+            mTorchPowerButton.setSummary(
+                    mTorchPowerButton.getEntries()[index]);
+            Settings.System.putInt(resolver, Settings.System.TORCH_POWER_BUTTON_GESTURE,
+                    mTorchPowerButtonValue);
+            return true;
+        }
         return false;
     }
 	

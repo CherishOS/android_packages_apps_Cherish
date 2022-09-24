@@ -27,6 +27,12 @@
             android:summary="@string/double_tap_sleep_lockscreen_summary"
             android:defaultValue="true" />
 			
+	<ListPreference
+        android:key="torch_power_button_gesture"
+        android:title="@string/torch_power_button_gesture_title"
+        android:entries="@array/torch_power_button_gesture_entries"
+        android:entryValues="@array/torch_power_button_gesture_values" />
+			
 	<Preference
             android:key="edge_light_enabled"
             android:title="@string/edge_light_title"
