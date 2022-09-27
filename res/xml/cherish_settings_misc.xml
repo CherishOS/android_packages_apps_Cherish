@@ -36,6 +36,13 @@
         android:title="@string/click_partial_screenshot_title"
         android:summary="@string/click_partial_screenshot_summary"
         android:defaultValue="false" />
+
+     <Preference
+        android:key="app_lock"
+        android:title="@string/app_lock_title"
+        android:summary="@string/app_lock_summary"
+        android:fragment="com.cherish.settings.security.applock.AppLockSettingsFragment"
+        settings:controller="com.cherish.settings.security.applock.AppLockSettingsPreferenceController" />
 		
 	<!-- Unlock FPS for specific games -->
      <SwitchPreference

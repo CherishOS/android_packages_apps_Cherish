@@ -36,8 +36,12 @@ import com.android.settings.core.SubSettingLauncher
 import com.android.settings.password.ConfirmDeviceCredentialActivity
 import com.android.settings.security.SecuritySettings
 import com.android.settingslib.core.lifecycle.Lifecycle
-import com.android.settingslib.transition.SettingsTransitionHelper.TransitionType
+import com.android.settingslib.transition.SettingsTransitionHelper.TransitionType.TRANSITION_SLIDE
 import com.android.settings.core.BasePreferenceController
+
+import com.android.settings.SettingsActivity
+import com.android.settings.core.SettingsBaseActivity
+import com.android.settingslib.core.instrumentation.MetricsFeatureProvider
 
 class AppLockSettingsPreferenceController(
     context: Context,
@@ -45,7 +49,7 @@ class AppLockSettingsPreferenceController(
     private val host: SecuritySettings?,
     lifecycle: Lifecycle?,
 ) : BasePreferenceController(context, preferenceKey),
-        LifecycleEventObserver {
+    LifecycleEventObserver {
 
     private val lockPatternUtils = LockPatternUtils(context)
     private val appLockManager = context.getSystemService(AppLockManager::class.java)
@@ -58,15 +62,13 @@ class AppLockSettingsPreferenceController(
             StartActivityForResult()
         ) {
             if (it?.resultCode == Activity.RESULT_OK) {
-                SubSettingLauncher(mContext)
+                val intent = SubSettingLauncher(mContext)
                     .setDestination(AppLockSettingsFragment::class.qualifiedName)
                     .setSourceMetricsCategory(host.metricsCategory)
-                    .setTransitionType(TransitionType.TRANSITION_SLIDE)
-                    .addFlags(
-                        Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS or
-                            Intent.FLAG_ACTIVITY_NEW_TASK
-                    )
-                    .launch()
+                    .setTransitionType(TRANSITION_SLIDE)
+                    .toIntent()
+                intent.setClass(mContext, AppLockSubSettings::class.java)
+                mContext.startActivity(intent)
             }
         }
     }
