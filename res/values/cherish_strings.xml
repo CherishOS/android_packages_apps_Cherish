@@ -623,6 +623,7 @@
 
 	<!-- App lock -->
     <string name="app_lock_title">App lock</string>
+    <string name="app_lock_summary">Apps will require fingerprint authentication to launch</string>
     <string name="app_lock_authentication_dialog_title">Unlock</string>
     <string name="enable_debugging">Enable debugging</string>
     <string name="disable_debugging">Disable debugging</string>
