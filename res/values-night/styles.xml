@@ -13,10 +13,8 @@
 
 <resources>
     <style name="ColorPickerStyle" parent="Theme.MaterialComponents.BottomSheetDialog">
-        <item name="colorPrimary">@*android:color/primary_device_default_settings</item>
-        <item name="colorPrimaryDark">@*android:color/primary_device_default_settings_light</item>
+        <item name="colorPrimary">@*android:color/primary_device_default_dark</item>
+        <item name="colorPrimaryDark">@*android:color/surface_highlight_light</item>
         <item name="colorAccent">@*android:color/accent_device_default_dark</item>
-        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
-        <item name="android:textColorPrimary">#FFFFFF</item>
     </style>
 </resources>
