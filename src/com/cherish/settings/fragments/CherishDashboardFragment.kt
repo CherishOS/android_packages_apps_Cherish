@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cherish.settings.fragment
+package com.cherish.settings.fragments
 
 import androidx.preference.Preference
 
