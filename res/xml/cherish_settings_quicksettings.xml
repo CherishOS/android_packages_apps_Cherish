@@ -88,17 +88,6 @@
     </PreferenceCategory>
 	
 	<PreferenceCategory
-        android:title="@string/qs_footer_category">
-
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_footer_data_usage"
-            android:title="@string/qs_footer_datausage_title"
-            android:summary="@string/qs_footer_datausage_summary"
-            android:defaultValue="false" />
-
-    </PreferenceCategory>
-	
-	<PreferenceCategory
         android:key="tile_layout_category"
         android:title="@string/qs_tile_layout_category_title">
 
