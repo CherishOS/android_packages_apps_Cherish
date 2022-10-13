@@ -916,4 +916,11 @@
     <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
     <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
     <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
+
+    <!-- Weather -->
+    <string name="weather_settings_title">Weather settings</string>
+    <string name="weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="lockscreen_weather_title">Weather condition</string>
+    <string name="lockscreen_weather_summary">Display current weather condition and temperature</string>
+    <string name="lockscreen_weather_enabled_info">Requires weather service to be enabled</string>
 </resources>
