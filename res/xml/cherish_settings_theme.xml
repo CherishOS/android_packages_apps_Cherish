@@ -59,13 +59,6 @@
             android:summary="@string/dark_ui_mode_summary"
             android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
             settings:controller="com.android.settings.display.DarkUIPreferenceController" />
-			
-		<!-- Monet -->
-    <Preference
-        android:key="monet_engine_settings"
-        android:title="@string/monet_engine_settings_title"
-        android:summary="@string/monet_engine_settings_summary"
-        android:fragment="com.cherish.settings.fragments.MonetEngineSettings" />
 		
 	<com.cherish.settings.preferences.SecureSettingListPreference
          android:key="system_custom_theme"

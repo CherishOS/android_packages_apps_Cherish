@@ -97,12 +97,6 @@
     <!-- Power menu Animations  -->
     <string name="power_menu_animation">Power menu</string>
 	
-	<!-- Color picker -->
-    <string name="rgb">RGB</string>
-    <string name="hsl">HSL</string>
-    <string name="hsv">HSV</string>
-    <string name="invalid_color">Invalid color!</string>
-	
 	<!-- QS header image -->
 
     <!-- Lockscreen -->
@@ -718,21 +712,6 @@
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
     <string name="enable_protection">Enable protection</string>
-	 
-	 <!-- Monet engine -->
-    <string name="monet_engine_settings_title">Monet engine</string>
-    <string name="monet_engine_settings_summary">Custom color, colorfulness, brightness</string>
-    <string name="accurate_shades_title">Use accurate shades</string>
-    <string name="color_override_title">Custom color picker</string>
-    <string name="color_override_default_summary">Using wallpaper color</string>
-    <string name="custom_color_override_summary_placeholder">
-        Choosen color: <xliff:g example="#FF0000" id="Color">%1$s</xliff:g>. Set an empty value to use wallpaper color.
-    </string>
-    <string name="invalid_color_input">Invalid color input!</string>
-    <string name="chroma_factor_title">Colorfulness</string>
-    <string name="linear_lightness_title">Use custom lightness scale</string>
-    <string name="white_luminance_title">Brightness</string>
-	<string name="confirm">Confirm</string>
 	
 	<!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Power menu animation</string>
