@@ -43,6 +43,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.util.cherish.udfps.UdfpsUtils;
 import com.android.internal.util.cherish.CherishUtils;
+import com.android.internal.util.cherish.OmniJawsClient;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.CustomSeekBarPreference;
 import com.cherish.settings.preferences.SecureSettingListPreference;
@@ -65,6 +66,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 
     private static final String FINGERPRINT_SUCCESS_VIB = "fingerprint_success_vib";
     private static final String FINGERPRINT_ERROR_VIB = "fingerprint_error_vib";
+    private static final String KEY_WEATHER = "lockscreen_weather_enabled";
 
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintSuccessVib;
@@ -72,6 +74,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 	
 	
 	private ListPreference mLockClockStyles;
+    private Preference mWeather;
 	private PreferenceCategory mUdfpsCategory;
 	private Context mContext;
 	private ListPreference mTorchPowerButton;
@@ -127,6 +130,14 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             prefSet.removePreference(mFingerprintSuccessVib);
             prefSet.removePreference(mFingerprintErrorVib);
         }
+
+        mWeather = (Preference) findPreference(KEY_WEATHER);
+        OmniJawsClient weatherClient = new OmniJawsClient(getContext());
+        boolean weatherEnabled = weatherClient.isOmniJawsEnabled();
+        if (!weatherEnabled) {
+            mWeather.setEnabled(false);
+            mWeather.setSummary(R.string.lockscreen_weather_enabled_info);
+        }
     }
 
     @Override
@@ -153,6 +164,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.FP_ERROR_VIBRATE, value ? 1 : 0);
+            return true;
+        } else if (preference == mWeather) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.LOCKSCREEN_WEATHER_ENABLED, value ? 0 : 0);
             return true;
         }
         return false;
