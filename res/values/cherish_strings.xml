@@ -346,10 +346,6 @@
     <string name="qs_tile_title_visibility_title">Hide tile titles</string>
     <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
 	
-	<!-- QS Tile style -->
-    <string name="qs_tile_style_title">QS Tile style</string>
-    <string name="qs_tile_style_summary">Change quicksettings tile design</string>
-	
 	<string name="click_partial_screenshot_title">Click to partial screenshot</string>
     <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 	
