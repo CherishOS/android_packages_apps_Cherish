@@ -42,6 +42,13 @@
             android:summary="@string/qs_compact_media_player_mode_summary"
             android:defaultValue="false" />
 
+        <com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="show_media_squiggle_animation"
+            android:title="@string/show_squiggle_animation_title"
+            android:summary="@string/show_squiggle_animation_summary"
+            android:defaultValue="true" />
+
+
 	   <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="secure_lockscreen_qs_disabled"
             android:title="@string/qs_lock_screen_secure_title"
