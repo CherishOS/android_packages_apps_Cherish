@@ -51,6 +51,14 @@
         android:summary="@string/smart_charging_summary"
         android:fragment="com.cherish.settings.fragments.SmartCharging"/>
 		
+	<!-- Squiggle animation -->
+    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="show_media_squiggle_animation"
+        android:title="@string/show_squiggle_animation_title"
+        android:summary="@string/show_squiggle_animation_summary"
+        android:defaultValue="true" />
+
+		
 	<!-- Unlock FPS for specific games -->
      <SwitchPreference
           android:key="use_games_spoof"
