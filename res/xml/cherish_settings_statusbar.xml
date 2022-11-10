@@ -71,6 +71,12 @@
                  android:targetPackage="com.android.systemui"
                  android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
+		
+		<SwitchPreference
+        android:key="enable_combined_signal_icons"
+        android:title="@string/combined_status_bar_signal_icons_title"
+        android:summary="@string/combined_status_bar_signal_icons_summary"
+        android:defaultValue="false" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
