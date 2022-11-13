@@ -32,6 +32,8 @@ import java.util.HashSet;
 
 import android.content.pm.PackageManager.NameNotFoundException;
 import com.android.settings.SettingsPreferenceFragment;
+import com.cherish.settings.preferences.SystemSettingSwitchPreference;
+import com.cherish.settings.preferences.SystemSettingEditTextPreference;
 import com.cherish.settings.preferences.SystemSettingMasterSwitchPreference;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.SecureSettingSwitchPreference;
@@ -94,7 +96,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
             boolean value = (Boolean) newValue;
             SystemProperties.set(SYS_PHOTOS_SPOOF, value ? "true" : "false");
             return true;
-        }
+		}
         return false;
     }
 	

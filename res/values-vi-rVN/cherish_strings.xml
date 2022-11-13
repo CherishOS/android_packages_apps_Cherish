@@ -550,6 +550,10 @@
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
     <string name="reticker_summary">Thay thế thông báo nổi bằng thông báo kiểu mới được thiết kế lại mỏng và ít xâm lấn hơn</string>
+	<string name="new_reticker_title">Thay thế reTicker</string>
+    <string name="new_reticker_summary">Sử dụng bố cục thay thế cho reticker lấy cảm hứng từ ios</string>
+    <string name="new_reticker_animation_title">Hoạt ảnh reTicker thay thế</string>
+    <string name="new_reticker_animation_summary">Sử dụng một hoạt ảnh khác cho reticker (được bật theo mặc định trên reticker thay thế)</string>
     <string name="reticker_colored_title">Sử dụng nền màu ứng dụng</string>
     <string name="reticker_colored_summary">Thay thế màu nền reTicker bằng màu chính của ứng dụng thông báo</string>
     <!-- VoWiFi icon -->

@@ -95,6 +95,20 @@
         android:title="@string/reticker_colored_title"
         android:summary="@string/reticker_colored_summary"
         android:defaultValue="false" />
+		
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="new_reticker"
+            android:dependency="reticker_status"
+            android:title="@string/new_reticker_title"
+            android:summary="@string/new_reticker_summary"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="new_reticker_animation"
+            android:dependency="reticker_status"
+            android:title="@string/new_reticker_animation_title"
+            android:summary="@string/new_reticker_animation_summary"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 	

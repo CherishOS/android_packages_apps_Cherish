@@ -39,9 +39,13 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 	private static final String ALERT_SLIDER_PREF = "alert_slider_notifications";
+	
+	private static final String NEW_RETICKER = "new_reticker";
+    private static final String NEW_RETICKER_ANIMATION = "new_reticker_animation";
 
     private Preference mChargingLeds;
 	private Preference mAlertSlider;
+	private SystemSettingSwitchPreference mNewReticker, mNewRetickerAnimation;
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -68,11 +72,20 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         if (!CherishUtils.isVoiceCapable(getActivity())) {
                 prefScreen.removePreference(incallVibCategory);
         }
+		
+		mNewReticker = (SystemSettingSwitchPreference) findPreference(NEW_RETICKER);
+        mNewReticker.setOnPreferenceChangeListener(this);
+        mNewRetickerAnimation = (SystemSettingSwitchPreference) findPreference(NEW_RETICKER_ANIMATION);
+        mNewRetickerAnimation.setOnPreferenceChangeListener(this);
         
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+         if (preference == mNewReticker || preference == mNewRetickerAnimation) {
+            CherishUtils.showSystemUiRestartDialog(getActivity());
+            return true;
+		 }
         return false;
     }
 
