@@ -366,6 +366,7 @@
     <string name="navigation_bar_compact_layout_title">Compact layout</string>
     <string name="navigation_bar_compact_layout_summary">Use a compact layout in the navigation bar</string>
     <string name="system_navigation_summary">Choose which system navigation style to use</string>
+    <string name="navbar_layout_category_title">Layout</string>
 	
 	<!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>

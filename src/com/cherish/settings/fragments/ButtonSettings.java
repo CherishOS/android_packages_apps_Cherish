@@ -58,6 +58,7 @@ public class ButtonSettings extends ActionFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
+	private static final String NAVBAR_VISIBILITY = "navbar_visibility";
     private static final String KEY_NAVBAR_INVERSE = "navigation_bar_inverse";
     private static final String KEY_NAVIGATION_COMPACT_LAYOUT = "navigation_bar_compact_layout";
     private static final String KEY_SWAP_CAPACITIVE_KEYS = "swap_capacitive_keys";
@@ -86,8 +87,12 @@ public class ButtonSettings extends ActionFragment implements
     private PreferenceCategory mHwKeyCategory;
     private SecureSettingSwitchPreference mSwapCapacitiveKeys;
     private SwitchPreference mHwKeyDisable;
+	private SwitchPreference mNavbarVisibility;
     private SystemSettingSwitchPreference mNavbarInverse;
     private SystemSettingSwitchPreference mNavigationCompactLayout;
+	
+	private boolean mIsNavSwitchingMode = false;
+	private Handler mHandler;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -171,6 +176,14 @@ public class ButtonSettings extends ActionFragment implements
         mNavbarInverse.setEnabled(isThreeButtonNavbarEnabled);
         mNavigationCompactLayout = (SystemSettingSwitchPreference) findPreference(KEY_NAVIGATION_COMPACT_LAYOUT);
         mNavigationCompactLayout.setEnabled(isThreeButtonNavbarEnabled);
+		
+		mNavbarVisibility = (SwitchPreference) findPreference(NAVBAR_VISIBILITY);
+
+        boolean showing = Settings.System.getIntForUser(resolver,
+                Settings.System.FORCE_SHOW_NAVBAR,
+                ActionUtils.hasNavbarByDefault(getActivity()) ? 1 : 0, UserHandle.USER_CURRENT) != 0;
+        mNavbarVisibility.setChecked(showing);
+        mNavbarVisibility.setOnPreferenceChangeListener(this);
     }
 
     private static boolean isKeyDisablerSupported(Context context) {
@@ -191,6 +204,22 @@ public class ButtonSettings extends ActionFragment implements
             Settings.System.putInt(getContentResolver(), Settings.System.HARDWARE_KEYS_DISABLE,
                     value ? 1 : 0);
             setActionPreferencesEnabled(!value);
+            return true;
+		} else if (preference == mNavbarVisibility) {
+            if (mIsNavSwitchingMode) {
+                return false;
+            }
+            mIsNavSwitchingMode = true;
+            boolean showing = ((Boolean)newValue);
+            Settings.System.putIntForUser(resolver, Settings.System.FORCE_SHOW_NAVBAR,
+                    showing ? 1 : 0, UserHandle.USER_CURRENT);
+            mNavbarVisibility.setChecked(showing);
+            mHandler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    mIsNavSwitchingMode = false;
+                }
+            }, 1500);
             return true;
         }
         return false;
