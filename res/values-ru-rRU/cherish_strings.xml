@@ -43,13 +43,13 @@
     <string name="qs_category">Категории быстрых настроек</string>
     <string name="navbar_title">Панель навигации</string>
     <string name="volume_keys_title">Кнопки громкости</string>
-    <string name="udfps_category">UDFPS</string>
+    <string name="udfps_category">Отпечаток пальца</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Сброс</string>
     <string name="cancel">Отмена</string>
     <string name="save">Сохранить</string>
-    <string name="none_string">None</string>
+    <string name="none_string">Нет</string>
     <string name="default_string">По умолчанию</string>
     <string name="disabled">Отключен</string>
     <!-- Color Picker -->
@@ -139,10 +139,10 @@
     <string name="quick_pulldown_none">Отключен</string>
     <string name="quick_pulldown_right">Выпадающая строка состояния с правой стороны</string>
     <string name="quick_pulldown_left">Выпадающая строка состояния с левой стороны</string>
-    <string name="quick_pulldown_always">Always show quick settings on status bar pull down</string>
+    <string name="quick_pulldown_always">Всегда показывать быстрые настройки в выпадающем списке строки состояния</string>
     <!-- Statusbar double tap to sleep -->
-    <string name="double_tap_to_sleep_title">Status bar double tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_title">Двойное нажатие на строке состояния для сна</string>
+    <string name="double_tap_to_sleep_summary">Двойное нажатие по строке состояния переводит устройство в режим сна</string>
     <!-- Lockscreen double tap to sleep -->
     <string name="lockscreen_gesture_title">Жесты</string>
     <string name="double_tap_sleep_lockscreen_title">Lockscreen double tap to sleep</string>
