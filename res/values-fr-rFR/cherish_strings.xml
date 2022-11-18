@@ -237,6 +237,17 @@
     <string name="status_bar_battery_percent_title">Pourcentage de la batterie</string>
     <string name="status_bar_battery_style_title">Style de l\'icône de la batterie</string>
     <string name="status_bar_battery_style_icon_portrait">Icône portrait (défaut)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
+    <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
     <string name="status_bar_battery_style_circle">Cercle</string>
     <string name="status_bar_battery_style_dotted_circle">Cercle (Pointillé)</string>
     <string name="status_bar_battery_style_filled_circle">Cercle (Rempli)</string>
@@ -277,21 +288,6 @@
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Transparence des réglages rapides</string>
     <string name="qs_transparency_summary">Choisissez le niveau de transparence que vous voulez pour les réglages rapides (nécessite un redémarrage de SystemUI)</string>
-    <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_category_title">Disposition des tuiles</string>
-    <string name="qs_tile_layout_title">Disposition verticale</string>
-    <string name="qs_tile_layout_summary">Activer pour la disposition verticale. Disposition horizontale par défaut</string>
-    <!-- QS rows and columns -->
-    <string name="qs_layout_category_title">Disposition des réglages rapides</string>
-    <string name="qs_rows_portrait_title">Lignes de tuiles en mode portrait</string>
-    <string name="qs_rows_landscape_title">Lignes de tuiles en mode paysage</string>
-    <string name="qs_columns_portrait_title">Colonnes de tuiles en mode portrait</string>
-    <!-- QS tiles title visibility -->
-    <string name="qs_tile_title_visibility_title">Masquer les titres des tuiles</string>
-    <string name="qs_tile_title_visibility_summary">Masquer les titres des tuiles</string>
-    <!-- QS Tile style -->
-    <string name="qs_tile_style_title">Style des tuiles des réglages rapides</string>
-    <string name="qs_tile_style_summary">Change quicksettings tile design</string>
     <string name="click_partial_screenshot_title">Cliquer pour capturer l\'écran partiellement</string>
     <string name="click_partial_screenshot_summary">Pressez brièvement Volume Down et Power pour une capture d\'écran partielle</string>
     <!-- Brightness control -->
@@ -312,6 +308,7 @@
     <string name="navigation_bar_compact_layout_title">Compact layout</string>
     <string name="navigation_bar_compact_layout_summary">Use a compact layout in the navigation bar</string>
     <string name="system_navigation_summary">Choisir le style de navigation système à utiliser</string>
+    <string name="navbar_layout_category_title">Layout</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Réveiller l\'appareil en utilisant les boutons de volume</string>
     <string name="volume_rocker_wake_summary">L\'appui sur les touches de volumes réveillera votre appareil</string>
@@ -496,9 +493,6 @@
     <string name="wallpaper_color">Wallpaper color</string>
     <string name="custom_color">Custom color</string>
     <string name="edge_light_custom_color_title">Custom color</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Utiliser le thème sombre</string>
-    <string name="system_black_theme_summary">Forcer l\'utilisation de couleurs d\'arrière-plan sombres</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Settings layout</string>
     <string name="settings_dashboard_style_aosp">Aosp</string>
@@ -525,6 +519,11 @@
     <!-- UDFPS Haptic Feedback -->
     <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
     <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
+    <!-- Udfps authentication / error vibration -->
+    <string name="udfps_success_vib_title">Udfps authentication vibration</string>
+    <string name="udfps_success_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="udfps_error_vib_title">Udfps error vibration</string>
+    <string name="udfps_error_vib_summary">Vibrate on unsuccessful fingerprint authentication</string>
     <!-- UDFPS Recog Animation -->
     <string name="udfps_customization">UDFPS customization</string>
     <string name="udfps_recog_animation">UDFPS animation</string>
@@ -550,6 +549,10 @@
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
     <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
+    <string name="new_reticker_title">Alternative reTicker</string>
+    <string name="new_reticker_summary">Use an alternative layout for reticker that is inspired from ios</string>
+    <string name="new_reticker_animation_title">Alternative reTicker animation</string>
+    <string name="new_reticker_animation_summary">Use a different animation for reticker (enabled by default on alternative reTicker)</string>
     <string name="reticker_colored_title">Use app colored background</string>
     <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
     <!-- VoWiFi icon -->
@@ -581,4 +584,192 @@
     <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">Colored icons</string>
     <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in statusbar</string>
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
+    <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_summary">Apps will require fingerprint authentication to launch</string>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
+     </string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Power menu animation</string>
+    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
+    <string name="power_menu_animation_aosp">AOSP (default)</string>
+    <string name="power_menu_animation_bottom">Bottom</string>
+    <string name="power_menu_animation_top">Top</string>
+    <string name="power_menu_animation_xylon">Fly</string>
+    <string name="power_menu_animation_slide">Slide</string>
+    <string name="power_menu_animation_turn">Turn</string>
+    <string name="power_menu_animation_fly">Glow</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
+    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
+    <string name="power_menu_animation_rotate">Rotate</string>
+    <!-- QS tiles animations category -->
+    <string name="qs_tile_animation_category_title">QS Tiles</string>
+    <!-- Tiles animation style -->
+    <string name="qs_tile_animation_style_title">Animation style</string>
+    <string name="qs_tile_animation_duration_title">Animation duration</string>
+    <string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string>
+    <string name="qs_tile_animation_style_off">No animation</string>
+    <string name="qs_tile_animation_style_flip">Flip</string>
+    <string name="qs_tile_animation_style_rotate">Rotate</string>
+    <string name="qs_tile_animation_duration_low">Low</string>
+    <string name="qs_tile_animation_duration_default">Default</string>
+    <string name="qs_tile_animation_duration_fast">Fast</string>
+    <string name="qs_tile_animation_duration_quite_fast">Quite fast</string>
+    <string name="qs_tile_animation_duration_super_fast">Super fast</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
+    <!-- Power menu and dialogs opacity -->
+    <string name="power_menu_transparency">Power/reboot menu opacity</string>
+    <string name="power_menu_dialog_dim">Power/reboot dialog dim background amount</string>
+    <!-- Black theme -->
+    <string name="custom_theme_title">Use Custom theme</string>
+    <string name="custom_theme_summary">Force custom background colors</string>
+    <string name="custom_theme_default">Default</string>
+    <string name="custom_theme_black">Black</string>
+    <string name="custom_theme_clear">Clear</string>
+    <string name="custom_theme_vivid">Vivid(Monet)</string>
+    <!-- Pulse music visualizer -->
+    <string name="pulse_help_policy_notice_title">About Pulse</string>
+    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
+    <string name="show_navbar_pulse_title">Navbar Pulse</string>
+    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
+    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
+    <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
+    <string name="pulse_render_mode_title">Render mode</string>
+    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
+    <string name="pulse_render_mode_solid_lines">Solid lines</string>
+    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
+    <string name="pulse_custom_fudge_factor">Sanity level</string>
+    <string name="pulse_lavalamp_speed_title">Lava lamp speed</string>
+    <string name="pulse_solid_units_count">Solid lines count</string>
+    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
+    <string name="pulse_solid_units_rounded_title">Rounded corners</string>
+    <string name="pulse_solid_units_rounded_summary">Solid lines with rounded tip</string>
+    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
+    <string name="pulse_color_mode_title">Color</string>
+    <string name="pulse_color_accent">Accent</string>
+    <string name="pulse_color_custom">Custom</string>
+    <string name="pulse_color_lava_lamp">Lava lamp</string>
+    <string name="pulse_color_user_title">Choose color</string>
+    <string name="pulse_smoothing_enabled_title">Turn on smoothing</string>
+    <string name="pulse_smoothing_enabled_summary">Each bar is animated more smoothly</string>
+    <string name="pulse_custom_dimen">Bar width</string>
+    <string name="pulse_custom_div">Bar spacing</string>
+    <string name="pulse_filled_block_size">Block size</string>
+    <string name="pulse_empty_block_size">Block spacing</string>
+    <!-- Pulse Gravity n Mirror Options -->
+    <string name="pulse_custom_gravity_title">Gravity</string>
+    <string name="pulse_custom_gravity_bottom">Bottom</string>
+    <string name="pulse_custom_gravity_top">Top</string>
+    <string name="pulse_custom_gravity_center">Center</string>
+    <string name="visualizer_center_mirrored_title">Center mirrored</string>
+    <string name="visualizer_center_mirrored_summary">Set the visualizer in center mirrored mode</string>
+    <string name="pulse_vertical_mirror_title">Vertical Mirror</string>
+    <string name="pulse_vertical_mirror_summary">Create other pulse and flip vertically</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Set maximum charging level</string>
+    <string name="smart_charging_switch_title">Enable Smart Charging</string>
+    <string name="smart_charging_level_title">Stop trigger level</string>
+    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
+    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
+    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery. When enabled, battery stops charging at Stop trigger level and resumes charging at Start trigger level. Stop trigger level should be always greater than Start trigger level.</string>
+    <!-- Quick settings styling -->
+    <string name="qs_styling">Quick Settings UI</string>
+    <string name="qs_styles_title">QS Panel Styles</string>
+    <string name="qs_outline">QS Outline Style</string>
+    <string name="qs_two_tone">QS Two-Tone Accent</string>
+    <string name="qs_color_pop">QS Color Pop</string>
+    <!-- QS tiles layout direction: vertical or horizontal -->
+    <string name="qs_tile_layout_category_title">Disposition des tuiles</string>
+    <string name="qs_tile_layout_title">Disposition verticale</string>
+    <string name="qs_tile_layout_summary">Activer pour la disposition verticale. Disposition horizontale par défaut</string>
+    <!-- QS tiles title visibility -->
+    <string name="qs_tile_title_visibility_title">Masquer les titres des tuiles</string>
+    <string name="qs_tile_title_visibility_summary">Masquer les titres des tuiles</string>
+    <!-- QS tiles layout  -->
+    <string name="qs_layout_category_title">Disposition des réglages rapides</string>
+    <string name="qs_tile_label_hide_title">Hide label</string>
+    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
+    <string name="qs_tile_label_size_title">Label text size</string>
+    <string name="qs_columns_portrait_title">Colonnes de tuiles en mode portrait</string>
+    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Show squiggle animation</string>
+    <string name="show_squiggle_animation_summary">Show media panel squiggle animation, after change need to switch music, pause music or move the progress bar to apply</string>
+    <!-- Lockscreen interface -->
+    <string name="lockscreen_interface_title">Lockscreen User Interface</string>
+    <string name="lockscreen_clock_color_title">Custom lockscreen clock color</string>
+    <string name="lockscreen_clock_color_summary">Use custom color instead of wallpaper accent</string>
+    <string name="kg_custom_clock_color_title">Choose lockscreen clock color</string>
+    <string name="kg_custom_clock_font_title">Custom lockscreen clock font</string>
+    <string name="kg_custom_date_font_title">Custom lockscreen date font</string>
+    <string name="small_clock_doubleline_title">Double-line Lockscreen clock format</string>
+    <string name="small_clock_doubleline_summary">Use double-line clock instead of single line style for lockscreen clock</string>
+    <!-- QS Weather Options -->
+    <string name="qs_weather_title">QS System weather style</string>
+    <string name="qs_weather_summary">Configure system weather</string>
+    <string name="qsweather_dialog_title">QuickSettings weather location</string>
+    <string name="qs_weather_hidden">Hide weather</string>
+    <string name="qs_temperature_image_show_scale">Show temp with scale and image</string>
+    <string name="qs_temperature_image_hide_scale">Show temp with image without scale</string>
+    <string name="qs_temperature_show_scale_hide_image">Show temp with scale</string>
+    <string name="qs_temperature_hide_scale_hide_image">Show temp without scale</string>
+    <string name="qs_show_image">Show image</string>
+    <string name="weather_show_all_condition">Show temp with scale,image and weather condition</string>
+    <string name="qsweather_position_qqs">QuickSettings</string>
+    <string name="qsweather_position_qsb">QuickStatusbar</string>
+    <string name="qsweather_position_both">Both</string>
+    <!-- Launcher Weather Options -->
+    <string name="launcher_weather_title">Launcher System weather style</string>
+    <!-- Launcher Weather Options -->
+    <string name="kg_weather_title">Lockscreen System weather style</string>
+    <!-- Omni weather -->
+    <string name="qs_weather_settings_title">Weather Settings</string>
+    <string name="qs_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_title">Weather Settings</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Tips\u003a \n\n1. Users can install new icon packs from play store by searching for \"Chronus icons\".\n\n2. Condition icon pack is used for weather icons on quick settings and sushi launcher at a glance.\n\n3. Long press the QuickSettings weather view/logo/temperature to access weather settings with ease.</string>
+    <string name="qsweather_settings_title">QuickSettings Weather</string>
+    <string name="qsweather_settings_summary">Setup quicksettings weather views</string>
 </resources>
