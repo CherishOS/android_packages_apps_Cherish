@@ -600,16 +600,16 @@
     <string name="enable_debugging">Ativar depuração</string>
     <string name="disable_debugging">Desativar depuração</string>
     <string name="app_lock_packages_title">Apps protegidas</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
-          Heads up notifications will be automatically disabled.
+    <string name="app_lock_packages_summary">Selecione as apps a proteger com biometria ou credenciais do dispositivo</string>
+    <string name="app_lock_timeout_title">Tempo de bloqueio automático</string>
+    <string name="app_lock_timeout_summary">Duração de tempo após o qual uma app em segundo plano deve ser bloqueada</string>
+    <string name="app_lock_notifications_title">Ocultar notificações</string>
+    <string name="app_lock_notifications_summary">          O conteúdo das notificações será ocultado quando as apps selecionadas estiverem bloqueadas.
+          As notificações flutuantes serão desativadas automaticamente.
      </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="app_lock_notifications_disabled_summary">Proteja uma app primeiro</string>
+    <string name="app_lock_biometrics_allowed_title">Ativar biometria para desbloquear</string>
+    <string name="app_lock_footer_text">Os balões serão automaticamente dispensados após o tempo limite</string>
     <string name="enable_protection">Ativar proteção</string>
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Animação do menu de energia</string>
@@ -617,36 +617,36 @@
     <string name="power_menu_animation_aosp">AOSP (padrão)</string>
     <string name="power_menu_animation_bottom">Em baixo</string>
     <string name="power_menu_animation_top">Em cima</string>
-    <string name="power_menu_animation_xylon">Fly</string>
-    <string name="power_menu_animation_slide">Slide</string>
-    <string name="power_menu_animation_turn">Turn</string>
-    <string name="power_menu_animation_fly">Glow</string>
+    <string name="power_menu_animation_xylon">Voar</string>
+    <string name="power_menu_animation_slide">Deslizar</string>
+    <string name="power_menu_animation_turn">Virar</string>
+    <string name="power_menu_animation_fly">Brilhar</string>
     <string name="power_menu_animation_card">3D</string>
-    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
-    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
+    <string name="power_menu_animation_translucent_top">Translúcido (em cima)</string>
+    <string name="power_menu_animation_translucent_bottom">Translúcido (em baixo)</string>
     <string name="power_menu_animation_rotate">Rodar</string>
     <!-- QS tiles animations category -->
     <string name="qs_tile_animation_category_title">Blocos das definições rápidas</string>
     <!-- Tiles animation style -->
     <string name="qs_tile_animation_style_title">Estilo da animação</string>
     <string name="qs_tile_animation_duration_title">Duração da animação</string>
-    <string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string>
-    <string name="qs_tile_animation_style_off">No animation</string>
-    <string name="qs_tile_animation_style_flip">Flip</string>
-    <string name="qs_tile_animation_style_rotate">Rotate</string>
-    <string name="qs_tile_animation_duration_low">Low</string>
-    <string name="qs_tile_animation_duration_default">Default</string>
-    <string name="qs_tile_animation_duration_fast">Fast</string>
-    <string name="qs_tile_animation_duration_quite_fast">Quite fast</string>
-    <string name="qs_tile_animation_duration_super_fast">Super fast</string>
+    <string name="qs_tile_animation_interpolator_title">Interpolador de animação dos blocos</string>
+    <string name="qs_tile_animation_style_off">Sem animação</string>
+    <string name="qs_tile_animation_style_flip">Girar</string>
+    <string name="qs_tile_animation_style_rotate">Rodar</string>
+    <string name="qs_tile_animation_duration_low">Lenta</string>
+    <string name="qs_tile_animation_duration_default">Padrão</string>
+    <string name="qs_tile_animation_duration_fast">Rápida</string>
+    <string name="qs_tile_animation_duration_quite_fast">Bastante rápida</string>
+    <string name="qs_tile_animation_duration_super_fast">Muito rápida</string>
     <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar/desacelerar</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Ressaltar</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Ultrapassar</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Antecipar</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Antecipar e ultrapassar</string>
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
@@ -706,11 +706,11 @@
     <string name="smart_charging_title">Carregamento Inteligente</string>
     <string name="smart_charging_summary">Definir o nível máximo de carga</string>
     <string name="smart_charging_switch_title">Ativar Carregamento Inteligente</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_level_title">Nível para parar</string>
+    <string name="smart_charging_resume_level_title">Nível para iniciar</string>
     <string name="smart_charging_reset_stats_title">Repor estatísticas da bateria</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery. When enabled, battery stops charging at Stop trigger level and resumes charging at Start trigger level. Stop trigger level should be always greater than Start trigger level.</string>
+    <string name="smart_charging_reset_stats_summary">Repor as estatísticas da bateria após atingir o nível de carga definido pelo utilizador</string>
+    <string name="smart_charging_footer">O carregamento inteligente permite definir o nível máximo de carga para estender a duração da sua bateria. Quando ativado, a bateria para de carregar no valor definido em Nivel para parar, e retoma o carregamento no valor definido em Nível para iniciar. O Nível para parar deve ser sempre maior que o Nível para iniciar.</string>
     <!-- Quick settings styling -->
     <string name="qs_styling">Quick Settings UI</string>
     <string name="qs_styles_title">QS Panel Styles</string>
@@ -738,7 +738,7 @@
     <string name="lockscreen_interface_title">Lockscreen User Interface</string>
     <string name="lockscreen_clock_color_title">Custom lockscreen clock color</string>
     <string name="lockscreen_clock_color_summary">Use custom color instead of wallpaper accent</string>
-    <string name="kg_custom_clock_color_title">Choose lockscreen clock color</string>
+    <string name="kg_custom_clock_color_title">Escolher cor do relógio do ecrã de bloqueio</string>
     <string name="kg_custom_clock_font_title">Custom lockscreen clock font</string>
     <string name="kg_custom_date_font_title">Custom lockscreen date font</string>
     <string name="small_clock_doubleline_title">Double-line Lockscreen clock format</string>
