@@ -726,21 +726,21 @@
     <string name="qs_tile_title_visibility_summary">Alternar para ocultar os títulos dos blocos</string>
     <!-- QS tiles layout  -->
     <string name="qs_layout_category_title">Disposição das configurações rápidas</string>
-    <string name="qs_tile_label_hide_title">Hide label</string>
-    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
-    <string name="qs_tile_label_size_title">Label text size</string>
+    <string name="qs_tile_label_hide_title">Ocultar rótulos</string>
+    <string name="qs_tile_label_hide_summary">Mostrar apenas o ícone nos blocos</string>
+    <string name="qs_tile_label_size_title">Tamanho do texto dos rótulos</string>
     <string name="qs_columns_portrait_title">N.º de colunas (retrato)</string>
-    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+    <string name="qs_columns_landscape_title">Colunas (paisagem)</string>
     <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Show squiggle animation</string>
-    <string name="show_squiggle_animation_summary">Show media panel squiggle animation, after change need to switch music, pause music or move the progress bar to apply</string>
+    <string name="show_squiggle_animation_title">Mostrar animação de linha ondulada</string>
+    <string name="show_squiggle_animation_summary">Mostrar animação de linha ondulada no painel multimédia. Após a alteração precisa mudar de música, pausar ou mover a barra de progresso para aplicar</string>
     <!-- Lockscreen interface -->
-    <string name="lockscreen_interface_title">Lockscreen User Interface</string>
-    <string name="lockscreen_clock_color_title">Custom lockscreen clock color</string>
-    <string name="lockscreen_clock_color_summary">Use custom color instead of wallpaper accent</string>
+    <string name="lockscreen_interface_title">Interface do Ecrã de Bloqueio</string>
+    <string name="lockscreen_clock_color_title">Cor do relógio personalizada</string>
+    <string name="lockscreen_clock_color_summary">Usar uma cor personalizada em vez da cor de destaque</string>
     <string name="kg_custom_clock_color_title">Escolher cor do relógio do ecrã de bloqueio</string>
-    <string name="kg_custom_clock_font_title">Custom lockscreen clock font</string>
-    <string name="kg_custom_date_font_title">Custom lockscreen date font</string>
+    <string name="kg_custom_clock_font_title">Fonte do relógio personalizada</string>
+    <string name="kg_custom_date_font_title">Fonte da data personalizada</string>
     <string name="small_clock_doubleline_title">Double-line Lockscreen clock format</string>
     <string name="small_clock_doubleline_summary">Use double-line clock instead of single line style for lockscreen clock</string>
     <!-- QS Weather Options -->
