@@ -64,6 +64,12 @@
           android:key="use_games_spoof"
           android:title="@string/use_games_spoof_title"
           android:summary="@string/use_games_spoof_summary" />
+
+      <!--Netflix -->
+    <SwitchPreference
+        android:key="use_netflix_spoof"
+        android:title="@string/netflix_spoof_title"
+        android:summary="@string/netflix_spoof_summary"/>
 		  
 	<!-- Unlimited Photos storage -->
      <SwitchPreference
