@@ -772,4 +772,57 @@
         <item>52</item>
         <item>53</item>
     </string-array>
+	
+	<!-- KG/LAUNCHER Weather options -->
+    <string-array name="kg_launcher_weather_entries" translatable="false">
+        <item>@string/qs_weather_hidden</item>
+        <item>@string/qs_temperature_image_show_scale</item>
+        <item>@string/qs_temperature_image_hide_scale</item>
+        <item>@string/qs_temperature_show_scale_hide_image</item>
+        <item>@string/qs_temperature_hide_scale_hide_image</item>
+        <item>@string/qs_show_image</item>
+        <item>@string/weather_show_all_condition</item>
+    </string-array>
+
+    <string-array name="kg_launcher_weather_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+   <!-- QS Weather options -->
+    <string-array name="qs_weather_entries" translatable="false">
+        <item>@string/qs_weather_hidden</item>
+        <item>@string/qs_temperature_image_show_scale</item>
+        <item>@string/qs_temperature_image_hide_scale</item>
+        <item>@string/qs_temperature_show_scale_hide_image</item>
+        <item>@string/qs_temperature_hide_scale_hide_image</item>
+        <item>@string/qs_show_image</item>
+    </string-array>
+
+    <string-array name="qs_weather_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+   <!-- QS Weather positions -->
+    <string-array name="qsweather_position_entries" translatable="false">
+        <item>@string/qsweather_position_qqs</item>
+        <item>@string/qsweather_position_qsb</item>
+        <item>@string/qsweather_position_both</item>
+    </string-array>
+    
+    <string-array name="qsweather_position_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

@@ -861,4 +861,37 @@
     <string name="kg_custom_date_font_title">Custom lockscreen date font</string>
     <string name="small_clock_doubleline_title">Double-line Lockscreen clock format</string>
     <string name="small_clock_doubleline_summary">Use double-line clock instead of single line style for lockscreen clock</string>
+	
+	<!-- QS Weather Options -->
+    <string name="qs_weather_title">QS System weather style</string>
+    <string name="qs_weather_summary">Configure system weather</string>
+    <string name="qsweather_dialog_title">QuickSettings weather location</string>
+    <string name="qs_weather_hidden">Hide weather</string>
+    <string name="qs_temperature_image_show_scale">Show temp with scale and image</string>
+    <string name="qs_temperature_image_hide_scale">Show temp with image without scale</string>
+    <string name="qs_temperature_show_scale_hide_image">Show temp with scale</string>
+    <string name="qs_temperature_hide_scale_hide_image">Show temp without scale</string>
+    <string name="qs_show_image">Show image</string>
+    <string name="weather_show_all_condition">Show temp with scale,image and weather condition</string>
+    <string name="qsweather_position_qqs">QuickSettings</string>
+    <string name="qsweather_position_qsb">QuickStatusbar</string>
+    <string name="qsweather_position_both">Both</string>
+    
+    <!-- Launcher Weather Options -->
+    <string name="launcher_weather_title">Launcher System weather style</string>
+    
+    <!-- Launcher Weather Options -->
+    <string name="kg_weather_title">Lockscreen System weather style</string>
+
+    <!-- Omni weather -->
+    <string name="qs_weather_settings_title">Weather Settings</string>
+    <string name="qs_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_title">Weather Settings</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Tips\u003a \n\n1. Users can install new icon packs from play store by searching for \"Chronus icons\".\n\n2. Condition icon pack is used for weather icons on quick settings and sushi launcher at a glance.\n\n3. Long press the QuickSettings weather view/logo/temperature to access weather settings with ease.</string>
+    <string name="qsweather_settings_title">QuickSettings Weather</string>
+    <string name="qsweather_settings_summary">Setup quicksettings weather views</string>
 </resources>

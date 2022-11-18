@@ -73,8 +73,6 @@
             android:title="@string/lock_screen_custom_clock_face_title"
             android:entries="@array/lock_screen_custom_clock_face_entries"
             android:entryValues="@array/lock_screen_custom_clock_face_values" />
-
-    </PreferenceCategory>
 	
 	<SwitchPreference
         android:key="kg_custom_clock_color_enabled"
@@ -107,6 +105,18 @@
         android:title="@string/small_clock_doubleline_title"
         android:summary="@string/small_clock_doubleline_summary"
         android:defaultValue="false" />
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+        android:title="@string/weather_title">
+
+       <Preference
+            android:key="omnijaws_settings"
+            android:title="@string/qs_weather_settings_title"
+            android:summary="@string/qs_weather_settings_summary"
+            android:fragment="com.cherish.settings.fragments.OmniJawsSettings" />
+    </PreferenceCategory>
 	
 	<!-- Udfps options -->
     <PreferenceCategory
