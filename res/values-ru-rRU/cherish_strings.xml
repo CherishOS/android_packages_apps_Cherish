@@ -145,7 +145,7 @@
     <string name="double_tap_to_sleep_summary">Двойное нажатие по строке состояния переводит устройство в режим сна</string>
     <!-- Lockscreen double tap to sleep -->
     <string name="lockscreen_gesture_title">Жесты</string>
-    <string name="double_tap_sleep_lockscreen_title">Lockscreen double tap to sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">Сон после двойного нажатия на экране блокировки</string>
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
     <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
     <string name="notification_sound_vib_screen_on_summary">Disable to block notifications sound and vibration when the screen is awake</string>
