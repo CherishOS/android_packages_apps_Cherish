@@ -76,6 +76,38 @@
 
     </PreferenceCategory>
 	
+	<SwitchPreference
+        android:key="kg_custom_clock_color_enabled"
+        android:title="@string/lockscreen_clock_color_title"
+        android:summary="@string/lockscreen_clock_color_summary"
+        android:defaultValue="false" />
+
+    <net.margaritov.preference.colorpicker.SecureSettingColorPickerPreference
+        android:key="kg_custom_clock_color"
+        android:title="@string/kg_custom_clock_color_title"
+        android:defaultValue="0x92FFFFFF"
+        android:dependency="kg_custom_clock_color_enabled"/>
+
+    <com.cherish.settings.preferences.SecureSettingListPreference
+        android:key="kg_custom_clock_font"
+        android:title="@string/kg_custom_clock_font_title"
+        android:entries="@array/kg_custom_clock_font_entries"
+        android:entryValues="@array/kg_custom_clock_font_values"
+        android:defaultValue="0"/>
+
+    <com.cherish.settings.preferences.SecureSettingListPreference
+        android:key="kg_custom_date_font"
+        android:title="@string/kg_custom_date_font_title"
+        android:entries="@array/kg_custom_clock_font_entries"
+        android:entryValues="@array/kg_custom_clock_font_values"
+        android:defaultValue="0"/>
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="small_clock_double_line"
+        android:title="@string/small_clock_doubleline_title"
+        android:summary="@string/small_clock_doubleline_summary"
+        android:defaultValue="false" />
+	
 	<!-- Udfps options -->
     <PreferenceCategory
         android:key="udfps_category"
