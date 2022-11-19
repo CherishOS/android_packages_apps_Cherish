@@ -415,6 +415,9 @@
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Mở khóa FPS cao hơn trong trò chơi</string>
     <string name="use_games_spoof_summary">Giả mạo thiết bị của bạn làm kiểu máy khác cho các trò chơi cụ thể để mở khóa FPS cao hơn</string>
+    <!-- Netflix Spooft -->
+    <string name="netflix_spoof_title">Giả mạo Netflix</string>
+    <string name="netflix_spoof_summary">Giả mạo thiết bị của bạn thành kiểu máy khác cho Netflix</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Lưu trữ hình ảnh không giới hạn</string>
     <string name="use_photos_spoof_summary">Giả mạo thiết bị của bạn dưới dạng Pixel XL chỉ dành cho ứng dụng Google Photos để cung cấp bộ nhớ không giới hạn để sao lưu</string>
@@ -771,4 +774,14 @@
     <string name="weather_icon_pack_info_title">Mẹo\u003a \n\n1. Người dùng có thể cài đặt các gói biểu tượng mới từ cửa hàng Play bằng cách tìm kiếm \"biểu tượng Chronus\".\n\n2. Gói biểu tượng điều kiện được sử dụng cho các biểu tượng thời tiết trên cài đặt nhanh và trình khởi chạy sushi trong nháy mắt.\n\n3. Nhấn và giữ chế độ xem thời tiết /logo/nhiệt độ QuickSettings để truy cập cài đặt thời tiết một cách dễ dàng.</string>
     <string name="qsweather_settings_title">Thời tiết ở cài đặt nhanh</string>
     <string name="qsweather_settings_summary">Thiết lập chế độ xem thời tiết ở cài đặt nhanh</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Cảnh báo phía dưới</string>
+    <string name="qs_footer_warnings_summary">Hiển thị cảnh báo ở cuối bảng điều khiển cài đặt nhanh khi mạng được theo dõi bởi các ứng dụng ngoài hoặc VPN</string>
+    <!-- QS footer icons -->
+    <string name="qs_footer_users_icon_title">Biểu tượng tài khoản người dùng</string>
+    <string name="qs_footer_users_icon_summary">Hiển thị icon nhiều người dùng khi có sẵn</string>
+    <string name="qs_footer_edit_icon_title">Chỉnh sửa tiêu đề biểu tượng</string>
+    <string name="qs_footer_show_power_menu_title">Phím tắt menu nguồn</string>
+    <string name="qs_footer_services_icon_title">Lối tắt các dịch vụ đang chạy</string>
+    <string name="qs_footer_settings_icon_title">Đường tắt đến cài đặt</string>
 </resources>
