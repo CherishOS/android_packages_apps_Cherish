@@ -554,7 +554,7 @@
     <string name="reticker_summary">Substituir as notificações flutuantes por uma versão mais fina e menos invasiva</string>
     <string name="new_reticker_title">ReTicker alternativo</string>
     <string name="new_reticker_summary">Usar um estilo alternativo para o reTicker, inspirado no iOS</string>
-    <string name="new_reticker_animation_title">Animação do reTicker alternativo</string>
+    <string name="new_reticker_animation_title">Animação alternativa do reTicker</string>
     <string name="new_reticker_animation_summary">Usar uma animação diferente para o reTicker (ativado por defeito no reTicker alternativo)</string>
     <string name="reticker_colored_title">Usar fundo colorido da app</string>
     <string name="reticker_colored_summary">Substituir a cor de fundo do reTicker usando a cor principal da app que emite a notificação</string>
