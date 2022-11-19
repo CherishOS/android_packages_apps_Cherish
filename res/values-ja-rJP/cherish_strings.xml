@@ -415,6 +415,9 @@
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">ゲーム時の FPS の向上</string>
     <string name="use_games_spoof_summary">より高い FPS 設定を表示させるために一部のゲームで異なるモデルとして端末を偽装する</string>
+    <!-- Netflix Spooft -->
+    <string name="netflix_spoof_title">Netflix spoof</string>
+    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">無制限のフォトストレージ</string>
     <string name="use_photos_spoof_summary">お使いの端末は Pixel XL として写真アプリに認識され、無劣化で無制限のフォトストレージを利用できます。</string>
