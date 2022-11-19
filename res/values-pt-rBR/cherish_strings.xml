@@ -265,8 +265,8 @@
     <string name="qs_battery_category_title">No painel de configurações rápidas</string>
     <string name="qs_use_status_bar_battery_style">Seguir estilo da barra de status</string>
     <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Background chip</string>
-    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
+    <string name="statusbar_clock_chip_title">Fundo do relógio colorido</string>
+    <string name="statusbar_clock_chip_summary">Colorir o fundo do relógio na barra de status</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Controle de brilho</string>
     <string name="qs_show_brightness_slider_never">Nunca exibir</string>
@@ -283,7 +283,7 @@
     <string name="laboratory_ignore_window_secure_title">Ignorar sinalizadores de segurança da janela</string>
     <string name="laboratory_ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
     <!-- Lockscreen battery info -->
-    <string name="lockscreen_charging_info_title">Show charging info in lockscreen</string>
+    <string name="lockscreen_charging_info_title">Mostrar informações de carregamento na tela de bloqueio</string>
     <string name="lockscreen_charging_info_summary">Shows temperature, charging current and more while plugged in</string>
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Qs Transparency</string>
@@ -518,41 +518,41 @@
     <string name="lock_screen_custom_clock_face_oos">OOS</string>
     <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
     <string name="lock_screen_custom_clock_face_spark">Spark</string>
-    <string name="lock_screen_custom_clock_face_spark_circle">Spark Circle</string>
+    <string name="lock_screen_custom_clock_face_spark_circle">Círculo Spark</string>
     <!-- UDFPS Haptic Feedback -->
-    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
-    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
+    <string name="udfps_haptic_feedback_title">Resposta tátil na impressão digital</string>
+    <string name="udfps_haptic_feedback_summary">Vibrar ao tocar no ícone de impressão digital</string>
     <!-- Udfps authentication / error vibration -->
-    <string name="udfps_success_vib_title">Udfps authentication vibration</string>
-    <string name="udfps_success_vib_summary">Vibrate on successful fingerprint authentication</string>
-    <string name="udfps_error_vib_title">Udfps error vibration</string>
-    <string name="udfps_error_vib_summary">Vibrate on unsuccessful fingerprint authentication</string>
+    <string name="udfps_success_vib_title">Vibração na autenticação da impressão digital</string>
+    <string name="udfps_success_vib_summary">Vibrar na autenticação de impressão digital com sucesso</string>
+    <string name="udfps_error_vib_title">Vibração de erro da impressão digital</string>
+    <string name="udfps_error_vib_summary">Vibrar na autenticação de impressão digital sem sucesso</string>
     <!-- UDFPS Recog Animation -->
-    <string name="udfps_customization">UDFPS customization</string>
-    <string name="udfps_recog_animation">UDFPS animation</string>
-    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
-    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
-    <string name="udfps_settings_title">UDFPS settings</string>
-    <string name="udfps_settings_summary">Settings for customizing the UDFPS</string>
+    <string name="udfps_customization">Personalização da impressão digital</string>
+    <string name="udfps_recog_animation">Animação da impressão digital</string>
+    <string name="udfps_recog_animation_summary">Mostra uma animação durante a leitura da impressão digital</string>
+    <string name="udfps_recog_animation_effect_title">Animação personalizada da impressão digital</string>
+    <string name="udfps_recog_animation_effect_summary">Escolha o efeito da animação</string>
+    <string name="udfps_settings_title">Configurações da impressão digital</string>
+    <string name="udfps_settings_summary">Configurações para personalizar a impressão digital</string>
     <!-- UDFPS icon picker -->
-    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
-    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="udfps_icon_picker_title">Selecionar ícone de impressão digital</string>
+    <string name="udfps_icon_picker_summary">Escolha seu ícone de impressão digital favorito</string>
     <!-- Custom FOD Icon -->
-    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
-    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
-    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
-    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
+    <string name="custom_fp_icon_title">Ícone de impressão digital personalizado</string>
+    <string name="custom_fp_icon_summary">Usar ícone de impressão digital personalizado através de um arquivo</string>
+    <string name="custom_fp_select_title">Selecionar ícone de impressão digital personalizado</string>
+    <string name="custom_fp_select_summary">Selecione uma imagem personalizada dos seus arquivos salvos ou galeria</string>
     <!-- UDFPS pressed color -->
-    <string name="udfps_pressed_color_title">Udfps pressed color</string>
-    <string name="udfps_pressed_color_summary">Choose your favorite udfps pressed color</string>
+    <string name="udfps_pressed_color_title">Cor da impressão digital pressionada</string>
+    <string name="udfps_pressed_color_summary">Escolha a cor a ser mostrada quando o ícone de impressão digital é pressionado</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">Efeito cascata</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Mostrar efeito cascata ao desbloquear com impressão digital</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
-    <string name="new_reticker_title">Alternative reTicker</string>
+    <string name="reticker_summary">Substituir as notificações flutuantes por uma versão menos invasiva de ticker</string>
+    <string name="new_reticker_title">ReTicker alternativo</string>
     <string name="new_reticker_summary">Use an alternative layout for reticker that is inspired from ios</string>
     <string name="new_reticker_animation_title">Alternative reTicker animation</string>
     <string name="new_reticker_animation_summary">Use a different animation for reticker (enabled by default on alternative reTicker)</string>
