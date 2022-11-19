@@ -415,6 +415,9 @@
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Desbloquear maior FPS em jogos</string>
     <string name="use_games_spoof_summary">Disfarçar o seu dispositivo como um modelo diferente para desbloquear FPS mais elevados em alguns jogos</string>
+    <!-- Netflix Spooft -->
+    <string name="netflix_spoof_title">Netflix spoof</string>
+    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Armazenamento ilimitado de fotos</string>
     <string name="use_photos_spoof_summary">Disfarçar o seu dispositivo como Pixel XL para ter acesso a armazenamento ilimitado de backup no Google Fotos</string>
@@ -772,4 +775,14 @@
     <string name="weather_icon_pack_info_title">Dicas\u003a \n\n1. Os utilizadores podem instalar novos pacotes de ícones da play store procurando por \"Ícones Chronus\".\n\n2. O pacote de ícones de condições metereológicas é usado para os ícones meteorológicos exibidos nas definições rápidas.\n\n3. Toque e segure na informação meteorológica/logótipo/temperatura das definições rápidas para aceder com facilidade às configurações meteorológicas.</string>
     <string name="qsweather_settings_title">Meteorologia nas definições rápidas</string>
     <string name="qsweather_settings_summary">Configurar a exibição meteorológica nas definições rápidas</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Footer alerts</string>
+    <string name="qs_footer_warnings_summary">Display an alert at bottom of QS panel when network is monitored by external apps or VPN</string>
+    <!-- QS footer icons -->
+    <string name="qs_footer_users_icon_title">User account icon</string>
+    <string name="qs_footer_users_icon_summary">Display multiuser accessibility icon when available</string>
+    <string name="qs_footer_edit_icon_title">Edit tiles icon</string>
+    <string name="qs_footer_show_power_menu_title">Power menu shortcut</string>
+    <string name="qs_footer_services_icon_title">Running services shortcut</string>
+    <string name="qs_footer_settings_icon_title">Settings shortcut</string>
 </resources>
