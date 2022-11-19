@@ -802,4 +802,8 @@
     <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
     <string name="clearall_style_title">Material dismiss button style</string>
     <string name="clearall_bgstyle_title">Material dismiss background style</string>
+	
+	<!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
+    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons\n(WARNING: a soft reboot will occur upon enabling combined signal icons)</string>
 </resources>
