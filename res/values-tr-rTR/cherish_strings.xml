@@ -415,6 +415,9 @@
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Oyunlarda daha yüksek FPS kilidini açın</string>
     <string name="use_games_spoof_summary">Daha yüksek FPS kilidini açmak için belirli oyunlar için cihazınızı farklı bir model olarak taklit edin</string>
+    <!-- Netflix Spooft -->
+    <string name="netflix_spoof_title">Netflix spoof</string>
+    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Sınırsız Google Fotoğraflar depolaması</string>
     <string name="use_photos_spoof_summary">Orijinal kalitede fotoğraf saklamak için cihazınız Fotoğraflar uygulaması tarafından Pixel XL olarak tanımlanacak</string>
