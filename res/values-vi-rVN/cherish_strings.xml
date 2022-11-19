@@ -774,4 +774,15 @@
     <string name="weather_icon_pack_info_title">Mẹo\u003a \n\n1. Người dùng có thể cài đặt các gói biểu tượng mới từ cửa hàng Play bằng cách tìm kiếm \"biểu tượng Chronus\".\n\n2. Gói biểu tượng điều kiện được sử dụng cho các biểu tượng thời tiết trên cài đặt nhanh và trình khởi chạy sushi trong nháy mắt.\n\n3. Nhấn và giữ chế độ xem thời tiết /logo/nhiệt độ QuickSettings để truy cập cài đặt thời tiết một cách dễ dàng.</string>
     <string name="qsweather_settings_title">Thời tiết ở cài đặt nhanh</string>
     <string name="qsweather_settings_summary">Thiết lập chế độ xem thời tiết ở cài đặt nhanh</string>
+    <string name="qs_footer_category">Chân Cài đặt nhanh</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Footer alerts</string>
+    <string name="qs_footer_warnings_summary">Display an alert at bottom of QS panel when network is monitored by external apps or VPN</string>
+    <!-- QS footer icons -->
+    <string name="qs_footer_users_icon_title">User account icon</string>
+    <string name="qs_footer_users_icon_summary">Display multiuser accessibility icon when available</string>
+    <string name="qs_footer_edit_icon_title">Edit tiles icon</string>
+    <string name="qs_footer_show_power_menu_title">Power menu shortcut</string>
+    <string name="qs_footer_services_icon_title">Running services shortcut</string>
+    <string name="qs_footer_settings_icon_title">Settings shortcut</string>
 </resources>
