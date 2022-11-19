@@ -43,13 +43,13 @@
     <string name="qs_category">Categoria das configurações rápidas</string>
     <string name="navbar_title">Barra de navegação</string>
     <string name="volume_keys_title">Botões de volume</string>
-    <string name="udfps_category">UDFPS</string>
+    <string name="udfps_category">Impressão digital na tela</string>
     <!-- General strings -->
     <string name="ok">Aceitar</string>
     <string name="reset">Redefinir</string>
     <string name="cancel">Cancelar</string>
     <string name="save">Salvar</string>
-    <string name="none_string">None</string>
+    <string name="none_string">Nenhum</string>
     <string name="default_string">Padrão</string>
     <string name="disabled">Desabilitado</string>
     <!-- Color Picker -->
@@ -139,15 +139,15 @@
     <string name="quick_pulldown_none">Desabilitado</string>
     <string name="quick_pulldown_right">Puxe a barra de status do lado direito</string>
     <string name="quick_pulldown_left">Puxe a barra de status do lado esquerdo</string>
-    <string name="quick_pulldown_always">Always show quick settings on status bar pull down</string>
+    <string name="quick_pulldown_always">Sempre mostrar as configurações rápidas ao puxar para baixo na barra de status</string>
     <!-- Statusbar double tap to sleep -->
-    <string name="double_tap_to_sleep_title">Status bar double tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_title">Toque duplo na barra de status para dormir</string>
+    <string name="double_tap_to_sleep_summary">Toque duas vezes na barra de status para desligar a tela</string>
     <!-- Lockscreen double tap to sleep -->
     <string name="lockscreen_gesture_title">Gestos</string>
-    <string name="double_tap_sleep_lockscreen_title">Lockscreen double tap to sleep</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
-    <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
+    <string name="double_tap_sleep_lockscreen_title">Toque duplo na tela de bloqueio para dormir</string>
+    <string name="double_tap_sleep_lockscreen_summary">Toque duas vezes em qualquer lugar na tela de bloqueio para desligar a tela</string>
+    <string name="notification_sound_vib_screen_on_title">Sons de notificações com tela ligada</string>
     <string name="notification_sound_vib_screen_on_summary">Disable to block notifications sound and vibration when the screen is awake</string>
     <!-- Heads up options -->
     <string name="notifications_category_title">Annoying notifications protection</string>
@@ -162,18 +162,18 @@
     <string name="headset_connect_player_title">Launch music app on headset connection</string>
     <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
-    <string name="network_options_title">Options</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
+    <string name="network_traffic_title">Indicador de tráfego de rede</string>
+    <string name="network_traffic_summary">Ativar ou desativar o indicador de velocidade de rede na barra de status</string>
+    <string name="network_traffic_master_switch_title">Usar indicador de tráfego de rede</string>
+    <string name="network_options_title">Opções</string>
+    <string name="network_traffic_autohide_title">Ocultar indicador de tráfego de rede se inativo</string>
     <string name="network_traffic_autohide_summary">Ocultar o monitor de tráfego quando não houver atividade</string>
     <!-- NavBar Inverse -->
     <string name="navigation_bar_inverse_title">Inverter a ordem da barra de navegação</string>
-    <string name="status_bar_icons_category_title">Icons</string>
+    <string name="status_bar_icons_category_title">Ícones</string>
     <!-- Status bar - icon blocklist -->
     <string name="status_bar_icons_title">Ícones da barra de status</string>
-    <string name="status_bar_icons_summary">Choose which status bar icons can be shown</string>
+    <string name="status_bar_icons_summary">Escolha quais ícones da barra de status podem ser mostrados</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Exibir ícone de dados desativados</string>
     <string name="data_disabled_icon_summary">Mostrar um X no ícone do sinal de rede quando os dados móveis estiverem desligados</string>
@@ -187,7 +187,7 @@
     <string name="roaming_indicator_icon_title">Indicador de Roaming</string>
     <string name="roaming_indicator_icon_summary">Exibir o indicador de roaming no ícone de sinal quando em modo de roaming</string>
     <!-- Lock screen media artwork -->
-    <string name="lockscreen_media_art_options_title">Lock screen media art</string>
+    <string name="lockscreen_media_art_options_title">Arte de mídia na tela de bloqueio</string>
     <!-- Media art -->
     <string name="media_art_title">Capa de mídia</string>
     <string name="media_art_summary">Exibir a capa do álbum na tela de bloqueio</string>
@@ -197,7 +197,7 @@
     <string name="lockscreen_albumart_filter_tint">Tom da cor de destaque</string>
     <string name="lockscreen_albumart_filter_blur">Desfocar</string>
     <string name="lockscreen_albumart_filter_grayblur">Tons de cinza e desfocado</string>
-    <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lockscreen media artwork</string>
+    <string name="lockscreen_albumart_filter_blur_radius_title">Nível de desfoque da arte de mídia na tela de bloqueio</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_switch_title">Ícone VoLTE</string>
     <string name="volte_switch_summary">Exibir ícone VoLTE</string>
@@ -230,40 +230,40 @@
     <string name="volte_icon_volit">Ícone Volit</string>
     <string name="volte_icon_zirco">Ícone Ziroc</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
+    <string name="battery_style_title">Estilo do ícone da bateria</string>
+    <string name="battery_style_summary">Personalizar os ícones da bateria, ocultar ou mostrar porcentagem</string>
     <string name="battery_style_category_title">Ícone da bateria</string>
-    <string name="status_bar_battery_category_title">In Status Bar</string>
-    <string name="status_bar_battery_percent_title">Battery percentage</string>
+    <string name="status_bar_battery_category_title">Na Barra de Status</string>
+    <string name="status_bar_battery_percent_title">Porcentagem da bateria</string>
     <string name="status_bar_battery_style_title">Estilo de bateria</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
-    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
-    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone retrato (padrão)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ícone paisagem (Direita)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ícone paisagem (Esquerda)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Paisagem D Estilo A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Paisagem E Estilo A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Paisagem D Estilo B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Paisagem E Estilo B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Mx em retrato</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Lorn em Paisagem</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">IOS em retrato</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Airoo em paisagem</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Capsule em paisagem</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
     <string name="status_bar_battery_style_dotted_circle">Círculo pontilhado</string>
     <string name="status_bar_battery_style_filled_circle">Círculo preenchido</string>
-    <string name="status_bar_battery_style_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
+    <string name="status_bar_battery_style_big_circle">Círculo grande</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Círculo pontilhado grande</string>
     <string name="status_bar_battery_style_text">Texto</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_style_hidden">Oculta</string>
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
-    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
-    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="status_bar_battery_percent_text_next_right">Ao lado do ícone (direita)</string>
+    <string name="status_bar_battery_percent_text_next_left">Ao lado do ícone (esquerda)</string>
+    <string name="status_bar_battery_text_charging_title">Porcentagem da bateria ao carregar</string>
+    <string name="status_bar_battery_text_charging_summary">Sempre exibir a porcentagem da bateria ao carregar</string>
     <!-- QS battery -->
-    <string name="qs_battery_category_title">In QS Panel</string>
-    <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+    <string name="qs_battery_category_title">No painel de configurações rápidas</string>
+    <string name="qs_use_status_bar_battery_style">Seguir estilo da barra de status</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Background chip</string>
     <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
@@ -382,13 +382,13 @@
     <string name="hardware_keys_long_tap_title">Long tap action</string>
     <string name="button_wake_title">Wake device</string>
     <string name="button_wake_summary">Wake device by pressing the button</string>
-    <string name="camera_sleep_on_release_title">Screen peek</string>
-    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
-    <string name="camera_launch_title">Launch camera</string>
-    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="camera_sleep_on_release_title">Visualização de tela</string>
+    <string name="camera_sleep_on_release_summary">Um toque parcial manterá a tela ligada somente enquanto o botão estiver pressionado</string>
+    <string name="camera_launch_title">Iniciar a câmera</string>
+    <string name="camera_launch_summary">Mantenha pressionado e solte para iniciar a câmera</string>
     <string name="cursor_section_header">Cursor</string>
-    <string name="volume_key_cursor_control_title">Keyboard cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_title">Controle do cursor no teclado</string>
+    <string name="volume_key_cursor_control_off">Desativado</string>
     <string name="volume_key_cursor_control_on">Volume Up/Down - Cursor Left/Right</string>
     <string name="volume_key_cursor_control_on_reverse">Volume Up/Down - Cursor Right/Left</string>
     <string name="swap_volume_buttons_title">Reorientar</string>
