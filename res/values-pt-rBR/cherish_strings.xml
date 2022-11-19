@@ -291,13 +291,13 @@
     <string name="click_partial_screenshot_title">Click to partial screenshot</string>
     <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
     <!-- Brightness control -->
-    <string name="status_bar_brightness_control_title">Brightness control</string>
+    <string name="status_bar_brightness_control_title">Controle de brilho</string>
     <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across the status bar</string>
     <!-- Power menu on lockscreen -->
     <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
     <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
     <!-- Hide Status bar on lock screen -->
-    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
+    <string name="hide_lockscreen_status_bar_title">Ocultar a barra de status</string>
     <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
     <!-- Navigation bar -->
     <string name="navigation_bar_category">Barra de navegação</string>
@@ -389,15 +389,15 @@
     <string name="cursor_section_header">Cursor</string>
     <string name="volume_key_cursor_control_title">Controle do cursor no teclado</string>
     <string name="volume_key_cursor_control_off">Desativado</string>
-    <string name="volume_key_cursor_control_on">Volume Up/Down - Cursor Left/Right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume Up/Down - Cursor Right/Left</string>
+    <string name="volume_key_cursor_control_on">Volume Cima/Baixo - Cursor Esquerda/Direita</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume Cima/Baixo - Cursor Direita/Esquerda</string>
     <string name="swap_volume_buttons_title">Reorientar</string>
     <string name="swap_volume_buttons_summary">Inverter botões de volume quando a tela estiver invertida</string>
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
-    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
+    <string name="volume_panel_on_left_title">Mostrar painel de volume à esquerda</string>
+    <string name="volume_panel_on_left_summary">Mostrar o painel de volume no lado esquerdo da tela</string>
     <!-- Alert Slider Notifications (OnePlus devices) -->
-    <string name="alert_slider_notifications_title">Alert slider notifications</string>
-    <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
+    <string name="alert_slider_notifications_title">Notificações do controle deslizante de alerta</string>
+    <string name="alert_slider_notifications_summary">Exibe uma notificação ao alterar a posição do controle deslizante de alerta</string>
     <!-- Power Menu -->
     <string name="power_menu_title">Menu de energia</string>
     <string name="power_menu_title_summary">Exibir ou alterar os itens do menu de energia</string>
@@ -415,6 +415,9 @@
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Desbloquear maior FPS nos jogos</string>
     <string name="use_games_spoof_summary">Mascarar seu dispositivo como um modelo diferente para desbloquear mais FPS nos jogos</string>
+    <!-- Netflix Spooft -->
+    <string name="netflix_spoof_title">Netflix spoof</string>
+    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Armazenamento de fotos ilimitado</string>
     <string name="use_photos_spoof_summary">Mascarar seu dispositivo como Pixel XL para ter acesso ilimitado ao armazenamento de backup no Google Fotos</string>
@@ -467,7 +470,7 @@
     <string name="clock_date_position">Posição da data</string>
     <string name="clock_date_right">À direita do relógio</string>
     <string name="clock_date_left">À esquerda do relógio</string>
-    <string name="clock_font_size_title">Clock font size</string>
+    <string name="clock_font_size_title">Tamanho da fonte do relógio</string>
     <!-- QS clock -->
     <string name="qs_clock_title">Relógio</string>
     <string name="qs_clock_summary">Exibir relógio no cabeçalho da barra de status rápida</string>
@@ -475,42 +478,42 @@
     <string name="qs_date_title">Data</string>
     <string name="qs_date_summary">Exibir data no cabeçalho da barra de status rápida</string>
     <!-- Footer -->
-    <string name="qs_footer_category">QS Footer</string>
-    <string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <string name="qs_footer_category">Rodapé das configurações rápidas</string>
+    <string name="qs_footer_datausage_title">Uso de dados</string>
+    <string name="qs_footer_datausage_summary">Exibir resumo de uso de dados no rodapé das configurações rápidas</string>
     <!-- Edge light -->
-    <string name="edge_light_title">Edge light</string>
-    <string name="enable_edge_light">Enable Edge Light</string>
-    <string name="edge_light_intro_text">Display an animation along the edges of the screen when pulsing</string>
-    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
-    <string name="edge_light_repeat_animation_title">Repeat animation</string>
-    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
-    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
-    <string name="edge_light_color_mode_title">Edge light color mode</string>
-    <string name="accent_color">Accent color (Default)</string>
-    <string name="notification_color">Notification color</string>
-    <string name="wallpaper_color">Wallpaper color</string>
-    <string name="custom_color">Custom color</string>
-    <string name="edge_light_custom_color_title">Custom color</string>
+    <string name="edge_light_title">Luz da borda</string>
+    <string name="enable_edge_light">Ativar a luz da borda</string>
+    <string name="edge_light_intro_text">Exibir uma animação ao longo das bordas da tela ao pulsar</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Sempre ativar no pulso</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Mostrar a luz de borda sempre que a tela ambiente é exibida e não apenas para notificações</string>
+    <string name="edge_light_repeat_animation_title">Repetir animação</string>
+    <string name="edge_light_repeat_animation_summary_on">Repetir até o tempo limite</string>
+    <string name="edge_light_repeat_animation_summary_off">Mostrar apenas uma vez</string>
+    <string name="edge_light_color_mode_title">Cor da luz da borda</string>
+    <string name="accent_color">Cor de destaque (Padrão)</string>
+    <string name="notification_color">Cor da notificação</string>
+    <string name="wallpaper_color">Cor do papel de parede</string>
+    <string name="custom_color">Cor personalizada</string>
+    <string name="edge_light_custom_color_title">Cor personalizada</string>
     <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings layout</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_dashboard_style_title">Estilo das configurações</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
     <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
     <string name="settings_dashboard_style_cherish">Cherish</string>
     <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
-    <string name="settings_layout_category_title">Settings UI interface</string>
-    <string name="settings_base_style_title">Settings Base layout</string>
-    <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
-    <string name="settings_home_style_title">Settings Home layout</string>
-    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
-    <string name="disable_usercard_title">Settings UserCard</string>
-    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
+    <string name="settings_layout_category_title">Configurações da interface do sistema</string>
+    <string name="settings_base_style_title">Configurações do layout base</string>
+    <string name="settings_base_style_summary">Usar um layout alternativo para configurar os menus</string>
+    <string name="settings_home_style_title">Configurações do layout inicial</string>
+    <string name="settings_home_style_summary">Usar layout aosp padrão para a página inicial</string>
+    <string name="disable_usercard_title">Cartão de usuário</string>
+    <string name="disable_usercard_summary">Alterne para não mostrar o cartão de usuário na tela de configurações</string>
     <!-- Lockscreen Clocks -->
-    <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
-    <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
-    <string name="lock_screen_custom_clock_face_default">Default</string>
+    <string name="lock_screen_custom_clock_face_category">Relógio da tela de Bloqueio</string>
+    <string name="lock_screen_custom_clock_face_title">Estilo do relógio da tela de bloqueio</string>
+    <string name="lock_screen_custom_clock_face_default">Padrão</string>
     <string name="lock_screen_custom_clock_face_sfunny">Sfuny</string>
     <string name="lock_screen_custom_clock_face_oos">OOS</string>
     <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
@@ -570,9 +573,9 @@
     <string name="vowifi_icon_simple2">Simple2 Icon</string>
     <string name="vowifi_icon_simple3">Simple3 Icon</string>
     <string name="vowifi_icon_vivo">Vivo Icon</string>
-    <string name="vowifi_icon_margaritov">Margaritov Icon</string>
+    <string name="vowifi_icon_margaritov">Ícone Margaritov</string>
     <!-- Privacy Indicator -->
-    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_title">Indicador de privacidade do microfone e da câmera</string>
     <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or camera</string>
     <string name="location_privacy_indicator_title">Location privacy indicator</string>
     <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
