@@ -237,12 +237,12 @@
     <string name="status_bar_battery_percent_title">Persentase baterai</string>
     <string name="status_bar_battery_style_title">Gaya Baterai</string>
     <string name="status_bar_battery_style_icon_portrait">Ikon tegak (standar)</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ikon mendatar (Kanan)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ikon mendatar (Kiri)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Mendatar kanan Gaya A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Mendatar kiri Gaya A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Mendatar kanan Gaya B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Mendatar kiri Gaya B</string>
     <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
     <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
     <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
@@ -308,7 +308,7 @@
     <string name="navigation_bar_compact_layout_title">Tata letak yang ringkas</string>
     <string name="navigation_bar_compact_layout_summary">Gunakan tatak letak ringkas pada bilah navigasi</string>
     <string name="system_navigation_summary">Pilih gaya navigasi sistem yang akan digunakan</string>
-    <string name="navbar_layout_category_title">Layout</string>
+    <string name="navbar_layout_category_title">Tata letak</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Bangun dengan tombol volume</string>
     <string name="volume_rocker_wake_summary">Menekan tombol volume akan membangunkan perangkat Anda</string>
@@ -416,8 +416,8 @@
     <string name="use_games_spoof_title">Buka kunci FPS yang lebih tinggi dalam game</string>
     <string name="use_games_spoof_summary">Palsukan perangkat Anda sebagai model yang berbeda untuk game tertentu agar dapat membuka FPS yang lebih tinggi</string>
     <!-- Netflix Spooft -->
-    <string name="netflix_spoof_title">Netflix spoof</string>
-    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
+    <string name="netflix_spoof_title">Tipuan Netflix</string>
+    <string name="netflix_spoof_summary">Palsukan perangkat Anda sebagai model lain untuk Netflix</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Penyimpanan Google Foto tanpa batas</string>
     <string name="use_photos_spoof_summary">Palsukan perangkat Anda sebagai Pixel XL untuk aplikasi Google Foto hanya untuk menyediakan penyimpanan tidak terbatas untuk cadangan</string>
@@ -523,10 +523,10 @@
     <string name="udfps_haptic_feedback_title">Umpan balik Sidik Jari Dalam Layar</string>
     <string name="udfps_haptic_feedback_summary">Bergetar saat menyentuh ikon Sidik Jari Dalam Layar</string>
     <!-- Udfps authentication / error vibration -->
-    <string name="udfps_success_vib_title">Udfps authentication vibration</string>
-    <string name="udfps_success_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="udfps_success_vib_title">Getaran ketika sidik jari dalam layar terdeteksi</string>
+    <string name="udfps_success_vib_summary">Bergetar saat autentikasi sidik jari sukses</string>
     <string name="udfps_error_vib_title">Udfps error vibration</string>
-    <string name="udfps_error_vib_summary">Vibrate on unsuccessful fingerprint authentication</string>
+    <string name="udfps_error_vib_summary">Bergetar saat autentikasi sidik jari gagal</string>
     <!-- UDFPS Recog Animation -->
     <string name="udfps_customization">Kustomisasi Sidik Jari Dalam Layar</string>
     <string name="udfps_recog_animation">Animasi Sidik Jari Dalam Layar</string>
@@ -552,10 +552,10 @@
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
     <string name="reticker_summary">Ganti notifikasi mengambang dengan versi ticker yang didesain ulang yang ramping dan tidak terlalu invasif</string>
-    <string name="new_reticker_title">Alternative reTicker</string>
-    <string name="new_reticker_summary">Use an alternative layout for reticker that is inspired from ios</string>
-    <string name="new_reticker_animation_title">Alternative reTicker animation</string>
-    <string name="new_reticker_animation_summary">Use a different animation for reticker (enabled by default on alternative reTicker)</string>
+    <string name="new_reticker_title">Alternatif reTicker</string>
+    <string name="new_reticker_summary">Gunakan tata letak alternatif untuk reTicker yang terinspirasi dari iOS</string>
+    <string name="new_reticker_animation_title">Animasi reTicker alternatif</string>
+    <string name="new_reticker_animation_summary">Gunakan animasi berbeda untuk reTicker (diaktifkan secara default pada reTicker alternatif)</string>
     <string name="reticker_colored_title">Gunakan latar belakang berwarna aplikasi</string>
     <string name="reticker_colored_summary">Ganti warna latar belakang reTicker menggunakan warna utama notifikasi aplikasi</string>
     <!-- VoWiFi icon -->
@@ -588,18 +588,18 @@
     <string name="statusbar_colored_icons_title">Ikon berwarna</string>
     <string name="statusbar_colored_icons_summary">Gunakan ikon aplikasi yang tepat untuk ikon notifikasi di bilah status</string>
     <!-- Bluetooth status -->
-    <string name="bluetooth_battery_title">Bluetooth battery status</string>
-    <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
+    <string name="bluetooth_battery_title">Status baterai Bluetooth</string>
+    <string name="bluetooth_battery_summary">Menampilkan status baterai untuk perangkat bluetooth yang terhubung jika tersedia</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_title">Tombol senter saat layar mati</string>
+    <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
+    <string name="torch_power_button_gesture_dt">Ketuk dua kali tombol daya (respon ketukan tunggal lebih lambat), Menonaktifkan ketukan daya ganda untuk kamera.</string>
+    <string name="torch_power_button_gesture_dt_toast">Gestur jalan pintas ke kamera telah dinonaktifkan</string>
+    <string name="torch_power_button_gesture_lp">Tekan lama tombol daya</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
-    <string name="app_lock_summary">Apps will require fingerprint authentication to launch</string>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="app_lock_title">Kunci Aplikasi</string>
+    <string name="app_lock_summary">Aplikasi akan memerlukan autentikasi sidik jari untuk diluncurkan</string>
+    <string name="app_lock_authentication_dialog_title">Buka</string>
     <string name="enable_debugging">Enable debugging</string>
     <string name="disable_debugging">Disable debugging</string>
     <string name="app_lock_packages_title">Protected apps</string>
@@ -655,18 +655,18 @@
     <string name="qs_set_animation_interpolator">%1$s</string>
     <!-- Power menu and dialogs opacity -->
     <string name="power_menu_transparency">Power/reboot menu opacity</string>
-    <string name="power_menu_dialog_dim">Power/reboot dialog dim background amount</string>
+    <string name="power_menu_dialog_dim">Jumlah redup latar belakang dialog menu daya/mulai ulang</string>
     <!-- Black theme -->
-    <string name="custom_theme_title">Use Custom theme</string>
-    <string name="custom_theme_summary">Force custom background colors</string>
-    <string name="custom_theme_default">Default</string>
-    <string name="custom_theme_black">Black</string>
-    <string name="custom_theme_clear">Clear</string>
-    <string name="custom_theme_vivid">Vivid(Monet)</string>
+    <string name="custom_theme_title">Gunakan Tema Kustom</string>
+    <string name="custom_theme_summary">Paksa warna latar belakang kustom</string>
+    <string name="custom_theme_default">Bawaan</string>
+    <string name="custom_theme_black">Hitam</string>
+    <string name="custom_theme_clear">Bersih</string>
+    <string name="custom_theme_vivid">Vivid (Monet)</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_help_policy_notice_title">About Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
-    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_help_policy_notice_title">Tentang Visual Audio</string>
+    <string name="pulse_help_policy_notice_summary">Visual Audio adalah equalizer grafis audio yang brilian saat musik diputar di perangkat</string>
+    <string name="pulse_settings">Visual Audio</string>
     <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
     <string name="show_navbar_pulse_title">Navbar Pulse</string>
     <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
