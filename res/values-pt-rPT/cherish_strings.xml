@@ -737,44 +737,6 @@
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Mostrar animação de linha ondulada</string>
     <string name="show_squiggle_animation_summary">Mostrar animação de linha ondulada no painel multimédia. Após a alteração precisa mudar de música, pausar ou mover a barra de progresso para aplicar</string>
-    <!-- Lockscreen interface -->
-    <string name="lockscreen_interface_title">Interface do Ecrã de Bloqueio</string>
-    <string name="lockscreen_clock_color_title">Cor do relógio personalizada</string>
-    <string name="lockscreen_clock_color_summary">Usar uma cor personalizada em vez da cor de destaque</string>
-    <string name="kg_custom_clock_color_title">Escolher cor do relógio do ecrã de bloqueio</string>
-    <string name="kg_custom_clock_font_title">Fonte do relógio personalizada</string>
-    <string name="kg_custom_date_font_title">Fonte da data personalizada</string>
-    <string name="small_clock_doubleline_title">Formato de relógio em duas linhas</string>
-    <string name="small_clock_doubleline_summary">Usar relógio de linha dupla em vez do estilo de linha única no ecrã de bloqueio</string>
-    <!-- QS Weather Options -->
-    <string name="qs_weather_title">Estilo da meteorologia</string>
-    <string name="qs_weather_summary">Configurar a meteorologia no painel QS</string>
-    <string name="qsweather_dialog_title">Localização meteorológica</string>
-    <string name="qs_weather_hidden">Ocultar meteorologia</string>
-    <string name="qs_temperature_image_show_scale">Mostrar temperatura com escala e imagem</string>
-    <string name="qs_temperature_image_hide_scale">Mostrar temperatura com imagem sem escala</string>
-    <string name="qs_temperature_show_scale_hide_image">Mostrar temperatura com escala</string>
-    <string name="qs_temperature_hide_scale_hide_image">Mostrar temperatura sem escala</string>
-    <string name="qs_show_image">Mostrar imagem</string>
-    <string name="weather_show_all_condition">Mostrar temperatura com escala, imagem e condição meteorológica</string>
-    <string name="qsweather_position_qqs">Definições rápidas</string>
-    <string name="qsweather_position_qsb">Barra de estado rápida</string>
-    <string name="qsweather_position_both">Ambos</string>
-    <!-- Launcher Weather Options -->
-    <string name="launcher_weather_title">Estilo da meteorologia no Launcher</string>
-    <!-- Launcher Weather Options -->
-    <string name="kg_weather_title">Estilo da meteorologia no ecrã de bloqueio</string>
-    <!-- Omni weather -->
-    <string name="qs_weather_settings_title">Definições da Meteorologia</string>
-    <string name="qs_weather_settings_summary">Configurar pacote de ícones e serviço meteorológico</string>
-    <string name="weather_title">Definições da Meteorologia</string>
-    <string name="weather_config_title">Serviço meteorológico</string>
-    <string name="weather_config_summary">Definições do serviço do sistema</string>
-    <string name="weather_icon_pack_title">Pacote de ícones meteorológicos</string>
-    <string name="weather_icon_pack_note">Nota\u003a Pode instalar novos pacotes de ícones da Play Store procurando por \"Ícones Chronus\"</string>
-    <string name="weather_icon_pack_info_title">Dicas\u003a \n\n1. Os utilizadores podem instalar novos pacotes de ícones da play store procurando por \"Ícones Chronus\".\n\n2. O pacote de ícones de condições metereológicas é usado para os ícones meteorológicos exibidos nas definições rápidas.\n\n3. Toque e segure na informação meteorológica/logótipo/temperatura das definições rápidas para aceder com facilidade às configurações meteorológicas.</string>
-    <string name="qsweather_settings_title">Meteorologia nas definições rápidas</string>
-    <string name="qsweather_settings_summary">Configurar a exibição meteorológica nas definições rápidas</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Alertas de rodapé</string>
     <string name="qs_footer_warnings_summary">Exibir um alerta no fundo do painel quando a rede for monitorizada por apps externas ou VPN</string>
