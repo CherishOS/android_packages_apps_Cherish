@@ -736,44 +736,6 @@
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Показать анимацию ползунка</string>
     <string name="show_squiggle_animation_summary">Показать анимацию ползунка панели мультимедиа, после изменения необходимо переключить музыку, приостановить музыку или переместить ползунок, чтобы изменения вступили в силу</string>
-    <!-- Lockscreen interface -->
-    <string name="lockscreen_interface_title">Интерфейс экрана блокировки</string>
-    <string name="lockscreen_clock_color_title">Цвет часов экрана блокировки</string>
-    <string name="lockscreen_clock_color_summary">Использовать пользовательский цвет для Monet Engine вместо цвета обоев</string>
-    <string name="kg_custom_clock_color_title">Цвет часов экрана блокировки</string>
-    <string name="kg_custom_clock_font_title">Пользовательский шрифт часов</string>
-    <string name="kg_custom_date_font_title">Пользовательский шрифт даты</string>
-    <string name="small_clock_doubleline_title">Двухстрочный формат часов экрана блокировки</string>
-    <string name="small_clock_doubleline_summary">Использовать двухстрочные часы вместо однострочных на экране блокировки</string>
-    <!-- QS Weather Options -->
-    <string name="qs_weather_title">Стиль погоды в быстрых настройках</string>
-    <string name="qs_weather_summary">Настроить погоду в быстрых настройках</string>
-    <string name="qsweather_dialog_title">Местоположение для погоды</string>
-    <string name="qs_weather_hidden">Скрыть погоду</string>
-    <string name="qs_temperature_image_show_scale">Показывать температуру с единицами измерения и значком погоды</string>
-    <string name="qs_temperature_image_hide_scale">Показывать температуру с изображением без единиц измерения</string>
-    <string name="qs_temperature_show_scale_hide_image">Показывать температуру с единицами измерения</string>
-    <string name="qs_temperature_hide_scale_hide_image">Показывать температуру без единиц измерения</string>
-    <string name="qs_show_image">Показывать иконку</string>
-    <string name="weather_show_all_condition">Показывать температуру с единицами измерения, изображением и погодными условиями</string>
-    <string name="qsweather_position_qqs">Быстрые настройки</string>
-    <string name="qsweather_position_qsb">Быстрая панель статуса</string>
-    <string name="qsweather_position_both">Оба</string>
-    <!-- Launcher Weather Options -->
-    <string name="launcher_weather_title">Стиль погоды в быстрых настройках</string>
-    <!-- Launcher Weather Options -->
-    <string name="kg_weather_title">Стиль погоды на экране блокировки</string>
-    <!-- Omni weather -->
-    <string name="qs_weather_settings_title">Настройки погоды</string>
-    <string name="qs_weather_settings_summary">Настроить набор значков и службу погоды</string>
-    <string name="weather_title">Настройки погоды</string>
-    <string name="weather_config_title">Служба погоды</string>
-    <string name="weather_config_summary">Настройки системной службы</string>
-    <string name="weather_icon_pack_title">Стиль значков</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Tips\u003a \n\n1. Users can install new icon packs from play store by searching for \"Chronus icons\".\n\n2. Condition icon pack is used for weather icons on quick settings and sushi launcher at a glance.\n\n3. Long press the QuickSettings weather view/logo/temperature to access weather settings with ease.</string>
-    <string name="qsweather_settings_title">QuickSettings Weather</string>
-    <string name="qsweather_settings_summary">Setup quicksettings weather views</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Footer alerts</string>
     <string name="qs_footer_warnings_summary">Display an alert at bottom of QS panel when network is monitored by external apps or VPN</string>
