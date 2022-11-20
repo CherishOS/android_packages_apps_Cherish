@@ -124,9 +124,21 @@
          android:defaultValue="4" />
 
     </PreferenceCategory>
+	
+	<PreferenceCategory 
+         android:title="@string/qs_footer_category">
 
-	<PreferenceCategory
-        android:title="@string/qs_footer_category">
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_warnings"
+            android:title="@string/qs_footer_warnings_title"
+            android:summary="@string/qs_footer_warnings_summary"
+            android:defaultValue="true"/>
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_user"
+            android:title="@string/qs_footer_users_icon_title"
+            android:summary="@string/qs_footer_users_icon_summary"
+            android:defaultValue="true" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_footer_data_usage"
@@ -134,6 +146,26 @@
             android:summary="@string/qs_footer_datausage_summary"
             android:defaultValue="false" />
 
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_edit"
+            android:title="@string/qs_footer_edit_icon_title"
+            android:defaultValue="true" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_power_menu"
+            android:title="@string/qs_footer_show_power_menu_title"
+            android:defaultValue="true" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_services"
+            android:title="@string/qs_footer_services_icon_title" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_settings"
+            android:title="@string/qs_footer_settings_icon_title"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
+
 
 </PreferenceScreen>
