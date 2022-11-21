@@ -654,8 +654,8 @@
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
     <!-- Power menu and dialogs opacity -->
-    <string name="power_menu_transparency">Power/reboot menu opacity</string>
-    <string name="power_menu_dialog_dim">Power/reboot dialog dim background amount</string>
+    <string name="power_menu_transparency">Opacidade do menu de energia</string>
+    <string name="power_menu_dialog_dim">Escurecimento do fundo da caixa de diálogo do menu de energia</string>
     <!-- Black theme -->
     <string name="custom_theme_title">Usar tema personalizado</string>
     <string name="custom_theme_summary">Forçar cores de fundo personalizadas</string>
@@ -715,31 +715,31 @@
     <string name="smart_charging_reset_stats_summary">Redefinir as estatísticas da bateria depois de atingir o nível de carga definido pelo usuário</string>
     <string name="smart_charging_footer">O carregamento inteligente permite que você defina o nível máximo de carregamento para prolongar a vida útil da bateria. Quando ativada, a bateria para de carregar ao atingir o nível de Parada e retoma o carregamento ao atingir o nível de Início. O nível de parada deve ser sempre maior que o nível de Início.</string>
     <!-- Quick settings styling -->
-    <string name="qs_styling">Quick Settings UI</string>
-    <string name="qs_styles_title">QS Panel Styles</string>
+    <string name="qs_styling">Interface das configurações rápidas</string>
+    <string name="qs_styles_title">Estilo do painel de configurações rápidas</string>
     <string name="qs_outline">QS Outline Style</string>
     <string name="qs_two_tone">QS Two-Tone Accent</string>
     <string name="qs_color_pop">QS Color Pop</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_category_title">Tile layout</string>
+    <string name="qs_tile_layout_category_title">Layout das configurações rápidas</string>
     <string name="qs_tile_layout_title">Vertical layout</string>
     <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
     <!-- QS tiles title visibility -->
-    <string name="qs_tile_title_visibility_title">Hide tile titles</string>
-    <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
+    <string name="qs_tile_title_visibility_title">Ocultar títulos dos blocos</string>
+    <string name="qs_tile_title_visibility_summary">Alternar para ocultar os títulos dos blocos</string>
     <!-- QS tiles layout  -->
     <string name="qs_layout_category_title">QS Layout</string>
-    <string name="qs_tile_label_hide_title">Hide label</string>
-    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
-    <string name="qs_tile_label_size_title">Label text size</string>
+    <string name="qs_tile_label_hide_title">Ocultar rótulo</string>
+    <string name="qs_tile_label_hide_summary">Mostrar apenas o ícone no bloco</string>
+    <string name="qs_tile_label_size_title">Tamanho do texto do rótulo</string>
     <string name="qs_columns_portrait_title">Tile columns on portrait</string>
-    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+    <string name="qs_columns_landscape_title">Colunas (paisagem)</string>
     <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Show squiggle animation</string>
-    <string name="show_squiggle_animation_summary">Show media panel squiggle animation, after change need to switch music, pause music or move the progress bar to apply</string>
+    <string name="show_squiggle_animation_title">Mostrar animação de linha ondulada</string>
+    <string name="show_squiggle_animation_summary">Mostrar animação de linha ondulada no painel de mídia. Após a alteração é necessário alternar a música, pausar ou mover a barra de progresso para aplicar</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Alertas de rodapé</string>
-    <string name="qs_footer_warnings_summary">Display an alert at bottom of QS panel when network is monitored by external apps or VPN</string>
+    <string name="qs_footer_warnings_summary">Exibir um aviso na parte inferior do painel de configurações rápidas quando a rede é monitorada por aplicativos externos ou vpn</string>
     <!-- QS footer icons -->
     <string name="qs_footer_users_icon_title">Ícone da conta de usuário</string>
     <string name="qs_footer_users_icon_summary">Exibir ícone de acessibilidade de vários usuários quando disponível</string>
