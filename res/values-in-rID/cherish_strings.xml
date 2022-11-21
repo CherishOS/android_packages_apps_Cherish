@@ -611,22 +611,22 @@
           Notifikasi mengambang akan dinonaktifkan secara otomatis.
      </string>
     <string name="app_lock_notifications_disabled_summary">Lindungi aplikasi terlebih dahulu</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
+    <string name="app_lock_biometrics_allowed_title">Aktifkan biometrik untuk membuka kunci</string>
+    <string name="app_lock_footer_text">Gelembung akan ditutup secara otomatis setelah waktu habis</string>
+    <string name="enable_protection">Aktifkan perlindungan</string>
     <!-- Power menu Animations  -->
-    <string name="power_menu_animation_title">Power menu animation</string>
-    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
+    <string name="power_menu_animation_title">Animasi menu daya</string>
+    <string name="power_menu_animation_dialog_title">Pilih animasi menu daya</string>
     <string name="power_menu_animation_aosp">AOSP (default)</string>
-    <string name="power_menu_animation_bottom">Bottom</string>
-    <string name="power_menu_animation_top">Top</string>
-    <string name="power_menu_animation_xylon">Fly</string>
-    <string name="power_menu_animation_slide">Slide</string>
-    <string name="power_menu_animation_turn">Turn</string>
-    <string name="power_menu_animation_fly">Glow</string>
+    <string name="power_menu_animation_bottom">Bawah</string>
+    <string name="power_menu_animation_top">Atas</string>
+    <string name="power_menu_animation_xylon">Terbang</string>
+    <string name="power_menu_animation_slide">Geser</string>
+    <string name="power_menu_animation_turn">Belok</string>
+    <string name="power_menu_animation_fly">Menyala</string>
     <string name="power_menu_animation_card">3D</string>
-    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
-    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
+    <string name="power_menu_animation_translucent_top">Tembus (atas)</string>
+    <string name="power_menu_animation_translucent_bottom">Tembus (bawah)</string>
     <string name="power_menu_animation_rotate">Rotate</string>
     <!-- QS tiles animations category -->
     <string name="qs_tile_animation_category_title">QS Tiles</string>
