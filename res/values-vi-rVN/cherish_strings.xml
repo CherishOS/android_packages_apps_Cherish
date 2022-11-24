@@ -736,44 +736,6 @@
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Hiển thị hoạt ảnh uốn cong</string>
     <string name="show_squiggle_animation_summary">Hiển thị hoạt ảnh uốn cong bảng điều khiển phương tiện, sau khi thay đổi cần chuyển nhạc, tạm dừng nhạc hoặc di chuyển thanh tiến trình để áp dụng</string>
-    <!-- Lockscreen interface -->
-    <string name="lockscreen_interface_title">Giao diện màn hình khóa</string>
-    <string name="lockscreen_clock_color_title">Tùy chỉnh màu đồng hồ màn hình khóa</string>
-    <string name="lockscreen_clock_color_summary">Sử dụng màu tùy chỉnh thay vì điểm nhấn hình nền</string>
-    <string name="kg_custom_clock_color_title">Chọn màu đồng hồ màn hình khóa</string>
-    <string name="kg_custom_clock_font_title">Tùy chỉnh phông chữ đồng hồ màn hình khóa</string>
-    <string name="kg_custom_date_font_title">Phông chữ ngày trên màn hình khóa</string>
-    <string name="small_clock_doubleline_title">Đồng hồ kép trên màn hình khóa</string>
-    <string name="small_clock_doubleline_summary">Sử dụng đồng hồ kép thay vì kiểu một dòng cho đồng hồ màn hình khóa</string>
-    <!-- QS Weather Options -->
-    <string name="qs_weather_title">Kiểu thời tiết trên cài đặt nhanh</string>
-    <string name="qs_weather_summary">Định cấu hình thời tiết hệ thống</string>
-    <string name="qsweather_dialog_title">Vị trí thời tiết trên cài đặt nhanh</string>
-    <string name="qs_weather_hidden">Ẩn thời tiết</string>
-    <string name="qs_temperature_image_show_scale">Hiển thị nhiệt độ bằng thang đo và hình ảnh</string>
-    <string name="qs_temperature_image_hide_scale">Hiển thị nhiệt độ với hình ảnh mà không có thang đo</string>
-    <string name="qs_temperature_show_scale_hide_image">Hiển thị nhiệt độ có thang đo</string>
-    <string name="qs_temperature_hide_scale_hide_image">Hiển thị nhiệt độ không có thang đo</string>
-    <string name="qs_show_image">Hiển thị hình ảnh</string>
-    <string name="weather_show_all_condition">Hiển thị nhiệt độ với tỷ lệ, hình ảnh và điều kiện thời tiết</string>
-    <string name="qsweather_position_qqs">Cài đặt nhanh</string>
-    <string name="qsweather_position_qsb">Thanh trạng thái nhanh</string>
-    <string name="qsweather_position_both">Cả hai</string>
-    <!-- Launcher Weather Options -->
-    <string name="launcher_weather_title">Hệ thống khởi chạy kiểu thời tiết</string>
-    <!-- Launcher Weather Options -->
-    <string name="kg_weather_title">Hệ thống màn hình khóa phong cách thời tiết</string>
-    <!-- Omni weather -->
-    <string name="qs_weather_settings_title">Cài đặt thời tiết</string>
-    <string name="qs_weather_settings_summary">Cài đặt gói biểu tượng và dịch vụ thời tiết</string>
-    <string name="weather_title">Cài đặt thời tiết</string>
-    <string name="weather_config_title">Dịch vụ thời tiết</string>
-    <string name="weather_config_summary">Cài đặt dịch vụ hệ thống</string>
-    <string name="weather_icon_pack_title">Gói biểu tượng thời tiết</string>
-    <string name="weather_icon_pack_note">Chú ý\u003a bạn có thể tải gói biểu tượng mới từ play store bởi tìm kiếm \"biểu tượng Chronus\"</string>
-    <string name="weather_icon_pack_info_title">Mẹo\u003a \n\n1. Người dùng có thể cài đặt các gói biểu tượng mới từ cửa hàng Play bằng cách tìm kiếm \"biểu tượng Chronus\".\n\n2. Gói biểu tượng điều kiện được sử dụng cho các biểu tượng thời tiết trên cài đặt nhanh và trình khởi chạy sushi trong nháy mắt.\n\n3. Nhấn và giữ chế độ xem thời tiết /logo/nhiệt độ QuickSettings để truy cập cài đặt thời tiết một cách dễ dàng.</string>
-    <string name="qsweather_settings_title">Thời tiết ở cài đặt nhanh</string>
-    <string name="qsweather_settings_summary">Thiết lập chế độ xem thời tiết ở cài đặt nhanh</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Cảnh báo phía dưới</string>
     <string name="qs_footer_warnings_summary">Hiển thị cảnh báo ở cuối bảng điều khiển cài đặt nhanh khi mạng được theo dõi bởi các ứng dụng ngoài hoặc VPN</string>
