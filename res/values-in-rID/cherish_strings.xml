@@ -415,9 +415,6 @@
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Buka kunci FPS yang lebih tinggi dalam game</string>
     <string name="use_games_spoof_summary">Palsukan perangkat Anda sebagai model yang berbeda untuk game tertentu agar dapat membuka FPS yang lebih tinggi</string>
-    <!-- Netflix Spooft -->
-    <string name="netflix_spoof_title">Tipuan Netflix</string>
-    <string name="netflix_spoof_summary">Palsukan perangkat Anda sebagai model lain untuk Netflix</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Penyimpanan Google Foto tanpa batas</string>
     <string name="use_photos_spoof_summary">Palsukan perangkat Anda sebagai Pixel XL untuk aplikasi Google Foto hanya untuk menyediakan penyimpanan tidak terbatas untuk cadangan</string>

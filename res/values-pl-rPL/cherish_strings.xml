@@ -415,9 +415,6 @@
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Odblokuj wyższą liczbę kl./s w grach</string>
     <string name="use_games_spoof_summary">Sprawia, że Twoje urządzenie jest postrzegane jako inny model, aby odblokować wyższą liczbę kl./s</string>
-    <!-- Netflix Spooft -->
-    <string name="netflix_spoof_title">Netflix spoof</string>
-    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Nielimitowane miejsce na zdjęcia</string>
     <string name="use_photos_spoof_summary">Sprawia, że Twoje urządzenie jest postrzegane jako Pixel XL, aby odblokować nielimitowane miejsce na kopię zdjęć w zdjęciach Google</string>

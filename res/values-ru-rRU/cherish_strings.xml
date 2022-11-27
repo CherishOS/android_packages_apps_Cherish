@@ -415,9 +415,6 @@
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Разблокировать высокий FPS в играх</string>
     <string name="use_games_spoof_summary">Маскировка устройства под другую модель для определенных игр, чтобы разблокировать более высокий FPS</string>
-    <!-- Netflix Spooft -->
-    <string name="netflix_spoof_title">Обманка Netflix</string>
-    <string name="netflix_spoof_summary">Подделываем своё устройство под другую модель для Netflix</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Неограниченное хранилище фотографий</string>
     <string name="use_photos_spoof_summary">Маскировка устройства под Pixel XL для \"Google Фото\", чтобы предоставить неограниченное хранилище для резервного копирования фотографий</string>

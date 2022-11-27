@@ -415,9 +415,6 @@
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Mở khóa FPS cao hơn trong trò chơi</string>
     <string name="use_games_spoof_summary">Giả mạo thiết bị của bạn làm kiểu máy khác cho các trò chơi cụ thể để mở khóa FPS cao hơn</string>
-    <!-- Netflix Spooft -->
-    <string name="netflix_spoof_title">Giả mạo Netflix</string>
-    <string name="netflix_spoof_summary">Giả mạo thiết bị của bạn thành kiểu máy khác cho Netflix</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Lưu trữ hình ảnh không giới hạn</string>
     <string name="use_photos_spoof_summary">Giả mạo thiết bị của bạn dưới dạng Pixel XL chỉ dành cho ứng dụng Google Photos để cung cấp bộ nhớ không giới hạn để sao lưu</string>
