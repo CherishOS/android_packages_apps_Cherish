@@ -415,9 +415,6 @@
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Oyunlarda daha yüksek FPS kilidini açın</string>
     <string name="use_games_spoof_summary">Daha yüksek FPS kilidini açmak için belirli oyunlar için cihazınızı farklı bir model olarak taklit edin</string>
-    <!-- Netflix Spooft -->
-    <string name="netflix_spoof_title">Netflix spoof</string>
-    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Sınırsız Google Fotoğraflar depolaması</string>
     <string name="use_photos_spoof_summary">Orijinal kalitede fotoğraf saklamak için cihazınız Fotoğraflar uygulaması tarafından Pixel XL olarak tanımlanacak</string>
@@ -531,67 +528,67 @@
     <string name="udfps_customization">Parmak izi özelleştirmeleri</string>
     <string name="udfps_recog_animation">Parmak izi animasyonu</string>
     <string name="udfps_recog_animation_summary">Parmağınızı okurken bir animasyon gösterir</string>
-    <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
-    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
-    <string name="udfps_settings_title">UDFPS settings</string>
-    <string name="udfps_settings_summary">Settings for customizing the UDFPS</string>
+    <string name="udfps_recog_animation_effect_title">UDFPS özel animasyonu</string>
+    <string name="udfps_recog_animation_effect_summary">Animasyon efekti seç</string>
+    <string name="udfps_settings_title">UDFPS ayarları</string>
+    <string name="udfps_settings_summary">Parmak izi özelleştirme ayarları</string>
     <!-- UDFPS icon picker -->
-    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
-    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="udfps_icon_picker_title">Parmak izi simge seçici</string>
+    <string name="udfps_icon_picker_summary">En sevdiğiniz parmak izi simgesini seçin</string>
     <!-- Custom FOD Icon -->
-    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
-    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
-    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
-    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
+    <string name="custom_fp_icon_title">Özel parmak izi simgesi</string>
+    <string name="custom_fp_icon_summary">Dosyalardan özel simgeyi etkinleştir</string>
+    <string name="custom_fp_select_title">Özel parmak izi simgesi seç</string>
+    <string name="custom_fp_select_summary">Özel simgeyi kayıtlı dosyalarınızdan veya galeriden seçin</string>
     <!-- UDFPS pressed color -->
-    <string name="udfps_pressed_color_title">Udfps pressed color</string>
-    <string name="udfps_pressed_color_summary">Choose your favorite udfps pressed color</string>
+    <string name="udfps_pressed_color_title">Udfps basma rengi</string>
+    <string name="udfps_pressed_color_summary">Favori parmak izi basma renginizi seçin</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">Dalga efekti</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Parmak izi ile kilit açma sırasında dalgalanma efekti göster</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
-    <string name="new_reticker_title">Alternative reTicker</string>
-    <string name="new_reticker_summary">Use an alternative layout for reticker that is inspired from ios</string>
-    <string name="new_reticker_animation_title">Alternative reTicker animation</string>
-    <string name="new_reticker_animation_summary">Use a different animation for reticker (enabled by default on alternative reTicker)</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_summary">Uyarı bildirimini, yeniden tasarlanmış kayan yazının ince ve daha az müdahaleci sürümü ile değiştirin</string>
+    <string name="new_reticker_title">Alternatif son uygulamalar</string>
+    <string name="new_reticker_summary">ReTicker için ios\'tan ilham alan alternatif bir düzen kullanın</string>
+    <string name="new_reticker_animation_title">Alternatif reTicker animasyonu</string>
+    <string name="new_reticker_animation_summary">Reticker için farklı bir animasyon kullanın (alternatif reTicker\'da varsayılan olarak etkindir)</string>
+    <string name="reticker_colored_title">Uygulama renkli arka planı kullan</string>
+    <string name="reticker_colored_summary">Bildirim uygulaması ana rengini kullanarak reTicker arka plan rengini değiştirin</string>
     <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
-    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
-    <string name="vowifi_icon_style_title">VoWiFi icon style</string>
-    <string name="vowifi_icon_default">Default Icon</string>
-    <string name="vowifi_icon_emui">EMUI Icon</string>
-    <string name="vowifi_icon_asus">Asus Icon</string>
-    <string name="vowifi_icon_oneplus">OOS Icon</string>
-    <string name="vowifi_icon_moto">Motorola Icon</string>
-    <string name="vowifi_icon_simple1">Simple1 Icon</string>
-    <string name="vowifi_icon_simple2">Simple2 Icon</string>
-    <string name="vowifi_icon_simple3">Simple3 Icon</string>
-    <string name="vowifi_icon_vivo">Vivo Icon</string>
-    <string name="vowifi_icon_margaritov">Margaritov Icon</string>
+    <string name="vowifi_icon_title">VoWiFi simgesi</string>
+    <string name="vowifi_icon_enabled">VoWiFi simgesi etkin</string>
+    <string name="vowifi_icon_disabled">VoWiFi simgesi devre dışı</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoLTE simgesi yerine VoWiFi</string>
+    <string name="vowifi_icon_style_title">VoWiFi simge stili</string>
+    <string name="vowifi_icon_default">Varsayılan Simge</string>
+    <string name="vowifi_icon_emui">EMIUI Simgesi</string>
+    <string name="vowifi_icon_asus">Asus Simgesi</string>
+    <string name="vowifi_icon_oneplus">OOS Simgesi</string>
+    <string name="vowifi_icon_moto">Motorola Simgesi</string>
+    <string name="vowifi_icon_simple1">Basit 1</string>
+    <string name="vowifi_icon_simple2">Basit 2</string>
+    <string name="vowifi_icon_simple3">Basit 3</string>
+    <string name="vowifi_icon_vivo">Vivo Simgesi</string>
+    <string name="vowifi_icon_margaritov">Margaritov Simgesi</string>
     <!-- Privacy Indicator -->
-    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
-    <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or camera</string>
-    <string name="location_privacy_indicator_title">Location privacy indicator</string>
-    <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
-    <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
-    <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
+    <string name="mic_camera_privacy_indicator_title">Mikrofon ve kamera gizlilik göstergesi</string>
+    <string name="mic_camera_privacy_indicator_summary">Herhangi bir uygulama mikrofon veya kamera kullandığında ayrı gösterge göster</string>
+    <string name="location_privacy_indicator_title">Konum gizlilik göstergesi</string>
+    <string name="location_privacy_indicator_summary">Herhangi bir uygulama konum kullandığında ayrı gösterge göster</string>
+    <string name="projection_privacy_indicator_title">Medya projeksiyon gizlilik göstergesi</string>
+    <string name="projection_privacy_indicator_summary">Cihaz ekranı yansıtılırken simge göster</string>
     <!-- Notification count -->
-    <string name="statusbar_notif_count_title">Show notification count</string>
-    <string name="statusbar_notif_count_summary">Display the number of pending notifications</string>
+    <string name="statusbar_notif_count_title">Bildirim sayısını göster</string>
+    <string name="statusbar_notif_count_summary">Bekleyen bildirim sayısını göster</string>
     <!-- Statusbar colored icons -->
-    <string name="statusbar_colored_icons_title">Colored icons</string>
-    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in statusbar</string>
+    <string name="statusbar_colored_icons_title">Renkli simgeler</string>
+    <string name="statusbar_colored_icons_summary">Durum çubuğundaki bildirim simgeleri için uygun uygulama simgelerini kullanın</string>
     <!-- Bluetooth status -->
-    <string name="bluetooth_battery_title">Bluetooth battery status</string>
-    <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
+    <string name="bluetooth_battery_title">Bluetooth pil durumu</string>
+    <string name="bluetooth_battery_summary">Eğer mümkün ise bağlı olan bluetooth cihazının pil durumunu gösterir</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
+    <string name="torch_power_button_gesture_title">Ekran kapalıyken fener aç</string>
     <string name="torch_power_button_gesture_none">Devre dışı</string>
     <string name="torch_power_button_gesture_dt">Güç tuşuna çift tıklayarak fener açma (daha yavaş tek dokunma tepkisi), çift tıklama ile kamera açmayı devre dışı bırakır.</string>
     <string name="torch_power_button_gesture_dt_toast">Kamera hareketine geç artık devre dışı</string>
@@ -648,60 +645,60 @@
     <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Hızlandır ve yavaşlat</string>
     <string name="qs_tile_animation_interpolator_bounceInterpolator">Sıçrat</string>
     <string name="qs_tile_animation_interpolator_overshootInterpolator">İlerlet</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Beklet</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Beklet ve ileri at</string>
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
     <!-- Power menu and dialogs opacity -->
-    <string name="power_menu_transparency">Power/reboot menu opacity</string>
-    <string name="power_menu_dialog_dim">Power/reboot dialog dim background amount</string>
+    <string name="power_menu_transparency">Güç menüsü şeffaflığı</string>
+    <string name="power_menu_dialog_dim">Güç menüsü arkaplan karartma miktarı</string>
     <!-- Black theme -->
-    <string name="custom_theme_title">Use Custom theme</string>
-    <string name="custom_theme_summary">Force custom background colors</string>
-    <string name="custom_theme_default">Default</string>
-    <string name="custom_theme_black">Black</string>
-    <string name="custom_theme_clear">Clear</string>
-    <string name="custom_theme_vivid">Vivid(Monet)</string>
+    <string name="custom_theme_title">Özel tema kullan</string>
+    <string name="custom_theme_summary">Özel arkaplan renklerini zorla</string>
+    <string name="custom_theme_default">Varsayılan</string>
+    <string name="custom_theme_black">Siyah</string>
+    <string name="custom_theme_clear">Temizle</string>
+    <string name="custom_theme_vivid">Canlı(Monet)</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_help_policy_notice_title">About Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_help_policy_notice_title">Pulse Hakkına</string>
+    <string name="pulse_help_policy_notice_summary">Müzik çalarken kilit ekranında görünen akıllı bir ses grafik görselleştirmesidir</string>
     <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
-    <string name="show_navbar_pulse_title">Navbar Pulse</string>
-    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
-    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
-    <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
-    <string name="show_ambient_pulse_title">Ambient Pulse</string>
-    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
-    <string name="pulse_render_mode_title">Render mode</string>
-    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
-    <string name="pulse_render_mode_solid_lines">Solid lines</string>
-    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
-    <string name="pulse_custom_fudge_factor">Sanity level</string>
-    <string name="pulse_lavalamp_speed_title">Lava lamp speed</string>
-    <string name="pulse_solid_units_count">Solid lines count</string>
-    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
-    <string name="pulse_solid_units_rounded_title">Rounded corners</string>
-    <string name="pulse_solid_units_rounded_summary">Solid lines with rounded tip</string>
-    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
-    <string name="pulse_color_mode_title">Color</string>
-    <string name="pulse_color_accent">Accent</string>
-    <string name="pulse_color_custom">Custom</string>
-    <string name="pulse_color_lava_lamp">Lava lamp</string>
-    <string name="pulse_color_user_title">Choose color</string>
-    <string name="pulse_smoothing_enabled_title">Turn on smoothing</string>
-    <string name="pulse_smoothing_enabled_summary">Each bar is animated more smoothly</string>
-    <string name="pulse_custom_dimen">Bar width</string>
-    <string name="pulse_custom_div">Bar spacing</string>
-    <string name="pulse_filled_block_size">Block size</string>
-    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_settings_summary">Kilit ekranı ve gezinme çubuğunda ses görselleştirmesini gösterir</string>
+    <string name="show_navbar_pulse_title">Gezinme çubuğunda pulse</string>
+    <string name="show_navbar_pulse_summary">Gezinme çubuğunda ses görselleştirme</string>
+    <string name="show_lockscreen_pulse_title">Kilit ekranında Pulse</string>
+    <string name="show_lockscreen_pulse_summary">Kilit ekranında ses görselleştirmesini gösterir</string>
+    <string name="show_ambient_pulse_title">Ortam ekranında Pulse</string>
+    <string name="show_ambient_pulse_summary">Ortam ekranında ses görselleştirmesini göster</string>
+    <string name="pulse_render_mode_title">İşleme modu</string>
+    <string name="pulse_render_mode_fading_bars">Solan bloklar</string>
+    <string name="pulse_render_mode_solid_lines">Düz çizgiler</string>
+    <string name="pulse_legacy_mode_advanced_category">Solan bloklar modu ayarları</string>
+    <string name="pulse_custom_fudge_factor">Hassasiyet seviyesi</string>
+    <string name="pulse_lavalamp_speed_title">Lava lamba hızı</string>
+    <string name="pulse_solid_units_count">Düz çizgi sayısı</string>
+    <string name="pulse_solid_units_opacity">Düz çizgi saydamlığı</string>
+    <string name="pulse_solid_units_rounded_title">Yuvarlak köşeler</string>
+    <string name="pulse_solid_units_rounded_summary">Yuvarlak köşeli düz çizgiler</string>
+    <string name="pulse_solid_dimen_category">Düz çizgiler modu ayarları</string>
+    <string name="pulse_color_mode_title">Renk</string>
+    <string name="pulse_color_accent">Vurgu rengi</string>
+    <string name="pulse_color_custom">Özel</string>
+    <string name="pulse_color_lava_lamp">Lav lambası</string>
+    <string name="pulse_color_user_title">Renk seç</string>
+    <string name="pulse_smoothing_enabled_title">Yumuşatmayı aç</string>
+    <string name="pulse_smoothing_enabled_summary">Her çubuk daha pürüzsüz animasyonlu</string>
+    <string name="pulse_custom_dimen">Çubuk genişliği</string>
+    <string name="pulse_custom_div">Çubuk aralığı</string>
+    <string name="pulse_filled_block_size">Blok boyutu</string>
+    <string name="pulse_empty_block_size">Blok boşluğu</string>
     <!-- Pulse Gravity n Mirror Options -->
-    <string name="pulse_custom_gravity_title">Gravity</string>
-    <string name="pulse_custom_gravity_bottom">Bottom</string>
-    <string name="pulse_custom_gravity_top">Top</string>
-    <string name="pulse_custom_gravity_center">Center</string>
-    <string name="visualizer_center_mirrored_title">Center mirrored</string>
+    <string name="pulse_custom_gravity_title">Yer çekimi</string>
+    <string name="pulse_custom_gravity_bottom">Alttan</string>
+    <string name="pulse_custom_gravity_top">Üstten</string>
+    <string name="pulse_custom_gravity_center">Orta</string>
+    <string name="visualizer_center_mirrored_title">Merkez-yansıtmalı</string>
     <string name="visualizer_center_mirrored_summary">Görselleştiriciyi Merkez-yansıtmalı moda ayarlayın</string>
     <string name="pulse_vertical_mirror_title">Dikey ayna</string>
     <string name="pulse_vertical_mirror_summary">Başka bir pulse oluşturun ve dikey olarak çevirin</string>
@@ -738,13 +735,13 @@
     <string name="show_squiggle_animation_title">Eğri çizgi animasyonunu göster</string>
     <string name="show_squiggle_animation_summary">Medya paneli eğri çizgi animasyonunu göster, değişikliğin etkili olması için müzik değiştir, duraklat veya ilerleme çubuğunu oynat</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Footer alerts</string>
-    <string name="qs_footer_warnings_summary">Display an alert at bottom of QS panel when network is monitored by external apps or VPN</string>
+    <string name="qs_footer_warnings_title">Altbilgi uyarıları</string>
+    <string name="qs_footer_warnings_summary">Ağ harici uygulamalar veya VPN tarafından izlendiğinde Hızlı ayarlar panelinin altında uyarı göster</string>
     <!-- QS footer icons -->
-    <string name="qs_footer_users_icon_title">User account icon</string>
-    <string name="qs_footer_users_icon_summary">Display multiuser accessibility icon when available</string>
-    <string name="qs_footer_edit_icon_title">Edit tiles icon</string>
-    <string name="qs_footer_show_power_menu_title">Power menu shortcut</string>
-    <string name="qs_footer_services_icon_title">Running services shortcut</string>
-    <string name="qs_footer_settings_icon_title">Settings shortcut</string>
+    <string name="qs_footer_users_icon_title">Kullanıcı hesabı simgesi</string>
+    <string name="qs_footer_users_icon_summary">Mevcut olduğunda çoklu kullanıcı erişilebilirlik simgesini görüntüle</string>
+    <string name="qs_footer_edit_icon_title">Kare düzenleme simgesi</string>
+    <string name="qs_footer_show_power_menu_title">Güç menüsü kısayolu</string>
+    <string name="qs_footer_services_icon_title">Çalışan hizmetler kısayolu</string>
+    <string name="qs_footer_settings_icon_title">Ayarlar kısayolu</string>
 </resources>
