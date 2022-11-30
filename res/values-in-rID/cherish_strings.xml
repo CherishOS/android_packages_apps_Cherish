@@ -19,17 +19,17 @@
     <string name="gestures_title">Gestur</string>
     <string name="gestures_summary">Membuka kamera, usap untuk menangkap layar</string>
     <string name="lockscreen_title">Layar kunci</string>
-    <string name="lockscreen_summary">Visualisasi musik, animasi pengisian daya, gaya jam</string>
+    <string name="lockscreen_summary">Visual audio, seni media, gaya jam</string>
     <string name="misc_title">Lain-lain</string>
     <string name="misc_summary">Mode Game, kontrol volume</string>
     <string name="animations_title">Animasi</string>
-    <string name="animations_summary">Animasi sistem</string>
+    <string name="animations_summary">Animasi menu daya, setelan cepat</string>
     <string name="powermenu_title">Menu tombol daya</string>
-    <string name="powermenu_summary">Mulai ulang lanjutan, opasitas menu daya</string>
+    <string name="powermenu_summary">Opasitas dan item menu daya</string>
     <string name="theme_title">Tema</string>
-    <string name="theme_summary">Tema sistem, sudut lengkung, ganti tema</string>
+    <string name="theme_summary">Font, gaya ikon, antarmuka setelan</string>
     <string name="quicksettings_title">Setelan Cepat</string>
-    <string name="quicksettings_summary">Tata telak ubin, latar blur</string>
+    <string name="quicksettings_summary">Transparansi, tata letak, slider kecerahan</string>
     <string name="recents_title">Aplikasi baru-baru ini</string>
     <string name="recents_summary">Baru-baru ini gaya slim</string>
     <string name="statusbar_title">Bilah status</string>
@@ -659,7 +659,7 @@
     <string name="custom_theme_default">Bawaan</string>
     <string name="custom_theme_black">Hitam</string>
     <string name="custom_theme_clear">Bersih</string>
-    <string name="custom_theme_vivid">Vivid (Monet)</string>
+    <string name="custom_theme_vivid">Jelas (Monet)</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">Tentang Visual Audio</string>
     <string name="pulse_help_policy_notice_summary">Visual Audio adalah equalizer grafis audio yang brilian saat musik diputar di perangkat</string>
