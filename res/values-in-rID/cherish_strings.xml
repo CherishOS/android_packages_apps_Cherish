@@ -21,7 +21,7 @@
     <string name="lockscreen_title">Layar kunci</string>
     <string name="lockscreen_summary">Visual audio, seni media, gaya jam</string>
     <string name="misc_title">Lain-lain</string>
-    <string name="misc_summary">Mode Game, kontrol volume</string>
+    <string name="misc_summary">Fitur pemalsuan, kunci aplikasi</string>
     <string name="animations_title">Animasi</string>
     <string name="animations_summary">Animasi menu daya, setelan cepat</string>
     <string name="powermenu_title">Menu tombol daya</string>
