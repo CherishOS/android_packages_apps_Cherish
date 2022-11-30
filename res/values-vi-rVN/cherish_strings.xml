@@ -743,4 +743,23 @@
     <string name="qs_footer_show_power_menu_title">Phím tắt menu nguồn</string>
     <string name="qs_footer_services_icon_title">Lối tắt các dịch vụ đang chạy</string>
     <string name="qs_footer_settings_icon_title">Đường tắt đến cài đặt</string>
+    <!-- Wifi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">Thời gian chờ Wifi</string>
+    <string name="wifi_timeout_summary">Không tự động tắt WiFi</string>
+    <string name="wifi_timeout_summary_auto">WiFi sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có mạng nào được kết nối</string>
+    <string name="bluetooth_timeout">Thời gian chờ Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Không tự động tắt Bluetooth</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có thiết bị nào được kết nối</string>
+    <string name="custom_timeout_summary_never">Không bao giờ</string>
+    <string name="custom_timeout_summary_15secs">15 giây</string>
+    <string name="custom_timeout_summary_30secs">30 giây</string>
+    <string name="custom_timeout_summary_1min">1 phút</string>
+    <string name="custom_timeout_summary_2mins">2 phút</string>
+    <string name="custom_timeout_summary_5mins">5 phút</string>
+    <string name="custom_timeout_summary_10mins">10 phút</string>
+    <string name="custom_timeout_summary_30mins">30 phút</string>
+    <string name="custom_timeout_summary_1hour">1 giờ</string>
+    <string name="custom_timeout_summary_2hours">2 giờ</string>
+    <string name="custom_timeout_summary_4hours">4 giờ</string>
+    <string name="custom_timeout_summary_8hours">8 giờ</string>
 </resources>
