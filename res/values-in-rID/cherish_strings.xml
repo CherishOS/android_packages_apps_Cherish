@@ -195,8 +195,8 @@
     <string name="lockscreen_albumart_filter_title">Filter seni sampul media</string>
     <string name="lockscreen_albumart_filter_grayscale">Skala abu-abu</string>
     <string name="lockscreen_albumart_filter_tint">Aksen berwarna</string>
-    <string name="lockscreen_albumart_filter_blur">Buram</string>
-    <string name="lockscreen_albumart_filter_grayblur">Skala abu-abu dan buram</string>
+    <string name="lockscreen_albumart_filter_blur">Blur</string>
+    <string name="lockscreen_albumart_filter_grayblur">Skala abu-abu dan blur</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Jumlah blur untuk karya seni media layar kunci</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_switch_title">Ikon VoLTE</string>
