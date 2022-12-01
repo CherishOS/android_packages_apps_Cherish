@@ -703,8 +703,8 @@
     <string name="pulse_vertical_mirror_title">Vertical Mirror</string>
     <string name="pulse_vertical_mirror_summary">Create other pulse and flip vertically</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
+    <string name="smart_charging_title">智能充电</string>
+    <string name="smart_charging_summary">设置最大充电级别</string>
     <string name="smart_charging_switch_title">启用智能充电</string>
     <string name="smart_charging_level_title">停止触发级别</string>
     <string name="smart_charging_resume_level_title">开始触发级别</string>
