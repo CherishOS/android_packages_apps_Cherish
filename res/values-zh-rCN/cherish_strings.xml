@@ -591,7 +591,7 @@
     <string name="torch_power_button_gesture_title">屏幕关闭时切换手电筒</string>
     <string name="torch_power_button_gesture_none">已禁用</string>
     <string name="torch_power_button_gesture_dt">双击电源按钮（较慢的单击响应），禁用双击启动相机</string>
-    <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
+    <string name="torch_power_button_gesture_dt_toast">已禁用跳转至相机手势</string>
     <string name="torch_power_button_gesture_lp">长按电源键</string>
     <!-- App lock -->
     <string name="app_lock_title">应用锁</string>
@@ -602,7 +602,7 @@
     <string name="app_lock_packages_title">受保护的应用</string>
     <string name="app_lock_packages_summary">选择要使用生物识别或设备凭据保护的应用</string>
     <string name="app_lock_timeout_title">自动锁定超时</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_timeout_summary">未锁定后台应用程序的持续时间</string>
     <string name="app_lock_notifications_title">编辑通知</string>
     <string name="app_lock_notifications_summary">          当所选应用被锁定时，通知内容将被隐藏并折叠。
           浮动通知将被自动禁用。
@@ -674,7 +674,7 @@
     <string name="pulse_render_mode_title">Render mode</string>
     <string name="pulse_render_mode_fading_bars">Fading blocks</string>
     <string name="pulse_render_mode_solid_lines">Solid lines</string>
-    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
+    <string name="pulse_legacy_mode_advanced_category">渐变块模式设置</string>
     <string name="pulse_custom_fudge_factor">Sanity level</string>
     <string name="pulse_lavalamp_speed_title">Lava lamp speed</string>
     <string name="pulse_solid_units_count">Solid lines count</string>
@@ -706,8 +706,8 @@
     <string name="smart_charging_title">Smart Charging</string>
     <string name="smart_charging_summary">Set maximum charging level</string>
     <string name="smart_charging_switch_title">启用智能充电</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_level_title">停止触发级别</string>
+    <string name="smart_charging_resume_level_title">开始触发级别</string>
     <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
     <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery. When enabled, battery stops charging at Stop trigger level and resumes charging at Start trigger level. Stop trigger level should be always greater than Start trigger level.</string>
