@@ -59,6 +59,13 @@
             android:summary="@string/dark_ui_mode_summary"
             android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
             settings:controller="com.android.settings.display.DarkUIPreferenceController" />
+
+        <!-- Monet settings -->
+    <Preference
+        android:key="monet_settings"
+        android:title="@string/monet_settings_title"
+        android:summary="@string/monet_settings_sammary"
+        android:fragment="com.cherish.settings.fragments.MonetSettings" />
 			
 		<Preference
             android:key="android.theme.customization.lockscreen_clock_font"

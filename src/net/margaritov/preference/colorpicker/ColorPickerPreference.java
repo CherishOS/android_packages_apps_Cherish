@@ -96,7 +96,7 @@ public class ColorPickerPreference extends Preference implements
             mAlphaSliderEnabled = attrs.getAttributeBooleanValue(null, "alphaSlider", false);
             int defVal = attrs.getAttributeIntValue(SETTINGS_NS, "defaultColorValue", DEF_VALUE_DEFAULT);
             if (defVal != DEF_VALUE_DEFAULT) {
-                mUsesDefaultButton =  true;
+                mUsesDefaultButton = true;
                 mDefValue = defVal;
             }
             mShowLedPreview = attrs.getAttributeBooleanValue(null, "ledPreview", false);
