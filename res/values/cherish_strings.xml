@@ -876,4 +876,25 @@
     <!-- Combined signal icons in status bar -->
     <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
     <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons\n(WARNING: a soft reboot will occur upon enabling combined signal icons)</string>
+    
+    <!-- Monet settings -->
+    <string name="monet_settings_title">Monet theming</string>
+    <string name="monet_settings_sammary">A few extra settings to customize monet engine</string>
+    <string name="theme_style_title">Theme style</string>
+    <string name="theme_style_tonal_spot">Tonal Spot (Default)</string>
+    <string name="theme_style_vibrant">Vibrant</string>
+    <string name="theme_style_expressive">Exspressive</string>
+    <string name="theme_style_spritz">Spritz</string>
+    <string name="theme_style_rainbow">Rainbow</string>
+    <string name="theme_style_fruit_salad">Fruit Salad</string>
+    <string name="theme_style_muted">Muted</string>
+    <string name="theme_style_content">Content</string>
+    <string name="color_source_title">Color source</string>
+    <string name="color_source_both">Both (Default)</string>
+    <string name="color_source_home">Home wallpaper</string>
+    <string name="color_source_lock">Lock wallpaper</string>
+    <string name="color_source_preset">Preset</string>
+    <string name="accent_color_title">Accent Color</string>
+    <string name="accent_color_summary">Override default accent color</string>
+
 </resources>
