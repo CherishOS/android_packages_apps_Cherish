@@ -763,4 +763,7 @@
     <string name="custom_timeout_summary_2hours">2 jam</string>
     <string name="custom_timeout_summary_4hours">4 jam</string>
     <string name="custom_timeout_summary_8hours">8 jam</string>
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Ikon sinyal gabungan</string>
+    <string name="combined_status_bar_signal_icons_summary">Aktifkan ikon sinyal gabungan (SistemUI akan dimulai ulang secara otomatis saat mengaktifkan)</string>
 </resources>

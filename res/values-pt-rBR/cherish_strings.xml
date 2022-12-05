@@ -763,4 +763,7 @@
     <string name="custom_timeout_summary_2hours">2 horas</string>
     <string name="custom_timeout_summary_4hours">4 horas</string>
     <string name="custom_timeout_summary_8hours">8 horas</string>
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Combinar ícones de sinal</string>
+    <string name="combined_status_bar_signal_icons_summary">Ativar ícones de sinal combinados (SystemUI será reiniciado automaticamente após a alternação)</string>
 </resources>
