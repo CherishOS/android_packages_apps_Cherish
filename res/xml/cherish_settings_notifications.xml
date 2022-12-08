@@ -47,23 +47,11 @@
         android:fragment="com.cherish.settings.fragments.BatteryLightSettings"
         android:title="@string/battery_light_settings" />
 		
-	<PreferenceCategory
-        android:key="notifications_category"
-        android:title="@string/notifications_category_title">
-
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="less_boring_heads_up"
-            android:title="@string/less_boring_heads_up_title"
-            android:summary="@string/less_boring_heads_up_summary"
-            android:defaultValue="false" />
-			
-		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+	<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="notification_sound_vib_screen_on"
             android:title="@string/notification_sound_vib_screen_on_title"
             android:summary="@string/notification_sound_vib_screen_on_summary"
             android:defaultValue="true" />
-
-    </PreferenceCategory>
 	
 	<PreferenceCategory
         android:key="incall_vib_options"
@@ -85,5 +73,4 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
-	
 </PreferenceScreen>
