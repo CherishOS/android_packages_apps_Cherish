@@ -155,4 +155,10 @@
    <!-- Motorola Device maintainers -->
    <string name="device_chef">Motorola One Power</string>
    <string name="chef_maintainer">Rushi Ranpise</string>
+
+<!-- Nothing Device maintainers -->
+
+   <string name="device_nothing">phone1</string>
+   <string name="nothing_maintainer">Optimusprime</string> 
+
 </resources>
