@@ -892,4 +892,8 @@
     <string name="qs_header_random_image_title">QS Header Random Image</string>
     <string name="qs_header_random_image_summary">Enable random QS header image</string>
 
+    <!-- Parallel space -->
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel</string>
+
 </resources>

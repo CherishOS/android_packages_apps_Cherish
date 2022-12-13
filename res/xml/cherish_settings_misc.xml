@@ -58,6 +58,16 @@
           android:summary="@string/use_photos_spoof_summary"
           android:defaultValue="true" />
 
+     <!-- Parallel space -->
+    <Preference
+        android:key="parallel_space"
+        android:title="@string/laboratory_parallel_space_title"
+        android:summary="@string/laboratory_parallel_space_summary">
+        <intent
+            android:targetPackage="ink.kscope.parallelspace"
+            android:targetClass="ink.kscope.parallelspace.MainActivity" />
+    </Preference>
+
 	<com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="click_partial_screenshot"
         android:title="@string/click_partial_screenshot_title"
