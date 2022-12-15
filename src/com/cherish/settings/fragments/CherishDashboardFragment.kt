@@ -20,15 +20,26 @@ import androidx.preference.Preference
 
 import com.android.internal.logging.nano.MetricsProto
 import com.android.settings.dashboard.DashboardFragment
+import com.cherish.settings.fragments.ColorPickerFragment
+import com.cherish.settings.preferences.ColorPickerPreference
 
 abstract class CherishDashboardFragment: DashboardFragment() {
     override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.CHERISH_SETTINGS
 
     override fun onDisplayPreferenceDialog(preference: Preference) {
-        super.onDisplayPreferenceDialog(preference)
+        if (preference is ColorPickerPreference) {
+            ColorPickerFragment(preference.color).apply {
+                setOnConfirmListener {
+                    preference.setColor(it)
+                }
+            }.show(childFragmentManager, COLOR_PICKER_DIALOG_KEY)
+        } else {
+            super.onDisplayPreferenceDialog(preference)
+        }
     }
 
     companion object {
         const val REQUEST_KEY = "CherishDashboardFragment#RequestKey"
+        const val COLOR_PICKER_DIALOG_KEY = "color_picker_dialog"
     }
 }
