@@ -23,6 +23,13 @@
         android:key="heads_up_notifications"
         android:title="@string/heads_up_notifications"
         android:fragment="com.cherish.settings.fragments.HeadsUpSettings" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false" />
+			
 			
 		<!-- Alert Slider Notifications -->
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
@@ -30,7 +37,6 @@
         android:title="@string/alert_slider_notifications_title"
         android:summary="@string/alert_slider_notifications_summary"
         android:defaultValue="true" />
-
 	
 	<PreferenceCategory
         android:key="incall_vib_options"
@@ -52,4 +58,5 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
+	
 </PreferenceScreen>
