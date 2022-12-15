@@ -96,6 +96,13 @@
     <!-- Power menu Animations  -->
     <string name="power_menu_animation">Power menu</string>
 	
+	<!-- Color picker -->
+    <string name="rgb">RGB</string>
+    <string name="hsl">HSL</string>
+    <string name="hsv">HSV</string>
+    <string name="confirm">Confirm</string>
+    <string name="invalid_color">Invalid color!</string>
+	
 	<!-- QS header image -->
 
     <!-- Lockscreen -->
