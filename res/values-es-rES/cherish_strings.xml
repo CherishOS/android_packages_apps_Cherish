@@ -43,7 +43,7 @@
     <string name="qs_category">Categoría QS</string>
     <string name="navbar_title">Barra de navegación</string>
     <string name="volume_keys_title">Teclas de volumen</string>
-    <string name="udfps_category">UDFPS</string>
+    <string name="udfps_category">Huella en pantalla</string>
     <!-- General strings -->
     <string name="ok">Aceptar</string>
     <string name="reset">Restablecer</string>
@@ -64,7 +64,7 @@
     <string name="led_color_green">Verde</string>
     <string name="led_color_red">Rojo</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Por defecto</string>
     <string name="custom_seekbar_default_value_to_set">Valor por defecto: <xliff:g id="v">%s</xliff:g>\n Mantén presionado para editar</string>
     <string name="custom_seekbar_default_value_is_set">El valor por defecto está editado</string>
@@ -237,17 +237,17 @@
     <string name="status_bar_battery_percent_title">Porcentaje de la batería</string>
     <string name="status_bar_battery_style_title">Estilo de la batería</string>
     <string name="status_bar_battery_style_icon_portrait">Icono vertical (por defecto)</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
-    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
-    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Icono horizontal (Derecha)</string>
+    <string name="status_bar_battery_style_icon_landscape">Icono horizontal (Izquierda)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Apaisado D Estilo A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Apaisado I Estilo A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Apaisado D Estilo B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Apaisado I Estilo B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Vertical Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Horizontal Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Vertical iOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Horizontal Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Cápsula horizontal</string>
     <string name="status_bar_battery_style_circle">Circulo</string>
     <string name="status_bar_battery_style_dotted_circle">Circular (Punteado)</string>
     <string name="status_bar_battery_style_filled_circle">Círculo (Relleno)</string>
@@ -308,7 +308,7 @@
     <string name="navigation_bar_compact_layout_title">Diseño compacto</string>
     <string name="navigation_bar_compact_layout_summary">Use un diseño compacto en la barra de navegación</string>
     <string name="system_navigation_summary">Elegir que estilo de navegación del sistema a utilizar</string>
-    <string name="navbar_layout_category_title">Layout</string>
+    <string name="navbar_layout_category_title">Diseño</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Despertar con teclas de volumen</string>
     <string name="volume_rocker_wake_summary">Pulsar las teclas de volumen despertará su dispositivo</string>
@@ -494,24 +494,24 @@
     <string name="custom_color">Color personalizado</string>
     <string name="edge_light_custom_color_title">Color personalizado</string>
     <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings layout</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_dashboard_style_title">Diseño de ajustes</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
     <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
     <string name="settings_dashboard_style_cherish">Cherish</string>
-    <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
-    <string name="settings_layout_category_title">Settings UI interface</string>
-    <string name="settings_base_style_title">Settings Base layout</string>
-    <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
-    <string name="settings_home_style_title">Settings Home layout</string>
-    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
-    <string name="disable_usercard_title">Settings UserCard</string>
-    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
+    <string name="settings_dashboard_style_cherish_clean">Cherish limpio</string>
+    <string name="settings_layout_category_title">Interfaz de ajustes</string>
+    <string name="settings_base_style_title">Diseño de cabeceras</string>
+    <string name="settings_base_style_summary">Use un diseño alternativo para los menús de ajustes</string>
+    <string name="settings_home_style_title">Diseño de menú principal de ajustes</string>
+    <string name="settings_home_style_summary">Use diseño de AOSP para el menú principal</string>
+    <string name="disable_usercard_title">Ajustes de tarjeta de usuario</string>
+    <string name="disable_usercard_summary">Alternar para no mostrar la tarjeta de usuario en el menú principal de ajustes</string>
     <!-- Lockscreen Clocks -->
-    <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
-    <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
-    <string name="lock_screen_custom_clock_face_default">Default</string>
-    <string name="lock_screen_custom_clock_face_sfunny">Sfuny</string>
+    <string name="lock_screen_custom_clock_face_category">Reloj de pantalla de bloqueo</string>
+    <string name="lock_screen_custom_clock_face_title">Estilo de reloj en pantalla de bloqueo</string>
+    <string name="lock_screen_custom_clock_face_default">Predeterminado</string>
+    <string name="lock_screen_custom_clock_face_sfunny">Divertido</string>
     <string name="lock_screen_custom_clock_face_oos">OOS</string>
     <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
     <string name="lock_screen_custom_clock_face_spark">Spark</string>
