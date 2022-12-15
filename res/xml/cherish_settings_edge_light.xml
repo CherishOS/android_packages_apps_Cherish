@@ -16,9 +16,7 @@
 
     <com.android.settingslib.widget.TopIntroPreference
         android:key="edge_light_intro"
-        android:title="@string/edge_light_intro_text"
-        android:selectable="false"
-        android:persistent="false" />
+        android:title="@string/edge_light_intro_text" />
 
     <com.cherish.settings.preferences.SystemSettingMainSwitchPreference
         android:key="edge_light_enabled"
@@ -46,9 +44,9 @@
         android:summary="%s"
         android:defaultValue="0" />
 
-    <net.margaritov.preference.colorpicker.ColorPickerPreference
+    <com.cherish.settings.preferences.SystemSettingColorPickerPreference
         android:key="edge_light_custom_color"
         android:title="@string/edge_light_custom_color_title"
-        android:defaultValue="0xffffff" />
+        android:defaultValue="#FFFFFF" />
 
 </PreferenceScreen>
