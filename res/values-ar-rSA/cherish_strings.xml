@@ -12,9 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_title">إعدادات Cherish</string>
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
+    <string name="button_title">أزرار</string>
     <string name="button_summary">Hardware keys, Navigation bar</string>
     <string name="gestures_title">Gestures</string>
     <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
