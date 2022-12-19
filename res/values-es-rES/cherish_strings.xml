@@ -87,8 +87,8 @@
     <string name="rgb">RGB</string>
     <string name="hsl">HSL</string>
     <string name="hsv">HSV</string>
-    <string name="confirm">Confirm</string>
-    <string name="invalid_color">Invalid color!</string>
+    <string name="confirm">Confirmar</string>
+    <string name="invalid_color">¡Color no válido!</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">Pantalla de bloqueo</string>
@@ -691,6 +691,6 @@
     <string name="click_partial_screenshot_title">Haga clic para captura de pantalla parcial</string>
     <string name="click_partial_screenshot_summary">Pulsar brevemente sobre Volumen Abajo y Power para tomar una captura parcial de pantalla</string>
     <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">UI Style</string>
-    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
+    <string name="theme_customization_ui_style_title">Estilo de interfaz</string>
+    <string name="theme_customization_ui_style_summary">Establece un estilo personalizado para tu interfaz</string>
 </resources>
