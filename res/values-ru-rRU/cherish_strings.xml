@@ -87,8 +87,8 @@
     <string name="rgb">RGB</string>
     <string name="hsl">HSL</string>
     <string name="hsv">HSV</string>
-    <string name="confirm">Confirm</string>
-    <string name="invalid_color">Invalid color!</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="invalid_color">Некорректный цвет!</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">Экран блокировки</string>
@@ -690,6 +690,6 @@
     <string name="click_partial_screenshot_title">Нажмите, чтобы сделать частичный снимок экрана</string>
     <string name="click_partial_screenshot_summary">Короткое нажатие на уменьшение громкости и питание, чтобы сделать частичный снимок экрана</string>
     <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">UI Style</string>
+    <string name="theme_customization_ui_style_title">Стиль интерфейса</string>
     <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
 </resources>
