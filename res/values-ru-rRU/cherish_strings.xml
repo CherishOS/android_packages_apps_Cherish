@@ -83,6 +83,12 @@
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
     <string name="power_menu_animation">Меню питания</string>
+    <!-- Color picker -->
+    <string name="rgb">RGB</string>
+    <string name="hsl">HSL</string>
+    <string name="hsv">HSV</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="invalid_color">Некорректный цвет!</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">Экран блокировки</string>
@@ -288,8 +294,6 @@
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Прозрачность быстрых настроек</string>
     <string name="qs_transparency_summary">Выберите, насколько прозрачны ваши быстрые настройки (требуется перезапуск SystemUI)</string>
-    <string name="click_partial_screenshot_title">Нажмите, чтобы сделать частичный снимок экрана</string>
-    <string name="click_partial_screenshot_summary">Короткое нажатие на уменьшение громкости и питание, чтобы сделать частичный снимок экрана</string>
     <!-- Brightness control -->
     <string name="status_bar_brightness_control_title">Регулировка яркости в стоке состояния</string>
     <string name="status_bar_brightness_control_summary">Регулировать яркость экрана, проводя пальцем по строке состояния</string>
@@ -308,7 +312,6 @@
     <string name="navigation_bar_compact_layout_title">Компактное расположение</string>
     <string name="navigation_bar_compact_layout_summary">Использовать компактное расположение в панели навигации</string>
     <string name="system_navigation_summary">Выберите, какой системный стиль навигации использовать</string>
-    <string name="navbar_layout_category_title">Расположение</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Пробуждение кнопкой громкости</string>
     <string name="volume_rocker_wake_summary">Нажатие клавиш громкости пробуждает ваше устройство</string>
@@ -424,12 +427,72 @@
     <!-- Toast app icon -->
     <string name="toast_icon_title">Значок всплывающего уведомления</string>
     <string name="toast_icon_summary">Отображать значок приложения на всплывающем уведомлении</string>
-    <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Расписание всегда включённого экрана</string>
-    <string name="always_on_display_schedule_sunset">Закат</string>
-    <string name="always_on_display_schedule_sunrise">Рассвет</string>
-    <string name="always_on_display_schedule_mixed_sunset">Включается от заката до заданного времени</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Включается от заданного времени до рассвета</string>
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Расположение настроек</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
+    <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
+    <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
+    <string name="settings_dashboard_style_cherish">Cherish</string>
+    <string name="settings_dashboard_style_cherish_clean">Чистый Cherish</string>
+    <string name="settings_layout_category_title">Настройки UI интерфейса</string>
+    <string name="settings_base_style_title">Настройка главного экрана настроек</string>
+    <string name="settings_base_style_summary">Использовать альтернативное расположение для меню настройки</string>
+    <string name="settings_home_style_title">Настройка главного экрана</string>
+    <string name="settings_home_style_summary">Использовать стандартный макет AOSP для главной страницы настроек</string>
+    <string name="disable_usercard_title">Настройки карточки пользователя</string>
+    <string name="disable_usercard_summary">Переключить, чтобы не показывать карточку пользователя на главной странице настроек</string>
+    <!-- UDFPS Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">Использовать виброотклик для сканера отпечатка пальцев</string>
+    <string name="udfps_haptic_feedback_summary">Вибрировать при нажатии на иконку отпечатка пальца</string>
+    <!-- Udfps authentication / error vibration -->
+    <string name="udfps_success_vib_title">Вибрация при авторизации отпечатком пальца</string>
+    <string name="udfps_success_vib_summary">Вибрировать при успешном распозновании отпечатка пальца</string>
+    <string name="udfps_error_vib_title">Вибрировать при сбое сканирования</string>
+    <string name="udfps_error_vib_summary">Вибрировать при ошибке распознавания отпечатка пальца</string>
+    <!-- UDFPS Recog Animation -->
+    <string name="udfps_customization">Настройки сканера отпечатка пальца</string>
+    <string name="udfps_recog_animation">Анимация сканера отпечатка пальцев</string>
+    <string name="udfps_recog_animation_summary">Показывать анимацию при распознавании отпечатка</string>
+    <string name="udfps_recog_animation_effect_title">Настройка анимации UDFPS</string>
+    <string name="udfps_recog_animation_effect_summary">Выберите эффект анимации</string>
+    <string name="udfps_settings_title">Настройки сканера отпечатка пальца под экраном</string>
+    <string name="udfps_settings_summary">Настройка сканера отпечатка пальца под экраном</string>
+    <!-- UDFPS icon picker -->
+    <string name="udfps_icon_picker_title">Выбор значка сканера отпечатка пальцев под экраном</string>
+    <string name="udfps_icon_picker_summary">Выбор своего значка отпечатка пальца</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Собственный значок отпечатка пальца</string>
+    <string name="custom_fp_icon_summary">Включить пользовательский значок отпечатка пальца из файлов</string>
+    <string name="custom_fp_select_title">Выбор пользовательского значка отпечатка пальца</string>
+    <string name="custom_fp_select_summary">Выбрать пользовательское изображение из сохраненных файлов или галереи</string>
+    <!-- UDFPS pressed color -->
+    <string name="udfps_pressed_color_title">Цвет нажатой кнопки отпечатка пальца</string>
+    <string name="udfps_pressed_color_summary">Выбор своего любимого цвета отпечатка пальца</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Эффект волны</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Показать эффект волны при разблокировке с помощью отпечатка пальца</string>
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Индикатор использования камеры и микрофона</string>
+    <string name="mic_camera_privacy_indicator_summary">Показывать раздельные индикаторы, когда любое приложение использует микрофон или камеру</string>
+    <string name="location_privacy_indicator_title">Индикатор конфиденциальности местоположения</string>
+    <string name="location_privacy_indicator_summary">Показывать раздельные индикаторы, когда любое приложение использует местоположение</string>
+    <string name="projection_privacy_indicator_title">Индикатор конфиденциальности медиа проекции</string>
+    <string name="projection_privacy_indicator_summary">Показывать индикатор при проецировании экрана устройства</string>
+    <!-- Notification count -->
+    <string name="statusbar_notif_count_title">Показать количество уведомлений</string>
+    <string name="statusbar_notif_count_summary">Отображение количества ожидающих уведомлений</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Цветные значки</string>
+    <string name="statusbar_colored_icons_summary">Использовать значки приложений для уведомлений в строке состояния</string>
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Уровень заряда Bluetooth</string>
+    <string name="bluetooth_battery_summary">Показывать заряд батареи подключенных Bluetooth-устройств, если доступно</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Переключить фонарик при выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Отключен</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания (медленнее однократный отклик), отключает двойное нажатие по кнопке питания для камеры.</string>
+    <string name="torch_power_button_gesture_dt_toast">Жест перехода к камере теперь отключён</string>
+    <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания</string>
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Часы и дата</string>
     <string name="status_bar_clock_summary">Настройка часов и даты</string>
@@ -474,125 +537,6 @@
     <!-- QS date -->
     <string name="qs_date_title">Дата</string>
     <string name="qs_date_summary">Отображать дату в заголовке быстрых настроек</string>
-    <!-- Footer -->
-    <string name="qs_footer_category">Нижний колонтитул панели быстрых настроек</string>
-    <string name="qs_footer_datausage_title">Использование данных</string>
-    <string name="qs_footer_datausage_summary">Показывать статистику использования трафика в нижней части быстрых настроек</string>
-    <!-- Edge light -->
-    <string name="edge_light_title">Подсветка краёв экрана при уведомлении</string>
-    <string name="enable_edge_light">Включить подсветку краев экрана при уведомлении</string>
-    <string name="edge_light_intro_text">Отображение анимации по краям экрана при уведомлении</string>
-    <string name="edge_light_always_trigger_on_pulse_title">Всегда запускать при уведомлениях</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">Воспроизводить анимацию даже когда Всегда включенный экран включён и не только для уведомлений</string>
-    <string name="edge_light_repeat_animation_title">Повтор анимации</string>
-    <string name="edge_light_repeat_animation_summary_on">Повторить несколько раз</string>
-    <string name="edge_light_repeat_animation_summary_off">Показать только один раз</string>
-    <string name="edge_light_color_mode_title">Цвет подсветки краёв экрана</string>
-    <string name="accent_color">Цвет акцента (по умолчанию)</string>
-    <string name="notification_color">Цвет акцента уведомления</string>
-    <string name="wallpaper_color">Цвет обоев</string>
-    <string name="custom_color">Свой цвет</string>
-    <string name="edge_light_custom_color_title">Свой цвет</string>
-    <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">Расположение настроек</string>
-    <string name="settings_dashboard_style_aosp">AOSP</string>
-    <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
-    <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
-    <string name="settings_dashboard_style_cherish">Cherish</string>
-    <string name="settings_dashboard_style_cherish_clean">Чистый Cherish</string>
-    <string name="settings_layout_category_title">Настройки UI интерфейса</string>
-    <string name="settings_base_style_title">Настройка главного экрана настроек</string>
-    <string name="settings_base_style_summary">Использовать альтернативное расположение для меню настройки</string>
-    <string name="settings_home_style_title">Настройка главного экрана</string>
-    <string name="settings_home_style_summary">Использовать стандартный макет AOSP для главной страницы настроек</string>
-    <string name="disable_usercard_title">Настройки карточки пользователя</string>
-    <string name="disable_usercard_summary">Переключить, чтобы не показывать карточку пользователя на главной странице настроек</string>
-    <!-- Lockscreen Clocks -->
-    <string name="lock_screen_custom_clock_face_category">Часы экрана блокировки</string>
-    <string name="lock_screen_custom_clock_face_title">Стиль часов на экране блокировки</string>
-    <string name="lock_screen_custom_clock_face_default">По умолчанию</string>
-    <string name="lock_screen_custom_clock_face_sfunny">Sfuny</string>
-    <string name="lock_screen_custom_clock_face_oos">OxygenOS</string>
-    <string name="lock_screen_custom_clock_face_clockertino">Квадратные</string>
-    <string name="lock_screen_custom_clock_face_spark">Spark</string>
-    <string name="lock_screen_custom_clock_face_spark_circle">Spark Круг</string>
-    <!-- UDFPS Haptic Feedback -->
-    <string name="udfps_haptic_feedback_title">Использовать виброотклик для сканера отпечатка пальцев</string>
-    <string name="udfps_haptic_feedback_summary">Вибрировать при нажатии на иконку отпечатка пальца</string>
-    <!-- Udfps authentication / error vibration -->
-    <string name="udfps_success_vib_title">Вибрация при авторизации отпечатком пальца</string>
-    <string name="udfps_success_vib_summary">Вибрировать при успешном распозновании отпечатка пальца</string>
-    <string name="udfps_error_vib_title">Вибрировать при сбое сканирования</string>
-    <string name="udfps_error_vib_summary">Вибрировать при ошибке распознавания отпечатка пальца</string>
-    <!-- UDFPS Recog Animation -->
-    <string name="udfps_customization">Настройки сканера отпечатка пальца</string>
-    <string name="udfps_recog_animation">Анимация сканера отпечатка пальцев</string>
-    <string name="udfps_recog_animation_summary">Показывать анимацию при распознавании отпечатка</string>
-    <string name="udfps_recog_animation_effect_title">Настройка анимации UDFPS</string>
-    <string name="udfps_recog_animation_effect_summary">Выберите эффект анимации</string>
-    <string name="udfps_settings_title">Настройки сканера отпечатка пальца под экраном</string>
-    <string name="udfps_settings_summary">Настройка сканера отпечатка пальца под экраном</string>
-    <!-- UDFPS icon picker -->
-    <string name="udfps_icon_picker_title">Выбор значка сканера отпечатка пальцев под экраном</string>
-    <string name="udfps_icon_picker_summary">Выбор своего значка отпечатка пальца</string>
-    <!-- Custom FOD Icon -->
-    <string name="custom_fp_icon_title">Собственный значок отпечатка пальца</string>
-    <string name="custom_fp_icon_summary">Включить пользовательский значок отпечатка пальца из файлов</string>
-    <string name="custom_fp_select_title">Выбор пользовательского значка отпечатка пальца</string>
-    <string name="custom_fp_select_summary">Выбрать пользовательское изображение из сохраненных файлов или галереи</string>
-    <!-- UDFPS pressed color -->
-    <string name="udfps_pressed_color_title">Цвет нажатой кнопки отпечатка пальца</string>
-    <string name="udfps_pressed_color_summary">Выбор своего любимого цвета отпечатка пальца</string>
-    <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Эффект волны</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Показать эффект волны при разблокировке с помощью отпечатка пальца</string>
-    <!-- reTicker -->
-    <string name="reticker_title">новый стиль уведомлений</string>
-    <string name="reticker_summary">Замените всплывающие уведомления на переработанную, более тонкую и менее агрессивную версию</string>
-    <string name="new_reticker_title">Альтернативный стиль уведомлений</string>
-    <string name="new_reticker_summary">Используйте альтернативный макет для нового стиля уведомлений с вдохновением от ios</string>
-    <string name="new_reticker_animation_title">Альтернативная анимация нового стиля уведомлений</string>
-    <string name="new_reticker_animation_summary">Использовать другую анимацию для нового стиля уведомлений (включено по умолчанию на альтернативном новом стиле уведомлений)</string>
-    <string name="reticker_colored_title">Использовать цветной фон приложения</string>
-    <string name="reticker_colored_summary">Цвет фона уведомления будет заменён основным цветом приложения</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">Значок VoWiFi</string>
-    <string name="vowifi_icon_enabled">Значок VoWiFi включен</string>
-    <string name="vowifi_icon_disabled">Значок VoWiFi отключен</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi вместо значка VoLTE</string>
-    <string name="vowifi_icon_style_title">Стиль значка VoWiFi</string>
-    <string name="vowifi_icon_default">Значок по умолчанию</string>
-    <string name="vowifi_icon_emui">Значок EMUI</string>
-    <string name="vowifi_icon_asus">Значок Asus</string>
-    <string name="vowifi_icon_oneplus">Значок OOS</string>
-    <string name="vowifi_icon_moto">Значок Motorola</string>
-    <string name="vowifi_icon_simple1">Значок Простой1</string>
-    <string name="vowifi_icon_simple2">Значок Простой2</string>
-    <string name="vowifi_icon_simple3">Значок Простой3</string>
-    <string name="vowifi_icon_vivo">Значок Vivo</string>
-    <string name="vowifi_icon_margaritov">Значок Маргаритов</string>
-    <!-- Privacy Indicator -->
-    <string name="mic_camera_privacy_indicator_title">Индикатор использования камеры и микрофона</string>
-    <string name="mic_camera_privacy_indicator_summary">Показывать раздельные индикаторы, когда любое приложение использует микрофон или камеру</string>
-    <string name="location_privacy_indicator_title">Индикатор конфиденциальности местоположения</string>
-    <string name="location_privacy_indicator_summary">Показывать раздельные индикаторы, когда любое приложение использует местоположение</string>
-    <string name="projection_privacy_indicator_title">Индикатор конфиденциальности медиа проекции</string>
-    <string name="projection_privacy_indicator_summary">Показывать индикатор при проецировании экрана устройства</string>
-    <!-- Notification count -->
-    <string name="statusbar_notif_count_title">Показать количество уведомлений</string>
-    <string name="statusbar_notif_count_summary">Отображение количества ожидающих уведомлений</string>
-    <!-- Statusbar colored icons -->
-    <string name="statusbar_colored_icons_title">Цветные значки</string>
-    <string name="statusbar_colored_icons_summary">Использовать значки приложений для уведомлений в строке состояния</string>
-    <!-- Bluetooth status -->
-    <string name="bluetooth_battery_title">Уровень заряда Bluetooth</string>
-    <string name="bluetooth_battery_summary">Показывать заряд батареи подключенных Bluetooth-устройств, если доступно</string>
-    <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Переключить фонарик при выключенном экране</string>
-    <string name="torch_power_button_gesture_none">Отключен</string>
-    <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания (медленнее однократный отклик), отключает двойное нажатие по кнопке питания для камеры.</string>
-    <string name="torch_power_button_gesture_dt_toast">Жест перехода к камере теперь отключён</string>
-    <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания</string>
     <!-- App lock -->
     <string name="app_lock_title">Блокировка приложений</string>
     <string name="app_lock_summary">Для запуска приложений требуется аутентификация по отпечатку пальцев</string>
@@ -610,6 +554,26 @@
     <string name="app_lock_biometrics_allowed_title">Включить биометрию для разблокировки</string>
     <string name="app_lock_footer_text">Всплывающие уведомления будут автоматически удалены со временем</string>
     <string name="enable_protection">Включить защиту</string>
+    <!-- Quick settings styling -->
+    <string name="qs_styling">Быстрые настройки</string>
+    <string name="qs_styles_title">Стили панели быстрых настроек</string>
+    <string name="qs_outline">Изменение стиля контура быстрых настроек</string>
+    <string name="qs_two_tone">Двухцветовой акцент быстрых настроек</string>
+    <string name="qs_color_pop">Цвет акцента быстрых настроек</string>
+    <!-- QS tiles layout direction: vertical or horizontal -->
+    <string name="qs_tile_layout_category_title">Расположение плиток быстрых настроек</string>
+    <string name="qs_tile_layout_title">Vertical layout</string>
+    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+    <!-- QS tiles title visibility -->
+    <string name="qs_tile_title_visibility_title">Скрыть названия плиток быстрых настроек</string>
+    <string name="qs_tile_title_visibility_summary">Включить для отображения названия плиток</string>
+    <!-- QS tiles layout  -->
+    <string name="qs_layout_category_title">QS Layout</string>
+    <string name="qs_tile_label_hide_title">Скрыть метку</string>
+    <string name="qs_tile_label_hide_summary">Показывать только значок</string>
+    <string name="qs_tile_label_size_title">Размер шрифта подписи</string>
+    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
+    <string name="qs_columns_landscape_title">Колонки (ландшафт)</string>
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Анимация меню питания</string>
     <string name="power_menu_animation_dialog_title">Выберите анимацию меню питания</string>
@@ -649,16 +613,38 @@
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
+    <!-- reTicker -->
+    <string name="reticker_title">новый стиль уведомлений</string>
+    <string name="reticker_summary">Замените всплывающие уведомления на переработанную, более тонкую и менее агрессивную версию</string>
+    <string name="reticker_colored_title">Использовать цветной фон приложения</string>
+    <string name="reticker_colored_summary">Цвет фона уведомления будет заменён основным цветом приложения</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Подсветка краёв экрана при уведомлении</string>
+    <string name="enable_edge_light">Включить подсветку краев экрана при уведомлении</string>
+    <string name="edge_light_intro_text">Отображение анимации по краям экрана при уведомлении</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Всегда запускать при уведомлениях</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Воспроизводить анимацию даже когда Всегда включенный экран включён и не только для уведомлений</string>
+    <string name="edge_light_repeat_animation_title">Повтор анимации</string>
+    <string name="edge_light_repeat_animation_summary_on">Повторить несколько раз</string>
+    <string name="edge_light_repeat_animation_summary_off">Показать только один раз</string>
+    <string name="edge_light_color_mode_title">Цвет подсветки краёв экрана</string>
+    <string name="accent_color">Цвет акцента (по умолчанию)</string>
+    <string name="notification_color">Цвет акцента уведомления</string>
+    <string name="wallpaper_color">Цвет обоев</string>
+    <string name="custom_color">Свой цвет</string>
+    <string name="edge_light_custom_color_title">Свой цвет</string>
     <!-- Power menu and dialogs opacity -->
     <string name="power_menu_transparency">Прозрачность меню кнопки питания</string>
     <string name="power_menu_dialog_dim">Прозрачность фона меню кнопки питания</string>
-    <!-- Black theme -->
-    <string name="custom_theme_title">Использовать собственную тему</string>
-    <string name="custom_theme_summary">Принудительно настраивать цвета фона</string>
-    <string name="custom_theme_default">По умолчанию</string>
-    <string name="custom_theme_black">Черный</string>
-    <string name="custom_theme_clear">Очистить</string>
-    <string name="custom_theme_vivid">Яркий(Monet)</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Умная зарядка</string>
+    <string name="smart_charging_summary">Установить максимальный уровень заряда</string>
+    <string name="smart_charging_switch_title">Использовать умную зарядку</string>
+    <string name="smart_charging_level_title">Уровень окончания заряда</string>
+    <string name="smart_charging_resume_level_title">Уровень начала заряда</string>
+    <string name="smart_charging_reset_stats_title">Сбросить статистику батареи</string>
+    <string name="smart_charging_reset_stats_summary">Сбрасывать статистику батареи после достижения заданного уровня заряда</string>
+    <string name="smart_charging_footer">Умная зарядка позволяет вам установить максимальный уровень заряда для увеличения срока жизни аккумулятора. При включенной функции аккумулятор прекратит зарядку по достижении уровня максимального заряда и возобновит зарядку по достижении уровня минимального заряда. Уровень начала зарядки всегда должен быть выше уровня остановки зарядки.</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">Про Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse - это блестящий графический аудио-эквалайзер, работающий при воспроизведении музыки на устройстве</string>
@@ -701,68 +687,9 @@
     <string name="visualizer_center_mirrored_summary">Установить визуализатор в режиме зеркалирования в центре</string>
     <string name="pulse_vertical_mirror_title">Вертикальное зеркало</string>
     <string name="pulse_vertical_mirror_summary">Создать другой импульс и отражать вертикально</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Умная зарядка</string>
-    <string name="smart_charging_summary">Установить максимальный уровень заряда</string>
-    <string name="smart_charging_switch_title">Использовать умную зарядку</string>
-    <string name="smart_charging_level_title">Уровень окончания заряда</string>
-    <string name="smart_charging_resume_level_title">Уровень начала заряда</string>
-    <string name="smart_charging_reset_stats_title">Сбросить статистику батареи</string>
-    <string name="smart_charging_reset_stats_summary">Сбрасывать статистику батареи после достижения заданного уровня заряда</string>
-    <string name="smart_charging_footer">Умная зарядка позволяет вам установить максимальный уровень заряда для увеличения срока жизни аккумулятора. При включенной функции аккумулятор прекратит зарядку по достижении уровня максимального заряда и возобновит зарядку по достижении уровня минимального заряда. Уровень начала зарядки всегда должен быть выше уровня остановки зарядки.</string>
-    <!-- Quick settings styling -->
-    <string name="qs_styling">Быстрые настройки</string>
-    <string name="qs_styles_title">Стили панели быстрых настроек</string>
-    <string name="qs_outline">Изменение стиля контура быстрых настроек</string>
-    <string name="qs_two_tone">Двухцветовой акцент быстрых настроек</string>
-    <string name="qs_color_pop">Цвет акцента быстрых настроек</string>
-    <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_category_title">Расположение плиток быстрых настроек</string>
-    <string name="qs_tile_layout_title">Vertical layout</string>
-    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
-    <!-- QS tiles title visibility -->
-    <string name="qs_tile_title_visibility_title">Скрыть названия плиток быстрых настроек</string>
-    <string name="qs_tile_title_visibility_summary">Включить для отображения названия плиток</string>
-    <!-- QS tiles layout  -->
-    <string name="qs_layout_category_title">QS Layout</string>
-    <string name="qs_tile_label_hide_title">Скрыть метку</string>
-    <string name="qs_tile_label_hide_summary">Показывать только значок</string>
-    <string name="qs_tile_label_size_title">Размер шрифта подписи</string>
-    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
-    <string name="qs_columns_landscape_title">Колонки (ландшафт)</string>
-    <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Показать анимацию ползунка</string>
-    <string name="show_squiggle_animation_summary">Показать анимацию ползунка панели мультимедиа, после изменения необходимо переключить музыку, приостановить музыку или переместить ползунок, чтобы изменения вступили в силу</string>
-    <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Оповещение в панели быстрого доступа</string>
-    <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней части панели быстрых настроек, когда сеть контролируется сторонними приложениями или VPN</string>
-    <!-- QS footer icons -->
-    <string name="qs_footer_users_icon_title">Значок учётной записи</string>
-    <string name="qs_footer_users_icon_summary">Показывать значок многопользовательского доступа, если доступно</string>
-    <string name="qs_footer_edit_icon_title">Значок редактирования плиток</string>
-    <string name="qs_footer_show_power_menu_title">Ярлык меню питания</string>
-    <string name="qs_footer_services_icon_title">Ярлык запущенных служб</string>
-    <string name="qs_footer_settings_icon_title">Ярлык настроек</string>
-    <!-- Wifi/Bluetooth auto timeout -->
-    <string name="wifi_timeout">Время ожидания WiFi</string>
-    <string name="wifi_timeout_summary">Не отключать автоматически WiFi</string>
-    <string name="wifi_timeout_summary_auto">WiFi будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g> если не подключена сеть</string>
-    <string name="bluetooth_timeout">Ожидание Bluetooth</string>
-    <string name="bluetooth_timeout_summary">Не отключать Bluetooth автоматически</string>
-    <string name="bluetooth_timeout_summary_auto">Bluetooth будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключенных устройств</string>
-    <string name="custom_timeout_summary_never">Никогда</string>
-    <string name="custom_timeout_summary_15secs">15 секунд</string>
-    <string name="custom_timeout_summary_30secs">30 секунд</string>
-    <string name="custom_timeout_summary_1min">1 минута</string>
-    <string name="custom_timeout_summary_2mins">2 минуты</string>
-    <string name="custom_timeout_summary_5mins">5 минут</string>
-    <string name="custom_timeout_summary_10mins">10 минут</string>
-    <string name="custom_timeout_summary_30mins">30 минут</string>
-    <string name="custom_timeout_summary_1hour">1 час</string>
-    <string name="custom_timeout_summary_2hours">2 часа</string>
-    <string name="custom_timeout_summary_4hours">4 часа</string>
-    <string name="custom_timeout_summary_8hours">8 часов</string>
-    <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">Комбинированные значки сигнала</string>
-    <string name="combined_status_bar_signal_icons_summary">Включить комбинированные значки сигнала (SystemUI будет автоматически перезапущен при переключении)</string>
+    <string name="click_partial_screenshot_title">Нажмите, чтобы сделать частичный снимок экрана</string>
+    <string name="click_partial_screenshot_summary">Короткое нажатие на уменьшение громкости и питание, чтобы сделать частичный снимок экрана</string>
+    <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">Стиль интерфейса</string>
+    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
 </resources>
