@@ -83,6 +83,12 @@
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
     <string name="power_menu_animation">Μενού απενεργοποίησης</string>
+    <!-- Color picker -->
+    <string name="rgb">RGB</string>
+    <string name="hsl">HSL</string>
+    <string name="hsv">HSV</string>
+    <string name="confirm">Confirm</string>
+    <string name="invalid_color">Invalid color!</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">Οθόνη κλειδώματος</string>
@@ -288,8 +294,6 @@
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Qs Transparency</string>
     <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI Restart)</string>
-    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
-    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
     <!-- Brightness control -->
     <string name="status_bar_brightness_control_title">Brightness control</string>
     <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across the status bar</string>
@@ -308,7 +312,6 @@
     <string name="navigation_bar_compact_layout_title">Compact layout</string>
     <string name="navigation_bar_compact_layout_summary">Use a compact layout in the navigation bar</string>
     <string name="system_navigation_summary">Choose which system navigation style to use</string>
-    <string name="navbar_layout_category_title">Layout</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
@@ -424,12 +427,72 @@
     <!-- Toast app icon -->
     <string name="toast_icon_title">Toast app icon</string>
     <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
-    <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Settings layout</string>
+    <string name="settings_dashboard_style_aosp">Aosp</string>
+    <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
+    <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
+    <string name="settings_dashboard_style_cherish">Cherish</string>
+    <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
+    <string name="settings_layout_category_title">Settings UI interface</string>
+    <string name="settings_base_style_title">Settings Base layout</string>
+    <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
+    <string name="settings_home_style_title">Settings Home layout</string>
+    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
+    <string name="disable_usercard_title">Settings UserCard</string>
+    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
+    <!-- UDFPS Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
+    <!-- Udfps authentication / error vibration -->
+    <string name="udfps_success_vib_title">Udfps authentication vibration</string>
+    <string name="udfps_success_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="udfps_error_vib_title">Udfps error vibration</string>
+    <string name="udfps_error_vib_summary">Vibrate on unsuccessful fingerprint authentication</string>
+    <!-- UDFPS Recog Animation -->
+    <string name="udfps_customization">UDFPS customization</string>
+    <string name="udfps_recog_animation">UDFPS animation</string>
+    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+    <string name="udfps_settings_title">UDFPS settings</string>
+    <string name="udfps_settings_summary">Settings for customizing the UDFPS</string>
+    <!-- UDFPS icon picker -->
+    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
+    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
+    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
+    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
+    <!-- UDFPS pressed color -->
+    <string name="udfps_pressed_color_title">Udfps pressed color</string>
+    <string name="udfps_pressed_color_summary">Choose your favorite udfps pressed color</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location privacy indicator</string>
+    <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
+    <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
+    <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
+    <!-- Notification count -->
+    <string name="statusbar_notif_count_title">Show notification count</string>
+    <string name="statusbar_notif_count_summary">Display the number of pending notifications</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Colored icons</string>
+    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in statusbar</string>
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
+    <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Clock &amp; date</string>
     <string name="status_bar_clock_summary">Customize clock &amp; date</string>
@@ -474,125 +537,6 @@
     <!-- QS date -->
     <string name="qs_date_title">Date</string>
     <string name="qs_date_summary">Display date in quick status bar header</string>
-    <!-- Footer -->
-    <string name="qs_footer_category">QS Footer</string>
-    <string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
-    <!-- Edge light -->
-    <string name="edge_light_title">Edge light</string>
-    <string name="enable_edge_light">Enable Edge Light</string>
-    <string name="edge_light_intro_text">Display an animation along the edges of the screen when pulsing</string>
-    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
-    <string name="edge_light_repeat_animation_title">Repeat animation</string>
-    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
-    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
-    <string name="edge_light_color_mode_title">Edge light color mode</string>
-    <string name="accent_color">Accent color (Default)</string>
-    <string name="notification_color">Notification color</string>
-    <string name="wallpaper_color">Wallpaper color</string>
-    <string name="custom_color">Custom color</string>
-    <string name="edge_light_custom_color_title">Custom color</string>
-    <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings layout</string>
-    <string name="settings_dashboard_style_aosp">Aosp</string>
-    <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
-    <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
-    <string name="settings_dashboard_style_cherish">Cherish</string>
-    <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
-    <string name="settings_layout_category_title">Settings UI interface</string>
-    <string name="settings_base_style_title">Settings Base layout</string>
-    <string name="settings_base_style_summary">Use an alternative layout for setting menus</string>
-    <string name="settings_home_style_title">Settings Home layout</string>
-    <string name="settings_home_style_summary">Use stock aosp layout for homepage</string>
-    <string name="disable_usercard_title">Settings UserCard</string>
-    <string name="disable_usercard_summary">Toggle in order not to show the usercard on main settings page</string>
-    <!-- Lockscreen Clocks -->
-    <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
-    <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
-    <string name="lock_screen_custom_clock_face_default">Default</string>
-    <string name="lock_screen_custom_clock_face_sfunny">Sfuny</string>
-    <string name="lock_screen_custom_clock_face_oos">OOS</string>
-    <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
-    <string name="lock_screen_custom_clock_face_spark">Spark</string>
-    <string name="lock_screen_custom_clock_face_spark_circle">Spark Circle</string>
-    <!-- UDFPS Haptic Feedback -->
-    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
-    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
-    <!-- Udfps authentication / error vibration -->
-    <string name="udfps_success_vib_title">Udfps authentication vibration</string>
-    <string name="udfps_success_vib_summary">Vibrate on successful fingerprint authentication</string>
-    <string name="udfps_error_vib_title">Udfps error vibration</string>
-    <string name="udfps_error_vib_summary">Vibrate on unsuccessful fingerprint authentication</string>
-    <!-- UDFPS Recog Animation -->
-    <string name="udfps_customization">UDFPS customization</string>
-    <string name="udfps_recog_animation">UDFPS animation</string>
-    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
-    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
-    <string name="udfps_settings_title">UDFPS settings</string>
-    <string name="udfps_settings_summary">Settings for customizing the UDFPS</string>
-    <!-- UDFPS icon picker -->
-    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
-    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
-    <!-- Custom FOD Icon -->
-    <string name="custom_fp_icon_title">Custom UDFPS Icon</string>
-    <string name="custom_fp_icon_summary">Enable custom UDFPS Icon from files</string>
-    <string name="custom_fp_select_title">Select Custom UDFPS Icon</string>
-    <string name="custom_fp_select_summary">Select custom image from your saved files or gallery</string>
-    <!-- UDFPS pressed color -->
-    <string name="udfps_pressed_color_title">Udfps pressed color</string>
-    <string name="udfps_pressed_color_summary">Choose your favorite udfps pressed color</string>
-    <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
-    <!-- reTicker -->
-    <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
-    <string name="new_reticker_title">Alternative reTicker</string>
-    <string name="new_reticker_summary">Use an alternative layout for reticker that is inspired from ios</string>
-    <string name="new_reticker_animation_title">Alternative reTicker animation</string>
-    <string name="new_reticker_animation_summary">Use a different animation for reticker (enabled by default on alternative reTicker)</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
-    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
-    <string name="vowifi_icon_style_title">VoWiFi icon style</string>
-    <string name="vowifi_icon_default">Default Icon</string>
-    <string name="vowifi_icon_emui">EMUI Icon</string>
-    <string name="vowifi_icon_asus">Asus Icon</string>
-    <string name="vowifi_icon_oneplus">OOS Icon</string>
-    <string name="vowifi_icon_moto">Motorola Icon</string>
-    <string name="vowifi_icon_simple1">Simple1 Icon</string>
-    <string name="vowifi_icon_simple2">Simple2 Icon</string>
-    <string name="vowifi_icon_simple3">Simple3 Icon</string>
-    <string name="vowifi_icon_vivo">Vivo Icon</string>
-    <string name="vowifi_icon_margaritov">Margaritov Icon</string>
-    <!-- Privacy Indicator -->
-    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
-    <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or camera</string>
-    <string name="location_privacy_indicator_title">Location privacy indicator</string>
-    <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
-    <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
-    <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
-    <!-- Notification count -->
-    <string name="statusbar_notif_count_title">Show notification count</string>
-    <string name="statusbar_notif_count_summary">Display the number of pending notifications</string>
-    <!-- Statusbar colored icons -->
-    <string name="statusbar_colored_icons_title">Colored icons</string>
-    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in statusbar</string>
-    <!-- Bluetooth status -->
-    <string name="bluetooth_battery_title">Bluetooth battery status</string>
-    <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
-    <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
     <string name="app_lock_summary">Apps will require fingerprint authentication to launch</string>
@@ -611,6 +555,26 @@
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
     <string name="enable_protection">Enable protection</string>
+    <!-- Quick settings styling -->
+    <string name="qs_styling">Quick Settings UI</string>
+    <string name="qs_styles_title">QS Panel Styles</string>
+    <string name="qs_outline">QS Outline Style</string>
+    <string name="qs_two_tone">QS Two-Tone Accent</string>
+    <string name="qs_color_pop">QS Color Pop</string>
+    <!-- QS tiles layout direction: vertical or horizontal -->
+    <string name="qs_tile_layout_category_title">Tile layout</string>
+    <string name="qs_tile_layout_title">Vertical layout</string>
+    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+    <!-- QS tiles title visibility -->
+    <string name="qs_tile_title_visibility_title">Hide tile titles</string>
+    <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
+    <!-- QS tiles layout  -->
+    <string name="qs_layout_category_title">QS Layout</string>
+    <string name="qs_tile_label_hide_title">Hide label</string>
+    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
+    <string name="qs_tile_label_size_title">Label text size</string>
+    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
+    <string name="qs_columns_landscape_title">Columns (landscape)</string>
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Power menu animation</string>
     <string name="power_menu_animation_dialog_title">Select power menu animation</string>
@@ -650,16 +614,38 @@
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Edge light</string>
+    <string name="enable_edge_light">Enable Edge Light</string>
+    <string name="edge_light_intro_text">Display an animation along the edges of the screen when pulsing</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
+    <string name="edge_light_repeat_animation_title">Repeat animation</string>
+    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
+    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
+    <string name="edge_light_color_mode_title">Edge light color mode</string>
+    <string name="accent_color">Accent color (Default)</string>
+    <string name="notification_color">Notification color</string>
+    <string name="wallpaper_color">Wallpaper color</string>
+    <string name="custom_color">Custom color</string>
+    <string name="edge_light_custom_color_title">Custom color</string>
     <!-- Power menu and dialogs opacity -->
     <string name="power_menu_transparency">Power/reboot menu opacity</string>
     <string name="power_menu_dialog_dim">Power/reboot dialog dim background amount</string>
-    <!-- Black theme -->
-    <string name="custom_theme_title">Use Custom theme</string>
-    <string name="custom_theme_summary">Force custom background colors</string>
-    <string name="custom_theme_default">Default</string>
-    <string name="custom_theme_black">Black</string>
-    <string name="custom_theme_clear">Clear</string>
-    <string name="custom_theme_vivid">Vivid(Monet)</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Set maximum charging level</string>
+    <string name="smart_charging_switch_title">Enable Smart Charging</string>
+    <string name="smart_charging_level_title">Stop trigger level</string>
+    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
+    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
+    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery. When enabled, battery stops charging at Stop trigger level and resumes charging at Start trigger level. Stop trigger level should be always greater than Start trigger level.</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">About Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
@@ -702,68 +688,9 @@
     <string name="visualizer_center_mirrored_summary">Set the visualizer in center mirrored mode</string>
     <string name="pulse_vertical_mirror_title">Vertical Mirror</string>
     <string name="pulse_vertical_mirror_summary">Create other pulse and flip vertically</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Enable Smart Charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery. When enabled, battery stops charging at Stop trigger level and resumes charging at Start trigger level. Stop trigger level should be always greater than Start trigger level.</string>
-    <!-- Quick settings styling -->
-    <string name="qs_styling">Quick Settings UI</string>
-    <string name="qs_styles_title">QS Panel Styles</string>
-    <string name="qs_outline">QS Outline Style</string>
-    <string name="qs_two_tone">QS Two-Tone Accent</string>
-    <string name="qs_color_pop">QS Color Pop</string>
-    <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_category_title">Tile layout</string>
-    <string name="qs_tile_layout_title">Vertical layout</string>
-    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
-    <!-- QS tiles title visibility -->
-    <string name="qs_tile_title_visibility_title">Hide tile titles</string>
-    <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
-    <!-- QS tiles layout  -->
-    <string name="qs_layout_category_title">QS Layout</string>
-    <string name="qs_tile_label_hide_title">Hide label</string>
-    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
-    <string name="qs_tile_label_size_title">Label text size</string>
-    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
-    <string name="qs_columns_landscape_title">Columns (landscape)</string>
-    <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Show squiggle animation</string>
-    <string name="show_squiggle_animation_summary">Show media panel squiggle animation, after change need to switch music, pause music or move the progress bar to apply</string>
-    <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Footer alerts</string>
-    <string name="qs_footer_warnings_summary">Display an alert at bottom of QS panel when network is monitored by external apps or VPN</string>
-    <!-- QS footer icons -->
-    <string name="qs_footer_users_icon_title">User account icon</string>
-    <string name="qs_footer_users_icon_summary">Display multiuser accessibility icon when available</string>
-    <string name="qs_footer_edit_icon_title">Edit tiles icon</string>
-    <string name="qs_footer_show_power_menu_title">Power menu shortcut</string>
-    <string name="qs_footer_services_icon_title">Running services shortcut</string>
-    <string name="qs_footer_settings_icon_title">Settings shortcut</string>
-    <!-- Wifi/Bluetooth auto timeout -->
-    <string name="wifi_timeout">WiFi timeout</string>
-    <string name="wifi_timeout_summary">Do not automatically turn off WiFi</string>
-    <string name="wifi_timeout_summary_auto">WiFi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
-    <string name="bluetooth_timeout_summary">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_auto">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="custom_timeout_summary_never">Never</string>
-    <string name="custom_timeout_summary_15secs">15 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_2mins">2 minutes</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-    <string name="custom_timeout_summary_1hour">1 hour</string>
-    <string name="custom_timeout_summary_2hours">2 hours</string>
-    <string name="custom_timeout_summary_4hours">4 hours</string>
-    <string name="custom_timeout_summary_8hours">8 hours</string>
-    <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons(SystemUI will automatically restart upon toggling)</string>
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+    <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">UI Style</string>
+    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
 </resources>

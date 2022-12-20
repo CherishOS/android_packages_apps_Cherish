@@ -83,6 +83,12 @@
     <!-- AOKP custom system animations -->
     <!-- Power menu Animations  -->
     <string name="power_menu_animation">Menu de energia</string>
+    <!-- Color picker -->
+    <string name="rgb">RGB</string>
+    <string name="hsl">HSL</string>
+    <string name="hsv">HSV</string>
+    <string name="confirm">Confirm</string>
+    <string name="invalid_color">Invalid color!</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">Ecrã de bloqueio</string>
@@ -288,8 +294,6 @@
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Transparência do painel QS</string>
     <string name="qs_transparency_summary">Escolha a transparência do painel de definições rápidas (Requer reinício do SystemUI)</string>
-    <string name="click_partial_screenshot_title">Clique para captura de ecrã parcial</string>
-    <string name="click_partial_screenshot_summary">Prima os botões de Diminuir Volume e Energia para realizar uma captura de ecrã parcial</string>
     <!-- Brightness control -->
     <string name="status_bar_brightness_control_title">Controlo de brilho</string>
     <string name="status_bar_brightness_control_summary">Ajustar o brilho deslizando pela barra de estado</string>
@@ -308,7 +312,6 @@
     <string name="navigation_bar_compact_layout_title">Disposição compacta</string>
     <string name="navigation_bar_compact_layout_summary">Usar uma disposição compacta na barra de navegação</string>
     <string name="system_navigation_summary">Escolha qual o estilo de navegação do sistema a usar</string>
-    <string name="navbar_layout_category_title">Esquema</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Acordar com os botões de volume</string>
     <string name="volume_rocker_wake_summary">Pressionar os botões de volume acordará o seu dispositivo</string>
@@ -424,12 +427,72 @@
     <!-- Toast app icon -->
     <string name="toast_icon_title">Ícone na notificação toast</string>
     <string name="toast_icon_summary">Mostrar o ícone da app na notificação toast</string>
-    <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Programação do ecrã ambiente</string>
-    <string name="always_on_display_schedule_sunset">Anoitecer</string>
-    <string name="always_on_display_schedule_sunrise">Amanhecer</string>
-    <string name="always_on_display_schedule_mixed_sunset">Ativar do anoitecer até uma determinada hora</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Ativar de uma determinada hora até ao amanhecer</string>
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Estilo das configurações</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
+    <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
+    <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
+    <string name="settings_dashboard_style_cherish">Cherish</string>
+    <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
+    <string name="settings_layout_category_title">Configurações da interface</string>
+    <string name="settings_base_style_title">Configurações do layout base</string>
+    <string name="settings_base_style_summary">Usar um layout alternativo para configurar os menus</string>
+    <string name="settings_home_style_title">Configurações do layout inicial</string>
+    <string name="settings_home_style_summary">Usar layout aosp padrão para a página inicial</string>
+    <string name="disable_usercard_title">Cartão de utilizador</string>
+    <string name="disable_usercard_summary">Alternar para não mostrar o cartão de utilizador no ecrã principal das definições</string>
+    <!-- UDFPS Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">Resposta tátil na impressão digital</string>
+    <string name="udfps_haptic_feedback_summary">Vibrar ao tocar no ícone de impressão digital</string>
+    <!-- Udfps authentication / error vibration -->
+    <string name="udfps_success_vib_title">Vibração na autenticação da impressão digital</string>
+    <string name="udfps_success_vib_summary">Vibrar com a autenticação de impressão digital bem sucedida</string>
+    <string name="udfps_error_vib_title">Vibração de erro da impressão digital</string>
+    <string name="udfps_error_vib_summary">Vibrar com o erro de autenticação da impressão digital</string>
+    <!-- UDFPS Recog Animation -->
+    <string name="udfps_customization">Personalização UDFPS</string>
+    <string name="udfps_recog_animation">Animação UDFPS</string>
+    <string name="udfps_recog_animation_summary">Mostra uma animação durante a leitura da impressão digital</string>
+    <string name="udfps_recog_animation_effect_title">Animação personalizada de UDFPS</string>
+    <string name="udfps_recog_animation_effect_summary">Escolha o efeito da animação</string>
+    <string name="udfps_settings_title">Configurações de UDFPS</string>
+    <string name="udfps_settings_summary">Configurações para personalizar o UDFPS</string>
+    <!-- UDFPS icon picker -->
+    <string name="udfps_icon_picker_title">Seletor do ícone UDFPS</string>
+    <string name="udfps_icon_picker_summary">Escolha o seu ícone de impressão digital favorito</string>
+    <!-- Custom FOD Icon -->
+    <string name="custom_fp_icon_title">Ícone personalizado de UDFPS</string>
+    <string name="custom_fp_icon_summary">Usar ícone de UDFPS personalizado a partir dum arquivo</string>
+    <string name="custom_fp_select_title">Selecionar ícone personalizado do UDFPS</string>
+    <string name="custom_fp_select_summary">Selecione uma imagem personalizada dos seus arquivos salvos ou galeria</string>
+    <!-- UDFPS pressed color -->
+    <string name="udfps_pressed_color_title">Cor do UDFPS pressionado</string>
+    <string name="udfps_pressed_color_summary">Escolha a sua cor favorita de UDFPS pressionado</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Efeito de ondulação</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Mostrar efeito de ondulação ao desbloquear com a impressão digital</string>
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Indicador de privacidade do microfone e da câmara</string>
+    <string name="mic_camera_privacy_indicator_summary">Mostrar um indicador quando uma app usar o microfone ou a câmara</string>
+    <string name="location_privacy_indicator_title">Indicador de privacidade de localização</string>
+    <string name="location_privacy_indicator_summary">Mostrar um indicador quando uma app aceder à localização</string>
+    <string name="projection_privacy_indicator_title">Indicador de privacidade de projeção</string>
+    <string name="projection_privacy_indicator_summary">Mostrar indicador quando o ecrã do dispositivo estiver a ser transmitido</string>
+    <!-- Notification count -->
+    <string name="statusbar_notif_count_title">Mostrar número de notificações</string>
+    <string name="statusbar_notif_count_summary">Exibir o número de notificações pendentes</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Ícones coloridos</string>
+    <string name="statusbar_colored_icons_summary">Usar os ícones das apps para as respetivas notificações na barra de estado</string>
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Estado da bateria Bluetooth</string>
+    <string name="bluetooth_battery_summary">Mostrar o estado da bateria do dispositivo Bluetooth conectado, se disponível</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Ligar/desligar a lanterna com o ecrã desligado</string>
+    <string name="torch_power_button_gesture_none">Desativado</string>
+    <string name="torch_power_button_gesture_dt">Dois toques no botão de energia. Desativa o toque duplo para iniciar a câmara.</string>
+    <string name="torch_power_button_gesture_dt_toast">O atalho para abrir a câmara está desativado</string>
+    <string name="torch_power_button_gesture_lp">Pressão longa no botão de energia</string>
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Relógio e data</string>
     <string name="status_bar_clock_summary">Personalizar o relógio e data</string>
@@ -474,125 +537,6 @@
     <!-- QS date -->
     <string name="qs_date_title">Data</string>
     <string name="qs_date_summary">Mostrar a data no cabeçalho do painel de configurações rápidas</string>
-    <!-- Footer -->
-    <string name="qs_footer_category">Rodapé das configurações rápidas</string>
-    <string name="qs_footer_datausage_title">Utilização de dados</string>
-    <string name="qs_footer_datausage_summary">Mostrar resumo da utilização de dados no rodapé das definições rápidas</string>
-    <!-- Edge light -->
-    <string name="edge_light_title">Iluminação das bordas</string>
-    <string name="enable_edge_light">Ativar iluminação das bordas</string>
-    <string name="edge_light_intro_text">Exibir uma animação ao longo das bordas do ecrã quando recebe uma notificação</string>
-    <string name="edge_light_always_trigger_on_pulse_title">Ativar sempre no pulse</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">Mostrar a iluminação das bordas sempre que o ecrã ambiente é exibido e não apenas para notificações</string>
-    <string name="edge_light_repeat_animation_title">Repetir animação</string>
-    <string name="edge_light_repeat_animation_summary_on">Repetir até ao tempo limite</string>
-    <string name="edge_light_repeat_animation_summary_off">Exibir apenas uma vez</string>
-    <string name="edge_light_color_mode_title">Cor da iluminação das bordas</string>
-    <string name="accent_color">Cor de realce (padrão)</string>
-    <string name="notification_color">Cor da notificação</string>
-    <string name="wallpaper_color">Cor do papel de parede</string>
-    <string name="custom_color">Cor personalizada</string>
-    <string name="edge_light_custom_color_title">Cor personalizada</string>
-    <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">Estilo das configurações</string>
-    <string name="settings_dashboard_style_aosp">AOSP</string>
-    <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
-    <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
-    <string name="settings_dashboard_style_cherish">Cherish</string>
-    <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
-    <string name="settings_layout_category_title">Configurações da interface</string>
-    <string name="settings_base_style_title">Configurações do layout base</string>
-    <string name="settings_base_style_summary">Usar um layout alternativo para configurar os menus</string>
-    <string name="settings_home_style_title">Configurações do layout inicial</string>
-    <string name="settings_home_style_summary">Usar layout aosp padrão para a página inicial</string>
-    <string name="disable_usercard_title">Cartão de utilizador</string>
-    <string name="disable_usercard_summary">Alternar para não mostrar o cartão de utilizador no ecrã principal das definições</string>
-    <!-- Lockscreen Clocks -->
-    <string name="lock_screen_custom_clock_face_category">Relógio do ecrã de bloqueio</string>
-    <string name="lock_screen_custom_clock_face_title">Estilo do relógio do ecrã de bloqueio</string>
-    <string name="lock_screen_custom_clock_face_default">Padrão</string>
-    <string name="lock_screen_custom_clock_face_sfunny">Sfuny</string>
-    <string name="lock_screen_custom_clock_face_oos">OOS</string>
-    <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
-    <string name="lock_screen_custom_clock_face_spark">Spark</string>
-    <string name="lock_screen_custom_clock_face_spark_circle">Círculo Spark</string>
-    <!-- UDFPS Haptic Feedback -->
-    <string name="udfps_haptic_feedback_title">Resposta tátil na impressão digital</string>
-    <string name="udfps_haptic_feedback_summary">Vibrar ao tocar no ícone de impressão digital</string>
-    <!-- Udfps authentication / error vibration -->
-    <string name="udfps_success_vib_title">Vibração na autenticação da impressão digital</string>
-    <string name="udfps_success_vib_summary">Vibrar com a autenticação de impressão digital bem sucedida</string>
-    <string name="udfps_error_vib_title">Vibração de erro da impressão digital</string>
-    <string name="udfps_error_vib_summary">Vibrar com o erro de autenticação da impressão digital</string>
-    <!-- UDFPS Recog Animation -->
-    <string name="udfps_customization">Personalização UDFPS</string>
-    <string name="udfps_recog_animation">Animação UDFPS</string>
-    <string name="udfps_recog_animation_summary">Mostra uma animação durante a leitura da impressão digital</string>
-    <string name="udfps_recog_animation_effect_title">Animação personalizada de UDFPS</string>
-    <string name="udfps_recog_animation_effect_summary">Escolha o efeito da animação</string>
-    <string name="udfps_settings_title">Configurações de UDFPS</string>
-    <string name="udfps_settings_summary">Configurações para personalizar o UDFPS</string>
-    <!-- UDFPS icon picker -->
-    <string name="udfps_icon_picker_title">Seletor do ícone UDFPS</string>
-    <string name="udfps_icon_picker_summary">Escolha o seu ícone de impressão digital favorito</string>
-    <!-- Custom FOD Icon -->
-    <string name="custom_fp_icon_title">Ícone personalizado de UDFPS</string>
-    <string name="custom_fp_icon_summary">Usar ícone de UDFPS personalizado a partir dum arquivo</string>
-    <string name="custom_fp_select_title">Selecionar ícone personalizado do UDFPS</string>
-    <string name="custom_fp_select_summary">Selecione uma imagem personalizada dos seus arquivos salvos ou galeria</string>
-    <!-- UDFPS pressed color -->
-    <string name="udfps_pressed_color_title">Cor do UDFPS pressionado</string>
-    <string name="udfps_pressed_color_summary">Escolha a sua cor favorita de UDFPS pressionado</string>
-    <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Efeito de ondulação</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Mostrar efeito de ondulação ao desbloquear com a impressão digital</string>
-    <!-- reTicker -->
-    <string name="reticker_title">reTicker</string>
-    <string name="reticker_summary">Substituir as notificações flutuantes por uma versão mais fina e menos invasiva</string>
-    <string name="new_reticker_title">ReTicker alternativo</string>
-    <string name="new_reticker_summary">Usar um estilo alternativo para o reTicker, inspirado no iOS</string>
-    <string name="new_reticker_animation_title">Animação alternativa do reTicker</string>
-    <string name="new_reticker_animation_summary">Usar uma animação diferente para o reTicker (ativado por defeito no reTicker alternativo)</string>
-    <string name="reticker_colored_title">Usar fundo colorido da app</string>
-    <string name="reticker_colored_summary">Substituir a cor de fundo do reTicker usando a cor principal da app que emite a notificação</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">Ícone VoWiFi</string>
-    <string name="vowifi_icon_enabled">Ícone VoWiFi ativado</string>
-    <string name="vowifi_icon_disabled">Ícone VoWiFi desativado</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi em vez do ícone VoLTE</string>
-    <string name="vowifi_icon_style_title">Estilo do ícone VoWiFi</string>
-    <string name="vowifi_icon_default">Ícone padrão</string>
-    <string name="vowifi_icon_emui">Ícone EMUI</string>
-    <string name="vowifi_icon_asus">Ícone Asus</string>
-    <string name="vowifi_icon_oneplus">Ícone OOS</string>
-    <string name="vowifi_icon_moto">Ícone Motorola</string>
-    <string name="vowifi_icon_simple1">Ícone Simples1</string>
-    <string name="vowifi_icon_simple2">Ícone Simples2</string>
-    <string name="vowifi_icon_simple3">Ícone Simples3</string>
-    <string name="vowifi_icon_vivo">Ícone Vivo</string>
-    <string name="vowifi_icon_margaritov">Ícone Margaritov</string>
-    <!-- Privacy Indicator -->
-    <string name="mic_camera_privacy_indicator_title">Indicador de privacidade do microfone e da câmara</string>
-    <string name="mic_camera_privacy_indicator_summary">Mostrar um indicador quando uma app usar o microfone ou a câmara</string>
-    <string name="location_privacy_indicator_title">Indicador de privacidade de localização</string>
-    <string name="location_privacy_indicator_summary">Mostrar um indicador quando uma app aceder à localização</string>
-    <string name="projection_privacy_indicator_title">Indicador de privacidade de projeção</string>
-    <string name="projection_privacy_indicator_summary">Mostrar indicador quando o ecrã do dispositivo estiver a ser transmitido</string>
-    <!-- Notification count -->
-    <string name="statusbar_notif_count_title">Mostrar número de notificações</string>
-    <string name="statusbar_notif_count_summary">Exibir o número de notificações pendentes</string>
-    <!-- Statusbar colored icons -->
-    <string name="statusbar_colored_icons_title">Ícones coloridos</string>
-    <string name="statusbar_colored_icons_summary">Usar os ícones das apps para as respetivas notificações na barra de estado</string>
-    <!-- Bluetooth status -->
-    <string name="bluetooth_battery_title">Estado da bateria Bluetooth</string>
-    <string name="bluetooth_battery_summary">Mostrar o estado da bateria do dispositivo Bluetooth conectado, se disponível</string>
-    <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Ligar/desligar a lanterna com o ecrã desligado</string>
-    <string name="torch_power_button_gesture_none">Desativado</string>
-    <string name="torch_power_button_gesture_dt">Dois toques no botão de energia. Desativa o toque duplo para iniciar a câmara.</string>
-    <string name="torch_power_button_gesture_dt_toast">O atalho para abrir a câmara está desativado</string>
-    <string name="torch_power_button_gesture_lp">Pressão longa no botão de energia</string>
     <!-- App lock -->
     <string name="app_lock_title">Bloqueio de apps</string>
     <string name="app_lock_summary">As apps exigirão autenticação por impressão digital para iniciar</string>
@@ -611,6 +555,26 @@
     <string name="app_lock_biometrics_allowed_title">Ativar biometria para desbloquear</string>
     <string name="app_lock_footer_text">Os balões serão automaticamente dispensados após o tempo limite</string>
     <string name="enable_protection">Ativar proteção</string>
+    <!-- Quick settings styling -->
+    <string name="qs_styling">Interface das Definições Rápidas</string>
+    <string name="qs_styles_title">Estilos do Painel QS</string>
+    <string name="qs_outline">Estilo de Contorno</string>
+    <string name="qs_two_tone">Dois Tons de Destaque</string>
+    <string name="qs_color_pop">Color Pop</string>
+    <!-- QS tiles layout direction: vertical or horizontal -->
+    <string name="qs_tile_layout_category_title">Disposição dos blocos</string>
+    <string name="qs_tile_layout_title">Disposição vertical</string>
+    <string name="qs_tile_layout_summary">Ativar para disposição vertical. O padrão é horizontal</string>
+    <!-- QS tiles title visibility -->
+    <string name="qs_tile_title_visibility_title">Ocultar títulos dos blocos</string>
+    <string name="qs_tile_title_visibility_summary">Alternar para ocultar os títulos dos blocos</string>
+    <!-- QS tiles layout  -->
+    <string name="qs_layout_category_title">Disposição das configurações rápidas</string>
+    <string name="qs_tile_label_hide_title">Ocultar rótulos</string>
+    <string name="qs_tile_label_hide_summary">Mostrar apenas o ícone nos blocos</string>
+    <string name="qs_tile_label_size_title">Tamanho do texto dos rótulos</string>
+    <string name="qs_columns_portrait_title">N.º de colunas (retrato)</string>
+    <string name="qs_columns_landscape_title">Colunas (paisagem)</string>
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Animação do menu de energia</string>
     <string name="power_menu_animation_dialog_title">Selecione a animação do menu de energia</string>
@@ -650,16 +614,38 @@
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Substituir as notificações flutuantes por uma versão mais fina e menos invasiva</string>
+    <string name="reticker_colored_title">Usar fundo colorido da app</string>
+    <string name="reticker_colored_summary">Substituir a cor de fundo do reTicker usando a cor principal da app que emite a notificação</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Iluminação das bordas</string>
+    <string name="enable_edge_light">Ativar iluminação das bordas</string>
+    <string name="edge_light_intro_text">Exibir uma animação ao longo das bordas do ecrã quando recebe uma notificação</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Ativar sempre no pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Mostrar a iluminação das bordas sempre que o ecrã ambiente é exibido e não apenas para notificações</string>
+    <string name="edge_light_repeat_animation_title">Repetir animação</string>
+    <string name="edge_light_repeat_animation_summary_on">Repetir até ao tempo limite</string>
+    <string name="edge_light_repeat_animation_summary_off">Exibir apenas uma vez</string>
+    <string name="edge_light_color_mode_title">Cor da iluminação das bordas</string>
+    <string name="accent_color">Cor de realce (padrão)</string>
+    <string name="notification_color">Cor da notificação</string>
+    <string name="wallpaper_color">Cor do papel de parede</string>
+    <string name="custom_color">Cor personalizada</string>
+    <string name="edge_light_custom_color_title">Cor personalizada</string>
     <!-- Power menu and dialogs opacity -->
     <string name="power_menu_transparency">Opacidade do menu de energia</string>
     <string name="power_menu_dialog_dim">Escurecimento do fundo do menu de energia</string>
-    <!-- Black theme -->
-    <string name="custom_theme_title">Usar tema personalizado</string>
-    <string name="custom_theme_summary">Forçar cores de fundo personalizadas</string>
-    <string name="custom_theme_default">Padrão</string>
-    <string name="custom_theme_black">Preto</string>
-    <string name="custom_theme_clear">Límpido</string>
-    <string name="custom_theme_vivid">Vívido (Monet)</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Carregamento Inteligente</string>
+    <string name="smart_charging_summary">Definir o nível máximo de carga</string>
+    <string name="smart_charging_switch_title">Ativar Carregamento Inteligente</string>
+    <string name="smart_charging_level_title">Nível para parar</string>
+    <string name="smart_charging_resume_level_title">Nível para iniciar</string>
+    <string name="smart_charging_reset_stats_title">Repor estatísticas da bateria</string>
+    <string name="smart_charging_reset_stats_summary">Repor as estatísticas da bateria após atingir o nível de carga definido pelo utilizador</string>
+    <string name="smart_charging_footer">O carregamento inteligente permite definir o nível máximo de carga para prolongar a vida útil da sua bateria. Quando ativado, a bateria para de carregar no valor definido em Nivel para parar, e retoma o carregamento no valor definido em Nível para iniciar. O Nível para parar deve ser sempre maior que o Nível para iniciar.</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">Sobre o Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse é um equalizador gráfico de áudio exibido quando reproduz música no dispositivo</string>
@@ -702,68 +688,9 @@
     <string name="visualizer_center_mirrored_summary">Definir o visualizador no modo centro espelhado</string>
     <string name="pulse_vertical_mirror_title">Espelho vertical</string>
     <string name="pulse_vertical_mirror_summary">Criar outro pulse e girar verticalmente</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Carregamento Inteligente</string>
-    <string name="smart_charging_summary">Definir o nível máximo de carga</string>
-    <string name="smart_charging_switch_title">Ativar Carregamento Inteligente</string>
-    <string name="smart_charging_level_title">Nível para parar</string>
-    <string name="smart_charging_resume_level_title">Nível para iniciar</string>
-    <string name="smart_charging_reset_stats_title">Repor estatísticas da bateria</string>
-    <string name="smart_charging_reset_stats_summary">Repor as estatísticas da bateria após atingir o nível de carga definido pelo utilizador</string>
-    <string name="smart_charging_footer">O carregamento inteligente permite definir o nível máximo de carga para prolongar a vida útil da sua bateria. Quando ativado, a bateria para de carregar no valor definido em Nivel para parar, e retoma o carregamento no valor definido em Nível para iniciar. O Nível para parar deve ser sempre maior que o Nível para iniciar.</string>
-    <!-- Quick settings styling -->
-    <string name="qs_styling">Interface das Definições Rápidas</string>
-    <string name="qs_styles_title">Estilos do Painel QS</string>
-    <string name="qs_outline">Estilo de Contorno</string>
-    <string name="qs_two_tone">Dois Tons de Destaque</string>
-    <string name="qs_color_pop">Color Pop</string>
-    <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_category_title">Disposição dos blocos</string>
-    <string name="qs_tile_layout_title">Disposição vertical</string>
-    <string name="qs_tile_layout_summary">Ativar para disposição vertical. O padrão é horizontal</string>
-    <!-- QS tiles title visibility -->
-    <string name="qs_tile_title_visibility_title">Ocultar títulos dos blocos</string>
-    <string name="qs_tile_title_visibility_summary">Alternar para ocultar os títulos dos blocos</string>
-    <!-- QS tiles layout  -->
-    <string name="qs_layout_category_title">Disposição das configurações rápidas</string>
-    <string name="qs_tile_label_hide_title">Ocultar rótulos</string>
-    <string name="qs_tile_label_hide_summary">Mostrar apenas o ícone nos blocos</string>
-    <string name="qs_tile_label_size_title">Tamanho do texto dos rótulos</string>
-    <string name="qs_columns_portrait_title">N.º de colunas (retrato)</string>
-    <string name="qs_columns_landscape_title">Colunas (paisagem)</string>
-    <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Mostrar animação de linha ondulada</string>
-    <string name="show_squiggle_animation_summary">Mostrar animação de linha ondulada no painel multimédia. Após a alteração precisa mudar de música, pausar ou mover a barra de progresso para aplicar</string>
-    <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Alertas de rodapé</string>
-    <string name="qs_footer_warnings_summary">Exibir um alerta no fundo do painel quando a rede for monitorizada por apps externas ou VPN</string>
-    <!-- QS footer icons -->
-    <string name="qs_footer_users_icon_title">Ícone da conta do utilizador</string>
-    <string name="qs_footer_users_icon_summary">Exibir ícone de acessibilidade multiutilizador quando disponível</string>
-    <string name="qs_footer_edit_icon_title">Ícone de edição dos blocos</string>
-    <string name="qs_footer_show_power_menu_title">Atalho para o menu de energia</string>
-    <string name="qs_footer_services_icon_title">Atalho para os serviços em execução</string>
-    <string name="qs_footer_settings_icon_title">Atalho para as definições</string>
-    <!-- Wifi/Bluetooth auto timeout -->
-    <string name="wifi_timeout">Tempo limite do Wi-Fi</string>
-    <string name="wifi_timeout_summary">Não desativar o Wi-Fi automaticamente</string>
-    <string name="wifi_timeout_summary_auto">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver ligado a uma rede</string>
-    <string name="bluetooth_timeout">Tempo limite do Bluetooth</string>
-    <string name="bluetooth_timeout_summary">Não desativar o Bluetooth automaticamente</string>
-    <string name="bluetooth_timeout_summary_auto">O Bluetooth será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se não houver dispositivos ligados</string>
-    <string name="custom_timeout_summary_never">Nunca</string>
-    <string name="custom_timeout_summary_15secs">15 segundos</string>
-    <string name="custom_timeout_summary_30secs">30 segundos</string>
-    <string name="custom_timeout_summary_1min">1 minuto</string>
-    <string name="custom_timeout_summary_2mins">2 minutos</string>
-    <string name="custom_timeout_summary_5mins">5 minutos</string>
-    <string name="custom_timeout_summary_10mins">10 minutos</string>
-    <string name="custom_timeout_summary_30mins">30 minutos</string>
-    <string name="custom_timeout_summary_1hour">1 hora</string>
-    <string name="custom_timeout_summary_2hours">2 horas</string>
-    <string name="custom_timeout_summary_4hours">4 horas</string>
-    <string name="custom_timeout_summary_8hours">8 horas</string>
-    <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">Combinar ícones de sinal</string>
-    <string name="combined_status_bar_signal_icons_summary">Ativar ícones de sinal combinados (SystemUI será reiniciado automaticamente após a alteração)</string>
+    <string name="click_partial_screenshot_title">Clique para captura de ecrã parcial</string>
+    <string name="click_partial_screenshot_summary">Prima os botões de Diminuir Volume e Energia para realizar uma captura de ecrã parcial</string>
+    <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">UI Style</string>
+    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
 </resources>
