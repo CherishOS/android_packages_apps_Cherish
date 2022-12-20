@@ -93,11 +93,11 @@
          android:defaultValue="0"
          android:dependency="show_volte_icon"/>
 
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        <!--<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="use_old_mobiletype"
             android:title="@string/use_old_mobiletype_title"
             android:summary="@string/use_old_mobiletype_summary"
-            android:defaultValue="false" />
+            android:defaultValue="false" />-->
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="show_fourg_icon"
