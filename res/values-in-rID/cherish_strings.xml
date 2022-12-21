@@ -87,8 +87,8 @@
     <string name="rgb">RGB</string>
     <string name="hsl">HSL</string>
     <string name="hsv">HSV</string>
-    <string name="confirm">Confirm</string>
-    <string name="invalid_color">Invalid color!</string>
+    <string name="confirm">Konfirmasi</string>
+    <string name="invalid_color">Warna tidak valid!</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">Layar kunci</string>
@@ -691,6 +691,6 @@
     <string name="click_partial_screenshot_title">Klik untuk tangkapan layar sebagian</string>
     <string name="click_partial_screenshot_summary">Klik pendek Volume Turun dan Daya untuk mengambil tangkapan layar sebagian</string>
     <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">UI Style</string>
-    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
+    <string name="theme_customization_ui_style_title">Gaya Antarmuka Pengguna</string>
+    <string name="theme_customization_ui_style_summary">Setel gaya kustom untuk antarmuka Anda</string>
 </resources>

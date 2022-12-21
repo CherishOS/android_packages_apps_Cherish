@@ -87,8 +87,8 @@
     <string name="rgb">RGB</string>
     <string name="hsl">HSL</string>
     <string name="hsv">HSV</string>
-    <string name="confirm">Confirm</string>
-    <string name="invalid_color">Invalid color!</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="invalid_color">Màu không hợp lệ!</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">Màn hình khóa</string>
@@ -690,6 +690,6 @@
     <string name="click_partial_screenshot_title">Nhấp để chụp màn hình một phần</string>
     <string name="click_partial_screenshot_summary">Nhấp nhanh vào Giảm âm lượng và Nguồn để chụp một phần ảnh chụp màn hình</string>
     <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">UI Style</string>
-    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
+    <string name="theme_customization_ui_style_title">Kiểu giao diện</string>
+    <string name="theme_customization_ui_style_summary">Đặt kiểu tùy chỉnh cho giao diện của bạn</string>
 </resources>
