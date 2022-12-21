@@ -235,6 +235,11 @@
     <string name="volte_icon_vimeo">Icono de Vimeo</string>
     <string name="volte_icon_volit">Ícono VoLIT</string>
     <string name="volte_icon_zirco">Icono Ziroc</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi icon</string>
+    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
+    <string name="volte_vowifi_override_title">VoWiFi override</string>
+    <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Estilo del icono de la batería</string>
     <string name="battery_style_summary">Personalizar los iconos de la batería, ocultar o mostrar porcentaje</string>
@@ -537,6 +542,10 @@
     <!-- QS date -->
     <string name="qs_date_title">Fecha</string>
     <string name="qs_date_summary">Mostrar reloj en la cabecera de la barra de estado</string>
+    <!-- Footer -->
+    <string name="qs_footer_category">QS Footer</string>
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
     <!-- App lock -->
     <string name="app_lock_title">Bloqueo de aplicación</string>
     <string name="app_lock_summary">Las aplicaciones requerirán la autenticación de huella digital para iniciar</string>
@@ -693,4 +702,23 @@
     <!-- UI styles -->
     <string name="theme_customization_ui_style_title">Estilo de interfaz</string>
     <string name="theme_customization_ui_style_summary">Establece un estilo personalizado para tu interfaz</string>
+    <!-- OOS style material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_button_title">Material dimiss button</string>
+    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
+    <string name="clearall_style_title">Material dismiss button style</string>
+    <string name="clearall_bgstyle_title">Material dismiss background style</string>
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
+    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons\n(WARNING: a soft reboot will occur upon enabling combined signal icons)</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
+    <string name="smart_pixels_enable_title">Enable Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift_title">Burn-in protection</string>
+    <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
 </resources>
