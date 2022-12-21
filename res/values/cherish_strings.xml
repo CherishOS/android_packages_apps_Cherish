@@ -280,6 +280,12 @@
     <string name="volte_icon_volit">Volit Icon</string>
     <string name="volte_icon_zirco">Ziroc Icon</string>
 	
+	 <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi icon</string>
+    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
+    <string name="volte_vowifi_override_title">VoWiFi override</string>
+    <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available</string>
+	
 	<!-- Statusbar Battery -->
     <string name="battery_style_title">Battery icon style</string>
     <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
