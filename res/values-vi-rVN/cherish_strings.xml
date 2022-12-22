@@ -236,10 +236,10 @@
     <string name="volte_icon_volit">Biểu tượng Volit</string>
     <string name="volte_icon_zirco">Biểu tượng Ziroc</string>
     <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
-    <string name="volte_vowifi_override_title">VoWiFi override</string>
-    <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available</string>
+    <string name="vowifi_icon_title">Biểu tượng VoWifi</string>
+    <string name="vowifi_icon_summary">Hiện VoWifi icon khi có thể</string>
+    <string name="volte_vowifi_override_title">Ghi đè VoWiFi</string>
+    <string name="volte_vowifi_override_summary">Ẩn VoLTE khi có VoWiFi khả dụng</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Kiểu biểu tượng pin</string>
     <string name="battery_style_summary">Tùy chỉnh biểu tượng pin, ẩn hoặc hiển thị phần trăm</string>
@@ -543,9 +543,9 @@
     <string name="qs_date_title">Ngày</string>
     <string name="qs_date_summary">Hiển thị ngày tháng ở phía trên thanh phím tắt nhanh</string>
     <!-- Footer -->
-    <string name="qs_footer_category">QS Footer</string>
-    <string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <string name="qs_footer_category">Chân Cài đặt nhanh</string>
+    <string name="qs_footer_datausage_title">Dung lượng sử dụng</string>
+    <string name="qs_footer_datausage_summary">Hiển thị tóm tắt sử dụng dữ liệu trong chân trang cài đặt nhanh</string>
     <!-- App lock -->
     <string name="app_lock_title">Khoá ứng dụng</string>
     <string name="app_lock_summary">Sẽ yêu cầu xác nhận vân tay để khởi chạy ứng dụng</string>
@@ -702,22 +702,22 @@
     <string name="theme_customization_ui_style_title">Kiểu giao diện</string>
     <string name="theme_customization_ui_style_summary">Đặt kiểu tùy chỉnh cho giao diện của bạn</string>
     <!-- OOS style material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_button_title">Material dimiss button</string>
-    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
-    <string name="clearall_style_title">Material dismiss button style</string>
-    <string name="clearall_bgstyle_title">Material dismiss background style</string>
+    <string name="notification_material_dismiss_button_title">Nút loại bỏ</string>
+    <string name="notification_material_dismiss_button_summary">Thay thế xóa tất cả văn bản thông báo bằng nút nổi</string>
+    <string name="clearall_style_title">Kiểu nút loại bỏ</string>
+    <string name="clearall_bgstyle_title">Kiểu nền nút loại bỏ</string>
     <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons\n(WARNING: a soft reboot will occur upon enabling combined signal icons)</string>
+    <string name="combined_status_bar_signal_icons_title">Biểu tượng tín hiệu kép</string>
+    <string name="combined_status_bar_signal_icons_summary">Bật biểu tượng tín hiệu kết hợp\n(CẢNH BÁO: quá trình khởi động lại mềm sẽ xảy ra khi bật biểu tượng tín hiệu kết hợp)</string>
     <!-- Smart Pixels -->
-    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
-    <string name="smart_pixels_title">Smart Pixels</string>
-    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
-    <string name="smart_pixels_enable_title">Enable Smart Pixels</string>
-    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
-    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
-    <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
-    <string name="smart_pixels_percent">Percent of pixels to disable</string>
-    <string name="smart_pixels_shift_title">Burn-in protection</string>
-    <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
+    <string name="smart_pixels_warning_text">Điểm ảnh thông minh là một tính năng tiết kiệm pin. Tùy thuộc vào bao nhiêu điểm bạn quyết định tắt, bạn có thể thấy cải thiện thời gian sử dụng pin</string>
+    <string name="smart_pixels_title">Điểm ảnh thông minh</string>
+    <string name="smart_pixels_summary">Tiết kiệm pin bằng cách tắt các điểm ảnh phụ</string>
+    <string name="smart_pixels_enable_title">Bật Điểm ảnh thông minh</string>
+    <string name="smart_pixels_enable_summary">Tắt các điểm ảnh để giảm mức tiêu thụ pin</string>
+    <string name="smart_pixels_on_power_save_title">Tự động bật tiết kiệm pin</string>
+    <string name="smart_pixels_on_power_save_summary">Tự động bật Điểm ảnh thông minh khi trình tiết kiệm pin được bật</string>
+    <string name="smart_pixels_percent">Phần trăm điểm ảnh bị tắt</string>
+    <string name="smart_pixels_shift_title">Bảo vệ khỏi lỗi bóng mờ</string>
+    <string name="smart_pixels_shift_summary">Tránh lỗi bóng mờ trên màn OLED bằng cách di chuyển các điểm ành thường xuyên</string>
 </resources>
