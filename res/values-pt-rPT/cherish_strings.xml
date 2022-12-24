@@ -236,10 +236,10 @@
     <string name="volte_icon_volit">Ícone Volit</string>
     <string name="volte_icon_zirco">Ícone Ziroc</string>
     <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
-    <string name="volte_vowifi_override_title">VoWiFi override</string>
-    <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available</string>
+    <string name="vowifi_icon_title">Ícone VoWiFi</string>
+    <string name="vowifi_icon_summary">Exibir o ícone de VoWiFi quando disponível</string>
+    <string name="volte_vowifi_override_title">Sobrepor VoWiFi</string>
+    <string name="volte_vowifi_override_summary">Ocultar VoLTE quando VoWiFi estiver disponível</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Estilo do indicador de bateria</string>
     <string name="battery_style_summary">Personalizar os ícones da bateria, ocultar ou mostrar a percentagem</string>
@@ -543,9 +543,9 @@
     <string name="qs_date_title">Data</string>
     <string name="qs_date_summary">Mostrar a data no cabeçalho do painel de configurações rápidas</string>
     <!-- Footer -->
-    <string name="qs_footer_category">QS Footer</string>
-    <string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <string name="qs_footer_category">Rodapé das definições rápidas</string>
+    <string name="qs_footer_datausage_title">Utilização de dados</string>
+    <string name="qs_footer_datausage_summary">Mostrar resumo da utilização de dados no rodapé das definições rápidas</string>
     <!-- App lock -->
     <string name="app_lock_title">Bloqueio de apps</string>
     <string name="app_lock_summary">As apps exigirão autenticação por impressão digital para iniciar</string>
@@ -703,22 +703,22 @@
     <string name="theme_customization_ui_style_title">Estilo da interface</string>
     <string name="theme_customization_ui_style_summary">Definir um estilo personalizado para a sua interface</string>
     <!-- OOS style material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_button_title">Material dimiss button</string>
-    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
-    <string name="clearall_style_title">Material dismiss button style</string>
-    <string name="clearall_bgstyle_title">Material dismiss background style</string>
+    <string name="notification_material_dismiss_button_title">Botão de dispensar notificações (Material)</string>
+    <string name="notification_material_dismiss_button_summary">Substituir o texto \"limpar tudo\" por um botão flutuante</string>
+    <string name="clearall_style_title">Estilo do botão</string>
+    <string name="clearall_bgstyle_title">Estilo do fundo do botão</string>
     <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons\n(WARNING: a soft reboot will occur upon enabling combined signal icons)</string>
+    <string name="combined_status_bar_signal_icons_title">Combinar ícones de sinal</string>
+    <string name="combined_status_bar_signal_icons_summary">Ativar ícones de sinal combinados\n(AVISO: ocorrerá um reinício rápido após ativar esta opção)</string>
     <!-- Smart Pixels -->
-    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
-    <string name="smart_pixels_title">Smart Pixels</string>
-    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
-    <string name="smart_pixels_enable_title">Enable Smart Pixels</string>
-    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
-    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
-    <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
-    <string name="smart_pixels_percent">Percent of pixels to disable</string>
-    <string name="smart_pixels_shift_title">Burn-in protection</string>
-    <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
+    <string name="smart_pixels_warning_text">Píxeis inteligentes são um recurso de economia de energia. Dependendo de quantos píxeis decidir desativar, poderá ver melhorias na duração da bateria. Note que em alguns casos isso pode resultar em áreas sem resposta ao toque no ecrã</string>
+    <string name="smart_pixels_title">Pixeis inteligentes</string>
+    <string name="smart_pixels_summary">Poupar bateria ao desligar alguns píxeis</string>
+    <string name="smart_pixels_enable_title">Ativar Pixels Inteligentes</string>
+    <string name="smart_pixels_enable_summary">Desligar alguns píxeis para reduzir o consumo de energia</string>
+    <string name="smart_pixels_on_power_save_title">Ativar automaticamente em poupança de bateria</string>
+    <string name="smart_pixels_on_power_save_summary">Ativar os Píxeis inteligentes quando a poupança de bateria for ativada</string>
+    <string name="smart_pixels_percent">Percentagem de píxeis a desativar</string>
+    <string name="smart_pixels_shift_title">Proteção contra burn-in</string>
+    <string name="smart_pixels_shift_summary">Previne a queimadura em dispositivos com ecrãs OLED ao mover os píxeis regularmente</string>
 </resources>
