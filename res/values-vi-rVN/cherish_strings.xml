@@ -126,6 +126,9 @@
     <string name="theme_customization_signal_icon_summary">Đặt kiểu biểu tượng tín hiệu tùy biến</string>
     <string name="theme_customization_wifi_icon_title">Kiểu biểu tượng WiFi</string>
     <string name="theme_customization_wifi_icon_summary">Đặt kiểu biểu tượng WiFi tùy biến</string>
+    <!-- Fonts -->
+    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
+    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">Tín hiệu</string>
     <!-- Custom Wi-Fi bar icons -->
