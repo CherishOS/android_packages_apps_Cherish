@@ -126,6 +126,9 @@
     <string name="theme_customization_signal_icon_summary">Setel gaya ikon sinyal kustom</string>
     <string name="theme_customization_wifi_icon_title">Gaya ikon WiFi</string>
     <string name="theme_customization_wifi_icon_summary">Setel gaya ikon wifi kustom</string>
+    <!-- Fonts -->
+    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
+    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">Sinyal</string>
     <!-- Custom Wi-Fi bar icons -->
