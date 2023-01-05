@@ -126,6 +126,9 @@
     <string name="theme_customization_signal_icon_summary">自訂訊號圖示樣式</string>
     <string name="theme_customization_wifi_icon_title">WiFi 圖示樣式</string>
     <string name="theme_customization_wifi_icon_summary">自訂 WiFi 圖示樣式</string>
+    <!-- Fonts -->
+    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
+    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">訊號</string>
     <!-- Custom Wi-Fi bar icons -->
