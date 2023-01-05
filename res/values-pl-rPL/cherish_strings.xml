@@ -126,6 +126,9 @@
     <string name="theme_customization_signal_icon_summary">Ustaw niestandardowy wygląd ikony sygnału</string>
     <string name="theme_customization_wifi_icon_title">Styl ikony WiFi</string>
     <string name="theme_customization_wifi_icon_summary">Ustaw niestandardowy wygląd ikony wifi</string>
+    <!-- Fonts -->
+    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
+    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">Sygnał</string>
     <!-- Custom Wi-Fi bar icons -->
