@@ -127,8 +127,8 @@
     <string name="theme_customization_wifi_icon_title">Gaya ikon WiFi</string>
     <string name="theme_customization_wifi_icon_summary">Setel gaya ikon wifi kustom</string>
     <!-- Fonts -->
-    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
-    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
+    <string name="theme_customization_lock_clock_title">Font jam layar kunci</string>
+    <string name="theme_customization_lock_clock_summary">Setel gaya font jam layar kunci</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">Sinyal</string>
     <!-- Custom Wi-Fi bar icons -->
