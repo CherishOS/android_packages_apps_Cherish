@@ -12,23 +12,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_title">ചെറിഷ് ക്രമീകരണങ്ങൾ</string>
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
-    <string name="button_summary">Hardware keys, Navigation bar</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
-    <string name="lockscreen_title">Lock screen</string>
-    <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">Gaming mode, volume controls</string>
-    <string name="animations_title">Animations</string>
-    <string name="animations_summary">System animations</string>
-    <string name="powermenu_title">Power menu</string>
-    <string name="powermenu_summary">Advanced restart, power menu opacity</string>
-    <string name="theme_title">Themes</string>
-    <string name="theme_summary">System theme, rounded, switch theme</string>
-    <string name="quicksettings_title">Quick Settings</string>
+    <string name="button_title">ബട്ടണുകള്‍</string>
+    <string name="button_summary">ഹാർഡ്‌വെയർ കീകൾ, നാവിഗേഷൻ ബാർ</string>
+    <string name="gestures_title">ഗെസ്ച്ചറുകൾ</string>
+    <string name="gestures_summary">ക്യാമറയിലേക്ക് പോകുക, സ്ക്രീൻഷോട്ടിലേക്ക് സ്വൈപ്പ് ചെയ്യുക</string>
+    <string name="lockscreen_title">ലോക്ക് സ്ക്രീൻ</string>
+    <string name="lockscreen_summary">സംഗീത വിഷ്വലൈസർ, ചാർജിംഗ് ആനിമേഷൻ, ക്ലോക്കിന്റെ സ്റ്റൈൽ</string>
+    <string name="misc_title">പലവക</string>
+    <string name="misc_summary">ഗെയിമിംഗ് മോഡ്, വോളിയം നിയന്ത്രണങ്ങൾ</string>
+    <string name="animations_title">ആനിമേഷനുകൾ</string>
+    <string name="animations_summary">സിസ്റ്റം ആനിമേഷനുകൾ</string>
+    <string name="powermenu_title">പവർ മെനു</string>
+    <string name="powermenu_summary">അഡ്വാൻസ്ഡ് റീസ്റ്റാർട്ട്, പവർ മെനു അതാര്യത</string>
+    <string name="theme_title">തീമുകൾ</string>
+    <string name="theme_summary">സിസ്റ്റം തീം, വൃത്താകൃതിയിലുള്ള, തീം മാറുക</string>
+    <string name="quicksettings_title">ദ്രുത ക്രമീകരണങ്ങൾ</string>
     <string name="quicksettings_summary">Tile layout, blur</string>
     <string name="recents_title">Recents apps</string>
     <string name="recents_summary">Slim recents</string>
