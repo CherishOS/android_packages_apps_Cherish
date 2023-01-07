@@ -127,8 +127,8 @@
     <string name="theme_customization_wifi_icon_title">Estilo do ícone Wi-Fi</string>
     <string name="theme_customization_wifi_icon_summary">Definir um ícone de Wi-Fi personalizado</string>
     <!-- Fonts -->
-    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
-    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
+    <string name="theme_customization_lock_clock_title">Fonte do relógio do ecrã de bloqueio</string>
+    <string name="theme_customization_lock_clock_summary">Definir o estilo da fonte do relógio do ecrã de bloqueio</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">Sinal</string>
     <!-- Custom Wi-Fi bar icons -->
