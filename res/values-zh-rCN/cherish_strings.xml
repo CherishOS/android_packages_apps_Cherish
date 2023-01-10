@@ -207,42 +207,6 @@
     <string name="lockscreen_albumart_filter_blur">模糊</string>
     <string name="lockscreen_albumart_filter_grayblur">灰度和模糊</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">媒体封面的模糊程度</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">VoLTE 图标</string>
-    <string name="volte_switch_summary">显示 VoLTE 图标</string>
-    <string name="volte_icon_title">VoLTE 图标</string>
-    <string name="volte_icon_summary">显示 VoLTE 图标</string>
-    <string name="volte_icon_style_title">选择 VoLTE 图标</string>
-    <string name="volte_icon_asus">VoLTE 图标(Asus)</string>
-    <string name="volte_icon_vo">VoLTE 图标(Vo)</string>
-    <string name="volte_icon_volte">VoLTE 图标(默认)</string>
-    <string name="volte_icon_oos">VoLTE 图标(氧OS)</string>
-    <string name="volte_icon_hd">VoLTE 图标(HD)</string>
-    <string name="volte_icon_hd2">VoLTE 图标(CAF)</string>
-    <string name="volte_icon_miui">VoLTE 图标(MIUI 11)</string>
-    <string name="volte_icon_emui">VoLTE 图标(EMUI)</string>
-    <string name="volte_icon_margaritov">HD 图标</string>
-    <string name="volte_icon_margaritov2">Margaritov VoLTE 图标</string>
-    <string name="volte_icon_vivo">VoLTE 图标(Vivo)</string>
-    <string name="volte_icon_aris">VoLTE 图标(Aris)</string>
-    <string name="volte_icon_beast">VoLTE 图标(Aww)</string>
-    <string name="volte_icon_ios">VoLTE 图标(LineageOS)</string>
-    <string name="volte_icon_lr">VoLTE 图标(Livenge)</string>
-    <string name="volte_icon_realme">VoLTE 图标(Realme)</string>
-    <string name="volte_icon_typeA">VoLTE 图标(Mild)</string>
-    <string name="volte_icon_typeB">VoLTE 图标(Filth)</string>
-    <string name="volte_icon_typeC">VoLTE 图标(Mue)</string>
-    <string name="volte_icon_typeD">VoLTE 图标(Sus)</string>
-    <string name="volte_icon_typeE">VoLTE 图标(Acherus)</string>
-    <string name="volte_icon_vcircle">VoLTE 图标(圆形)</string>
-    <string name="volte_icon_vimeo">VoLTE 图标(Vimeo)</string>
-    <string name="volte_icon_volit">VoLTE 图标(Volit)</string>
-    <string name="volte_icon_zirco">VoLTE 图标(Ziroc)</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
-    <string name="volte_vowifi_override_title">VoWiFi override</string>
-    <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">电池图标样式</string>
     <string name="battery_style_summary">自定义电池图标，隐藏或显示百分比</string>
