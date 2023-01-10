@@ -207,42 +207,6 @@
     <string name="lockscreen_albumart_filter_blur">Размытие</string>
     <string name="lockscreen_albumart_filter_grayblur">Оттенки серого и размытие</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Уровень размытия для медиа обложки на экране блокировки</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">Значок VoLTE</string>
-    <string name="volte_switch_summary">Отображать значок VoLTE</string>
-    <string name="volte_icon_title">Значок VoLTE</string>
-    <string name="volte_icon_summary">Отображать значок VoLTE</string>
-    <string name="volte_icon_style_title">Выбрать значок VoLTE</string>
-    <string name="volte_icon_asus">Значок VoLTE Asus</string>
-    <string name="volte_icon_vo">Только значок Vo</string>
-    <string name="volte_icon_volte">Значок VoLTE</string>
-    <string name="volte_icon_oos">Значок VoLTE OOS</string>
-    <string name="volte_icon_hd">Значок HD</string>
-    <string name="volte_icon_hd2">Значок HD CAF</string>
-    <string name="volte_icon_miui">Значок MIUI 11</string>
-    <string name="volte_icon_emui">Значок EMUI</string>
-    <string name="volte_icon_margaritov">Заполненный значок HD</string>
-    <string name="volte_icon_margaritov2">Маргаритов значок VoLTE</string>
-    <string name="volte_icon_vivo">Значок Vivo</string>
-    <string name="volte_icon_aris">Значок Aris</string>
-    <string name="volte_icon_beast">Значок Aww</string>
-    <string name="volte_icon_ios">Значок Ios</string>
-    <string name="volte_icon_lr">Значок Livenge</string>
-    <string name="volte_icon_realme">Значок Realme</string>
-    <string name="volte_icon_typeA">Модный значок</string>
-    <string name="volte_icon_typeB">Значок фильтра</string>
-    <string name="volte_icon_typeC">Значок Mue</string>
-    <string name="volte_icon_typeD">Значок Sus</string>
-    <string name="volte_icon_typeE">Значок Acherus</string>
-    <string name="volte_icon_vcircle">Круглый значок</string>
-    <string name="volte_icon_vimeo">Значок Vimeo</string>
-    <string name="volte_icon_volit">Значок Volit</string>
-    <string name="volte_icon_zirco">Значок Ziroc</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">Значок VoWiFi</string>
-    <string name="vowifi_icon_summary">Показывать значок VoWiFi, когда доступно</string>
-    <string name="volte_vowifi_override_title">Переопределять VoWiFi</string>
-    <string name="volte_vowifi_override_summary">Скрыть VoLTE при доступности VoWiFi</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Стиль значка батареи</string>
     <string name="battery_style_summary">Настроить значки батареи, скрыть или показать процент</string>
