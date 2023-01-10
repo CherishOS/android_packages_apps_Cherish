@@ -207,42 +207,6 @@
     <string name="lockscreen_albumart_filter_blur">Blur</string>
     <string name="lockscreen_albumart_filter_grayblur">Skala abu-abu dan blur</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Jumlah blur untuk karya seni media layar kunci</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">Ikon VoLTE</string>
-    <string name="volte_switch_summary">Tampilkan ikon VoLTE</string>
-    <string name="volte_icon_title">Ikon VoLTE</string>
-    <string name="volte_icon_summary">Tampilkan ikon VoLTE</string>
-    <string name="volte_icon_style_title">Pilih Ikon VoLTE</string>
-    <string name="volte_icon_asus">Ikon Asus VoLTE</string>
-    <string name="volte_icon_vo">Hanya Ikon Vo</string>
-    <string name="volte_icon_volte">Ikon VoLTE</string>
-    <string name="volte_icon_oos">Ikon OOS VoLTE</string>
-    <string name="volte_icon_hd">Ikon HD</string>
-    <string name="volte_icon_hd2">Ikon HD CAF</string>
-    <string name="volte_icon_miui">Ikon MIUI 11</string>
-    <string name="volte_icon_emui">Ikon EMUI</string>
-    <string name="volte_icon_margaritov">Ikon HD Berisi</string>
-    <string name="volte_icon_margaritov2">Ikon VoLTE Margaritov</string>
-    <string name="volte_icon_vivo">Ikon Vivo</string>
-    <string name="volte_icon_aris">Ikon Aris</string>
-    <string name="volte_icon_beast">Ikon Aww</string>
-    <string name="volte_icon_ios">Ikon iOS</string>
-    <string name="volte_icon_lr">Ikon Livenge</string>
-    <string name="volte_icon_realme">Ikon Realme</string>
-    <string name="volte_icon_typeA">Ikon Mild</string>
-    <string name="volte_icon_typeB">Ikon Filth</string>
-    <string name="volte_icon_typeC">Ikon Mue</string>
-    <string name="volte_icon_typeD">Ikon Sus</string>
-    <string name="volte_icon_typeE">Ikon Acherus</string>
-    <string name="volte_icon_vcircle">Ikon Lingkaran</string>
-    <string name="volte_icon_vimeo">Ikon Vimeo</string>
-    <string name="volte_icon_volit">Ikon Volit</string>
-    <string name="volte_icon_zirco">Ikon Ziroc</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">Ikon VoWiFi</string>
-    <string name="vowifi_icon_summary">Tampilkan ikon VoWiFi bila tersedia</string>
-    <string name="volte_vowifi_override_title">Penggantian VoWiFi</string>
-    <string name="volte_vowifi_override_summary">Sembunyikan VoLTE saat VoWiFi tersedia</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Gaya ikon baterai</string>
     <string name="battery_style_summary">Sesuaikan ikon baterai, sembunyikan atau tampilkan persentase</string>
