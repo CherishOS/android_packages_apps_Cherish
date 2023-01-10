@@ -78,32 +78,6 @@
             android:summary="@string/data_disabled_icon_summary"
             android:defaultValue="true" />
 
-    <com.cherish.settings.preferences.SystemSettingSeekBarPreference
-         android:key="volte_icon_style"
-         android:title="@string/volte_icon_style_title"
-         android:summary="@string/volte_icon_summary"
-            android:defaultValue="0"
-            settings:defaultValueText="@string/disabled"
-            android:max="28"
-            settings:min="0"
-            settings:units="" />
-			
-	<com.cherish.settings.preferences.SystemSettingSeekBarPreference
-            android:key="vowifi_icon_style"
-            android:title="@string/vowifi_icon_title"
-            android:summary="@string/vowifi_icon_summary"
-            android:defaultValue="0"
-            settings:defaultValueText="@string/disabled"
-            android:max="8"
-            settings:min="0"
-            settings:units="" />
-
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="volte_vowifi_override"
-            android:title="@string/volte_vowifi_override_title"
-            android:summary="@string/volte_vowifi_override_summary"
-            android:defaultValue="true"/>
-
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="use_old_mobiletype"
             android:title="@string/use_old_mobiletype_title"
