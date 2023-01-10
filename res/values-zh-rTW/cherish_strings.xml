@@ -207,42 +207,6 @@
     <string name="lockscreen_albumart_filter_blur">模糊</string>
     <string name="lockscreen_albumart_filter_grayblur">灰階且模糊</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lockscreen media artwork</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">VoLTE 圖示</string>
-    <string name="volte_switch_summary">顯示 VoLTE 圖示</string>
-    <string name="volte_icon_title">VoLTE 圖示</string>
-    <string name="volte_icon_summary">顯示 VoLTE 圖示</string>
-    <string name="volte_icon_style_title">選擇 VoLTE 圖示</string>
-    <string name="volte_icon_asus">Asus</string>
-    <string name="volte_icon_vo">Vo Only</string>
-    <string name="volte_icon_volte">VoLTE</string>
-    <string name="volte_icon_oos">OxygenOS</string>
-    <string name="volte_icon_hd">HD</string>
-    <string name="volte_icon_hd2">HD CAF</string>
-    <string name="volte_icon_miui">MIUI 11</string>
-    <string name="volte_icon_emui">EMUI</string>
-    <string name="volte_icon_margaritov">填充的HD圖示</string>
-    <string name="volte_icon_margaritov2">Margaritov</string>
-    <string name="volte_icon_vivo">Vivo</string>
-    <string name="volte_icon_aris">Aris</string>
-    <string name="volte_icon_beast">Aww</string>
-    <string name="volte_icon_ios">iOS</string>
-    <string name="volte_icon_lr">Livenge</string>
-    <string name="volte_icon_realme">Realme</string>
-    <string name="volte_icon_typeA">Mild</string>
-    <string name="volte_icon_typeB">Filth</string>
-    <string name="volte_icon_typeC">Mue</string>
-    <string name="volte_icon_typeD">Sus</string>
-    <string name="volte_icon_typeE">Acherus</string>
-    <string name="volte_icon_vcircle">圓形</string>
-    <string name="volte_icon_vimeo">Vimeo</string>
-    <string name="volte_icon_volit">Volit</string>
-    <string name="volte_icon_zirco">Ziroc</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
-    <string name="volte_vowifi_override_title">VoWiFi override</string>
-    <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Battery icon style</string>
     <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
