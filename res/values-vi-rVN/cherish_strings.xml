@@ -207,42 +207,6 @@
     <string name="lockscreen_albumart_filter_blur">Độ mờ</string>
     <string name="lockscreen_albumart_filter_grayblur">Thang độ xám và mờ</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Độ mờ cho ảnh bìa tác phẩm trên màn hình khóa</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">Biểu tượng VoLTE</string>
-    <string name="volte_switch_summary">Hiển thị biểu tượng VoLTE</string>
-    <string name="volte_icon_title">Biểu tượng VoLTE</string>
-    <string name="volte_icon_summary">Hiển thị biểu tượng VoLTE</string>
-    <string name="volte_icon_style_title">Chọn biểu tượng VoLTE</string>
-    <string name="volte_icon_asus">Biểu tượng VoLTE Asus</string>
-    <string name="volte_icon_vo">Biểu tượng chỉ Vo</string>
-    <string name="volte_icon_volte">Biểu tượng VoLTE</string>
-    <string name="volte_icon_oos">Biểu tượng VoLTE OOS</string>
-    <string name="volte_icon_hd">Biểu tượng HD</string>
-    <string name="volte_icon_hd2">Biểu tượng CAF HD</string>
-    <string name="volte_icon_miui">Biểu tượng MIUI 11</string>
-    <string name="volte_icon_emui">Biểu tượng EMUI</string>
-    <string name="volte_icon_margaritov">Biểu tượng Filled HD</string>
-    <string name="volte_icon_margaritov2">Biểu tượng Margaritov VoLTE</string>
-    <string name="volte_icon_vivo">Biểu tượng Vivo</string>
-    <string name="volte_icon_aris">Biểu tượng Aris</string>
-    <string name="volte_icon_beast">Biểu tượng Aww</string>
-    <string name="volte_icon_ios">Biểu tượng Ios</string>
-    <string name="volte_icon_lr">Biểu tượng Livenge</string>
-    <string name="volte_icon_realme">Biểu tượng Realme</string>
-    <string name="volte_icon_typeA">Biểu tượng Mild</string>
-    <string name="volte_icon_typeB">Biểu tượng Filth</string>
-    <string name="volte_icon_typeC">Biểu tượng Mue</string>
-    <string name="volte_icon_typeD">Biểu tượng Sus</string>
-    <string name="volte_icon_typeE">Biểu tượng Acherus</string>
-    <string name="volte_icon_vcircle">Biểu tượng hình tròn</string>
-    <string name="volte_icon_vimeo">Biểu tượng Vimeo</string>
-    <string name="volte_icon_volit">Biểu tượng Volit</string>
-    <string name="volte_icon_zirco">Biểu tượng Ziroc</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">Biểu tượng VoWifi</string>
-    <string name="vowifi_icon_summary">Hiện VoWifi icon khi có thể</string>
-    <string name="volte_vowifi_override_title">Ghi đè VoWiFi</string>
-    <string name="volte_vowifi_override_summary">Ẩn VoLTE khi có VoWiFi khả dụng</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Kiểu biểu tượng pin</string>
     <string name="battery_style_summary">Tùy chỉnh biểu tượng pin, ẩn hoặc hiển thị phần trăm</string>
