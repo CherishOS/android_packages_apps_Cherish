@@ -207,42 +207,6 @@
     <string name="lockscreen_albumart_filter_blur">ぼかし</string>
     <string name="lockscreen_albumart_filter_grayblur">グレースケールとぼかし</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">ロック画面のメディアアートワークのぼかし量</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">VoLTE アイコン</string>
-    <string name="volte_switch_summary">VoLTE アイコンを表示する</string>
-    <string name="volte_icon_title">VoLTE アイコン</string>
-    <string name="volte_icon_summary">VoLTE アイコンを表示する</string>
-    <string name="volte_icon_style_title">VoLTE アイコンの選択</string>
-    <string name="volte_icon_asus">VoLTE Asus アイコン</string>
-    <string name="volte_icon_vo">Vo のみのアイコン</string>
-    <string name="volte_icon_volte">VoLTE アイコン</string>
-    <string name="volte_icon_oos">VoLTE OOS アイコン</string>
-    <string name="volte_icon_hd">HD アイコン</string>
-    <string name="volte_icon_hd2">HD CAF アイコン</string>
-    <string name="volte_icon_miui">MIUI 11 アイコン</string>
-    <string name="volte_icon_emui">EMUI アイコン</string>
-    <string name="volte_icon_margaritov">HD 塗りつぶしアイコン</string>
-    <string name="volte_icon_margaritov2">Margaritov VoLTE アイコン</string>
-    <string name="volte_icon_vivo">Vivo アイコン</string>
-    <string name="volte_icon_aris">Aris アイコン</string>
-    <string name="volte_icon_beast">Aww アイコン</string>
-    <string name="volte_icon_ios">Ios アイコン</string>
-    <string name="volte_icon_lr">Livenge アイコン</string>
-    <string name="volte_icon_realme">Realme アイコン</string>
-    <string name="volte_icon_typeA">Mild アイコン</string>
-    <string name="volte_icon_typeB">Filth アイコン</string>
-    <string name="volte_icon_typeC">Mue アイコン</string>
-    <string name="volte_icon_typeD">Sus アイコン</string>
-    <string name="volte_icon_typeE">Acherus アイコン</string>
-    <string name="volte_icon_vcircle">Circle アイコン</string>
-    <string name="volte_icon_vimeo">Vimeo アイコン</string>
-    <string name="volte_icon_volit">Volit アイコン</string>
-    <string name="volte_icon_zirco">Ziroc アイコン</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
-    <string name="volte_vowifi_override_title">VoWiFi override</string>
-    <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">バッテリーアイコンのスタイル</string>
     <string name="battery_style_summary">バッテリーアイコンの編集・非表示・残量表示の切替えをする</string>
