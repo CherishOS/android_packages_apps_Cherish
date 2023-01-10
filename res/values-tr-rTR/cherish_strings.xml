@@ -207,42 +207,6 @@
     <string name="lockscreen_albumart_filter_blur">Bulanık</string>
     <string name="lockscreen_albumart_filter_grayblur">Gri tonlama ve bulanık</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Kilit ekranı medya resmi için bulanıklık miktarı</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">VoLTE simgesi</string>
-    <string name="volte_switch_summary">VoLTE simgesini görüntüle</string>
-    <string name="volte_icon_title">VoLTE simgesi</string>
-    <string name="volte_icon_summary">VoLTE simgesini görüntüle</string>
-    <string name="volte_icon_style_title">VoLTE simgesini seçin</string>
-    <string name="volte_icon_asus">VoLTE Asus Simgesi</string>
-    <string name="volte_icon_vo">Yalnızca Vo Simgesi</string>
-    <string name="volte_icon_volte">VoLTE Simgesi</string>
-    <string name="volte_icon_oos">OOS VoLTE Simgesi</string>
-    <string name="volte_icon_hd">HD Simgesi</string>
-    <string name="volte_icon_hd2">HD CAF Simgesi</string>
-    <string name="volte_icon_miui">MIUI 11 Simgesi</string>
-    <string name="volte_icon_emui">EMIUI Simgesi</string>
-    <string name="volte_icon_margaritov">HD Dolu Simgesi</string>
-    <string name="volte_icon_margaritov2">Margaritov VoLTE Simgesi</string>
-    <string name="volte_icon_vivo">Vivo Simgesi</string>
-    <string name="volte_icon_aris">Aris Simgesi</string>
-    <string name="volte_icon_beast">Aww Simgesi</string>
-    <string name="volte_icon_ios">İOS Simgesi</string>
-    <string name="volte_icon_lr">Livenge Simgesi</string>
-    <string name="volte_icon_realme">Realme Simgesi</string>
-    <string name="volte_icon_typeA">Mild Simgesi</string>
-    <string name="volte_icon_typeB">Filth Simgesi</string>
-    <string name="volte_icon_typeC">Mue Simgesi</string>
-    <string name="volte_icon_typeD">Sus Simgesi</string>
-    <string name="volte_icon_typeE">Acherus Simgesi</string>
-    <string name="volte_icon_vcircle">Daire simgesi</string>
-    <string name="volte_icon_vimeo">Vimeo Simgesi</string>
-    <string name="volte_icon_volit">VoLIT Simgesi</string>
-    <string name="volte_icon_zirco">Ziroc Simgesi</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
-    <string name="volte_vowifi_override_title">VoWiFi override</string>
-    <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Pil simgesi stili</string>
     <string name="battery_style_summary">Pil simgelerini özelleştirin, yüzdeyi gizleyin veya gösterin</string>
