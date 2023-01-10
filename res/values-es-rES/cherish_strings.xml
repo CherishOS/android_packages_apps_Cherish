@@ -207,42 +207,6 @@
     <string name="lockscreen_albumart_filter_blur">Difuminado</string>
     <string name="lockscreen_albumart_filter_grayblur">En escala de grises y desenfocado</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Nivel de desenfoque para la carátula multimedia en pantalla de bloqueo</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">Icono voLTE</string>
-    <string name="volte_switch_summary">Mostrar icono VoLTE</string>
-    <string name="volte_icon_title">Icono voLTE</string>
-    <string name="volte_icon_summary">Mostrar icono VoLTE</string>
-    <string name="volte_icon_style_title">Seleccionar icono VoLTE</string>
-    <string name="volte_icon_asus">Ícono VoLTE de Asus</string>
-    <string name="volte_icon_vo">Solo icono Vo</string>
-    <string name="volte_icon_volte">Icono VoLTE</string>
-    <string name="volte_icon_oos">Icono VoLTE de OxygenOS</string>
-    <string name="volte_icon_hd">Icono HD</string>
-    <string name="volte_icon_hd2">Icono HD CAF</string>
-    <string name="volte_icon_miui">Icono de MIUI 11</string>
-    <string name="volte_icon_emui">Icono de EMUI</string>
-    <string name="volte_icon_margaritov">Icono HD lleno</string>
-    <string name="volte_icon_margaritov2">Icono Margaritov VoLTE</string>
-    <string name="volte_icon_vivo">Icono Vivo</string>
-    <string name="volte_icon_aris">Icono de Aris</string>
-    <string name="volte_icon_beast">Icono Aww</string>
-    <string name="volte_icon_ios">Icono de iconos</string>
-    <string name="volte_icon_lr">Icono de Livenge</string>
-    <string name="volte_icon_realme">Icono Realme</string>
-    <string name="volte_icon_typeA">Icono Mild</string>
-    <string name="volte_icon_typeB">Icono de Filth</string>
-    <string name="volte_icon_typeC">Icono de Mue</string>
-    <string name="volte_icon_typeD">Su Icono</string>
-    <string name="volte_icon_typeE">Icono de Acherús</string>
-    <string name="volte_icon_vcircle">Icono de Círculo</string>
-    <string name="volte_icon_vimeo">Icono de Vimeo</string>
-    <string name="volte_icon_volit">Ícono VoLIT</string>
-    <string name="volte_icon_zirco">Icono Ziroc</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">Icono VoWiFi</string>
-    <string name="vowifi_icon_summary">Muestra el icono VoWIFI cuando esté disponible</string>
-    <string name="volte_vowifi_override_title">Priorizar VoWiFi</string>
-    <string name="volte_vowifi_override_summary">Ocultar VoLTE cuando VoWiFi está disponible</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Estilo del icono de la batería</string>
     <string name="battery_style_summary">Personalizar los iconos de la batería, ocultar o mostrar porcentaje</string>
