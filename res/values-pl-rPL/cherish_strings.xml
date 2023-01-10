@@ -207,42 +207,6 @@
     <string name="lockscreen_albumart_filter_blur">Rozmycie</string>
     <string name="lockscreen_albumart_filter_grayblur">Skala szarości i rozmycie</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lockscreen media artwork</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">Ikona VoLTE</string>
-    <string name="volte_switch_summary">Wyświetl ikonę VoLTE</string>
-    <string name="volte_icon_title">Ikona VoLTE</string>
-    <string name="volte_icon_summary">Wyświetl ikonę VoLTE</string>
-    <string name="volte_icon_style_title">Wybierz ikonę VoLTE</string>
-    <string name="volte_icon_asus">Ikona VoLTE Asus</string>
-    <string name="volte_icon_vo">Vo Only Icon</string>
-    <string name="volte_icon_volte">Ikona VoLTE</string>
-    <string name="volte_icon_oos">Ikona VoLTE OOS</string>
-    <string name="volte_icon_hd">Ikona HD</string>
-    <string name="volte_icon_hd2">Ikona HD CAF</string>
-    <string name="volte_icon_miui">Ikona MIUI 11</string>
-    <string name="volte_icon_emui">Ikona EMUI</string>
-    <string name="volte_icon_margaritov">Ikona wypełniona HD</string>
-    <string name="volte_icon_margaritov2">Ikona Margaritov VoLTE</string>
-    <string name="volte_icon_vivo">Ikona Vivo</string>
-    <string name="volte_icon_aris">Ikona Aris</string>
-    <string name="volte_icon_beast">Ikona Aww</string>
-    <string name="volte_icon_ios">Ikona iOS</string>
-    <string name="volte_icon_lr">Ikona Livenge</string>
-    <string name="volte_icon_realme">Ikona Realme</string>
-    <string name="volte_icon_typeA">Ikona łagodna</string>
-    <string name="volte_icon_typeB">Ikona łagodna</string>
-    <string name="volte_icon_typeC">Ikona Mue</string>
-    <string name="volte_icon_typeD">Ikona Sus</string>
-    <string name="volte_icon_typeE">Ikona Acherus</string>
-    <string name="volte_icon_vcircle">Ikona okręgu</string>
-    <string name="volte_icon_vimeo">Ikona Vimeo</string>
-    <string name="volte_icon_volit">Ikona Volit</string>
-    <string name="volte_icon_zirco">Ikona zirco</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
-    <string name="volte_vowifi_override_title">VoWiFi override</string>
-    <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Battery icon style</string>
     <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
