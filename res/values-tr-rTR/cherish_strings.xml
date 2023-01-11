@@ -87,8 +87,8 @@
     <string name="rgb">RGB</string>
     <string name="hsl">HSL</string>
     <string name="hsv">HSV</string>
-    <string name="confirm">Confirm</string>
-    <string name="invalid_color">Invalid color!</string>
+    <string name="confirm">Onayla</string>
+    <string name="invalid_color">Geçersiz renk!</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">Kilit ekranı</string>
@@ -127,8 +127,8 @@
     <string name="theme_customization_wifi_icon_title">WiFi simge stili</string>
     <string name="theme_customization_wifi_icon_summary">Özel wifi simge stili ayarlayın</string>
     <!-- Fonts -->
-    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
-    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
+    <string name="theme_customization_lock_clock_title">Kilit Ekranı saat yazı tipi</string>
+    <string name="theme_customization_lock_clock_summary">Kilit ekranı saat yazı tipi stilini ayarlayın</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">Sinyal</string>
     <!-- Custom Wi-Fi bar icons -->
@@ -510,9 +510,9 @@
     <string name="qs_date_title">Tarih</string>
     <string name="qs_date_summary">Hızlı ayarlar durum çubuğu başlığında tarihi göster</string>
     <!-- Footer -->
-    <string name="qs_footer_category">QS Footer</string>
-    <string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <string name="qs_footer_category">Hızlı ayarlar alt bilgisi</string>
+    <string name="qs_footer_datausage_title">Veri kullanımı</string>
+    <string name="qs_footer_datausage_summary">Hızlı ayarlar alt bilgisinde veri kullanım özetini göster</string>
     <!-- App lock -->
     <string name="app_lock_title">Uygulama kilidi</string>
     <string name="app_lock_summary">Uygulamaların başlaması için parmak izi doğrulaması gerekir</string>
@@ -667,25 +667,25 @@
     <string name="click_partial_screenshot_title">Kısmi ekran görüntüsü için tıklayın</string>
     <string name="click_partial_screenshot_summary">Kısmi ekran görüntüsü almak için Sesi kısma ve Güç tuşuna kısa basın</string>
     <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">UI Style</string>
-    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
+    <string name="theme_customization_ui_style_title">Kullanıcı arayüzü stili</string>
+    <string name="theme_customization_ui_style_summary">Arayüzünüz için özel stil belirleyin</string>
     <!-- OOS style material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_button_title">Material dimiss button</string>
-    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
-    <string name="clearall_style_title">Material dismiss button style</string>
-    <string name="clearall_bgstyle_title">Material dismiss background style</string>
+    <string name="notification_material_dismiss_button_title">Materyal reddetme tuşu</string>
+    <string name="notification_material_dismiss_button_summary">Tümünü temizle bildirim metnini kayan tuş ile değiştir</string>
+    <string name="clearall_style_title">Materyal reddetme tuşu stili</string>
+    <string name="clearall_bgstyle_title">Materyal reddetme tuşu arkaplanı</string>
     <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons\n(WARNING: a soft reboot will occur upon enabling combined signal icons)</string>
+    <string name="combined_status_bar_signal_icons_title">Birleşik sinyal simgeleri</string>
+    <string name="combined_status_bar_signal_icons_summary">Birleşik sinyal simgelerini etkinleştir\n(UYARI: birleşik sinyal simgeleri etkinleştirildiğinde kısa bir yeniden başlatma gerçekleşir)</string>
     <!-- Smart Pixels -->
-    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
-    <string name="smart_pixels_title">Smart Pixels</string>
-    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
-    <string name="smart_pixels_enable_title">Enable Smart Pixels</string>
-    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
-    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
-    <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
-    <string name="smart_pixels_percent">Percent of pixels to disable</string>
-    <string name="smart_pixels_shift_title">Burn-in protection</string>
-    <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
+    <string name="smart_pixels_warning_text">Akıllı pikseller bir güç tasarrufu özelliğidir. Kaç piksele karar verdiğinize bağlı olarak pil ömründe iyileşme görebilirsiniz. Bazı durumlarda ekranda tepkisiz alanlara sebep olabilir</string>
+    <string name="smart_pixels_title">Akıllı pikseller</string>
+    <string name="smart_pixels_summary">Fazladan pikselleri kapatarak pil tasarrufu sağlayın</string>
+    <string name="smart_pixels_enable_title">Akıllı pikselleri etkinleştir</string>
+    <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikselleri kapatın</string>
+    <string name="smart_pixels_on_power_save_title">Pil tasarrufunda otomatik etkinleştir</string>
+    <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde Akıllı Pikselleri etkinleştirin</string>
+    <string name="smart_pixels_percent">Devre dışı bırakılacak piksel yüzdesi</string>
+    <string name="smart_pixels_shift_title">Yanma koruması</string>
+    <string name="smart_pixels_shift_summary">Amoled cihazlarda yanmaları önler ve sık sık pikselleri kaydırır</string>
 </resources>
