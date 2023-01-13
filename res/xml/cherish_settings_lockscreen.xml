@@ -33,12 +33,6 @@
         android:entries="@array/torch_power_button_gesture_entries"
         android:entryValues="@array/torch_power_button_gesture_values" />
 
-	<Preference
-        android:key="edge_light_enabled"
-        android:title="@string/edge_light_title"
-        android:summary="@string/edge_light_intro_text"
-        android:fragment="com.cherish.settings.lockscreen.EdgeLightSettings"/>
-			
 	<com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="power_menu_hide_on_secure"
             android:title="@string/power_menu_hide_on_secure_title"
