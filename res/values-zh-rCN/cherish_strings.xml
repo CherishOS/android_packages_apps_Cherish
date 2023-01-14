@@ -87,8 +87,8 @@
     <string name="rgb">RGB</string>
     <string name="hsl">HSL</string>
     <string name="hsv">HSV</string>
-    <string name="confirm">Confirm</string>
-    <string name="invalid_color">Invalid color!</string>
+    <string name="confirm">确认</string>
+    <string name="invalid_color">无效的颜色！</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">锁屏界面</string>
@@ -127,12 +127,12 @@
     <string name="theme_customization_wifi_icon_title">WiFi 图标样式</string>
     <string name="theme_customization_wifi_icon_summary">设置自定义 WiFi 图标样式</string>
     <!-- Fonts -->
-    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
-    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
+    <string name="theme_customization_lock_clock_title">锁屏时钟字体</string>
+    <string name="theme_customization_lock_clock_summary">设置锁屏时钟字体样式</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">信号</string>
     <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
+    <string name="custom_wifi_bar_title">无线网</string>
     <!-- Battery light -->
     <string name="battery_light_settings">充电指示灯</string>
     <string name="battery_light_enable">启用</string>
@@ -402,8 +402,8 @@
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">设置布局</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
-    <string name="settings_dashboard_style_oos11">OxygenOS 11</string>
-    <string name="settings_dashboard_style_oos12">OxygenOS 12</string>
+    <string name="settings_dashboard_style_oos11">氧OS 11</string>
+    <string name="settings_dashboard_style_oos12">氧OS 12</string>
     <string name="settings_dashboard_style_cherish">Cherish</string>
     <string name="settings_dashboard_style_cherish_clean">Cherish Clean</string>
     <string name="settings_layout_category_title">设置 UI 界面</string>
@@ -510,9 +510,9 @@
     <string name="qs_date_title">日期</string>
     <string name="qs_date_summary">在快速设置顶部显示日期</string>
     <!-- Footer -->
-    <string name="qs_footer_category">QS Footer</string>
-    <string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <string name="qs_footer_category">快速设置页脚</string>
+    <string name="qs_footer_datausage_title">流量使用情况</string>
+    <string name="qs_footer_datausage_summary">在快速设置的底部显示流量使用情况</string>
     <!-- App lock -->
     <string name="app_lock_title">应用锁</string>
     <string name="app_lock_summary">应用程序需要指纹身份验证才能启动</string>
@@ -535,8 +535,8 @@
     <string name="qs_styling">快捷设置</string>
     <string name="qs_styles_title">快捷设置面板样式</string>
     <string name="qs_outline">快捷设置轮廓样式</string>
-    <string name="qs_two_tone">QS Two-Tone Accent</string>
-    <string name="qs_color_pop">QS Color Pop</string>
+    <string name="qs_two_tone">快捷设置双调样式</string>
+    <string name="qs_color_pop">快捷设置流行色样式</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
     <string name="qs_tile_layout_category_title">瓷贴布局</string>
     <string name="qs_tile_layout_title">垂直布局</string>
@@ -550,21 +550,21 @@
     <string name="qs_tile_label_hide_summary">仅在瓷贴中显示图标</string>
     <string name="qs_tile_label_size_title">标签文字大小</string>
     <string name="qs_columns_portrait_title">列数 (纵向)</string>
-    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+    <string name="qs_columns_landscape_title">列 (横向)</string>
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">电源菜单动画</string>
     <string name="power_menu_animation_dialog_title">选择电源菜单动画</string>
     <string name="power_menu_animation_aosp">AOSP（默认）</string>
-    <string name="power_menu_animation_bottom">Bottom</string>
-    <string name="power_menu_animation_top">Top</string>
-    <string name="power_menu_animation_xylon">Fly</string>
-    <string name="power_menu_animation_slide">Slide</string>
-    <string name="power_menu_animation_turn">Turn</string>
-    <string name="power_menu_animation_fly">Glow</string>
+    <string name="power_menu_animation_bottom">底部</string>
+    <string name="power_menu_animation_top">顶部</string>
+    <string name="power_menu_animation_xylon">飞入</string>
+    <string name="power_menu_animation_slide">滑动</string>
+    <string name="power_menu_animation_turn">旋转</string>
+    <string name="power_menu_animation_fly">渐变</string>
     <string name="power_menu_animation_card">3D</string>
-    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
-    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
-    <string name="power_menu_animation_rotate">Rotate</string>
+    <string name="power_menu_animation_translucent_top">半透明 (顶部)</string>
+    <string name="power_menu_animation_translucent_bottom">半透明  (底部)</string>
+    <string name="power_menu_animation_rotate">旋转</string>
     <!-- QS tiles animations category -->
     <string name="qs_tile_animation_category_title">快捷设置瓷贴</string>
     <!-- Tiles animation style -->
