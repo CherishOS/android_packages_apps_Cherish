@@ -45,7 +45,7 @@
     <string name="volume_keys_title">Lautstärketasten</string>
     <string name="udfps_category">In-Display-Fingerabdrucksensor</string>
     <!-- General strings -->
-    <string name="ok">OK</string>
+    <string name="ok">Ok</string>
     <string name="reset">Zurücksetzen</string>
     <string name="cancel">Abbrechen</string>
     <string name="save">Speichern</string>
