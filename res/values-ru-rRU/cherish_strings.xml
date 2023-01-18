@@ -747,7 +747,7 @@
     <string name="ambient_notification_light_color_mode_wall">Wallpaper color</string>
     <string name="ambient_image_title">Ambient Image</string>
     <string name="file_header_select_title">Select local image</string>
-    <string name="file_header_select_summary">Select image from storage</string>
+    <string name="file_header_select_summary">Select image from storage(recommended use Gallery Go)</string>
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">LS Clock font style</string>
     <string name="lock_clock_font_dialog_title">Select lockscreen clock font</string>
