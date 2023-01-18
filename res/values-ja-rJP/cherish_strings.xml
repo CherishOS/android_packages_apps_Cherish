@@ -87,8 +87,8 @@
     <string name="rgb">RGB</string>
     <string name="hsl">HSL</string>
     <string name="hsv">HSV</string>
-    <string name="confirm">Confirm</string>
-    <string name="invalid_color">Invalid color!</string>
+    <string name="confirm">確認</string>
+    <string name="invalid_color">無効な色です!</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">ロック画面</string>
@@ -126,6 +126,9 @@
     <string name="theme_customization_signal_icon_summary">カスタム電波アイコンのスタイルを設定する</string>
     <string name="theme_customization_wifi_icon_title">Wi-Fi アイコンのスタイル</string>
     <string name="theme_customization_wifi_icon_summary">カスタム Wi-Fi アイコンのスタイルを設定する</string>
+    <!-- Fonts -->
+    <string name="theme_customization_lock_clock_title">ロック画面の時計のフォント</string>
+    <string name="theme_customization_lock_clock_summary">ロック画面の時計のフォントのスタイルを設定する</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">電波</string>
     <!-- Custom Wi-Fi bar icons -->
@@ -204,42 +207,6 @@
     <string name="lockscreen_albumart_filter_blur">ぼかし</string>
     <string name="lockscreen_albumart_filter_grayblur">グレースケールとぼかし</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">ロック画面のメディアアートワークのぼかし量</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">VoLTE アイコン</string>
-    <string name="volte_switch_summary">VoLTE アイコンを表示する</string>
-    <string name="volte_icon_title">VoLTE アイコン</string>
-    <string name="volte_icon_summary">VoLTE アイコンを表示する</string>
-    <string name="volte_icon_style_title">VoLTE アイコンの選択</string>
-    <string name="volte_icon_asus">VoLTE Asus アイコン</string>
-    <string name="volte_icon_vo">Vo のみのアイコン</string>
-    <string name="volte_icon_volte">VoLTE アイコン</string>
-    <string name="volte_icon_oos">VoLTE OOS アイコン</string>
-    <string name="volte_icon_hd">HD アイコン</string>
-    <string name="volte_icon_hd2">HD CAF アイコン</string>
-    <string name="volte_icon_miui">MIUI 11 アイコン</string>
-    <string name="volte_icon_emui">EMUI アイコン</string>
-    <string name="volte_icon_margaritov">HD 塗りつぶしアイコン</string>
-    <string name="volte_icon_margaritov2">Margaritov VoLTE アイコン</string>
-    <string name="volte_icon_vivo">Vivo アイコン</string>
-    <string name="volte_icon_aris">Aris アイコン</string>
-    <string name="volte_icon_beast">Aww アイコン</string>
-    <string name="volte_icon_ios">Ios アイコン</string>
-    <string name="volte_icon_lr">Livenge アイコン</string>
-    <string name="volte_icon_realme">Realme アイコン</string>
-    <string name="volte_icon_typeA">Mild アイコン</string>
-    <string name="volte_icon_typeB">Filth アイコン</string>
-    <string name="volte_icon_typeC">Mue アイコン</string>
-    <string name="volte_icon_typeD">Sus アイコン</string>
-    <string name="volte_icon_typeE">Acherus アイコン</string>
-    <string name="volte_icon_vcircle">Circle アイコン</string>
-    <string name="volte_icon_vimeo">Vimeo アイコン</string>
-    <string name="volte_icon_volit">Volit アイコン</string>
-    <string name="volte_icon_zirco">Ziroc アイコン</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
-    <string name="volte_vowifi_override_title">VoWiFi override</string>
-    <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">バッテリーアイコンのスタイル</string>
     <string name="battery_style_summary">バッテリーアイコンの編集・非表示・残量表示の切替えをする</string>
@@ -248,17 +215,17 @@
     <string name="status_bar_battery_percent_title">バッテリー残量</string>
     <string name="status_bar_battery_style_title">バッテリースタイル</string>
     <string name="status_bar_battery_style_icon_portrait">縦アイコン (既定)</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
-    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
-    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_rlandscape">水平アイコン (右)</string>
+    <string name="status_bar_battery_style_icon_landscape">水平アイコン (左)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">右横向きスタイル A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">左横向きスタイル A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">右横向きスタイル B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">左横向きスタイル B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">縦向き Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">横向き Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">縦向き IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">横向き Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">横向き Capsule</string>
     <string name="status_bar_battery_style_circle">円</string>
     <string name="status_bar_battery_style_dotted_circle">円 (点線)</string>
     <string name="status_bar_battery_style_filled_circle">円 (塗り潰し)</string>
@@ -450,10 +417,10 @@
     <string name="udfps_haptic_feedback_title">画面内指紋認証の触覚の使用</string>
     <string name="udfps_haptic_feedback_summary">画面内指紋認証アイコンに触れた時に振動させる</string>
     <!-- Udfps authentication / error vibration -->
-    <string name="udfps_success_vib_title">Udfps authentication vibration</string>
-    <string name="udfps_success_vib_summary">Vibrate on successful fingerprint authentication</string>
-    <string name="udfps_error_vib_title">Udfps error vibration</string>
-    <string name="udfps_error_vib_summary">Vibrate on unsuccessful fingerprint authentication</string>
+    <string name="udfps_success_vib_title">画面内指紋認証時の振動</string>
+    <string name="udfps_success_vib_summary">指紋認証が成功した時に振動させる</string>
+    <string name="udfps_error_vib_title">画面内指紋認証エラーの振動</string>
+    <string name="udfps_error_vib_summary">指紋認証が失敗した時に振動させる</string>
     <!-- UDFPS Recog Animation -->
     <string name="udfps_customization">画面内指紋認証の編集</string>
     <string name="udfps_recog_animation">画面内指紋認証のアニメーション</string>
@@ -490,14 +457,14 @@
     <string name="statusbar_colored_icons_title">色付きのアイコン</string>
     <string name="statusbar_colored_icons_summary">ステータスバーの通知アイコンに適切なアプリアイコンを使用する</string>
     <!-- Bluetooth status -->
-    <string name="bluetooth_battery_title">Bluetooth battery status</string>
-    <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
+    <string name="bluetooth_battery_title">Bluetooth のバッテリー状態</string>
+    <string name="bluetooth_battery_summary">可能な場合は接続している Bluetooth デバイスのバッテリー状態を表示する</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_title">画面消灯時のライト切り替え</string>
+    <string name="torch_power_button_gesture_none">無効</string>
+    <string name="torch_power_button_gesture_dt">電源ボタンを2回押し (1回押しの反応が遅れます)。電源ボタンをを2回押してカメラ起動は無効になります。</string>
+    <string name="torch_power_button_gesture_dt_toast">カメラ起動ジェスチャーは現在無効です</string>
+    <string name="torch_power_button_gesture_lp">電源ボタンを長押し</string>
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">時計と日付</string>
     <string name="status_bar_clock_summary">時計と日付を編集する</string>
@@ -543,33 +510,33 @@
     <string name="qs_date_title">日付</string>
     <string name="qs_date_summary">クイックステータスバーのヘッダーに日付を表示する</string>
     <!-- Footer -->
-    <string name="qs_footer_category">QS Footer</string>
-    <string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <string name="qs_footer_category">クイック設定フッター</string>
+    <string name="qs_footer_datausage_title">データ使用量</string>
+    <string name="qs_footer_datausage_summary">クイック設定のフッターにデータ使用量を表示する</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
-    <string name="app_lock_summary">Apps will require fingerprint authentication to launch</string>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_title">アプリロック</string>
+    <string name="app_lock_summary">アプリを起動するには指紋認証が必要です</string>
+    <string name="app_lock_authentication_dialog_title">ロック解除</string>
+    <string name="enable_debugging">デバッグを有効化</string>
+    <string name="disable_debugging">デバッグを無効化</string>
+    <string name="app_lock_packages_title">アプリの保護</string>
+    <string name="app_lock_packages_summary">生体認証や端末認証で保護するアプリを選択する</string>
+    <string name="app_lock_timeout_title">自動ロックの時間</string>
+    <string name="app_lock_timeout_summary">ロック解除されたアプリがバックグラウンドでロックされるまでの時間です</string>
+    <string name="app_lock_notifications_title">通知を消去</string>
     <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
           Heads up notifications will be automatically disabled.
      </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
+    <string name="app_lock_notifications_disabled_summary">アプリを最初に保護する</string>
+    <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化</string>
+    <string name="app_lock_footer_text">制限時間後にバブルは自動的に解除されます</string>
+    <string name="enable_protection">保護を有効化</string>
     <!-- Quick settings styling -->
-    <string name="qs_styling">Quick Settings UI</string>
-    <string name="qs_styles_title">QS Panel Styles</string>
-    <string name="qs_outline">QS Outline Style</string>
-    <string name="qs_two_tone">QS Two-Tone Accent</string>
-    <string name="qs_color_pop">QS Color Pop</string>
+    <string name="qs_styling">クイック設定の UI</string>
+    <string name="qs_styles_title">クイック設定パネルのスタイル</string>
+    <string name="qs_outline">クイック設定アウトラインのスタイル</string>
+    <string name="qs_two_tone">クイック設定のツートーンアクセント</string>
+    <string name="qs_color_pop">クイック設定のカラーポップ</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
     <string name="qs_tile_layout_category_title">タイルのレイアウト</string>
     <string name="qs_tile_layout_title">縦方向レイアウト</string>
@@ -579,47 +546,59 @@
     <string name="qs_tile_title_visibility_summary">クイック設定のタイル名を無効化する</string>
     <!-- QS tiles layout  -->
     <string name="qs_layout_category_title">クイック設定のレイアウト</string>
-    <string name="qs_tile_label_hide_title">Hide label</string>
-    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
-    <string name="qs_tile_label_size_title">Label text size</string>
+    <string name="qs_tile_label_hide_title">ラベルを隠す</string>
+    <string name="qs_tile_label_hide_summary">タイルにアイコンのみ表示する</string>
+    <string name="qs_tile_label_size_title">ラベルの文字サイズ</string>
     <string name="qs_columns_portrait_title">縦向き時の列数</string>
-    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+    <string name="qs_columns_landscape_title">列数 (横向き)</string>
+    <!-- Monet engine -->
+    <string name="monet_engine_settings_title">Monet engine</string>
+    <string name="monet_engine_settings_summary">Custom color, colorfulness, brightness</string>
+    <string name="accurate_shades_title">Use accurate shades</string>
+    <string name="color_override_title">Custom color picker</string>
+    <string name="color_override_default_summary">Using wallpaper color</string>
+    <string name="custom_color_override_summary_placeholder">        Choosen color: <xliff:g example="#FF0000" id="Color">%1$s</xliff:g>. Set an empty value to use wallpaper color.
+    </string>
+    <string name="invalid_color_input">Invalid color input!</string>
+    <string name="chroma_factor_title">Colorfulness</string>
+    <string name="linear_lightness_title">Use custom lightness scale</string>
+    <string name="white_luminance_title">Brightness</string>
     <!-- Power menu Animations  -->
-    <string name="power_menu_animation_title">Power menu animation</string>
-    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
-    <string name="power_menu_animation_aosp">AOSP (default)</string>
-    <string name="power_menu_animation_bottom">Bottom</string>
-    <string name="power_menu_animation_top">Top</string>
-    <string name="power_menu_animation_xylon">Fly</string>
-    <string name="power_menu_animation_slide">Slide</string>
-    <string name="power_menu_animation_turn">Turn</string>
-    <string name="power_menu_animation_fly">Glow</string>
+    <string name="power_menu_animation_title">電源メニューのアニメーション</string>
+    <string name="power_menu_animation_dialog_title">電源メニューのアニメーションを選択</string>
+    <string name="power_menu_animation_aosp">AOSP (既定値)</string>
+    <string name="power_menu_animation_bottom">下部</string>
+    <string name="power_menu_animation_top">上部</string>
+    <string name="power_menu_animation_xylon">フライ</string>
+    <string name="power_menu_animation_slide">スライド</string>
+    <string name="power_menu_animation_turn">ターン</string>
+    <string name="power_menu_animation_fly">グロー</string>
     <string name="power_menu_animation_card">3D</string>
-    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
-    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
-    <string name="power_menu_animation_rotate">Rotate</string>
+    <string name="power_menu_animation_translucent_top">半透明 (上)</string>
+    <string name="power_menu_animation_translucent_bottom">半透明 (下)</string>
+    <string name="power_menu_animation_rotate">回転</string>
     <!-- QS tiles animations category -->
-    <string name="qs_tile_animation_category_title">QS Tiles</string>
+    <string name="qs_tile_animation_category_title">クイック設定タイル</string>
     <!-- Tiles animation style -->
-    <string name="qs_tile_animation_style_title">Animation style</string>
-    <string name="qs_tile_animation_duration_title">Animation duration</string>
-    <string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string>
-    <string name="qs_tile_animation_style_off">No animation</string>
-    <string name="qs_tile_animation_style_flip">Flip</string>
-    <string name="qs_tile_animation_style_rotate">Rotate</string>
-    <string name="qs_tile_animation_duration_low">Low</string>
-    <string name="qs_tile_animation_duration_default">Default</string>
-    <string name="qs_tile_animation_duration_fast">Fast</string>
-    <string name="qs_tile_animation_duration_quite_fast">Quite fast</string>
-    <string name="qs_tile_animation_duration_super_fast">Super fast</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <string name="qs_tile_animation_style_title">アニメーションスタイル</string>
+    <string name="qs_tile_animation_duration_title">アニメーション速度</string>
+    <string name="qs_tile_animation_interpolator_title">タイルアニメーションの補間</string>
+    <string name="qs_tile_animation_style_off">なし</string>
+    <string name="qs_tile_animation_style_flip">反転</string>
+    <string name="qs_tile_animation_style_rotate">回転</string>
+    <string name="qs_tile_animation_duration_low">低速</string>
+    <string name="qs_tile_animation_duration_default">既定</string>
+    <string name="qs_tile_animation_duration_fast">高速</string>
+    <string name="qs_tile_animation_duration_quite_fast">非常に高速</string>
+    <string name="qs_tile_animation_duration_super_fast">超高速</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">等速</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">加速</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">減速</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">加速と減速</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">弾む</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">通過</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">先取り</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">先取りと通過</string>
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
@@ -628,44 +607,29 @@
     <string name="reticker_summary">Heads Up 通知をスリムで邪魔になりにくいティッカーバージョンに置き換える</string>
     <string name="reticker_colored_title">アプリに色付きの背景を使用</string>
     <string name="reticker_colored_summary">reTicker の背景の色を通知アプリのメインの色で置き換える</string>
-    <!-- Edge light -->
-    <string name="edge_light_title">エッジライト</string>
-    <string name="enable_edge_light">エッジライトを有効化</string>
-    <string name="edge_light_intro_text">パルス時に画面の端に沿ってアニメーションを表示する</string>
-    <string name="edge_light_always_trigger_on_pulse_title">パルスで常に起動</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">通知だけではなくアンビエント画面が表示されればいつでもエッジライトを表示する</string>
-    <string name="edge_light_repeat_animation_title">アニメーションの繰り返し</string>
-    <string name="edge_light_repeat_animation_summary_on">指定時間まで繰り返す</string>
-    <string name="edge_light_repeat_animation_summary_off">1度だけ表示</string>
-    <string name="edge_light_color_mode_title">エッジライトの色のモード</string>
-    <string name="accent_color">アクセントの色 (既定)</string>
-    <string name="notification_color">通知の色</string>
-    <string name="wallpaper_color">壁紙の色</string>
-    <string name="custom_color">カスタムの色</string>
-    <string name="edge_light_custom_color_title">カスタムの色</string>
     <!-- Power menu and dialogs opacity -->
-    <string name="power_menu_transparency">Power/reboot menu opacity</string>
-    <string name="power_menu_dialog_dim">Power/reboot dialog dim background amount</string>
+    <string name="power_menu_transparency">電源/再起動メニューの不透明度</string>
+    <string name="power_menu_dialog_dim">電源/再起動メニューの背景を暗くする量</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Enable Smart Charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery. When enabled, battery stops charging at Stop trigger level and resumes charging at Start trigger level. Stop trigger level should be always greater than Start trigger level.</string>
+    <string name="smart_charging_title">スマート充電</string>
+    <string name="smart_charging_summary">最大充電レベルを設定する</string>
+    <string name="smart_charging_switch_title">スマート充電を有効化</string>
+    <string name="smart_charging_level_title">充電停止レベル</string>
+    <string name="smart_charging_resume_level_title">充電開始レベル</string>
+    <string name="smart_charging_reset_stats_title">バッテリーの統計情報をリセット</string>
+    <string name="smart_charging_reset_stats_summary">ユーザーが決定した充電レベルに到達後バッテリーの統計を初期化する</string>
+    <string name="smart_charging_footer">スマート充電は充電を停止/開始するしきい値を設定してバッテリーの寿命を延ばすことができます。この機能を有効にすると、バッテリーは充電を停止するしきい値を上回ると充電を停止し、充電を開始するしきい値を下回ると充電を再開します。充電を停止するしきい値は充電を開始するしきい値より大きく設定して下さい。</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_help_policy_notice_title">About Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_help_policy_notice_title">Pulse について</string>
+    <string name="pulse_help_policy_notice_summary">Pulse は端末上で音楽を再生した時に表示されるグラフィックイコライザーです</string>
     <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
-    <string name="show_navbar_pulse_title">Navbar Pulse</string>
-    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
-    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
-    <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
-    <string name="show_ambient_pulse_title">Ambient Pulse</string>
-    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
+    <string name="pulse_settings_summary">ナビゲーションバーとロック画面に表示されるグラフィックイコライザー</string>
+    <string name="show_navbar_pulse_title">ナビゲーションバーの Pulse</string>
+    <string name="show_navbar_pulse_summary">ナビゲーションバー上のグラフィックイコライザー</string>
+    <string name="show_lockscreen_pulse_title">ロック画面の Pulse</string>
+    <string name="show_lockscreen_pulse_summary">ロック画面のグラフィックイコライザー</string>
+    <string name="show_ambient_pulse_title">アンビエント Pulse</string>
+    <string name="show_ambient_pulse_summary">アンビエント画面の音楽グラフィックイコライザー</string>
     <string name="pulse_render_mode_title">Render mode</string>
     <string name="pulse_render_mode_fading_bars">Fading blocks</string>
     <string name="pulse_render_mode_solid_lines">Solid lines</string>
@@ -707,9 +671,6 @@
     <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
     <string name="clearall_style_title">Material dismiss button style</string>
     <string name="clearall_bgstyle_title">Material dismiss background style</string>
-    <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons\n(WARNING: a soft reboot will occur upon enabling combined signal icons)</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
     <string name="smart_pixels_title">Smart Pixels</string>
@@ -721,4 +682,113 @@
     <string name="smart_pixels_percent">Percent of pixels to disable</string>
     <string name="smart_pixels_shift_title">Burn-in protection</string>
     <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
+    <!-- Ambient edge lighting -->
+    <string name="pulse_ambient_light_category">Screen edge lighting</string>
+    <string name="pulse_ambient_light_title">Edge lighting</string>
+    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="pulse_ambient_light_color_title">Custom color</string>
+    <string name="pulse_ambient_light_color_mode_title">Light color</string>
+    <string name="pulse_ambient_light_color_mode_notification">Automatic (Notification Based)</string>
+    <string name="pulse_ambient_light_color_mode_wall">Automatic (Wallpaper Based)</string>
+    <string name="pulse_ambient_light_color_mode_accent">Accent</string>
+    <string name="pulse_ambient_light_color_mode_custom">Custom</string>
+    <string name="pulse_ambient_light_color_mode_random">Random Color</string>
+    <string name="pulse_ambient_light_duration_title">Light duration</string>
+    <string name="pulse_ambient_light_repeat_count_title">Light repeat count</string>
+    <string name="pulse_ambient_light_show_always_title">Show always</string>
+    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Restart</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
+    <string name="pulse_ambient_light_layout_title">Light view</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
+    <string name="ambient_notification_light_enabled_title">Show on AOD</string>
+    <string name="ambient_notification_light_enabled_summary">Show lights on Always On Display</string>
+    <string name="ambient_notification_light_hide_aod_title">Hide AOD content</string>
+    <string name="ambient_notification_light_hide_aod_summary">Hide AOD content when lights are showing</string>
+    <string name="ambient_notification_light_timeout_title">Timeout</string>
+    <string name="ambient_notification_light_timeout_forever">Forever</string>
+    <string name="ambient_notification_light_timeout_half_minute">30 seconds</string>
+    <string name="ambient_notification_light_timeout_minute">1 minute</string>
+    <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
+    <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
+    <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
+    <!-- Edge Light -->
+    <string name="pulse_ambient_light_width_title">Light width</string>
+    <!-- Pulse Light Layout Style -->
+    <string name="pulse_light_layout_style_title">Light Layout Style</string>
+    <string name="pulse_light_both">All Four Sides</string>
+    <string name="pulse_light_top_bottom">Only Top-Bottom</string>
+    <string name="pulse_light_left_right">Only Left-Right</string>
+    <!-- Ambient Customization -->
+    <string name="ambient_text_category">Text Customization</string>
+    <string name="ambient_image_category">Image Customization</string>
+    <string name="ambient_text_category_title">Ambient-AOD Customization</string>
+    <string name="ambient_text_category_summary">Customizing the looks of ambient-aod</string>
+    <string name="ambient_text_title">Ambient Text</string>
+    <string name="ambient_text_summary">Show Ambient Text in AoD</string>
+    <string name="ambient_text_animation_title">Ambient Text Animation</string>
+    <string name="ambient_text_animation_summary">Show a Animation when show AoD</string>
+    <string name="ambient_text_size_title">Ambient Text Size</string>
+    <string name="ambient_text_font_title">Ambient Text Font</string>
+    <string name="ambient_text_string_title">Set Ambient Text</string>
+    <string name="ambient_text_align_title">Ambient Text Align</string>
+    <string name="ambient_text_align_start_top">Right n Top</string>
+    <string name="ambient_text_align_start_center">Right n Center</string>
+    <string name="ambient_text_align_start_bottom">Right n Bottom</string>
+    <string name="ambient_text_align_center">Center</string>
+    <string name="ambient_text_align_end_top">Left n Top</string>
+    <string name="ambient_text_align_end_center">Left n Center</string>
+    <string name="ambient_text_align_end_bottom">Left n Bottom</string>
+    <string name="ambient_text_type_color_title">Ambient Text Type Color</string>
+    <string name="ambient_text_color_title">Ambient Text Color</string>
+    <string name="ambient_notification_light_color_mode_accent">System accent color</string>
+    <string name="ambient_notification_light_color_mode_custom">Custom color</string>
+    <string name="ambient_notification_light_color_mode_wall">Wallpaper color</string>
+    <string name="ambient_image_title">Ambient Image</string>
+    <string name="file_header_select_title">Select local image</string>
+    <string name="file_header_select_summary">Select image from storage(recommended use Gallery Go)</string>
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">LS Clock font style</string>
+    <string name="lock_clock_font_dialog_title">Select lockscreen clock font</string>
+    <string name="lock_clock_font_stock">Normal (default)</string>
+    <string name="lock_clock_font_bold">Bold</string>
+    <string name="lock_clock_font_italic">Italic</string>
+    <string name="lock_clock_font_bold_italic">Bold Italic</string>
+    <string name="lock_clock_font_light_italic">Light Italic</string>
+    <string name="lock_clock_font_thin_italic">Thin Italic</string>
+    <string name="lock_clock_font_light">Light</string>
+    <string name="lock_clock_font_thin">Thin</string>
+    <string name="lock_clock_font_condensed_normal">Condensed</string>
+    <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
+    <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
+    <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="lock_clock_font_condensed_light">Condensed Light</string>
+    <string name="lock_clock_font_condensed_light_italic">Condensed Light Italic</string>
+    <string name="lock_clock_font_medium_normal">Medium</string>
+    <string name="lock_clock_font_medium_italic">Medium Italic</string>
+    <string name="lock_clock_font_black">Black</string>
+    <string name="lock_clock_font_black_italic">Black Italic</string>
+    <string name="lock_clock_font_dancingscript">DancingScript</string>
+    <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="lock_clock_font_comingsoon">ComingSoon</string>
+    <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
+    <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
+    <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
+    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+    <string name="lock_clock_font_gobold">GoBold Light</string>
+    <string name="lock_clock_font_roadrage">Road Rage</string>
+    <string name="lock_clock_font_snowstorm">Snowstorm</string>
+    <string name="lock_clock_font_googlesans">Google Sans</string>
+    <string name="lock_clock_font_neoneon">Neoneon</string>
+    <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
+    <string name="lock_clock_font_samsung">Shamshung</string>
+    <string name="lock_clock_font_mexcellent">Mexcellent</string>
+    <string name="lock_clock_font_burnstown">Burnstown</string>
+    <string name="lock_clock_font_dumbledor">Dumbledor</string>
+    <string name="lock_clock_font_phantombold">PhantomBold</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Vivid Colors</string>
+    <string name="system_black_theme_summary">Use colorful and darker monet shades</string>
 </resources>
