@@ -115,6 +115,14 @@
         android:title="@string/monet_engine_settings_title"
         android:summary="@string/monet_engine_settings_summary"
         android:fragment="com.cherish.settings.fragments.MonetEngineSettings" />
+		
+		<com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="system_black_theme"
+        android:title="@string/system_black_theme_title"
+        android:summary="@string/system_black_theme_summary"
+        android:dependency="dark_ui_mode"
+        android:defaultValue="false" />
+
 
         <!-- Font style -->
         <Preference
