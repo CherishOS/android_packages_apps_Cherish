@@ -550,6 +550,18 @@
     <string name="qs_tile_label_size_title">Kích thước văn bản tiêu đề</string>
     <string name="qs_columns_portrait_title">Số cột theo chiều dọc</string>
     <string name="qs_columns_landscape_title">Cột (màn hình ngang)</string>
+    <!-- Monet engine -->
+    <string name="monet_engine_settings_title">Monet engine</string>
+    <string name="monet_engine_settings_summary">Custom color, colorfulness, brightness</string>
+    <string name="accurate_shades_title">Use accurate shades</string>
+    <string name="color_override_title">Custom color picker</string>
+    <string name="color_override_default_summary">Using wallpaper color</string>
+    <string name="custom_color_override_summary_placeholder">        Choosen color: <xliff:g example="#FF0000" id="Color">%1$s</xliff:g>. Set an empty value to use wallpaper color.
+    </string>
+    <string name="invalid_color_input">Invalid color input!</string>
+    <string name="chroma_factor_title">Colorfulness</string>
+    <string name="linear_lightness_title">Use custom lightness scale</string>
+    <string name="white_luminance_title">Brightness</string>
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Hoạt ảnh menu nguồn</string>
     <string name="power_menu_animation_dialog_title">Chọn hoạt ảnh menu nguồn</string>
@@ -594,21 +606,6 @@
     <string name="reticker_summary">Thay thế thông báo nổi bằng thông báo kiểu mới được thiết kế lại mỏng và ít xâm lấn hơn</string>
     <string name="reticker_colored_title">Sử dụng nền màu ứng dụng</string>
     <string name="reticker_colored_summary">Thay thế màu nền reTicker bằng màu chính của ứng dụng thông báo</string>
-    <!-- Edge light -->
-    <string name="edge_light_title">Ánh sáng cạnh</string>
-    <string name="enable_edge_light">Bật ánh sáng cạnh</string>
-    <string name="edge_light_intro_text">Hiển thị hoạt ảnh dọc theo các cạnh của màn hình khi chạy xung</string>
-    <string name="edge_light_always_trigger_on_pulse_title">Luôn kích hoạt theo nhịp</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">Có hiển thị ánh sáng cạnh bất cứ khi nào màn hình xung quanh được hiển thị và không chỉ cho các thông báo</string>
-    <string name="edge_light_repeat_animation_title">Lặp lại hoạt ảnh</string>
-    <string name="edge_light_repeat_animation_summary_on">Lặp lại cho đến khi hết giờ</string>
-    <string name="edge_light_repeat_animation_summary_off">Chỉ chạy một lần</string>
-    <string name="edge_light_color_mode_title">Chế độ màu màn hình cạnh</string>
-    <string name="accent_color">Màu nhấn (Mặc định)</string>
-    <string name="notification_color">Màu thông báo</string>
-    <string name="wallpaper_color">Màu nền</string>
-    <string name="custom_color">Tùy chỉnh màu sắc</string>
-    <string name="edge_light_custom_color_title">Tùy chỉnh màu sắc</string>
     <!-- Power menu and dialogs opacity -->
     <string name="power_menu_transparency">Độ mờ của menu nguồn / khởi động lại</string>
     <string name="power_menu_dialog_dim">Nguồn/ khởi động lại hộp thoại mờ nền</string>
@@ -673,9 +670,6 @@
     <string name="notification_material_dismiss_button_summary">Thay thế xóa tất cả văn bản thông báo bằng nút nổi</string>
     <string name="clearall_style_title">Kiểu nút loại bỏ</string>
     <string name="clearall_bgstyle_title">Kiểu nền nút loại bỏ</string>
-    <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">Biểu tượng tín hiệu kép</string>
-    <string name="combined_status_bar_signal_icons_summary">Bật biểu tượng tín hiệu kết hợp\n(CẢNH BÁO: quá trình khởi động lại mềm sẽ xảy ra khi bật biểu tượng tín hiệu kết hợp)</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_warning_text">Điểm ảnh thông minh là một tính năng tiết kiệm pin. Tùy thuộc vào bao nhiêu điểm bạn quyết định tắt, bạn có thể thấy cải thiện thời gian sử dụng pin</string>
     <string name="smart_pixels_title">Điểm ảnh thông minh</string>
@@ -687,4 +681,113 @@
     <string name="smart_pixels_percent">Phần trăm điểm ảnh bị tắt</string>
     <string name="smart_pixels_shift_title">Bảo vệ khỏi lỗi bóng mờ</string>
     <string name="smart_pixels_shift_summary">Tránh lỗi bóng mờ trên màn OLED bằng cách di chuyển các điểm ành thường xuyên</string>
+    <!-- Ambient edge lighting -->
+    <string name="pulse_ambient_light_category">Screen edge lighting</string>
+    <string name="pulse_ambient_light_title">Edge lighting</string>
+    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="pulse_ambient_light_color_title">Custom color</string>
+    <string name="pulse_ambient_light_color_mode_title">Light color</string>
+    <string name="pulse_ambient_light_color_mode_notification">Automatic (Notification Based)</string>
+    <string name="pulse_ambient_light_color_mode_wall">Automatic (Wallpaper Based)</string>
+    <string name="pulse_ambient_light_color_mode_accent">Accent</string>
+    <string name="pulse_ambient_light_color_mode_custom">Custom</string>
+    <string name="pulse_ambient_light_color_mode_random">Random Color</string>
+    <string name="pulse_ambient_light_duration_title">Light duration</string>
+    <string name="pulse_ambient_light_repeat_count_title">Light repeat count</string>
+    <string name="pulse_ambient_light_show_always_title">Show always</string>
+    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Restart</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
+    <string name="pulse_ambient_light_layout_title">Light view</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
+    <string name="ambient_notification_light_enabled_title">Show on AOD</string>
+    <string name="ambient_notification_light_enabled_summary">Show lights on Always On Display</string>
+    <string name="ambient_notification_light_hide_aod_title">Hide AOD content</string>
+    <string name="ambient_notification_light_hide_aod_summary">Hide AOD content when lights are showing</string>
+    <string name="ambient_notification_light_timeout_title">Timeout</string>
+    <string name="ambient_notification_light_timeout_forever">Forever</string>
+    <string name="ambient_notification_light_timeout_half_minute">30 seconds</string>
+    <string name="ambient_notification_light_timeout_minute">1 minute</string>
+    <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
+    <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
+    <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
+    <!-- Edge Light -->
+    <string name="pulse_ambient_light_width_title">Light width</string>
+    <!-- Pulse Light Layout Style -->
+    <string name="pulse_light_layout_style_title">Light Layout Style</string>
+    <string name="pulse_light_both">All Four Sides</string>
+    <string name="pulse_light_top_bottom">Only Top-Bottom</string>
+    <string name="pulse_light_left_right">Only Left-Right</string>
+    <!-- Ambient Customization -->
+    <string name="ambient_text_category">Text Customization</string>
+    <string name="ambient_image_category">Image Customization</string>
+    <string name="ambient_text_category_title">Ambient-AOD Customization</string>
+    <string name="ambient_text_category_summary">Customizing the looks of ambient-aod</string>
+    <string name="ambient_text_title">Ambient Text</string>
+    <string name="ambient_text_summary">Show Ambient Text in AoD</string>
+    <string name="ambient_text_animation_title">Ambient Text Animation</string>
+    <string name="ambient_text_animation_summary">Show a Animation when show AoD</string>
+    <string name="ambient_text_size_title">Ambient Text Size</string>
+    <string name="ambient_text_font_title">Ambient Text Font</string>
+    <string name="ambient_text_string_title">Set Ambient Text</string>
+    <string name="ambient_text_align_title">Ambient Text Align</string>
+    <string name="ambient_text_align_start_top">Right n Top</string>
+    <string name="ambient_text_align_start_center">Right n Center</string>
+    <string name="ambient_text_align_start_bottom">Right n Bottom</string>
+    <string name="ambient_text_align_center">Center</string>
+    <string name="ambient_text_align_end_top">Left n Top</string>
+    <string name="ambient_text_align_end_center">Left n Center</string>
+    <string name="ambient_text_align_end_bottom">Left n Bottom</string>
+    <string name="ambient_text_type_color_title">Ambient Text Type Color</string>
+    <string name="ambient_text_color_title">Ambient Text Color</string>
+    <string name="ambient_notification_light_color_mode_accent">System accent color</string>
+    <string name="ambient_notification_light_color_mode_custom">Custom color</string>
+    <string name="ambient_notification_light_color_mode_wall">Wallpaper color</string>
+    <string name="ambient_image_title">Ambient Image</string>
+    <string name="file_header_select_title">Select local image</string>
+    <string name="file_header_select_summary">Select image from storage</string>
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">LS Clock font style</string>
+    <string name="lock_clock_font_dialog_title">Select lockscreen clock font</string>
+    <string name="lock_clock_font_stock">Normal (default)</string>
+    <string name="lock_clock_font_bold">Bold</string>
+    <string name="lock_clock_font_italic">Italic</string>
+    <string name="lock_clock_font_bold_italic">Bold Italic</string>
+    <string name="lock_clock_font_light_italic">Light Italic</string>
+    <string name="lock_clock_font_thin_italic">Thin Italic</string>
+    <string name="lock_clock_font_light">Light</string>
+    <string name="lock_clock_font_thin">Thin</string>
+    <string name="lock_clock_font_condensed_normal">Condensed</string>
+    <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
+    <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
+    <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="lock_clock_font_condensed_light">Condensed Light</string>
+    <string name="lock_clock_font_condensed_light_italic">Condensed Light Italic</string>
+    <string name="lock_clock_font_medium_normal">Medium</string>
+    <string name="lock_clock_font_medium_italic">Medium Italic</string>
+    <string name="lock_clock_font_black">Black</string>
+    <string name="lock_clock_font_black_italic">Black Italic</string>
+    <string name="lock_clock_font_dancingscript">DancingScript</string>
+    <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="lock_clock_font_comingsoon">ComingSoon</string>
+    <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
+    <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
+    <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
+    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+    <string name="lock_clock_font_gobold">GoBold Light</string>
+    <string name="lock_clock_font_roadrage">Road Rage</string>
+    <string name="lock_clock_font_snowstorm">Snowstorm</string>
+    <string name="lock_clock_font_googlesans">Google Sans</string>
+    <string name="lock_clock_font_neoneon">Neoneon</string>
+    <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
+    <string name="lock_clock_font_samsung">Shamshung</string>
+    <string name="lock_clock_font_mexcellent">Mexcellent</string>
+    <string name="lock_clock_font_burnstown">Burnstown</string>
+    <string name="lock_clock_font_dumbledor">Dumbledor</string>
+    <string name="lock_clock_font_phantombold">PhantomBold</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Vivid Colors</string>
+    <string name="system_black_theme_summary">Use colorful and darker monet shades</string>
 </resources>
