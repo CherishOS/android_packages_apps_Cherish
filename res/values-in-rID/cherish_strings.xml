@@ -126,6 +126,9 @@
     <string name="theme_customization_signal_icon_summary">Setel gaya ikon sinyal kustom</string>
     <string name="theme_customization_wifi_icon_title">Gaya ikon WiFi</string>
     <string name="theme_customization_wifi_icon_summary">Setel gaya ikon wifi kustom</string>
+    <!-- Fonts -->
+    <string name="theme_customization_lock_clock_title">Font jam layar kunci</string>
+    <string name="theme_customization_lock_clock_summary">Setel gaya font jam layar kunci</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">Sinyal</string>
     <!-- Custom Wi-Fi bar icons -->
@@ -204,42 +207,6 @@
     <string name="lockscreen_albumart_filter_blur">Blur</string>
     <string name="lockscreen_albumart_filter_grayblur">Skala abu-abu dan blur</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Jumlah blur untuk karya seni media layar kunci</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">Ikon VoLTE</string>
-    <string name="volte_switch_summary">Tampilkan ikon VoLTE</string>
-    <string name="volte_icon_title">Ikon VoLTE</string>
-    <string name="volte_icon_summary">Tampilkan ikon VoLTE</string>
-    <string name="volte_icon_style_title">Pilih Ikon VoLTE</string>
-    <string name="volte_icon_asus">Ikon Asus VoLTE</string>
-    <string name="volte_icon_vo">Hanya Ikon Vo</string>
-    <string name="volte_icon_volte">Ikon VoLTE</string>
-    <string name="volte_icon_oos">Ikon OOS VoLTE</string>
-    <string name="volte_icon_hd">Ikon HD</string>
-    <string name="volte_icon_hd2">Ikon HD CAF</string>
-    <string name="volte_icon_miui">Ikon MIUI 11</string>
-    <string name="volte_icon_emui">Ikon EMUI</string>
-    <string name="volte_icon_margaritov">Ikon HD Berisi</string>
-    <string name="volte_icon_margaritov2">Ikon VoLTE Margaritov</string>
-    <string name="volte_icon_vivo">Ikon Vivo</string>
-    <string name="volte_icon_aris">Ikon Aris</string>
-    <string name="volte_icon_beast">Ikon Aww</string>
-    <string name="volte_icon_ios">Ikon iOS</string>
-    <string name="volte_icon_lr">Ikon Livenge</string>
-    <string name="volte_icon_realme">Ikon Realme</string>
-    <string name="volte_icon_typeA">Ikon Mild</string>
-    <string name="volte_icon_typeB">Ikon Filth</string>
-    <string name="volte_icon_typeC">Ikon Mue</string>
-    <string name="volte_icon_typeD">Ikon Sus</string>
-    <string name="volte_icon_typeE">Ikon Acherus</string>
-    <string name="volte_icon_vcircle">Ikon Lingkaran</string>
-    <string name="volte_icon_vimeo">Ikon Vimeo</string>
-    <string name="volte_icon_volit">Ikon Volit</string>
-    <string name="volte_icon_zirco">Ikon Ziroc</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">Ikon VoWiFi</string>
-    <string name="vowifi_icon_summary">Tampilkan ikon VoWiFi bila tersedia</string>
-    <string name="volte_vowifi_override_title">Penggantian VoWiFi</string>
-    <string name="volte_vowifi_override_summary">Sembunyikan VoLTE saat VoWiFi tersedia</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Gaya ikon baterai</string>
     <string name="battery_style_summary">Sesuaikan ikon baterai, sembunyikan atau tampilkan persentase</string>
@@ -584,6 +551,18 @@
     <string name="qs_tile_label_size_title">Ukuran teks label</string>
     <string name="qs_columns_portrait_title">Kolom ubin pada tampilan potret</string>
     <string name="qs_columns_landscape_title">Kolom (lanskap)</string>
+    <!-- Monet engine -->
+    <string name="monet_engine_settings_title">Monet engine</string>
+    <string name="monet_engine_settings_summary">Custom color, colorfulness, brightness</string>
+    <string name="accurate_shades_title">Use accurate shades</string>
+    <string name="color_override_title">Custom color picker</string>
+    <string name="color_override_default_summary">Using wallpaper color</string>
+    <string name="custom_color_override_summary_placeholder">        Choosen color: <xliff:g example="#FF0000" id="Color">%1$s</xliff:g>. Set an empty value to use wallpaper color.
+    </string>
+    <string name="invalid_color_input">Invalid color input!</string>
+    <string name="chroma_factor_title">Colorfulness</string>
+    <string name="linear_lightness_title">Use custom lightness scale</string>
+    <string name="white_luminance_title">Brightness</string>
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Animasi menu daya</string>
     <string name="power_menu_animation_dialog_title">Pilih animasi menu daya</string>
@@ -628,21 +607,6 @@
     <string name="reticker_summary">Ganti notifikasi mengambang dengan versi ticker yang didesain ulang yang ramping dan tidak terlalu invasif</string>
     <string name="reticker_colored_title">Gunakan latar belakang berwarna aplikasi</string>
     <string name="reticker_colored_summary">Ganti warna latar belakang reTicker menggunakan warna utama notifikasi aplikasi</string>
-    <!-- Edge light -->
-    <string name="edge_light_title">Cahaya Tepi</string>
-    <string name="enable_edge_light">Aktifkan Cahaya Tepi</string>
-    <string name="edge_light_intro_text">Menampilkan animasi di sepanjang tepi layar saat menerima notifikasi</string>
-    <string name="edge_light_always_trigger_on_pulse_title">Selalu terpicu</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">Apakah akan menampilkan cahaya tepi setiap kali tampilan ambien ditampilkan dan bukan hanya untuk notifikasi</string>
-    <string name="edge_light_repeat_animation_title">Ulangi animasi</string>
-    <string name="edge_light_repeat_animation_summary_on">Ulangi sampai waktu habis</string>
-    <string name="edge_light_repeat_animation_summary_off">Hanya tampilkan sekali</string>
-    <string name="edge_light_color_mode_title">Mode warna Cahaya Tepi</string>
-    <string name="accent_color">Warna aksen (Bawaan)</string>
-    <string name="notification_color">Warna notifikasi</string>
-    <string name="wallpaper_color">Warna wallpaper</string>
-    <string name="custom_color">Warna kustom</string>
-    <string name="edge_light_custom_color_title">Warna kustom</string>
     <!-- Power menu and dialogs opacity -->
     <string name="power_menu_transparency">Opasitas menu daya/mulai ulang</string>
     <string name="power_menu_dialog_dim">Jumlah redup latar belakang dialog menu daya/mulai ulang</string>
@@ -707,9 +671,6 @@
     <string name="notification_material_dismiss_button_summary">Aktifkan untuk menggunakan tombol di tengah bawah sebagai ganti teks Hapus Semua</string>
     <string name="clearall_style_title">Gaya tombol bersihkan</string>
     <string name="clearall_bgstyle_title">Gaya latar belakang tombol bersihkan</string>
-    <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">Ikon sinyal gabungan</string>
-    <string name="combined_status_bar_signal_icons_summary">Aktifkan ikon sinyal gabungan\n(PERINGATAN: soft reboot akan terjadi setelah mengaktifkan ikon sinyal gabungan)</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_warning_text">Piksel Cerdas adalah fitur hemat daya. Bergantung pada berapa banyak piksel yang Anda putuskan untuk dimatikan, Anda dapat melihat peningkatan dalam masa pakai baterai. Perhatikan bahwa dalam beberapa kasus dapat mengakibatkan area yang tidak responsif pada layar sentuh</string>
     <string name="smart_pixels_title">Piksel Cerdas</string>
@@ -721,4 +682,113 @@
     <string name="smart_pixels_percent">Persentase piksel untuk dimatikan</string>
     <string name="smart_pixels_shift_title">Perlindungan burn-in</string>
     <string name="smart_pixels_shift_summary">Mencegah burn-in pada perangkat OLED dengan menggeser piksel sesering mungkin</string>
+    <!-- Ambient edge lighting -->
+    <string name="pulse_ambient_light_category">Screen edge lighting</string>
+    <string name="pulse_ambient_light_title">Edge lighting</string>
+    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="pulse_ambient_light_color_title">Custom color</string>
+    <string name="pulse_ambient_light_color_mode_title">Light color</string>
+    <string name="pulse_ambient_light_color_mode_notification">Automatic (Notification Based)</string>
+    <string name="pulse_ambient_light_color_mode_wall">Automatic (Wallpaper Based)</string>
+    <string name="pulse_ambient_light_color_mode_accent">Accent</string>
+    <string name="pulse_ambient_light_color_mode_custom">Custom</string>
+    <string name="pulse_ambient_light_color_mode_random">Random Color</string>
+    <string name="pulse_ambient_light_duration_title">Light duration</string>
+    <string name="pulse_ambient_light_repeat_count_title">Light repeat count</string>
+    <string name="pulse_ambient_light_show_always_title">Show always</string>
+    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Restart</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
+    <string name="pulse_ambient_light_layout_title">Light view</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
+    <string name="ambient_notification_light_enabled_title">Show on AOD</string>
+    <string name="ambient_notification_light_enabled_summary">Show lights on Always On Display</string>
+    <string name="ambient_notification_light_hide_aod_title">Hide AOD content</string>
+    <string name="ambient_notification_light_hide_aod_summary">Hide AOD content when lights are showing</string>
+    <string name="ambient_notification_light_timeout_title">Timeout</string>
+    <string name="ambient_notification_light_timeout_forever">Forever</string>
+    <string name="ambient_notification_light_timeout_half_minute">30 seconds</string>
+    <string name="ambient_notification_light_timeout_minute">1 minute</string>
+    <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
+    <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
+    <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
+    <!-- Edge Light -->
+    <string name="pulse_ambient_light_width_title">Light width</string>
+    <!-- Pulse Light Layout Style -->
+    <string name="pulse_light_layout_style_title">Light Layout Style</string>
+    <string name="pulse_light_both">All Four Sides</string>
+    <string name="pulse_light_top_bottom">Only Top-Bottom</string>
+    <string name="pulse_light_left_right">Only Left-Right</string>
+    <!-- Ambient Customization -->
+    <string name="ambient_text_category">Text Customization</string>
+    <string name="ambient_image_category">Image Customization</string>
+    <string name="ambient_text_category_title">Ambient-AOD Customization</string>
+    <string name="ambient_text_category_summary">Customizing the looks of ambient-aod</string>
+    <string name="ambient_text_title">Ambient Text</string>
+    <string name="ambient_text_summary">Show Ambient Text in AoD</string>
+    <string name="ambient_text_animation_title">Ambient Text Animation</string>
+    <string name="ambient_text_animation_summary">Show a Animation when show AoD</string>
+    <string name="ambient_text_size_title">Ambient Text Size</string>
+    <string name="ambient_text_font_title">Ambient Text Font</string>
+    <string name="ambient_text_string_title">Set Ambient Text</string>
+    <string name="ambient_text_align_title">Ambient Text Align</string>
+    <string name="ambient_text_align_start_top">Right n Top</string>
+    <string name="ambient_text_align_start_center">Right n Center</string>
+    <string name="ambient_text_align_start_bottom">Right n Bottom</string>
+    <string name="ambient_text_align_center">Center</string>
+    <string name="ambient_text_align_end_top">Left n Top</string>
+    <string name="ambient_text_align_end_center">Left n Center</string>
+    <string name="ambient_text_align_end_bottom">Left n Bottom</string>
+    <string name="ambient_text_type_color_title">Ambient Text Type Color</string>
+    <string name="ambient_text_color_title">Ambient Text Color</string>
+    <string name="ambient_notification_light_color_mode_accent">System accent color</string>
+    <string name="ambient_notification_light_color_mode_custom">Custom color</string>
+    <string name="ambient_notification_light_color_mode_wall">Wallpaper color</string>
+    <string name="ambient_image_title">Ambient Image</string>
+    <string name="file_header_select_title">Select local image</string>
+    <string name="file_header_select_summary">Select image from storage(recommended use Gallery Go)</string>
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">LS Clock font style</string>
+    <string name="lock_clock_font_dialog_title">Select lockscreen clock font</string>
+    <string name="lock_clock_font_stock">Normal (default)</string>
+    <string name="lock_clock_font_bold">Bold</string>
+    <string name="lock_clock_font_italic">Italic</string>
+    <string name="lock_clock_font_bold_italic">Bold Italic</string>
+    <string name="lock_clock_font_light_italic">Light Italic</string>
+    <string name="lock_clock_font_thin_italic">Thin Italic</string>
+    <string name="lock_clock_font_light">Light</string>
+    <string name="lock_clock_font_thin">Thin</string>
+    <string name="lock_clock_font_condensed_normal">Condensed</string>
+    <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
+    <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
+    <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="lock_clock_font_condensed_light">Condensed Light</string>
+    <string name="lock_clock_font_condensed_light_italic">Condensed Light Italic</string>
+    <string name="lock_clock_font_medium_normal">Medium</string>
+    <string name="lock_clock_font_medium_italic">Medium Italic</string>
+    <string name="lock_clock_font_black">Black</string>
+    <string name="lock_clock_font_black_italic">Black Italic</string>
+    <string name="lock_clock_font_dancingscript">DancingScript</string>
+    <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="lock_clock_font_comingsoon">ComingSoon</string>
+    <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
+    <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
+    <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
+    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+    <string name="lock_clock_font_gobold">GoBold Light</string>
+    <string name="lock_clock_font_roadrage">Road Rage</string>
+    <string name="lock_clock_font_snowstorm">Snowstorm</string>
+    <string name="lock_clock_font_googlesans">Google Sans</string>
+    <string name="lock_clock_font_neoneon">Neoneon</string>
+    <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
+    <string name="lock_clock_font_samsung">Shamshung</string>
+    <string name="lock_clock_font_mexcellent">Mexcellent</string>
+    <string name="lock_clock_font_burnstown">Burnstown</string>
+    <string name="lock_clock_font_dumbledor">Dumbledor</string>
+    <string name="lock_clock_font_phantombold">PhantomBold</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Vivid Colors</string>
+    <string name="system_black_theme_summary">Use colorful and darker monet shades</string>
 </resources>
