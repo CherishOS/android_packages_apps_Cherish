@@ -552,17 +552,17 @@
     <string name="qs_columns_portrait_title">Kolom ubin pada tampilan potret</string>
     <string name="qs_columns_landscape_title">Kolom (lanskap)</string>
     <!-- Monet engine -->
-    <string name="monet_engine_settings_title">Monet engine</string>
-    <string name="monet_engine_settings_summary">Custom color, colorfulness, brightness</string>
-    <string name="accurate_shades_title">Use accurate shades</string>
-    <string name="color_override_title">Custom color picker</string>
-    <string name="color_override_default_summary">Using wallpaper color</string>
-    <string name="custom_color_override_summary_placeholder">        Choosen color: <xliff:g example="#FF0000" id="Color">%1$s</xliff:g>. Set an empty value to use wallpaper color.
+    <string name="monet_engine_settings_title">Mesin Monet</string>
+    <string name="monet_engine_settings_summary">Warna kustom, penuh warna, kecerahan</string>
+    <string name="accurate_shades_title">Gunakan nuansa yang akurat</string>
+    <string name="color_override_title">Pilihan warna kustom</string>
+    <string name="color_override_default_summary">Gunakan warna Wallpaper</string>
+    <string name="custom_color_override_summary_placeholder">        Warna yang dipilih: <xliff:g example="#FF0000" id="Color">%1$s</xliff:g>. Tetapkan nilai kosong untuk menggunakan warna wallpaper.
     </string>
-    <string name="invalid_color_input">Invalid color input!</string>
-    <string name="chroma_factor_title">Colorfulness</string>
-    <string name="linear_lightness_title">Use custom lightness scale</string>
-    <string name="white_luminance_title">Brightness</string>
+    <string name="invalid_color_input">Masukan warna tidak valid!</string>
+    <string name="chroma_factor_title">Penuh warna</string>
+    <string name="linear_lightness_title">Gunakan skala ringan khusus</string>
+    <string name="white_luminance_title">Kecerahan</string>
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Animasi menu daya</string>
     <string name="power_menu_animation_dialog_title">Pilih animasi menu daya</string>
@@ -683,10 +683,10 @@
     <string name="smart_pixels_shift_title">Perlindungan burn-in</string>
     <string name="smart_pixels_shift_summary">Mencegah burn-in pada perangkat OLED dengan menggeser piksel sesering mungkin</string>
     <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_category">Screen edge lighting</string>
-    <string name="pulse_ambient_light_title">Edge lighting</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="pulse_ambient_light_color_title">Custom color</string>
+    <string name="pulse_ambient_light_category">Pencahayaan tepi layar</string>
+    <string name="pulse_ambient_light_title">Pencahayaan sisi layar</string>
+    <string name="pulse_ambient_light_summary">Menambahkan pencahayaan sisi samping pada layar saat ada notifikasi baru</string>
+    <string name="pulse_ambient_light_color_title">Warna kustom</string>
     <string name="pulse_ambient_light_color_mode_title">Light color</string>
     <string name="pulse_ambient_light_color_mode_notification">Automatic (Notification Based)</string>
     <string name="pulse_ambient_light_color_mode_wall">Automatic (Wallpaper Based)</string>
