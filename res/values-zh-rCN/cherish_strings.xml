@@ -553,15 +553,15 @@
     <string name="qs_columns_landscape_title">列 (横向)</string>
     <!-- Monet engine -->
     <string name="monet_engine_settings_title">Monet 引擎</string>
-    <string name="monet_engine_settings_summary">Custom color, colorfulness, brightness</string>
-    <string name="accurate_shades_title">Use accurate shades</string>
-    <string name="color_override_title">Custom color picker</string>
-    <string name="color_override_default_summary">Using wallpaper color</string>
-    <string name="custom_color_override_summary_placeholder">        Choosen color: <xliff:g example="#FF0000" id="Color">%1$s</xliff:g>. Set an empty value to use wallpaper color.
+    <string name="monet_engine_settings_summary">自定义颜色，饱和度，亮度</string>
+    <string name="accurate_shades_title">使用精确色调</string>
+    <string name="color_override_title">自定义颜色选择器</string>
+    <string name="color_override_default_summary">正在使用壁纸颜色</string>
+    <string name="custom_color_override_summary_placeholder">        选择颜色： <xliff:g example="#FF0000" id="Color">%1$s</xliff:g>。设置一个空值使用壁纸颜色。
     </string>
-    <string name="invalid_color_input">Invalid color input!</string>
-    <string name="chroma_factor_title">Colorfulness</string>
-    <string name="linear_lightness_title">Use custom lightness scale</string>
+    <string name="invalid_color_input">无效的颜色输入！</string>
+    <string name="chroma_factor_title">饱和度</string>
+    <string name="linear_lightness_title">使用自定义亮度等级</string>
     <string name="white_luminance_title">Brightness</string>
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">电源菜单动画</string>
@@ -686,13 +686,13 @@
     <string name="pulse_ambient_light_category">Screen edge lighting</string>
     <string name="pulse_ambient_light_title">Edge lighting</string>
     <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="pulse_ambient_light_color_title">Custom color</string>
-    <string name="pulse_ambient_light_color_mode_title">Light color</string>
-    <string name="pulse_ambient_light_color_mode_notification">Automatic (Notification Based)</string>
-    <string name="pulse_ambient_light_color_mode_wall">Automatic (Wallpaper Based)</string>
-    <string name="pulse_ambient_light_color_mode_accent">Accent</string>
-    <string name="pulse_ambient_light_color_mode_custom">Custom</string>
-    <string name="pulse_ambient_light_color_mode_random">Random Color</string>
+    <string name="pulse_ambient_light_color_title">自定义颜色</string>
+    <string name="pulse_ambient_light_color_mode_title">呼吸灯颜色</string>
+    <string name="pulse_ambient_light_color_mode_notification">自动（基于通知）</string>
+    <string name="pulse_ambient_light_color_mode_wall">自动（基于壁纸）</string>
+    <string name="pulse_ambient_light_color_mode_accent">强调色</string>
+    <string name="pulse_ambient_light_color_mode_custom">自定义</string>
+    <string name="pulse_ambient_light_color_mode_random">随机颜色</string>
     <string name="pulse_ambient_light_duration_title">Light duration</string>
     <string name="pulse_ambient_light_repeat_count_title">Light repeat count</string>
     <string name="pulse_ambient_light_show_always_title">Show always</string>
