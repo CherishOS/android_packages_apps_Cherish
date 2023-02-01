@@ -956,4 +956,26 @@
 	 <!-- Black theme -->
     <string name="system_black_theme_title">Vivid Colors</string>
     <string name="system_black_theme_summary">Use colorful and darker monet shades</string>
+	
+	 <!-- Dynamic System Bars -->
+    <string name="dynamic_accent_mode_status_bar_summary">Automatically change the dark intensity to Accent Color</string>
+    <string name="dynamic_accent_mode_status_bar_title">Accent Mode</string>
+    <string name="dynamic_icon_navigation_tint_summary">Use status bar Dynamic color as navigation bar icon Tint</string>
+    <string name="dynamic_icon_navigation_tint_title">Status bar color Tint</string>
+    <string name="dynamic_linked_color_status_bar_summary">Automatically linked status bar dynamic color as navigation bar background</string>
+    <string name="dynamic_linked_color_status_bar_title">Linked Color</string>
+    <string name="dynamic_navigation_bar_summary">Automatically update the background of the navigation bar</string>
+    <string name="dynamic_navigation_bar_title">Dynamic navigation bar</string>
+    <string name="dynamic_navigation_bars_gradient_summary">Overlay a gradient on the navigation bar</string>
+    <string name="dynamic_navigation_bars_gradient_title">Navigation bar gradient</string>
+    <string name="dynamic_silver_mode_status_bar_summary">Automatically change the dark intensity to Silver</string>
+    <string name="dynamic_silver_mode_status_bar_title">Silver Mode</string>
+    <string name="dynamic_status_bar_filter_summary">Overlay a darkening filter on the status bar</string>
+    <string name="dynamic_status_bar_filter_title">Darker status bar</string>
+    <string name="dynamic_status_bar_summary">Automatically update the background of the status bar</string>
+    <string name="dynamic_status_bar_title">Dynamic status bar</string>
+    <string name="dynamic_system_bars_category_summary">Automatically update the background of the status bar and navigation bar</string>
+    <string name="dynamic_system_bars_category_title">Dynamic system bars</string>
+    <string name="dynamic_system_bars_gradient_summary">Overlay a gradient on the status bar</string>
+    <string name="dynamic_system_bars_gradient_title">Status bar gradient</string>
 </resources>

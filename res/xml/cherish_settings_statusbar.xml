@@ -71,6 +71,13 @@
                  android:targetPackage="com.android.systemui"
                  android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
+		
+		<!-- DSB -->
+        <Preference
+            android:key="dynamic_system_bars"
+            android:title="@string/dynamic_system_bars_category_title"
+            android:summary="@string/dynamic_system_bars_category_summary"
+            android:fragment="com.cherish.settings.fragments.DsbSettings" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
