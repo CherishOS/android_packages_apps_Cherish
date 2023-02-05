@@ -669,11 +669,16 @@
     <string name="enable_protection">Enable protection</string>
 
      <!-- Quick settings styling -->
-    <string name="qs_styling">Quick Settings UI</string>
-    <string name="qs_styles_title">QS Panel Styles</string>
-    <string name="qs_outline">QS Outline Style</string>
-    <string name="qs_two_tone">QS Two-Tone Accent</string>
-    <string name="qs_color_pop">QS Color Pop</string>
+    <string name="qs_styles_title">Combined QS Element Styles</string>
+    <string name="qs_outline">Outline</string>
+    <string name="qs_two_tone">Two-Tone Accent</string>
+    <string name="qs_color_pop">Color Pop</string>
+    <string name="qs_shaded">Shaded</string>
+    <string name="qs_cyberpunk">Cyberpunk</string>
+    <string name="qs_neumorph">Neumorph</string>
+    <string name="qs_reflected">Reflected</string>
+    <string name="qs_surround">Surround</string>
+    <string name="qs_thin">ThinLine</string>
 	
 	<!-- QS tiles layout direction: vertical or horizontal -->
     <string name="qs_tile_layout_category_title">Tile layout</string>
