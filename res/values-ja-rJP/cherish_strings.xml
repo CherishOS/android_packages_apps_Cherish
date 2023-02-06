@@ -725,8 +725,8 @@
     <string name="ambient_text_category">テキストの編集</string>
     <string name="ambient_image_category">画像の編集</string>
     <string name="ambient_text_category_title">Ambient-AOD Customization</string>
-    <string name="ambient_text_category_summary">Customizing the looks of ambient-aod</string>
-    <string name="ambient_text_title">Ambient Text</string>
+    <string name="ambient_text_category_summary">アンビエント表示をカスタマイズする</string>
+    <string name="ambient_text_title">テキストを表示</string>
     <string name="ambient_text_summary">Show Ambient Text in AoD</string>
     <string name="ambient_text_animation_title">Ambient Text Animation</string>
     <string name="ambient_text_animation_summary">Show a Animation when show AoD</string>

@@ -556,7 +556,7 @@
     <string name="accurate_shades_title">Использовать точные оттенки</string>
     <string name="color_override_title">Добавление своего цвета</string>
     <string name="color_override_default_summary">Использовать цвет обоев</string>
-    <string name="custom_color_override_summary_placeholder">        Choosen color: <xliff:g example="#FF0000" id="Color">%1$s</xliff:g>. Set an empty value to use wallpaper color.
+    <string name="custom_color_override_summary_placeholder">        Выберите цвет: <xliff:g example="#FF0000" id="Color">%1$s</xliff:g>. Установите пустое значение для использования цвета обоев.
     </string>
     <string name="invalid_color_input">Некорректный цвет!</string>
     <string name="chroma_factor_title">Цветность</string>
@@ -771,7 +771,7 @@
     <string name="lock_clock_font_black_italic">Черный курсив</string>
     <string name="lock_clock_font_dancingscript">Рукописный</string>
     <string name="lock_clock_font_dancingscript_bold">Рукописный жирный</string>
-    <string name="lock_clock_font_comingsoon">ComingSoon</string>
+    <string name="lock_clock_font_comingsoon">Скоро будет</string>
     <string name="lock_clock_font_notoserif">NotoSerif Обычный</string>
     <string name="lock_clock_font_notoserif_italic">NotoSerif курсив</string>
     <string name="lock_clock_font_notoserif_bold">NotoSerif жирный</string>
