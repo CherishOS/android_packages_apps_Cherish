@@ -462,7 +462,7 @@
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/P_AA_ii_N" />
+                android:data="https://t.me/EvilAnsh" />
         </Preference>
 			  
 <Preference
