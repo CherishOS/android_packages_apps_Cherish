@@ -775,4 +775,12 @@
     <string name="qs_tile_shape_circle">Circle</string>
     <string name="qs_tile_shape_rounded_square">Rounded square</string>
     <string name="qs_tile_shape_square">Square</string>
+
+    <!-- QS Panel -->
+    <string name="qs_show_brightness_title">Brightness slider</string>
+    <string name="qs_show_brightness_hide">Hide</string>
+    <string name="qs_show_brightness_normal">Show in QS Panel</string>
+    <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
+    <string name="qs_brightness_position_position_title">Brightness slider in the bottom</string>
+    <string name="qs_brightness_position_position_summary">Show brightness slider in the bottom of QS panel</string>
 </resources>

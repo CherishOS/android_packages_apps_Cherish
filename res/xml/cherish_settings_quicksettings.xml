@@ -54,6 +54,19 @@
             android:entries="@array/qs_tile_shape_entries"
             android:entryValues="@array/qs_tile_shape_values"
             android:defaultValue="0" />
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="qs_show_brightness"
+            android:title="@string/qs_show_brightness_title"
+            android:entries="@array/qs_show_brightness_entries"
+            android:entryValues="@array/qs_show_brightness_values"
+            android:defaultValue="1" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_brightness_position_bottom"
+            android:title="@string/qs_brightness_position_position_title"
+            android:summary="@string/qs_brightness_position_position_summary" 
+            android:defaultValue="false" />
     </PreferenceCategory>
 
 </PreferenceScreen>
