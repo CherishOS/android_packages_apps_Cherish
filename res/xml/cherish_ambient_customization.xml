@@ -39,17 +39,6 @@
             android:defaultValue="#Welcome To Cherish" />
 
         <ListPreference
-            android:key="ambient_text_font"
-            android:title="@string/ambient_text_font_title"
-            android:dialogTitle="@string/ambient_text_font_title"
-            android:entries="@array/lock_clock_fonts_entries"
-            android:entryValues="@array/lock_clock_fonts_values"
-            android:summary="%s"
-            android:defaultValue="8"
-            android:dependency="ambient_text"
-            android:persistent="false" />
-
-        <ListPreference
             android:key="ambient_text_type_color"
             android:title="@string/ambient_text_type_color_title"
             android:dialogTitle="@string/ambient_text_type_color_title"

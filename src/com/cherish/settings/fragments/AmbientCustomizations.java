@@ -63,7 +63,6 @@ public class AmbientCustomizations extends SettingsPreferenceFragment implements
 
     private static final String AMBIENT_TEXT_STRING = "ambient_text_string";
     private static final String AMBIENT_TEXT_ALIGNMENT = "ambient_text_alignment";
-    private static final String AMBIENT_TEXT_FONT = "ambient_text_font";
     private static final String AMBIENT_TEXT_TYPE_COLOR = "ambient_text_type_color";
     private static final String AMBIENT_TEXT_COLOR = "ambient_text_color";
     private static final String FILE_AMBIENT_SELECT = "file_ambient_select";
@@ -94,13 +93,6 @@ public class AmbientCustomizations extends SettingsPreferenceFragment implements
         mAmbientTextAlign.setValue(String.valueOf(align));
         mAmbientTextAlign.setSummary(mAmbientTextAlign.getEntry());
         mAmbientTextAlign.setOnPreferenceChangeListener(this);
-
-        // ambient text Fonts
-        mAmbientTextFonts = (ListPreference) findPreference(AMBIENT_TEXT_FONT);
-        mAmbientTextFonts.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.AMBIENT_TEXT_FONT, 8)));
-        mAmbientTextFonts.setSummary(mAmbientTextFonts.getEntry());
-        mAmbientTextFonts.setOnPreferenceChangeListener(this);
 
         // ambient text color type
         mAmbientTextTypeColor = (ListPreference) findPreference(AMBIENT_TEXT_TYPE_COLOR);
@@ -150,12 +142,6 @@ public class AmbientCustomizations extends SettingsPreferenceFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.AMBIENT_TEXT_ALIGNMENT, align);
             mAmbientTextAlign.setSummary(mAmbientTextAlign.getEntries()[index]);
-            return true;
-        } else if (preference == mAmbientTextFonts) {
-            Settings.System.putInt(getContentResolver(), Settings.System.AMBIENT_TEXT_FONT,
-                    Integer.valueOf((String) newValue));
-            mAmbientTextFonts.setValue(String.valueOf(newValue));
-            mAmbientTextFonts.setSummary(mAmbientTextFonts.getEntry());
             return true;
          } else if (preference == mAmbientTextTypeColor) {
              int value = Integer.valueOf((String) newValue);
