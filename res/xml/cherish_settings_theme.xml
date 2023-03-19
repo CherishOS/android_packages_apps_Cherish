@@ -61,12 +61,6 @@
             settings:controller="com.android.settings.display.DarkUIPreferenceController" />
 			
 		<Preference
-            android:key="android.theme.customization.style"
-            android:title="@string/theme_customization_ui_style_title"
-            android:summary="@string/theme_customization_ui_style_summary"
-            android:fragment="com.cherish.settings.fragments.ui.UIStyles"/>
-			
-		<Preference
             android:key="android.theme.customization.lockscreen_clock_font"
             android:title="@string/theme_customization_lock_clock_title"
             android:summary="@string/theme_customization_lock_clock_summary"
