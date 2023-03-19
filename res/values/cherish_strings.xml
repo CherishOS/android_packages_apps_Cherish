@@ -496,5 +496,9 @@
     <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
     <string name="udfps_settings_title">UDFPS settings</string>
     <string name="udfps_settings_summary">Customizations for the UDFPS</string>
+	
+	<!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 
 </resources>
