@@ -13,17 +13,4 @@
         android:title="@string/udfps_haptic_feedback_title"
         android:summary="@string/udfps_haptic_feedback_summary"
         android:defaultValue="true" />
-
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="udfps_success_vib"
-            android:title="@string/udfps_success_vib_title"
-            android:summary="@string/udfps_success_vib_summary"
-            android:defaultValue="true" />
-
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="udfps_error_vib"
-            android:title="@string/udfps_error_vib_title"
-            android:summary="@string/udfps_error_vib_summary"
-            android:defaultValue="true" />
-
 </PreferenceScreen>
