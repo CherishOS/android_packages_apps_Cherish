@@ -109,6 +109,14 @@
          android:summary="%s"
          android:defaultValue="0" />
 
+		<!-- Black Theme -->
+    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="system_black_theme"
+        android:title="@string/system_black_theme_title"
+        android:summary="@string/system_black_theme_summary"
+        android:dependency="dark_ui_mode"
+        android:defaultValue="false" />
+		
         <!-- Font style -->
         <Preference
             android:key="android.theme.customization.font"
