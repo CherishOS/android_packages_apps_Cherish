@@ -40,7 +40,6 @@ import com.android.settingslib.search.SearchIndexable;
 import android.provider.SearchIndexableResource;
 
 import com.cherish.settings.fragments.SmartCharging;
-import com.cherish.settings.fragments.SmartPixels;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -54,12 +53,10 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
 	
 	private static final String SMART_CHARGING = "smart_charging";
-	private static final String SMART_PIXELS = "smart_pixels";
 
     private SwitchPreference mGamesSpoof;
     private SwitchPreference mPhotosSpoof;
 	private Preference mSmartCharging;
-	private Preference mSmartPixels;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -84,12 +81,6 @@ public class MiscSettings extends SettingsPreferenceFragment implements
                 com.android.internal.R.bool.config_smartChargingAvailable);
         if (!mSmartChargingSupported)
             prefScreen.removePreference(mSmartCharging);
-		
-		mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
-           boolean mSmartPixelsSupported = getResources().getBoolean(
-                 com.android.internal.R.bool.config_supportSmartPixels);
-           if (!mSmartPixelsSupported)
-                 prefScreen.removePreference(mSmartPixels);
 
     }
 
@@ -121,12 +112,8 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
                     boolean mSmartChargingSupported = context.getResources().getBoolean(
                             com.android.internal.R.bool.config_smartChargingAvailable);
-					boolean mSmartPixelsSupported = context.getResources().getBoolean(
-                            com.android.internal.R.bool.config_supportSmartPixels);
                     if (!mSmartChargingSupported)
                         keys.add(SMART_CHARGING);
-					if (!mSmartPixelsSupported)
-                        keys.add(SMART_PIXELS);
 
                     return keys;
                 }
