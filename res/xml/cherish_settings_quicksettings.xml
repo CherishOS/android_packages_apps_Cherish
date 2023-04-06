@@ -81,6 +81,14 @@
         android:key="qs_layout_category"
         android:title="@string/qs_layout_category_title">
 
+    <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+        android:key="qs_header_image"
+        android:title="@string/qs_header_image_title"
+        android:defaultValue="0"
+        settings:interval="1"
+        android:max="11"
+        android:min="0" />
+
     <Preference
         android:key="qs_tile_layout"
         android:icon="@drawable/ic_qs_tile"
