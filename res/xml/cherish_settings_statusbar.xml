@@ -80,6 +80,12 @@
             android:summary="@string/data_disabled_icon_summary"
             android:defaultValue="true" />
 
+        <com.cherish.settings.preferences.SystemPropertySwitchPreference
+        android:key="persist.sys.flags.combined_signal_icons"
+        android:title="@string/combined_status_bar_signal_icons_title"
+        android:summary="@string/combined_status_bar_signal_icons_summary"
+        android:defaultValue="false" />
+
     <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="volte_icon_style" 
             android:title="@string/volte_icon_style_title" 

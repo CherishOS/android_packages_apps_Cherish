@@ -50,6 +50,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     private static final String VOLTE_ICON_STYLE = "volte_icon_style";
     private static final String VOWIFI_ICON_STYLE = "vowifi_icon_style";
+
+    private Preference mCombinedSignalIcons;
     
     private SystemSettingListPreference mVolteIconStyle;
     private SystemSettingListPreference mVowifiIconStyle;
@@ -75,6 +77,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         } else {
             mVolteIconStyle.setEnabled(false);
         }
+
+        mCombinedSignalIcons = findPreference("persist.sys.flags.combined_signal_icons");
+        mCombinedSignalIcons.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -90,6 +95,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             } else {
                 mVolteIconStyle.setEnabled(false);
             }
+            return true;
+        } else if (preference == mCombinedSignalIcons) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putIntForUser(getContentResolver(),
+                Settings.Secure.ENABLE_COMBINED_SIGNAL_ICONS, value ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
         }
         return false;
