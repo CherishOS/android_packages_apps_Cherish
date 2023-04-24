@@ -37,13 +37,6 @@
         android:title="@string/smart_charging_title"
         android:summary="@string/smart_charging_summary"
         android:fragment="com.cherish.settings.fragments.SmartCharging"/>
-
-     <Preference
-        android:key="app_lock"
-        android:title="@string/app_lock_title"
-        android:summary="@string/app_lock_summary"
-        android:fragment="com.cherish.settings.security.applock.AppLockSettingsFragment"
-        settings:controller="com.cherish.settings.security.applock.AppLockSettingsPreferenceController" />
 		
 	<!-- Unlock FPS for specific games -->
      <SwitchPreference
