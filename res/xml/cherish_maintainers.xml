@@ -581,4 +581,18 @@
                 android:data="https://t.me/Iris041" />
         </Preference>
 </PreferenceCategory>
+
+<PreferenceCategory
+              android:key="samsung_devices"
+              android:title="@string/samsung_devices" >
+
+  <Preference
+            android:title="@string/s10_n10_series_maintainer"
+            android:summary="@string/device_s10_n10_series"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/FreeRunner4ever" />
+        </Preference>
+</PreferenceCategory>
 </PreferenceScreen>
