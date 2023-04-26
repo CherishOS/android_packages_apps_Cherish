@@ -74,6 +74,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 	
 	
 	private ListPreference mLockClockStyles;
+    private OmniJawsClient mWeatherClient;
     private Preference mWeather;
 	private PreferenceCategory mUdfpsCategory;
 	private Context mContext;
@@ -132,17 +133,8 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         }
 
         mWeather = (Preference) findPreference(KEY_WEATHER);
-        OmniJawsClient weatherClient = new OmniJawsClient(getContext());
-        boolean weatherEnabled = weatherClient.isOmniJawsEnabled();
-        if (!weatherEnabled) {
-            mWeather.setEnabled(false);
-            mWeather.setSummary(R.string.lockscreen_weather_enabled_info);
-        }
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
+        mWeatherClient = new OmniJawsClient(getContext());
+        updateWeatherSettings();
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -165,13 +157,23 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.FP_ERROR_VIBRATE, value ? 1 : 0);
             return true;
-        } else if (preference == mWeather) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.LOCKSCREEN_WEATHER_ENABLED, value ? 0 : 0);
-            return true;
         }
         return false;
+    }
+
+    private void updateWeatherSettings() {
+        if (mWeatherClient == null || mWeather == null) return;
+
+        boolean weatherEnabled = mWeatherClient.isOmniJawsEnabled();
+        mWeather.setEnabled(weatherEnabled);
+        mWeather.setSummary(weatherEnabled ? R.string.lockscreen_weather_summary :
+            R.string.lockscreen_weather_enabled_info);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateWeatherSettings();
     }
 
     @Override
