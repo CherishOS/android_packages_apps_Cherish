@@ -155,4 +155,8 @@
    <!-- Motorola Device maintainers -->
    <string name="device_chef">Motorola One Power</string>
    <string name="chef_maintainer">Rushi Ranpise</string>
+   
+   <!-- Samsung Device maintainers -->
+   <string name="device_s10_n10_series">Galaxy S10 / Galaxy N10 Series</string>
+   <string name="s10_n10_series_maintainer">FrEeRuNnEr4EvEr</string>
 </resources>
