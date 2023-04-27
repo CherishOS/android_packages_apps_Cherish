@@ -464,7 +464,16 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/EvilAnsh" />
         </Preference>
-			  
+
+<Preference
+           android:title="@string/RMX3461_maintainer"
+           android:summary="@string/device_RMX3461"
+           android:icon="@drawable/ic_devs_phone">
+           <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://t.me/DRvP00" />
+           </Preference>
+	  
 <Preference
             android:title="@string/RMX1971_maintainer"
             android:summary="@string/device_RMX1971"
