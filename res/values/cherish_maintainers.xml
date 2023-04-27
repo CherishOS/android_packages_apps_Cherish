@@ -104,7 +104,9 @@
    <string name="ysl_maintainer">Iris</string>
 
     <!-- Realme Device maintainers -->
-	<string name="device_RMX1971">Realme 5 Pro</string>
+   <string name="device_RMX3461">Realme 9 SE 5g</string>
+   <string name="RMX3461_maintainer">Dhruv00</string>
+   <string name="device_RMX1971">Realme 5 Pro</string>
    <string name="RMX1971_maintainer">Samba Siva Rao K</string>
    <string name="device_RMX1901">Realme RMX1901</string>
    <string name="RMX1901_maintainer">Ritish</string>
