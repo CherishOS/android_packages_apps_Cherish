@@ -64,6 +64,13 @@
             android:title="@string/lockscreen_weather_location_title"
             android:summary="@string/lockscreen_weather_location_summary"
             android:dependency="lockscreen_weather_enabled" />
+
+     <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_style"
+            android:title="@string/lockscreen_weather_style_title"
+            android:summary="@string/lockscreen_weather_style_summary"
+            android:dependency="lockscreen_weather_enabled" />
+
 	
 	<!-- Udfps options -->
     <PreferenceCategory
