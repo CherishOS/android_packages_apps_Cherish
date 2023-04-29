@@ -764,4 +764,19 @@
         <item>lock_wallpaper</item>
         <item>preset</item>
     </string-array>
+
+    <!-- Status bar chip styles-->
+    <string-array name="statusbar_clock_chip_entries" translatable="false">
+        <item>@string/disabled</item>
+        <item>@string/solid_accent</item>
+        <item>@string/outline</item>
+        <item>@string/solid_accent_gradient</item>
+    </string-array>
+
+    <string-array name="statusbar_clock_chip_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>
