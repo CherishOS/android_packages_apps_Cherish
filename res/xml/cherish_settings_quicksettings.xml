@@ -85,7 +85,6 @@
 
     <Preference
         android:key="qs_tile_layout"
-        android:icon="@drawable/ic_qs_tile"
         android:title="@string/qs_tile_layout_title"
         android:summary="@string/qs_tile_layout_summary"
         android:fragment="com.cherish.settings.fragments.QsTileLayoutSettings" />
