@@ -221,6 +221,8 @@
     <string name="status_bar_battery_style_icon_landscape_style_a">Biểu tượng nằm ngang trái kiểu A</string>
     <string name="status_bar_battery_style_icon_rlandscape_style_b">Biểu tượng nằm ngang phải kiểu B</string>
     <string name="status_bar_battery_style_icon_landscape_style_b">Biểu tượng nằm ngang trái kiểu B</string>
+    <string name="status_bar_battery_style_icon_landscape_ios15">iOS 15</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16">iOS 16</string>
     <string name="status_bar_battery_style_icon_landscape_pill">Dọc Mx</string>
     <string name="status_bar_battery_style_icon_landscape_line">Nằm ngang Lorn</string>
     <string name="status_bar_battery_style_icon_landscape_musku">Đứng IOS</string>
@@ -536,32 +538,22 @@
     <string name="qs_outline">Kiểu Outline</string>
     <string name="qs_two_tone">QS Two-Tone Accent</string>
     <string name="qs_color_pop">QS Màu Pop</string>
-    <!-- QS tiles layout direction: vertical or horizontal -->
-    <string name="qs_tile_layout_category_title">Bố cục các ô</string>
-    <string name="qs_tile_layout_title">Bố cục dọc</string>
-    <string name="qs_tile_layout_summary">Cho phép bố cục dọc. Mặc định là ngang</string>
-    <!-- QS tiles title visibility -->
-    <string name="qs_tile_title_visibility_title">Ẩn tiêu đề các ô</string>
-    <string name="qs_tile_title_visibility_summary">Công tắc ẩn ô tiêu đề</string>
-    <!-- QS tiles layout  -->
-    <string name="qs_layout_category_title">Bố trí thanh thông báo nhanh</string>
-    <string name="qs_tile_label_hide_title">Ẩn nhãn</string>
-    <string name="qs_tile_label_hide_summary">Chỉ hiển thị biểu tượng</string>
-    <string name="qs_tile_label_size_title">Kích thước văn bản tiêu đề</string>
-    <string name="qs_columns_portrait_title">Số cột theo chiều dọc</string>
-    <string name="qs_columns_landscape_title">Cột (màn hình ngang)</string>
-    <!-- Monet engine -->
-    <string name="monet_engine_settings_title">Công cụ Monet</string>
-    <string name="monet_engine_settings_summary">Màu tuỳ chỉnh, độ sặc sỡ, độ sáng</string>
-    <string name="accurate_shades_title">Sử dụng các sắc thái chính xác</string>
-    <string name="color_override_title">Chọn màu tuỳ chỉnh</string>
-    <string name="color_override_default_summary">Sử dụng màu của hình nền</string>
-    <string name="custom_color_override_summary_placeholder">Màu đã chọn: <xliff:g example="#FF0000" id="Color">%1$s</xliff:g>. Để trống để sử dụng màu hình nền.
-    </string>
-    <string name="invalid_color_input">Màu không hợp lệ!</string>
-    <string name="chroma_factor_title">Màu sắc</string>
-    <string name="linear_lightness_title">Sử dụng thang đo độ sáng tùy chỉnh</string>
-    <string name="white_luminance_title">Độ sáng</string>
+
+    <!-- Bố cục ô QS -->
+    <string name="qs_layout_category_title">Bố cục Cài đặt nhanh</string>
+    <string name="qs_tile_layout_title">Bố cục ô QS</string>
+    <string name="qs_tile_layout_summary">Tùy chỉnh bố cục ô trong bảng Cài đặt nhanh</string>
+    <string name="qs_tiles_layout_category">Bố cục ô</string>
+    <string name="qs_rows_portrait_title">Hàng  (Chế độ dọc)</string>
+    <string name="qqs_rows_portrait_title">Hàng  (Cài đặt nhanh dọc)</string>
+    <string name="qs_columns_portrait_title">Cột (Chế độ dọc)</string>
+    <string name="qs_apply_change_button_title">Áp dụng thay đổi</string>
+    <string name="qs_apply_change_failed">Không thể áp dụng thay đổi</string>
+    <string name="qs_tile_hide_label_title">Ẩn nhãn</string>
+    <string name="qs_tile_hide_label_summary">Chỉ hiển thị biểu tượng cho các ô QS</string>
+    <string name="qs_tile_vertical_layout_title">Bố cục dọc</string>
+    <string name="qs_tile_vertical_layout_summary">Bật bố cục dọc cho các ô QS</string>
+
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Hoạt ảnh menu nguồn</string>
     <string name="power_menu_animation_dialog_title">Chọn hoạt ảnh menu nguồn</string>
@@ -790,4 +782,112 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
     <string name="system_black_theme_summary">Sử dụng màu đậm và tối hơn cho monet</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Tắt cảm biến</string>
+    <string name="sensor_block_summary">Chặn quyền truy cập vào một số cảm biến cho một số ứng dụng để tiết kiệm pin</string>
+    <string name="sensor_block_app_picker_title">Chặn cảm biến cho các ứng dụng</string>
+    <string name="add_sensor_block_package_title">Thêm ứng dụng cho Chặn cảm biến</string>
+    <string name="add_sensor_block_package_summary">Các loại cảm biến sẽ bị chặn cho các ứng dụng sau</string>
+    <string name="delete">Xóa</string>
+    <string name="delete_message">Xóa mục đã chọn?</string>
+    <string name="choose_app">Chọn ứng dụng</string>
+
+    <!-- Monet settings -->
+    <string name="monet_settings_title">Cài đặt Monet</string>
+    <string name="monet_settings_sammary">Chỉnh sửa engine Monet</string>
+    <string name="theme_style_title">Kiểu Monet</string>
+    <string name="color_source_title">Màu sắc</string>
+    <string name="color_source_both">Mặc định</string>
+    <string name="color_source_home">Màn hình chính</string>
+    <string name="color_source_lock">Màn hình khóa</string>
+    <string name="color_source_preset">Thiết đặt</string>
+    <string name="accent_color_title">Màu nhấn</string>
+    <string name="accent_color_summary">Ghi đè màu nhấn mặc định</string>
+    <string name="accent_background_title">Màu nền</string>
+    <string name="accent_background_summary">Chọn màu tùy chỉnh cho nền</string>
+    <string name="bg_color_title">Chọn màu nền</string>
+    <string name="bg_color_summary">Ghi đè màu nền mặc định</string>
+    <string name="luminance_factor_title">Độ sáng</string>
+    <string name="luminance_factor_summary">Giá trị cao hơn cho ra màu sáng hơn</string>
+    <string name="chroma_factor_title">Yếu tố sắc tố</string>
+    <string name="chroma_factor_summary">Giá trị cao hơn cho ra màu đậm hơn</string>
+    <string name="tint_background_title">Màu của nền</string>
+    <string name="tint_background_summary">Tùy chỉnh độ sáng và độ trong cũng ảnh hưởng đến màu nền</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_error_vib_title">Rung khi lỗi vân tay</string>
+    <string name="fprint_error_vib_summary">Rung khi xác thực dấu vân tay thất bại</string>
+    <string name="fprint_success_vib_title">Rung khi xác thực dấu vân tay</string>
+    <string name="fprint_success_vib_summary">Rung khi xác thực dấu vân tay thành công</string>
+
+    <!-- QS Header image -->
+    <string name="qs_header_image_title">Hình nền tiêu đề cài đặt nhanh</string>
+    <string name="qs_header_random_image_title">Hình ảnh tiêu đề cài đặt nhanh ngẫu nhiên</string>
+    <string name="qs_header_random_image_summary">Bật hình ảnh ngẫu nhiên</string>
+
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Biểu tượng tín hiệu kép</string>
+    <string name="combined_status_bar_signal_icons_summary">Hiển thị biểu tượng kết hợp duy nhất cho WiFi và tín hiệu di động</string>
+
+	<!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_style_title">Biểu tượng VoLTE</string>
+    <string name="volte_icon_off">Tắt</string>
+    <string name="volte_icon_dynamic">Dynamic VOLTE Icons</string>
+    <string name="volte_icon_vo">Vo Only Icon</string>
+    <string name="volte_icon_volte">VoLTE Icon</string>
+    <string name="volte_icon_oos">VoLTE OOS Icon</string>
+    <string name="volte_icon_hd">HD Icon</string>
+    <string name="volte_icon_miui">MIUI 11 Icon</string>
+    <string name="volte_icon_emui">EMUI Icon</string>
+    <string name="volte_icon_margaritov">HD Filled Icon</string>
+    <string name="volte_icon_margaritov2">Margaritov VoLTE Icon</string>
+    <string name="volte_icon_vivo">Vivo Icon</string>
+	<string name="volte_icon_aris">Aris Icon</string>
+    <string name="volte_icon_beast">Aww Icon</string>
+    <string name="volte_icon_ios">Ios Icon</string>
+    <string name="volte_icon_lr">Livenge Icon</string>
+    <string name="volte_icon_realme">Realme Icon</string>
+    <string name="volte_icon_typeA">Mild Icon</string>
+    <string name="volte_icon_typeB">Filth Icon</string>
+    <string name="volte_icon_typeC">Mue Icon</string>
+    <string name="volte_icon_typeD">Sus Icon</string>
+    <string name="volte_icon_typeE">Acherus Icon</string>
+    <string name="volte_icon_vcircle">Circle Icon</string>
+    <string name="volte_icon_vimeo">Vimeo Icon</string>
+    <string name="volte_icon_volit">Volit Icon</string>
+    <string name="volte_icon_zirco">Ziroc Icon</string>
+	
+	 <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Biểu tượng VoWiFi</string>
+    <string name="vowifi_icon_summary">iện VoWifi icon khi có thể</string>
+    <string name="vowifi_icon_off">Tắt</string>
+    <string name="vowifi_icon_dynamic">Dynamic VoWiFi Icon</string>
+    <string name="vowifi_icon_asus">Asus VoWiFi Icon</string>
+    <string name="vowifi_icon_oneplus">OnePlus VoWiFi Icon</string>
+    <string name="vowifi_icon_moto">Moto VoWiFi Icons</string>
+    <string name="vowifi_icon_emui">EMUI Icons</string>
+
+    <!-- Không gian song song -->
+    <string name="laboratory_parallel_space_title">Không gian song song</string>
+    <string name="laboratory_parallel_space_summary">Cho phép chạy nhiều phiên bản của cùng một ứng dụng song song</string>
+
+    <!-- Thời tiết -->
+    <string name="qs_weather_settings_title">Cài đặt Thời tiết</string>
+    <string name="qs_weather_settings_summary">Cài đặt bộ biểu tượng và dịch vụ thời tiết</string>
+    <string name="weather_title">Cài đặt Thời tiết</string>
+    <string name="weather_config_title">Dịch vụ thời tiết</string>
+    <string name="weather_config_summary">Cài đặt dịch vụ hệ thống</string>
+    <string name="weather_icon_pack_title">Bộ biểu tượng</string>
+    <string name="weather_icon_pack_note">Ghi chú: bạn có thể cài đặt các gói biểu tượng mới từ cửa hàng Play bằng cách tìm kiếm "Biểu tượng Chronus"</string>
+    <string name="weather_icon_pack_info_title">Mẹo: \n\n1. Người dùng có thể cài đặt các gói biểu tượng mới từ cửa hàng Play bằng cách tìm kiếm "Biểu tượng Chronus".\n\n2. Bộ biểu tượng điều kiện được sử dụng cho biểu tượng thời tiết trên launcher.</string>
+    <string name="weather_settings_title">Dịch vụ thời tiết</string>
+    <string name="weather_settings_summary">Cài đặt bộ biểu tượng và dịch vụ thời tiết</string>
+    <string name="lockscreen_weather_title">Tình trạng thời tiết</string>
+    <string name="lockscreen_weather_summary">Hiển thị tình trạng thời tiết hiện tại và nhiệt độ</string>
+    <string name="lockscreen_weather_enabled_info">Yêu cầu dịch vụ thời tiết được kích hoạt</string>
+    <string name="lockscreen_weather_location_title">Vị trí thời tiết</string>
+    <string name="lockscreen_weather_location_summary">Hiển thị vị trí thời tiết hiện tại</string>
+    <string name="lockscreen_weather_style_title">Kiểu thời tiết </string>
+    <string name="lockscreen_weather_style_summary">Hiển thị thời tiết như một hàng riêng biệt</string>
 </resources>
