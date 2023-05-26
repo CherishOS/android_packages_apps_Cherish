@@ -102,6 +102,8 @@
    <string name="santoni_maintainer">EvilAnsh</string> 
    <string name="device_ysl">Xiaomi Redmi S2</string>
    <string name="ysl_maintainer">Iris</string>
+   <string name="device_grus">Xiaomi Mi 9 SE</string>
+   <string name="grus_maintainer">Toyohama</string>
 
     <!-- Realme Device maintainers -->
    <string name="device_RMX3461">Realme 9 SE 5g</string>
