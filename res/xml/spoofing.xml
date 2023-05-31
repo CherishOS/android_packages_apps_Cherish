@@ -105,5 +105,11 @@
             android:summary="@string/hide_applist_summary"
             android:fragment="com.cherish.settings.fragments.HideAppListSettings" />
 
+    <Preference
+        android:key="hide_developer_status_settings"
+        android:title="@string/hide_developer_status_title"
+        android:summary="@string/hide_developer_status_summary"
+        android:fragment="com.cherish.settings.fragments.HideDeveloperStatusSettings"
+        settings:controller="com.cherish.settings.fragments.HideDeveloperStatusPreferenceController" />
     </PreferenceCategory>
 </PreferenceScreen>
