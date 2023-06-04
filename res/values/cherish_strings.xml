@@ -459,6 +459,7 @@
     <string name="qs_reflected">Reflected</string>
     <string name="qs_surround">Surround</string>
     <string name="qs_thin">ThinLine</string>
+    <string name="qs_two_tone_trans">Two-Tone Translucent</string>
 	
 	<!-- QS tiles layout -->
     <string name="qs_layout_category_title">Quick Settings layout</string>
