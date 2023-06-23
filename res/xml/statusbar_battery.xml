@@ -46,7 +46,7 @@
     </PreferenceCategory>
 
     <!-- QS panel battery customizations -->
-    <PreferenceCategory
+    <!-- <PreferenceCategory
         android:title="@string/qs_battery_category_title">
 
         <com.cherish.settings.preferences.SystemSettingListPreference
@@ -63,6 +63,6 @@
             android:entryValues="@array/status_bar_battery_percent_values"
             android:defaultValue="2" />
 
-    </PreferenceCategory>
+    </PreferenceCategory> -->
 
 </PreferenceScreen>

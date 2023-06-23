@@ -106,7 +106,7 @@
     </string-array>
 
     <!-- QS battery style  -->
-    <string-array name="qs_battery_style_entries" translatable="false">
+    <!-- <string-array name="qs_battery_style_entries" translatable="false">
         <item>@string/qs_use_status_bar_battery_style</item>
         <item>@string/status_bar_battery_style_icon_portrait</item>
         <item>@string/status_bar_battery_style_icon_rlandscape</item> 
@@ -150,7 +150,7 @@
         <item>9</item>
         <item>4</item>
         <item>5</item>
-    </string-array>
+    </string-array> -->
 	
 	<!-- Quick Settings brightness slider -->
     <string-array name="qs_show_brightness_slider_entries" translatable="false">
