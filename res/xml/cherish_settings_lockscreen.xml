@@ -116,12 +116,12 @@
         android:summary="@string/pulse_settings_summary"
         android:fragment="com.cherish.settings.fragments.sound.PulseSettings" />
 
-        <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+        <!-- <com.cherish.settings.preferences.SystemSettingSeekBarPreference
             android:key="ls_media_filter_blur_radius"
             android:title="@string/lockscreen_albumart_filter_blur_radius_title"
             android:defaultValue="10"
             android:max="25"
-            settings:min="1" />
+            settings:min="1" /> -->
 
     </PreferenceCategory>
 
