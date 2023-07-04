@@ -628,11 +628,6 @@
     <!-- QS clock -->
     <string name="qs_clock_title">Clock</string>
     <string name="qs_clock_summary">Display clock in quick status bar header</string>
-	
-	<!-- Footer -->
-	<string name="qs_footer_category">QS Footer</string>
-	<string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
 
      <!-- Quick settings styling -->
     <string name="qs_styles_title">Combined QS Element Styles</string>
