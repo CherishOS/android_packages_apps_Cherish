@@ -362,6 +362,14 @@
                 android:data="https://t.me/Tkiliay" />
         </Preference>
 
+<Preference android:title="@string/camellia_maintainer" 
+            android:summary="@string/device_camellia" 
+            android:icon="@drawable/ic_devs_phone" >
+	    <intent
+                android:action="android.intent.action.VIEW" 
+                android:data="https://t.me/ramshell688" />
+        </Preference>
+
 	</PreferenceCategory>
 
 <PreferenceCategory

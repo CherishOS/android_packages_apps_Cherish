@@ -104,6 +104,8 @@
    <string name="ysl_maintainer">Iris</string>
    <string name="device_grus">Xiaomi Mi 9 SE</string>
    <string name="grus_maintainer">Toyohama</string>
+   <string name="device_camellia">Redmi Note 10 5G/Poco M3 Pro</string>
+   <string name="camellia_maintainer">ramshell688</string>
 
     <!-- Realme Device maintainers -->
    <string name="device_RMX3461">Realme 9 SE 5g</string>
