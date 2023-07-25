@@ -22,6 +22,8 @@
    <string name="motorola_devices">Motorola</string>
 
    <!-- Xiaomi Device maintainers -->
+   <string name="device_veux">Redmi Note 11 Pro/Pro+/Poco X4 Pro</string>
+   <string name="veux_maintainer">Prateek Bhatia(Freaky)</string>
    <string name="device_jason">Xiaomi Mi Note 3</string>
    <string name="jason_maintainer">Enweazu Daniel(Danny)</string>
    <string name="device_lmi">Xiaomi Redmi K30 Pro</string>
