@@ -21,6 +21,16 @@
               android:key="xiaomi_devices"
               android:title="@string/xiaomi_devices" >
 
+
+<Preference
+            android:title="@string/redwood_maintainer"
+            android:summary="@string/device_redwood"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/thepriyanshujangid" />
+        </Preference>
+
 <Preference
             android:title="@string/veux_maintainer"
             android:summary="@string/device_veux"
