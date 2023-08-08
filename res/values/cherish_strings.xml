@@ -925,6 +925,15 @@
     <string name="lockscreen_weather_enabled_info">Requires weather service to be enabled</string>
     <string name="lockscreen_weather_location_title">Weather location</string>
     <string name="lockscreen_weather_location_summary">Display current weather location</string>
-    <string name="lockscreen_weather_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_title">Lockscreen weather style</string>
     <string name="lockscreen_weather_style_summary">Display weather as separate row</string>
+
+    <!-- Weather Styles -->
+    <string name="weather_style_1">"32°C"</string>
+    <string name="weather_style_2">"32°C \u2022 Today 32° / 24°"</string>
+    <string name="weather_style_3">"32°C \u2022 New York"</string>
+    <string name="weather_style_4">"32°C \u2022 Sunny"</string>
+    <string name="weather_style_5">"32°C \u2022 Today 32° / 24° \u2022 New York"</string>
+    <string name="weather_style_6">"32°C \u2022 Today 32° / 24° \u2022 Sunny"</string>
+    <string name="weather_style_7">"32°C \u2022 New York \u2022 Sunny"</string>
 </resources>

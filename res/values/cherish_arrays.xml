@@ -807,4 +807,26 @@
         <item>lock_wallpaper</item>
         <item>preset</item>
     </string-array>
+
+     <!-- Weather Styles -->
+    <string-array name="lockscreen_weather_styles_entries">
+        <item>@string/weather_style_1</item>
+        <item>@string/weather_style_2</item>
+        <item>@string/weather_style_3</item>
+        <item>@string/weather_style_4</item>
+        <item>@string/weather_style_5</item>
+        <item>@string/weather_style_6</item>
+        <item>@string/weather_style_7</item>
+    </string-array>
+    
+    <!-- Weather Styles -->
+    <string-array name="lockscreen_weather_styles_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
 </resources>
