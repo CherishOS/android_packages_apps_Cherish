@@ -46,17 +46,17 @@
         android:fragment="com.cherish.settings.fragments.SmartPixels" />
 		
 	<!-- Unlock FPS for specific games -->
-     <SwitchPreference
+     <!-- <SwitchPreference
           android:key="use_games_spoof"
           android:title="@string/use_games_spoof_title"
-          android:summary="@string/use_games_spoof_summary" />
+          android:summary="@string/use_games_spoof_summary" /> -->
 		  
 	<!-- Unlimited Photos storage -->
-     <SwitchPreference
+     <!-- <SwitchPreference
           android:key="use_photos_spoof"
           android:title="@string/use_photos_spoof_title"
           android:summary="@string/use_photos_spoof_summary"
-          android:defaultValue="true" />
+          android:defaultValue="true" /> -->
 
 	<com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="click_partial_screenshot"
