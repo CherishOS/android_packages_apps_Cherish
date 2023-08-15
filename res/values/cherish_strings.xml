@@ -903,4 +903,8 @@
     <string name="qs_header_random_image_title">QS Header random image</string>
     <string name="qs_header_random_image_summary">Enable random QS Header image</string>
 
+    <!-- Custom Data icons -->
+    <string name="theme_customization_data_title">Data icon style</string>
+    <string name="theme_customization_data_summary">Set custom data icon style</string>
+
 </resources>
