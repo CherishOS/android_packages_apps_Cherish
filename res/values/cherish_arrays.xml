@@ -188,7 +188,7 @@
     </string-array>
 
     <!-- QS battery style  -->
-    <!-- <string-array name="qs_battery_style_entries" translatable="false">
+    <string-array name="qs_battery_style_entries" translatable="false">
         <item>@string/qs_use_status_bar_battery_style</item>
         <item>@string/status_bar_battery_style_icon_portrait</item>
         <item>@string/status_bar_battery_style_icon_rlandscape</item> 
@@ -202,6 +202,8 @@
         <item>@string/status_bar_battery_style_icon_landscape_style_a</item>
         <item>@string/status_bar_battery_style_icon_rlandscape_style_b</item>
         <item>@string/status_bar_battery_style_icon_landscape_style_b</item> 
+        <item>@string/status_bar_battery_style_icon_landscape_ios15</item>
+        <item>@string/status_bar_battery_style_icon_landscape_ios16</item> 
         <item>@string/status_bar_battery_style_circle</item>
         <item>@string/status_bar_battery_style_dotted_circle</item>
         <item>@string/status_bar_battery_style_filled_circle</item>
@@ -225,6 +227,8 @@
         <item>16</item>
         <item>17</item>
         <item>18</item>
+        <item>19</item>
+        <item>20</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -232,7 +236,7 @@
         <item>9</item>
         <item>4</item>
         <item>5</item>
-    </string-array> -->
+    </string-array>
 	
 	<!-- Quick Settings brightness slider -->
     <string-array name="qs_show_brightness_slider_entries" translatable="false">
