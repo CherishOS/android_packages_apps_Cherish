@@ -721,4 +721,19 @@
         <item>static</item>
         <item>file</item>
     </string-array>
+
+    <!-- NOTE: Make sure you are adding colors hex in #AARRGGBB (8 chars) and capital letters. -->
+    <!--       Since it's expect this format to check in the AmbientEdgeLightSettings. -->
+    <string-array name="ambient_edge_light_manual_colors">
+        <item>#FF6ACEFF</item>
+        <item>#FF7BFFDF</item>
+        <item>#FFB18CFF</item>
+        <item>#FFB3FF84</item>
+        <item>#FF26BEFF</item>
+        <item>#FFCDCDCD</item>
+        <item>#FFFFDC62</item>
+        <item>#FFFEDADA</item>
+        <item>#FFFF7676</item>
+        <item>#FF615EFF</item>
+    </string-array>
 </resources>

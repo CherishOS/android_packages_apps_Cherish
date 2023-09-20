@@ -29,10 +29,12 @@
         android:title="@string/ambient_display_category">
 
     <Preference
-        android:key="edge_light_settings"
-        android:title="@string/edge_light_title"
-        android:summary="@string/edge_light_summary"
-        android:fragment="com.cherish.settings.fragments.doze.EdgeLightSettings" />
+        android:key="ambient_edge_light"
+        android:title="@string/ambient_edge_light_title"
+        android:summary="@string/ambient_edge_light_summary"
+        android:fragment="com.cherish.settings.fragments.doze.AmbientEdgeLightSettings"
+        settings:controller="com.cherish.settings.fragments.doze.AmbientEdgeLightPreferenceController"
+        settings:requiresConfig="@bool/config_show_ambient_edge_light" />
 
     <com.cherish.settings.preferences.SecureSettingSwitchPreference
         android:key="pulse_on_new_tracks"

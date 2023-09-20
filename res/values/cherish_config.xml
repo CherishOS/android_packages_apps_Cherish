@@ -22,4 +22,7 @@
              relative to the natural orientation of the display
              (true for some tablets) -->
      <integer name="config_volumeRockerVsDisplayOrientation">1</integer>
+
+     <!-- Whether to show Ambient Edge Light feature in Settings Options -->
+    <bool name="config_show_ambient_edge_light">true</bool>
 </resources>

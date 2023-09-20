@@ -22,4 +22,6 @@
 
 	<!-- FOD -->
 	<color name="fod_item_background_stroke_color">#555555</color>
+
+     <color name="ambient_edge_light_color_selector_item_outer_bg_color">#FF2B2930</color>
 </resources>
