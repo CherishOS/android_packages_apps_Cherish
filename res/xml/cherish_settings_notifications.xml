@@ -77,5 +77,13 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
+
+    <Preference
+        android:key="ambient_edge_light"
+        android:title="@string/ambient_edge_light_title"
+        android:summary="@string/ambient_edge_light_summary"
+        android:fragment="com.cherish.settings.fragments.doze.AmbientEdgeLightSettings"
+        settings:controller="com.cherish.settings.fragments.doze.AmbientEdgeLightPreferenceController"
+        settings:requiresConfig="@bool/config_show_ambient_edge_light" />
 	
 </PreferenceScreen>
