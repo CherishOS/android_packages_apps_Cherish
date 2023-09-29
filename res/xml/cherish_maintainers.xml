@@ -372,15 +372,6 @@
                 android:data="https://t.me/bruh_its_your_brother" />
         </Preference>
 
-<Preference
-            android:title="@string/grus_maintainer"
-            android:summary="@string/device_grus"
-            android:icon="@drawable/ic_devs_phone" >
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://t.me/Tkiliay" />
-        </Preference>
-
 <Preference android:title="@string/camellia_maintainer"
             android:summary="@string/device_camellia"
             android:icon="@drawable/ic_devs_phone" >
