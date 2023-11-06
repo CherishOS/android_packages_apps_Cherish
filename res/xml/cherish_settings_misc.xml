@@ -14,13 +14,19 @@
      limitations under the License.
 -->
 <PreferenceScreen
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/misc_title"
-        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:title="@string/misc_title"
+     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-        <com.cherish.settings.preferences.GlobalSettingSwitchPreference
-            android:key="wake_when_plugged_or_unplugged"
-            android:title="@string/wakeup_when_plugged_unplugged_title"
-            android:summary="@string/wakeup_when_plugged_unplugged_summary"
-            android:defaultValue="true" />
+     <com.cherish.settings.preferences.GlobalSettingSwitchPreference
+          android:key="wake_when_plugged_or_unplugged"
+          android:title="@string/wakeup_when_plugged_unplugged_title"
+          android:summary="@string/wakeup_when_plugged_unplugged_summary"
+          android:defaultValue="true" />
+
+     <com.cherish.settings.preferences.SystemSettingSwitchPreference
+          android:key="use_photos_spoof"
+          android:title="@string/use_photos_spoof_title"
+          android:summary="@string/use_photos_spoof_summary"
+          android:defaultValue="true" />
 </PreferenceScreen>

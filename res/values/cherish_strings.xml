@@ -51,7 +51,7 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     <string name="default_string">Default</string>
-	<string name="disabled">Disabled</string>
+    <string name="disabled">Disabled</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -64,38 +64,39 @@
     <string name="color_default">Default</string>
     <string name="led_color_green">Green</string>
     <string name="led_color_red">Red</string>
-	
-	<!-- Custom seekbar -->
+
+    <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Default</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong
+        press to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
-	<string name="add_package_to_title">Add application</string>
-	<string name="profile_choose_app">Choose app</string>
+    <string name="add_package_to_title">Add application</string>
+    <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
 
-	<!-- QS settings -->
+    <!-- QS settings -->
     <string name="qs_title">Quick settings</string>
 
-	<!-- Lock screen visualizer -->
-	<string name="visualizer_title">Display music visualizer</string>
+    <!-- Lock screen visualizer -->
+    <string name="visualizer_title">Display music visualizer</string>
 
-	<!-- Power menu and dialogs opacity -->
+    <!-- Power menu and dialogs opacity -->
 
-	<!-- AOKP custom system animations -->
-	
+    <!-- AOKP custom system animations -->
+
     <!-- Power menu Animations  -->
     <string name="power_menu_animation">Power menu</string>
-	
-	<!-- Color picker -->
+
+    <!-- Color picker -->
     <string name="rgb">RGB</string>
     <string name="hsl">HSL</string>
     <string name="hsv">HSV</string>
     <string name="confirm">Confirm</string>
     <string name="invalid_color">Invalid color!</string>
-	
-	<!-- QS header image -->
+
+    <!-- QS header image -->
 
     <!-- Lockscreen -->
     <string name="lockscreen_category">Lockscreen</string>
@@ -109,9 +110,10 @@
     <string name="themes_hub_summary">Accents-Gradients-Themes</string>
     <string name="rgb_accent_picker_title_dark">Accent Picker</string>
     <string name="rgb_accent_picker_summary">Choose the accent color yourself</string>
-	
-	<string name="theme_option_reset_title">Reset Theme Options</string>
-    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
+
+    <string name="theme_option_reset_title">Reset Theme Options</string>
+    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to
+        default?</string>
 
     <!--ThemePicker-->
     <string name="theme_select_title">Styles and Wallpapers</string>
@@ -119,30 +121,34 @@
 
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
-	
-	<string name="notification_light_settings">Notifications light</string>
+
+    <string name="notification_light_settings">Notifications light</string>
 
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
 
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
-	
-	<!-- Themeing -->
+
+    <!-- Themeing -->
     <string name="dark_ui_mode_summary">Browse the dark theme options</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
     <string name="theme_customization_category">Theming</string>
-	<!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to
+    customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
     <string name="theme_customization_icon_shape_title">Icon shape</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to
+    customize accent color. -->
     <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to
+    customize headline and body fonts. -->
     <string name="theme_customization_font_title">Headline / Body font</string>
     <string name="theme_customization_font_summary">Set system font style</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to
+    customize the system wide icon pack. -->
     <string name="theme_customization_icon_pack_title">Icon pack</string>
     <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
-	<string name="theme_customization_signal_icon_title">Signal icon style</string>
+    <string name="theme_customization_signal_icon_title">Signal icon style</string>
     <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
     <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
     <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
@@ -155,12 +161,14 @@
 
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is
+        plugged/unplugged.</string>
 
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
     <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
+    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap
+        response), Disables double power tap for camera.</string>
     <string name="torch_power_button_gesture_lp">Long press power button</string>
 
     <!-- Fingerprint authentication vibration -->
@@ -169,45 +177,48 @@
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
-	
-	<!-- Incall vibrate options -->
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and
+        voltage and battery temperature on lockscreen while charging</string>
+
+    <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
-	
-	<!-- Network traffic -->
+
+    <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic indicator</string>
     <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
     <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
     <string name="network_options_title">Options</string>
     <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
-	
-	<string name="status_bar_icons_category_title">Icons</string>
-	
-	<!-- Status bar - icon blocklist -->
+    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1
+        KB/s</string>
+
+    <string name="status_bar_icons_category_title">Icons</string>
+
+    <!-- Status bar - icon blocklist -->
     <string name="status_bar_icons_title">Status bar icons</string>
     <string name="status_bar_icons_summary">Choose which status bar icons can be shown</string>
-	
-	<!-- Data disabled icon -->
+
+    <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
-	
-	<!-- Show old style mobile data icon -->
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is
+        disabled</string>
+
+    <!-- Show old style mobile data icon -->
     <string name="use_old_mobiletype_title">Use old style mobile data icons</string>
     <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
-	
-	<!-- Show LTE/4G switch -->
+
+    <!-- Show LTE/4G switch -->
     <string name="show_fourg_icon_title">Show 4G instead of LTE</string>
     <string name="show_fourg_icon_summary">Replace LTE indicator with 4G</string>
-	
-	<!-- Roaming indicator icon -->
+
+    <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator when in roaming mode</string>
-	
-	<!-- Show VoLTE icon on statusbar -->
+
+    <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_style_title">Select VoLTE/HD Icon</string>
     <string name="volte_icon_off">Off</string>
     <string name="volte_icon_dynamic">Dynamic VOLTE Icons</string>
@@ -220,7 +231,7 @@
     <string name="volte_icon_margaritov">HD Filled Icon</string>
     <string name="volte_icon_margaritov2">Margaritov VoLTE Icon</string>
     <string name="volte_icon_vivo">Vivo Icon</string>
-	<string name="volte_icon_aris">Aris Icon</string>
+    <string name="volte_icon_aris">Aris Icon</string>
     <string name="volte_icon_beast">Aww Icon</string>
     <string name="volte_icon_ios">Ios Icon</string>
     <string name="volte_icon_lr">Livenge Icon</string>
@@ -234,8 +245,8 @@
     <string name="volte_icon_vimeo">Vimeo Icon</string>
     <string name="volte_icon_volit">Volit Icon</string>
     <string name="volte_icon_zirco">Ziroc Icon</string>
-	
-	 <!-- VoWiFi icon -->
+
+    <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">VoWiFi Icon</string>
     <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
     <string name="vowifi_icon_off">Off</string>
@@ -250,7 +261,8 @@
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
     <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
+    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these
+        applications</string>
     <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
@@ -259,7 +271,8 @@
     <string name="dtts_category_header">Double tap to sleep</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Lockscreen</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the lock screen to put the device to sleep</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the lock screen to put the
+        device to sleep</string>
 
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Status bar</string>
@@ -268,29 +281,38 @@
     <!-- Ambient Wake gesture -->
     <string name="ambient_display_category">Ambient display</string>
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
-	
-	<!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on
+        wake gestures</string>
+
+    <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Alert slider notifications</string>
-    <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
-	
-	<!-- Privacy Indicator -->
+    <string name="alert_slider_notifications_summary">Display notification when changing alert
+        slider position</string>
+
+    <!-- Privacy Indicator -->
     <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
-    <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or camera</string>
+    <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or
+        camera</string>
     <string name="location_privacy_indicator_title">Location privacy indicator</string>
     <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
     <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
-    <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
+    <string name="projection_privacy_indicator_summary">Show indicator when device screen is
+        projected</string>
 
-	<!-- Notification count -->
+    <!-- Notification count -->
     <string name="statusbar_notif_count_title">Show notification count</string>
     <string name="statusbar_notif_count_summary">Display the number of pending notifications</string>
 
-	<!-- Statusbar colored icons -->
+    <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">Colored icons</string>
-    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in statusbar</string>
+    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in
+        statusbar</string>
 
     <!-- Custom Data icons -->
     <string name="theme_customization_data_title">Data icon style</string>
     <string name="theme_customization_data_summary">Set custom data icon style</string>
+
+    <!-- Unlimited google photos storage -->
+    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
+    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
 </resources>
