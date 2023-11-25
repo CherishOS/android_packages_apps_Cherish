@@ -23,6 +23,12 @@
             android:title="@string/notification_guts_kill_app_button_title"
             android:summary="@string/notification_guts_kill_app_button_summary"
             android:defaultValue="false" />
+
+    <Preference
+        android:key="island_notification"
+        android:title="@string/island_notification_title"
+        android:summary="@string/island_notification_summary"
+        android:fragment="com.cherish.settings.fragments.notifications.IslandSettings" />
 	
 	<PreferenceCategory
         android:key="incall_vib_options"
