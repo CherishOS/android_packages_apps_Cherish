@@ -25,6 +25,12 @@
         android:summary="@string/pulse_settings_summary"
         android:fragment="com.cherish.settings.fragments.sound.PulseSettings" />
 
+    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="pulse_on_new_tracks"
+        android:title="@string/pulse_on_new_tracks_title"
+        android:summary="@string/pulse_on_new_tracks_summary"
+        android:defaultValue="true" />
+
     <PreferenceCategory
          android:key="dtts_category"
          android:title="@string/dtts_category_header" >

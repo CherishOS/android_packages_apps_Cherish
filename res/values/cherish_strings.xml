@@ -673,4 +673,8 @@
     <!-- Others settings -->
     <string name="others_settings_title">Others settings</string>
     <string name="additional_buttons_title">Additional buttons</string>
+
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
 </resources>
