@@ -823,4 +823,8 @@
     <string name="qs_header_needs_gallery">You must install a gallery app!</string>
     <string name="qs_header_offset_title">Header image offset</string>
     <string name="qs_header_offset_summary">Adjust the image header size</string>
+
+    <!-- Pif -->
+    <string name="pif_title">Play integrity fix</string>
+    <string name="pif_summary">View current values used to spoof GMS</string>
 </resources>

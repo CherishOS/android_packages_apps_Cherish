@@ -49,5 +49,15 @@
         android:title="@string/laboratory_ignore_window_secure_title"
         android:summary="@string/laboratory_ignore_window_secure_summary"
         android:defaultValue="false"/>
+
+     <!-- Play integrity fix -->
+        <Preference
+            android:key="pif"
+            android:title="@string/pif_title"
+            android:summary="@string/pif_summary">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.goolag.pif"
+                android:targetClass="com.goolag.pif.PifActivity" />
+        </Preference>
 		
 </PreferenceScreen>
