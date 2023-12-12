@@ -39,7 +39,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
-	private static final String ALERT_SLIDER_PREF = "alert_slider_notifications";
+	// private static final String ALERT_SLIDER_PREF = "alert_slider_notifications";
 
 	private Preference mAlertSlider;
     @Override
@@ -51,11 +51,11 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
 	
-		mAlertSlider = (Preference) prefScreen.findPreference(ALERT_SLIDER_PREF);
-        boolean mAlertSliderAvailable = res.getBoolean(
-                com.android.internal.R.bool.config_hasAlertSlider);
-        if (!mAlertSliderAvailable)
-            prefScreen.removePreference(mAlertSlider);
+		// mAlertSlider = (Preference) prefScreen.findPreference(ALERT_SLIDER_PREF);
+        // boolean mAlertSliderAvailable = res.getBoolean(
+        //         com.android.internal.R.bool.config_hasAlertSlider);
+        // if (!mAlertSliderAvailable)
+        //     prefScreen.removePreference(mAlertSlider);
 
         PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
         if (!CherishUtils.isVoiceCapable(getActivity())) {
@@ -96,10 +96,10 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
                     final Resources res = context.getResources();
-                    boolean mAlertSliderAvailable = res.getBoolean(
-                            com.android.internal.R.bool.config_hasAlertSlider);
-                    if (!mAlertSliderAvailable)
-                        keys.add(ALERT_SLIDER_PREF);
+                    // boolean mAlertSliderAvailable = res.getBoolean(
+                    //         com.android.internal.R.bool.config_hasAlertSlider);
+                    // if (!mAlertSliderAvailable)
+                    //     keys.add(ALERT_SLIDER_PREF);
                     return keys;
                 }
     };
