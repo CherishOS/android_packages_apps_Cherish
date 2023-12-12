@@ -32,11 +32,11 @@
 			
 			
 		<!-- Alert Slider Notifications -->
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+    <!-- <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="alert_slider_notifications"
         android:title="@string/alert_slider_notifications_title"
         android:summary="@string/alert_slider_notifications_summary"
-        android:defaultValue="true" />
+        android:defaultValue="true" /> -->
 		
 	<com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="notification_guts_kill_app_button"

@@ -21,7 +21,7 @@
   <PreferenceCategory
         android:title="@string/qs_category">
 			
-		<com.cherish.settings.preferences.SystemSettingSeekBarPreference
+		<!-- <com.cherish.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_header_clock_size"
             android:title="@string/clock_font_size_title"
             android:max="27"
@@ -34,7 +34,7 @@
             android:key="show_qs_date"
             android:title="@string/qs_date_title"
             android:summary="@string/qs_date_summary"
-            android:defaultValue="true" />
+            android:defaultValue="true" /> -->
 	
 		<com.cherish.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_transparency"
