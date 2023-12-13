@@ -22,6 +22,12 @@
         android:defaultValue="false" />
 
     <Preference
+        android:fragment="com.cherish.settings.fragments.NetworkTrafficSettings"
+        android:key="network_traffic_settings"
+        android:title="@string/network_traffic_settings_title"
+        android:summary="@string/network_traffic_settings_summary" />
+
+    <Preference
         android:key="battery_settings"
         android:fragment="com.cherish.settings.fragments.StatusBarBattery"
         android:title="@string/battery_style_title"
