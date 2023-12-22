@@ -712,4 +712,8 @@
     <string name="outline_style">Outline style</string>
     <string name="shaded_layer_style">Shaded Layer style</string>
     <string name="volume_style_title">Volume panel styles</string>
+
+    <!--Settings homepage widgets-->
+    <string name="settings_homepage_widgets_title">Settings homepage widgets</string>
+    <string name="settings_homepage_widgets_summary">Enable settings homepage widgets</string>
 </resources>

@@ -74,6 +74,7 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
 
 	private static final String QS_PANEL_STYLE  = "qs_panel_style";
     private static final String KEY_QS_UI_STYLE  = "qs_ui_style";
+    private static final String KEY_SETTINGS_HOMEPAGE_WIDGETS = "settings_homepage_widgets";
 			
 	public static final String TAG = "ThemeSettings";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
@@ -86,6 +87,7 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     private SystemSettingListPreference mQsStyle;
     private SystemSettingListPreference mQsUI;
     private UiModeManager mUiModeManager;
+    private SwitchPreference mHomepageWidgetToggle;
 	
 	@Override
     protected String getLogTag() {
@@ -125,6 +127,11 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         mQsStyle = (SystemSettingListPreference) findPreference(QS_PANEL_STYLE);
         mQsUI = (SystemSettingListPreference) findPreference(KEY_QS_UI_STYLE);
         mCustomSettingsObserver.observe();
+
+        mHomepageWidgetToggle = (SwitchPreference) findPreference(KEY_SETTINGS_HOMEPAGE_WIDGETS);
+        mHomepageWidgetToggle.setChecked(Settings.System.getIntForUser(getActivity().getContentResolver(),
+                "settings_homepage_widgets", 0, UserHandle.USER_CURRENT) != 0);
+        mHomepageWidgetToggle.setOnPreferenceChangeListener(this);
         }
 
     public boolean isAvailable() {
@@ -162,6 +169,11 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         ContentResolver resolver = getActivity().getContentResolver();
 		 if (preference == mQsStyle || preference == mQsUI) {
             mCustomSettingsObserver.observe();
+            return true;
+         }else if (preference == mHomepageWidgetToggle) {
+                boolean value = (Boolean) objValue;
+                Settings.System.putInt(getActivity().getContentResolver(), "settings_homepage_widgets", value ? 1 : 0);
+                CherishUtils.showSettingsRestartDialog(getActivity());
             return true;
         }
         return false;
