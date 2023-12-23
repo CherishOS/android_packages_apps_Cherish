@@ -73,6 +73,7 @@ import net.margaritov.preference.colorpicker.ColorPickerPreference;
 public class ThemeSettings extends DashboardFragment implements OnPreferenceChangeListener {
 
 	private static final String QS_PANEL_STYLE  = "qs_panel_style";
+    private static final String KEY_QS_UI_STYLE  = "qs_ui_style";
 			
 	public static final String TAG = "ThemeSettings";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
@@ -83,6 +84,7 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     private IOverlayManager mOverlayManager;
     private IOverlayManager mOverlayService;
     private SystemSettingListPreference mQsStyle;
+    private SystemSettingListPreference mQsUI;
     private UiModeManager mUiModeManager;
 	
 	@Override
@@ -121,6 +123,7 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
 
         mQsStyle = (SystemSettingListPreference) findPreference(QS_PANEL_STYLE);
+        mQsUI = (SystemSettingListPreference) findPreference(KEY_QS_UI_STYLE);
         mCustomSettingsObserver.observe();
         }
 
@@ -141,11 +144,14 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
             resolver.registerContentObserver(Settings.System.getUriFor(
                     Settings.System.QS_PANEL_STYLE),
                     false, this, UserHandle.USER_ALL);
+            resolver.registerContentObserver(Settings.System.getUriFor(
+                    Settings.System.QS_UI_STYLE),
+                    false, this, UserHandle.USER_ALL);
         }
 
         @Override
         public void onChange(boolean selfChange, Uri uri) {
-            if (uri.equals(Settings.System.getUriFor(Settings.System.QS_PANEL_STYLE))) {
+            if (uri.equals(Settings.System.getUriFor(Settings.System.QS_PANEL_STYLE)) || uri.equals(Settings.System.getUriFor(Settings.System.QS_UI_STYLE))) {
                 updateQsStyle();
             }
         }
@@ -154,7 +160,7 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-		 if (preference == mQsStyle) {
+		 if (preference == mQsStyle || preference == mQsUI) {
             mCustomSettingsObserver.observe();
             return true;
         }
@@ -163,6 +169,9 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
 	
 	private void updateQsStyle() {
         ContentResolver resolver = getActivity().getContentResolver();
+
+        boolean isA11Style = Settings.System.getIntForUser(getActivity().getContentResolver(),
+                Settings.System.QS_UI_STYLE , 1, UserHandle.USER_CURRENT) == 1;
 
         int qsPanelStyle = Settings.System.getIntForUser(getContext().getContentResolver(),
                 Settings.System.QS_PANEL_STYLE , 0, UserHandle.USER_CURRENT);
@@ -185,6 +194,8 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
             setQsStyle(mOverlayService, "com.android.system.qs.surround");
         } else if (qsPanelStyle == 9) {
             setQsStyle(mOverlayService, "com.android.system.qs.thin");
+        } else if (qsPanelStyle == 10) {
+            setQsStyle(mOverlayService, "com.android.system.qs.twotoneaccenttrans");
         }
     }
 
@@ -223,7 +234,8 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         "com.android.system.qs.neumorph",
         "com.android.system.qs.reflected",
         "com.android.system.qs.surround",
-        "com.android.system.qs.thin"
+        "com.android.system.qs.thin",
+        "com.android.system.qs.twotoneaccenttrans"
     };
 
     @Override
