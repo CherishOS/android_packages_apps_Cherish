@@ -21,12 +21,13 @@
     <PreferenceCategory
         android:title="@string/qs_header_category_title">
 
-        <!-- QS Header image -->
-        <Preference
+        <com.cherish.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_header_image"
-            android:fragment="com.cherish.settings.fragments.qs.QsHeaderImageSettings"
             android:title="@string/qs_header_image_title"
-            android:summary="@string/qs_header_image_summary" />
+            android:defaultValue="0"
+            settings:interval="1"
+            android:max="75"
+            android:min="0" />
 
     </PreferenceCategory>
 

@@ -39,8 +39,6 @@ import com.cherish.settings.preferences.SecureSettingSwitchPreference;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 import android.provider.SearchIndexableResource;
-
-import com.cherish.settings.fragments.SmartPixels;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -81,12 +79,6 @@ public class MiscSettings extends SettingsPreferenceFragment implements
          @Override
          public List<String> getNonIndexableKeys(Context context) {
              List<String> keys = super.getNonIndexableKeys(context);
-
-             boolean mSmartPixelsSupported = context.getResources().getBoolean(
-                     com.android.internal.R.bool.config_supportSmartPixels);
-             if (!mSmartPixelsSupported)
-                 keys.add(SMART_PIXELS);
-
              return keys;
          }
      };

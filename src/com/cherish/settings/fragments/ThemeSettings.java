@@ -139,19 +139,12 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
 
         @Override
         public void onChange(boolean selfChange, Uri uri) {
-            if (uri.equals(Settings.System.getUriFor(Settings.System.QS_PANEL_STYLE)) || uri.equals(Settings.System.getUriFor(Settings.System.QS_UI_STYLE))) {
-                updateQsStyle();
-            }
         }
     }
 	
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-		 if (preference == mQsStyle || preference == mQsUI) {
-            mCustomSettingsObserver.observe();
-            return true;
-        }
         return false;
     }
 
