@@ -48,15 +48,6 @@ import java.util.List;
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private static final String KEY_PHOTOS_SPOOF = "use_photos_spoof";
-
-    private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
-
-	private static final String SMART_PIXELS = "smart_pixels";
-
-    private SwitchPreference mPhotosSpoof;
-	private Preference mSmartPixels;
-
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -67,25 +58,11 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 		final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
 
-        mPhotosSpoof = (SwitchPreference) findPreference(KEY_PHOTOS_SPOOF);
-        mPhotosSpoof.setChecked(SystemProperties.getBoolean(SYS_PHOTOS_SPOOF, true));
-        mPhotosSpoof.setOnPreferenceChangeListener(this);
-		
-		mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
-           boolean mSmartPixelsSupported = getResources().getBoolean(
-                 com.android.internal.R.bool.config_supportSmartPixels);
-           if (!mSmartPixelsSupported)
-                 prefScreen.removePreference(mSmartPixels);
 
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-    if (preference == mPhotosSpoof) {
-        boolean value = (Boolean) objValue;
-        SystemProperties.set(SYS_PHOTOS_SPOOF, value ? "true" : "false");
-        return true;
-    }
         return false;
     }
 	

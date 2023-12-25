@@ -18,19 +18,5 @@
     android:title="@string/powermenu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.cherish.settings.preferences.SystemSettingListPreference
-        android:key="torch_power_button_gesture"
-        android:dialogTitle="@string/torch_power_button_gesture_title"
-        android:title="@string/torch_power_button_gesture_title"
-        android:summary="%s"
-        android:entries="@array/torch_power_button_gesture_entries"
-        android:entryValues="@array/torch_power_button_gesture_values"
-        android:defaultValue="0" />
-
-     <Preference
-        android:key="power_menu"
-        android:title="@string/power_menu_title"
-        android:summary="@string/power_menu_summary"
-        android:fragment="com.cherish.settings.fragments.buttons.PowerMenuActions" />
 
 </PreferenceScreen>

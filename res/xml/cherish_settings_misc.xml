@@ -18,36 +18,5 @@
      android:title="@string/misc_title"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-     <com.cherish.settings.preferences.GlobalSettingSwitchPreference
-          android:key="wake_when_plugged_or_unplugged"
-          android:title="@string/wakeup_when_plugged_unplugged_title"
-          android:summary="@string/wakeup_when_plugged_unplugged_summary"
-          android:defaultValue="true" />
-		
-	<!-- Smart Pixels -->
-    <Preference
-        android:key="smart_pixels"
-        android:title="@string/smart_pixels_title" 
-        android:summary="@string/smart_pixels_summary" 
-        android:fragment="com.cherish.settings.fragments.SmartPixels" />
-		  
-	<!-- Unlimited Photos storage -->
-     <com.cherish.settings.preferences.SystemSettingSwitchPreference
-          android:key="use_photos_spoof"
-          android:title="@string/use_photos_spoof_title"
-          android:summary="@string/use_photos_spoof_summary"
-          android:defaultValue="true" />
-
-	<com.cherish.settings.preferences.SystemSettingSwitchPreference
-        android:key="click_partial_screenshot"
-        android:title="@string/click_partial_screenshot_title"
-        android:summary="@string/click_partial_screenshot_summary"
-        android:defaultValue="false" />
-			
-	<com.cherish.settings.preferences.SecureSettingSwitchPreference
-        android:key="window_ignore_secure"
-        android:title="@string/laboratory_ignore_window_secure_title"
-        android:summary="@string/laboratory_ignore_window_secure_summary"
-        android:defaultValue="false"/>
 		
 </PreferenceScreen>

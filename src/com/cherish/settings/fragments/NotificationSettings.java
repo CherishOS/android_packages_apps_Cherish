@@ -56,11 +56,6 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         //         com.android.internal.R.bool.config_hasAlertSlider);
         // if (!mAlertSliderAvailable)
         //     prefScreen.removePreference(mAlertSlider);
-
-        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
-        if (!CherishUtils.isVoiceCapable(getActivity())) {
-                prefScreen.removePreference(incallVibCategory);
-        }
         
     }
 
