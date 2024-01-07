@@ -580,6 +580,15 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/itsXRP" />
         </Preference>
+<Preference
+            android:title="@string/RMX3371_maintainer"
+            android:summary="@string/device_RMX3371"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Thunder105" />
+        </Preference>
+
 </PreferenceCategory>
 
 <PreferenceCategory

@@ -134,6 +134,8 @@
    <string name="RM6785_maintainer">ꪖꪀ𝘴ꫝ|邪惡的</string>
    <string name="device_RMX3360">Realme GT Master Edition</string>
    <string name="RMX3360_maintainer">X-R-P</string>
+   <string name="device_RMX3371">Realme GT NEO 3T</string>
+   <string name="RMX3371_maintainer">Hariprakash</string>
    <!-- Asus Device maintainers -->
    <string name="device_X00T">Asus ZenFone Max Pro M1</string>
    <string name="X00T_maintainer">NotHarshhaa</string>
