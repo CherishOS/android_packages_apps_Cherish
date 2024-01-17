@@ -104,6 +104,15 @@
         </Preference>
 
 <Preference
+            android:title="@string/apollo_maintainer"
+            android:summary="@string/device_RMX3371"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Finnaib" />
+        </Preference>
+
+<Preference
             android:title="@string/surya_maintainer"
             android:summary="@string/device_surya"
             android:icon="@drawable/ic_devs_phone" >

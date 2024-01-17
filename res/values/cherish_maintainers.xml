@@ -88,6 +88,8 @@
    <string name="surya_maintainer">Pranjal Singh</string>
    <string name="device_beryllium">Xiaomi Poco F1</string>
    <string name="beryllium_maintainer">Finnaib</string>
+   <string name="device_beryllium">Xiaomi Mi 10T/PRO</string>
+   <string name="beryllium_maintainer">Finnaib</string>
    <string name="device_olives">Xiaomi Redmi 8 Series</string>
    <string name="olives_maintainer">0xCAFEBABE</string>
    <string name="device_pine">Xiaomi Redmi 7A</string>
