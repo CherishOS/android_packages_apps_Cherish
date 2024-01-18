@@ -87,7 +87,9 @@
    <string name="device_surya">Xiaomi Poco X3</string>
    <string name="surya_maintainer">Pranjal Singh</string>
    <string name="device_beryllium">Xiaomi Poco F1</string>
-   <string name="beryllium_maintainer">horizon2000</string>
+   <string name="beryllium_maintainer">Finnaib</string>
+   <string name="device_apollo">Xiaomi MI 10/pro</string>
+   <string name="apollo_maintainer">Finnaib</string>
    <string name="device_olives">Xiaomi Redmi 8 Series</string>
    <string name="olives_maintainer">0xCAFEBABE</string>
    <string name="device_pine">Xiaomi Redmi 7A</string>
