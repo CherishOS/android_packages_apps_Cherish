@@ -55,6 +55,14 @@ import java.util.List;
 public class AnimationsSettings extends SettingsPreferenceFragment
             implements OnPreferenceChangeListener {
 
+    private static final String KEY_PREF_TILE_ANIM_STYLE = "qs_tile_animation_style";
+    private static final String KEY_PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
+    private static final String KEY_PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
+
+    private ListPreference mTileAnimationStyle;
+    private CustomSeekBarPreference mTileAnimationDuration;
+    private ListPreference mTileAnimationInterpolator;
+
     @Override
     public int getMetricsCategory() {
         return MetricsEvent.CHERISH_SETTINGS;
@@ -66,6 +74,16 @@ public class AnimationsSettings extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.cherish_settings_animations);
         ContentResolver resolver = getActivity().getContentResolver();
         PreferenceScreen prefs = getPreferenceScreen();
+
+        mTileAnimationStyle = (ListPreference) findPreference(KEY_PREF_TILE_ANIM_STYLE);
+        mTileAnimationDuration = (CustomSeekBarPreference) findPreference(KEY_PREF_TILE_ANIM_DURATION);
+        mTileAnimationInterpolator = (ListPreference) findPreference(KEY_PREF_TILE_ANIM_INTERPOLATOR);
+
+        mTileAnimationStyle.setOnPreferenceChangeListener(this);
+
+        int tileAnimationStyle = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
+        updateAnimTileStyle(tileAnimationStyle);
     }
 
     @Override
@@ -76,6 +94,10 @@ public class AnimationsSettings extends SettingsPreferenceFragment
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mTileAnimationStyle) {
+            int value = Integer.parseInt((String) newValue);
+            updateAnimTileStyle(value);
+            return true;
 	return false;
 }
 
