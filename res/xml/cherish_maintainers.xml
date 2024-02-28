@@ -32,6 +32,15 @@
         </Preference>
 
 <Preference
+            android:title="@string/stone_maintainer"
+            android:summary="@string/device_stone"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/takisnetwork" />
+        </Preference>
+
+<Preference
             android:title="@string/veux_maintainer"
             android:summary="@string/device_veux"
             android:icon="@drawable/ic_devs_phone" >
