@@ -112,6 +112,8 @@
    <string name="ysl_maintainer">Iris</string>
    <string name="device_camellia">Poco M3 Pro/Redmi Note 10T/10 5G/11 SE</string>
    <string name="camellia_maintainer">Rams</string>
+   <string name="device_stone">Poco X5 5G / Redmi Note 12 5G</string>
+   <string name="stone_maintainer">Amrito Das(Taki) </string>
 
     <!-- Realme Device maintainers -->
    <string name="device_RMX3461">Realme 9 SE 5g</string>
