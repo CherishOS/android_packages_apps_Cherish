@@ -38,6 +38,7 @@ import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.cherish.CherishUtils;
+import com.cherish.settings.fragments.UdfpsIconPicker;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -49,8 +50,10 @@ public class Udfps extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String UDFPS_CUSTOMIZATION = "udfps_customization";
+    private static final String KEY_UDFPS_ICONS = "udfps_icon_picker";
 
     private PreferenceCategory mUdfpsCustomization;
+    private Preference mUdfpsIcons;
     
     @Override
     public void onCreate(Bundle icicle) {
@@ -65,6 +68,13 @@ public class Udfps extends SettingsPreferenceFragment implements
         mUdfpsCustomization = (PreferenceCategory) findPreference(UDFPS_CUSTOMIZATION);
         if (!udfpsResPkgInstalled) {
             prefSet.removePreference(mUdfpsCustomization);
+        }
+
+        final boolean udfpsResIconPkgInstalled = CherishUtils.isPackageInstalled(getContext(),
+                "com.cherish.udfps.icons");
+        mUdfpsIcons = (Preference) findPreference(KEY_UDFPS_ICONS);
+        if (!udfpsResIconPkgInstalled) {
+            prefSet.removePreference(mUdfpsIcons);
         }
 
     }
