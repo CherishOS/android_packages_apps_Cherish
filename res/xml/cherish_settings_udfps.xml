@@ -17,6 +17,12 @@
             settings:controller="com.android.settings.biometrics.fingerprint.FingerprintSettingsScreenOffUnlockUdfpsPreferenceController"
             settings:isPreferenceVisible="false"/>
 
+    <Preference
+            android:key="udfps_icon_picker"
+            android:title="@string/udfps_icon_picker_title"
+            android:summary="@string/udfps_icon_picker_summary"
+            android:fragment="com.cherish.settings.fragments.UdfpsIconPicker" />
+
     <PreferenceCategory
         android:key="udfps_customization"
         android:title="@string/udfps_customization">
