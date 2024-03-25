@@ -45,12 +45,12 @@ public class CherishPreference extends Preference {
     public CherishPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.Preference);
+        TypedArray a = context.obtainStyledAttributes(attrs, androidx.preference.R.styleable.Preference);
 
-        mAllowDividerAbove = TypedArrayUtils.getBoolean(a, R.styleable.Preference_allowDividerAbove,
-                R.styleable.Preference_allowDividerAbove, false);
-        mAllowDividerBelow = TypedArrayUtils.getBoolean(a, R.styleable.Preference_allowDividerBelow,
-                R.styleable.Preference_allowDividerBelow, false);
+        mAllowDividerAbove = TypedArrayUtils.getBoolean(a, androidx.preference.R.styleable.Preference_allowDividerAbove,
+                androidx.preference.R.styleable.Preference_allowDividerAbove, false);
+        mAllowDividerBelow = TypedArrayUtils.getBoolean(a, androidx.preference.R.styleable.Preference_allowDividerBelow,
+                androidx.preference.R.styleable.Preference_allowDividerBelow, false);
         a.recycle();
 
         setLayoutResource(R.layout.preference_cherish_seekbar);
