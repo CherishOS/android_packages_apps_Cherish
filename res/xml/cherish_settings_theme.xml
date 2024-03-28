@@ -28,6 +28,14 @@
             android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
             settings:controller="com.android.settings.display.DarkUIPreferenceController" />
 
+    <!--Settings homepage widgets styles-->
+    <SwitchPreference
+            android:key="settings_homepage_widgets"
+            android:title="@string/settings_homepage_widgets_title"
+            android:summary="@string/settings_homepage_widgets_summary"
+            android:defaultValue="false" />
+		
+
         <!-- Font style -->
         <Preference
             android:key="android.theme.customization.font"

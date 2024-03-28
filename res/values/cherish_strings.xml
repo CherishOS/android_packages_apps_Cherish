@@ -159,4 +159,8 @@
     <!-- Pif -->
     <string name="pif_title">Play integrity fix</string>
     <string name="pif_summary">View current values used to spoof GMS</string>
+
+    <!--Settings homepage widgets-->
+    <string name="settings_homepage_widgets_title">Settings homepage widgets</string>
+    <string name="settings_homepage_widgets_summary">Enable settings homepage widgets</string>
 </resources>

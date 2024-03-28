@@ -68,7 +68,9 @@ import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class ThemeSettings extends DashboardFragment implements OnPreferenceChangeListener {
-			
+
+    private static final String KEY_SETTINGS_HOMEPAGE_WIDGETS = "settings_homepage_widgets";
+	
 	public static final String TAG = "ThemeSettings";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
 	static final int DEFAULT = 0xff1a73e8;
@@ -76,6 +78,7 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
 
     private IOverlayManager mOverlayService;
     private UiModeManager mUiModeManager;
+    private SwitchPreference mHomepageWidgetToggle;
 	
 	@Override
     protected String getLogTag() {
@@ -107,6 +110,11 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
         ContentResolver resolver = getActivity().getContentResolver();
 		final Resources res = getResources();
 		mContext =  getActivity();
+
+        mHomepageWidgetToggle = (SwitchPreference) findPreference(KEY_SETTINGS_HOMEPAGE_WIDGETS);
+        mHomepageWidgetToggle.setChecked(Settings.System.getIntForUser(getActivity().getContentResolver(),
+                "settings_homepage_widgets", 0, UserHandle.USER_CURRENT) != 0);
+        mHomepageWidgetToggle.setOnPreferenceChangeListener(this);
         }
 
     public boolean isAvailable() {
@@ -116,6 +124,12 @@ public class ThemeSettings extends DashboardFragment implements OnPreferenceChan
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
+            if (preference == mHomepageWidgetToggle) {
+                boolean value = (Boolean) objValue;
+                Settings.System.putInt(getActivity().getContentResolver(), "settings_homepage_widgets", value ? 1 : 0);
+                CherishUtils.showSettingsRestartDialog(getActivity());
+            return true;
+        }
         return false;
     }
 
