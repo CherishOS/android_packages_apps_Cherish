@@ -32,6 +32,7 @@ import android.hardware.fingerprint.FingerprintManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.text.TextUtils;
 import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -58,6 +59,8 @@ import java.util.List;
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private static final String CATEGORY_AMBIENT = "ambient_display";
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -75,6 +78,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             res = ctx.getPackageManager().getResourcesForApplication("com.android.systemui");
         } catch (NameNotFoundException e) {
             e.printStackTrace();
+        }
+
+        final PreferenceCategory ambientCat = (PreferenceCategory) prefScreen.findPreference(CATEGORY_AMBIENT);
+        if (TextUtils.isEmpty(getResources().getString(com.android.internal.R.string.config_dozeDoubleTapSensorType)) &&
+                TextUtils.isEmpty(getResources().getString(com.android.internal.R.string.config_dozeTapSensorType))) {
+            prefScreen.removePreference(ambientCat);
         }
     }
 
