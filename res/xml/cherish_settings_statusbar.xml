@@ -33,6 +33,22 @@
             android:summary="@string/data_disabled_icon_summary"
             android:defaultValue="true" />
 
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="volte_icon_style"
+            android:title="@string/volte_icon_style_title"
+            android:entries="@array/volte_icon_type_entries"
+            android:entryValues="@array/volte_icon_type_values"
+            android:summary="%s"
+            android:defaultValue="1" />
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="vowifi_icon_style"
+            android:title="@string/vowifi_icon_title"
+            android:entries="@array/vowifi_icon_type_entries"
+            android:entryValues="@array/vowifi_icon_type_values"
+            android:summary="%s"
+            android:defaultValue="1" />
+
         <!-- <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="use_old_mobiletype"
             android:title="@string/use_old_mobiletype_title"
@@ -50,8 +66,8 @@
             android:title="@string/roaming_indicator_icon_title"
             android:summary="@string/roaming_indicator_icon_summary"
             android:defaultValue="false" />
-			
-		<com.cherish.settings.preferences.SecureSettingSwitchPreference
+
+        <com.cherish.settings.preferences.SecureSettingSwitchPreference
             android:key="enable_camera_privacy_indicator"
             android:title="@string/mic_camera_privacy_indicator_title"
             android:summary="@string/mic_camera_privacy_indicator_summary"
@@ -68,14 +84,14 @@
             android:title="@string/projection_privacy_indicator_title"
             android:summary="@string/projection_privacy_indicator_summary"
             android:defaultValue="true" />
-			
-		<com.cherish.settings.preferences.SystemSettingSwitchPreference
-	        android:key="statusbar_notif_count"
-	        android:title="@string/statusbar_notif_count_title"
-	        android:summary="@string/statusbar_notif_count_summary"
-	        android:defaultValue="false" />
-			
-		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="statusbar_notif_count"
+            android:title="@string/statusbar_notif_count_title"
+            android:summary="@string/statusbar_notif_count_summary"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="statusbar_colored_icons"
             android:title="@string/statusbar_colored_icons_title"
             android:summary="@string/statusbar_colored_icons_summary"
