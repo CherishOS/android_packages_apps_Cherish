@@ -228,9 +228,6 @@ public class ButtonSettings extends SettingsPreferenceFragment
         Action appSwitchLongPressAction = Action.fromSettings(resolver,
                 Settings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION,
                 defaultAppSwitchLongPressAction);
-        Action edgeLongSwipeAction = Action.fromSettings(resolver,
-                Settings.System.KEY_EDGE_LONG_SWIPE_ACTION,
-                Action.NOTHING);
 
         // Navigation bar arrow keys while typing
         mNavigationArrowKeys = findPreference(KEY_NAVIGATION_ARROW_KEYS);
@@ -250,9 +247,6 @@ public class ButtonSettings extends SettingsPreferenceFragment
         // Navigation bar app switch long press
         mNavigationAppSwitchLongPressAction = initList(KEY_NAVIGATION_APP_SWITCH_LONG_PRESS,
                 appSwitchLongPressAction);
-
-        // Edge long swipe gesture
-        mEdgeLongSwipeAction = initList(KEY_EDGE_LONG_SWIPE, edgeLongSwipeAction);
 
         // Hardware key disabler
         if (isKeyDisablerSupported(getActivity())) {
@@ -615,10 +609,6 @@ public class ButtonSettings extends SettingsPreferenceFragment
         } else if (preference == mVolumeKeyCursorControl) {
             handleSystemListChange(mVolumeKeyCursorControl, newValue,
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL);
-            return true;
-        } else if (preference == mEdgeLongSwipeAction) {
-            handleListChange(mEdgeLongSwipeAction, newValue,
-                    Settings.System.KEY_EDGE_LONG_SWIPE_ACTION);
             return true;
         } else if (preference == mSwapCapacitiveKeys) {
             mHardware.set(LineageHardwareManager.FEATURE_KEY_SWAP, (Boolean) newValue);
