@@ -49,6 +49,7 @@
     <string name="cancel">Abbrechen</string>
     <string name="save">Speichern</string>
     <string name="default_string">Standard</string>
+    <string name="enable">Enable</string>
     <string name="disabled">Deaktiviert</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Farbauswahl</string>
@@ -103,6 +104,17 @@
     <!--ThemePicker-->
     <string name="theme_select_title">Designs und Hintergründe</string>
     <string name="theme_select_summary">Installierte Themes durchsuchen und auswählen</string>
+    <!-- UDFPS settings -->
+    <string name="udfps_category">UDFPS</string>
+    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="udfps_customization">UDFPS customization</string>
+    <string name="udfps_recog_animation">UDFPS animation</string>
+    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+    <string name="udfps_settings_title">UDFPS settings</string>
+    <string name="udfps_settings_summary">Settings for customizing the UDFPS</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Akku Ladelicht</string>
     <string name="notification_light_settings">Benachrichtigungs-LED</string>
@@ -646,4 +658,23 @@
     <string name="qs_tile_ui_style_a11_circle">Circle tiles</string>
     <string name="qs_tile_ui_style_a11_square">Square tiles</string>
     <string name="qs_tile_ui_style_a11_mix">Circle &amp; Square tiles</string>
+    <!-- QS Header -->
+    <string name="qs_header_image_title">Header image</string>
+    <string name="qs_header_image_summary">Select QS background header image</string>
+    <string name="qs_header_daylight_pack_title">Header image collection</string>
+    <string name="qs_header_shadow_title">Header image shadow</string>
+    <string name="qs_header_shadow_summary">For better visibility on bright images</string>
+    <string name="qs_header_static_provider_title">Static image</string>
+    <string name="qs_header_daylight_provider_title">Image collection</string>
+    <string name="qs_header_file_provider_title">Custom image</string>
+    <string name="qs_header_provider_title">Header provider</string>
+    <string name="qs_header_browse_title">Browse installed headers</string>
+    <string name="qs_header_browse_summary">Browse all available header collections</string>
+    <string name="qs_header_pick_title">Select header image</string>
+    <string name="qs_header_pick_summary">Select an image to use for static mode</string>
+    <string name="qs_header_file_select_title">Select image</string>
+    <string name="qs_header_file_select_summary">Select custom image</string>
+    <string name="qs_header_needs_gallery">You must install a gallery app!</string>
+    <string name="qs_header_offset_title">Header image offset</string>
+    <string name="qs_header_offset_summary">Adjust the image header size</string>
 </resources>
