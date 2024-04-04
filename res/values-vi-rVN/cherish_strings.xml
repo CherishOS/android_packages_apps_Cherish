@@ -49,7 +49,7 @@
     <string name="cancel">Huỷ</string>
     <string name="save">Lưu</string>
     <string name="default_string">Mặc định</string>
-    <string name="enable">Enable</string>
+    <string name="enable">Bật</string>
     <string name="disabled">Tắt</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Bảng màu</string>
@@ -660,21 +660,21 @@
     <string name="qs_tile_ui_style_a11_mix">Hình tròn &amp; hình vuông</string>
     <!-- QS Header -->
     <string name="qs_header_image_title">Hình nền tiêu đề cài đặt nhanh</string>
-    <string name="qs_header_image_summary">Select QS background header image</string>
-    <string name="qs_header_daylight_pack_title">Header image collection</string>
-    <string name="qs_header_shadow_title">Header image shadow</string>
-    <string name="qs_header_shadow_summary">For better visibility on bright images</string>
-    <string name="qs_header_static_provider_title">Static image</string>
-    <string name="qs_header_daylight_provider_title">Image collection</string>
-    <string name="qs_header_file_provider_title">Custom image</string>
-    <string name="qs_header_provider_title">Header provider</string>
-    <string name="qs_header_browse_title">Browse installed headers</string>
-    <string name="qs_header_browse_summary">Browse all available header collections</string>
-    <string name="qs_header_pick_title">Select header image</string>
-    <string name="qs_header_pick_summary">Select an image to use for static mode</string>
-    <string name="qs_header_file_select_title">Select image</string>
-    <string name="qs_header_file_select_summary">Select custom image</string>
-    <string name="qs_header_needs_gallery">You must install a gallery app!</string>
-    <string name="qs_header_offset_title">Header image offset</string>
-    <string name="qs_header_offset_summary">Adjust the image header size</string>
+    <string name="qs_header_image_summary">Chọn ảnh nền tiêu đề cài đặt nhanh</string>
+    <string name="qs_header_daylight_pack_title">Bộ sưu tập ảnh đề mục</string>
+    <string name="qs_header_shadow_title">Đổ bóng ảnh đề mục</string>
+    <string name="qs_header_shadow_summary">Cho khả năng nhìn thấy tốt hơn với các hình ảnh sáng</string>
+    <string name="qs_header_static_provider_title">Ảnh tĩnh</string>
+    <string name="qs_header_daylight_provider_title">Bộ sưu tập ảnh</string>
+    <string name="qs_header_file_provider_title">Tùy chỉnh hình ảnh</string>
+    <string name="qs_header_provider_title">Nhà cung cấp đầu mục</string>
+    <string name="qs_header_browse_title">Quét các mục có sẵn</string>
+    <string name="qs_header_browse_summary">Duyệt tất cả các bộ sưu tập tiêu đề có sẵn</string>
+    <string name="qs_header_pick_title">Chọn ảnh đầu mục</string>
+    <string name="qs_header_pick_summary">Chọn một hình ảnh để sử dụng cho chế độ tĩnh</string>
+    <string name="qs_header_file_select_title">Chọn ảnh</string>
+    <string name="qs_header_file_select_summary">Chọn ảnh tùy chỉnh</string>
+    <string name="qs_header_needs_gallery">Bạn phải cài đặt một ứng dụng thư viện ảnh!</string>
+    <string name="qs_header_offset_title">Độ lệch hình ảnh tiêu đề</string>
+    <string name="qs_header_offset_summary">Điều chỉnh kích thước tiêu đề hình ảnh</string>
 </resources>
