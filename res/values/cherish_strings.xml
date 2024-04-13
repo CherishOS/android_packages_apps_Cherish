@@ -25,6 +25,7 @@
     <string name="misc_summary">Gaming mode, volume controls</string>
     <string name="animations_title">Animations</string>
     <string name="animations_summary">System animations</string>
+    <string name="ambient_display_category">Ambient display</string>
     <string name="powermenu_title">Power menu</string>
     <string name="powermenu_summary">Advanced restart, power menu opacity</string>
     <string name="theme_title">Themes</string>
@@ -324,11 +325,6 @@
     <string name="vowifi_icon_oneplus">OnePlus VoWiFi Icon</string>
     <string name="vowifi_icon_moto">Moto VoWiFi Icons</string>
     <string name="vowifi_icon_emui">EMUI Icons</string>
-
-    <!-- Ambient Wake gesture -->
-    <string name="ambient_display_category">Ambient display</string>
-    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
 	
 	<!-- Privacy Indicator -->
     <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>

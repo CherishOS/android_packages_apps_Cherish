@@ -40,12 +40,6 @@
         android:summary="@string/pulse_settings_summary"
         android:fragment="com.cherish.settings.fragments.sound.PulseSettings" />
 
-    <com.cherish.settings.preferences.SecureSettingSwitchPreference
-        android:key="pulse_on_new_tracks"
-        android:title="@string/pulse_on_new_tracks_title"
-        android:summary="@string/pulse_on_new_tracks_summary"
-        android:defaultValue="true" />
-
     <PreferenceCategory
          android:key="dtts_category"
          android:title="@string/dtts_category_header" >
@@ -63,15 +57,4 @@
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
-
-    <PreferenceCategory
-        android:key="ambient_display"
-        android:title="@string/ambient_display_category" >
-
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="ambient_wake_gestures"
-            android:title="@string/ambient_wake_gestures_title"
-            android:summary="@string/ambient_wake_gestures_summary"
-            android:defaultValue="false" />
-    </PreferenceCategory>
 </PreferenceScreen>

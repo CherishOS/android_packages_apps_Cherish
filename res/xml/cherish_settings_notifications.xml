@@ -25,6 +25,24 @@
             android:defaultValue="false" />
 
     <PreferenceCategory
+        android:key="ambient_display"
+        android:title="@string/ambient_display_category">
+
+    <Preference
+        android:key="edge_light_settings"
+        android:title="@string/edge_light_title"
+        android:summary="@string/edge_light_summary"
+        android:fragment="com.cherish.settings.fragments.doze.EdgeLightSettings" />
+
+    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="pulse_on_new_tracks"
+        android:title="@string/pulse_on_new_tracks_title"
+        android:summary="@string/pulse_on_new_tracks_summary"
+        android:defaultValue="true" />
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="heads_up"
         android:title="@string/notification_heads_up_title">
 
