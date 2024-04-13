@@ -435,6 +435,14 @@
               android:key="oneplus_devices"
               android:title="@string/oneplus_devices" >
 <Preference
+            android:title="@string/lemonadep_maintainer"
+            android:summary="@string/device_lemonadep"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/JYR_RC_lemonadep" />
+        </Preference>
+<Preference
             android:title="@string/enchilada_maintainer"
             android:summary="@string/device_enchilada"
             android:icon="@drawable/ic_devs_phone" >
