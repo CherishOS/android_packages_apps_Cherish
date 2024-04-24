@@ -23,10 +23,16 @@ import android.content.Context;
 import android.content.om.IOverlayManager;
 import android.os.AsyncTask;
 import android.os.RemoteException;
+import android.os.SystemProperties;
 import android.widget.Toast;
-
 import com.android.settings.R;
+
+import java.util.Arrays;
 
 public class Utils {
 
+    public static boolean isCurrentlySupportedPixel() {
+         boolean isPixelDevice = SystemProperties.get("ro.product.model").matches("Pixel [3-9][a-zA-Z ]*");
+         return isPixelDevice;
+     }
 }

@@ -29,4 +29,16 @@
         android:title="@string/click_partial_screenshot_title"
         android:summary="@string/click_partial_screenshot_summary"
         android:defaultValue="false" />
+
+        <PreferenceCategory
+         android:key="miscellaneous_spoofing_category"
+         android:title="@string/miscellaneous_spoofing_category">
+
+         <!-- Component spoofing -->
+         <Preference
+             android:key="spoofing"
+             android:title="@string/spoofing_title"
+             android:summary="@string/spoofing_summary"
+             android:fragment="com.cherish.settings.fragments.Spoofing" />
+     </PreferenceCategory>
 </PreferenceScreen>
