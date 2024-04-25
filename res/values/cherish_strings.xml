@@ -733,4 +733,9 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Disable storage encryption status</string>
     <string name="spoof_storage_encryption_status_summary">Prevent apps from not operating due to unencrypted storage</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_gestures_category">Gestures</string>
+    <string name="status_bar_brightness_control_title">Brightness control</string>
+    <string name="status_bar_brightness_control_summary">Adjust brightness by swiping across the status bar</string>
 </resources>
