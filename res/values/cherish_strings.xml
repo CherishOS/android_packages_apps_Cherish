@@ -816,4 +816,11 @@
     <string name="ambient_edge_light_duration_title">Light duration</string>
     <string name="ambient_edge_light_repeat_count_title">Repeat count</string>
     <string name="ambient_edge_light_width_title">Light width</string>
+
+    <!-- Depth Wallpaper -->
+    <string name="dw_file_header_select_title">Select Depth Wallpaper Subject</string>
+    <string name="dw_file_header_select_summary">Select depth wallpaper subject image from storage.</string>
+    <string name="dw_wallpaper_enabled_title">Depth Wallpaper</string>
+    <string name="dw_wallpaper_enabled_summary">Enable iOS-inspired depth wallpaper. Requires a subject image.</string>
+    <string name="dw_wallpaper_opacity_title">Depth Wallpaper Opacity</string>
 </resources>

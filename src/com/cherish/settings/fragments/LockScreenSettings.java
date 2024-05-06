@@ -22,12 +22,15 @@ import com.android.internal.logging.nano.MetricsProto;
 import android.app.Activity;
 import android.content.Context;
 import android.content.ContentResolver;
+import android.content.Intent;
 import android.app.WallpaperManager;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.hardware.fingerprint.FingerprintManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -39,6 +42,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import android.os.SystemProperties;
+import android.provider.MediaStore;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -53,8 +57,17 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 import android.provider.SearchIndexableResource;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class LockScreenSettings extends SettingsPreferenceFragment implements
@@ -63,6 +76,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String UDFPS_CATEGORY = "udfps_category";
 
 	private PreferenceCategory mUdfpsCategory;
+    private Preference mDepthWallpaperCustomImagePicker;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -83,6 +97,8 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             e.printStackTrace();
         }
 
+        mDepthWallpaperCustomImagePicker = findPreference("depth_wallpaper_subject_image_uri");
+
         mUdfpsCategory = findPreference(UDFPS_CATEGORY);
         if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
             prefScreen.removePreference(mUdfpsCategory);
@@ -97,6 +113,73 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
         return false;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mDepthWallpaperCustomImagePicker) {
+            Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+            intent.setType("image/*");
+            startActivityForResult(intent, 10001);
+            return true;
+        }
+        return super.onPreferenceTreeClick(preference);
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent result) {
+        if (requestCode == 10001) {
+            if (resultCode != Activity.RESULT_OK) {
+                return;
+            }
+
+            final Uri imgUri = result.getData();
+            if (imgUri != null) {
+                String savedImagePath = saveImageToInternalStorage(getContext(), imgUri);
+                if (savedImagePath != null) {
+                    ContentResolver resolver = getContext().getContentResolver();
+                    Settings.System.putStringForUser(resolver, "depth_wallpaper_subject_image_uri", savedImagePath, UserHandle.USER_CURRENT);
+                }
+            }
+        }
+    }
+
+    private String saveImageToInternalStorage(Context context, Uri imgUri) {
+        try {
+            InputStream inputStream;
+            if (imgUri.toString().startsWith("content://com.google.android.apps.photos.contentprovider")) {
+                List<String> segments = imgUri.getPathSegments();
+                if (segments.size() > 2) {
+                    String mediaUriString = URLDecoder.decode(segments.get(2), StandardCharsets.UTF_8.name());
+                    Uri mediaUri = Uri.parse(mediaUriString);
+                    inputStream = context.getContentResolver().openInputStream(mediaUri);
+                } else {
+                    throw new FileNotFoundException("Failed to parse Google Photos content URI");
+                }
+            } else {
+                inputStream = context.getContentResolver().openInputStream(imgUri);
+            }
+            Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
+            String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss", Locale.US).format(new Date());
+            String imageFileName = "DEPTH_WALLPAPER_SUBJECT_" + timeStamp + ".png";
+            File directory = new File("/sdcard/depthwallpaper");
+            if (!directory.exists() && !directory.mkdirs()) {
+                return null;
+            }
+            File[] files = directory.listFiles((dir, name) -> name.startsWith("DEPTH_WALLPAPER_SUBJECT_") && name.endsWith(".png"));
+            if (files != null) {
+                for (File file : files) {
+                    file.delete();
+                }
+            }
+            File file = new File(directory, imageFileName);
+            try (FileOutputStream outputStream = new FileOutputStream(file)) {
+                bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream);
+            }
+            return file.getAbsolutePath();
+        } catch (Exception e) {
+            return null;
+        }
     }
 
     @Override
