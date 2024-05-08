@@ -24,6 +24,7 @@
     <string name="misc_summary">Modo de juego, controles de volumen</string>
     <string name="animations_title">Animaciones</string>
     <string name="animations_summary">Animaciones del sistema</string>
+    <string name="ambient_display_category">Ambient display</string>
     <string name="powermenu_title">Menú de apagado</string>
     <string name="powermenu_summary">Reinicio avanzado, opacidad del menú de encendido</string>
     <string name="theme_title">Temas</string>
@@ -244,6 +245,8 @@
     <string name="status_bar_battery_style_icon_landscape_style_b">Apaisado I Estilo B</string>
     <string name="status_bar_battery_style_icon_landscape_ios15">Landscape iOS 15</string>
     <string name="status_bar_battery_style_icon_landscape_ios16">Landscape iOS 16</string>
+    <string name="status_bar_battery_style_icon_landscape_origami">Landscape Origami</string>
+    <string name="status_bar_battery_style_icon_landscape_miui_pill">Landscape Miui Pill</string>
     <string name="status_bar_battery_style_icon_landscape_pill">Vertical Mx</string>
     <string name="status_bar_battery_style_icon_landscape_line">Horizontal Lorn</string>
     <string name="status_bar_battery_style_icon_landscape_musku">Vertical iOS</string>
@@ -274,10 +277,6 @@
     <string name="vowifi_icon_oneplus">OnePlus VoWiFi Icon</string>
     <string name="vowifi_icon_moto">Moto VoWiFi Icons</string>
     <string name="vowifi_icon_emui">EMUI Icons</string>
-    <!-- Ambient Wake gesture -->
-    <string name="ambient_display_category">Ambient display</string>
-    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
     <!-- Privacy Indicator -->
     <string name="mic_camera_privacy_indicator_title">Indicador de privacidad de micrófono y cámara</string>
     <string name="mic_camera_privacy_indicator_summary">Mostrar indicador separado cuando cualquier aplicación utilice el micrófono o la cámara</string>
@@ -347,6 +346,18 @@
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Fondo del reloj</string>
     <string name="statusbar_clock_chip_summary">Mostrar un fondo detrás del reloj con el color de acento</string>
+    <string name="solid_accent">Solid color accent</string>
+    <string name="outline">Outline</string>
+    <string name="solid_accent_gradient">Solid color accent gradient</string>
+    <string name="solid_gradient">Solid Gradient side</string>
+    <string name="solid_gradient_corner">Solid accent gradient sharp</string>
+    <string name="solid_gradient_void">Gradient Void</string>
+    <string name="solid_gradient_neumorph">Neumorph gradient</string>
+    <string name="solid_gradient_stroke">Sharp gradient stroke</string>
+    <string name="solid_accent_transperent">Accent transperent</string>
+    <string name="solid_gradient_light">Gradient light</string>
+    <string name="solid_gradient_shape">Sharp gradient corner</string>
+    <string name="solid_gradient_void_light">Gradient Void light</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Barra de brillo</string>
     <string name="qs_show_brightness_slider_never">No mostrar</string>
@@ -677,4 +688,37 @@
     <string name="qs_header_needs_gallery">You must install a gallery app!</string>
     <string name="qs_header_offset_title">Header image offset</string>
     <string name="qs_header_offset_summary">Adjust the image header size</string>
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Alert slider notifications</string>
+    <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
+    <!-- Heads up timeout -->
+    <string name="notification_heads_up_title">Heads up</string>
+    <string name="notification_heads_up_summary">Allow pop up notifications</string>
+    <string name="notification_heads_up_timeout_title">Time out</string>
+    <string name="notification_heads_up_timeout_summary">Time to display heads up notifications</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Less boring</string>
+    <string name="less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
+    <!-- Ambient edge lighting -->
+    <string name="ambient_edge_light_action_title">Ambient edge lighting</string>
+    <string name="ambient_edge_light_title">Edge lighting</string>
+    <string name="ambient_edge_light_enable_title">Enable edge lighting</string>
+    <string name="ambient_edge_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="ambient_edge_light_color_mode_category_title">Color</string>
+    <string name="ambient_edge_light_color_mode_auto">Auto</string>
+    <string name="ambient_edge_light_color_mode_app">App color</string>
+    <string name="ambient_edge_light_color_mode_manual">Manual</string>
+    <string name="ambient_edge_light_color_mode_auto_summary">Set edge light color to the system color</string>
+    <string name="ambient_edge_light_color_mode_app_summary">Set edge light color to the app color</string>
+    <string name="ambient_edge_light_color_mode_manual_summary">Pick a color manualy</string>
+    <string name="ambient_edge_light_advanced_category_title">Advanced</string>
+    <string name="ambient_edge_light_duration_title">Light duration</string>
+    <string name="ambient_edge_light_repeat_count_title">Repeat count</string>
+    <string name="ambient_edge_light_width_title">Light width</string>
+    <!-- Depth Wallpaper -->
+    <string name="dw_file_header_select_title">Select Depth Wallpaper Subject</string>
+    <string name="dw_file_header_select_summary">Select depth wallpaper subject image from storage.</string>
+    <string name="dw_wallpaper_enabled_title">Depth Wallpaper</string>
+    <string name="dw_wallpaper_enabled_summary">Enable iOS-inspired depth wallpaper. Requires a subject image.</string>
+    <string name="dw_wallpaper_opacity_title">Depth Wallpaper Opacity</string>
 </resources>
