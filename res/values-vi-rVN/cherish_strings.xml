@@ -24,6 +24,7 @@
     <string name="misc_summary">Chế độ chơi game, bảng điều khiển âm lượng</string>
     <string name="animations_title">Hiệu ứng</string>
     <string name="animations_summary">Hoạt ảnh hệ thống</string>
+    <string name="ambient_display_category">Màn hình xem nhanh</string>
     <string name="powermenu_title">Trình đơn nguồn</string>
     <string name="powermenu_summary">Khởi động nâng cao, menu nguồn độ mờ</string>
     <string name="theme_title">Chủ đề</string>
@@ -244,6 +245,8 @@
     <string name="status_bar_battery_style_icon_landscape_style_b">Biểu tượng nằm ngang trái kiểu B</string>
     <string name="status_bar_battery_style_icon_landscape_ios15">iOS 15</string>
     <string name="status_bar_battery_style_icon_landscape_ios16">iOS 16</string>
+    <string name="status_bar_battery_style_icon_landscape_origami">Origami ngang</string>
+    <string name="status_bar_battery_style_icon_landscape_miui_pill">MiUI Pill ngang</string>
     <string name="status_bar_battery_style_icon_landscape_pill">Dọc Mx</string>
     <string name="status_bar_battery_style_icon_landscape_line">Nằm ngang Lorn</string>
     <string name="status_bar_battery_style_icon_landscape_musku">Đứng IOS</string>
@@ -274,10 +277,6 @@
     <string name="vowifi_icon_oneplus">Biểu tượng OnePlus VoWiFi</string>
     <string name="vowifi_icon_moto">Biểu tượng Moto VoWiFi</string>
     <string name="vowifi_icon_emui">Biểu tượng EMUI</string>
-    <!-- Ambient Wake gesture -->
-    <string name="ambient_display_category">Màn hình xem nhanh</string>
-    <string name="ambient_wake_gestures_title">Cử chỉ màn hình hiển thị xung quanh</string>
-    <string name="ambient_wake_gestures_summary">Hiển thị tính năng Hiển thị nhanh thay cho màn hình khoá bình thường khi sử dụng vuốt đánh thức</string>
     <!-- Privacy Indicator -->
     <string name="mic_camera_privacy_indicator_title">Biểu tượng sử dụng mic và camera</string>
     <string name="mic_camera_privacy_indicator_summary">Hiện thị biểu tượng tách biệt khi một app nào đó sử dụng mic và camera</string>
@@ -347,6 +346,18 @@
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Màu nền đồng hồ</string>
     <string name="statusbar_clock_chip_summary">Hiển thị nền màu sau đồng hồ</string>
+    <string name="solid_accent">Màu nổi bật</string>
+    <string name="outline">Viền</string>
+    <string name="solid_accent_gradient">Màu chính mờ</string>
+    <string name="solid_gradient">Mặt chuyển đa màu</string>
+    <string name="solid_gradient_corner">Độ dốc nhấn mạnh và sắc nét</string>
+    <string name="solid_gradient_void">Khoảng trống</string>
+    <string name="solid_gradient_neumorph">Độ dốc trung tính</string>
+    <string name="solid_gradient_stroke">Đột quỵ chuyển màu sắc nét</string>
+    <string name="solid_accent_transperent">Màu chính trong suốt</string>
+    <string name="solid_gradient_light">Ánh sáng chuyển màu</string>
+    <string name="solid_gradient_shape">Góc gradient sắc nét</string>
+    <string name="solid_gradient_void_light">Ánh sáng khoảng trống</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Thanh điều chỉnh độ sáng</string>
     <string name="qs_show_brightness_slider_never">Không hiển thị</string>
@@ -677,4 +688,37 @@
     <string name="qs_header_needs_gallery">Bạn phải cài đặt một ứng dụng thư viện ảnh!</string>
     <string name="qs_header_offset_title">Độ lệch hình ảnh tiêu đề</string>
     <string name="qs_header_offset_summary">Điều chỉnh kích thước tiêu đề hình ảnh</string>
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Thông báo khi thay đổi chế độ âm thanh</string>
+    <string name="alert_slider_notifications_summary">Hiển thị thông báo khi thay đổi vị trí thanh trượt cảnh báo</string>
+    <!-- Heads up timeout -->
+    <string name="notification_heads_up_title">Thông báo nổi</string>
+    <string name="notification_heads_up_summary">Cho phép bật lên thông báo</string>
+    <string name="notification_heads_up_timeout_title">Thời gian chờ</string>
+    <string name="notification_heads_up_timeout_summary">Thời gian hiển thị thông báo nổi</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Ít nhàm chán</string>
+    <string name="less_boring_heads_up_summary">Chỉ hiển thị thông báo nổi cho ứng dụng báo thức, trình quay số và nhắn tin</string>
+    <!-- Ambient edge lighting -->
+    <string name="ambient_edge_light_action_title">Ánh sáng cạnh xung quanh</string>
+    <string name="ambient_edge_light_title">Bật sáng màn hình cạnh</string>
+    <string name="ambient_edge_light_enable_title">Bật ánh sáng cạnh</string>
+    <string name="ambient_edge_light_summary">Làm sáng các cạnh bên của màn hình trên thông báo đẩy</string>
+    <string name="ambient_edge_light_color_mode_category_title">Màu sắc</string>
+    <string name="ambient_edge_light_color_mode_auto">Tự động</string>
+    <string name="ambient_edge_light_color_mode_app">Màu ứng dụng</string>
+    <string name="ambient_edge_light_color_mode_manual">Thủ công</string>
+    <string name="ambient_edge_light_color_mode_auto_summary">Đặt màu ánh sáng cạnh thành màu của hệ thống</string>
+    <string name="ambient_edge_light_color_mode_app_summary">Đặt màu ánh sáng cạnh thành màu của ứng dụng</string>
+    <string name="ambient_edge_light_color_mode_manual_summary">Chọn màu thủ công</string>
+    <string name="ambient_edge_light_advanced_category_title">Nâng cao</string>
+    <string name="ambient_edge_light_duration_title">Thời gian sáng</string>
+    <string name="ambient_edge_light_repeat_count_title">Số lần lặp lại</string>
+    <string name="ambient_edge_light_width_title">Chiều rộng nhỏ</string>
+    <!-- Depth Wallpaper -->
+    <string name="dw_file_header_select_title">Chọn chủ đề hình nền có chiều sâu</string>
+    <string name="dw_file_header_select_summary">Chọn hình ảnh chủ đề hình nền có chiều sâu từ bộ lưu trữ.</string>
+    <string name="dw_wallpaper_enabled_title">Hình nền độ sâu</string>
+    <string name="dw_wallpaper_enabled_summary">Kích hoạt hình nền có chiều sâu lấy cảm hứng từ iOS. Yêu cầu một hình ảnh chủ đề.</string>
+    <string name="dw_wallpaper_opacity_title">Độ mờ hình nền sâu</string>
 </resources>
