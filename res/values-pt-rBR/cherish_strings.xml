@@ -24,7 +24,7 @@
     <string name="misc_summary">Modo de jogo, controles de volume</string>
     <string name="animations_title">Animações</string>
     <string name="animations_summary">Animações do sistema</string>
-    <string name="ambient_display_category">Ambient display</string>
+    <string name="ambient_display_category">Exibição ambiente</string>
     <string name="powermenu_title">Menu liga/desliga</string>
     <string name="powermenu_summary">Reinicialização avançada, opacidade do menu de energia</string>
     <string name="theme_title">Temas</string>
@@ -50,7 +50,7 @@
     <string name="cancel">Cancelar</string>
     <string name="save">Salvar</string>
     <string name="default_string">Padrão</string>
-    <string name="enable">Enable</string>
+    <string name="enable">Habilitar</string>
     <string name="disabled">Desabilitado</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Selecionar cores</string>
@@ -152,10 +152,10 @@
     <string name="quick_pulldown_always">Sempre mostrar as configurações rápidas ao puxar para baixo na barra de status</string>
     <!-- Pif -->
     <string name="pif_title">Play integrity fix</string>
-    <string name="pif_summary">View current values used to spoof GMS</string>
-    <string name="pif_spoof_title">Enable ROM-side Play integrity fix</string>
-    <string name="pif_spoof_summary">Disable to allow module usage with custom fingerprint values</string>
-    <string name="spoof_summary">Enable spoofing for specific features within the ROM</string>
+    <string name="pif_summary">Veja os valores atuais usados para falsificar o GMS</string>
+    <string name="pif_spoof_title">Habilitar correção de integridade de reprodução no lado da ROM</string>
+    <string name="pif_spoof_summary">Desative para permitir o uso do módulo com valores de impressão digital personalizados</string>
+    <string name="spoof_summary">Habilite a falsificação para recursos específicos na ROM</string>
     <string name="spoof_title">Spoofing</string>
     <!-- PixelProps -->
     <string name="spoof_pixel_title">Enable Pixel Props</string>
