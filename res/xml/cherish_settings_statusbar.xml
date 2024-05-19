@@ -81,6 +81,13 @@
             android:summary="@string/show_fourg_icon_summary"
             android:defaultValue="false" />
 
+         <!-- Wi-Fi standard icon -->
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="wifi_standard_icon"
+            android:title="@string/status_bar_wifi_standard_icon_title"
+            android:summary="@string/status_bar_wifi_standard_icon_summary"
+            android:defaultValue="false" />
+
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="roaming_indicator_icon"
             android:title="@string/roaming_indicator_icon_title"
