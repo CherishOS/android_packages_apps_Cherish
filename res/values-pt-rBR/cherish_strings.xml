@@ -346,18 +346,6 @@
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Fundo do relógio colorido</string>
     <string name="statusbar_clock_chip_summary">Colorir o fundo do relógio na barra de status</string>
-    <string name="solid_accent">Destaque de cor sólida</string>
-    <string name="outline">Contorno</string>
-    <string name="solid_accent_gradient">Gradiente acentuado de cor sólida</string>
-    <string name="solid_gradient">Lado gradiente sólido</string>
-    <string name="solid_gradient_corner">Gradiente acentuado sólido afiado</string>
-    <string name="solid_gradient_void">Vazio Gradiente</string>
-    <string name="solid_gradient_neumorph">Gradiente Neumorfo</string>
-    <string name="solid_gradient_stroke">Traço afiado do gradiente</string>
-    <string name="solid_accent_transperent">Transparente acentuado</string>
-    <string name="solid_gradient_light">Gradiente claro</string>
-    <string name="solid_gradient_shape">Canto gradiente nítido</string>
-    <string name="solid_gradient_void_light">Luz Gradiente Vazia</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Controle de brilho</string>
     <string name="qs_show_brightness_slider_never">Nunca exibir</string>
