@@ -346,18 +346,6 @@
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Màu nền đồng hồ</string>
     <string name="statusbar_clock_chip_summary">Hiển thị nền màu sau đồng hồ</string>
-    <string name="solid_accent">Màu nổi bật</string>
-    <string name="outline">Viền</string>
-    <string name="solid_accent_gradient">Màu chính mờ</string>
-    <string name="solid_gradient">Mặt chuyển đa màu</string>
-    <string name="solid_gradient_corner">Độ dốc nhấn mạnh và sắc nét</string>
-    <string name="solid_gradient_void">Khoảng trống</string>
-    <string name="solid_gradient_neumorph">Độ dốc trung tính</string>
-    <string name="solid_gradient_stroke">Đột quỵ chuyển màu sắc nét</string>
-    <string name="solid_accent_transperent">Màu chính trong suốt</string>
-    <string name="solid_gradient_light">Ánh sáng chuyển màu</string>
-    <string name="solid_gradient_shape">Góc gradient sắc nét</string>
-    <string name="solid_gradient_void_light">Ánh sáng khoảng trống</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Thanh điều chỉnh độ sáng</string>
     <string name="qs_show_brightness_slider_never">Không hiển thị</string>
