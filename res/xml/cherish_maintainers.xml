@@ -390,8 +390,8 @@
                 android:data="https://t.me/bruh_its_your_brother" />
         </Preference>
 
-<Preference android:title="@string/camellia_maintainer"
-            android:summary="@string/device_camellia"
+<Preference android:title="@string/garnet_maintainer"
+            android:summary="@string/device_garnet"
             android:icon="@drawable/ic_devs_phone" >
 	    <intent
                 android:action="android.intent.action.VIEW"
