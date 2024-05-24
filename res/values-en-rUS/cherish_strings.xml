@@ -709,4 +709,8 @@
     <string name="dw_wallpaper_enabled_title">Depth Wallpaper</string>
     <string name="dw_wallpaper_enabled_summary">Enable iOS-inspired depth wallpaper. Requires a subject image.</string>
     <string name="dw_wallpaper_opacity_title">Depth Wallpaper Opacity</string>
+    <!-- Volume Row Percent -->
+    <string name="volume_show_volume_percent_title">Show Volume Row Percentage</string>
+    <string name="volume_show_volume_percent_summary">Show volume row progress percentage</string>
+    <string name="volume_dialog_timeout_title">Volume panel timeout</string>
 </resources>
