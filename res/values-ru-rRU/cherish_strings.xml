@@ -24,7 +24,7 @@
     <string name="misc_summary">Режим игры, управление громкостью</string>
     <string name="animations_title">Анимации</string>
     <string name="animations_summary">Системные анимации</string>
-    <string name="ambient_display_category">Ambient display</string>
+    <string name="ambient_display_category">Активный экран</string>
     <string name="powermenu_title">Меню питания</string>
     <string name="powermenu_summary">Расширенный перезапуск, непрозрачность меню питания</string>
     <string name="theme_title">Темы</string>
@@ -50,14 +50,14 @@
     <string name="cancel">Отмена</string>
     <string name="save">Сохранить</string>
     <string name="default_string">По умолчанию</string>
-    <string name="enable">Enable</string>
+    <string name="enable">Включить</string>
     <string name="disabled">Отключен</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
     <string name="press_color_to_apply">Нажмите на цвет внизу, чтобы применить</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">Hex код:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Задать</string>
     <string name="color_default">По умолчанию</string>
@@ -144,43 +144,43 @@
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">Сигнал</string>
     <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
+    <string name="custom_wifi_bar_title">Значок W-iFi</string>
     <string name="status_bar_quick_qs_pulldown">Быстрый доступ к панели быстрых настроек</string>
     <string name="quick_pulldown_none">Отключен</string>
     <string name="quick_pulldown_right">Выпадающая строка состояния с правой стороны</string>
     <string name="quick_pulldown_left">Выпадающая строка состояния с левой стороны</string>
     <string name="quick_pulldown_always">Всегда показывать быстрые настройки в выпадающем списке строки состояния</string>
     <!-- Pif -->
-    <string name="pif_title">Play integrity fix</string>
-    <string name="pif_summary">View current values used to spoof GMS</string>
-    <string name="pif_spoof_title">Enable ROM-side Play integrity fix</string>
-    <string name="pif_spoof_summary">Disable to allow module usage with custom fingerprint values</string>
-    <string name="spoof_summary">Enable spoofing for specific features within the ROM</string>
-    <string name="spoof_title">Spoofing</string>
+    <string name="pif_title">Исправление Play Integrity</string>
+    <string name="pif_summary">Просмотр текущих значений, используемых для подмены GMS</string>
+    <string name="pif_spoof_title">Включить исправление Play integrity на стороне прошивки</string>
+    <string name="pif_spoof_summary">Отключите, чтобы разрешить использование модуля с пользовательскими значениями отпечатков пальцев</string>
+    <string name="spoof_summary">Включить подмену для конкретных функций в рамках прошивки</string>
+    <string name="spoof_title">Подмена</string>
     <!-- PixelProps -->
-    <string name="spoof_pixel_title">Enable Pixel Props</string>
-    <string name="spoof_pixel_summary">Spoof your device as Pixel 8 Pro for Google apps</string>
+    <string name="spoof_pixel_title">Включить свойства Pixel</string>
+    <string name="spoof_pixel_summary">Подмена вашего устройства на Pixel 8 Pro для приложений Google</string>
     <!-- Unlimited Photos storage -->
-    <string name="photos_spoof_title">Unlimited Photos storage</string>
-    <string name="photos_spoof_summary">Spoof your device as Pixel XL for the Google Photos app only to provide unlimited storage for backup. App will be spoofed to Pixel 8 Pro if toggle is disabled</string>
+    <string name="photos_spoof_title">Неограниченное хранилище фотографий в Google Photo</string>
+    <string name="photos_spoof_summary">Подмена вашего устройства на Pixel XL для «Google Фото», чтобы предоставить неограниченное хранилище для резервного копирования фотографий. При выключении будет замаскирован под Pixel 8 Pro</string>
     <!-- Unlock FPS for specific games -->
-    <string name="games_spoof_title">Unlock higher FPS in games</string>
-    <string name="games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <string name="games_spoof_title">Разблокировать высокий FPS в играх</string>
+    <string name="games_spoof_summary">Маскировка устройства под другую модель для определенных игр, чтобы разблокировать более высокий FPS</string>
     <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix spoof</string>
-    <string name="netflix_spoof_summary">Spoof your device as Pixel 8 Pro for Netflix</string>
+    <string name="netflix_spoof_title">Обманка Netflix</string>
+    <string name="netflix_spoof_summary">Подмена вашего устройства на Pixel 8 Pro для использования Netflix</string>
     <!-- Snapchat Spoof -->
-    <string name="snapchat_spoof_title">Snapchat spoof</string>
-    <string name="snapchat_spoof_summary">Spoof your device as Pixel 2 for Snapchat to allow original quality captures</string>
+    <string name="snapchat_spoof_title">Маскировка для Snapchat</string>
+    <string name="snapchat_spoof_summary">Подмена вашего устройства на Pixel 2 для повышения качества снимков в Snapchat</string>
     <!--Settings homepage widgets-->
-    <string name="settings_homepage_widgets_title">Settings homepage widgets</string>
-    <string name="settings_homepage_widgets_summary">Enable settings homepage widgets</string>
+    <string name="settings_homepage_widgets_title">Настройка виджетов домашней страницы</string>
+    <string name="settings_homepage_widgets_summary">Настройка виджетов домашней страницы</string>
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+    <string name="wakeup_when_plugged_unplugged_title">Пробуждать во время зарядки</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Пробуждать устройство, если зарядное устройство подключено/отключено.</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Показывать напряжение, ток зарядки и температуру аккумулятора на экране блокировки во время зарядки</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Параметры вибрации при вызове</string>
     <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
@@ -203,24 +203,24 @@
     <string name="roaming_indicator_icon_title">Индикатор роуминга</string>
     <string name="roaming_indicator_icon_summary">Отображать индикатор роуминга рядом со значком сети при нахождении в роуминге</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_style_title">Select VoLTE/HD Icon</string>
-    <string name="volte_icon_off">Off</string>
-    <string name="volte_icon_dynamic">Dynamic VOLTE Icons</string>
-    <string name="volte_icon_vo">Vo Only Icon</string>
-    <string name="volte_icon_volte">VoLTE Icon</string>
-    <string name="volte_icon_oos">VoLTE OOS Icon</string>
-    <string name="volte_icon_hd">HD Icon</string>
-    <string name="volte_icon_miui">MIUI 11 Icon</string>
-    <string name="volte_icon_emui">EMUI Icon</string>
-    <string name="volte_icon_margaritov">HD Filled Icon</string>
-    <string name="volte_icon_margaritov2">Margaritov VoLTE Icon</string>
-    <string name="volte_icon_vivo">Vivo Icon</string>
-    <string name="volte_icon_aris">Aris Icon</string>
-    <string name="volte_icon_beast">Aww Icon</string>
-    <string name="volte_icon_ios">Ios Icon</string>
-    <string name="volte_icon_lr">Livenge Icon</string>
-    <string name="volte_icon_realme">Realme Icon</string>
-    <string name="volte_icon_typeA">Mild Icon</string>
+    <string name="volte_icon_style_title">Выберите иконку VoLTE</string>
+    <string name="volte_icon_off">Выключен</string>
+    <string name="volte_icon_dynamic">Динамические иконки VOLTE</string>
+    <string name="volte_icon_vo">Только значок Vo</string>
+    <string name="volte_icon_volte">Значок VoLTE</string>
+    <string name="volte_icon_oos">Значок VoLTE OOS</string>
+    <string name="volte_icon_hd">Значок HD</string>
+    <string name="volte_icon_miui">Значок MIUI 11</string>
+    <string name="volte_icon_emui">Значок EMUI</string>
+    <string name="volte_icon_margaritov">Заполненный значок HD</string>
+    <string name="volte_icon_margaritov2">Маргаритов значок VoLTE</string>
+    <string name="volte_icon_vivo">Значок Vivo</string>
+    <string name="volte_icon_aris">Значок Aris</string>
+    <string name="volte_icon_beast">Значок Aww</string>
+    <string name="volte_icon_ios">Значок Ios</string>
+    <string name="volte_icon_lr">Значок Livenge</string>
+    <string name="volte_icon_realme">Значок Realme</string>
+    <string name="volte_icon_typeA">Модный значок</string>
     <string name="volte_icon_typeB">Filth Icon</string>
     <string name="volte_icon_typeC">Mue Icon</string>
     <string name="volte_icon_typeD">Sus Icon</string>
@@ -400,33 +400,33 @@
     <string name="power_menu_airplane_title">Airplane mode</string>
     <string name="power_menu_users_title">User switcher</string>
     <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_bug_report_devoptions_unavailable">Bug reporting is disabled as development settings aren\'t enabled</string>
-    <string name="power_menu_bug_report_unavailable_for_user">Bug reporting is disabled for non-primary users.</string>
-    <string name="power_menu_emergency_title">Emergency</string>
-    <string name="power_menu_devicecontrols_title">Device controls</string>
-    <string name="power_menu_advanced_restart_title">Advanced restart</string>
-    <string name="power_menu_advanced_restart_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="power_menu_emergency_affordance_enabled">Emergency affordance is enabled</string>
+    <string name="power_menu_bug_report_devoptions_unavailable">Отчеты об ошибках отключены, поскольку не включены настройки для разработчиков</string>
+    <string name="power_menu_bug_report_unavailable_for_user">Отчеты об ошибках отключены для неосновных пользователей.</string>
+    <string name="power_menu_emergency_title">Экстренный вызов</string>
+    <string name="power_menu_devicecontrols_title">Управление устройствами</string>
+    <string name="power_menu_advanced_restart_title">Расширенная перезагрузка</string>
+    <string name="power_menu_advanced_restart_summary">Когда устройство разблокировано, в меню питания доступны опции перезагрузки в режим восстановления и в загрузчик</string>
+    <string name="power_menu_emergency_affordance_enabled">Возможности для экстренных ситуаций включены</string>
     <!-- Text shown for the title of the restart systemui option -->
-    <string name="power_menu_restart_systemui_title">Restart SystemUI</string>
+    <string name="power_menu_restart_systemui_title">Перезапустить SystemUI</string>
     <string name="click_partial_screenshot_title">Нажмите, чтобы сделать частичный снимок экрана</string>
     <string name="click_partial_screenshot_summary">Короткое нажатие на уменьшение громкости и питание, чтобы сделать частичный снимок экрана</string>
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Прозрачность быстрых настроек</string>
     <string name="qs_transparency_summary">Выберите, насколько прозрачны ваши быстрые настройки (требуется перезапуск SystemUI)</string>
     <!-- QS Dual Tone Colors -->
-    <string name="qs_dual_tone_title">Dual tone themed</string>
-    <string name="qs_dual_tone_summary">Use dual tone background colors instead of AOSP single tone</string>
+    <string name="qs_dual_tone_title">Двухтоновая тема</string>
+    <string name="qs_dual_tone_summary">Использовать двухтоновый фон, вместо однотонного AOSP</string>
     <!-- QS tiles layout  -->
     <string name="qs_layout_category_title">QS Layout</string>
     <string name="qs_tile_label_hide_title">Скрыть метку</string>
     <string name="qs_tile_label_size_title">Размер шрифта подписи</string>
     <string name="qs_tile_label_hide_summary">Показывать только значок</string>
-    <string name="qs_tile_layout_title">Vertical layout</string>
+    <string name="qs_tile_layout_title">Вертикальное расположение</string>
     <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
     <string name="qs_columns_portrait_title">Tile columns on portrait</string>
     <string name="qs_columns_landscape_title">Колонки (ландшафт)</string>
-    <string name="qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
+    <string name="qqs_rows_portrait_title">Ряды быстрых настроек (вертикально)</string>
     <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
     <!-- Double Tap -->
     <string name="dtts_category_header">Double tap to sleep</string>
