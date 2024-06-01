@@ -427,12 +427,12 @@
     <string name="qs_columns_portrait_title">Tile columns on portrait</string>
     <string name="qs_columns_landscape_title">Колонки (ландшафт)</string>
     <string name="qqs_rows_portrait_title">Ряды быстрых настроек (вертикально)</string>
-    <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
+    <string name="qqs_rows_landscape_title">Ряды быстрых настроек (горизонтально)</string>
     <!-- Double Tap -->
-    <string name="dtts_category_header">Double tap to sleep</string>
+    <string name="dtts_category_header">Двойное нажатие для блокировки</string>
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="double_tap_to_sleep_lockscreen_title">Lockscreen</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the lock screen to put the device to sleep</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Экран блокировки</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь экрана блокировки, чтобы заблокировать устройство</string>
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Двойное нажатие на строке состояния для сна</string>
     <string name="double_tap_to_sleep_summary">Двойное нажатие по строке состояния переводит устройство в режим сна</string>
@@ -462,7 +462,7 @@
     <string name="pulse_color_accent">Акцент</string>
     <string name="pulse_color_custom">Настраиваемый</string>
     <string name="pulse_color_lava_lamp">Смена цвета</string>
-    <string name="pulse_color_auto">Album</string>
+    <string name="pulse_color_auto">Альбом</string>
     <string name="pulse_color_user_title">Выбор цвета</string>
     <string name="pulse_smoothing_enabled_title">Включить сглаживание</string>
     <string name="pulse_smoothing_enabled_summary">Каждая полоса анимируется более плавно</string>
@@ -491,27 +491,27 @@
     <string name="smart_pixels_shift_title">Защита от выгорания</string>
     <string name="smart_pixels_shift_summary">Предотвращает выгорание на OLED-устройствах за счет периодического перемещения пикселей</string>
     <!--  screen, setting option summary to change custom timeout -->
-    <string name="custom_timeout_summary_never">Never</string>
-    <string name="custom_timeout_summary_5secs">5 seconds</string>
-    <string name="custom_timeout_summary_10secs">10 seconds</string>
-    <string name="custom_timeout_summary_15secs">15 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_2mins">2 minutes</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_20mins">20 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-    <string name="custom_timeout_summary_1hour">1 hour</string>
-    <string name="custom_timeout_summary_2hours">2 hours</string>
-    <string name="custom_timeout_summary_4hours">4 hours</string>
-    <string name="custom_timeout_summary_8hours">8 hours</string>
+    <string name="custom_timeout_summary_never">Никогда</string>
+    <string name="custom_timeout_summary_5secs">5 секунд</string>
+    <string name="custom_timeout_summary_10secs">10 секунд</string>
+    <string name="custom_timeout_summary_15secs">15 секунд</string>
+    <string name="custom_timeout_summary_30secs">30 секунд</string>
+    <string name="custom_timeout_summary_1min">1 минута</string>
+    <string name="custom_timeout_summary_2mins">2 минуты</string>
+    <string name="custom_timeout_summary_5mins">5 минут</string>
+    <string name="custom_timeout_summary_10mins">10 минут</string>
+    <string name="custom_timeout_summary_20mins">20 минут</string>
+    <string name="custom_timeout_summary_30mins">30 минут</string>
+    <string name="custom_timeout_summary_1hour">1 час</string>
+    <string name="custom_timeout_summary_2hours">2 часа</string>
+    <string name="custom_timeout_summary_4hours">4 часа</string>
+    <string name="custom_timeout_summary_8hours">8 часов</string>
     <!-- Laboratory - Ignore window secure -->
     <string name="laboratory_ignore_window_secure_title">Игнорировать флаги безопасности в окне</string>
     <string name="laboratory_ignore_window_secure_summary">Убирает ограничения скриншотов и записей для всех приложений, когда они заменяются черными областями в записях. Это может быть удобным в некоторых случаях, но может привести к утечке конфиденциальной информации. После изменения этого переключателя может потребоваться перезапустить приложения, чтобы изменения вступили в силу.</string>
     <!-- Buttons -->
-    <string name="button_pref_title">Buttons</string>
-    <string name="hardware_keys_power_key_title">Power button</string>
+    <string name="button_pref_title">Кнопки</string>
+    <string name="hardware_keys_power_key_title">Кнопка питания</string>
     <string name="hardware_keys_home_key_title">Кнопка \"Главная\"</string>
     <string name="hardware_keys_back_key_title">Кнопка \"Назад\"</string>
     <string name="hardware_keys_menu_key_title">Кнопка \"Меню\"</string>
@@ -530,14 +530,14 @@
     <string name="hardware_keys_action_in_app_search">Поиск в приложениях</string>
     <string name="hardware_keys_action_launch_camera">Запуск камеры</string>
     <string name="hardware_keys_action_sleep">Выключить экран</string>
-    <string name="hardware_keys_action_last_app">Last app</string>
+    <string name="hardware_keys_action_last_app">Последнее приложение</string>
     <string name="hardware_keys_action_split_screen">Разделение экрана</string>
-    <string name="hardware_keys_action_kill_app">Kill foreground app</string>
+    <string name="hardware_keys_action_kill_app">Закрыть активное приложение</string>
     <string name="camera_sleep_on_release_title">Быстрый просмотр</string>
     <string name="camera_sleep_on_release_summary">Держать экран включенным только при удерживании кнопки</string>
     <string name="camera_launch_title">Запуск камеры</string>
     <string name="camera_launch_summary">Длительное нажатие и отпускание кнопки будет запускать камеру</string>
-    <string name="volbtn_music_controls_title">Control playback</string>
+    <string name="volbtn_music_controls_title">Управление воспроизведением</string>
     <string name="volbtn_music_controls_summary">Seek music tracks by long pressing the volume keys while the display is off</string>
     <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
     <string name="volbtn_cursor_control_off">Disabled</string>
