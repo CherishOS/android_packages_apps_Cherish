@@ -710,7 +710,7 @@
     <string name="dw_wallpaper_enabled_summary">Kích hoạt hình nền có chiều sâu lấy cảm hứng từ iOS. Yêu cầu một hình ảnh chủ đề.</string>
     <string name="dw_wallpaper_opacity_title">Độ mờ hình nền sâu</string>
     <!-- Volume Row Percent -->
-    <string name="volume_show_volume_percent_title">Show Volume Row Percentage</string>
-    <string name="volume_show_volume_percent_summary">Show volume row progress percentage</string>
-    <string name="volume_dialog_timeout_title">Volume panel timeout</string>
+    <string name="volume_show_volume_percent_title">Hiển thị phần trăm trên thanh âm lượng</string>
+    <string name="volume_show_volume_percent_summary">Hiển thị quá trình phần trăm trên thanh âm lượng ngang</string>
+    <string name="volume_dialog_timeout_title">Thời gian chờ bảng âm lượng</string>
 </resources>
