@@ -346,18 +346,6 @@
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Arka plan çipi</string>
     <string name="statusbar_clock_chip_summary">Aksanlı çipi saatin arkasında göster</string>
-    <string name="solid_accent">Solid color accent</string>
-    <string name="outline">Outline</string>
-    <string name="solid_accent_gradient">Solid color accent gradient</string>
-    <string name="solid_gradient">Solid Gradient side</string>
-    <string name="solid_gradient_corner">Solid accent gradient sharp</string>
-    <string name="solid_gradient_void">Gradient Void</string>
-    <string name="solid_gradient_neumorph">Neumorph gradient</string>
-    <string name="solid_gradient_stroke">Sharp gradient stroke</string>
-    <string name="solid_accent_transperent">Accent transperent</string>
-    <string name="solid_gradient_light">Gradient light</string>
-    <string name="solid_gradient_shape">Sharp gradient corner</string>
-    <string name="solid_gradient_void_light">Gradient Void light</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Parlaklık kaydırıcısı</string>
     <string name="qs_show_brightness_slider_never">Asla gösterme</string>
@@ -721,4 +709,8 @@
     <string name="dw_wallpaper_enabled_title">Depth Wallpaper</string>
     <string name="dw_wallpaper_enabled_summary">Enable iOS-inspired depth wallpaper. Requires a subject image.</string>
     <string name="dw_wallpaper_opacity_title">Depth Wallpaper Opacity</string>
+    <!-- Volume Row Percent -->
+    <string name="volume_show_volume_percent_title">Show Volume Row Percentage</string>
+    <string name="volume_show_volume_percent_summary">Show volume row progress percentage</string>
+    <string name="volume_dialog_timeout_title">Volume panel timeout</string>
 </resources>
