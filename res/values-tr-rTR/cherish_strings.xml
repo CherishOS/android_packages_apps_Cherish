@@ -24,7 +24,7 @@
     <string name="misc_summary">Oyun modu, ses kontrolleri</string>
     <string name="animations_title">Animasyonlar</string>
     <string name="animations_summary">Sistem animasyonları</string>
-    <string name="ambient_display_category">Ambient display</string>
+    <string name="ambient_display_category">Ortam ekranı</string>
     <string name="powermenu_title">Güç menüsü</string>
     <string name="powermenu_summary">Gelişmiş yeniden başlatma, güç menüsü şeffaflığı</string>
     <string name="theme_title">Temalar</string>
@@ -50,7 +50,7 @@
     <string name="cancel">İptal</string>
     <string name="save">Kaydet</string>
     <string name="default_string">Varsayılan</string>
-    <string name="enable">Enable</string>
+    <string name="enable">Etkinleştir</string>
     <string name="disabled">Devre dışı</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Renk seçici</string>
@@ -151,36 +151,36 @@
     <string name="quick_pulldown_left">Durum çubuğunu sol taraftan aşağı çekin</string>
     <string name="quick_pulldown_always">Durum çubuğunu aşağı çekince her zaman hızlı ayarları göster</string>
     <!-- Pif -->
-    <string name="pif_title">Play integrity fix</string>
-    <string name="pif_summary">View current values used to spoof GMS</string>
-    <string name="pif_spoof_title">Enable ROM-side Play integrity fix</string>
-    <string name="pif_spoof_summary">Disable to allow module usage with custom fingerprint values</string>
-    <string name="spoof_summary">Enable spoofing for specific features within the ROM</string>
-    <string name="spoof_title">Spoofing</string>
+    <string name="pif_title">Play bütünlüğü düzeltici</string>
+    <string name="pif_summary">GMS\'yi yanıltmak için kullanılan mevcut değerleri görüntüle</string>
+    <string name="pif_spoof_title">ROM tarafı Play bütünlüğü düzeltmesini etkinleştir</string>
+    <string name="pif_spoof_summary">Özel parmak izi değerleriyle modül kullanımına izin vermek için devre dışı bırak</string>
+    <string name="spoof_summary">ROM içindeki belirli özellikler için spoofing\'i etkinleştirin</string>
+    <string name="spoof_title">İmza zorlama</string>
     <!-- PixelProps -->
-    <string name="spoof_pixel_title">Enable Pixel Props</string>
-    <string name="spoof_pixel_summary">Spoof your device as Pixel 8 Pro for Google apps</string>
+    <string name="spoof_pixel_title">Pixel Props\'u Etkinleştir</string>
+    <string name="spoof_pixel_summary">Google uygulamaları için cihazınızı Pixel 8 Pro olarak gösterin</string>
     <!-- Unlimited Photos storage -->
-    <string name="photos_spoof_title">Unlimited Photos storage</string>
-    <string name="photos_spoof_summary">Spoof your device as Pixel XL for the Google Photos app only to provide unlimited storage for backup. App will be spoofed to Pixel 8 Pro if toggle is disabled</string>
+    <string name="photos_spoof_title">Sınırsız Google Fotoğraflar depolaması</string>
+    <string name="photos_spoof_summary">Orijinal kalitede fotoğraf saklamak için cihazınız Fotoğraflar uygulaması tarafından Pixel XL olarak tanımlanacak</string>
     <!-- Unlock FPS for specific games -->
-    <string name="games_spoof_title">Unlock higher FPS in games</string>
-    <string name="games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <string name="games_spoof_title">Oyunlarda daha yüksek FPS kilidini açın</string>
+    <string name="games_spoof_summary">Daha yüksek FPS kilidini açmak için belirli oyunlara cihazınızı farklı bir model olarak tanıtın</string>
     <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix spoof</string>
-    <string name="netflix_spoof_summary">Spoof your device as Pixel 8 Pro for Netflix</string>
+    <string name="netflix_spoof_title">Netflix sahtekarlığı</string>
+    <string name="netflix_spoof_summary">Netflix için cihazınızı Pixel 8 Pro olarak gösterin</string>
     <!-- Snapchat Spoof -->
-    <string name="snapchat_spoof_title">Snapchat spoof</string>
-    <string name="snapchat_spoof_summary">Spoof your device as Pixel 2 for Snapchat to allow original quality captures</string>
+    <string name="snapchat_spoof_title">Snapchat taklidi</string>
+    <string name="snapchat_spoof_summary">Orijinal kalitede çekimlere izin vermek için cihazınızı Snapchat için Pixel 2 olarak gösterin</string>
     <!--Settings homepage widgets-->
-    <string name="settings_homepage_widgets_title">Settings homepage widgets</string>
-    <string name="settings_homepage_widgets_summary">Enable settings homepage widgets</string>
+    <string name="settings_homepage_widgets_title">Ayarlar ana sayfası widget\'ları</string>
+    <string name="settings_homepage_widgets_summary">Ayarlar ana sayfası widget\'ları</string>
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+    <string name="wakeup_when_plugged_unplugged_title">Şarja takılınca uyandır</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Şarja takıldığında veya çıkarıldığında cihazı uyandır.</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
+    <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Çağrı titreşimi</string>
     <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
@@ -203,24 +203,24 @@
     <string name="roaming_indicator_icon_title">Dolaşım göstergesi</string>
     <string name="roaming_indicator_icon_summary">Dolaşım modundayken sinyal simgesinde dolaşım göstergesini göster</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_style_title">Select VoLTE/HD Icon</string>
-    <string name="volte_icon_off">Off</string>
-    <string name="volte_icon_dynamic">Dynamic VOLTE Icons</string>
-    <string name="volte_icon_vo">Vo Only Icon</string>
-    <string name="volte_icon_volte">VoLTE Icon</string>
-    <string name="volte_icon_oos">VoLTE OOS Icon</string>
-    <string name="volte_icon_hd">HD Icon</string>
-    <string name="volte_icon_miui">MIUI 11 Icon</string>
-    <string name="volte_icon_emui">EMUI Icon</string>
-    <string name="volte_icon_margaritov">HD Filled Icon</string>
-    <string name="volte_icon_margaritov2">Margaritov VoLTE Icon</string>
-    <string name="volte_icon_vivo">Vivo Icon</string>
-    <string name="volte_icon_aris">Aris Icon</string>
-    <string name="volte_icon_beast">Aww Icon</string>
-    <string name="volte_icon_ios">Ios Icon</string>
-    <string name="volte_icon_lr">Livenge Icon</string>
-    <string name="volte_icon_realme">Realme Icon</string>
-    <string name="volte_icon_typeA">Mild Icon</string>
+    <string name="volte_icon_style_title">VoLTE/HD simgesini seçin</string>
+    <string name="volte_icon_off">Kapalı</string>
+    <string name="volte_icon_dynamic">Dinamik VOLTE simgeleri</string>
+    <string name="volte_icon_vo">Yalnızca Vo Simgesi</string>
+    <string name="volte_icon_volte">VoLTE Simgesi</string>
+    <string name="volte_icon_oos">OOS VoLTE Simgesi</string>
+    <string name="volte_icon_hd">HD Simgesi</string>
+    <string name="volte_icon_miui">MIUI 11 Simgesi</string>
+    <string name="volte_icon_emui">EMIUI Simgesi</string>
+    <string name="volte_icon_margaritov">HD Dolu Simgesi</string>
+    <string name="volte_icon_margaritov2">Margaritov VoLTE Simgesi</string>
+    <string name="volte_icon_vivo">Vivo Simgesi</string>
+    <string name="volte_icon_aris">Aris Simgesi</string>
+    <string name="volte_icon_beast">Aww Simgesi</string>
+    <string name="volte_icon_ios">Ios Simgesi</string>
+    <string name="volte_icon_lr">Livenge Simgesi</string>
+    <string name="volte_icon_realme">Realme Simgesi</string>
+    <string name="volte_icon_typeA">Mild Simgesi</string>
     <string name="volte_icon_typeB">Filth Icon</string>
     <string name="volte_icon_typeC">Mue Icon</string>
     <string name="volte_icon_typeD">Sus Icon</string>
@@ -397,10 +397,10 @@
     <string name="power_menu_items_title">Power menu items</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_bug_report_devoptions_unavailable">Bug reporting is disabled as development settings aren\'t enabled</string>
+    <string name="power_menu_airplane_title">Uçak modu</string>
+    <string name="power_menu_users_title">Kullanıcı değiştirici</string>
+    <string name="power_menu_bug_report_title">Hata raporu</string>
+    <string name="power_menu_bug_report_devoptions_unavailable">Geliştirici ayarları etkinleştirilemediğinden hata raporlama devre dışı bırakıldı</string>
     <string name="power_menu_bug_report_unavailable_for_user">Bug reporting is disabled for non-primary users.</string>
     <string name="power_menu_emergency_title">Emergency</string>
     <string name="power_menu_devicecontrols_title">Device controls</string>
