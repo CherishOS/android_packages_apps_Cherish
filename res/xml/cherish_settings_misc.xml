@@ -48,6 +48,12 @@
             android:summary="@string/miscellaneous_app_downgrade_summary"
             android:defaultValue="false" />
 
+          <com.cherish.settings.preferences.SystemSettingSwitchPreference
+               android:key="hide_screen_capture_status"
+               android:title="@string/hide_screen_capture_status_title"
+               android:summary="@string/hide_screen_capture_status_summary"
+               android:defaultValue="false"/>
+
         <PreferenceCategory
          android:key="miscellaneous_spoofing_category"
          android:title="@string/miscellaneous_spoofing_category">
