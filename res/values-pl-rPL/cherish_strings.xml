@@ -24,7 +24,7 @@
     <string name="misc_summary">Tryb gry, regulacja głośności</string>
     <string name="animations_title">Animacje</string>
     <string name="animations_summary">Animacje systemowe</string>
-    <string name="ambient_display_category">Ambient display</string>
+    <string name="ambient_display_category">Ekran dostosowany do otoczenia</string>
     <string name="powermenu_title">Menu zasilania</string>
     <string name="powermenu_summary">Zaawansowany restart, przezroczystość menu zasilania</string>
     <string name="theme_title">Motywy</string>
@@ -45,7 +45,7 @@
     <string name="navbar_title">Pasek nawigacyjny</string>
     <string name="volume_keys_title">Klawisze głośności</string>
     <!-- General strings -->
-    <string name="ok">OK</string>
+    <string name="ok">Dobrze</string>
     <string name="reset">Resetuj</string>
     <string name="cancel">Anuluj</string>
     <string name="save">Zapisz</string>
