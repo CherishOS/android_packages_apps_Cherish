@@ -24,7 +24,7 @@
     <string name="misc_summary">ゲームモード、音量コントロール</string>
     <string name="animations_title">アニメーション</string>
     <string name="animations_summary">システムアニメーション</string>
-    <string name="ambient_display_category">Ambient display</string>
+    <string name="ambient_display_category">アンビエント表示</string>
     <string name="powermenu_title">電源メニュー</string>
     <string name="powermenu_summary">高度な再起動、電源メニューの不透明度</string>
     <string name="theme_title">テーマ</string>
@@ -50,7 +50,7 @@
     <string name="cancel">中止</string>
     <string name="save">保存</string>
     <string name="default_string">既定</string>
-    <string name="enable">Enable</string>
+    <string name="enable">有効</string>
     <string name="disabled">無効</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">色の選択</string>
@@ -151,7 +151,7 @@
     <string name="quick_pulldown_left">ステータスバー左端をプルダウン</string>
     <string name="quick_pulldown_always">ステータスバーを引き下げたら常にクイック設定を開く</string>
     <!-- Pif -->
-    <string name="pif_title">Play integrity fix</string>
+    <string name="pif_title">Play Integrity Fix</string>
     <string name="pif_summary">View current values used to spoof GMS</string>
     <string name="pif_spoof_title">Enable ROM-side Play integrity fix</string>
     <string name="pif_spoof_summary">Disable to allow module usage with custom fingerprint values</string>
@@ -204,23 +204,23 @@
     <string name="roaming_indicator_icon_summary">ローミング中に電波アイコンにローミング表示をする</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_style_title">Select VoLTE/HD Icon</string>
-    <string name="volte_icon_off">Off</string>
-    <string name="volte_icon_dynamic">Dynamic VOLTE Icons</string>
-    <string name="volte_icon_vo">Vo Only Icon</string>
-    <string name="volte_icon_volte">VoLTE Icon</string>
-    <string name="volte_icon_oos">VoLTE OOS Icon</string>
-    <string name="volte_icon_hd">HD Icon</string>
-    <string name="volte_icon_miui">MIUI 11 Icon</string>
-    <string name="volte_icon_emui">EMUI Icon</string>
-    <string name="volte_icon_margaritov">HD Filled Icon</string>
-    <string name="volte_icon_margaritov2">Margaritov VoLTE Icon</string>
-    <string name="volte_icon_vivo">Vivo Icon</string>
-    <string name="volte_icon_aris">Aris Icon</string>
-    <string name="volte_icon_beast">Aww Icon</string>
-    <string name="volte_icon_ios">Ios Icon</string>
-    <string name="volte_icon_lr">Livenge Icon</string>
-    <string name="volte_icon_realme">Realme Icon</string>
-    <string name="volte_icon_typeA">Mild Icon</string>
+    <string name="volte_icon_off">OFF</string>
+    <string name="volte_icon_dynamic">ダイナミック VoLTE アイコン</string>
+    <string name="volte_icon_vo">Vo のみのアイコン</string>
+    <string name="volte_icon_volte">VoLTE アイコン</string>
+    <string name="volte_icon_oos">VoLTE OOS アイコン</string>
+    <string name="volte_icon_hd">HD アイコン</string>
+    <string name="volte_icon_miui">MIUI 11 アイコン</string>
+    <string name="volte_icon_emui">EMUI アイコン</string>
+    <string name="volte_icon_margaritov">HD Filled アイコン</string>
+    <string name="volte_icon_margaritov2">Margaritov VoLTE アイコン</string>
+    <string name="volte_icon_vivo">Vivo アイコン</string>
+    <string name="volte_icon_aris">Aris アイコン</string>
+    <string name="volte_icon_beast">Aww アイコン</string>
+    <string name="volte_icon_ios">iOS アイコン</string>
+    <string name="volte_icon_lr">Livenge アイコン</string>
+    <string name="volte_icon_realme">Realme アイコン</string>
+    <string name="volte_icon_typeA">Mild アイコン</string>
     <string name="volte_icon_typeB">Filth Icon</string>
     <string name="volte_icon_typeC">Mue Icon</string>
     <string name="volte_icon_typeD">Sus Icon</string>
@@ -629,31 +629,31 @@
     <!-- Toast Animation -->
     <string name="toast_animation_title">Toast animation</string>
     <string name="toast_none_animation">None</string>
-    <string name="toast_default_animation">Default</string>
-    <string name="toast_fade_animation">Fade</string>
+    <string name="toast_default_animation">デフォルト</string>
+    <string name="toast_fade_animation">フェード</string>
     <string name="toast_SlideRight_animation">Slide right</string>
     <string name="toast_SlideLeft_animation">Slide left</string>
     <string name="toast_Xylon_animation">Xylon</string>
     <string name="toast_Toko_animation">Toko</string>
     <string name="toast_Tn_animation">Tn</string>
     <string name="toast_Honami_animation">Honami</string>
-    <string name="toast_FastFade_animation">Fast fade</string>
-    <string name="toast_GrowFade_animation">Grow fade</string>
-    <string name="toast_GrowFadeCenter_animation">Grow fade center</string>
-    <string name="toast_GrowFadeBottom_animation">Grow fade bottom</string>
-    <string name="toast_Translucent_animation">Translucent</string>
+    <string name="toast_FastFade_animation">高速フェード</string>
+    <string name="toast_GrowFade_animation">グローフェード</string>
+    <string name="toast_GrowFadeCenter_animation">中央のグローフェード</string>
+    <string name="toast_GrowFadeBottom_animation">下部のグローフェード</string>
+    <string name="toast_Translucent_animation">透過</string>
     <string name="toast_SlideLeftRight_animation">Slide left to right</string>
     <string name="toast_SlideRightLeft_animation">Slide right to left</string>
-    <string name="toast_rotate_animation">Rotate</string>
+    <string name="toast_rotate_animation">回転</string>
     <!-- Island Notification -->
-    <string name="island_notification_title">Island notification</string>
-    <string name="island_notification_summary">Display heads-up notification in Dynamic Island style</string>
-    <string name="island_notification_now_playing_title">Now playing</string>
-    <string name="island_notification_now_playing_summary">Display currently playing song in Dynamic Island style</string>
+    <string name="island_notification_title">Island 通知</string>
+    <string name="island_notification_summary">Dynamic Island のスタイルでヘッドアップ通知を表示します</string>
+    <string name="island_notification_now_playing_title">再生中</string>
+    <string name="island_notification_now_playing_summary">現在再生中の曲を Dynamic Island のスタイルで表示します</string>
     <string name="island_notification_footer_text">        The Island notification feature, inspired by iOS\'s Dynamic Island, transforms Android\'s heads-up notifications into quick-access and compact notification utility.\n\nIsland Quick Access Controls includes the following features:\n1. Tap island notification to quick answer phone calls.\n2. Long press island notification to reject phone calls.\n3. Long press island notification to expand the island notification preview.
     </string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_ui_style_title">QS tiles style</string>
+    <string name="qs_tile_ui_style_title">クイック設定タイルのスタイル</string>
     <string name="qs_tile_ui_style_a11_circle">Circle tiles</string>
     <string name="qs_tile_ui_style_a11_square">Square tiles</string>
     <string name="qs_tile_ui_style_a11_mix">Circle &amp; Square tiles</string>
@@ -692,14 +692,14 @@
     <string name="ambient_edge_light_title">Edge lighting</string>
     <string name="ambient_edge_light_enable_title">Enable edge lighting</string>
     <string name="ambient_edge_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="ambient_edge_light_color_mode_category_title">Color</string>
-    <string name="ambient_edge_light_color_mode_auto">Auto</string>
-    <string name="ambient_edge_light_color_mode_app">App color</string>
-    <string name="ambient_edge_light_color_mode_manual">Manual</string>
+    <string name="ambient_edge_light_color_mode_category_title">色</string>
+    <string name="ambient_edge_light_color_mode_auto">自動</string>
+    <string name="ambient_edge_light_color_mode_app">アプリの色</string>
+    <string name="ambient_edge_light_color_mode_manual">手動</string>
     <string name="ambient_edge_light_color_mode_auto_summary">Set edge light color to the system color</string>
     <string name="ambient_edge_light_color_mode_app_summary">Set edge light color to the app color</string>
     <string name="ambient_edge_light_color_mode_manual_summary">Pick a color manualy</string>
-    <string name="ambient_edge_light_advanced_category_title">Advanced</string>
+    <string name="ambient_edge_light_advanced_category_title">高度</string>
     <string name="ambient_edge_light_duration_title">Light duration</string>
     <string name="ambient_edge_light_repeat_count_title">Repeat count</string>
     <string name="ambient_edge_light_width_title">Light width</string>
@@ -712,5 +712,5 @@
     <!-- Volume Row Percent -->
     <string name="volume_show_volume_percent_title">Show Volume Row Percentage</string>
     <string name="volume_show_volume_percent_summary">Show volume row progress percentage</string>
-    <string name="volume_dialog_timeout_title">Volume panel timeout</string>
+    <string name="volume_dialog_timeout_title">音量パネルのタイムアウト</string>
 </resources>
