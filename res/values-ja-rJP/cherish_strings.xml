@@ -180,7 +180,7 @@
     <string name="wakeup_when_plugged_unplugged_summary">電源ケーブルの抜き差し時にスリープを解除します</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">ロック画面の充電情報</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">充電時にロック画面上に接続した充電器の最大電流と電圧、バッテリー温度の情報を表示します</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">通話中の振動オプション</string>
     <string name="incall_vibrate_connect_title">接続時に振動</string>
@@ -400,12 +400,12 @@
     <string name="power_menu_airplane_title">機内モード</string>
     <string name="power_menu_users_title">ユーザーの切り替え</string>
     <string name="power_menu_bug_report_title">バグレポート</string>
-    <string name="power_menu_bug_report_devoptions_unavailable">Bug reporting is disabled as development settings aren\'t enabled</string>
-    <string name="power_menu_bug_report_unavailable_for_user">Bug reporting is disabled for non-primary users.</string>
+    <string name="power_menu_bug_report_devoptions_unavailable">開発者向けオプションが有効でないためバグレポートは無効化されています</string>
+    <string name="power_menu_bug_report_unavailable_for_user">プライマリユーザー以外はバグレポートは無効化されています</string>
     <string name="power_menu_emergency_title">緊急通報</string>
     <string name="power_menu_devicecontrols_title">デバイスコントロール</string>
     <string name="power_menu_advanced_restart_title">高度な再起動</string>
-    <string name="power_menu_advanced_restart_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
+    <string name="power_menu_advanced_restart_summary">ロック解除時に｢リカバリー｣と｢ブートローダー｣へ再起動するための項目を電源メニューに追加します</string>
     <string name="power_menu_emergency_affordance_enabled">緊急時アフォーダンスが有効です</string>
     <!-- Text shown for the title of the restart systemui option -->
     <string name="power_menu_restart_systemui_title">システム UI を再起動</string>
@@ -541,8 +541,8 @@
     <string name="volbtn_music_controls_summary">画面消灯時に音量ボタンを長押しして音楽を操作します</string>
     <string name="volbtn_cursor_control_title">キーボードカーソルのコントロール</string>
     <string name="volbtn_cursor_control_off">無効</string>
-    <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <string name="volbtn_cursor_control_on">音量ボタン上下でカーソルを左右に移動</string>
+    <string name="volbtn_cursor_control_on_reverse">音量ボタン上下でカーソルを右左に移動</string>
     <string name="power_end_call_title">通話を終了</string>
     <string name="power_end_call_summary">電源ボタンを押して現在の通話を終了します</string>
     <string name="swap_volume_buttons_title">再配置</string>
@@ -558,7 +558,7 @@
     <string name="navigation_bar_category">ナビゲーションバー</string>
     <string name="navigation_bar_invert_layout_title">レイアウトの反転</string>
     <string name="navigation_bar_invert_layout_summary">ナビゲーションバーや IME の切り替えと言ったその他の項目のレイアウトを反転させます</string>
-    <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
+    <string name="navigation_bar_left_summary">横方向でナビゲーションバーを画面の左側に配置します</string>
     <string name="navigation_bar_arrow_keys_title">入力中に矢印キーを表示</string>
     <string name="navigation_bar_arrow_keys_summary">入力中は左右のカーソルボタンをナビゲーションバーに表示する</string>
     <string name="navigation_bar_back_long_press_title">戻る長押しのアクション</string>
@@ -571,7 +571,7 @@
     <!-- Key backlight -->
     <string name="button_backlight_title">バックライト</string>
     <string name="button_backlight_enabled">ボタンのイルミネーション</string>
-    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
+    <string name="button_backlight_only_when_pressed_title">ボタンが押されているときのみ点灯</string>
     <string name="keyboard_backlight_enabled">キーボードのイルミネーション</string>
     <string name="button_backlight_seekbar_title">ボタンの明るさ</string>
     <string name="keyboard_backlight_seekbar_title">キーボードの明るさ</string>
@@ -663,14 +663,14 @@
     <string name="qs_header_daylight_pack_title">ヘッダー画像コレクション</string>
     <string name="qs_header_shadow_title">ヘッダー画像の影</string>
     <string name="qs_header_shadow_summary">明るい画像での視認性を高めます</string>
-    <string name="qs_header_static_provider_title">Static image</string>
+    <string name="qs_header_static_provider_title">静的画像</string>
     <string name="qs_header_daylight_provider_title">画像コレクション</string>
     <string name="qs_header_file_provider_title">カスタム画像</string>
     <string name="qs_header_provider_title">ヘッダーのプロバイダー</string>
     <string name="qs_header_browse_title">インストール済みのヘッダーを参照</string>
-    <string name="qs_header_browse_summary">Browse all available header collections</string>
+    <string name="qs_header_browse_summary">利用可能なすべてのヘッダーコレクションを表示します</string>
     <string name="qs_header_pick_title">ヘッダー画像を選択</string>
-    <string name="qs_header_pick_summary">Select an image to use for static mode</string>
+    <string name="qs_header_pick_summary">静的モードで使用する画像を選択してください</string>
     <string name="qs_header_file_select_title">画像を選択</string>
     <string name="qs_header_file_select_summary">カスタム画像を選択します</string>
     <string name="qs_header_needs_gallery">ギャラリーアプリをインストールしてください！</string>
