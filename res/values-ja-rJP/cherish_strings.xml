@@ -685,24 +685,24 @@
     <string name="notification_heads_up_timeout_title">タイムアウト</string>
     <string name="notification_heads_up_timeout_summary">ヘッドアップ通知を表示する時間を指定します</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Less boring</string>
-    <string name="less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
+    <string name="less_boring_heads_up_title">通知の制限</string>
+    <string name="less_boring_heads_up_summary">アラーム、電話、メッセージアプリからの通知だけをポップアップ表示します</string>
     <!-- Ambient edge lighting -->
-    <string name="ambient_edge_light_action_title">Ambient edge lighting</string>
-    <string name="ambient_edge_light_title">Edge lighting</string>
-    <string name="ambient_edge_light_enable_title">Enable edge lighting</string>
-    <string name="ambient_edge_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="ambient_edge_light_action_title">アンビエントエッジライト</string>
+    <string name="ambient_edge_light_title">エッジライト</string>
+    <string name="ambient_edge_light_enable_title">エッジライトを有効化する</string>
+    <string name="ambient_edge_light_summary">通知の点滅で画面の両端をライトアップします</string>
     <string name="ambient_edge_light_color_mode_category_title">色</string>
     <string name="ambient_edge_light_color_mode_auto">自動</string>
     <string name="ambient_edge_light_color_mode_app">アプリの色</string>
     <string name="ambient_edge_light_color_mode_manual">手動</string>
-    <string name="ambient_edge_light_color_mode_auto_summary">Set edge light color to the system color</string>
-    <string name="ambient_edge_light_color_mode_app_summary">Set edge light color to the app color</string>
+    <string name="ambient_edge_light_color_mode_auto_summary">エッジライトの色をシステムカラーに設定します</string>
+    <string name="ambient_edge_light_color_mode_app_summary">エッジライトの色をアプリカラーに設定します</string>
     <string name="ambient_edge_light_color_mode_manual_summary">手動で色を選択</string>
     <string name="ambient_edge_light_advanced_category_title">高度</string>
-    <string name="ambient_edge_light_duration_title">Light duration</string>
+    <string name="ambient_edge_light_duration_title">ライトの点灯時間</string>
     <string name="ambient_edge_light_repeat_count_title">リピート数</string>
-    <string name="ambient_edge_light_width_title">Light width</string>
+    <string name="ambient_edge_light_width_title">ライトの幅</string>
     <!-- Depth Wallpaper -->
     <string name="dw_file_header_select_title">奥行きのある壁紙の件名を選択</string>
     <string name="dw_file_header_select_summary">奥行きのある壁紙の件名をストレージから選択します。</string>
