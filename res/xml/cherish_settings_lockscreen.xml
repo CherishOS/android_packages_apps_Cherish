@@ -43,6 +43,12 @@
             android:summary="@string/enable_fingerprint_ripple_effect_summary"
             android:defaultValue="true" />
 
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_show_carrier"
+        android:title="@string/lockscreen_show_carrier_title"
+        android:summary="@string/lockscreen_show_carrier_summary"
+        android:defaultValue="true" />
+
      <Preference
         android:key="pulse_settings"
         android:title="@string/pulse_settings"

@@ -738,4 +738,8 @@
     <string name="status_bar_gestures_category">Gestures</string>
     <string name="status_bar_brightness_control_title">Brightness control</string>
     <string name="status_bar_brightness_control_summary">Adjust brightness by swiping across the status bar</string>
+
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Carrier name</string>
+    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
 </resources>
