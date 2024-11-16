@@ -42,6 +42,11 @@
             android:summary="@string/qs_compact_media_player_mode_summary"
             android:defaultValue="false" />
 
+	   <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="secure_lockscreen_qs_disabled"
+            android:title="@string/qs_lock_screen_secure_title"
+            android:summary="@string/qs_lock_screen_secure_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
 </PreferenceScreen>
