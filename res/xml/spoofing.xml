@@ -98,5 +98,12 @@
             android:title="@string/spoofing_snap_title"
             android:summary="@string/spoofing_snap_summary"
             android:defaultValue="false" />
+
+        <Preference
+            android:key="hide_applist_setting"
+            android:title="@string/hide_applist_title"
+            android:summary="@string/hide_applist_summary"
+            android:fragment="com.cherish.settings.fragments.HideAppListSettings" />
+
     </PreferenceCategory>
 </PreferenceScreen>

@@ -630,4 +630,10 @@
     <!-- Status bar Wi-Fi standard icon -->
     <string name="status_bar_wifi_standard_icon_title">Wi-Fi standard</string>
     <string name="status_bar_wifi_standard_icon_summary">Display Wi-Fi standard next the Wi-Fi icon</string>
+
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Hide applist</string>
+    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
+    <string name="menu_show_overlay">Show overlay</string>
+    <string name="menu_hide_overlay">Hide overlay</string>
 </resources>
