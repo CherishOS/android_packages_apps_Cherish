@@ -707,4 +707,11 @@
     <string name="custom_timeout_summary_4hours">4 hours</string>
     <string name="custom_timeout_summary_8hours">8 hours</string>
 
+    <!-- QS Header Clock Styles -->
+    <string name="qs_header_clock_style_title">QS Header clock style</string>
+    <string name="qs_header_style1">Chip</string>
+    <string name="qs_header_style2">Oxygen</string>
+    <string name="qs_header_style3">Analog</string>
+    <string name="qs_header_style4">Simple</string>
+
 </resources>

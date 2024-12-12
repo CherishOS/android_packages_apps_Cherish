@@ -28,6 +28,14 @@
         android:entryValues="@array/quick_pulldown_values"
         android:defaultValue="0" />
 
+        <com.cherish.settings.preferences.SystemSettingListPreference
+             android:key="qs_header_clock_style"
+             android:title="@string/qs_header_clock_style_title"
+             android:entries="@array/qs_header_clock_style_entries"
+             android:entryValues="@array/qs_header_clock_style_values"
+             android:summary="%s"
+             android:defaultValue="0" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
