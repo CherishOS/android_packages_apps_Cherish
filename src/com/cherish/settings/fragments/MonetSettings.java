@@ -24,7 +24,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.dashboard.DashboardFragment;
@@ -78,11 +78,11 @@ public class MonetSettings extends DashboardFragment implements
 
     private ListPreference mColorSourcePref;
     private ColorPickerPreference mAccentColorPref;
-    private SwitchPreference mAccentBackgroundPref;
+    private SwitchPreferenceCompat mAccentBackgroundPref;
     private ColorPickerPreference mBgColorPref;
     private CustomSeekBarPreference mLuminancePref;
     private CustomSeekBarPreference mChromaPref;
-    private SwitchPreference mTintBackgroundPref;
+    private SwitchPreferenceCompat mTintBackgroundPref;
     private CustomSeekBarPreference mShadeBlurRadiusPref;
     private SwitchPreferenceCompat mNotificationRowTransparencyPref;
     private SwitchPreferenceCompat mDualToneShadePref;
