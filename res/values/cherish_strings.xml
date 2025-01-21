@@ -750,4 +750,8 @@
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Less boring</string>
     <string name="less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
+
+    <!-- Heads-up -->
+    <string name="compact_heads_up_notifications_enabled_title">Compact heads-up</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Display notifications in compact size</string>
 </resources>
