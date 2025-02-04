@@ -34,4 +34,18 @@
         android:key="pulse_settings"
         android:title="@string/pulse_settings"
         android:fragment="com.cherish.settings.fragments.PulseSettings" />
+
+     <com.cherish.settings.preferences.SystemSettingSwitchPreference
+             android:key="ls_media_art_enabled"
+             android:title="@string/media_art_title"
+             android:summary="@string/media_art_summary"
+             android:defaultValue="false" />
+ 
+         <com.cherish.settings.preferences.SystemSettingListPreference
+             android:key="ls_media_art_filter"
+             android:title="@string/lockscreen_albumart_filter_title"
+             android:entries="@array/lockscreen_albumart_filter_entries"
+             android:entryValues="@array/lockscreen_albumart_filter_values"
+             android:dependency="ls_media_art_enabled"
+             android:defaultValue="0" />
 </PreferenceScreen>

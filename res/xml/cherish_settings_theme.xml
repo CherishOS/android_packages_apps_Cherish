@@ -64,4 +64,11 @@
         android:fragment="com.cherish.settings.fragments.ui.WifiIcons"/>
 
     </PreferenceCategory>
+
+    <!-- Wallpaper Settings -->
+        <Preference
+            android:key="wallpaper_settings"
+            android:title="@string/wallpaper_settings_title"
+            android:summary="@string/wallpaper_settings_summary"
+            android:fragment="com.cherish.settings.fragments.Wallpaper" />
 </PreferenceScreen>
