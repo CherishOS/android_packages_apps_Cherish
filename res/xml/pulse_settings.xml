@@ -20,10 +20,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/pulse_settings" >
 
-    <SwitchPreferenceCompat
+    <!-- <SwitchPreferenceCompat
         android:key="navbar_pulse_enabled"
         android:title="@string/show_navbar_pulse_title"
-        android:summary="@string/show_navbar_pulse_summary"/>
+        android:summary="@string/show_navbar_pulse_summary"/> -->
 
     <SwitchPreferenceCompat
         android:key="lockscreen_pulse_enabled"
