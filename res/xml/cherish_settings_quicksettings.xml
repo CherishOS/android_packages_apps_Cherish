@@ -54,6 +54,17 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
+	<PreferenceCategory
+        android:title="@string/qs_footer_category">
+
+        <com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_data_usage"
+            android:title="@string/qs_footer_datausage_title"
+            android:summary="@string/qs_footer_datausage_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:key="quick_settings_interface_category"
         android:title="@string/quick_settings_interface_category">
