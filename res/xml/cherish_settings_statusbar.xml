@@ -46,6 +46,12 @@
             android:defaultValue="false" />
 
         <Preference
+        android:key="ongoing_progress_settings"
+        android:title="@string/ongoing_progress_settings_title"
+        android:summary="@string/ongoing_progress_settings_summary"
+        android:fragment="com.cherish.settings.fragments.OngoingProgressBar" />
+
+        <Preference
         android:key="clock"
         android:title="@string/status_bar_clock_title"
         android:summary="@string/status_bar_clock_summary"
