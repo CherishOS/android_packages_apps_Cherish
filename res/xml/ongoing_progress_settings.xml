@@ -30,7 +30,7 @@
          android:key="show_media_progress"
          android:title="@string/show_media_progress_title"
          android:summary="@string/show_media_progress_summary"
-         android:defaultValue="true" />
+         android:defaultValue="false" />
  
      <com.cherish.settings.preferences.SystemSettingSeekBarPreference
          android:key="progress_bar_opacity"
