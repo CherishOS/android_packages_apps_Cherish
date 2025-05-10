@@ -562,6 +562,8 @@
      <string name="ongoing_progress_settings_summary">Statusbar action chip options</string>
      <string name="ongoing_action_chip_title">Ongoing action chip</string>
      <string name="ongoing_action_chip_summary">Show progress indicator in status bar for ongoing actions like downloads</string>
+     <string name="compact_progress_mode_title">Compact Progress Indicator</string>
+     <string name="compact_progress_mode_summary">Use a compact circular indicator for ongoing actions</string>
      <string name="show_media_progress_title">Show media progress</string>
      <string name="show_media_progress_summary">"Display media playback progress in the status bar</string>
      <string name="progress_footer_text">
