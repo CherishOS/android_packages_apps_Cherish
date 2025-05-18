@@ -729,4 +729,8 @@
     <!-- Unlimit screenrecord filesize -->
     <string name="miscellaneous_unlimit_screenrecord_title">Unlimit screenrecord</string>
     <string name="miscellaneous_unlimit_screenrecord_summary">Remove the 15GiB file size limit\nMay result in a larger than needed output file</string>
+
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Disable storage encryption status</string>
+    <string name="spoof_storage_encryption_status_summary">Prevent apps from not operating due to unencrypted storage</string>
 </resources>

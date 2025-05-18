@@ -66,6 +66,12 @@
                android:summary="@string/miscellaneous_unlimit_screenrecord_summary"
                android:defaultValue="false" />
 
+          <com.cherish.settings.preferences.SystemSettingSwitchPreference
+               android:key="spoof_storage_encryption_status"
+               android:title="@string/spoof_storage_encryption_status_title"
+               android:summary="@string/spoof_storage_encryption_status_summary"
+               android:defaultValue="false"/>
+
         <PreferenceCategory
          android:key="miscellaneous_spoofing_category"
          android:title="@string/miscellaneous_spoofing_category">
