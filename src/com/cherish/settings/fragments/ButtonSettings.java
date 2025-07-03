@@ -142,7 +142,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
     private ListPreference mNavigationHomeLongPressAction;
     private ListPreference mNavigationHomeDoubleTapAction;
     private ListPreference mNavigationAppSwitchLongPressAction;
-    private ListPreference mEdgeLongSwipeAction;
+    // private ListPreference mEdgeLongSwipeAction;
     private SwitchPreference mPowerEndCall;
     private SwitchPreference mHomeAnswerCall;
     private SwitchPreference mTorchLongPressPowerGesture;
@@ -228,9 +228,9 @@ public class ButtonSettings extends SettingsPreferenceFragment
         Action appSwitchLongPressAction = Action.fromSettings(resolver,
                 Settings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION,
                 defaultAppSwitchLongPressAction);
-        Action edgeLongSwipeAction = Action.fromSettings(resolver,
-                Settings.System.KEY_EDGE_LONG_SWIPE_ACTION,
-                Action.NOTHING);
+        // Action edgeLongSwipeAction = Action.fromSettings(resolver,
+        //         Settings.System.KEY_EDGE_LONG_SWIPE_ACTION,
+        //         Action.NOTHING);
 
         // Navigation bar arrow keys while typing
         mNavigationArrowKeys = findPreference(KEY_NAVIGATION_ARROW_KEYS);
@@ -252,7 +252,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
                 appSwitchLongPressAction);
 
         // Edge long swipe gesture
-        mEdgeLongSwipeAction = initList(KEY_EDGE_LONG_SWIPE, edgeLongSwipeAction);
+        // mEdgeLongSwipeAction = initList(KEY_EDGE_LONG_SWIPE, edgeLongSwipeAction);
 
         // Hardware key disabler
         if (isKeyDisablerSupported(getActivity())) {
@@ -513,8 +513,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
             mNavigationAppSwitchLongPressAction.setEntries(actionEntriesGo);
             mNavigationAppSwitchLongPressAction.setEntryValues(actionValuesGo);
 
-            mEdgeLongSwipeAction.setEntries(actionEntriesGo);
-            mEdgeLongSwipeAction.setEntryValues(actionValuesGo);
+            // mEdgeLongSwipeAction.setEntries(actionEntriesGo);
+            // mEdgeLongSwipeAction.setEntryValues(actionValuesGo);
         }
     }
 
@@ -616,10 +616,10 @@ public class ButtonSettings extends SettingsPreferenceFragment
             handleSystemListChange(mVolumeKeyCursorControl, newValue,
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL);
             return true;
-        } else if (preference == mEdgeLongSwipeAction) {
-            handleListChange(mEdgeLongSwipeAction, newValue,
-                    Settings.System.KEY_EDGE_LONG_SWIPE_ACTION);
-            return true;
+        // } else if (preference == mEdgeLongSwipeAction) {
+        //     handleListChange(mEdgeLongSwipeAction, newValue,
+        //             Settings.System.KEY_EDGE_LONG_SWIPE_ACTION);
+        //     return true;
         } else if (preference == mSwapCapacitiveKeys) {
             mHardware.set(LineageHardwareManager.FEATURE_KEY_SWAP, (Boolean) newValue);
             return true;
@@ -667,7 +667,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
         if (mNavigationPreferencesCat != null) {
             if (force || navbarEnabled) {
                 if (DeviceUtils.isEdgeToEdgeEnabled(getContext())) {
-                    mNavigationPreferencesCat.addPreference(mEdgeLongSwipeAction);
+                    // mNavigationPreferencesCat.addPreference(mEdgeLongSwipeAction);
 
                     mNavigationPreferencesCat.removePreference(mNavigationArrowKeys);
                     mNavigationPreferencesCat.removePreference(mNavigationBackLongPressAction);
@@ -680,14 +680,14 @@ public class ButtonSettings extends SettingsPreferenceFragment
                     mNavigationPreferencesCat.addPreference(mNavigationHomeDoubleTapAction);
 
                     mNavigationPreferencesCat.removePreference(mNavigationAppSwitchLongPressAction);
-                    mNavigationPreferencesCat.removePreference(mEdgeLongSwipeAction);
+                    // mNavigationPreferencesCat.removePreference(mEdgeLongSwipeAction);
                 } else {
                     mNavigationPreferencesCat.addPreference(mNavigationBackLongPressAction);
                     mNavigationPreferencesCat.addPreference(mNavigationHomeLongPressAction);
                     mNavigationPreferencesCat.addPreference(mNavigationHomeDoubleTapAction);
                     mNavigationPreferencesCat.addPreference(mNavigationAppSwitchLongPressAction);
 
-                    mNavigationPreferencesCat.removePreference(mEdgeLongSwipeAction);
+                    // mNavigationPreferencesCat.removePreference(mEdgeLongSwipeAction);
                 }
             }
         }
