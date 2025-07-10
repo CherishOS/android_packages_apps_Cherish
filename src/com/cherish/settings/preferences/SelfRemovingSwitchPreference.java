@@ -21,13 +21,13 @@ import android.util.AttributeSet;
 
 import androidx.preference.PreferenceDataStore;
 import androidx.preference.PreferenceViewHolder;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 /**
- * A SwitchPreference which can automatically remove itself from the hierarchy
+ * A SwitchPreferenceCompat which can automatically remove itself from the hierarchy
  * based on constraints set in XML.
  */
-public abstract class SelfRemovingSwitchPreference extends SwitchPreference {
+public abstract class SelfRemovingSwitchPreference extends SwitchPreferenceCompat {
 
     private final ConstraintsHelper mConstraints;
 

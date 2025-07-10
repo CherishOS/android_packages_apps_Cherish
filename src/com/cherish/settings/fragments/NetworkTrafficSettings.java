@@ -26,7 +26,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -44,8 +44,8 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
     private ListPreference mNetTrafficLocation;
     private ListPreference mNetTrafficMode;
     private ListPreference mNetTrafficUnits;
-    private SwitchPreference mNetTrafficAutohide;
-    private SwitchPreference mNetTrafficHideArrow;
+    private SwitchPreferenceCompat mNetTrafficAutohide;
+    private SwitchPreferenceCompat mNetTrafficHideArrow;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -62,11 +62,11 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
         mNetTrafficLocation.setOnPreferenceChangeListener(this);
         mNetTrafficMode = (ListPreference)
                 findPreference(Settings.System.NETWORK_TRAFFIC_MODE);
-        mNetTrafficAutohide = (SwitchPreference)
+        mNetTrafficAutohide = (SwitchPreferenceCompat)
                 findPreference(Settings.System.NETWORK_TRAFFIC_AUTOHIDE);
         mNetTrafficUnits = (ListPreference)
                 findPreference(Settings.System.NETWORK_TRAFFIC_UNITS);
-        mNetTrafficHideArrow = (SwitchPreference)
+        mNetTrafficHideArrow = (SwitchPreferenceCompat)
                 findPreference(Settings.System.NETWORK_TRAFFIC_HIDEARROW);
 
         int location = Settings.System.getIntForUser(resolver,

@@ -44,7 +44,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -128,26 +128,26 @@ public class ButtonSettings extends SettingsPreferenceFragment
     private ListPreference mAssistLongPressAction;
     private ListPreference mAppSwitchPressAction;
     private ListPreference mAppSwitchLongPressAction;
-    private SwitchPreference mCameraWakeScreen;
-    private SwitchPreference mCameraSleepOnRelease;
-    private SwitchPreference mCameraLaunch;
+    private SwitchPreferenceCompat mCameraWakeScreen;
+    private SwitchPreferenceCompat mCameraSleepOnRelease;
+    private SwitchPreferenceCompat mCameraLaunch;
     private ListPreference mVolumeKeyCursorControl;
-    private SwitchPreference mVolumeWakeScreen;
-    private SwitchPreference mVolumeMusicControls;
-    private SwitchPreference mSwapVolumeButtons;
-    private SwitchPreference mVolumePanelOnLeft;
-    private SwitchPreference mDisableNavigationKeys;
-    private SwitchPreference mNavigationArrowKeys;
+    private SwitchPreferenceCompat mVolumeWakeScreen;
+    private SwitchPreferenceCompat mVolumeMusicControls;
+    private SwitchPreferenceCompat mSwapVolumeButtons;
+    private SwitchPreferenceCompat mVolumePanelOnLeft;
+    private SwitchPreferenceCompat mDisableNavigationKeys;
+    private SwitchPreferenceCompat mNavigationArrowKeys;
     private ListPreference mNavigationBackLongPressAction;
     private ListPreference mNavigationHomeLongPressAction;
     private ListPreference mNavigationHomeDoubleTapAction;
     private ListPreference mNavigationAppSwitchLongPressAction;
     // private ListPreference mEdgeLongSwipeAction;
-    private SwitchPreference mPowerEndCall;
-    private SwitchPreference mHomeAnswerCall;
-    private SwitchPreference mTorchLongPressPowerGesture;
+    private SwitchPreferenceCompat mPowerEndCall;
+    private SwitchPreferenceCompat mHomeAnswerCall;
+    private SwitchPreferenceCompat mTorchLongPressPowerGesture;
     private ListPreference mTorchLongPressPowerTimeout;
-    private SwitchPreference mSwapCapacitiveKeys;
+    private SwitchPreferenceCompat mSwapCapacitiveKeys;
 
     private PreferenceCategory mNavigationPreferencesCat;
 
