@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2016-2018 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,39 +13,40 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package com.cherish.settings.preferences;
 
 import android.content.Context;
+import android.provider.Settings;
+import android.os.UserHandle;
 import android.util.AttributeSet;
 
-import androidx.preference.SwitchPreference;
-
-public class SecureSettingSwitchPreference extends SwitchPreference {
+public class SecureSettingSwitchPreference extends SelfRemovingSwitchPreference {
 
     public SecureSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
     public SecureSettingSwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
     public SecureSettingSwitchPreference(Context context) {
         super(context);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
     @Override
-    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
-        // This is what default TwoStatePreference implementation is doing without respecting
-        // real default value:
-        //setChecked(restoreValue ? getPersistedBoolean(mChecked)
-        //        : (Boolean) defaultValue);
-        // Instead, we better do
-        setChecked(restoreValue ? getPersistedBoolean((Boolean) defaultValue)
-                : (Boolean) defaultValue);
+    protected boolean isPersisted() {
+        return Settings.Secure.getString(getContext().getContentResolver(), getKey()) != null;
+    }
+
+    @Override
+    protected void putBoolean(String key, boolean value) {
+        Settings.Secure.putIntForUser(getContext().getContentResolver(), key, value ? 1 : 0, UserHandle.USER_CURRENT);
+    }
+
+    @Override
+    protected boolean getBoolean(String key, boolean defaultValue) {
+        return Settings.Secure.getIntForUser(getContext().getContentResolver(),
+                key, defaultValue ? 1 : 0, UserHandle.USER_CURRENT) != 0;
     }
 }
