@@ -17,6 +17,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <Preference
+            android:key="edge_light_settings"
+            android:title="@string/edge_light_title"
+            android:summary="@string/edge_light_summary"
+            android:fragment="com.cherish.settings.fragments.EdgeLightSettings" />
 	
 	<PreferenceCategory
         android:key="incall_vib_options"
