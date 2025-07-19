@@ -45,6 +45,18 @@
             android:summary="@string/statusbar_clock_chip_summary"
             android:defaultValue="false" />
 
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="statusbar_colored_icons"
+            android:title="@string/statusbar_colored_icons_title"
+            android:summary="@string/statusbar_colored_icons_summary"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+	        android:key="statusbar_notif_count"
+	        android:title="@string/statusbar_notif_count_title"
+	        android:summary="@string/statusbar_notif_count_summary"
+	        android:defaultValue="false" />
+
         <Preference
         android:key="ongoing_progress_settings"
         android:title="@string/ongoing_progress_settings_title"
