@@ -72,6 +72,7 @@ public class MonetSettings extends DashboardFragment implements
     private static final String PREF_LUMINANCE_FACTOR = "luminance_factor";
     private static final String PREF_CHROMA_FACTOR = "chroma_factor";
     private static final String PREF_TINT_BACKGROUND = "tint_background";
+    private static final String PREF_SHADE_BLUR_RADIUS = "shade_blur_radius";
 
     private ListPreference mColorSourcePref;
     private ColorPickerPreference mAccentColorPref;
@@ -80,6 +81,7 @@ public class MonetSettings extends DashboardFragment implements
     private CustomSeekBarPreference mLuminancePref;
     private CustomSeekBarPreference mChromaPref;
     private SwitchPreference mTintBackgroundPref;
+    private CustomSeekBarPreference mShadeBlurRadiusPref;
 
     @Override
     protected int getPreferenceScreenResId() {
@@ -97,6 +99,7 @@ public class MonetSettings extends DashboardFragment implements
         mLuminancePref = findPreference(PREF_LUMINANCE_FACTOR);
         mChromaPref = findPreference(PREF_CHROMA_FACTOR);
         mTintBackgroundPref = findPreference(PREF_TINT_BACKGROUND);
+        mShadeBlurRadiusPref = findPreference(PREF_SHADE_BLUR_RADIUS);
 
         updatePreferences();
 
@@ -107,6 +110,7 @@ public class MonetSettings extends DashboardFragment implements
         mLuminancePref.setOnPreferenceChangeListener(this);
         mChromaPref.setOnPreferenceChangeListener(this);
         mTintBackgroundPref.setOnPreferenceChangeListener(this);
+	mShadeBlurRadiusPref.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -116,8 +120,9 @@ public class MonetSettings extends DashboardFragment implements
     }
 
     private void updatePreferences() {
+        final ContentResolver resolver = getActivity().getContentResolver();
         final String overlayPackageJson = Settings.Secure.getStringForUser(
-                getActivity().getContentResolver(),
+                resolver,
                 Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES,
                 UserHandle.USER_CURRENT);
         if (overlayPackageJson != null && !overlayPackageJson.isEmpty()) {
@@ -130,7 +135,6 @@ public class MonetSettings extends DashboardFragment implements
                 final boolean tintBG = object.optInt(OVERLAY_TINT_BACKGROUND, 0) == 1;
                 final float lumin = (float) object.optDouble(OVERLAY_LUMINANCE_FACTOR, 1d);
                 final float chroma = (float) object.optDouble(OVERLAY_CHROMA_FACTOR, 1d);
-                // color handling
                 final String sourceVal = (source == null || source.isEmpty() ||
                         (source.equals(COLOR_SOURCE_HOME) && both)) ? "both" : source;
                 updateListByValue(mColorSourcePref, sourceVal);
@@ -147,7 +151,6 @@ public class MonetSettings extends DashboardFragment implements
                 }
                 mAccentBackgroundPref.setChecked(bgEnabled);
                 mBgColorPref.setEnabled(bgEnabled);
-                // etc
                 int luminV = 0;
                 if (lumin > 1d) luminV = Math.round((lumin - 1f) * 100f);
                 else if (lumin < 1d) luminV = -1 * Math.round((1f - lumin) * 100f);
@@ -159,6 +162,10 @@ public class MonetSettings extends DashboardFragment implements
                 mTintBackgroundPref.setChecked(tintBG);
             } catch (JSONException | IllegalArgumentException ignored) {}
         }
+
+        int currentBlur = Settings.System.getIntForUser(resolver,
+                PREF_SHADE_BLUR_RADIUS, 18, UserHandle.USER_CURRENT);
+        mShadeBlurRadiusPref.setValue(currentBlur);
     }
 
     @Override
@@ -194,6 +201,11 @@ public class MonetSettings extends DashboardFragment implements
         } else if (preference == mTintBackgroundPref) {
             boolean value = (Boolean) newValue;
             setTintBackgroundValue(value);
+            return true;
+        } else if (preference == mShadeBlurRadiusPref) {
+            int value = (Integer) newValue;
+            Settings.System.putIntForUser(resolver, PREF_SHADE_BLUR_RADIUS,
+                    value, UserHandle.USER_CURRENT);
             return true;
         }
         return false;
@@ -270,7 +282,7 @@ public class MonetSettings extends DashboardFragment implements
 
     private void setBgColorValue(int color) {
         try {
-            JSONObject object = getSettingsJson();
+	    JSONObject object = getSettingsJson();
             if (color != 0) object.putOpt(OVERLAY_CATEGORY_BG_COLOR, color);
             else object.remove(OVERLAY_CATEGORY_BG_COLOR);
             putSettingsJson(object);
@@ -321,4 +333,3 @@ public class MonetSettings extends DashboardFragment implements
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider(R.xml.monet_settings);
 }
-

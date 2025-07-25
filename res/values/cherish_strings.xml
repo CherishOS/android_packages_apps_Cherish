@@ -665,4 +665,10 @@
     <!-- Notification count -->
     <string name="statusbar_notif_count_title">Show notification count</string>
     <string name="statusbar_notif_count_summary">Display the number of pending notifications</string>
+
+    <string name="qs_blur_category_title">Shade Appearance</string>
+
+    <string name="shade_blur_radius_title">Shade Blur Radius</string>
+    <string name="shade_blur_radius_summary">Controls the intensity of the background blur</string>
+
 </resources>
