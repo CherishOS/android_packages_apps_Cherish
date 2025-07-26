@@ -15,6 +15,17 @@
     android:title="@string/monet_settings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:title="@string/qs_blur_category_title">
+
+        <SwitchPreferenceCompat
+            android:key="notification_row_transparency"
+            android:title="@string/notification_row_transparency_title"
+            android:summary="@string/notification_row_transparency_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
     <ListPreference
         android:key="color_source"
         android:title="@string/color_source_title"

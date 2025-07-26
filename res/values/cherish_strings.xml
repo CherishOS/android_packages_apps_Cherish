@@ -762,4 +762,9 @@
     <!-- Compact QS Media Player-->
     <string name="qs_compact_media_player_mode_title">Compact QS Media player</string>
     <string name="qs_compact_media_player_mode_summary">Enable compact mode for QuickSettings media player</string>
+
+    <string name="qs_blur_category_title">Shade Appearance</string>
+
+    <string name="notification_row_transparency_title">Transparent notifications</string>
+    <string name="notification_row_transparency_summary">Apply a semi-transparent background to notifications</string>
 </resources>

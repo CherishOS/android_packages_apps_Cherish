@@ -72,6 +72,7 @@ public class MonetSettings extends DashboardFragment implements
     private static final String PREF_LUMINANCE_FACTOR = "luminance_factor";
     private static final String PREF_CHROMA_FACTOR = "chroma_factor";
     private static final String PREF_TINT_BACKGROUND = "tint_background";
+    private static final String PREF_NOTIFICATION_ROW_TRANSPARENCY = "notification_row_transparency";
 
     private ListPreference mColorSourcePref;
     private ColorPickerPreference mAccentColorPref;
@@ -80,6 +81,7 @@ public class MonetSettings extends DashboardFragment implements
     private CustomSeekBarPreference mLuminancePref;
     private CustomSeekBarPreference mChromaPref;
     private SwitchPreferenceCompat mTintBackgroundPref;
+    private SwitchPreferenceCompat mNotificationRowTransparencyPref;
 
     @Override
     protected int getPreferenceScreenResId() {
@@ -97,6 +99,7 @@ public class MonetSettings extends DashboardFragment implements
         mLuminancePref = findPreference(PREF_LUMINANCE_FACTOR);
         mChromaPref = findPreference(PREF_CHROMA_FACTOR);
         mTintBackgroundPref = findPreference(PREF_TINT_BACKGROUND);
+	mNotificationRowTransparencyPref = findPreference(PREF_NOTIFICATION_ROW_TRANSPARENCY);
 
         updatePreferences();
 
@@ -107,6 +110,7 @@ public class MonetSettings extends DashboardFragment implements
         mLuminancePref.setOnPreferenceChangeListener(this);
         mChromaPref.setOnPreferenceChangeListener(this);
         mTintBackgroundPref.setOnPreferenceChangeListener(this);
+        mNotificationRowTransparencyPref.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -116,8 +120,9 @@ public class MonetSettings extends DashboardFragment implements
     }
 
     private void updatePreferences() {
+        final ContentResolver resolver = getActivity().getContentResolver();
         final String overlayPackageJson = Settings.Secure.getStringForUser(
-                getActivity().getContentResolver(),
+		resolver,
                 Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES,
                 UserHandle.USER_CURRENT);
         if (overlayPackageJson != null && !overlayPackageJson.isEmpty()) {
@@ -159,6 +164,11 @@ public class MonetSettings extends DashboardFragment implements
                 mTintBackgroundPref.setChecked(tintBG);
             } catch (JSONException | IllegalArgumentException ignored) {}
         }
+
+        boolean transparencyEnabled = Settings.System.getIntForUser(resolver,
+                PREF_NOTIFICATION_ROW_TRANSPARENCY, 0, UserHandle.USER_CURRENT) == 1;
+        mNotificationRowTransparencyPref.setChecked(transparencyEnabled);
+
     }
 
     @Override
@@ -195,6 +205,12 @@ public class MonetSettings extends DashboardFragment implements
             boolean value = (Boolean) newValue;
             setTintBackgroundValue(value);
             return true;
+	} else if (preference == mNotificationRowTransparencyPref) {
+    	    boolean value = (Boolean) newValue;
+    	    Settings.System.putIntForUser(resolver, PREF_NOTIFICATION_ROW_TRANSPARENCY,
+                    value ? 1 : 0, UserHandle.USER_CURRENT);
+            return true;
+
         }
         return false;
     }
