@@ -672,4 +672,8 @@
     <string name="shade_blur_radius_summary">Controls the intensity of the background blur</string>
     <string name="notification_row_transparency_title">Transparent notifications</string>
     <string name="notification_row_transparency_summary">Apply a semi-transparent background to notifications</string>
+
+    <!-- Status bar new icons -->
+    <string name="new_status_bar_icons_title">Use new status bar icons</string>
+    <string name="new_status_bar_icons_summary">Enables modernized icons. Disables most of statusbar customization.</string>
 </resources>

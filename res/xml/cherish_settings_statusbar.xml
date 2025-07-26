@@ -24,6 +24,17 @@
                android:summary="@string/double_tap_to_sleep_summary"
                android:defaultValue="true" />
      </PreferenceCategory>
+
+     <PreferenceCategory
+        android:title="UI Refactor">
+
+        <SwitchPreferenceCompat
+            android:key="new_status_bar_icons"
+            android:title="@string/new_status_bar_icons_title"
+            android:summary="@string/new_status_bar_icons_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 	
     <PreferenceCategory
         android:title="@string/status_bar_icons_category_title">
