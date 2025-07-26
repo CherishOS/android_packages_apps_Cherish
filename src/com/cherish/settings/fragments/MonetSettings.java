@@ -73,6 +73,7 @@ public class MonetSettings extends DashboardFragment implements
     private static final String PREF_CHROMA_FACTOR = "chroma_factor";
     private static final String PREF_TINT_BACKGROUND = "tint_background";
     private static final String PREF_SHADE_BLUR_RADIUS = "shade_blur_radius";
+    private static final String PREF_NOTIFICATION_ROW_TRANSPARENCY = "notification_row_transparency";
 
     private ListPreference mColorSourcePref;
     private ColorPickerPreference mAccentColorPref;
@@ -82,6 +83,7 @@ public class MonetSettings extends DashboardFragment implements
     private CustomSeekBarPreference mChromaPref;
     private SwitchPreference mTintBackgroundPref;
     private CustomSeekBarPreference mShadeBlurRadiusPref;
+    private SwitchPreferenceCompat mNotificationRowTransparencyPref;
 
     @Override
     protected int getPreferenceScreenResId() {
@@ -100,6 +102,7 @@ public class MonetSettings extends DashboardFragment implements
         mChromaPref = findPreference(PREF_CHROMA_FACTOR);
         mTintBackgroundPref = findPreference(PREF_TINT_BACKGROUND);
         mShadeBlurRadiusPref = findPreference(PREF_SHADE_BLUR_RADIUS);
+	mNotificationRowTransparencyPref = findPreference(PREF_NOTIFICATION_ROW_TRANSPARENCY);
 
         updatePreferences();
 
@@ -111,6 +114,7 @@ public class MonetSettings extends DashboardFragment implements
         mChromaPref.setOnPreferenceChangeListener(this);
         mTintBackgroundPref.setOnPreferenceChangeListener(this);
 	mShadeBlurRadiusPref.setOnPreferenceChangeListener(this);
+        mNotificationRowTransparencyPref.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -166,6 +170,11 @@ public class MonetSettings extends DashboardFragment implements
         int currentBlur = Settings.System.getIntForUser(resolver,
                 PREF_SHADE_BLUR_RADIUS, 18, UserHandle.USER_CURRENT);
         mShadeBlurRadiusPref.setValue(currentBlur);
+
+        boolean transparencyEnabled = Settings.System.getIntForUser(resolver,
+                PREF_NOTIFICATION_ROW_TRANSPARENCY, 0, UserHandle.USER_CURRENT) == 1;
+        mNotificationRowTransparencyPref.setChecked(transparencyEnabled);
+
     }
 
     @Override
@@ -207,6 +216,12 @@ public class MonetSettings extends DashboardFragment implements
             Settings.System.putIntForUser(resolver, PREF_SHADE_BLUR_RADIUS,
                     value, UserHandle.USER_CURRENT);
             return true;
+	} else if (preference == mNotificationRowTransparencyPref) {
+    	    boolean value = (Boolean) newValue;
+    	    Settings.System.putIntForUser(resolver, PREF_NOTIFICATION_ROW_TRANSPARENCY,
+                    value ? 1 : 0, UserHandle.USER_CURRENT);
+            return true;
+
         }
         return false;
     }

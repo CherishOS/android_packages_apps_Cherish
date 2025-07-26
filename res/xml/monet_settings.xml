@@ -28,6 +28,12 @@
         settings:interval="1"
         settings:units="dp" />
 
+    <SwitchPreferenceCompat
+        android:key="notification_row_transparency"
+        android:title="@string/notification_row_transparency_title"
+        android:summary="@string/notification_row_transparency_summary"
+        android:defaultValue="false" />
+
 </PreferenceCategory>
     <ListPreference
         android:key="color_source"
