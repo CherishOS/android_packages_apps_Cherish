@@ -28,6 +28,12 @@
         android:entryValues="@array/quick_pulldown_values"
         android:defaultValue="0" />
 
+        <com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_refactor_enabled"
+            android:title="@string/qs_refactor_title"
+            android:summary="@string/qs_refactor_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

@@ -691,4 +691,8 @@
 
     <string name="dual_tone_shade_title">Use dual-tone shade</string>
     <string name="dual_tone_shade_summary">Use a secondary background for the notification shade</string>
+
+    <!-- QuickSettings Refactor -->
+    <string name="qs_refactor_title">Nothing Style Quick Settings</string>
+    <string name="qs_refactor_summary">Switch to nothing os style Quick Settngs, Some features will not work on the new QS</string>
 </resources>
