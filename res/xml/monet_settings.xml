@@ -34,6 +34,12 @@
         android:summary="@string/notification_row_transparency_summary"
         android:defaultValue="false" />
 
+    <SwitchPreferenceCompat
+        android:key="dual_tone_shade_enabled"
+        android:title="@string/dual_tone_shade_title"
+        android:summary="@string/dual_tone_shade_summary"
+        android:defaultValue="true" />
+
 </PreferenceCategory>
     <ListPreference
         android:key="color_source"

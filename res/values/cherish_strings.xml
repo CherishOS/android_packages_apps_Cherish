@@ -676,4 +676,7 @@
     <!-- Status bar new icons -->
     <string name="new_status_bar_icons_title">Use new status bar icons</string>
     <string name="new_status_bar_icons_summary">Enables modernized icons. Disables most of statusbar customization.</string>
+
+    <string name="dual_tone_shade_title">Use dual-tone shade</string>
+    <string name="dual_tone_shade_summary">Use a secondary background for the notification shade</string>
 </resources>

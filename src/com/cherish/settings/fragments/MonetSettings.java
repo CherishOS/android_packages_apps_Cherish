@@ -74,6 +74,7 @@ public class MonetSettings extends DashboardFragment implements
     private static final String PREF_TINT_BACKGROUND = "tint_background";
     private static final String PREF_SHADE_BLUR_RADIUS = "shade_blur_radius";
     private static final String PREF_NOTIFICATION_ROW_TRANSPARENCY = "notification_row_transparency";
+    private static final String PREF_DUAL_TONE_SHADE = "dual_tone_shade_enabled";
 
     private ListPreference mColorSourcePref;
     private ColorPickerPreference mAccentColorPref;
@@ -84,6 +85,7 @@ public class MonetSettings extends DashboardFragment implements
     private SwitchPreference mTintBackgroundPref;
     private CustomSeekBarPreference mShadeBlurRadiusPref;
     private SwitchPreferenceCompat mNotificationRowTransparencyPref;
+    private SwitchPreferenceCompat mDualToneShadePref;
 
     @Override
     protected int getPreferenceScreenResId() {
@@ -103,6 +105,7 @@ public class MonetSettings extends DashboardFragment implements
         mTintBackgroundPref = findPreference(PREF_TINT_BACKGROUND);
         mShadeBlurRadiusPref = findPreference(PREF_SHADE_BLUR_RADIUS);
 	mNotificationRowTransparencyPref = findPreference(PREF_NOTIFICATION_ROW_TRANSPARENCY);
+        mDualToneShadePref = findPreference(PREF_DUAL_TONE_SHADE);
 
         updatePreferences();
 
@@ -115,6 +118,7 @@ public class MonetSettings extends DashboardFragment implements
         mTintBackgroundPref.setOnPreferenceChangeListener(this);
 	mShadeBlurRadiusPref.setOnPreferenceChangeListener(this);
         mNotificationRowTransparencyPref.setOnPreferenceChangeListener(this);
+        mDualToneShadePref.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -175,6 +179,9 @@ public class MonetSettings extends DashboardFragment implements
                 PREF_NOTIFICATION_ROW_TRANSPARENCY, 0, UserHandle.USER_CURRENT) == 1;
         mNotificationRowTransparencyPref.setChecked(transparencyEnabled);
 
+        boolean dualToneEnabled = Settings.System.getIntForUser(resolver,
+                PREF_DUAL_TONE_SHADE, 1, UserHandle.USER_CURRENT) == 1;
+        mDualToneShadePref.setChecked(dualToneEnabled);
     }
 
     @Override
@@ -221,7 +228,11 @@ public class MonetSettings extends DashboardFragment implements
     	    Settings.System.putIntForUser(resolver, PREF_NOTIFICATION_ROW_TRANSPARENCY,
                     value ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
-
+        } else if (preference == mDualToneShadePref) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putIntForUser(resolver, PREF_DUAL_TONE_SHADE,
+                    value ? 1 : 0, UserHandle.USER_CURRENT);
+           return true;
         }
         return false;
     }
