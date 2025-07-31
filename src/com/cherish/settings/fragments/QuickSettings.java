@@ -39,10 +39,10 @@ import java.util.ArrayList;
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private static final String KEY_QS_REFACTOR_ENABLED = "qs_refactor_enabled";
+    private static final String KEY_QS_REFACTOR_DISABLED = "qs_refactor_disabled";
 			
 	private ListPreference mQuickPulldown;
-    private SecureSettingSwitchPreference mQsRefactorEnabled;
+    private SecureSettingSwitchPreference mQsRefactorDisabled;
 	
     @Override
     public void onCreate(Bundle icicle) {
@@ -61,8 +61,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mQuickPulldown.setSummary(mQuickPulldown.getEntry());
         mQuickPulldown.setOnPreferenceChangeListener(this);
 
-        mQsRefactorEnabled = (SecureSettingSwitchPreference) findPreference(KEY_QS_REFACTOR_ENABLED);
-        mQsRefactorEnabled.setOnPreferenceChangeListener(this);
+        mQsRefactorDisabled = (SecureSettingSwitchPreference) findPreference(KEY_QS_REFACTOR_DISABLED);
+        mQsRefactorDisabled.setOnPreferenceChangeListener(this);
 	}
 
     @Override
@@ -77,7 +77,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             mQuickPulldown.setSummary(
                     mQuickPulldown.getEntries()[index]);
             return true;
-        } else if (preference == mQsRefactorEnabled) {
+        } else if (preference == mQsRefactorDisabled) {
             CherishUtils.showSystemRestartDialog(getContext());
             return true;
         }
