@@ -23,6 +23,7 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.android.internal.util.cherish.CherishUtils;
 import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 import com.cherish.settings.preferences.SystemSettingListPreference;
 import com.cherish.settings.preferences.SystemSettingEditTextPreference;
@@ -36,9 +37,12 @@ import java.util.ArrayList;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
-			
+
+    private static final String KEY_QS_COMPACT_PLAYER  = "qs_compact_media_player_mode";
+
 	private ListPreference mQuickPulldown;
-	
+    private Preference mQsCompactPlayer;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -55,6 +59,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mQuickPulldown.setValue(String.valueOf(qpmode));
         mQuickPulldown.setSummary(mQuickPulldown.getEntry());
         mQuickPulldown.setOnPreferenceChangeListener(this);
+        mQsCompactPlayer = (Preference) findPreference(KEY_QS_COMPACT_PLAYER);
+        mQsCompactPlayer.setOnPreferenceChangeListener(this);
 	}
 
     @Override
@@ -68,6 +74,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             int index = mQuickPulldown.findIndexOfValue((String) newValue);
             mQuickPulldown.setSummary(
                     mQuickPulldown.getEntries()[index]);
+            return true;
+        } else if (preference == mQsCompactPlayer) {
+            CherishUtils.showSystemRestartDialog(getActivity());
             return true;
         }
         return false;

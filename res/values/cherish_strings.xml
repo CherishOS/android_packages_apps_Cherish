@@ -758,4 +758,8 @@
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Hide developer status</string>
     <string name="hide_developer_status_summary">Hide developer status from apps</string>
+
+    <!-- Compact QS Media Player-->
+    <string name="qs_compact_media_player_mode_title">Compact QS Media player</string>
+    <string name="qs_compact_media_player_mode_summary">Enable compact mode for QuickSettings media player</string>
 </resources>
