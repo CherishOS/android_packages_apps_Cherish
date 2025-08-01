@@ -72,6 +72,13 @@
             android:summary="@string/notification_row_transparency_summary"
             android:defaultValue="false" />
 
+    <!-- AOD wallpaper -->
+        <com.cherish.settings.preferences.OverlaySwitchPreference
+            android:key="com.android.aod.wallpaper"
+            android:title="@string/aod_wallpaper_title"
+            android:summary="@string/aod_wallpaper_summary"
+            android:defaultValue="false" />
+
     <!-- Monet settings -->
     <Preference
         android:key="monet_settings"

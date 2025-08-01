@@ -843,4 +843,8 @@
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Notification row transparency</string>
     <string name="notification_row_transparency_summary">Show translucent quicksettings notifications</string>
+
+    <!-- AOD wallpaper -->
+    <string name="aod_wallpaper_title">AOD wallpaper</string>
+    <string name="aod_wallpaper_summary">Show wallpaper when aod on</string>
 </resources>
