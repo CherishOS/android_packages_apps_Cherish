@@ -27,6 +27,17 @@
         android:entries="@array/quick_pulldown_entries"
         android:entryValues="@array/quick_pulldown_values"
         android:defaultValue="0" />
+	
+     <!-- QS Transparency -->
+	<com.cherish.settings.preferences.SystemSettingSeekBarPreference
+        android:key="qs_transparency"
+        android:title="@string/qs_transparency_title"
+        android:summary="@string/qs_transparency_summary"
+        android:defaultValue="100"
+        settings:interval="1"
+        settings:units="%"
+        android:max="100"
+        android:min="1" />
 
         <com.cherish.settings.preferences.SystemSettingListPreference
              android:key="qs_header_clock_style"

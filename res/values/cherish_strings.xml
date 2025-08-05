@@ -713,5 +713,8 @@
     <string name="qs_header_style2">Oxygen</string>
     <string name="qs_header_style3">Analog</string>
     <string name="qs_header_style4">Simple</string>
-
+	
+	<!-- QS Transparency -->
+    <string name="qs_transparency_title">Background transparency</string>
+    <string name="qs_transparency_summary">Set transparency level for QS background</string>
 </resources>
