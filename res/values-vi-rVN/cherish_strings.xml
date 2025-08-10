@@ -956,4 +956,8 @@
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Ẩn trạng thái nhà phát triển</string>
     <string name="hide_developer_status_summary">Ẩn trạng thái nhà phát triển khỏi ứng dụng</string>
+
+    <!-- Small landscape notifications -->
+    <string name="small_landscape_notification_title">Thông báo ngang thu gọn</string>
+    <string name="small_landscape_notification_summary">Hiển thị thông báo với chiều ngang hẹp hơn trong bảng thông báo khi ở chế độ xoay ngang, đúng như AOSP thiết kế</string>
 </resources>

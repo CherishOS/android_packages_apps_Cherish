@@ -53,6 +53,11 @@
             android:defaultValue="false"
             android:dependency="heads_up_notifications_enabled" />
 
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="small_landscape_notification"
+            android:title="@string/small_landscape_notification_title"
+            android:summary="@string/small_landscape_notification_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
 	<PreferenceCategory
