@@ -67,6 +67,12 @@
             android:title="@string/qs_brightness_position_position_title"
             android:summary="@string/qs_brightness_position_position_summary" 
             android:defaultValue="false" />
+
+        <Preference
+            android:key="qs_header_image"
+            android:title="@string/qs_header_image_title"
+            android:summary="@string/qs_header_image_summary"
+            android:fragment="com.cherish.settings.fragments.QsHeaderImageSettings" />
     </PreferenceCategory>
 
 </PreferenceScreen>
