@@ -767,4 +767,12 @@
     <!-- Tiles on secure keyguard -->
     <string name="qs_lock_screen_secure_title">Require unlocking to use qs tiles</string>
     <string name="qs_lock_screen_secure_summary">Ask to unlock lockscreen when using qs tiles</string>
+
+
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_shape_title">QS tiles shape</string>
+    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_circle">Circle</string>
+    <string name="qs_tile_shape_rounded_square">Rounded square</string>
+    <string name="qs_tile_shape_square">Square</string>
 </resources>

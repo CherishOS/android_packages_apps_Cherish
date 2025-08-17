@@ -577,4 +577,19 @@
         <item>com.android.systemui</item>
         <item>com.android.shell</item>
     </string-array>
+
+    <!-- QS Tiles Shape -->
+    <string-array name="qs_tile_shape_entries">
+        <item>@string/qs_tile_shape_dynamic</item>
+        <item>@string/qs_tile_shape_circle</item>
+        <item>@string/qs_tile_shape_rounded_square</item>
+        <item>@string/qs_tile_shape_square</item>
+    </string-array>
+
+    <string-array name="qs_tile_shape_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>
