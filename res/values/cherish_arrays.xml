@@ -618,4 +618,17 @@
         <item>static</item>
         <item>file</item>
     </string-array>
+
+    <!-- System Animation styles  -->
+    <string-array name="system_animation_styles_entries">
+        <item>@string/color_default</item>
+        <item>@string/pie_system_animation_style</item>
+        <item>@string/scale_system_animation_style</item>
+    </string-array>
+
+    <string-array name="system_animation_styles_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

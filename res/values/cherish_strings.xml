@@ -807,4 +807,9 @@
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Show squiggle animation</string>
     <string name="show_squiggle_animation_summary">Show media panel squiggle animation\nAfter change need to switch music, pause music or move the progress bar to apply</string>
+
+    <!-- System Animation styles -->
+    <string name="system_animation_style_title">System animation style</string>
+    <string name="pie_system_animation_style">Android P</string>
+    <string name="scale_system_animation_style">Scale</string>
 </resources>
