@@ -54,9 +54,7 @@
         <!-- Keybox Data -->
         <com.cherish.settings.fragments.KeyboxDataPreference
             android:key="keybox_data_setting"
-            android:title="@string/keybox_data_title"
-            android:summary="@string/keybox_data_summary"
-            android:defaultValue=""/>
+            android:title="@string/keybox_data_title" />
 
     </PreferenceCategory>
 
