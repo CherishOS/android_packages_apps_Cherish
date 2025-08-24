@@ -839,4 +839,8 @@
     <!-- Heads up notifications -->
     <string name="notification_heads_up_timeout_title">Time out</string>
     <string name="notification_heads_up_timeout_summary">Time to display heads up notifications</string>
+
+    <!-- Notification Row -->
+    <string name="notification_row_transparency_title">Notification row transparency</string>
+    <string name="notification_row_transparency_summary">Show translucent quicksettings notifications</string>
 </resources>

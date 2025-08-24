@@ -65,6 +65,13 @@
 
     </PreferenceCategory>
 
+    <!-- Notification Row -->
+    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="notification_row_transparency"
+            android:title="@string/notification_row_transparency_title"
+            android:summary="@string/notification_row_transparency_summary"
+            android:defaultValue="false" />
+
     <!-- Monet settings -->
     <Preference
         android:key="monet_settings"
