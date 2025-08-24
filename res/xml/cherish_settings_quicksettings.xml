@@ -27,6 +27,42 @@
         android:entries="@array/quick_pulldown_entries"
         android:entryValues="@array/quick_pulldown_values"
         android:defaultValue="0" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="quick_settings_brightness_slider_category"
+            android:title="@string/quick_settings_brightness_slider_category">
+
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="qs_show_brightness"
+            android:title="@string/qs_show_brightness_title"
+            android:entries="@array/qs_show_brightness_entries"
+            android:entryValues="@array/qs_show_brightness_values"
+            android:defaultValue="1" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_brightness_position_bottom"
+            android:title="@string/qs_brightness_position_position_title"
+            android:summary="@string/qs_brightness_position_position_summary" 
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="quick_settings_interface_category"
+        android:title="@string/quick_settings_interface_category">
+
+        <Preference
+            android:key="qs_header_image"
+            android:title="@string/qs_header_image_title"
+            android:summary="@string/qs_header_image_summary"
+            android:fragment="com.cherish.settings.fragments.QsHeaderImageSettings" />
+        
+        <com.cherish.settings.preferences.SystemSettingListPreference
+            android:key="qs_tile_shape"
+            android:title="@string/qs_tile_shape_title"
+            android:entries="@array/qs_tile_shape_entries"
+            android:entryValues="@array/qs_tile_shape_values"
+            android:defaultValue="0" />
 
         <com.cherish.settings.preferences.SystemSettingListPreference
              android:key="qs_header_clock_style"
@@ -47,8 +83,9 @@
             android:title="@string/show_squiggle_animation_title"
             android:summary="@string/show_squiggle_animation_summary"
             android:defaultValue="true" />
-	
-	<PreferenceCategory
+        </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/qs_footer_category">
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
@@ -59,37 +96,16 @@
 
     </PreferenceCategory>
 
-	   <com.cherish.settings.preferences.SystemSettingSwitchPreference
+    <PreferenceCategory
+        android:key="qs_lock_screen_category"
+        android:title="@string/qs_lock_screen_category">
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="secure_lockscreen_qs_disabled"
             android:title="@string/qs_lock_screen_secure_title"
             android:summary="@string/qs_lock_screen_secure_summary"
             android:defaultValue="true" />
 
-        <com.cherish.settings.preferences.SystemSettingListPreference
-            android:key="qs_tile_shape"
-            android:title="@string/qs_tile_shape_title"
-            android:entries="@array/qs_tile_shape_entries"
-            android:entryValues="@array/qs_tile_shape_values"
-            android:defaultValue="0" />
-
-        <com.cherish.settings.preferences.SystemSettingListPreference
-            android:key="qs_show_brightness"
-            android:title="@string/qs_show_brightness_title"
-            android:entries="@array/qs_show_brightness_entries"
-            android:entryValues="@array/qs_show_brightness_values"
-            android:defaultValue="1" />
-
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_brightness_position_bottom"
-            android:title="@string/qs_brightness_position_position_title"
-            android:summary="@string/qs_brightness_position_position_summary" 
-            android:defaultValue="false" />
-
-        <Preference
-            android:key="qs_header_image"
-            android:title="@string/qs_header_image_title"
-            android:summary="@string/qs_header_image_summary"
-            android:fragment="com.cherish.settings.fragments.QsHeaderImageSettings" />
     </PreferenceCategory>
 
 </PreferenceScreen>

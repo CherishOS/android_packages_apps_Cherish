@@ -18,11 +18,16 @@
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="notifications_interface_category"
+        android:title="@string/notifications_interface_category">
+
     <Preference
             android:key="edge_light_settings"
             android:title="@string/edge_light_title"
             android:summary="@string/edge_light_summary"
             android:fragment="com.cherish.settings.fragments.EdgeLightSettings" />
+    </PreferenceCategory>
 	
     <PreferenceCategory
         android:key="heads_up"

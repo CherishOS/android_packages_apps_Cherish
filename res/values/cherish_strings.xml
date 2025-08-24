@@ -615,6 +615,7 @@
      </string>
 	
 	<!-- Footer -->
+	<string name="qs_lock_screen_category">Lock screen</string>
 	<string name="qs_footer_category">QS Footer</string>
 	<string name="qs_footer_datausage_title">Data usage</string>
     <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
@@ -659,7 +660,8 @@
     <string name="menu_show_overlay">Show overlay</string>
     <string name="menu_hide_overlay">Hide overlay</string>
 
-    <!-- Edge light -->
+    <!-- Notifications -->
+    <string name="notifications_interface_category">Interface</string>
     <string name="edge_light_title">Edge light</string>
     <string name="edge_light_summary">Light up the side edges of the screen on notification pulse</string>
     <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
@@ -782,6 +784,7 @@
     <string name="qs_tile_shape_square">Square</string>
 
     <!-- QS Panel -->
+    <string name="quick_settings_brightness_slider_category">Brightness slider</string>
     <string name="qs_show_brightness_title">Brightness slider</string>
     <string name="qs_show_brightness_hide">Hide</string>
     <string name="qs_show_brightness_normal">Show in QS Panel</string>
@@ -790,6 +793,7 @@
     <string name="qs_brightness_position_position_summary">Show brightness slider in the bottom of QS panel</string>
 
     <!-- QS Header -->
+    <string name="quick_settings_interface_category">Interface</string>
     <string name="qs_header_image_title">Header image</string>
     <string name="qs_header_image_summary">Select QS background header image</string>
     <string name="qs_header_daylight_pack_title">Header image collection</string>
