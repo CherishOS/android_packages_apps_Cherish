@@ -24,7 +24,7 @@
     <string name="misc_summary">Tryb gry, regulacja głośności</string>
     <string name="animations_title">Animacje</string>
     <string name="animations_summary">Animacje systemowe</string>
-    <string name="ambient_display_category">Ambient display</string>
+    <string name="ambient_display_category">Ekran dostosowany do otoczenia</string>
     <string name="powermenu_title">Menu zasilania</string>
     <string name="powermenu_summary">Zaawansowany restart, przezroczystość menu zasilania</string>
     <string name="theme_title">Motywy</string>
@@ -45,19 +45,19 @@
     <string name="navbar_title">Pasek nawigacyjny</string>
     <string name="volume_keys_title">Klawisze głośności</string>
     <!-- General strings -->
-    <string name="ok">OK</string>
+    <string name="ok">Dobrze</string>
     <string name="reset">Resetuj</string>
     <string name="cancel">Anuluj</string>
     <string name="save">Zapisz</string>
     <string name="default_string">Domyślne</string>
-    <string name="enable">Enable</string>
+    <string name="enable">Aktywuj</string>
     <string name="disabled">Wyłączone</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Wybór kolorów</string>
     <string name="press_color_to_apply">Wybierz kolor, aby go zastosować</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">Wartość szesnastkowa:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Ustaw</string>
     <string name="color_default">Domyślne</string>
@@ -87,8 +87,8 @@
     <string name="rgb">RGB</string>
     <string name="hsl">HSL</string>
     <string name="hsv">HSV</string>
-    <string name="confirm">Confirm</string>
-    <string name="invalid_color">Invalid color!</string>
+    <string name="confirm">Potwierdź</string>
+    <string name="invalid_color">Nieprawidłowy kolor!</string>
     <!-- QS header image -->
     <!-- Lockscreen -->
     <string name="lockscreen_category">Ekran blokady</string>

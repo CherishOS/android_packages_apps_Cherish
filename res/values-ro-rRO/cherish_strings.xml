@@ -12,60 +12,60 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_title">Setări Cherish</string>
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
-    <string name="button_summary">Hardware keys, Navigation bar</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
-    <string name="lockscreen_title">Lock screen</string>
-    <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">Gaming mode, volume controls</string>
-    <string name="animations_title">Animations</string>
-    <string name="animations_summary">System animations</string>
-    <string name="ambient_display_category">Ambient display</string>
-    <string name="powermenu_title">Power menu</string>
-    <string name="powermenu_summary">Advanced restart, power menu opacity</string>
-    <string name="theme_title">Themes</string>
-    <string name="theme_summary">System theme, rounded, switch theme</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="quicksettings_summary">Tile layout, blur</string>
-    <string name="recents_title">Recents apps</string>
+    <string name="button_title">Butoane</string>
+    <string name="button_summary">Taste hardware, bară de navigare</string>
+    <string name="gestures_title">Gesturi</string>
+    <string name="gestures_summary">Sari la cameră, glisează la captură de ecran</string>
+    <string name="lockscreen_title">Ecran de blocare</string>
+    <string name="lockscreen_summary">Vizualizator de muzică, animație de încărcare, stil de ceas</string>
+    <string name="misc_title">Diverse</string>
+    <string name="misc_summary">Modul de joc, control de volum</string>
+    <string name="animations_title">Animații</string>
+    <string name="animations_summary">Animații de sistem</string>
+    <string name="ambient_display_category">Afișare ambientală</string>
+    <string name="powermenu_title">Meniu de pornire</string>
+    <string name="powermenu_summary">Repornire avansată, opacitatea meniului de pornire</string>
+    <string name="theme_title">Tematici</string>
+    <string name="theme_summary">Tematica de sistem, rotunjit, schimbă tematica</string>
+    <string name="quicksettings_title">Accesare de setări rapide</string>
+    <string name="quicksettings_summary">Structura titlului, neclaritate</string>
+    <string name="recents_title">Aplicații utilizate recent</string>
     <string name="recents_summary">Slim recents</string>
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_summary">Clock, carrier, status icons</string>
-    <string name="volume_title">Volume rockers</string>
-    <string name="volume_summary">Volume rockers</string>
-    <string name="notifications_title">Notifications</string>
-    <string name="notifications_summary">Battery light, notifications header</string>
-    <string name="about_summary">Learn more about CherishOS</string>
-    <string name="device_part_title">Device features</string>
-    <string name="qs_category">QS category</string>
-    <string name="navbar_title">Navigation bar</string>
-    <string name="volume_keys_title">Volume keys</string>
+    <string name="statusbar_title">Bară de stare</string>
+    <string name="statusbar_summary">Ceas, operator mobil, pictograme de stare</string>
+    <string name="volume_title">Taste de volum</string>
+    <string name="volume_summary">Taste de volum</string>
+    <string name="notifications_title">Notificări</string>
+    <string name="notifications_summary">Lumina bateriei, antet de notificări</string>
+    <string name="about_summary">Află mai multe despre CherishOS</string>
+    <string name="device_part_title">Funcționalitățile dispozitivului</string>
+    <string name="qs_category">Categorie setări rapide</string>
+    <string name="navbar_title">Bară de navigare</string>
+    <string name="volume_keys_title">Butoanele de volum</string>
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
-    <string name="default_string">Default</string>
-    <string name="enable">Enable</string>
-    <string name="disabled">Disabled</string>
+    <string name="reset">Resetează</string>
+    <string name="cancel">Anulează</string>
+    <string name="save">Salvează</string>
+    <string name="default_string">Implicit</string>
+    <string name="enable">Activează</string>
+    <string name="disabled">Dezactivată</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Selectorul de culoare</string>
+    <string name="press_color_to_apply">Apasă pe o culoare pentru a o aplica</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
-    <string name="led_color_green">Green</string>
-    <string name="led_color_red">Red</string>
+    <string name="set">Setează</string>
+    <string name="color_default">Implicit</string>
+    <string name="led_color_green">Verde</string>
+    <string name="led_color_red">Roșu</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">Default</string>
+    <string name="custom_seekbar_value">Valoare: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Implicit</string>
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     <string name="add_package_to_title">Add application</string>
@@ -136,62 +136,62 @@
     <string name="theme_customization_font_summary">Set system font style</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
     <string name="theme_customization_icon_pack_title">Icon pack</string>
-    <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
-    <string name="theme_customization_signal_icon_title">Signal icon style</string>
-    <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
-    <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
-    <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
+    <string name="theme_customization_icon_pack_summary">Setează stilul personalizat al pachetului de pictograme</string>
+    <string name="theme_customization_signal_icon_title">Stilul pictogramei de semnal</string>
+    <string name="theme_customization_signal_icon_summary">Setează stilul personalizat al pictogramei de semnal</string>
+    <string name="theme_customization_wifi_icon_title">Stilul pictogramei WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Setează stilul de pictogramă wifi personalizat</string>
     <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Signal</string>
+    <string name="custom_signal_bar_title">Semnal</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">Wi-Fi</string>
-    <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
-    <string name="quick_pulldown_none">Disabled</string>
+    <string name="status_bar_quick_qs_pulldown">Tragerea rapidă a Setărilor rapide</string>
+    <string name="quick_pulldown_none">Dezactivat</string>
     <string name="quick_pulldown_right">Pulldown statusbar from right side</string>
     <string name="quick_pulldown_left">Pulldown statusbar from left side</string>
-    <string name="quick_pulldown_always">Always show quick settings on status bar pull down</string>
+    <string name="quick_pulldown_always">Arată întotdeauna setările rapide la tragerea în jos a barei de stare</string>
     <!-- Pif -->
-    <string name="pif_title">Play integrity fix</string>
-    <string name="pif_summary">View current values used to spoof GMS</string>
-    <string name="pif_spoof_title">Enable ROM-side Play integrity fix</string>
-    <string name="pif_spoof_summary">Disable to allow module usage with custom fingerprint values</string>
-    <string name="spoof_summary">Enable spoofing for specific features within the ROM</string>
-    <string name="spoof_title">Spoofing</string>
+    <string name="pif_title">Reparare „Play integrity”</string>
+    <string name="pif_summary">Vezi valorile curente folosite pentru a falsifica GMS</string>
+    <string name="pif_spoof_title">Activează repararea a „Play integrity” doar pe ROM</string>
+    <string name="pif_spoof_summary">Dezactivează pentru a permite utilizarea modulului cu valori personalizate ale amprentei</string>
+    <string name="spoof_summary">Activează falsificarea pentru funcționalitățile specifice din ROM</string>
+    <string name="spoof_title">Falsificare</string>
     <!-- PixelProps -->
-    <string name="spoof_pixel_title">Enable Pixel Props</string>
-    <string name="spoof_pixel_summary">Spoof your device as Pixel 8 Pro for Google apps</string>
+    <string name="spoof_pixel_title">Activează Pixel Props</string>
+    <string name="spoof_pixel_summary">Falsifică-ți dispozitivul ca fiind un Pixel 8 Pro pentru aplicațiile Google</string>
     <!-- Unlimited Photos storage -->
-    <string name="photos_spoof_title">Unlimited Photos storage</string>
-    <string name="photos_spoof_summary">Spoof your device as Pixel XL for the Google Photos app only to provide unlimited storage for backup. App will be spoofed to Pixel 8 Pro if toggle is disabled</string>
+    <string name="photos_spoof_title">Stocare nelimitată de fotografii</string>
+    <string name="photos_spoof_summary">Falsifică-ți dispozitivul ca fiind un Pixel XL pentru ca aplicația Google Photos să îți ofere stocare nelimitată pentru backup. Aplicația va fi falsificată ca fiind pe un Pixel 8 Pro dacă schimbarea este dezactivată</string>
     <!-- Unlock FPS for specific games -->
-    <string name="games_spoof_title">Unlock higher FPS in games</string>
-    <string name="games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <string name="games_spoof_title">Deblochează FPS-uri mai mari în jocuri</string>
+    <string name="games_spoof_summary">Falsifică-ți dispozitivul ca fiind un alt model pentru a debloca FPS-uri mai mari</string>
     <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix spoof</string>
-    <string name="netflix_spoof_summary">Spoof your device as Pixel 8 Pro for Netflix</string>
+    <string name="netflix_spoof_title">Falsificare pentru Netflix</string>
+    <string name="netflix_spoof_summary">Falsifică-ți dispozitivul ca fiind un Pixel 8 Pro pentru Netflix</string>
     <!-- Snapchat Spoof -->
-    <string name="snapchat_spoof_title">Snapchat spoof</string>
-    <string name="snapchat_spoof_summary">Spoof your device as Pixel 2 for Snapchat to allow original quality captures</string>
+    <string name="snapchat_spoof_title">Falsificator pentru Snapchat</string>
+    <string name="snapchat_spoof_summary">Falsifică-ți dispozitivul ca fiind un Pixel 2 pentru a permite aplicației Snapchat să captureze fotografii de calitate originală</string>
     <!--Settings homepage widgets-->
-    <string name="settings_homepage_widgets_title">Settings homepage widgets</string>
-    <string name="settings_homepage_widgets_summary">Enable settings homepage widgets</string>
+    <string name="settings_homepage_widgets_title">Setări de widget ale paginii principale</string>
+    <string name="settings_homepage_widgets_summary">Activează setările de widget ale paginii principale</string>
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+    <string name="wakeup_when_plugged_unplugged_title">Deschiderea ecranului la încărcare</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Pornește dispozitivul când încărcătorul este conectat sau deconectat.</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_title">Informații despre încărcare pe ecranul de blocare</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
-    <string name="status_bar_icons_category_title">Icons</string>
+    <string name="incall_vibration_category">Opțiuni de vibrație în timpul apelului</string>
+    <string name="incall_vibrate_connect_title">Vibrare la conectarea apelului</string>
+    <string name="incall_vibrate_call_wait_title">Vibrare la apel în așteptare</string>
+    <string name="incall_vibrate_disconnect_title">Vibrează la deconectarea apelului</string>
+    <string name="status_bar_icons_category_title">Pictograme</string>
     <!-- Status bar - icon blocklist -->
-    <string name="status_bar_icons_title">Status bar icons</string>
-    <string name="status_bar_icons_summary">Choose which status bar icons can be shown</string>
+    <string name="status_bar_icons_title">Iconuri din bara de stare</string>
+    <string name="status_bar_icons_summary">Alege care pictograme din bara de stare pot fi afișate</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_title">Afișează pictograma datelor dezactivate</string>
     <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
     <!-- Show old style mobile data icon -->
     <string name="use_old_mobiletype_title">Small mobile type icon</string>
