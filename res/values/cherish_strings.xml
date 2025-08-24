@@ -53,6 +53,7 @@
     <string name="default_string">Default</string>
     <string name="enable">Enable</string>
 	<string name="disabled">Disabled</string>
+    <string name="default_value">Default</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -828,4 +829,7 @@
     <string name="pie_system_animation_style">Android P</string>
     <string name="scale_system_animation_style">Scale</string>
     <string name="slide_system_animation_style">Slide</string>
+
+    <!-- Brightness Slider Style -->
+    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
 </resources>
