@@ -51,12 +51,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String STATUS_BAR_CLOCK_STYLE = "status_bar_clock";
-    private static final String STATUSBAR_CLOCK_CHIP = "statusbar_clock_chip";
-    private static final String STATUSBAR_COLORED_ICONS = "statusbar_colored_icons";
 
     private SystemSettingListPreference mStatusBarClock;
-    private SystemSettingListPreference mClockChip;
-    private SystemSettingSwitchPreference mColoredIcons;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -67,23 +63,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 		ContentResolver resolver = getActivity().getContentResolver();
 
         PreferenceScreen prefSet = getPreferenceScreen();
-
-        mClockChip = (SystemSettingListPreference) findPreference(STATUSBAR_CLOCK_CHIP);
-        mClockChip.setOnPreferenceChangeListener(this);
-        mColoredIcons = (SystemSettingSwitchPreference) findPreference(STATUSBAR_COLORED_ICONS);
-        mColoredIcons.setOnPreferenceChangeListener(this);
-    
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-
-        if (preference == mClockChip
-            || preference == mColoredIcons) {
-            CherishUtils.showSystemRestartDialog(getContext());
-            return true;
-        }
         return false;
     }
 
