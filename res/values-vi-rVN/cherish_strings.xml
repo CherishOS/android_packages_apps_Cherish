@@ -230,8 +230,11 @@
     <string name="volte_icon_volit">Biểu tượng Volit</string>
     <string name="volte_icon_zirco">Biểu tượng Ziroc</string>
     <!-- Statusbar Battery -->
+    <string name="battery_settings_title">Cài đặt biểu tượng Pin</string>   
     <string name="battery_style_title">Kiểu biểu tượng pin</string>
     <string name="battery_style_summary">Tùy chỉnh biểu tượng pin, ẩn hoặc hiển thị phần trăm</string>
+    <string name="status_bar_battery_percent_hidden">Ẩn</string>
+    <string name="status_bar_battery_percent_text_inside">Bên trong biểu tượng</string>
     <string name="battery_style_category_title">Biểu tượng pin</string>
     <string name="status_bar_battery_category_title">Thanh trạng thái</string>
     <string name="status_bar_battery_percent_title">Phần trăm pin</string>
@@ -713,4 +716,244 @@
     <string name="volume_show_volume_percent_title">Hiển thị phần trăm trên thanh âm lượng</string>
     <string name="volume_show_volume_percent_summary">Hiển thị quá trình phần trăm trên thanh âm lượng ngang</string>
     <string name="volume_dialog_timeout_title">Thời gian chờ bảng âm lượng</string>
+
+    <!-- Ongoing action chip -->
+     <string name="ongoing_progress_settings_title">Chip hành động trên thanh trạng thái</string>
+     <string name="ongoing_progress_settings_summary">Tùy chọn chip hành động trên thanh trạng thái</string>
+     <string name="ongoing_action_chip_title">Chip hành động đang thực hiện</string>
+     <string name="ongoing_action_chip_summary">Hiển thị chỉ báo tiến trình trên thanh trạng thái cho các hành động đang diễn ra như tải xuống</string>
+     <string name="compact_progress_mode_title">Chỉ báo Tiến trình Nhỏ gọn</string>
+     <string name="compact_progress_mode_summary">Sử dụng chỉ báo hình tròn cho các hành động đang thực hiện</string>
+     <string name="show_media_progress_title">Hiển thị tiến trình media</string>
+     <string name="show_media_progress_summary">Hiển thị tiến trình phát media trên thanh trạng thái</string>
+     <string name="progress_footer_text">
+     "Thanh tiến trình trên thanh trạng thái cung cấp cập nhật thời gian thực cho cả phát media và tải xuống/tải lên đang hoạt động.
+ 
+     - 🎵 Tiến trình Media:
+     • Hiển thị tiến trình phát cho nhạc và video khi đang phát media.
+     • Nhấn một lần mở điều khiển phát (Bài trước, Bài tiếp theo).
+     • Nhấn hai lần chuyển đổi phát/tạm dừng.
+     • Vuốt trái chuyển về bài trước.
+     • Vuốt phải chuyển đến bài tiếp theo.
+     • Nhấn giữ mở ứng dụng media. 
+ 
+     - 📥Tiến trình Tải xuống/Tải lên:
+     • Hiển thị tiến trình cho việc tải xuống và tải lên đang thực hiện.
+     • Tự động ẩn khi không phát hiện truyền tải nào đang hoạt động.
+     • Nhấn một lần mở ứng dụng chịu trách nhiệm cho việc tải xuống.
+ 
+     Thanh tiến trình chuyển đổi động giữa trạng thái media và tải xuống, đảm bảo bạn luôn có thông tin liên quan nhất trong nháy mắt."
+     </string>
+
+    <!-- Status bar Wi-Fi standard icon -->
+    <string name="status_bar_wifi_standard_icon_title">Chuẩn Wi-Fi</string>
+    <string name="status_bar_wifi_standard_icon_summary">Hiển thị chuẩn Wi-Fi bên cạnh biểu tượng Wi-Fi</string>
+
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_shape_title">Hình dạng ô QS</string>
+    <string name="qs_tile_shape_dynamic">Thay đổi theo trạng thái</string>
+    <string name="qs_tile_shape_circle">Hình tròn</string>
+    <string name="qs_tile_shape_rounded_square">Hình vuông bo tròn</string>
+    <string name="qs_tile_shape_square">Hình vuông</string>
+
+    <!-- QS Panel -->
+    <string name="quick_settings_brightness_slider_category">Thanh trượt độ sáng</string>
+    <string name="qs_show_brightness_title">Thanh trượt độ sáng</string>
+    <string name="qs_show_brightness_hide">Ẩn</string>
+    <string name="qs_show_brightness_normal">Hiển thị trong Panel QS</string>
+    <string name="qs_show_brightness_both">Hiển thị trong QS &amp; Panel QS Nhanh</string>
+    <string name="qs_brightness_position_position_title">Thanh trượt độ sáng ở dưới</string>
+    <string name="qs_brightness_position_position_summary">Hiển thị thanh trượt độ sáng ở dưới cùng panel QS</string>
+
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Hiển thị hiệu ứng squiggle</string>
+    <string name="show_squiggle_animation_summary">Hiển thị hiệu ứng squiggle của panel media\nSau khi thay đổi cần chuyển nhạc, tạm dừng nhạc hoặc di chuyển thanh tiến trình để áp dụng</string>
+
+    <!-- System Animation styles -->
+    <string name="system_animation_style_title">Kiểu hiệu ứng hệ thống</string>
+    <string name="pie_system_animation_style">Android P</string>
+    <string name="scale_system_animation_style">Thu phóng</string>
+    <string name="slide_system_animation_style">Trượt</string>
+
+    <!-- Brightness Slider Style -->
+    <string name="qs_brightness_slider_shape_title">Hình dạng thanh trượt độ sáng</string>
+
+    <!-- Compact QS Media Player-->
+    <string name="qs_compact_media_player_mode_title">Trình phát media QS gọn</string>
+    <string name="qs_compact_media_player_mode_summary">Bật chế độ nhỏ gọn cho trình phát media Cài đặt Nhanh</string>
+
+    <!-- QS Header Clock Styles -->
+    <string name="qs_header_clock_style_title">Kiểu đồng hồ QS</string>
+
+    <!-- Tiles on secure keyguard -->
+	<string name="qs_lock_screen_category">Màn hình khóa</string>
+    <string name="qs_lock_screen_secure_title">Yêu cầu mở khóa để sử dụng ô QS</string>
+    <string name="qs_lock_screen_secure_summary">Yêu cầu mở khóa màn hình khóa khi sử dụng ô QS</string>
+
+     <!-- Monet settings -->
+    <string name="monet_settings_title">Cài đặt chủ đề</string>
+    <string name="monet_settings_sammary">Một số cài đặt bổ sung để tùy chỉnh engine monet</string>
+    <string name="theme_style_title">Kiểu chủ đề</string>
+    <string name="theme_style_tonal_spot">Tonal Spot (Mặc định)</string>
+    <string name="theme_style_vibrant">Rực rỡ</string>
+    <string name="theme_style_expressive">Sống động</string>
+    <string name="theme_style_spritz">Spritz</string>
+    <string name="theme_style_rainbow">Cầu vồng</string>
+    <string name="theme_style_fruit_salad">Salad trái cây</string>
+    <string name="theme_style_muted">Nhẹ nhàng</string>
+    <string name="theme_style_content">Nội dung</string>
+    <string name="color_source_title">Nguồn màu</string>
+    <string name="color_source_both">Cả hai (Mặc định)</string>
+    <string name="color_source_home">Hình nền màn hình chính</string>
+    <string name="color_source_lock">Hình nền màn hình khóa</string>
+    <string name="color_source_preset">Cài sẵn</string>
+    <string name="accent_color_title">Màu nhấn</string>
+    <string name="accent_color_summary">Ghi đè màu nhấn mặc định</string>
+    <string name="accent_background_title">Nền màu nhấn</string>
+    <string name="accent_background_summary">Chọn màu nhấn khác cho nền</string>
+    <string name="bg_color_title">Màu nền</string>
+    <string name="bg_color_summary">Ghi đè màu nhấn nền mặc định</string>
+    <string name="luminance_factor_title">Độ sáng</string>
+    <string name="luminance_factor_summary">Giá trị cao hơn tạo ra màu sắc sáng hơn</string>
+    <string name="chroma_factor_title">Chroma</string>
+    <string name="chroma_factor_summary">Giá trị cao hơn tạo ra màu sắc mạnh hơn</string>
+    <string name="tint_background_title">Tô màu nền</string>
+    <string name="tint_background_summary">Làm cho lựa chọn Độ sáng và Chroma cũng ảnh hưởng đến màu nền</string>
+
+    <!-- Wallpaper Styles -->
+    <string name="wallpaper_settings_title">Kiểu hình nền</string>
+    <string name="wallpaper_settings_summary">Cấu hình kiểu và cài đặt hình nền</string>
+    <string name="wallpaper_blur_title">Làm mờ hình nền</string>
+    <string name="wallpaper_blur_summary">Bật hoặc tắt hiệu ứng làm mờ hình nền</string>
+    <string name="wallpaper_blur_filter">Kiểu làm mờ hình nền</string>
+    <string name="wallpaper_dim_title">Làm tối hình nền</string>
+    <string name="wallpaper_dim_level_title">Mức độ tối hình nền</string>
+    <string name="wallpaper_dim_level_summary">Cấu hình mức độ tối hình nền</string>
+    <string name="glass_blur">Làm mờ thủy tinh</string>
+    <string name="frosted_blur">Làm mờ sương mù</string>
+    <string name="wallpaper_styles_footer">
+        Để kiểu hình nền hoạt động hiệu quả, người dùng phải đặt hình nền cho màn hình khóa và màn hình chính vào những thời điểm khác nhau.\nCùng một hình nền có thể được sử dụng, nhưng không nên áp dụng cho cả màn hình khóa và màn hình chính cùng lúc.\nĐiều này là tùy chọn khi sử dụng TÙY CHỌN CẢ HAI cho kiểu làm mờ và tối hình nền.
+    </string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Hiệu ứng gợn sóng</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>
+
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Tên nhà mạng màn hình khóa</string>
+    <string name="lockscreen_show_carrier_summary">Hiển thị tên nhà mạng trên thanh trạng thái ở màn hình khóa</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Ảnh bìa media</string>
+    <string name="media_art_summary">Hiển thị ảnh bìa media khi có sẵn</string>
+    <string name="ls_media_art_fade_level_title">Mức độ mờ ảnh bìa media</string>
+    <string name="ls_media_art_fade_level_summary">Đặt mức độ mờ ảnh bìa media</string>
+    <!-- Lockscreen album art filter -->
+    <string name="lockscreen_albumart_filter_title">Bộ lọc ảnh bìa media</string>
+    <string name="lockscreen_albumart_filter_none">Không</string>
+    <string name="lockscreen_albumart_filter_grayscale">Xám trắng</string>
+    <string name="lockscreen_albumart_filter_tint">Tô màu nhấn</string>
+    <string name="lockscreen_albumart_filter_blur">Làm mờ</string>
+    <string name="lockscreen_albumart_filter_grayblur">Xám trắng và mờ</string>
+
+    <!-- Notifications -->
+    <string name="notifications_interface_category">Giao diện</string>
+    <string name="edge_light_title">Ánh sáng cạnh</string>
+    <string name="edge_light_summary">Sáng lên các cạnh bên của màn hình khi có thông báo</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Luôn kích hoạt khi nhấp nháy màn hình xung quanh được hiển thị</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Hiển thị ánh sáng cạnh bất cứ khi nào màn hình xung quanh được hiển thị và không chỉ cho thông báo</string>
+    <string name="edge_light_repeat_animation_title">Lặp lại hiệu ứng</string>
+    <string name="edge_light_repeat_animation_summary_on">Lặp lại cho đến hết thời gian</string>
+    <string name="edge_light_repeat_animation_summary_off">Chỉ hiển thị một lần</string>
+    <string name="edge_light_color_mode_title">Chế độ màu ánh sáng cạnh</string>
+    <string name="edge_light_rainbow_gradient">Gradient cầu vồng</string>
+    <string name="edge_light_style_title">Kiểu ánh sáng cạnh</string>
+    <string name="edge_light_stroke_width_title">Độ rộng nét ánh sáng cạnh</string>
+    <string name="edge_light_stroke_width_summary">Cấu hình độ dày ánh sáng cạnh</string>
+    <string name="edge_light_style_1">Đường sáng</string>
+    <string name="edge_light_style_2">Nhấp nháy/Xung</string>
+
+    <!-- Heads-up -->
+    <string name="compact_heads_up_notifications_enabled_title">Thông báo nổi nhỏ gọn</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Hiển thị thông báo ở kích thước nhỏ gọn hơn</string>
+
+    <!-- Miscellaneous -->
+    <string name="miscellaneous_app_downgrade_title">Cho phép hạ cấp ứng dụng</string>
+    <string name="miscellaneous_app_downgrade_summary">Cho phép hạ cấp ứng dụng hệ thống, có thể dẫn đến sự cố và mất dữ liệu</string>
+
+    <!-- Hide screen capture status -->
+    <string name="hide_screen_capture_status_title">Ẩn trạng thái chụp màn hình</string>
+    <string name="hide_screen_capture_status_summary">Ẩn trạng thái chụp màn hình và ghi màn hình khỏi tất cả ứng dụng. Có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
+
+    <!-- No storage restrict -->
+    <string name="no_storage_restrict_title">Không hạn chế lưu trữ</string>
+    <string name="no_storage_restrict_summary">Xóa hạn chế khi chọn thư mục thông qua Storage Access Framework. Có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
+
+    <!-- Unlimit screenrecord filesize -->
+    <string name="miscellaneous_unlimit_screenrecord_title">Không giới hạn ghi màn hình</string>
+    <string name="miscellaneous_unlimit_screenrecord_summary">Xóa giới hạn kích thước tệp 15GiB\nCó thể dẫn đến tệp đầu ra lớn hơn cần thiết</string>
+
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Vô hiệu hóa trạng thái mã hóa lưu trữ</string>
+    <string name="spoof_storage_encryption_status_summary">Ngăn ứng dụng không hoạt động do lưu trữ không được mã hóa</string>
+
+    <!-- Miscellaneous -->
+    <string name="miscellaneous_spoofing_category">Giả mạo</string>
+ 
+    <!-- Miscellaneous/Spoofing -->
+    <string name="spoofing_title">Giả mạo thành phần</string>
+    <string name="spoofing_summary">Bỏ qua hạn chế ứng dụng bằng cách giả mạo thành phần</string>
+    <string name="spoofing_system_wide_category">Toàn hệ thống</string>
+    <string name="spoofing_pixel_props_title">Thuộc tính Pixel</string>
+    <string name="spoofing_pixel_props_summary">Giả mạo một nhóm ứng dụng Google được chọn thành thiết bị Pixel mới nhất</string>
+    <string name="tensor_spoof_title">Giả mạo tính năng tensor</string>
+    <string name="tensor_spoof_summary">Mở khóa tính năng tensor/pixel</string>
+    <string name="gms_spoof_title">Sửa lỗi Play Integrity</string>
+    <string name="gms_spoof_summary">Giả mạo thiết bị của bạn để vượt qua Google Play Attestation</string>
+    <string name="spoofing_app_specific_category">Dành riêng cho ứng dụng</string>
+    <string name="spoofing_qsb_title">Ứng dụng Google</string>
+    <string name="spoofing_qsb_summary">Giả mạo ứng dụng Google thành thiết bị Pixel mới nhất để mở khóa tính năng độc quyền</string>
+    <string name="spoofing_vending_title">Giả mạo Play Store</string>
+    <string name="spoofing_vending_summary">Giả mạo Play Store thành thiết bị Pixel mới nhất</string>
+    <string name="spoofing_photos_title">Giả mạo Google Photos</string>
+    <string name="spoofing_photos_summary">Giả mạo ứng dụng Google Photos như Pixel XL</string>
+    <string name="spoofing_snap_title">Giả mạo Snapchat</string>
+    <string name="spoofing_snap_summary">Giả mạo Snapchat như Pixel XL để khắc phục các vấn đề chat có thể xảy ra</string>
+ 
+    <!-- Miscellaneous/Spoofing/Play Integrity fix JSON update -->
+    <string name="toast_spoofing_success">Đã tải xuống thành công pif.json. Giả mạo như %1$s cho Play Integrity.</string>
+    <string name="toast_spoofing_failure">Thất bại trong việc giả mạo thuộc tính.</string>
+    <string name="update_pif_json_title">Cập nhật sửa lỗi Play Integrity</string>
+    <string name="update_pif_json_summary">Cập nhật thiết bị giả mạo PIF, yêu cầu kết nối internet.</string>
+    <string name="show_pif_properties_title">Thuộc tính sửa lỗi Play Integrity</string>
+    <string name="show_pif_properties_summary">Hiển thị tất cả thuộc tính PIF hiện tại được đặt</string>
+    <string name="error_loading_properties">Lỗi tải thuộc tính PIF</string>
+    <string name="pif_spoofing_title">Chọn tệp JSON PIF</string>
+    <string name="pif_spoofing_summary">Chọn tệp JSON PIF sẽ được sử dụng để giả mạo Play Integrity</string>
+
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Ghi đè xác thực keybox</string>
+    <string name="keybox_data_summary">Tải keybox XML tùy chỉnh để ghi đè xác thực khóa thiết bị</string>
+    <string name="keybox_data_loaded_summary">Keybox XML tùy chỉnh đã được tải. Xóa để xóa bỏ.</string>
+    <string name="keybox_delete_content_description">Xóa dữ liệu keybox</string>
+    <string name="keybox_toast_invalid_file_selected">Không phải tệp XML. Chọn keybox XML hợp lệ.</string>
+    <string name="keybox_toast_missing_data">Keybox XML không hợp lệ: thiếu trường bắt buộc</string>
+    <string name="keybox_toast_file_loaded">Keybox đã được tải</string>
+    <string name="keybox_toast_file_cleared">Keybox đã được xóa</string>
+
+    <!-- Miscellaneous/Spoofing/Per-app spoofing -->
+    <string name="gameprops_title">Bật giả mạo game cho từng ứng dụng</string>
+    <string name="gameprops_summary">Bật tùy chọn giả mạo game cho từng ứng dụng</string>
+    <string name="gameprops_load_json_title">Chọn tệp JSON thuộc tính game cho từng ứng dụng</string>
+    <string name="gameprops_load_json_summary">Chọn tệp JSON sẽ được sử dụng để giả mạo thêm game</string>
+
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Ẩn danh sách ứng dụng</string>
+    <string name="hide_applist_summary">Ngăn ứng dụng kiểm tra các ứng dụng đã chọn từ danh sách ứng dụng</string>
+    <string name="menu_show_overlay">Hiển thị lớp phủ</string>
+    <string name="menu_hide_overlay">Ẩn lớp phủ</string>
+
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ẩn trạng thái nhà phát triển</string>
+    <string name="hide_developer_status_summary">Ẩn trạng thái nhà phát triển khỏi ứng dụng</string>
 </resources>
