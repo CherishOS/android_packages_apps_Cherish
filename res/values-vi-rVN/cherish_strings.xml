@@ -51,7 +51,7 @@
     <string name="default_string">Mặc định</string>
     <string name="enable">Bật</string>
     <string name="disabled">Tắt</string>
-    <string name="default_value">Default</string>
+    <string name="default_value">Mặc định</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Bảng màu</string>
     <string name="press_color_to_apply">Chạm vào màu sắc bên dưới để áp dụng</string>
@@ -63,10 +63,10 @@
     <string name="color_default">Mặc định</string>
     <string name="led_color_green">Xanh</string>
     <string name="led_color_red">Đỏ</string>
-    <string name="accent_color">Accent color (Default)</string>
-    <string name="notification_color">Notification color</string>
-    <string name="wallpaper_color">Wallpaper color</string>
-    <string name="custom_color">Custom color</string>
+    <string name="accent_color">Màu nhấn (Mặc định)</string>
+    <string name="notification_color">Màu thông báo</string>
+    <string name="wallpaper_color">Màu hình nền</string>
+    <string name="custom_color">Tùy chỉnh màu sắc</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Mặc định</string>
@@ -188,30 +188,30 @@
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">Giám sát lưu lượng mạng</string>
     <string name="network_traffic_settings_summary">Hiển thị mức lưu lượng mạng hiện tại trên thanh trạng thái</string>
-    <string name="network_traffic_location_title">Location</string>
-    <string name="network_traffic_location_disable">Disabled</string>
-    <string name="network_traffic_location_statusbar">Statusbar</string>
-    <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
-    <string name="network_traffic_mode_title">Display mode</string>
-    <string name="network_traffic_mode_up">Upload only</string>
-    <string name="network_traffic_mode_down">Download only</string>
-    <string name="network_traffic_mode_all">Upload and download</string>
+    <string name="network_traffic_location_title">Vị trí</string>
+    <string name="network_traffic_location_disable">Đã tắt</string>
+    <string name="network_traffic_location_statusbar">Thanh trạng thái</string>
+    <string name="network_traffic_location_quick_statusbar">Thanh trạng thái nhanh</string>
+    <string name="network_traffic_mode_title">Chế độ hiển thị</string>
+    <string name="network_traffic_mode_up">Chỉ tải lên</string>
+    <string name="network_traffic_mode_down">Chỉ tải xuống</string>
+    <string name="network_traffic_mode_all">Tải lên và tải xuống</string>
     <string name="network_traffic_autohide">Tự động ẩn</string>
     <string name="network_traffic_autohide_summary">Ẩn tốc độ mạng khi không có hoạt động</string>
     <string name="network_traffic_autohide_kilobits">Kb/s</string>
     <string name="network_traffic_autohide_kilobytes">KB/s</string>
-    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
-    <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
+    <string name="network_traffic_autohide_threshold">Ngưỡng không hoạt động</string>
+    <string name="network_traffic_refresh_interval_title">Thời gian làm mới</string>
+    <string name="network_traffic_refresh_interval_summary">Khoảng thời gian sau đó tốc độ được đo lại</string>
     <string name="network_traffic_units_title">Đơn vị đo lưu lượng mạng</string>
-    <string name="network_traffic_units_bits">Bits per second (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
-    <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_units_bits">Bit trên giây (b/s)</string>
+    <string name="network_traffic_units_kilobits">Kilobit mỗi giây (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabit trên giây (Mb/s)</string>
+    <string name="network_traffic_units_bytes">Byte trên giây (B/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobyte trên giây (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabyte trên giây (MB/s)</string>
+    <string name="network_traffic_hidearrow">Ẩn mũi tên</string>
+    <string name="network_traffic_hidearrow_summary">Ẩn mũi tên bên cạnh tốc độ mạng</string>
     <!-- Privacy indicators -->
     <string name="mic_camera_privacy_indicator_title">Biểu tượng sử dụng mic và camera</string>
     <string name="mic_camera_privacy_indicator_summary">Hiện thị biểu tượng tách biệt khi một app nào đó sử dụng mic và camera</string>
@@ -289,7 +289,7 @@
     <string name="laboratory_ignore_window_secure_summary">Điều này loại bỏ các ảnh chụp màn hình và giới hạn ghi lại màn hình cho tất cả các ứng dụng. Thông thường, các ứng dụng đặc biệt được thay thế bằng các vùng đen trong hồ sơ. Điều này có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư. Sau khi thay đổi công tắc này, bạn có thể phải khởi động lại ứng dụng để thay đổi có hiệu lực.</string>
     <!-- Battery customizations -->
     <string name="battery_settings_title">Cài đặt biểu tượng Pin</string>
-    <string name="battery_options">Battery</string>
+    <string name="battery_options">Pin</string>
     <string name="status_bar_battery_style_title">Kiểu pin</string>
     <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc (mặc định)</string>
     <string name="status_bar_battery_style_icon_rlandscape">Biểu tượng nằm ngang (Phải)</string>
@@ -306,7 +306,7 @@
     <string name="status_bar_battery_style_icon_landscape_ios15">iOS 15</string>
     <string name="status_bar_battery_style_icon_landscape_ios16">iOS 16</string>
     <string name="status_bar_battery_style_icon_landscape_origami">Origami ngang</string>
-    <string name="status_bar_battery_style_icon_landscape_oneui7">Landscape OneUI 7</string>
+    <string name="status_bar_battery_style_icon_landscape_oneui7">Ngang OneUI 7</string>
     <string name="status_bar_battery_style_circle">Vòng tròn</string>
     <string name="status_bar_battery_style_dotted_circle">Vòng tròn chấm</string>
     <string name="status_bar_battery_style_filled_circle">Vòng tròn kín</string>
@@ -314,7 +314,7 @@
     <string name="status_bar_battery_style_big_dotted_circle">Vòng tròn lớn chấm</string>
     <string name="status_bar_battery_style_text">Văn bản</string>
     <string name="status_bar_battery_style_hidden">Ẩn</string>
-    <string name="status_bar_battery_style_follow_status_bar">Follow status bar style</string>
+    <string name="status_bar_battery_style_follow_status_bar">Theo kiểu thanh trạng thái</string>
     <string name="status_bar_battery_percent_title">Phần trăm pin</string>
     <string name="status_bar_battery_percent_hidden">Ẩn</string>
     <string name="status_bar_battery_percent_text_inside">Bên trong biểu tượng</string>
@@ -410,18 +410,18 @@
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Màu nền đồng hồ</string>
     <string name="statusbar_clock_chip_summary">Hiển thị nền màu sau đồng hồ</string>
-    <string name="solid_accent">Solid color accent</string>
-    <string name="outline">Outline</string>
-    <string name="solid_accent_gradient">Solid color accent gradient</string>
-    <string name="solid_gradient">Solid Gradient side</string>
-    <string name="solid_gradient_corner">Solid accent gradient sharp</string>
-    <string name="solid_gradient_void">Gradient Void</string>
-    <string name="solid_gradient_neumorph">Neumorph gradient</string>
-    <string name="solid_gradient_stroke">Sharp gradient stroke</string>
-    <string name="solid_accent_transperent">Accent transperent</string>
-    <string name="solid_gradient_light">Gradient light</string>
-    <string name="solid_gradient_shape">Sharp gradient corner</string>
-    <string name="solid_gradient_void_light">Gradient Void light</string>
+    <string name="solid_accent">Màu nổi bật</string>
+    <string name="outline">Viền</string>
+    <string name="solid_accent_gradient">Màu chính mờ</string>
+    <string name="solid_gradient">Mặt chuyển đa màu</string>
+    <string name="solid_gradient_corner">Độ dốc nhấn mạnh và sắc nét</string>
+    <string name="solid_gradient_void">Khoảng trống</string>
+    <string name="solid_gradient_neumorph">Độ dốc trung tính</string>
+    <string name="solid_gradient_stroke">Đột quỵ chuyển màu sắc nét</string>
+    <string name="solid_accent_transperent">Màu chính trong suốt</string>
+    <string name="solid_gradient_light">Ánh sáng chuyển màu</string>
+    <string name="solid_gradient_shape">Góc gradient sắc nét</string>
+    <string name="solid_gradient_void_light">Ánh sáng khoảng trống</string>
     <!-- Navigation Bar -->
     <string name="navigation_bar_category">Thanh điều hướng</string>
     <string name="navigation_bar_invert_layout_title">Đảo ngược bố cục</string>
@@ -563,7 +563,7 @@
     <string name="theme_style_tonal_spot">Tonal Spot (Mặc định)</string>
     <string name="theme_style_vibrant">Rực rỡ</string>
     <string name="theme_style_expressive">Sống động</string>
-    <string name="theme_style_spritz">Spritz</string>
+    <string name="theme_style_spritz">Mờ ảo</string>
     <string name="theme_style_rainbow">Cầu vồng</string>
     <string name="theme_style_fruit_salad">Salad trái cây</string>
     <string name="theme_style_muted">Nhẹ nhàng</string>
@@ -581,7 +581,7 @@
     <string name="bg_color_summary">Ghi đè màu nhấn nền mặc định</string>
     <string name="luminance_factor_title">Độ sáng</string>
     <string name="luminance_factor_summary">Giá trị cao hơn tạo ra màu sắc sáng hơn</string>
-    <string name="chroma_factor_title">Chroma</string>
+    <string name="chroma_factor_title">Sắc độ</string>
     <string name="chroma_factor_summary">Giá trị cao hơn tạo ra màu sắc mạnh hơn</string>
     <string name="tint_background_title">Tô màu nền</string>
     <string name="tint_background_summary">Làm cho lựa chọn Độ sáng và Chroma cũng ảnh hưởng đến màu nền</string>
@@ -644,10 +644,10 @@
     <string name="custom_timeout_summary_8hours">8 giờ</string>
     <!-- QS Header Clock Styles -->
     <string name="qs_header_clock_style_title">Kiểu đồng hồ QS</string>
-    <string name="qs_header_style1">Chip</string>
+    <string name="qs_header_style1">Nền dưới</string>
     <string name="qs_header_style2">Oxygen</string>
-    <string name="qs_header_style3">Analog</string>
-    <string name="qs_header_style4">Simple</string>
+    <string name="qs_header_style3">Đồng hồ kim</string>
+    <string name="qs_header_style4">Đơn giản</string>
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Ẩn trạng thái chụp màn hình</string>
     <string name="hide_screen_capture_status_summary">Ẩn trạng thái chụp màn hình và ghi màn hình khỏi tất cả ứng dụng. Có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
@@ -661,7 +661,7 @@
     <string name="spoof_storage_encryption_status_title">Vô hiệu hóa trạng thái mã hóa lưu trữ</string>
     <string name="spoof_storage_encryption_status_summary">Ngăn ứng dụng không hoạt động do lưu trữ không được mã hóa</string>
     <!-- Brightness control -->
-    <string name="status_bar_gestures_category">Gestures</string>
+    <string name="status_bar_gestures_category">Cử chỉ</string>
     <string name="status_bar_brightness_control_title">Điều chỉnh độ sáng</string>
     <string name="status_bar_brightness_control_summary">Điều chỉnh độ sáng bằng cách trượt qua thanh trạng thái</string>
     <!-- Carrier name on lockscreen -->
@@ -683,8 +683,8 @@
     <string name="qs_compact_media_player_mode_title">Trình phát media QS gọn</string>
     <string name="qs_compact_media_player_mode_summary">Bật chế độ nhỏ gọn cho trình phát media Cài đặt Nhanh</string>
     <string name="qs_blur_category_title">Shade Appearance</string>
-    <string name="notification_row_transparency_title">Transparent notifications</string>
-    <string name="notification_row_transparency_summary">Apply a semi-transparent background to notifications</string>
+    <string name="notification_row_transparency_title">Thông báo trong suốt</string>
+    <string name="notification_row_transparency_summary">Áp dụng nền bán trong suốt cho thông báo</string>
     <!-- Tiles on secure keyguard -->
     <string name="qs_lock_screen_secure_title">Yêu cầu mở khóa để sử dụng ô QS</string>
     <string name="qs_lock_screen_secure_summary">Yêu cầu mở khóa màn hình khóa khi sử dụng ô QS</string>
@@ -703,7 +703,7 @@
     <string name="qs_brightness_position_position_title">Thanh trượt độ sáng ở dưới</string>
     <string name="qs_brightness_position_position_summary">Hiển thị thanh trượt độ sáng ở dưới cùng panel QS</string>
     <!-- QS Header -->
-    <string name="quick_settings_interface_category">Interface</string>
+    <string name="quick_settings_interface_category">Giao diện</string>
     <string name="qs_header_image_title">Hình nền tiêu đề cài đặt nhanh</string>
     <string name="qs_header_image_summary">Chọn ảnh nền tiêu đề cài đặt nhanh</string>
     <string name="qs_header_daylight_pack_title">Bộ sưu tập ảnh đề mục</string>
