@@ -739,4 +739,7 @@
     <!-- Small landscape notifications -->
     <string name="small_landscape_notification_title">Thông báo ngang thu gọn</string>
     <string name="small_landscape_notification_summary">Hiển thị thông báo với chiều ngang hẹp hơn trong bảng thông báo khi ở chế độ xoay ngang, đúng như AOSP thiết kế</string>
+    <!-- Heads up notifications -->
+    <string name="notification_heads_up_timeout_title">Thời gian chờ</string>
+    <string name="notification_heads_up_timeout_summary">Thời gian hiển thị thông báo nổi</string>
 </resources>
