@@ -46,6 +46,16 @@
             android:defaultValue="false"
             android:dependency="heads_up_notifications_enabled" />
 
+        <com.cherish.settings.preferences.SystemSettingSeekBarPreference
+            android:key="heads_up_timeout"
+            android:title="@string/notification_heads_up_timeout_title"
+            android:summary="@string/notification_heads_up_timeout_summary"
+            settings:units="@string/unit_seconds"
+            android:defaultValue="5"
+            settings:min="1"
+            android:max="10"
+            android:dependency="heads_up_notifications_enabled" />
+
         <com.cherish.settings.preferences.SystemPropertySwitchPreference
             android:key="persist.sys.compact_heads_up_notification.always_show"
             android:title="@string/compact_heads_up_notifications_enabled_title"

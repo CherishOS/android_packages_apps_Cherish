@@ -38,6 +38,9 @@ import java.util.List;
 public class NotificationSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener{
 
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
+    private static final String HEADS_UP_TIMEOUT_PREF = "heads_up_timeout";
+
+    private CustomSeekBarPreference mHeadsUpTimeOut;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -52,7 +55,12 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         if (!CherishUtils.isVoiceCapable(getActivity())) {
                 prefScreen.removePreference(incallVibCategory);
         }
-        
+
+        mHeadsUpTimeOut = (CustomSeekBarPreference) findPreference(HEADS_UP_TIMEOUT_PREF);
+        if (mHeadsUpTimeOut != null) {
+            mHeadsUpTimeOut.setOnPreferenceChangeListener(this);
+        }
+
     }
 
     @Override
@@ -63,6 +71,18 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CHERISH_SETTINGS;
+    }
+
+    private static int getDefaultDecay(Context context) {
+        int defaultHeadsUpTimeOut = 5;
+        Resources systemUiResources;
+        try {
+            systemUiResources = context.getPackageManager().getResourcesForApplication("com.android.systemui");
+            defaultHeadsUpTimeOut = systemUiResources.getInteger(systemUiResources.getIdentifier(
+                    "com.android.systemui:integer/heads_up_notification_decay", null, null)) / 1000;
+        } catch (Exception e) {
+        }
+        return defaultHeadsUpTimeOut;
     }
 	
 	/**
