@@ -13,7 +13,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
     <string name="cherish_settings_title">Cherish Settings</string>
-    <string name="cherish_settings_subtitle">Customize your CherishOS experience</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
@@ -42,18 +41,9 @@
     <string name="notifications_summary">Battery light, notifications header</string>
     <string name="about_summary">Learn more about CherishOS</string>
     <string name="device_part_title">Device features</string>
-    <string name="device_part_summary">Device-specific hardware settings</string>
     <string name="qs_category">QS category</string>
     <string name="navbar_title">Navigation bar</string>
     <string name="volume_keys_title">Volume keys</string>
-
-    <!-- Category Headers -->
-    <string name="ui_category_title">User Interface</string>
-    <string name="visual_category_title">Visual &amp; Themes</string>
-    <string name="controls_category_title">Controls</string>
-    <string name="advanced_category_title">Advanced</string>
-    <string name="device_category_title">Device Features</string>
-    <string name="about_category_title">About</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
