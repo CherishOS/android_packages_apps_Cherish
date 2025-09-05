@@ -39,9 +39,15 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String KEY_QS_COMPACT_PLAYER  = "qs_compact_media_player_mode";
+    private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
 
-	private ListPreference mQuickPulldown;
+    private static final int PULLDOWN_DIR_NONE = 0;
+    private static final int PULLDOWN_DIR_RIGHT = 1;
+    private static final int PULLDOWN_DIR_LEFT = 2;
+
     private Preference mQsCompactPlayer;
+    private SystemSettingListPreference mQuickPulldown;
+    private ListPreference mStatusBarClock;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -53,14 +59,19 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         final ContentResolver resolver = mContext.getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
-        int qpmode = Settings.System.getIntForUser(getContentResolver(),
-                Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0, UserHandle.USER_CURRENT);
-        mQuickPulldown = (ListPreference) findPreference("status_bar_quick_qs_pulldown");
-        mQuickPulldown.setValue(String.valueOf(qpmode));
-        mQuickPulldown.setSummary(mQuickPulldown.getEntry());
+        mQuickPulldown = findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
+        updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
+
         mQsCompactPlayer = (Preference) findPreference(KEY_QS_COMPACT_PLAYER);
         mQsCompactPlayer.setOnPreferenceChangeListener(this);
+
+        // Adjust status bar preferences for RTL
+        if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
+            mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries_rtl);
+        } else {
+            mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries);
+        }
 	}
 
     @Override
@@ -68,18 +79,36 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mQuickPulldown) {
             int value = Integer.parseInt((String) newValue);
-            Settings.System.putIntForUser(resolver,
-                    Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, value,
-                    UserHandle.USER_CURRENT);
-            int index = mQuickPulldown.findIndexOfValue((String) newValue);
-            mQuickPulldown.setSummary(
-                    mQuickPulldown.getEntries()[index]);
+            updateQuickPulldownSummary(value);
             return true;
         } else if (preference == mQsCompactPlayer) {
             CherishUtils.showSystemRestartDialog(getActivity());
             return true;
         }
         return false;
+    }
+
+    private void updateQuickPulldownSummary(int value) {
+        String summary="";
+        switch (value) {
+            case PULLDOWN_DIR_NONE:
+                summary = getResources().getString(
+                    R.string.status_bar_quick_qs_pulldown_off);
+                break;
+
+            case PULLDOWN_DIR_LEFT:
+            case PULLDOWN_DIR_RIGHT:
+                summary = getResources().getString(
+                    R.string.status_bar_quick_qs_pulldown_summary,
+                    getResources().getString(
+                        (value == PULLDOWN_DIR_LEFT) ^
+                        (getResources().getConfiguration().getLayoutDirection()
+                            == View.LAYOUT_DIRECTION_RTL)
+                        ? R.string.status_bar_quick_qs_pulldown_summary_left
+                        : R.string.status_bar_quick_qs_pulldown_summary_right));
+                break;
+        }
+        mQuickPulldown.setSummary(summary);
     }
 
 
