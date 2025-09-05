@@ -150,13 +150,13 @@
     <string name="custom_signal_bar_title">Tín hiệu</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">Wi-Fi</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
-    <string name="status_bar_quick_qs_pulldown_off">Off</string>
-    <string name="status_bar_quick_qs_pulldown_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_right">Right</string>
+    <string name="status_bar_quick_qs_pulldown_title">Kéo xuống nhanh</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Kéo từ cạnh %1$s thanh trạng thái xuống để truy cập cài đặt nhanh</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Trái</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Phải</string>
+    <string name="status_bar_quick_qs_pulldown_off">Tắt</string>
+    <string name="status_bar_quick_qs_pulldown_left">Trái</string>
+    <string name="status_bar_quick_qs_pulldown_right">Phải</string>
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Bật màn hình khi sạc</string>
     <string name="wakeup_when_plugged_unplugged_summary">Sáng màn hình thiết bị nếu bộ sạc được cắm vào/rút ra.</string>
@@ -742,13 +742,13 @@
     <string name="notification_heads_up_timeout_title">Thời gian chờ</string>
     <string name="notification_heads_up_timeout_summary">Thời gian hiển thị thông báo nổi</string>
     <!-- Notification Row -->
-    <string name="notification_row_transparency_title">Notification row transparency</string>
-    <string name="notification_row_transparency_summary">Show translucent quicksettings notifications</string>
+    <string name="notification_row_transparency_title">Độ trong suốt của hàng thông báo</string>
+    <string name="notification_row_transparency_summary">Hiển thị thông báo trong suốt ở cài đặt nhanh</string>
     <!-- AOD wallpaper -->
-    <string name="aod_wallpaper_title">AOD wallpaper</string>
-    <string name="aod_wallpaper_summary">Show wallpaper when aod on</string>
+    <string name="aod_wallpaper_title">Hình nền AOD</string>
+    <string name="aod_wallpaper_summary">Hiển thị hình nền khi bật aod</string>
     <!-- Themed icons -->
-    <string name="themes_launcher_category">Pixel Launcher</string>
-    <string name="themes_launcher_more_themed_icons_title">More themed icons</string>
-    <string name="themes_launcher_more_themed_icons_summary">Extends support for dynamic color themed icons for installed apps</string>
+    <string name="themes_launcher_category">Trình khởi động Pixel</string>
+    <string name="themes_launcher_more_themed_icons_title">Thêm biểu tượng theo chủ đề</string>
+    <string name="themes_launcher_more_themed_icons_summary">Mở rộng hỗ trợ biểu tượng màu động cho ứng dụng đã cài đặt</string>
 </resources>
