@@ -150,11 +150,13 @@
     <string name="custom_signal_bar_title">Сигнал</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">Wi-Fi</string>
-    <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
-    <string name="quick_pulldown_none">Disabled</string>
-    <string name="quick_pulldown_right">Pulldown statusbar from right side</string>
-    <string name="quick_pulldown_left">Pulldown statusbar from left side</string>
-    <string name="quick_pulldown_always">Always show quick settings on status bar pull down</string>
+    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
+    <string name="status_bar_quick_qs_pulldown_off">Off</string>
+    <string name="status_bar_quick_qs_pulldown_left">Left</string>
+    <string name="status_bar_quick_qs_pulldown_right">Right</string>
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
@@ -682,9 +684,6 @@
     <!-- Compact QS Media Player-->
     <string name="qs_compact_media_player_mode_title">Compact QS Media player</string>
     <string name="qs_compact_media_player_mode_summary">Enable compact mode for QuickSettings media player</string>
-    <string name="qs_blur_category_title">Shade Appearance</string>
-    <string name="notification_row_transparency_title">Transparent notifications</string>
-    <string name="notification_row_transparency_summary">Apply a semi-transparent background to notifications</string>
     <!-- Tiles on secure keyguard -->
     <string name="qs_lock_screen_secure_title">Require unlocking to use qs tiles</string>
     <string name="qs_lock_screen_secure_summary">Ask to unlock lockscreen when using qs tiles</string>
@@ -742,4 +741,14 @@
     <!-- Heads up notifications -->
     <string name="notification_heads_up_timeout_title">Time out</string>
     <string name="notification_heads_up_timeout_summary">Time to display heads up notifications</string>
+    <!-- Notification Row -->
+    <string name="notification_row_transparency_title">Notification row transparency</string>
+    <string name="notification_row_transparency_summary">Show translucent quicksettings notifications</string>
+    <!-- AOD wallpaper -->
+    <string name="aod_wallpaper_title">AOD wallpaper</string>
+    <string name="aod_wallpaper_summary">Show wallpaper when aod on</string>
+    <!-- Themed icons -->
+    <string name="themes_launcher_category">Pixel Launcher</string>
+    <string name="themes_launcher_more_themed_icons_title">More themed icons</string>
+    <string name="themes_launcher_more_themed_icons_summary">Extends support for dynamic color themed icons for installed apps</string>
 </resources>
