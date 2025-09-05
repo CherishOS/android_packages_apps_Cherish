@@ -150,11 +150,13 @@
     <string name="custom_signal_bar_title">Tín hiệu</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">Wi-Fi</string>
-    <string name="status_bar_quick_qs_pulldown">Kéo xuống nhanh</string>
-    <string name="quick_pulldown_none">Đã tắt</string>
-    <string name="quick_pulldown_right">Kéo từ cạnh phải thanh trạng thái</string>
-    <string name="quick_pulldown_left">Kéo từ cạnh trái thanh trạng thái</string>
-    <string name="quick_pulldown_always">Luôn hiển thị Cài đặt nhanh khi kéo xuống thanh trạng thái</string>
+    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
+    <string name="status_bar_quick_qs_pulldown_off">Off</string>
+    <string name="status_bar_quick_qs_pulldown_left">Left</string>
+    <string name="status_bar_quick_qs_pulldown_right">Right</string>
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Bật màn hình khi sạc</string>
     <string name="wakeup_when_plugged_unplugged_summary">Sáng màn hình thiết bị nếu bộ sạc được cắm vào/rút ra.</string>
@@ -682,9 +684,6 @@
     <!-- Compact QS Media Player-->
     <string name="qs_compact_media_player_mode_title">Trình phát media QS gọn</string>
     <string name="qs_compact_media_player_mode_summary">Bật chế độ nhỏ gọn cho trình phát media Cài đặt Nhanh</string>
-    <string name="qs_blur_category_title">Shade Appearance</string>
-    <string name="notification_row_transparency_title">Thông báo trong suốt</string>
-    <string name="notification_row_transparency_summary">Áp dụng nền bán trong suốt cho thông báo</string>
     <!-- Tiles on secure keyguard -->
     <string name="qs_lock_screen_secure_title">Yêu cầu mở khóa để sử dụng ô QS</string>
     <string name="qs_lock_screen_secure_summary">Yêu cầu mở khóa màn hình khóa khi sử dụng ô QS</string>
@@ -742,4 +741,14 @@
     <!-- Heads up notifications -->
     <string name="notification_heads_up_timeout_title">Thời gian chờ</string>
     <string name="notification_heads_up_timeout_summary">Thời gian hiển thị thông báo nổi</string>
+    <!-- Notification Row -->
+    <string name="notification_row_transparency_title">Notification row transparency</string>
+    <string name="notification_row_transparency_summary">Show translucent quicksettings notifications</string>
+    <!-- AOD wallpaper -->
+    <string name="aod_wallpaper_title">AOD wallpaper</string>
+    <string name="aod_wallpaper_summary">Show wallpaper when aod on</string>
+    <!-- Themed icons -->
+    <string name="themes_launcher_category">Pixel Launcher</string>
+    <string name="themes_launcher_more_themed_icons_title">More themed icons</string>
+    <string name="themes_launcher_more_themed_icons_summary">Extends support for dynamic color themed icons for installed apps</string>
 </resources>
