@@ -79,18 +79,6 @@
             android:summary="@string/aod_wallpaper_summary"
             android:defaultValue="false" />
 
-    <PreferenceCategory
-        android:key="themes_launcher_category"
-        android:title="@string/themes_launcher_category">
-
-    <!-- Themed icons -->
-        <com.cherish.settings.preferences.OverlaySwitchPreference
-            android:key="com.google.android.apps.nexuslauncher.icons.overlay"
-            android:title="@string/themes_launcher_more_themed_icons_title"
-            android:summary="@string/themes_launcher_more_themed_icons_summary"
-            android:defaultValue="true" />
-    </PreferenceCategory>
-
     <!-- Monet settings -->
     <Preference
         android:key="monet_settings"

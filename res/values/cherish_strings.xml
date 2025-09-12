@@ -847,9 +847,4 @@
     <!-- AOD wallpaper -->
     <string name="aod_wallpaper_title">AOD wallpaper</string>
     <string name="aod_wallpaper_summary">Show wallpaper when aod on</string>
-
-    <!-- Themed icons -->
-    <string name="themes_launcher_category">Pixel Launcher</string>
-    <string name="themes_launcher_more_themed_icons_title">More themed icons</string>
-    <string name="themes_launcher_more_themed_icons_summary">Extends support for dynamic color themed icons for installed apps</string>
 </resources>
