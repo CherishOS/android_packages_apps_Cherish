@@ -747,8 +747,4 @@
     <!-- AOD wallpaper -->
     <string name="aod_wallpaper_title">Hình nền AOD</string>
     <string name="aod_wallpaper_summary">Hiển thị hình nền khi bật aod</string>
-    <!-- Themed icons -->
-    <string name="themes_launcher_category">Trình khởi động Pixel</string>
-    <string name="themes_launcher_more_themed_icons_title">Thêm biểu tượng theo chủ đề</string>
-    <string name="themes_launcher_more_themed_icons_summary">Mở rộng hỗ trợ biểu tượng màu động cho ứng dụng đã cài đặt</string>
 </resources>
