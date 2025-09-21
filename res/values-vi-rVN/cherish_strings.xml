@@ -650,6 +650,9 @@
     <string name="qs_header_style2">Oxygen</string>
     <string name="qs_header_style3">Đồng hồ kim</string>
     <string name="qs_header_style4">Đơn giản</string>
+    <!-- Lunar date display strings -->
+    <string name="qs_lunar_date_title">Ngày Âm lịch</string>
+    <string name="qs_lunar_date_summary">Hiển thị ngày âm lịch trong QS header</string>
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Ẩn trạng thái chụp màn hình</string>
     <string name="hide_screen_capture_status_summary">Ẩn trạng thái chụp màn hình và ghi màn hình khỏi tất cả ứng dụng. Có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
