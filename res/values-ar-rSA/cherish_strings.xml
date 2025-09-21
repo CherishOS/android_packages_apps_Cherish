@@ -650,6 +650,9 @@
     <string name="qs_header_style2">Oxygen</string>
     <string name="qs_header_style3">Analog</string>
     <string name="qs_header_style4">Simple</string>
+    <!-- Lunar date display strings -->
+    <string name="qs_lunar_date_title">Lunar Date</string>
+    <string name="qs_lunar_date_summary">Show lunar date in QS header</string>
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Hide screen capture status</string>
     <string name="hide_screen_capture_status_summary">Hide screen capture and screen record status from all applications. Can be convenient in some cases but may lead to privacy leaks.</string>
@@ -747,8 +750,4 @@
     <!-- AOD wallpaper -->
     <string name="aod_wallpaper_title">AOD wallpaper</string>
     <string name="aod_wallpaper_summary">Show wallpaper when aod on</string>
-    <!-- Themed icons -->
-    <string name="themes_launcher_category">Pixel Launcher</string>
-    <string name="themes_launcher_more_themed_icons_title">More themed icons</string>
-    <string name="themes_launcher_more_themed_icons_summary">Extends support for dynamic color themed icons for installed apps</string>
 </resources>
