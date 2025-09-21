@@ -91,6 +91,12 @@
              android:defaultValue="0" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_header_lunar_date"
+            android:title="@string/qs_lunar_date_title"
+            android:summary="@string/qs_lunar_date_summary"
+            android:defaultValue="false" />
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_compact_media_player_mode"
             android:title="@string/qs_compact_media_player_mode_title"
             android:summary="@string/qs_compact_media_player_mode_summary"

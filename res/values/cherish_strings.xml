@@ -727,6 +727,10 @@
     <string name="qs_header_style3">Analog</string>
     <string name="qs_header_style4">Simple</string>
 	
+    <!-- Lunar date display strings -->
+    <string name="qs_lunar_date_title">Lunar Date</string>
+    <string name="qs_lunar_date_summary">Show lunar date in QS header</string>
+
    <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Hide screen capture status</string>
     <string name="hide_screen_capture_status_summary">Hide screen capture and screen record status from all applications. Can be convenient in some cases but may lead to privacy leaks.</string>
