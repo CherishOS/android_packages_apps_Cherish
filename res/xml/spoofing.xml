@@ -70,11 +70,11 @@
             android:defaultValue="false" />
 
         <!-- Play Store -->
-        <com.cherish.settings.preferences.SystemPropertySwitchPreference
+        <!-- <com.cherish.settings.preferences.SystemPropertySwitchPreference
             android:key="persist.sys.pixelprops.vending"
             android:title="@string/spoofing_vending_title"
             android:summary="@string/spoofing_vending_summary"
-            android:defaultValue="true" />
+            android:defaultValue="true" /> -->
 
         <!-- Google Photos -->
         <com.cherish.settings.preferences.SystemPropertySwitchPreference
