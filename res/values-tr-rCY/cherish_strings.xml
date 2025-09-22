@@ -49,9 +49,9 @@
     <string name="cancel">İptal</string>
     <string name="save">Kaydet</string>
     <string name="default_string">Varsayılan</string>
-    <string name="enable">Enable</string>
+    <string name="enable">Etkinleştir</string>
     <string name="disabled">Devre dışı</string>
-    <string name="default_value">Default</string>
+    <string name="default_value">Varsayılan</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Renk seçici</string>
     <string name="press_color_to_apply">Uygulamak istediğiniz rengin üzerine dokunun</string>
@@ -63,10 +63,10 @@
     <string name="color_default">Varsayılan</string>
     <string name="led_color_green">Yeşil</string>
     <string name="led_color_red">Kırmızı</string>
-    <string name="accent_color">Accent color (Default)</string>
-    <string name="notification_color">Notification color</string>
-    <string name="wallpaper_color">Wallpaper color</string>
-    <string name="custom_color">Custom color</string>
+    <string name="accent_color">Vurgu rengi (Varsayılan)</string>
+    <string name="notification_color">Bildirim rengi</string>
+    <string name="wallpaper_color">Duvar kağıdı rengi</string>
+    <string name="custom_color">Özel renk</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Değer: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Varsayılan</string>
@@ -150,19 +150,19 @@
     <string name="custom_signal_bar_title">Sinyal</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">Wi-Fi</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
-    <string name="status_bar_quick_qs_pulldown_off">Off</string>
-    <string name="status_bar_quick_qs_pulldown_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_right">Right</string>
+    <string name="status_bar_quick_qs_pulldown_title">Hızlı aşağı çekme</string>
+    <string name="status_bar_quick_qs_pulldown_summary">%1$s durum çubuğunun kenarı Hızlı Ayarlar\'ı aşağı çeker</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Sol</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Sağ</string>
+    <string name="status_bar_quick_qs_pulldown_off">Kapalı</string>
+    <string name="status_bar_quick_qs_pulldown_left">Sol</string>
+    <string name="status_bar_quick_qs_pulldown_right">Sağ</string>
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+    <string name="wakeup_when_plugged_unplugged_title">Şarja takılınca uyandır</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Şarja takıldığında veya çıkarıldığında cihazı uyandır.</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
+    <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Çağrı titreşimi</string>
     <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
@@ -188,32 +188,32 @@
     <string name="click_partial_screenshot_title">Kısmi ekran görüntüsü için tıklayın</string>
     <string name="click_partial_screenshot_summary">Kısmi ekran görüntüsü almak için Sesi kısma ve Güç tuşuna kısa basın</string>
     <!-- Network traffic -->
-    <string name="network_traffic_settings_title">Network traffic monitor</string>
+    <string name="network_traffic_settings_title">Ağ trafiği göstergesi</string>
     <string name="network_traffic_settings_summary">Show current network traffic levels in the status bar</string>
-    <string name="network_traffic_location_title">Location</string>
-    <string name="network_traffic_location_disable">Disabled</string>
-    <string name="network_traffic_location_statusbar">Statusbar</string>
-    <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
-    <string name="network_traffic_mode_title">Display mode</string>
-    <string name="network_traffic_mode_up">Upload only</string>
-    <string name="network_traffic_mode_down">Download only</string>
-    <string name="network_traffic_mode_all">Upload and download</string>
-    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_location_title">Konum</string>
+    <string name="network_traffic_location_disable">Devre dışı</string>
+    <string name="network_traffic_location_statusbar">Durum çubuğu</string>
+    <string name="network_traffic_location_quick_statusbar">Hızlı Durum Çubuğu</string>
+    <string name="network_traffic_mode_title">Görüntü modu</string>
+    <string name="network_traffic_mode_up">Sadece yükleme</string>
+    <string name="network_traffic_mode_down">Sadece indirme</string>
+    <string name="network_traffic_mode_all">Yükleme ve indirme</string>
+    <string name="network_traffic_autohide">Otomatik gizle</string>
     <string name="network_traffic_autohide_summary">Veri etkinliği olmadığında ağ göstergesini gizle</string>
     <string name="network_traffic_autohide_kilobits">Kb/s</string>
     <string name="network_traffic_autohide_kilobytes">KB/s</string>
-    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
-    <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
-    <string name="network_traffic_units_title">Traffic measurement units</string>
-    <string name="network_traffic_units_bits">Bits per second (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
-    <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_autohide_threshold">Hareketsizlik eşiği</string>
+    <string name="network_traffic_refresh_interval_title">Yenileme aralığı</string>
+    <string name="network_traffic_refresh_interval_summary">Hızın yeniden ölçülmesinden sonraki süre</string>
+    <string name="network_traffic_units_title">Ağ trafiği ölçüm birimleri</string>
+    <string name="network_traffic_units_bits">Saniye başına bit (b/s)</string>
+    <string name="network_traffic_units_kilobits">Saniye başına kilobit (kb/s)</string>
+    <string name="network_traffic_units_megabits">Saniye başına megabit (Mb/s)</string>
+    <string name="network_traffic_units_bytes">Saniye başına bayt (B/s)</string>
+    <string name="network_traffic_units_kilobytes">Saniye başına kilobayt (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Saniye başına megabayt (MB/s)</string>
+    <string name="network_traffic_hidearrow">Okları gizle</string>
+    <string name="network_traffic_hidearrow_summary">Ağ trafiği gösterge oklarını gizle</string>
     <!-- Privacy indicators -->
     <string name="mic_camera_privacy_indicator_title">Mikrofon ve kamera gizlilik göstergesi</string>
     <string name="mic_camera_privacy_indicator_summary">Herhangi bir uygulama mikrofon veya kamera kullandığında ayrı gösterge göster</string>
@@ -277,21 +277,21 @@
     <string name="power_menu_airplane_title">Airplane mode</string>
     <string name="power_menu_users_title">User switcher</string>
     <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_bug_report_devoptions_unavailable">Bug reporting is disabled as development settings aren\'t enabled</string>
-    <string name="power_menu_bug_report_unavailable_for_user">Bug reporting is disabled for non-primary users.</string>
-    <string name="power_menu_emergency_title">Emergency</string>
-    <string name="power_menu_devicecontrols_title">Device controls</string>
-    <string name="power_menu_advanced_restart_title">Advanced restart</string>
-    <string name="power_menu_advanced_restart_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="power_menu_emergency_affordance_enabled">Emergency affordance is enabled</string>
+    <string name="power_menu_bug_report_devoptions_unavailable">Geliştirici ayarları etkinleştirilemediğinden hata raporlama devre dışı bırakıldı</string>
+    <string name="power_menu_bug_report_unavailable_for_user">Birincil olmayan kullanıcılar için hata raporlama devre dışı bırakıldı.</string>
+    <string name="power_menu_emergency_title">Acil durum</string>
+    <string name="power_menu_devicecontrols_title">Cihaz denetimleri</string>
+    <string name="power_menu_advanced_restart_title">Gelişmiş yeniden başlatma</string>
+    <string name="power_menu_advanced_restart_summary">Kilit açıldığında kurtarma veya önyükleme modunda yeniden başlatmak için güç menüsüne seçenekler ekler</string>
+    <string name="power_menu_emergency_affordance_enabled">Acil durum modu etkinleştirildi</string>
     <!-- Text shown for the title of the restart systemui option -->
-    <string name="power_menu_restart_systemui_title">Restart SystemUI</string>
+    <string name="power_menu_restart_systemui_title">Sistem arayüzünü yeniden başlat</string>
     <!-- Laboratory - Ignore window secure -->
     <string name="laboratory_ignore_window_secure_title">Pencere güvenliklerini yoksay</string>
     <string name="laboratory_ignore_window_secure_summary">Bu, tüm uygulamalar için ekran görüntüsü ve ekran kaydedici korumasını kaldırır. Bu, bazı durumlarda kullanışlıdır ancak gizlilik sızıntılarına neden olabilir. Seçeneği değiştirdikten sonra değişikliklerin geçerli olması için uygulamaları yeniden başlatın.</string>
     <!-- Battery customizations -->
-    <string name="battery_settings_title">Battery Settings</string>
-    <string name="battery_options">Battery</string>
+    <string name="battery_settings_title">Pil ayarları</string>
+    <string name="battery_options">Pil</string>
     <string name="status_bar_battery_style_title">Pil stili</string>
     <string name="status_bar_battery_style_icon_portrait">Dikey simge (varsayılan)</string>
     <string name="status_bar_battery_style_icon_rlandscape">Yatay simge (Sağ)</string>
@@ -305,8 +305,8 @@
     <string name="status_bar_battery_style_icon_landscape_style_a">Sol yatay stil A</string>
     <string name="status_bar_battery_style_icon_rlandscape_style_b">Sağ yatay stil B</string>
     <string name="status_bar_battery_style_icon_landscape_style_b">Sol yatay stil B</string>
-    <string name="status_bar_battery_style_icon_landscape_ios15">Landscape iOS 15</string>
-    <string name="status_bar_battery_style_icon_landscape_ios16">Landscape iOS 16</string>
+    <string name="status_bar_battery_style_icon_landscape_ios15">Yatay iOS 15</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16">Yatay iOS 16</string>
     <string name="status_bar_battery_style_icon_landscape_origami">Landscape Origami</string>
     <string name="status_bar_battery_style_icon_landscape_oneui7">Landscape OneUI 7</string>
     <string name="status_bar_battery_style_circle">Daire</string>
