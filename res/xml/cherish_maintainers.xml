@@ -666,4 +666,27 @@
                 android:data="https://t.me/FreeRunner4ever" />
         </Preference>
 </PreferenceCategory>
+
+<PreferenceCategory
+              android:key="google_devices"
+              android:title="@string/google_devices" >
+
+<Preference
+            android:title="@string/series7_maintainer"
+            android:summary="@string/device_7series"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Pyrtle93" />
+        </Preference>
+
+<Preference
+            android:title="@string/series9_maintainer"
+            android:summary="@string/device_9series"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Pyrtle93" />
+        </Preference>
+</PreferenceCategory>
 </PreferenceScreen>
