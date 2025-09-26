@@ -6,6 +6,7 @@
 package com.cherish.settings.fragments;
 
 import android.app.Activity;
+import android.app.ActivityManager;
 import android.app.AlertDialog;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -71,29 +72,35 @@ public class Spoofing extends SettingsPreferenceFragment implements
     private static final String TAG = "Spoofing";
 
     private static final String KEY_PIF_JSON_FILE_PREFERENCE = "pif_json_file_preference";
+    private static final String KEY_GAME_PROPS_JSON_FILE_PREFERENCE = "game_props_json_file_preference";
     private static final String KEY_SYSTEM_WIDE_CATEGORY = "spoofing_system_wide_category";
     private static final String KEY_UPDATE_JSON_BUTTON = "update_pif_json";
     private static final String SYS_GMS_SPOOF = "persist.sys.pixelprops.gms";
     private static final String SYS_GOOGLE_SPOOF = "persist.sys.pixelprops";
-    private static final String SYS_GAMEPROP_SPOOF = "persist.sys.pixelprops.games";
     private static final String SYS_GPHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
     private static final String SYS_QSB_SPOOF = "persist.sys.pixelprops.qsb";
     private static final String SYS_SNAP_SPOOF = "persist.sys.pixelprops.snap";
-    private static final String SYS_TENSOR_SPOOF = "persist.sys.features.tensor";
+    private static final String SYS_NETF_SPOOF = "persist.sys.pixelprops.netflix";
+    private static final String SYS_ENABLE_TENSOR_FEATURES = "persist.sys.features.tensor";
+    private static final String SYS_GAMEPROP_ENABLED = "persist.sys.gameprops.enabled";
+    private static final String SYS_KEYBOX_CHECK_ENABLED = "persist.sys.keybox.check.enabled";
     private static final String KEYBOX_DATA_KEY = "keybox_data_setting";
 
     private ActivityResultLauncher<Intent> mKeyboxFilePickerLauncher;
     private KeyboxDataPreference mKeyboxDataPreference;
     private Preference mPifJsonFilePreference;
+    private Preference mGamePropsJsonFilePreference;
     private Preference mUpdateJsonButton;
     private PreferenceCategory mSystemWideCategory;
     private SystemPropertySwitchPreference mGmsSpoof;
     private SystemPropertySwitchPreference mGoogleSpoof;
-    private SystemPropertySwitchPreference mGamePropsSpoof;
     private SystemPropertySwitchPreference mGphotosSpoof;
     private SystemPropertySwitchPreference mQsbSpoof;
     private SystemPropertySwitchPreference mSnapSpoof;
-    private SystemPropertySwitchPreference mTensorSpoof;
+    private SystemPropertySwitchPreference mNetfSpoof;
+    private SystemPropertySwitchPreference mTensorFeaturesToggle;
+    private SystemPropertySwitchPreference mGamePropsEnabled;
+    private SystemPropertySwitchPreference mKeyboxCheckEnabled;
 
     private Handler mHandler;
 
@@ -109,15 +116,18 @@ public class Spoofing extends SettingsPreferenceFragment implements
         final Resources resources = context.getResources();
 
         mSystemWideCategory = (PreferenceCategory) findPreference(KEY_SYSTEM_WIDE_CATEGORY);
-        mGamePropsSpoof = (SystemPropertySwitchPreference) findPreference(SYS_GAMEPROP_SPOOF);
         mGphotosSpoof = (SystemPropertySwitchPreference) findPreference(SYS_GPHOTOS_SPOOF);
         mGmsSpoof = (SystemPropertySwitchPreference) findPreference(SYS_GMS_SPOOF);
         mGoogleSpoof = (SystemPropertySwitchPreference) findPreference(SYS_GOOGLE_SPOOF);
         mPifJsonFilePreference = findPreference(KEY_PIF_JSON_FILE_PREFERENCE);
+        mGamePropsJsonFilePreference = findPreference(KEY_GAME_PROPS_JSON_FILE_PREFERENCE);
         mQsbSpoof = (SystemPropertySwitchPreference) findPreference(SYS_QSB_SPOOF);
         mSnapSpoof = (SystemPropertySwitchPreference) findPreference(SYS_SNAP_SPOOF);
-        mTensorSpoof = (SystemPropertySwitchPreference) findPreference(SYS_TENSOR_SPOOF);
+        mNetfSpoof = (SystemPropertySwitchPreference) findPreference(SYS_NETF_SPOOF);
         mUpdateJsonButton = findPreference(KEY_UPDATE_JSON_BUTTON);
+        mTensorFeaturesToggle = (SystemPropertySwitchPreference) findPreference(SYS_ENABLE_TENSOR_FEATURES);
+        mGamePropsEnabled = (SystemPropertySwitchPreference) findPreference(SYS_GAMEPROP_ENABLED);
+        mKeyboxCheckEnabled = (SystemPropertySwitchPreference) findPreference(SYS_KEYBOX_CHECK_ENABLED);
 
         String model = SystemProperties.get("ro.product.model");
         boolean isTensorDevice = model.matches("Pixel (6|7|8|9|10)[a-zA-Z ]*");
@@ -131,16 +141,22 @@ public class Spoofing extends SettingsPreferenceFragment implements
         }
 
         if (isTensorDevice) {
-            mSystemWideCategory.removePreference(mTensorSpoof);
+            mSystemWideCategory.removePreference(mTensorFeaturesToggle);
         }
 
         mGmsSpoof.setOnPreferenceChangeListener(this);
         mGoogleSpoof.setOnPreferenceChangeListener(this);
         mGphotosSpoof.setOnPreferenceChangeListener(this);
-        mGamePropsSpoof.setOnPreferenceChangeListener(this);
         mQsbSpoof.setOnPreferenceChangeListener(this);
         mSnapSpoof.setOnPreferenceChangeListener(this);
-        mTensorSpoof.setOnPreferenceChangeListener(this);
+        mNetfSpoof.setOnPreferenceChangeListener(this);
+        mTensorFeaturesToggle.setOnPreferenceChangeListener(this);
+        if (mGamePropsEnabled != null) {
+            mGamePropsEnabled.setOnPreferenceChangeListener(this);
+        }
+        if (mKeyboxCheckEnabled != null) {
+            mKeyboxCheckEnabled.setOnPreferenceChangeListener(this);
+        }
 
         mKeyboxFilePickerLauncher = registerForActivityResult(
         new ActivityResultContracts.StartActivityForResult(),
@@ -159,6 +175,13 @@ public class Spoofing extends SettingsPreferenceFragment implements
             openFileSelector(10001);
             return true;
         });
+
+        if (mGamePropsJsonFilePreference != null) {
+            mGamePropsJsonFilePreference.setOnPreferenceClickListener(preference -> {
+                openFileSelector(10002);
+                return true;
+            });
+        }
 
         mUpdateJsonButton.setOnPreferenceClickListener(preference -> {
             updatePropertiesFromUrl("https://raw.githubusercontent.com/CherishOS/.github/refs/heads/main/profile/pif.json");
@@ -201,6 +224,8 @@ public class Spoofing extends SettingsPreferenceFragment implements
             if (uri != null) {
                 if (requestCode == 10001) {
                     loadPifJson(uri);
+                } else if (requestCode == 10002) {
+                    loadGameSpoofingJson(uri);
                 }
             }
         }
@@ -220,8 +245,11 @@ public class Spoofing extends SettingsPreferenceFragment implements
                 "persist.sys.pihooks_PRODUCT",
                 "persist.sys.pihooks_SECURITY_PATCH",
                 "persist.sys.pihooks_DEVICE_INITIAL_SDK_INT",
+                "persist.sys.pihooks_TYPE",
+                "persist.sys.pihooks_TAG",
                 "persist.sys.pihooks_RELEASE",
-                "persist.sys.pihooks_SDK_INT"
+                "persist.sys.pihooks_SDK_INT",
+                "persist.sys.pihooks_DEBUG"
             };
             for (String key : keys) {
                 String value = SystemProperties.get(key, null);
@@ -240,6 +268,60 @@ public class Spoofing extends SettingsPreferenceFragment implements
             .setMessage(properties.toString())
             .setPositiveButton(android.R.string.ok, null)
             .show();
+    }
+
+    /**
+     * Kill packages that need to be restarted to pick up new PIF properties
+     */
+    private void killGMSPackages() {
+        try {
+            ActivityManager am = (ActivityManager) getContext().getSystemService(Context.ACTIVITY_SERVICE);
+            String[] packages = { 
+                "com.google.android.apps.photos",
+                "com.google.android.gms",
+                "com.google.android.googlequicksearchbox",
+                "com.android.vending",
+                "com.snapchat.android"
+            };
+            for (String pkg : packages) {
+                am.getClass()
+                  .getMethod("forceStopPackage", String.class)
+                  .invoke(am, pkg);
+                Log.i(TAG, pkg + " process killed");
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "Failed to kill packages", e);
+        }
+    }
+
+    /**
+     * Kill specific game packages to apply new game properties
+     */
+    private int killGamePackages(Set<String> gamePackages) {
+        int killedCount = 0;
+        try {
+            ActivityManager am = (ActivityManager) getContext().getSystemService(Context.ACTIVITY_SERVICE);
+            PackageManager pm = getContext().getPackageManager();
+
+            for (String packageName : gamePackages) {
+                try {
+                    pm.getPackageInfo(packageName, 0); // check if installed
+                    am.getClass()
+                    .getMethod("forceStopPackage", String.class)
+                    .invoke(am, packageName);
+                    Log.i(TAG, "Game package killed: " + packageName);
+                    killedCount++;
+                } catch (PackageManager.NameNotFoundException e) {
+                    Log.d(TAG, "Game package not installed: " + packageName);
+                } catch (Exception e) {
+                    Log.e(TAG, "Failed to kill game package: " + packageName, e);
+                }
+            }
+            Log.i(TAG, "Successfully killed " + killedCount + " game packages out of " + gamePackages.size());
+        } catch (Exception e) {
+            Log.e(TAG, "Failed to kill game packages", e);
+        }
+        return killedCount;
     }
 
     private void updatePropertiesFromUrl(String urlString) {
@@ -261,6 +343,7 @@ public class Spoofing extends SettingsPreferenceFragment implements
                     mHandler.post(() -> {
                         String toastMessage = getString(R.string.toast_spoofing_success, spoofedModel);
                         Toast.makeText(getContext(), toastMessage, Toast.LENGTH_LONG).show();
+                        killGMSPackages();
                     });
 
                 } finally {
@@ -272,9 +355,6 @@ public class Spoofing extends SettingsPreferenceFragment implements
                     Toast.makeText(getContext(), R.string.toast_spoofing_failure, Toast.LENGTH_LONG).show();
                 });
             }
-            mHandler.postDelayed(() -> {
-                CherishUtils.showSystemRestartDialog(getContext());
-            }, 1250);
         }).start();
     }
 
@@ -291,13 +371,69 @@ public class Spoofing extends SettingsPreferenceFragment implements
                     Log.d(TAG, "Setting PIF property: persist.sys.pihooks_" + key + " = " + value);
                     SystemProperties.set("persist.sys.pihooks_" + key, value);
                 }
+                killGMSPackages();
+                Toast.makeText(getContext(), "PIF JSON loaded and packages refreshed", Toast.LENGTH_SHORT).show();
             }
         } catch (Exception e) {
             Log.e(TAG, "Error reading PIF JSON or setting properties", e);
+            Toast.makeText(getContext(), "Error loading PIF JSON", Toast.LENGTH_SHORT).show();
         }
-        mHandler.postDelayed(() -> {
-            CherishUtils.showSystemRestartDialog(getContext());
-        }, 1250);
+    }
+
+    private void loadGameSpoofingJson(Uri uri) {
+        Log.d(TAG, "Loading Game Props JSON from URI: " + uri.toString());
+        try (InputStream inputStream = getActivity().getContentResolver().openInputStream(uri)) {
+            if (inputStream != null) {
+                String json = new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
+                Log.d(TAG, "Game Props JSON data: " + json);
+                JSONObject jsonObject = new JSONObject(json);
+
+                Set<String> packagesToKill = new HashSet<>();
+
+                for (Iterator<String> it = jsonObject.keys(); it.hasNext(); ) {
+                    String key = it.next();
+                    if (key.startsWith("PACKAGES_") && !key.endsWith("_DEVICE")) {
+                        String deviceKey = key + "_DEVICE";
+                        if (jsonObject.has(deviceKey)) {
+                            JSONObject deviceProps = jsonObject.getJSONObject(deviceKey);
+                            JSONArray packages = jsonObject.getJSONArray(key);
+                            for (int i = 0; i < packages.length(); i++) {
+                                String packageName = packages.getString(i);
+                                Log.d(TAG, "Spoofing package: " + packageName);
+                                setGameProps(packageName, deviceProps);
+                                packagesToKill.add(packageName);
+                            }
+                        }
+                    }
+                }
+
+                int killed = 0;
+                if (!packagesToKill.isEmpty()) {
+                    killed = killGamePackages(packagesToKill);
+                }
+
+                Toast.makeText(getContext(),
+                    "Game Json loaded, Killed " + killed + " out of " + packagesToKill.size() + " game apps",
+                    Toast.LENGTH_LONG).show();
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "Error reading Game Props JSON or setting properties", e);
+            Toast.makeText(getContext(), "Error loading Game Props JSON", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void setGameProps(String packageName, JSONObject deviceProps) {
+        try {
+            for (Iterator<String> it = deviceProps.keys(); it.hasNext(); ) {
+                String key = it.next();
+                String value = deviceProps.getString(key);
+                String systemPropertyKey = "persist.sys.gameprops." + packageName + "." + key;
+                SystemProperties.set(systemPropertyKey, value);
+                Log.d(TAG, "Set system property: " + systemPropertyKey + " = " + value);
+            }
+        } catch (JSONException e) {
+            Log.e(TAG, "Error parsing device properties", e);
+        }
     }
 
     @Override
@@ -305,18 +441,29 @@ public class Spoofing extends SettingsPreferenceFragment implements
         final Context context = getContext();
         final ContentResolver resolver = context.getContentResolver();
         if (preference == mGmsSpoof
-            || preference == mGoogleSpoof
             || preference == mGphotosSpoof
-            || preference == mGamePropsSpoof
             || preference == mQsbSpoof
             || preference == mSnapSpoof) {
+            killGMSPackages();
+            return true;
+        }
+        if (preference == mGoogleSpoof
+            || preference == mNetfSpoof) {
             CherishUtils.showSystemRestartDialog(getContext());
             return true;
         }
-        if (preference == mTensorSpoof) {
+        if (preference == mTensorFeaturesToggle) {
             boolean enabled = (Boolean) newValue;
-            SystemProperties.set(SYS_TENSOR_SPOOF, enabled ? "true" : "false");
+            SystemProperties.set(SYS_ENABLE_TENSOR_FEATURES, enabled ? "true" : "false");
             CherishUtils.showSystemRestartDialog(getContext());
+            return true;
+        }
+        if (preference == mGamePropsEnabled) {
+            CherishUtils.showSystemRestartDialog(getContext());
+            return true;
+        }
+        if (preference == mKeyboxCheckEnabled) {
+            killGMSPackages();
             return true;
         }
         return false;

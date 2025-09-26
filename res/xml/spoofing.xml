@@ -56,6 +56,12 @@
             android:key="keybox_data_setting"
             android:title="@string/keybox_data_title" />
 
+        <com.cherish.settings.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.keybox.check.enabled"
+            android:title="@string/keybox_check_title"
+            android:summary="@string/keybox_check_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -85,16 +91,28 @@
 
         <!-- Games FPS -->
         <com.cherish.settings.preferences.SystemPropertySwitchPreference
-            android:key="persist.sys.pixelprops.games"
+            android:key="persist.sys.gameprops.enabled"
             android:title="@string/gameprops_title"
             android:summary="@string/gameprops_summary"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
+			
+	    <Preference
+            android:key="game_props_json_file_preference"
+            android:title="@string/gameprops_load_json_title"
+            android:summary="@string/gameprops_load_json_summary" />
 
         <!-- Snapchat -->
         <com.cherish.settings.preferences.SystemPropertySwitchPreference
             android:key="persist.sys.pixelprops.snap"
             android:title="@string/spoofing_snap_title"
             android:summary="@string/spoofing_snap_summary"
+            android:defaultValue="false" />
+        
+        <!-- Netflix -->
+        <com.cherish.settings.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pixelprops.netflix"
+            android:title="@string/spoofing_netflix_title"
+            android:summary="@string/spoofing_netflix_summary"
             android:defaultValue="false" />
 
         <Preference
