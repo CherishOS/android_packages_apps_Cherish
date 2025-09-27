@@ -40,6 +40,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     private static final String KEY_QS_COMPACT_PLAYER  = "qs_compact_media_player_mode";
     private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
+    private static final String KEY_QS_HEADER_CLOCK_STYLE = "qs_header_clock_style";
 
     private static final int PULLDOWN_DIR_NONE = 0;
     private static final int PULLDOWN_DIR_RIGHT = 1;
@@ -48,6 +49,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private Preference mQsCompactPlayer;
     private SystemSettingListPreference mQuickPulldown;
     private ListPreference mStatusBarClock;
+    private SystemSettingListPreference mQsHeaderClockStyle;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -72,6 +74,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         } else {
             mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries);
         }
+
+        mQsHeaderClockStyle = (SystemSettingListPreference) findPreference(KEY_QS_HEADER_CLOCK_STYLE);
+        if (mQsHeaderClockStyle != null) {
+            mQsHeaderClockStyle.setOnPreferenceChangeListener(this);
+        }
 	}
 
     @Override
@@ -83,6 +90,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             return true;
         } else if (preference == mQsCompactPlayer) {
             CherishUtils.showSystemRestartDialog(getActivity());
+            return true;
+        } else if (preference == mQsHeaderClockStyle) {
+            String value = newValue.toString();
+            if ("0".equals(value)) {
+                CherishUtils.showSystemRestartDialog(getActivity());
+            }
             return true;
         }
         return false;
