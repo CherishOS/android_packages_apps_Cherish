@@ -262,11 +262,16 @@
     <string name="keybox_toast_missing_data">Geçersiz keybox XML\'i: gerekli alanlar eksik</string>
     <string name="keybox_toast_file_loaded">Keybox yüklendi</string>
     <string name="keybox_toast_file_cleared">Keybox temizlendi</string>
+    <string name="keybox_check_title">Private Keybox spoof</string>
+    <string name="keybox_check_summary">Spoof the private key only if you have a valid Keybox for proper Strong Integrity.</string>
     <!-- Miscellaneous/Spoofing/Per-app spoofing -->
-    <string name="gameprops_title">Uygulama başına oyun sahteciliğini etkinleştirme</string>
+    <string name="gameprops_title">Enable Game Props spoofing</string>
     <string name="gameprops_summary">Uygulama başına oyun sahtekarlığı seçeneklerini etkinleştirir</string>
-    <string name="gameprops_load_json_title">Uygulama başına oyun destek JSON dosyasını seçin</string>
-    <string name="gameprops_load_json_summary">Daha fazla oyunu taklit etmek için kullanılacak JSON dosyasını seçin</string>
+    <string name="gameprops_load_json_title">Select Game Props JSON File</string>
+    <string name="gameprops_load_json_summary">Pick Game Props JSON file to be used for spoofing games</string>
+    <!-- Netflix Spoofing -->
+    <string name="spoofing_netflix_title">Netflix</string>
+    <string name="spoofing_netflix_summary">Spoof your device as different model for Netflix</string>
     <!-- Power menu -->
     <string name="power_menu_title">Güç menüsü</string>
     <string name="advanced_reboot">Gelişmiş yeniden başlatma</string>
@@ -750,4 +755,8 @@
     <!-- AOD wallpaper -->
     <string name="aod_wallpaper_title">AOD duvar kağıdı</string>
     <string name="aod_wallpaper_summary">AOD açık olduğunda duvar kağıdını göster</string>
+    <!-- Power off verify -->
+    <string name="power_off_verify_footer">Power off verification protects your device by preventing others from turning it off immediately after it\'s lost, increasing the chances of recovery. You only need to enter your lock screen password when powering off or restarting the phone from the lock screen.</string>
+    <string name="power_off_verify_summary">When your device is locked, you\'ll need to use your password to power off or restart.</string>
+    <string name="power_off_verify_title">Power off verify</string>
 </resources>
