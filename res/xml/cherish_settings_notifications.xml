@@ -27,6 +27,12 @@
             android:title="@string/edge_light_title"
             android:summary="@string/edge_light_summary"
             android:fragment="com.cherish.settings.fragments.EdgeLightSettings" />
+
+    <Preference
+            android:key="island_notification"
+            android:title="@string/notifications_island_notification_title"
+            android:summary="@string/notifications_island_notification_summary"
+            android:fragment="com.cherish.settings.fragments.notifications.IslandSettings" />
     </PreferenceCategory>
 	
     <PreferenceCategory
