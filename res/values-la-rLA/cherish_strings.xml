@@ -770,9 +770,4 @@
     <string name="island_transparent_background_summary">Use transparent background for island notifications</string>
     <string name="island_margin_top_title">Island notifications top margin</string>
     <string name="island_margin_top_summary">Adjust the top margin of island notification</string>
-    <!-- Volume Media Button -->
-    <string name="volume_show_media_button_title">Volume media button</string>
-    <string name="volume_show_media_button_summary">Show media output switcher button into volume dialog</string>
-    <!-- Volume TextView -->
-    <string name="volume_category_title">Volume panel</string>
 </resources>
