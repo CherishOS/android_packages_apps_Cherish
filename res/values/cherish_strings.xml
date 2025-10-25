@@ -862,4 +862,17 @@
     <string name="power_off_verify_footer">Power off verification protects your device by preventing others from turning it off immediately after it\'s lost, increasing the chances of recovery. You only need to enter your lock screen password when powering off or restarting the phone from the lock screen.</string>
     <string name="power_off_verify_summary">When your device is locked, you\'ll need to use your password to power off or restart.</string>
     <string name="power_off_verify_title">Power off verify</string>
+
+    <!-- Island Notification -->
+    <string name="island_notification_now_playing_title">Now playing</string>
+    <string name="island_notification_now_playing_summary">Display currently playing song in Dynamic Island style</string>
+    <string name="island_notification_footer_text">
+        The Island notification feature, inspired by iOS\'s Dynamic Island, transforms Android\'s heads-up notifications into quick-access and compact notification utility.\n\nIsland Quick Access Controls includes the following features:\n1. Tap island notification to quick answer phone calls.\n2. Long press island notification to reject phone calls.\n3. Long press island notification to expand the island notification preview.
+    </string>
+    <string name="notifications_island_notification_title">Island notification</string>
+    <string name="notifications_island_notification_summary">Display heads-up notification in Dynamic Island style</string>
+    <string name="island_transparent_background_title">Transparent Island Background</string>
+    <string name="island_transparent_background_summary">Use transparent background for island notifications</string>
+    <string name="island_margin_top_title">Island notifications top margin</string>
+    <string name="island_margin_top_summary">Adjust the top margin of island notification</string>
 </resources>
