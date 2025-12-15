@@ -262,16 +262,16 @@
     <string name="keybox_toast_missing_data">Geçersiz keybox XML\'i: gerekli alanlar eksik</string>
     <string name="keybox_toast_file_loaded">Keybox yüklendi</string>
     <string name="keybox_toast_file_cleared">Keybox temizlendi</string>
-    <string name="keybox_check_title">Private Keybox spoof</string>
-    <string name="keybox_check_summary">Spoof the private key only if you have a valid Keybox for proper Strong Integrity.</string>
+    <string name="keybox_check_title">Özel Keybox sahtekarlığı</string>
+    <string name="keybox_check_summary">Strong bütünlük sağlamak için yalnızca geçerli bir Keybox\'ınız varsa özel anahtarı taklit edin.</string>
     <!-- Miscellaneous/Spoofing/Per-app spoofing -->
-    <string name="gameprops_title">Enable Game Props spoofing</string>
+    <string name="gameprops_title">Oyun içi Prop taklidini etkinleştirin</string>
     <string name="gameprops_summary">Uygulama başına oyun sahtekarlığı seçeneklerini etkinleştirir</string>
-    <string name="gameprops_load_json_title">Select Game Props JSON File</string>
-    <string name="gameprops_load_json_summary">Pick Game Props JSON file to be used for spoofing games</string>
+    <string name="gameprops_load_json_title">Oyun Prop Dosyasını Seçin (JSON)</string>
+    <string name="gameprops_load_json_summary">Oyunlarda sahtekarlık yapmak için kullanılacak Oyun Propları JSON dosyasını seçin</string>
     <!-- Netflix Spoofing -->
-    <string name="spoofing_netflix_title">Netflix</string>
-    <string name="spoofing_netflix_summary">Spoof your device as different model for Netflix</string>
+    <string name="spoofing_netflix_title">Netflix sahtekarlığı</string>
+    <string name="spoofing_netflix_summary">Netflix için cihazınızı farklı bir model olarak gösterin</string>
     <!-- Power menu -->
     <string name="power_menu_title">Güç menüsü</string>
     <string name="advanced_reboot">Gelişmiş yeniden başlatma</string>
@@ -756,17 +756,17 @@
     <string name="aod_wallpaper_title">AOD duvar kağıdı</string>
     <string name="aod_wallpaper_summary">AOD açık olduğunda duvar kağıdını göster</string>
     <!-- Power off verify -->
-    <string name="power_off_verify_footer">Power off verification protects your device by preventing others from turning it off immediately after it\'s lost, increasing the chances of recovery. You only need to enter your lock screen password when powering off or restarting the phone from the lock screen.</string>
-    <string name="power_off_verify_summary">When your device is locked, you\'ll need to use your password to power off or restart.</string>
-    <string name="power_off_verify_title">Power off verify</string>
+    <string name="power_off_verify_footer">Kapatma doğrulama özelliği, cihazınızın kaybolmasının hemen ardından başkaları tarafından kapatılmasını engelleyerek cihazınızı korur ve kurtarma şansını artırır. Telefonu kilit ekranından kapatırken veya yeniden başlatırken yalnızca kilit ekranı şifrenizi girmeniz yeterlidir.</string>
+    <string name="power_off_verify_summary">Cihazınız kilitliyken, kapatmak veya yeniden başlatmak için parolanızı kullanmanız gerekecektir.</string>
+    <string name="power_off_verify_title">Kapatma doğrulaması</string>
     <!-- Island Notification -->
-    <string name="island_notification_now_playing_title">Now playing</string>
+    <string name="island_notification_now_playing_title">Şu anda oynatılıyor (Dinamik Ada)</string>
     <string name="island_notification_now_playing_summary">Display currently playing song in Dynamic Island style</string>
-    <string name="island_notification_footer_text">        The Island notification feature, inspired by iOS\'s Dynamic Island, transforms Android\'s heads-up notifications into quick-access and compact notification utility.\n\nIsland Quick Access Controls includes the following features:\n1. Tap island notification to quick answer phone calls.\n2. Long press island notification to reject phone calls.\n3. Long press island notification to expand the island notification preview.
+    <string name="island_notification_footer_text">        iOS\'un dinamik ada özelliğinden esinlenen ada bildirim özelliği, Android\'in anlık bildirimlerini hızlı erişimli ve kompakt bir bildirim yardımcı programına dönüştürüyor.\n\Ada hızlı erişim kontrolleri aşağıdaki özellikleri içerir:\n1. Telefon aramalarını hızlıca cevaplamak için ada bildirimine dokunun.\n2. Telefon aramalarını reddetmek için ada bildirimine uzun basın.\n3. Ada bildirim önizlemesini genişletmek için ada bildirimine uzun basın.
     </string>
-    <string name="notifications_island_notification_title">Island notification</string>
-    <string name="notifications_island_notification_summary">Display heads-up notification in Dynamic Island style</string>
-    <string name="island_transparent_background_title">Transparent Island Background</string>
+    <string name="notifications_island_notification_title">Dinamik Ada bildirimi</string>
+    <string name="notifications_island_notification_summary">Dinamik Ada tarzında ön bilgilendirme bildirimi görüntüleyin</string>
+    <string name="island_transparent_background_title">Şeffaf Ada Arka Planı</string>
     <string name="island_transparent_background_summary">Use transparent background for island notifications</string>
     <string name="island_margin_top_title">Island notifications top margin</string>
     <string name="island_margin_top_summary">Adjust the top margin of island notification</string>
