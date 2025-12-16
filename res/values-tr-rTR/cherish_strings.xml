@@ -767,7 +767,7 @@
     <string name="notifications_island_notification_title">Dinamik Ada bildirimi</string>
     <string name="notifications_island_notification_summary">Dinamik Ada tarzında ön bilgilendirme bildirimi görüntüleyin</string>
     <string name="island_transparent_background_title">Şeffaf Ada Arka Planı</string>
-    <string name="island_transparent_background_summary">Use transparent background for island notifications</string>
-    <string name="island_margin_top_title">Island notifications top margin</string>
-    <string name="island_margin_top_summary">Adjust the top margin of island notification</string>
+    <string name="island_transparent_background_summary">Ada bildirimleri için şeffaf arka plan kullanın</string>
+    <string name="island_margin_top_title">Ada bildirimleri üst kenar boşluğu</string>
+    <string name="island_margin_top_summary">Ada bildiriminin üst kenar boşluğunu ayarlayın</string>
 </resources>
