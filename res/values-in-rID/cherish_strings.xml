@@ -606,12 +606,12 @@
     <string name="edge_light_summary">Light up the side edges of the screen on notification pulse</string>
     <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
     <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
-    <string name="edge_light_repeat_animation_title">Repeat animation</string>
-    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
-    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
-    <string name="edge_light_color_mode_title">Edge light color mode</string>
+    <string name="edge_light_repeat_animation_title">Ulangi animasi</string>
+    <string name="edge_light_repeat_animation_summary_on">Ulangi sampai waktu habis</string>
+    <string name="edge_light_repeat_animation_summary_off">Hanya tampilkan sekali</string>
+    <string name="edge_light_color_mode_title">Mode warna Cahaya Tepi</string>
     <string name="edge_light_rainbow_gradient">Rainbow Gradient</string>
-    <string name="edge_light_style_title">Edge light style</string>
+    <string name="edge_light_style_title">Gaya cahaya tepi</string>
     <string name="edge_light_stroke_width_title">Edge light stroke width</string>
     <string name="edge_light_stroke_width_summary">Configure edge light thickness</string>
     <string name="edge_light_style_1">Draw Line</string>
@@ -688,55 +688,55 @@
     <string name="compact_heads_up_notifications_enabled_summary">Display notifications in compact size</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="hide_developer_status_summary">Sembunyikan status pengembang dari aplikasi</string>
     <!-- Compact QS Media Player-->
-    <string name="qs_compact_media_player_mode_title">Compact QS Media player</string>
-    <string name="qs_compact_media_player_mode_summary">Enable compact mode for QuickSettings media player</string>
+    <string name="qs_compact_media_player_mode_title">Pemutar media Setelan Cepat ringkas</string>
+    <string name="qs_compact_media_player_mode_summary">Aktifkan mode ringkas untuk pemutar media Setelan Cepat</string>
     <!-- Tiles on secure keyguard -->
-    <string name="qs_lock_screen_secure_title">Require unlocking to use qs tiles</string>
+    <string name="qs_lock_screen_secure_title">Membutuhkan pembukaan kunci untuk menggunakan ubin setelan cepat</string>
     <string name="qs_lock_screen_secure_summary">Ask to unlock lockscreen when using qs tiles</string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_shape_title">QS tiles shape</string>
-    <string name="qs_tile_shape_dynamic">Dynamic</string>
-    <string name="qs_tile_shape_circle">Circle</string>
-    <string name="qs_tile_shape_rounded_square">Rounded square</string>
-    <string name="qs_tile_shape_square">Square</string>
+    <string name="qs_tile_shape_title">Bentuk ubin Setelan Cepat</string>
+    <string name="qs_tile_shape_dynamic">Dinamis</string>
+    <string name="qs_tile_shape_circle">Bulat</string>
+    <string name="qs_tile_shape_rounded_square">Persegi membulat</string>
+    <string name="qs_tile_shape_square">Persegi</string>
     <!-- QS Panel -->
-    <string name="quick_settings_brightness_slider_category">Brightness slider</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_hide">Hide</string>
+    <string name="quick_settings_brightness_slider_category">Slider kecerahan</string>
+    <string name="qs_show_brightness_title">Slider kecerahan</string>
+    <string name="qs_show_brightness_hide">Sembunyikan</string>
     <string name="qs_show_brightness_normal">Show in QS Panel</string>
     <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
-    <string name="qs_brightness_position_position_title">Brightness slider in the bottom</string>
-    <string name="qs_brightness_position_position_summary">Show brightness slider in the bottom of QS panel</string>
+    <string name="qs_brightness_position_position_title">Slider kecerahan di bagian bawah</string>
+    <string name="qs_brightness_position_position_summary">Tampilkan slider kecerahan di bawah dari panel Setelan Cepat</string>
     <!-- QS Header -->
-    <string name="quick_settings_interface_category">Interface</string>
-    <string name="qs_header_image_title">Header image</string>
-    <string name="qs_header_image_summary">Select QS background header image</string>
-    <string name="qs_header_daylight_pack_title">Header image collection</string>
-    <string name="qs_header_shadow_title">Header image shadow</string>
-    <string name="qs_header_shadow_summary">For better visibility on bright images</string>
-    <string name="qs_header_static_provider_title">Static image</string>
-    <string name="qs_header_daylight_provider_title">Image collection</string>
-    <string name="qs_header_file_provider_title">Custom image</string>
-    <string name="qs_header_provider_title">Header provider</string>
-    <string name="qs_header_browse_title">Browse installed headers</string>
-    <string name="qs_header_browse_summary">Browse all available header collections</string>
-    <string name="qs_header_pick_title">Select header image</string>
-    <string name="qs_header_pick_summary">Select an image to use for static mode</string>
-    <string name="qs_header_file_select_title">Select image</string>
-    <string name="qs_header_file_select_summary">Select custom image</string>
-    <string name="qs_header_needs_gallery">You must install a gallery app!</string>
-    <string name="qs_header_offset_title">Header image offset</string>
-    <string name="qs_header_offset_summary">Adjust the image header size</string>
+    <string name="quick_settings_interface_category">Antarmuka</string>
+    <string name="qs_header_image_title">Gambar Header</string>
+    <string name="qs_header_image_summary">Pilih gambar header latar belakang Setelan Cepat</string>
+    <string name="qs_header_daylight_pack_title">Koleksi gambar header</string>
+    <string name="qs_header_shadow_title">Bayangan gambar header</string>
+    <string name="qs_header_shadow_summary">Untuk visibilitas yang lebih baik pada gambar terang</string>
+    <string name="qs_header_static_provider_title">Gambar statis</string>
+    <string name="qs_header_daylight_provider_title">Koleksi gambar</string>
+    <string name="qs_header_file_provider_title">Gambar kustom</string>
+    <string name="qs_header_provider_title">Penyedia header</string>
+    <string name="qs_header_browse_title">Telusuri header yang terpasang</string>
+    <string name="qs_header_browse_summary">Telusuri semua koleksi header yang tersedia</string>
+    <string name="qs_header_pick_title">Pilih gambar header</string>
+    <string name="qs_header_pick_summary">Pilih sebuah gambar untuk digunakan untuk mode statis</string>
+    <string name="qs_header_file_select_title">Pilih gambar</string>
+    <string name="qs_header_file_select_summary">Pilih gambar kustom</string>
+    <string name="qs_header_needs_gallery">Anda harus menginstall aplikasi galeri!</string>
+    <string name="qs_header_offset_title">Offset gambar header</string>
+    <string name="qs_header_offset_summary">Sesuaikan ukuran header gambar</string>
     <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Show squiggle animation</string>
-    <string name="show_squiggle_animation_summary">Show media panel squiggle animation\nAfter change need to switch music, pause music or move the progress bar to apply</string>
+    <string name="show_squiggle_animation_title">Tampilkan animasi coretan</string>
+    <string name="show_squiggle_animation_summary">Tampilkan animasi coretan panel media\nSetelah perubahan perlu mengganti musik, menjeda musik, atau memindahkan bilah kemajuan untuk menerapkan</string>
     <!-- System Animation styles -->
-    <string name="system_animation_style_title">System animation style</string>
+    <string name="system_animation_style_title">Gaya animasi sistem</string>
     <string name="pie_system_animation_style">Android P</string>
-    <string name="scale_system_animation_style">Scale</string>
-    <string name="slide_system_animation_style">Slide</string>
+    <string name="scale_system_animation_style">Skala</string>
+    <string name="slide_system_animation_style">Geser</string>
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Data usage info in QS footer -->
@@ -754,20 +754,20 @@
     <string name="notification_row_transparency_summary">Show translucent quicksettings notifications</string>
     <!-- AOD wallpaper -->
     <string name="aod_wallpaper_title">AOD wallpaper</string>
-    <string name="aod_wallpaper_summary">Show wallpaper when aod on</string>
+    <string name="aod_wallpaper_summary">Tampilkan wallpaper saat AOD aktif</string>
     <!-- Power off verify -->
-    <string name="power_off_verify_footer">Power off verification protects your device by preventing others from turning it off immediately after it\'s lost, increasing the chances of recovery. You only need to enter your lock screen password when powering off or restarting the phone from the lock screen.</string>
-    <string name="power_off_verify_summary">When your device is locked, you\'ll need to use your password to power off or restart.</string>
-    <string name="power_off_verify_title">Power off verify</string>
+    <string name="power_off_verify_footer">Verifikasi mati daya melindungi perangkat Anda dengan mencegah orang lain mematikannya segera setelah hilang, sehingga meningkatkan peluang pemulihan. Anda hanya perlu memasukkan kata sandi layar kunci saat mematikan atau memulai ulang ponsel dari layar kunci.</string>
+    <string name="power_off_verify_summary">Saat perangkat Anda terkunci, Anda perlu menggunakan kata sandi untuk mematikan atau memulai ulang perangkat.</string>
+    <string name="power_off_verify_title">Verifikasi saat mematikan daya</string>
     <!-- Island Notification -->
-    <string name="island_notification_now_playing_title">Now playing</string>
-    <string name="island_notification_now_playing_summary">Display currently playing song in Dynamic Island style</string>
-    <string name="island_notification_footer_text">        The Island notification feature, inspired by iOS\'s Dynamic Island, transforms Android\'s heads-up notifications into quick-access and compact notification utility.\n\nIsland Quick Access Controls includes the following features:\n1. Tap island notification to quick answer phone calls.\n2. Long press island notification to reject phone calls.\n3. Long press island notification to expand the island notification preview.
+    <string name="island_notification_now_playing_title">Sedang Diputar</string>
+    <string name="island_notification_now_playing_summary">Tampilkan lagu yang sedang diputar dalam gaya Dynamic Island</string>
+    <string name="island_notification_footer_text">Fitur notifikasi Island, yang terinspirasi dari Dynamic Island iOS, mengubah notifikasi mengambang Android menjadi utilitas notifikasi ringkas dan akses cepat.\n\nKontrol Akses Cepat Island mencakup fitur berikut:\n1. Ketuk notifikasi island untuk menjawab panggilan telepon dengan cepat.\n2. Tekan lama notifikasi island untuk menolak panggilan telepon.\n3. Tekan lama notifikasi island untuk memperluas pratinjau notifikasi island.
     </string>
-    <string name="notifications_island_notification_title">Island notification</string>
-    <string name="notifications_island_notification_summary">Display heads-up notification in Dynamic Island style</string>
-    <string name="island_transparent_background_title">Transparent Island Background</string>
-    <string name="island_transparent_background_summary">Use transparent background for island notifications</string>
-    <string name="island_margin_top_title">Island notifications top margin</string>
-    <string name="island_margin_top_summary">Adjust the top margin of island notification</string>
+    <string name="notifications_island_notification_title">Notifikasi Island</string>
+    <string name="notifications_island_notification_summary">Tampilkan notifikasi mengambang dalam gaya Dynamic Island</string>
+    <string name="island_transparent_background_title">Latar Belakang Island Transparan</string>
+    <string name="island_transparent_background_summary">Gunakan latar belakang transparan untuk notifikasi island</string>
+    <string name="island_margin_top_title">Notifikasi island margin atas</string>
+    <string name="island_margin_top_summary">Sesuaikan margin atas notifikasi island</string>
 </resources>
