@@ -20,6 +20,7 @@
    <string name="oneplus_devices">Oneplus</string>
    <string name="lenovo_devices">Lenovo</string>
    <string name="motorola_devices">Motorola</string>
+   <string name="google_devices">Google</string>   
 
    <!-- Xiaomi Device maintainers -->
    <string name="device_marble">POCO F5 Pro/Redmi Note 12 Pro Turbo</string>
@@ -178,4 +179,10 @@
    <string name="samsung_devices">Samsung</string>
    <string name="device_s10_n10_series">Galaxy S10 / Galaxy N10 Series</string>
    <string name="s10_n10_series_maintainer">FrEeRuNnEr4EvEr</string>
+
+   <!-- Google Device maintainers -->
+   <string name="device_7series">Pixel 7a | Pixel 7 | Pixel 7 Pro</string>
+   <string name="series7_maintainer">Pyrtle93</string>
+   <string name="device_9series">Pixel 9 | Pixel 9 Pro | Pixel 9 Pro XL</string>
+   <string name="series9_maintainer">Pyrtle93</string>
 </resources>
