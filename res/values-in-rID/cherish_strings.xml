@@ -220,19 +220,19 @@
     <string name="location_privacy_indicator_title">Indikator privasi lokasi</string>
     <string name="location_privacy_indicator_summary">Tampilkan indikator terpisah saat aplikasi apa pun menggunakan lokasi</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">Efek riak</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Tampilkan efek riak saat membuka kunci dengan sidik jari</string>
     <!-- Miscellaneous -->
-    <string name="miscellaneous_spoofing_category">Spoofing</string>
+    <string name="miscellaneous_spoofing_category">Pemalsuan</string>
     <!-- Miscellaneous/Spoofing -->
-    <string name="spoofing_title">Component spoofing</string>
-    <string name="spoofing_summary">Bypass app restrictions by spoofing components</string>
-    <string name="spoofing_system_wide_category">System-Wide</string>
+    <string name="spoofing_title">Pemalsuan komponen</string>
+    <string name="spoofing_summary">Lewati batasan aplikasi dengan memalsukan komponen</string>
+    <string name="spoofing_system_wide_category">Seluruh sistem</string>
     <string name="spoofing_pixel_props_title">Pixel props</string>
-    <string name="spoofing_pixel_props_summary">Spoof a select group of Google apps to the latest Pixel device</string>
-    <string name="tensor_spoof_title">Spoof tensor features</string>
-    <string name="tensor_spoof_summary">Unlock tensor/pixel features</string>
-    <string name="gms_spoof_title">Play Integrity fix</string>
+    <string name="spoofing_pixel_props_summary">Lakukan pemalsuan terhadap sejumlah aplikasi Google tertentu agar terlihat seperti aplikasi yang berjalan di perangkat Pixel terbaru</string>
+    <string name="tensor_spoof_title">Pemalsuan fitur tensor</string>
+    <string name="tensor_spoof_summary">Buka fitur tensor/pixel</string>
+    <string name="gms_spoof_title">Perbaikan Integritas Play</string>
     <string name="gms_spoof_summary">Spoof your device to pass Google Play Attestation (not applicable to sandboxed gapps)</string>
     <string name="spoofing_app_specific_category">App-Specific</string>
     <string name="spoofing_qsb_title">Google app</string>
@@ -610,12 +610,12 @@
     <string name="edge_light_repeat_animation_summary_on">Ulangi sampai waktu habis</string>
     <string name="edge_light_repeat_animation_summary_off">Hanya tampilkan sekali</string>
     <string name="edge_light_color_mode_title">Mode warna Cahaya Tepi</string>
-    <string name="edge_light_rainbow_gradient">Rainbow Gradient</string>
+    <string name="edge_light_rainbow_gradient">Gradien pelangi</string>
     <string name="edge_light_style_title">Gaya cahaya tepi</string>
-    <string name="edge_light_stroke_width_title">Edge light stroke width</string>
-    <string name="edge_light_stroke_width_summary">Configure edge light thickness</string>
-    <string name="edge_light_style_1">Draw Line</string>
-    <string name="edge_light_style_2">Blink/Pulse</string>
+    <string name="edge_light_stroke_width_title">Lebar goresan cahaya tepi</string>
+    <string name="edge_light_stroke_width_summary">Konfigurasi ketebalan cahaya tepi</string>
+    <string name="edge_light_style_1">Gambar Garis</string>
+    <string name="edge_light_style_2">Berkedip/Berdenyut</string>
     <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">Ikon berwarna</string>
     <string name="statusbar_colored_icons_summary">Gunakan ikon aplikasi yang tepat untuk ikon notifikasi di bilah status</string>
@@ -634,67 +634,67 @@
     <string name="smart_pixels_shift_title">Perlindungan burn-in</string>
     <string name="smart_pixels_shift_summary">Mencegah burn-in pada perangkat OLED dengan menggeser piksel sesering mungkin</string>
     <!--  screen, setting option summary to change custom timeout -->
-    <string name="custom_timeout_summary_never">Never</string>
-    <string name="custom_timeout_summary_5secs">5 seconds</string>
-    <string name="custom_timeout_summary_10secs">10 seconds</string>
-    <string name="custom_timeout_summary_15secs">15 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_2mins">2 minutes</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_20mins">20 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-    <string name="custom_timeout_summary_1hour">1 hour</string>
-    <string name="custom_timeout_summary_2hours">2 hours</string>
-    <string name="custom_timeout_summary_4hours">4 hours</string>
-    <string name="custom_timeout_summary_8hours">8 hours</string>
+    <string name="custom_timeout_summary_never">Jangan pernah</string>
+    <string name="custom_timeout_summary_5secs">5 detik</string>
+    <string name="custom_timeout_summary_10secs">10 detik</string>
+    <string name="custom_timeout_summary_15secs">15 detik</string>
+    <string name="custom_timeout_summary_30secs">30 detik</string>
+    <string name="custom_timeout_summary_1min">1 menit</string>
+    <string name="custom_timeout_summary_2mins">2 menit</string>
+    <string name="custom_timeout_summary_5mins">5 menit</string>
+    <string name="custom_timeout_summary_10mins">10 menit</string>
+    <string name="custom_timeout_summary_20mins">20 menit</string>
+    <string name="custom_timeout_summary_30mins">30 menit</string>
+    <string name="custom_timeout_summary_1hour">1 jam</string>
+    <string name="custom_timeout_summary_2hours">2 jam</string>
+    <string name="custom_timeout_summary_4hours">4 jam</string>
+    <string name="custom_timeout_summary_8hours">8 jam</string>
     <!-- QS Header Clock Styles -->
-    <string name="qs_header_clock_style_title">QS Header clock style</string>
+    <string name="qs_header_clock_style_title">Gaya jam header Setelan Cepat</string>
     <string name="qs_header_style1">Chip</string>
     <string name="qs_header_style2">Oxygen</string>
     <string name="qs_header_style3">Analog</string>
-    <string name="qs_header_style4">Simple</string>
+    <string name="qs_header_style4">Sederhana</string>
     <!-- Lunar date display strings -->
-    <string name="qs_lunar_date_title">Lunar Date</string>
-    <string name="qs_lunar_date_summary">Show lunar date in QS header</string>
+    <string name="qs_lunar_date_title">Tanggal Lunar</string>
+    <string name="qs_lunar_date_summary">Tampilkan tanggal lunar di header</string>
     <!-- Hide screen capture status -->
-    <string name="hide_screen_capture_status_title">Hide screen capture status</string>
-    <string name="hide_screen_capture_status_summary">Hide screen capture and screen record status from all applications. Can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="hide_screen_capture_status_title">Sembunyikan status tangkapan layar</string>
+    <string name="hide_screen_capture_status_summary">Sembunyikan tangkapan layar dan status perekaman layar dari semua aplikasi. Ini bisa bermanfaat dalam beberapa kasus, tetapi dapat menyebabkan kebocoran privasi.</string>
     <!-- No storage restrict -->
-    <string name="no_storage_restrict_title">No storage restrict</string>
-    <string name="no_storage_restrict_summary">Remove the restriction when selecting folders through Storage Access Framework. Can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="no_storage_restrict_title">Tidak ada batasan penyimpanan</string>
+    <string name="no_storage_restrict_summary">Hapus batasan saat memilih folder melalui Storage Access Framework. Mungkin praktis dalam beberapa kasus, tetapi dapat menyebabkan kebocoran privasi.</string>
     <!-- Unlimit screenrecord filesize -->
-    <string name="miscellaneous_unlimit_screenrecord_title">Unlimit screenrecord</string>
-    <string name="miscellaneous_unlimit_screenrecord_summary">Remove the 15GiB file size limit\nMay result in a larger than needed output file</string>
+    <string name="miscellaneous_unlimit_screenrecord_title">Rekaman layar tanpa batas</string>
+    <string name="miscellaneous_unlimit_screenrecord_summary">Hapus batas ukuran file 15GiB\nMungkin menghasilkan file keluaran yang lebih besar dari yang dibutuhkan</string>
     <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Disable storage encryption status</string>
-    <string name="spoof_storage_encryption_status_summary">Prevent apps from not operating due to unencrypted storage</string>
+    <string name="spoof_storage_encryption_status_title">Nonaktifkan status enkripsi penyimpanan</string>
+    <string name="spoof_storage_encryption_status_summary">Mencegah aplikasi agar tidak berhenti beroperasi karena penyimpanan yang tidak terenkripsi</string>
     <!-- Brightness control -->
-    <string name="status_bar_gestures_category">Gestures</string>
+    <string name="status_bar_gestures_category">Gestur</string>
     <string name="status_bar_brightness_control_title">Kontrol kecerahan</string>
     <string name="status_bar_brightness_control_summary">Sesuaikan kecerahan dengan menggeser di bilah status</string>
     <!-- Carrier name on lockscreen -->
-    <string name="lockscreen_show_carrier_title">Carrier name</string>
-    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
+    <string name="lockscreen_show_carrier_title">Nama operator</string>
+    <string name="lockscreen_show_carrier_summary">Menampilkan nama operator di bilah status</string>
     <!-- Heads up timeout -->
-    <string name="notification_heads_up_title">Heads up</string>
-    <string name="notification_heads_up_summary">Allow pop up notifications</string>
+    <string name="notification_heads_up_title">Notifikasi mengambang</string>
+    <string name="notification_heads_up_summary">Izinkan notifikasi pop up</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Less boring</string>
-    <string name="less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
+    <string name="less_boring_heads_up_title">Kurangi frekuensi</string>
+    <string name="less_boring_heads_up_summary">Tampilkan notifikasi mengambang hanya untuk aplikasi alarm, telepon, dan pesan</string>
     <!-- Heads-up -->
-    <string name="compact_heads_up_notifications_enabled_title">Compact heads-up</string>
-    <string name="compact_heads_up_notifications_enabled_summary">Display notifications in compact size</string>
+    <string name="compact_heads_up_notifications_enabled_title">Notifikasi yang ringkas</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Tampilkan notifikasi dalam ukuran ringkas</string>
     <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_title">Sembunyikan status pengembang</string>
     <string name="hide_developer_status_summary">Sembunyikan status pengembang dari aplikasi</string>
     <!-- Compact QS Media Player-->
     <string name="qs_compact_media_player_mode_title">Pemutar media Setelan Cepat ringkas</string>
     <string name="qs_compact_media_player_mode_summary">Aktifkan mode ringkas untuk pemutar media Setelan Cepat</string>
     <!-- Tiles on secure keyguard -->
     <string name="qs_lock_screen_secure_title">Membutuhkan pembukaan kunci untuk menggunakan ubin setelan cepat</string>
-    <string name="qs_lock_screen_secure_summary">Ask to unlock lockscreen when using qs tiles</string>
+    <string name="qs_lock_screen_secure_summary">Minta izin untuk membuka kunci layar saat menggunakan ubin setelan cepat</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">Bentuk ubin Setelan Cepat</string>
     <string name="qs_tile_shape_dynamic">Dinamis</string>
@@ -753,7 +753,7 @@
     <string name="notification_row_transparency_title">Notification row transparency</string>
     <string name="notification_row_transparency_summary">Show translucent quicksettings notifications</string>
     <!-- AOD wallpaper -->
-    <string name="aod_wallpaper_title">AOD wallpaper</string>
+    <string name="aod_wallpaper_title">Wallpaper AOD</string>
     <string name="aod_wallpaper_summary">Tampilkan wallpaper saat AOD aktif</string>
     <!-- Power off verify -->
     <string name="power_off_verify_footer">Verifikasi mati daya melindungi perangkat Anda dengan mencegah orang lain mematikannya segera setelah hilang, sehingga meningkatkan peluang pemulihan. Anda hanya perlu memasukkan kata sandi layar kunci saat mematikan atau memulai ulang ponsel dari layar kunci.</string>
