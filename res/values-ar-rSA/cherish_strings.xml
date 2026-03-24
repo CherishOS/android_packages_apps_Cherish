@@ -15,7 +15,7 @@
     <string name="cherish_settings_title">إعدادات Cherish</string>
     <!-- Categories -->
     <string name="button_title">أزرار</string>
-    <string name="button_summary">Hardware keys, Navigation bar</string>
+    <string name="button_summary">مفاتيح الجهاز المادّيّة، شريط التنقل</string>
     <string name="gestures_title">Gestures</string>
     <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
     <string name="lockscreen_title">Lock screen</string>
