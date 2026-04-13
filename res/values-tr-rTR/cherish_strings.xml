@@ -761,7 +761,7 @@
     <string name="power_off_verify_title">Kapatma doğrulaması</string>
     <!-- Island Notification -->
     <string name="island_notification_now_playing_title">Şu anda oynatılıyor (Dinamik Ada)</string>
-    <string name="island_notification_now_playing_summary">Display currently playing song in Dynamic Island style</string>
+    <string name="island_notification_now_playing_summary">Şu an çalan şarkıyı Dinamik Ada stilinde göster</string>
     <string name="island_notification_footer_text">        iOS\'un dinamik ada özelliğinden esinlenen ada bildirim özelliği, Android\'in anlık bildirimlerini hızlı erişimli ve kompakt bir bildirim yardımcı programına dönüştürüyor.\n\Ada hızlı erişim kontrolleri aşağıdaki özellikleri içerir:\n1. Telefon aramalarını hızlıca cevaplamak için ada bildirimine dokunun.\n2. Telefon aramalarını reddetmek için ada bildirimine uzun basın.\n3. Ada bildirim önizlemesini genişletmek için ada bildirimine uzun basın.
     </string>
     <string name="notifications_island_notification_title">Dinamik Ada bildirimi</string>
